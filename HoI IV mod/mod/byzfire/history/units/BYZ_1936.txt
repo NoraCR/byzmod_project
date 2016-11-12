@@ -96,7 +96,7 @@ units = {
 	# I Army Corps #
 	division= {			
 		name = "Athens Cement Mixers Local 121"		
-		location = 6732
+		location = 6675
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -104,7 +104,7 @@ units = {
 	}			
 	division= {			
 		name = "Byzantion Teamsters 54"		
-		location = 6732
+		location = 6675
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -113,13 +113,13 @@ units = {
 	# II Army Corps #
 	division= {			
 		name = "1st Foreign Legion"		
-		location = 3878
+		location = 11598
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}			
 	division= {			
 		name = "Bulgarian Retailer Union 45"		
-		location = 3878
+		location = 11598
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -127,7 +127,7 @@ units = {
 	}			
 	division= {			
 		name = "IWM Local 4301"		
-		location = 3878
+		location = 11598
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -136,7 +136,7 @@ units = {
 	# III Army Corps #
 	division= {			
 		name = "IWM Local 4302"		
-		location = 6984
+		location = 6675
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -144,7 +144,7 @@ units = {
 	}			
 	division= {			
 		name = "Thrace Builders Union Local 313"		
-		location = 6984
+		location = 6675
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -173,7 +173,7 @@ units = {
 	# VI Army Corps #
 	division= {			
 		name = "Graduate Student Union 3001"		
-		location = 9450
+		location = 11293
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -181,7 +181,7 @@ units = {
 	}			
 	division= {			
 		name = "Ecclesiastic Union Local 42"		
-		location = 9450
+		location = 923
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -193,7 +193,7 @@ units = {
 	# IV Army Corps #
 	division = {			
 		name = "Ankara Wholesalers Local 413"		
-		location = 12384
+		location = 6600
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -201,7 +201,7 @@ units = {
 	}			
 	division= {			
 		name = "Shipwrights Association Local 21"		
-		location = 12384
+		location = 6600
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -210,7 +210,7 @@ units = {
 	# VIII Army Corps #
 	division= {			
 		name = "2nd Foreign Legion"		
-		location = 12782
+		location = 3773
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -218,7 +218,7 @@ units = {
 	}
 	division= {			
 		name = "3rd Foreign Legion"		
-		location = 12782
+		location = 3773
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -226,7 +226,7 @@ units = {
 	}	
 	division= {			
 		name = "4th Foreign Legion"		
-		location = 12782
+		location = 3780
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -234,7 +234,7 @@ units = {
 	}	
 	division= {			
 		name = "IWM Local 113"		
-		location = 12782
+		location = 3773
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -242,7 +242,7 @@ units = {
 	}			
 	division= {			
 		name = "IWM Local 114"		
-		location = 12782
+		location = 3773
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -250,19 +250,19 @@ units = {
 	}			
 	division= {			
 		name = "First Treaty Army Cataphracts"		
-		location = 12782
+		location = 3773
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
 	}
 	division= {			
 		name = "Second Treaty Army Cataphracts"		
-		location = 12782
+		location = 3773
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
 	}
 	division= {			
 		name = "Third Treaty Army Cataphracts"		
-		location = 12782
+		location = 3780
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
 	}
@@ -271,7 +271,7 @@ units = {
 	# VII Army Corps (CO: Bishop) #
 	division= {			
 		name = "Anatolian Farmers Combine 101"		
-		location = 12586
+		location = 9548
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -279,7 +279,7 @@ units = {
 	}			
 	division= {			
 		name = "Anatolian Farmers Combine 102"		
-		location = 12586
+		location = 9548
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -288,13 +288,13 @@ units = {
 	# IX Army Corps (CO: DeWitt) #
 	division= {			
 		name = "First Treaty Army Infantry"		
-		location = 9671
+		location = 9548
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}			
 	division = {			
 		name = "Agricultural Workers Local 313"		
-		location = 9671
+		location = 9548
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -302,7 +302,7 @@ units = {
 	}			
 	division= {			
 		name = "Amalgamated Union of Philosophers, Sages, Luminaries and Other Professional Thinking Persons"		
-		location = 9671
+		location = 9548
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -310,11 +310,11 @@ units = {
 	}			
 					
 
-	####### Pacific Theater	#######
-	### Alaska Defense Command ###
+	####### NOT ALASKA	#######
+	### STAY OUT OF ALASKA ###
 	division = {			
 		name = "Second Treaty Army Infantry"		
-		location = 13091
+		location = 9548
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.15
@@ -322,7 +322,7 @@ units = {
 	}			
 	division = {			
 		name = "Third Treaty Army Infantry"		
-		location = 13091
+		location = 9548
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.15
@@ -334,8 +334,8 @@ units = {
 	##### NAVAL UNITS #####
 	navy = {					
 		name = "Ostia Home Fleet"				
-		base = 1562
-		location = 1562 # San Diego
+		base = 923
+		location = 923 # Ostia
 		ship = { name = "RNS Monte Rosa" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Olympus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Smolikas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
@@ -390,32 +390,32 @@ units = {
 	
 	navy = {					
 		name = "Battleship Division 1"				
-		base = 1562
-		location = 1562 # San Diego
+		base = 923
+		location = 923 # Ostia
 		ship = { name = "RNS Drymonakos" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Cavinato" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Milenov" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 	}					
 	navy = {					
 		name = "Battleship Division 2"				
-		base = 1562
-		location = 1562 # San Diego
+		base = 923
+		location = 923 # Ostia
 		ship = { name = "RNS Gracchus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Krakatoa" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Vesuvius" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 	}					
 	navy = {					
 		name = "Battleship Division 4"				
-		base = 1562
-		location = 1562 # San Diego
+		base = 923
+		location = 923 # Ostia
 		ship = { name = "RNS Matterhorn" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Monte Rosa" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Corno Grande" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 	}				
 	navy = {					
 		name = "Carrier Division"				
-		base = 1562
-		location = 1562 # San Diego
+		base = 923
+		location = 923 # Ostia
 		ship = { name = "RNS Hyacinth" definition = carrier equipment = { carrier_1 = { amount = 1 owner = BYZ } } 
 			air_wings = {
 				cv_fighter_equipment_0 =  { owner = "BYZ" amount = 8 } # historical: 16
@@ -433,16 +433,16 @@ units = {
 	}					
 	navy = {					
 		name = "Cruiser Division 3"				
-		base = 1562
-		location = 1562 # San Diego
+		base = 923
+		location = 923 # Ostia
 		ship = { name = "RNS Athens" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Ankara" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Florence" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }				
 	}					
 	navy = {					
 		name = "Cruiser Division 4"				
-		base = 1562
-		location = 1562 # San Diego
+		base = 923
+		location = 923 # Ostia
 		ship = { name = "RNS Hypatia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Thucydides" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Pythagoras" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ } } }				
@@ -450,8 +450,8 @@ units = {
 	}					
 	navy = {					
 		name = "Cruiser Division 5"				
-		base = 1562
-		location = 1562 # San Diego
+		base = 923
+		location = 923 # Ostia
 		ship = { name = "RNS Socrates" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Aristotle" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Plato" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ } } }					
@@ -459,8 +459,8 @@ units = {
 	}					
 	navy = {					
 		name = "Cruiser Division 6"				
-		base = 1562
-		location = 1562 # San Diego
+		base = 923
+		location = 923 # Ostia
 		ship = { name = "RNS Pericles" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
 		ship = { name = "RNS Antisthenes" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
 		ship = { name = "RNS Cleisthenes" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
@@ -468,8 +468,8 @@ units = {
 	}					
 	navy = {					
 		name = "Destroyer Flotilla  1"				
-		base = 1562
-		location = 1562 # San Diego
+		base = 923
+		location = 923 # Ostia
 		ship = { name = "RNS Sofia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		# 1st Destroyer Division				
 		ship = { name = "RNS Argosy" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
@@ -495,8 +495,8 @@ units = {
 	}				
 	navy = {					
 		name = "Destroyer Flotilla  5"				
-		base = 1562
-		location = 1562 # San Diego
+		base = 923
+		location = 923 # Ostia
 		ship = { name = "RNS Thessalonika" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		# 15th Destroyer Division				
 		ship = { name = "RNS Kalonimos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
@@ -522,8 +522,8 @@ units = {
 	}					
 	navy = {					
 		name = "4th Submarine Squadron"				
-		base = 1562
-		location = 1562 # San Diego
+		base = 923
+		location = 923 # Ostia
 		# 41st Submarine Division				
 		ship = { name = "RNS Durandal" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Cortana" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
@@ -545,8 +545,8 @@ units = {
 	}					
 	navy = {					
 		name = "6th Submarine Squadron"				
-		base = 1562
-		location = 1562 # San Diego
+		base = 923
+		location = 923 # Ostia
 		# 61st Submarine Division				
 		ship = { name = "RNS Kusanagi No Tsurugi" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Sword of Damocles" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
@@ -564,11 +564,11 @@ units = {
 		ship = { name = "RNS Ashbringer" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } } # ha ha
 	}					
 
-	### ASIATIC FLEET -- Manilla, PHI
+	### ASIATIC FLEET -- Gibraltar, PHI
 	navy = {					
 		name = "Asiatic Fleet"				
-		base = 10265
-		location = 10265 # Manilla
+		base = 4135
+		location = 4135 # Gibraltar
 		ship = { name = "RNS Kubrat" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Phangoria" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }
 		# 23rd Destroyer Division				
@@ -590,8 +590,8 @@ units = {
 	}					
 	navy = {					
 		name = "2nd Submarine Squadron"				
-		base = 10265
-		location = 10265 # Manilla
+		base = 4135
+		location = 4135 # Gibraltar
 		# 21st Submarine Division				
 		ship = { name = "RNS Tizona" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Asi" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
@@ -608,11 +608,11 @@ units = {
 		ship = { name = "RNS Almace" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 	}					
 
-	### ATLANTIC FLEET -- Norfolk
+	### ATLANTIC FLEET -- Gibraltar
 	navy = {					
 		name = "Battleship Division 3"				
-		base = 788
-		location = 788 # Norfolk
+		base = 4135
+		location = 4135 # Gibraltar
 		ship = { name = "RNS Athos" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Etna" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Helicon" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
@@ -621,8 +621,8 @@ units = {
 	}					
 	navy = {					
 		name = "Battleship Division 5"				
-		base = 788
-		location = 788 # Norfolk
+		base = 4135
+		location = 4135 # Gibraltar
 		ship = { name = "RNS Byzantion" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Thrace" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Trebizond" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ } } }
@@ -632,8 +632,8 @@ units = {
 	}					
 	navy = {					
 		name = "Cruiser Division 2"				
-		base = 788
-		location = 788 # Norfolk
+		base = 4135
+		location = 4135 # Gibraltar
 		ship = { name = "RNS Venice" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Sparta" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Ferrara" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }				
@@ -645,15 +645,15 @@ units = {
 	}					
 	navy = {					
 		name = "Cruiser Division 7"				
-		base = 788
-		location = 788 # Norfolk
+		base = 4135
+		location = 4135 # Gibraltar
 		ship = { name = "RNS Radziwill" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Agamemnon" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
 	}					
 	navy = {					
 		name = "RNS Karl Marx"				
-		base = 788
-		location = 788 # Norfolk
+		base = 4135
+		location = 4135 # Gibraltar
 		ship = { name = "RNS Karl Marx" definition = carrier equipment = { carrier_2 = { amount = 1 owner = BYZ } } 
 			air_wings = {
 				cv_fighter_equipment_0 =  { owner = "BYZ" amount = 8 } # historical: 36
@@ -664,8 +664,8 @@ units = {
 	}
 	navy = {					
 		name = "RNS Juno Koca"				
-		base = 788
-		location = 788 # Norfolk
+		base = 4135
+		location = 4135 # Gibraltar
 		ship = { name = "RNS Karl Marx" definition = carrier equipment = { carrier_2 = { amount = 1 owner = BYZ } } 
 			air_wings = {
 				cv_fighter_equipment_0 =  { owner = "BYZ" amount = 8 } # historical: 36
@@ -676,8 +676,8 @@ units = {
 	}		
 	navy = {					
 		name = "Destroyer Flotilla  3"				
-		base = 788
-		location = 788 # Norfolk
+		base = 4135
+		location = 4135 # Gibraltar
 		# 13th Destroyer Division				
 		ship = { name = "RNS Gumulcineli" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
 		ship = { name = "RNS Sharif" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
@@ -719,8 +719,8 @@ units = {
 	}					
 	navy = {					
 		name = "Destroyer Flotilla  4"				
-		base = 788
-		location = 788 # Norfolk
+		base = 4135
+		location = 4135 # Gibraltar
 		# 3rd Destroyer Division				
 		ship = { name = "RNS Bayram" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
 		ship = { name = "RNS Civan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
@@ -746,8 +746,8 @@ units = {
 	}					
 	navy = {					
 		name = "Destroyer Flotilla  6"				
-		base = 788
-		location = 788 # Norfolk
+		base = 4135
+		location = 4135 # Gibraltar
 		# 36th Destroyer Division			
 		ship = { name = "RNS Anfora" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
 		ship = { name = "RNS Caraga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
@@ -762,8 +762,8 @@ units = {
 	}					
 	navy = {					
 		name = "1st Submarine Squadron"				
-		base = 788
-		location = 788 # Norfolk
+		base = 4135
+		location = 4135 # Gibraltar
 		# 11th Submarine Division			
 		ship = { name = "RNS Claiomh Solais" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Crocea Mors" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
@@ -783,8 +783,8 @@ units = {
 	}					
 	navy = {					
 		name = "3rd Submarine Squadron"				
-		base = 788
-		location = 788 # Norfolk
+		base = 4135
+		location = 4135 # Gibraltar
 		# 31st Submarine Division			
 		ship = { name = "RNS Ridill" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Skofnung" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
@@ -801,8 +801,8 @@ units = {
 	}					
 	navy = {					
 		name = "5th Submarine Squadron"				
-		base = 788
-		location = 788 # Norfolk
+		base = 4135
+		location = 4135 # Gibraltar
 		# 51st Submarine Division			
 		ship = { name = "RNS Brionac" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Spear of Achilles" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
@@ -841,7 +841,7 @@ units = {
 }
 		
 air_wings = {
-	### 1 BYZAF Wing -- Los Angeles
+	### 1 BYZAF Wing -- Tuscany
 	378 = {
 		# 7th Bombardment Group 
 		# 19th Bombardment Group 
@@ -931,7 +931,7 @@ air_wings = {
 			amount = 36
 		}
 	}
-	### USN Pacific Naval Patrol Division -- San Diego
+	### USN Pacific Naval Patrol Division -- Ostia
 	378 = { 
 		# Naval Patrol Wing 1 
 		# Naval Patrol Wing 2 
