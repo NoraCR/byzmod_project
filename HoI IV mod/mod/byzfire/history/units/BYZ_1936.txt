@@ -156,7 +156,7 @@ units = {
 	# V Army Corps #
 	division= {			
 		name = "IWM Local 324"		
-		location = 6855
+		location = 9833
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -164,7 +164,7 @@ units = {
 	}			
 	division= {			
 		name = "IWM Local 325"		
-		location = 6855
+		location = 9833
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
