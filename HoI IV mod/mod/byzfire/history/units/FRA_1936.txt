@@ -1005,6 +1005,13 @@ air_wings = {
 			owner = "FRA" 
 			amount = 96
 		}
+		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
+			modifier="fighter_genius"
+			name="Jacques"
+			surname="Courbet"
+			callsign="Quint"
+			portrait=1 # Pick random index here, or make special GFX_FRA_ace_Jacques_Courbet to override.
+		}
 	}
 
 	# Z.d'Op. Aériennes du Alps -- Marseille
