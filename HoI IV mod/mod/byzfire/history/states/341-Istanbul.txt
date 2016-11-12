@@ -1,0 +1,34 @@
+state= {
+	id=341
+	name="STATE_341"
+	manpower = 9824296
+	resources={
+		chromium=84
+		steel = 20
+	}
+	
+	state_category = megalopolis
+
+	history= {
+		owner = BYZ
+		victory_points = {
+			9833 50
+		}
+		buildings = {
+			infrastructure = 9
+			arms_factory = 3
+			industrial_complex = 4
+			dockyard = 1
+			anti_air_building = 5
+			radar_station = 1
+			air_base = 10
+			9833 = {
+				naval_base = 10
+			}
+		}
+		add_core_of = BYZ
+	}
+	provinces=
+	{
+849 922 3879 3893 6895 9833 11829 11842 	}
+}

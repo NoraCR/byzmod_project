@@ -1,0 +1,743 @@
+﻿division_template = {
+	name = "Regular Infantry" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
+									# 1 engineering regiment, 1 recon regiment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Guardian" 	# Independent Mixed Brigade: 5 infantry battalions (4k men total), 1 field artillery basttalion - abstracted into infantry,
+										# 1 engineering battalion
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		light_armor = { x= 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Cavalry" 			# Cavalry Division - 2 Cavalry Division regiments (3k men); 1 mounted artillery regiment
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Motorized Infantry" 			# Motorized divisions - 4 motorized infantry regiments (3k men each), 1 recon regiment, 
+										#1 engineer regiment, 1 mounted artillery regiment
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Sea Guard"				#This template covers SNLF divisions; historically there were roughly 5 total, with 1 being paratroopers
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}	
+	priority = 2
+}
+division_template = {
+	name = "Home Guard" 			# Garrison template - represents Imperial Manchukuo Army infantry divisions: 2 infantry regiments (3k men) -- militia (lowest equipment, experience)
+										# Also represents (over-sized) IJN Base Defense Unit (island, city and naval base garrisons): 2 infantry rgts (3k men), 1 field artillery rgt (abstracted), 1 engineering rgt
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+
+##### OOB #####
+units = {
+
+	#Kita Homengun - North HDAan Army
+	division = {
+		name = "1st 'Seahawks' Division"
+		location = 12421 #Asahigawa
+		division_template = "Regular Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "1st Home Guard"
+		location = 9859 #Ominato Naval Base
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+		
+	}
+	division = {
+		name = "2nd Home Guard"
+		location = 1399 #Shumshu
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3	
+	}
+	division = {
+		name = "1st Guardians"
+		location = 12446 #Toyohara
+		division_template = "Guardian"
+		start_experience_factor = 0.3
+	}
+
+	#Chuo Homengun - East HDAan Army
+	division = {
+		name = "2nd 'Ravens' Divison"
+		location = 7087 #Shizuoka
+		division_template = "Regular Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "1st Rapid Response Division"
+		location = 1182 #Tokyo
+		division_template = "Motorized Infantry"			# Elite Guard unit (highest experience, best equipment)
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "3rd Home Guard"
+		location = 7072 #Osaka
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3	
+	}
+	division = {
+		name = "1st 'Sharks' Sea Guard"
+		location = 9998 #Yokosuka
+		division_template = "Sea Guard"
+		start_experience_factor = 0.3
+	}
+
+	#Roppou Homengun - West HDAan Army
+	division = {
+		name = "3rd 'Bears' Divsion"
+		location = 9950 #Nagasaki
+		division_template = "Regular Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4th Home Guard"
+		location = 1092 #Hiroshima
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+		
+	}
+	division = {
+		name = "5th Home Guard"
+		location = 9950 #Sasebo/Nagasaki
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+
+
+	### Island IJN Garrisons ###
+
+	division = {
+		name = "6th Home Guard"
+		location = 11932 #Naha
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3	
+	}
+
+
+	#1 Konkyochi Ichigun
+	division = {
+		name = "7th Home Guard"
+		location = 3995 #Saipan
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "8th Home Guard"
+		location = 13025 #Iwo Jima
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "9th Home Guard"
+		location = 13026 #Marcus Island
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3	
+	}
+
+	#2 Konkyochi Ichigun
+	division = {
+		name = "10th Home Guard"
+		location = 13028 #Yap
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "11th Home Guard"
+		location = 4357 #Palau
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "12th Home Guard"
+		location = 2489 #Truk
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "13th Home Guard"
+		location = 13035 #Satawan
+
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+		
+	}
+	division = {
+		name = "14th Home Guard"
+		location = 13029 #Ulithi
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+
+	#3 Konkyochi Ichigun
+	division = {
+		name = "15th Home Guard"
+		location = 13041 #Kwajalein
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "16th Home Guard"
+		location = 13046 #Eniwetok
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "17th Home Guard"
+		location = 13036 #Ponape
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "18th Home Guard"
+		location = 13040 #Mili
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "19th Home Guard"
+		location = 13043 #Maleolap
+		division_template = "Home Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+		
+	}
+
+
+### IJN ###
+#Taiwan (Goaxing)
+	navy = {
+		name = "First Fleet" #Later assigned for the Chinenese theater
+		base = 12068
+		location = 12068
+		#Dai 10 Sentai
+		ship = { name = "HDA Guud" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Kung K'iisk'w" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA} } }
+		#Dai 11 Sentai, Momi-class destroyers
+		#Dai 25 Kuchikutai
+		ship = { name = "HDA Kun" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Kuunangaay" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Stl'aan-guusd" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		#Dai 26 Kuchikutai
+		ship = { name = "HDA Gyuuwyla" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Gugaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Kwaan" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Tlaajuu" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		#Dai 27 Kuchikutai
+		ship = { name = "HDA Inang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Sk'adgaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Gudul" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		#Former Dai 28 Kuchikutai
+		ship = { name = "HDA T'alg" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Ya'aang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Ananiyaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		#Other Momi-Class destroyers
+		ship = { name = "HDA T'amjuu" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Xants'iya" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Gawtlaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Gyuuts'iya" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Ak'aayaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA K'ad" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+	}
+
+	navy = {
+		name = "Second Fleet" #A part of "Dai 3 Kantai"
+		base = 12068
+		location = 12068
+		#Flagship
+		ship = { name = "HDA Tliisdluwaan" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		##Dai 13 Kuchikutai
+		ship = { name = "HDA Tlat'as" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Kunst'a" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Saasd" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		##Dai 16 Kuchikutai
+		ship = { name = "HDA Akyaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Ansaad" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }		
+		ship = { name = "HDA Dlaajaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }		
+	}
+	navy = {
+		name = "First Destroyer Flotilla"
+		base = 12068
+		location = 12068	
+		#Dai 4 Kuchikutai
+		ship = { name = "HDA Guduu" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Xil Sgunulaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Gudang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Sk'adgaaw" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+	}
+
+#Yokosuka (Tokyo)
+	navy = {
+		name = "Third Fleet"
+		base = 9998
+		location = 9998  #Yokosuka
+		#Dai 1 Sentai
+		ship = { name = "HDA Xil Naay" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA  } } }
+		ship = { name = "HDA Gaawnaangw" definition = battleship equipment = { battleship_2 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Tla T'ajaaw" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Ts'at'alang" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA} } }
+		#Dai 8 Sentai
+		ship = { name = "HDA Ts'iig" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Gaalagaay" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Saandlaan" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA} } }
+	}
+	
+	navy = {
+		name = "Fourth Fleet" #A part of "Dai 1 Kantai"
+		base = 9998
+		location = 9998  #Yokosuka
+		#Flagship
+		ship = { name = "HDA Hlan-gwaay" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA} } }
+		#Dai 9 Kuchikutai
+		ship = { name = "HDA Tlaats'gaada" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA K'adangeehl" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		#Dai 21 Kuchikutai
+		ship = { name = "HDA Guglaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Dluu" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "HDA In-gwii" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }		
+		ship = { name = "HDA Jiingaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		#Dai 30 Kuchikutai
+		ship = { name = "HDA Xangala" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Kusadang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Hlgwaagaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Kigaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+	}
+
+	navy = {
+		name = "First Submarines" # A part of "Dai 1 Kantai"
+
+		base = 9998
+		location = 9998  #Yokosuka
+		#Kaidai-class Submarines
+		ship = { name = "HDA Chaan-1" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Chaan-2" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Chaan-3" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Chaan-4" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Chaan-5" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Chaan-6" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Chaan-7" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Chaan-8" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Chaan-9" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Chaan-10" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Chaan-11" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Chaan-12" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Chaan-13" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Chaan-14" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Chaan-15" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Chaan-16" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Chaan-17" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Chaan-18" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Chaan-19" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Chaan-20" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Chaan-21" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+	}
+
+	navy = {
+		name = "Fifth Fleet" # A part of "Dai 1 Kantai"
+		base = 9998
+		location = 9998  #Yokosuka
+		ship = { name = "HDA Xaadas" definition = carrier equipment = { carrier_1 = {amount = 1 owner = HDA} } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "HDA" amount = 18 } # historical 24
+				cv_CAS_equipment_1 = { owner = "HDA" amount = 12 } 	# historical 12
+
+			}
+		}
+		#Dai 5 Kuchikutai
+		ship = { name = "HDA Hlangaan" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Ja'aang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Xyaang'awaay" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Yaanangaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+	}
+	navy = {
+		name = "Reserve Fleet" # Patrol and reserve fleet, including ships under modernization
+		base = 9998
+		location = 9998  #Yokosuka
+		ship = { name = "HDA Kit'uu" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA  } } }
+		ship = { name = "HDA Hlgu" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Iinaang" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Guyydaan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Sk'ag" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Ts'aanuu" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		# Dai 3 Kuchikutai
+		ship = { name = "HDA Tla Giihldiyaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Tlaawhlgaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Ya'a" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Ak'aanaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		# Dai 10 Kuchikutai
+		ship = { name = "HDA Jaadaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "HDA Guul Xaw" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }		
+	}
+	
+#Sasebo (Nagasaki)
+	navy = {	
+		name = "2 Kantai"
+		base = 9950
+		location = 9950  #Sasebo
+		#Dai 5 Sentai
+		ship = { name = "Haguro" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "Nachi" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Myoko" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Atago" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
+		#Dai 7 Sentai
+		ship = { name = "Aoba" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Kinugasa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA} } }
+		# Dai 2 Koku Sentai
+		ship = { name = "Kaga" definition = carrier equipment = { carrier_1 = {amount = 1 owner = HDA } } 			
+
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "HDA" amount = 12 } # historical 16
+				cv_CAS_equipment_1 = { owner = "HDA" amount = 12 } # historical 16
+				cv_nav_bomber_equipment_1 =  { owner = "HDA" amount = 21 } # historical 28
+			}
+		}
+	}
+	navy = {	
+		name = "Sixth Fleet" #A part of "Dai 2 Kantai"
+		base = 9950
+		location = 9950  #Sasebo
+		#Flagship
+		ship = { name = "HDA K'adaan" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		#Dai 6 Kuchikutai, Type III Fubuki-class destroyers
+		ship = { name = "HDA Gayuwa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Ts'ang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }		
+		ship = { name = "HDA Saan Hlgats'a" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "HDA Dla Kida" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }		
+		#Dai 8 Kuchikutai
+		ship = { name = "HDA Tlaasal" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }			
+		ship = { name = "HDA Duungaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }	
+		#Dai 19 Kuchikutai
+		ship = { name = "HDA K'iina" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "HDA Xangahl" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "HDA K'ats'gahl" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		#Dai 20 Kuchikutai
+		ship = { name = "HDA Ga'a" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }		
+		ship = { name = "HDA Kin-gahl" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Da Tleed" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		#Dai 28 Kuchikutai
+		ship = { name = "HDA Sgaalgaada" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Sgal" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+	}
+	navy = {	
+		name = "Second Submarines" #A part of "Dai 2 Kantai"
+		base = 9950
+		location = 9950  #Sasebo
+		#Flagship
+		ship = { name = "Kinu" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }	
+		#Junsen-class Submarines
+		ship = { name = "HDA Chaan-32" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "HDA Chaan-33" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "HDA Chaan-35" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "HDA Chaan-35" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "HDA Chaan-36" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "HDA Chaan-37" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }	
+	}
+
+	navy = {
+		name = "Patrol Fleet" # Patrol and reserve fleet, including ships under modernization
+		base = 9950
+		location = 9950  #Sasebo
+
+		ship = { name = "HDA K'a K'ay" definition = battleship equipment = { battleship_2 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Chat'iisk'w" definition = battleship equipment = { battleship_2 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Sdlagws Xaat'aay" definition = carrier equipment = { carrier_1 = {amount = 1 owner = HDA } } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "HDA" amount = 9 } 	# historical 12
+				cv_CAS_equipment_1 = { owner = "HDA" amount = 12 } 			# historical 18
+				cv_nav_bomber_equipment_1 =  { owner = "HDA" amount = 24 } 	# historical 36
+			}
+		}	
+		ship = { name = "HDA Gudgwa'laanaa" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Gudgwaa Tl'aas Xaat'aay" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA K'ul" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Xiinaang" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA} } }
+		#Dai 22 Kuchikutai
+		ship = { name = "HDA Waanuwaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Waahlaaw" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA K'iidatl'aa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA K'iigaang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		# Dai 23 Kuchikutai 
+		ship = { name = "HDA T'amjuu" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Jaaluudgaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Damdga" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Gaawaan" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+	}
+	
+#Hiroshima (Kure)
+
+	navy = {
+		name = "Third Reserve Fleet" # Patrol and reserve fleet, including ships under modernization
+		base = 1092
+		location = 1092  # Hiroshima
+		ship = { name = "HDA Kihlaaw" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA } } }		
+		ship = { name = "HDA Hlgiid" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA K'aad" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Tak'aal" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Kiid" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Waahuu K'ust'anaay" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Chaan Tangaay" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Xayaa" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "HDA Salg" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } } # at Maizuru
+		# Dai 11 Kuchikutai
+		ship = { name = "HDA Gingaan" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA Dliyaang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		# Dai 12 Kuchikutai
+		ship = { name = "HDA Sajuu" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }		
+		ship = { name = "HDA Xatl'iid" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "HDA Kang Xawlda" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		# Dai 7 Kuchikutai
+		ship = { name = "HDA Xadala" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "HDA Hlgahluu Kaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "HDA Gat'uwaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "HDA 'Yaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+	}
+
+
+
+
+#AIRCRAFT
+air_wings = {
+	### IJA Air Forces ###
+	# 1 Hikodan -- Tokyo
+	282 = { 
+		# 1 Hiko Rentai -- Kawasaki Ki-10
+		fighter_equipment_0 = {
+			owner = "HDA" 
+			amount = 72
+		}
+		# 16 Hiko Rentai -- Kawasaki Ki-10
+		fighter_equipment_0 = {
+			owner = "HDA" 
+			amount = 72
+		}
+		# 6 Hiko Rentai -- Mitsubishi Ki-2
+		CAS_equipment_1 =  {
+			owner = "HDA" 
+			amount = 54
+		}
+		# 9 Hiko Rentai -- Mitsubishi Ki-1
+		tac_bomber_equipment_0 =  {
+			owner = "HDA" 
+			amount = 54
+		}
+	}
+
+	# 2 Hikodan -- Dalian
+	716 = {
+		# 3 Hiko Rentai -- Kawasaki Ki-10
+		fighter_equipment_0 = {
+			owner = "HDA" 
+			amount = 72
+		}
+		# 5 Hiko Rentai -- Kawasaki Ki-3
+		CAS_equipment_1 =  {
+			owner = "HDA" 
+			amount = 54
+		}
+	}
+
+	# 3 Hikodan -- Taiwan
+	524 = {
+		# 10 Hiko Rentai -- Kawasaki Ki-3
+		CAS_equipment_1 =  {
+			owner = "HDA" 
+			amount = 54
+		}
+
+	}
+
+	### IJN Air Forces ###
+	# 1 Rengo Kokutai -- Taiwan
+	524 = {
+		# Kizarazu Kokutai -- Aichi D1A2
+		cv_CAS_equipment_1 = {
+			owner = "HDA" 
+			amount = 60
+		}
+		# Kanoya Kokutai -- Aichi D1A2
+		cv_CAS_equipment_1 = {
+			owner = "HDA" 
+			amount = 60
+		}
+	}
+
+	# 2 Rengo Kokutai -- Taiwan
+	524 = {
+		# 12 Kokutai -- Nakajima A4N1
+		cv_fighter_equipment_0 = {
+			owner = "HDA" 
+			amount = 72
+		}
+		# 13 Kokutai -- Mitsubishi B2M2
+		cv_nav_bomber_equipment_1 = {
+			owner = "HDA" 
+			amount = 48
+		}
+	}
+
+	### Akagi CAG -- Hiroshima (while Akagi is refit)
+	529 = { 
+		cv_fighter_equipment_0 =  {
+			owner = "HDA" 
+			amount = 12
+		}
+		cv_CAS_equipment_1 = {
+			owner = "HDA" 
+			amount = 9
+		}
+		cv_nav_bomber_equipment_1 =  {
+			owner = "HDA" 
+			amount = 9
+		}
+
+	}
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = 
+{
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "HDA"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "HDA" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "HDA" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "HDA" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = cv_nav_bomber_equipment_1
+			creator = "HDA" 
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+
+		
+}

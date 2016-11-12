@@ -1,0 +1,62 @@
+﻿HDA = {
+	submarine = {
+		prefix = "HDA"
+		generic = { "Chaan Sgaanuwaay" }
+		unique = {
+			#WIKI: Post S-boat, in order by hull designation, up to nuclear powered (excluding doubles)
+			"Chaan-432" "Chaan-111" "Chaan-152" "Chaan-435" "Chaan-325" "Chaan-632" "Chaan-413" "Chaan-616" "Chaan-666" "Chaan-213" "Chaan-741" "Chaan-829" "Chaan-321" "Chaan-321" "Chaan-214" "Chaan-612" "Chaan-116" "Chaan-476" "Chaan-617" "Chaan-738" "Chaan-532" "Chaan-888" "Chaan-819" "Chaan-323" "Chaan-420" "Chaan-313" "Chaan-572" "Chaan-365" "Chaan-575" "Chaan-413A" "Chaan-413B" "Chaan-4" "Chaan-432" "Chaan-1" "Chaan-2" "Chaan-3" "Chaan-421" "Chaan-631" "Chaan-573" "Chaan-2152" "Chaan-3727" "Chaan-5737" "Chaan-5838" "Chaan-6737" "Chaan-7572" "Chaan-5732" "Chaan-5737" "Chaan-5737" "Chaan-3725" "Chaan-7673" "Chaan-8573" "Chaan-5737" "Chaan-548d"
+		}
+	}	
+	destroyer = {
+		prefix = "HDA"
+		generic = {
+			"Destroyer"
+		}
+		unique = { 
+			# descriptive terms (first few don't match but oh well)
+			"Kyaa Xigwaay" "Ts'ang Xaldaangaa" "Ts'ansal" "Saahlaang K'aahlandaas" "Sajuu" "Tl'aaj"
+			"Kwaagad" "Sgwaanang" "Yahk'iyaa" "Tlaats'gaa" "Kina" "Sgaalgaada" "Asaa" "Naa Gut'aang" "Xangahl" "K'anggwdang" "Xangahl" "Kwaagad" "Xangala" "Yahk'iyaa" "Sgidahlda" "Yahgwdang" "Yaangghwhlaan" "Yahk'iyaa" "Ya'a" "Yaanangaa" "Sguluwaa" "Ganaa" "Gawtlaa" "Ak'aanaa" "Hlgugiigaa" "Saasd" "K'adsd" "Gulgaa" "Guul" "Kil Guu" "Kya'a" "Gawtlaa" "Iitl'gaay" "K'udaan" "In-gwii" "Sajuu" "Waatl'an" "Dlaaya" "Saalaa Gudgang" "Hlangaa" "Xangahl" "Paaysan" "Hltana" "Gudang" "Ts'uudala" "Hldan Gut'a" "Gwaahlaang" "Yahda" "Yaangk'yaan" "Sdang" "Ya'a" "Sgats'a" "Gagiid" "K'alaagaa" "K'adangaa" "Gulga" "Hat'an Inaa" "Xiinangaa" "Saahlaangaan" "Gii" "Gu Sgaanuwaa" "Tladluu Gin-gaay" "Tlaagw" "Gyuuwula" "Guu" "Sgaanuwaa"
+			}
+		}
+	light_cruiser = {
+		prefix = "HDA"
+		generic = { "Light Cruiser" }
+		unique = {
+			#abstract (or very general) nouns ("power" for example)
+			"Sgaanuug" "Saa Sangaang" "Yahk'ii" "K'aangalang" "Xanjang" "Tang'waan" "Yaanaay Ka'an" "Xyaang'awaay" "K'alaangad" "Ts'uuwii" "Gaal Yahgw" "Xanjaangw" "Skii" "Tlat'a'aaw" "K'iigaang" "Ki'ii" "Hlats'ux" "Sahgwii" "Chaansii" "Xanj'Laas" "Aayaad" "Adaahl" "Yahk'ii" "Sangg" "Tadaa" "St'aw" "Hlan-gwaay" "T'aahldaan" "Gayd" "Dagwiigaay"
+			
+			}
+	}
+	heavy_cruiser = {
+		prefix = "HDA"
+		generic = { "Heavy Cruiser" }
+		unique = { 
+		#animals
+			"K'aad" "Sgaan" "Sgyaamsuu" "Yaahl" "Taan" "Nagats'ii" "Kun" "K'agw" "Duus"
+			}
+	}
+	battle_cruiser = {
+		prefix = "HDA"
+		generic = { "Battle Cruiser" }
+		unique = {
+			# haida traditional culture
+			"Gyaa Isaaw" "Gidaag" "Ga Hlk'ujaaw" "Sgil" "Gyaa'angaa" "Tluwaa" "Xyaalaa" "Xang" "Gyaat'aad" "Xyaahl Gin-gaay" "Kul" "Sakiid" "Xyaahl" "Dajaangaa" "Guuj" "Ku" "Kult'gwaang" "Ts'ang" "Xudgun"
+			}
+	}
+	battleship = {
+		prefix = "HDA"
+		generic = { "Battleship" }
+		unique = {
+			#haida innovations
+			"Sgi Skaajaaw" "Niijangaay" "Kaa" "Gyaahlaang Sgagads" "K'aas Gudaaw" "Ts'aan Tluwaa" "Masiin" "Gugahldaaw" "Kwaay Yaats'aa" "Asaa" "Biiya" "Tlag Keengwaay" "K'aajaaw Gudaay" "K'asgad" "Kugiin" "Kugiin Naay" "Taw"
+			#weapons and armor
+			"Saj" "Chaatl" "K'it'iid" "K'u Gagaa" "Xaat'ask'w" "Jagw" "K'waandaaw" "T'aawaay"
+		}
+	}	
+	carrier = {
+		prefix = "HDA"
+		generic = { "Carrier" }
+		unique = { #peoples of the haida state (inc. foreign settlers) "Xaadas" "Chaalaamaan" "Gidgaahlaaas" "Gaw Xaat'aay" "Hlanggas" "Hlgayuu Xaataay" "Hlk'yaans Xaat'aay" "Jaabnii" "Januug Xaat'aay" "Kanaagaa Xaat'aay" "Kilaad Xaat'aay" "Kudaagws Xaat'aay" "Kiis Xaat'aay" "Taas Xaat'aay" "Tlagadaad Xaat'aay" "Ts'aagws Xaat'aay" "Waasdan Xaat'aay" "Xaadlaa Xaat'aay"
+			}
+	}
+}

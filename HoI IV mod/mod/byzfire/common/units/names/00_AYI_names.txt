@@ -1,0 +1,58 @@
+﻿AYI = {
+	fleet_names_template = FLEET_NAME_AYI
+	submarine = {
+		prefix = "ACS"
+		generic = { "Submarine" }
+		unique = {
+			#WIKI: Post S-boat, in order by hull designation, up to nuclear powered (excluding doubles)
+			"Spice Islands" "Bountiful Repast" "Unlucky Tide" "Adjective Noun" "Cacica of Ayiti" "Cacique" "Coabana" "Cubao" "Baracoa" "Bayamo" "Habana" "Mayabeqe" "Vaccinator" "Abama" "Anacaona" "Manica" "Hayuya" "Ayiti" "Cacica Anacaona" "Matazanas" "Atabeira" "Baira" "Bara" "Atey" "Cajaya" "Cano" "Caona" "Caribe" "Guanin" "Hadali" "Iti Itabo" "Jaiba" "Kairi" "Jucaro Karaya" "Oroco" "Taino" "Tiburon" "Tona" "Yauna"
+		}
+	}	
+	destroyer = {
+		prefix = "ACS"
+		generic = {
+			"Destroyer"
+		}
+		unique = { # given names
+			"Agueybana" "Manicatoex" "Hayuya" "Imotonex" "Habaguanex" "Guarionex" "Guaoconel" "Guarocuya" "Tinima" "Yuisa" "Biautex" "Arasibo" "Nibagua" "Mayobanex" "Ornofay" "Abama" "Iguanama" "Yelatzie" "Manica" "Abey" "Acanorex" "Nibagua"  "Orocobix" "Yacahuey" "Urayoan" "Tinima" "Amanex" "Aramana" "Arasibo" "Ayamuynex" "Maniabon" "Manicatoex" "Ayamon" "Ayraguay" "Bagnamanay" "Baguanao" "Imotonex" "Habaguanex" "Hatuey" "Bojekio" "Mayneri" "Maraguay" "Brizuela" "Yaureibo" "Majúbiatibirí" "Cacicana" "Yahima"  "Cacimar" "Majagua" "Manatiguahuraguana" "Caguax" "Camaguebax" "Canimao" "Canobana" "Mabodomaca" "Mabey" "Loquillo" "Jumacao" "Jibacoa" "Jacaguax" "Inamoca" "Caonabo" "Caracamisa" "Casiguaya" "Cayacoa" "Comerio" "Cotubanama" "Daguao" "Guababo" "Guama" "Guaoconel" "Guaora" "Yuibo"
+			}
+		}
+	light_cruiser = {
+		prefix = "ACS"
+		generic = { "Light Cruiser" }
+		unique = {
+			# last names
+			"Nitaino" "Cueyba" "Camaguey" "Magua" "Baracoa" "Quisueya" "Agueybana" "Jatibonu" "Daguao" "Boriken" "Xaragua"
+			}
+	}
+	heavy_cruiser = {
+		prefix = "ACS"
+		generic = { "Heavy Cruiser" }
+		unique = { #cities
+			"Jaragua" "Higuey" "Magua" "Guantanamo" "Habana" "Yucayeke" "Guabasa" "Cape Nitaino" "Albaamaha" "Cuyohaga" "Croatoan" "Manicato"
+			}
+	}
+	battle_cruiser = {
+		prefix = "ACS"
+		generic = { "Battle Cruiser" }
+		unique = { # oceans (global aspirations)
+			#wiki: Historic list of Alaska Class
+			"Atlantic" "Pacific" "Indian" "Arctic" "Antarctic" "Gulf of Mexico" "Caribbean" "Narragansett" "Chesepiooc" "Campeche" "Persian" "Arabian" "Red" "Black"
+			}
+	}
+	battleship = {
+		prefix = "ACS"
+		generic = { "Battleship" }
+		unique = {
+			# animals and plants
+			"Ao'n" "Cucubano" "Digo" "Guanajo" "Mabi" "Iguaca" "Iguana" "Caguama" "Carey" "Cocuyo" "Guama" "Jibiria" "Sarobey" "Yabisi" "Inriri" "Jaiba" "Jicotea" "Jujo" "Maja" "Manati" "Yaguas" "Yamuy" "Nigua" "Tiburon" "Coki" "Boba" "Dajao" "Cajaya" "Yabisi"
+		}
+	}	
+	carrier = {
+		prefix = "ACS"
+		generic = { "Carrier" }
+		unique = { #attributes, phrases, revolutionary slogans
+			"Union Made" "Red Wave" "You Are The Water" "People's Ark" "Brave Tribune" "Oceanic Fortress" "All Power to the People" "Many Peoples Are One" "Solidarity" "Peacekeeper" "Liberation of Avalon" "Spirit of the Communes" "Public Good" "The Commons" "Reconciliation" "Workers United" "Internationale" "Freedom From Want"
+			}
+	}
+}

@@ -1,0 +1,62 @@
+﻿CHI = {
+	submarine = {
+		prefix = ""
+		generic = { "Qianting" }
+		unique = {
+			"Q1" "Q2" "Q3" "Q4" "Q5" "Q6" "Q7" "Q8" "Q9" "Q11" "Q12" "Q13" "Q14" "Q15" "Q16" "Q17" "Q18" "Q19" "Q20" "Q21" "Q22" "Q23" "Q24" "Q25" "Q26" "Q27" "Q28" "Q29" "Q30" "Q31"
+		}
+	}
+	destroyer = {
+		prefix = ""
+		generic = { "Quzujian" }
+		unique = {
+		#shanghai and environs
+			"Pudong" "Sanzao" "Shanigang" "Hangtouzhen" "Hongkou" "Xigou" "Qinjiang" "Huangpu" "Shimen" "Beizhan" "Changshou" "Jing'an" "Ruijin" "Laoximen" "Wuningsancun" "Qinglong" "Hengsha" "Gaohangzhen" "Yangsigang" "Xinjinggang" "Jutingzhen" "Nandagang" "Wuxinggang" "Santuan" "Zhongjiuang" "Wuijia" "Yangang" "Dajin Jiaxiang" "Xiaojiang Jiazhai" "Jinxiu" "Dingxiang" "Yingchun" "Douxiang" "Jiazhai" "Yangjia" "Bund" "Nanjing" "Xinyong'an" "Sichuan" "Fuzhou" "Ningbo" "Dianchi" "Renmin" "Sijing" "Yan'an" "Xiaonanmen" "Waibaidu" "Mingshang" "Lujiazui" "Yu" "Duojia" "Guohuo" "Liyuan" "Dalin" "Puming" "Binjiang" "Mingzhuta" "Wanghai" "Binpuhui" "Fucheng" "Quanjing" "Daming" "Tiantong" "Fude" "Yingxiong" "Yuanminguyan" "Dongfang"
+			#cities near shanghai
+			"Jiaxing" "Suzhou" "Wuxi" "Changzhou" "Nantong" "Hangzhou" "Shaoxing" "Ningbo" "Zhoushan" "Taizhou" "Yangzhou" "Zhenjiang" 
+			#and down the yangtze
+			"Nanjing" "Ma'anshan" "Chuzhou" "Wuhu" "Tongling" "Chizahou" "Anqing" "Jiujiang" "Huangshi" "Huanggang" "Wuhan" "Yueyang"
+		}
+	}
+	light_cruiser = {
+		prefix = ""
+		generic = { "Qingxing Xunyangjian" }
+		unique = {
+		#characters the four classics
+			"Sun Wukong" "Xuanzang" "Zhu Bajie" "Zhang Jiao" "He Jin" "Jia Baoyu" "Lin Daiyu" "Xue Baochai" "Jia Yuanchun" "Jia Tanchun" "Shi Xingyun" "Gao Qiu" "Chao Gai" "Lin Chong" "Shi Jin" "Chao Gai" "Miaoyu" "Jia Yingchun" "Jia Xichun" "Liu Bei" "Guan Yu" "Zhang Fe" "Wu SOng" "Lin Chong" "Lu Zhishen" "Dong Zhuo" "Cao Cao" "Yuan Shao" "Wang Xifeng" "Jia Qiaojie" "Sha Wujing" "Li Wan" "Qin Keqing" "Jia She" "Wang Yun" "Lu Bu" "Zhang Xiu" "Yuan Shu" "Sun Ce" "Sun Quan" "Sun Jian" "Gongsun Zan" "Jia Lian" "Xiangling" "Xue Pan" "Ping'er" "Liu Laolao" "Wang Furen" "Xue Yima" "Hua Xiren" "Qingwen" "Yuanyang" "Mingyan" "Zijuan" "Xueyan" "Zhuge Liang" "Cao Ren"
+
+		}
+	}
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Zhong Xunyangjian" }
+		unique = {
+			#red turban rebellion heroes and organizations and other allies of the hongwu emperor
+			"Bailianjiao" "Zhu Yuanzhang" "Han Shantong" "Liu Futong" "Han Lin'er" "Xu Shouhui" "Chen Youliang" "Lan Yu" "Ding Dexing" "Mu Ying" "Feng Sheng" "Hu Dahai" "Chang Yuchun" "Guo Zixing" "Hongjin Qiyi" "Zhu Sheng" "Jiao Yu" "Liu Bowen" "Mu Ying" "Quan Tang" "He Suonan"
+		}
+	}
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Zhan lie Xunyangjian" }
+		unique = {
+		#mythological beasts
+			"Xiao" "Ao" "Bashe" "Fucanglong" "Xiangliu" "Yinglong" "Rui Shi" "Tianlong" "Pixiu" "Xiniu" "Jingwei" "Jian" "Genghuang" "Sanzuwu" "Qing Niao" "Jiufeng" "Zhen" "Taowu" "Hundun" "Qiongqi" "Zhayu" "Peng" "Bi Fang" "Fusang" "Bai Ze" "Qinlin" "Xiezhi" "Luduan" "Dilong" "Jialong" "Nian" "Jiuwei Hu" "Qilin" "Kui" "Jiangshi" "Yaoguai"
+		}
+	}
+	battleship = {
+		prefix = ""
+		generic = { "Zhanjian" }
+		unique = {
+		#coastal chinese cities
+			"Hong Kong" "Macau" "Zhanjiang" "Xiamen" "Quanzhou" "Fuzhou" "Wenzhou" "Taizhou" "Hangzhou" "Shanghai" "Lianyungang" "Qingdao" "Yantai" "Tianjin" "Weifang" "Qinhuangdao" "Huladao" "Dalian" "Yanchang" "Rizhao" "Ninge" "Taipei" "Putian" "Quanzhau" "Zhangzhou" "Shantou" "Shanwei"
+		}
+	}
+	carrier = {
+		prefix = ""
+		generic = { "Hangmu" }
+		unique = {
+		#the richest men and women in china
+			"Zhang Zhulin" "Mu Dahai" "Song Xiexia" "Chen Xin" "Long Yibing" "Hu Minxia" "Zhang Li" "Pang Ye" "Zheng Hanbin"
+		}
+	}
+}

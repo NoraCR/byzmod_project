@@ -1,0 +1,28 @@
+state=
+{
+	id=550
+	name="STATE_550"
+	manpower = 1468210
+	
+	state_category = megalopolis
+	
+	history=
+	{
+		owner = SOM
+		add_core_of = SOM
+		victory_points = {
+			12766 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			air_base = 8
+			12766 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		5017 5047 5091 8043 12723 12766
+	}
+}

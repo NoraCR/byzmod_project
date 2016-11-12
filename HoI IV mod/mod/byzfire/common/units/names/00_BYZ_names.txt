@@ -1,0 +1,109 @@
+﻿BYZ = {
+	fleet_names_template = FLEET_NAME_BYZ
+	submarine = {
+		prefix = "RNS"
+		generic = { "Submarine" }
+		unique = {
+			#WIKI: nymphs (older ones were swords)
+			"Nereid" "Actaea" "Amatheia" "Amphinome" "Amphitoe" "Amphitrite" "Aspeudes" "Asia" "Autonoe" "Beroe" "Callianassa" "Callianeira" "Ceto" "Clio" "Clymene" "Cranto" "Creneis" "Cydippe" "Cymo" "Cymatolege" "Cymodoce" "Cymothoe" "Deiopea" "Dero" "Dione" "Doris" "Doto" "Drymo" "Dynamene" "Eione" "Ephyra" "Erato" "Euagore" "Euarne" "Eucrante" "Eudore" "Eulimene" "Eumolpe" "Eunice" "Eupompe" "Eurydice" "Galene" "Galatea" "Glauce" "Glauconome" "Halie" "Halimede" "Hippinoe" "Hippothoe" "Iaera" "Ianassa" "Iaeneira" "Ione" "Iphianassa" "Laomedeia" "Leiagore" "Leucothoe" "Ligea" "Limnoreia" "Lycorias" "Lysianassa" "Maera" "Melite" "Menippe" "Nausithoe" "Nemertes" "Neomeris" "Nerea" "Nesaea" "Neso" "Opis" "Oreithyia" "Panopea" "Panope" "Pasithea" "Pherusa" "Phyllodoce" "Plexaure" "Ploto" "Polynome" "Pontomedusa" "Pontoporeia" "Poulynoe" "Proto" "Protomedeia" "Psamathe" "Sao" "Speio" "Thaleia" "Themisto" "Thetis" "Thoe" "Xantho"
+		}
+	}	
+	destroyer = {
+		prefix = "RNS"
+		generic = {
+			"Destroyer"
+		}
+		unique = {
+			# you need a million of these, the time for research is over. this is garbagetown names.
+			"Saint Kaisarios" "New Byzantium" "Senate" "Ovidia Galba" "Thessaly" "Melusine" "Edith" "Saint Greger" "Mad King of Venice" "Iouliana the Great" "Marble Empress" "Tiberius Gracchus" "Eris" "Te Kallisti" "Agnes Salian" "Thermopylae" "Manzikert" "Marathon" "Constantinople" "Europa Universalis" "Hiratine" "Justice Is Served" "Noor Sallajer's Revenge" "Great Britain" "Greek Fire" "Hippolyta" "Thrace Cement" "Ankara Coal" "Spirit of Ostia" "Oaxaca" "Azteca" "Apostle" "Minos" "Minotaur" "Bellerophon" "Pegasus" "Theseus" "Herakles" "Julian the Philosopher" "Trajan the Silent" "Alexios Komnenos" "Tiber" "Po" "Antioch" "Ravenna" "Empress Theonora" "Rinse Wind" "Ziegler" "Amari" "Alexandria" "Pharos" "Rhodes" "Crete" "Cyprus" "Tuscany" "Iliad" "Makedon" "Etruria" "Sabine" "Horatii" "Cincinnatus" "Cinna" "Brutus" "Cassius" "Camilla" "Diana" "Opis" "Aegean" "Golden Fleece" "Jason" "Old Rome" "Ostia" "Pompeii" "Belisarios" "Justinian" "Jerusalem" "Mecca" "Medina" "Alexiad" "Aurelian" "Castor" "Pollux" "Lalonde" "Vantas" "Strider" "Arsinoe" "Iothera" "Engels" "1702 Revolution" "1802 Revolution" "1883 Revolution" "Katsimiros" "Plapoutas" "Manos" "Othonaios" "Tavori" "Non-har'-min" "Mokoena" "Athens University" "Glasgow" "Titan" "Rouge" "Siege of Avalon's Neck" "Basotho" "Kenya" "Gaza" "Nikomedeia" "Izmit" "Izmir" "Gorz" "Sinope" "Illium" "Aeneiad" "Zenobia" "Cleopatra" "Ptolemy" "Thorn" "Defiant" "Hector" "Lyzander" "Cassandra" "Doge of Venice" "St. Mark" "St. Augustine" "Dervish" "Julia the Great" "Achilles" "Adrianople" "Thebes" "Corinth" "Steelworkers Syndicate" "Liberty" "Equality" "Victory" "Sorority" "Lesbos" "Agathon" "Valerii" "Thrace" "Philomon" "Christos Soter" "Enymion" "Ellade" "Gorgon" "Medusa" "Lexandaller" "Argos" "Luxor" "Ravanna" "Woo" "Omega" "Hydra" "Chimaera" "Nestor" "Misopogon" "Polis" "Syndicate" "Ekklesia" "Belgrade" "Maputo" "Commonwealth" "Res Publica" "St. Constantine" "St. Cecilia" "Aurelian" "Battle of Odessa" "Port of Ostia" "Spirit of '83"
+			}
+		}
+	light_cruiser = {
+		prefix = "RNS"
+		generic = { "Light Cruiser" }
+		unique = {
+			# cities
+			"Abydos" "Byblos" "Chalcedon" "Kebrene" "Carystus" "Delphi" "Demetrias" "Dion" "Gela" "Gortyn" "Milan" "Turin" "Bari" "Catania" "Brescia" "Hagia Triada" "Heliopolis" "Heraclea" "Kepoi" "Knossos" "Lamia" "Laodicea" "Verona" "Trieste" "Ancona" "Perugia" "Modena" "Arcadia" "Mesembria" "Caria" "Lycia" "Myrmekion" "Naxos" "Adana" "Konya" "Antalya" "Kayseri" "Samsun" "Gaziantep" "Neapolis" "Epirus" "Campania" "Apulia" "Nypmhaion" "Nysa" "Prusa" "Attica" "Elis" "Pagasae" "Pelion" "Achaea" "Patrai" "Piraeus" "Pergamum" "Philippi" "Pisa" "Foca" "Thessaly" "Calabria" "Salamis" "Samos" "Side" "Sidon" "Sinope" "Serres" "Smyrna" "Trapeze" "Triopolis" "Pirot" "Nis" "Novi Sad" "Sarajevo" "Tuzla" "Split" "Zagreb" "Rijeka"
+			}
+	}
+	heavy_cruiser = {
+		prefix = "RNS"
+		generic = { "Heavy Cruiser" }
+		unique = { 
+		# wonders, landmarks, etc
+			"Colossus of Rhodes" "Revolution Square" "Union Tower" "Theodosian Greenbelt" "Bosphorus Chain" "Rosehouse Park" "Hagia Sophia" "Flavian Ampitheatre" "Sapountzakis Central Station" "Radziwill Palace" "Vatican Hill" "Pantheon" "House of the Golden Horn" "Parthenon" "Appian Way" "Temple of Artemis" "Athens Cement Factory" "Halicarnassus"
+			}
+	}
+	battle_cruiser = {
+		prefix = "RNS"
+		generic = { "Battle Cruiser" }
+		unique = { 
+		# governmental terms-- titles, concepts, etc
+			#wiki: Historic list of Alaska Class
+			"Tribune" "Secretariat" "Constitution" "Archon" "Ekklesia" "Acropolis" "Revolution" "Democracy" "Freedom" "Liberator" "Republican" "Commune" "Four Freedoms" "Consul" "Congress" "Assembly" "Polis" "Union" "Athens University"
+			}
+	}
+	battleship = {
+		prefix = "RNS"
+		generic = { "Battleship" }
+		unique = {
+			# Goddesses (and gods if you need more)
+			"Nike" "Athena" "Hera" "Persephone" "Artemis" "Pallas" "Hestia" "Aphrodite" "Demeter" "Gaia" "Eos" "Hecate" "Selene" "Mnemosyne" "Phoebe" "Rhea" "Themis" "Leto" "Clotho" "Lachesis" "Atropos" "Tethys" "Rhea" "Eurbia" "Asteria" "Ganymede" "Eris" "Isis" "Calliope" "Clio" "Euterpe" "Melpomene" "Polyhymnia" "Terpischore" "Thalia" "Urania" "Aglaea" "Eurphorynse" "Thalia" "Thalassa" "Eurynome" "Metis" "Nemesis" "Alecto" "Tisphone" "Megaera" "Adikia"
+		}
+	}	
+	carrier = {
+		prefix = "RNS"
+		generic = { "Carrier" }
+		unique = { 
+		# names celebrating revolution, communism, etc.
+			"Qiu Zhichao" "Noor Sallajer" "Athens Commune" "Evgenia Exteberria" "Ten Thousand Martyrs" "First International" "Reyhan Hamzaoglu" "Red Guard" "Combined Syndicates" "Kurt Muller" "Grand Secretariat" "Madame Hiratine" "Peasant's War" "Proletarian" "Krakatoa Sunset" "Owl of Athena" "Ziyi Demetriou" "Ryuzoji Nagahito" "Red Star" "Regicide" "Simeon Djordjic" "Julia Radziwill" "Liraz Tavori" "Minna Cyrahzax" "Mathias Sniperid" "Yuchun He" "Eskander Ansari"
+			}
+	}
+
+infantry = {
+		prefix = ""
+		generic = { "Infantry" }
+		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
+		unique = {
+		"Fifth Foreign Legion" "Sixth Foreign Legion" "Seventh Foreign Legion" "Fourth Treaty Army Infantry" "Exteberria's Own Rifles" "Fifth Treaty Army Infantry" "Sixth Treaty Army Infantry" "Byzantion Shooting Club 34th Chapter" "Seventh Treaty Army Infantry" "IWM Local 333" "Eight Treaty Army Infantry" "International Divison" "IWM Local 4242" "Osman's Heroes" "Fifth Treaty Army Infantry" "Sixth Treaty Army Infantry" "Mechanics Union Local 313" "IWM Local 111" "First Antifa Volunteers" "Second Antifa Volunteer" "Red Banner Division" "Glorious 1884" "Civil Service Association Local 86" "Seventh Treaty Army Infantry" "Eight Treaty Army Infantry"
+		}
+	}
+	motorized = {
+		prefix = ""
+		generic = { "Motorized Infantry" }
+		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
+		unique = {
+		"Athens Motoring Club" "Teamsters Local 701" "Red Ball Express" "Teamster Local 702" "Athens Commune Coach Drivers 2112"
+		}
+	}
+	mountaineers = {
+		prefix = ""
+		generic = { "Alpine Infantry" }
+		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
+		unique = {
+		"Gorz Mountaineering Society" "Red Alps Division" "Asiago Alpine Club"
+		}
+	}
+	cavalry = {
+		prefix = ""
+		generic = { "Cavalry" }
+		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
+		unique = {
+		"Knights of Calatrava" "Knights of St. Kaisarios" "Artemis' Own Cavalry"
+		}
+	}
+	light_armor = {
+		prefix = ""
+		generic = { "Armored Cavalry" }
+		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
+		unique = {}
+	}
+	medium_armor = {
+		prefix = ""
+		generic = { "Landships" }
+		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
+		unique = {
+		"Fourth Treaty Army Cataphracts" "Fifth Treaty Army Cataphracts" "First Foreign Legion Cataphracts" "Second Foreign Legion Cataphracts" "Third Foreign Legion Cataphracts" "Fourth Foreing Legion Cataphracts" "1st New Red Army Landship Divison" "2nd New Red Army Landship Divison" "3rd New Red Army Landship Divison"
+		}
+	}
+}

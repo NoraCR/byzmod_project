@@ -1,0 +1,30 @@
+state={
+	id=739
+	name="STATE_739"
+
+	history={
+		owner = HDA
+		victory_points = { 1869 40 }
+		buildings = {
+			infrastructure = 8
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 3
+			air_base = 5
+			1869 = {
+				naval_base = 10
+
+			}
+
+
+		}
+		add_core_of = HDA
+	}
+
+	provinces={
+		1869
+	}
+	manpower=4123000
+	buildings_max_level_factor=1	
+	state_category="metropolis"
+}
