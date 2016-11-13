@@ -166,7 +166,7 @@ BYZ = {
 		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Vaccari Zupelli Zimmerer
 
 	}
-	callsigns = { "Kókkinos Pénte" "Zeus" "Deluge" "Apollo" "Sphinx" "Thríamvos" "Minotaur" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog"}
+	callsigns = { "Kókkinos Pénte" "Zeus" "Deluge" "Apollo" "Sphinx" "Thríamvos" "Minotaur" "Scylla" "Charybdis" "Chimera" "Cerberus" "Typhon" "Heracles" "Empusa" "Achilles" "Kingslayer" "Valeria's Bane"}
 }
 
 JAP = {
