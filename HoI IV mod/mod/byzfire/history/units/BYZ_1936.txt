@@ -666,7 +666,7 @@ units = {
 		name = "RNS Juno Koca"				
 		base = 4135
 		location = 4135 # Gibraltar
-		ship = { name = "RNS Juno Koca" definition = carrier equipment = { carrier_2 = { amount = 1 owner = BYZ } } 
+		ship = { name = "RNS Karl Marx" definition = carrier equipment = { carrier_2 = { amount = 1 owner = BYZ } } 
 			air_wings = {
 				cv_fighter_equipment_0 =  { owner = "BYZ" amount = 8 } # historical: 36
 				cv_CAS_equipment_1 =  { owner = "BYZ" amount = 14 } # historical: 15
@@ -842,7 +842,7 @@ units = {
 		
 air_wings = {
 	### 1 BYZAF Wing -- Tuscany
-	378 = {
+	162 = {
 		# 7th Bombardment Group 
 		# 19th Bombardment Group 
 		tac_bomber_equipment_0 = {
@@ -856,8 +856,8 @@ air_wings = {
 		}
 	}
 
-	### 2 BYZAF Wing -- Norfolk
-	362 = { 
+	### 2 BYZAF Wing 
+	162 = { 
 		# 1st Pursuit Group 
 		# 8th Pursuit Group 
 		fighter_equipment_0 =  {
@@ -872,8 +872,8 @@ air_wings = {
 		}
 	}
 
-	### 3 BYZAF Wing -- Louisiana
-	371 = { 
+	### 3 BYZAF Wing 
+	161 = { 
 		# 20th Pursuit Group 
 		fighter_equipment_0 =  {
 			owner = "BYZ" 
@@ -886,8 +886,8 @@ air_wings = {
 		}
 	}
 
-	### 18th Composite Wing -- Hawaii
-	629 = { 
+	### 18th Composite Wing
+	160 = { 
 		# 18th Pursuit Group 
 		fighter_equipment_0 =  {
 			owner = "BYZ" 
@@ -915,7 +915,7 @@ air_wings = {
 	}
 
 	### Philippines Composite Group -- Manilla
-#	327 = { 
+#	160 = { 
 #		# 4th Composite Group 
 #		fighter_equipment_0 =  {
 #			owner = "BYZ" 
@@ -924,7 +924,7 @@ air_wings = {
 #	}
 
 	### USN Atlantic Naval Patrol Division -- Norfolk
-	362 = { 
+	162 = { 
 		# Naval Patrol Wing 3 
 		nav_bomber_equipment_1 =  {
 			owner = "BYZ" 
@@ -932,7 +932,7 @@ air_wings = {
 		}
 	}
 	### USN Pacific Naval Patrol Division -- Ostia
-	378 = { 
+	115 = { 
 		# Naval Patrol Wing 1 
 		# Naval Patrol Wing 2 
 		nav_bomber_equipment_1 =  {
