@@ -666,7 +666,7 @@ units = {
 		name = "RNS Juno Koca"				
 		base = 4135
 		location = 4135 # Gibraltar
-		ship = { name = "RNS Karl Marx" definition = carrier equipment = { carrier_2 = { amount = 1 owner = BYZ } } 
+		ship = { name = "RNS Juno Koca" definition = carrier equipment = { carrier_2 = { amount = 1 owner = BYZ } } 
 			air_wings = {
 				cv_fighter_equipment_0 =  { owner = "BYZ" amount = 8 } # historical: 36
 				cv_CAS_equipment_1 =  { owner = "BYZ" amount = 14 } # historical: 15
