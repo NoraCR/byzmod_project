@@ -932,7 +932,7 @@ air_wings = {
 		}
 	}
 	### USN Pacific Naval Patrol Division -- Ostia
-	115 = { 
+	2 = { 
 		# Naval Patrol Wing 1 
 		# Naval Patrol Wing 2 
 		nav_bomber_equipment_1 =  {
