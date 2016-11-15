@@ -156,9 +156,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "James Larkin"
+	name = "Aoife O'Connor"
 	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	picture = "ire_aoife_oconnor.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
