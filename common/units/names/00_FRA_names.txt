@@ -1,0 +1,89 @@
+﻿FRA = {
+	submarine = {
+		prefix = ""
+		generic = { "Navis Submarina" }
+		unique = {
+			# Starting with L'Espoire class        
+			"Hassan-i Sabbah" "Mithridates" "Harmodius" "Aristogeiton" "Pausanias" "Gavrilo Princip" "Viator" "Ovida" "Ovidia Galba" "Glycerius" "Tunna" "Gomon" "Brodir" "Telemachus" "Tarquin" "Gaius Servilius Ahala" "Calippus" "Jugurtha" "Achillas" "Lucius Septimius" "Salvius" "Adra Mulissi" "Abd-al-Rahman ibn Muljam"
+		}
+	}
+	destroyer = {
+		prefix = ""
+		generic = { "Contre-Torpilleur" }
+		unique = {
+			"Saint Namatius" "Saint Nicetius" "Saint Palladius" "Saint Crispin" "Saint Pragmace" "Saint Quiteria" "Saint Remigius" "Saint Reticus" "Saint Reverianus" "Saint Felix" "Saint Fortunatus" "Saint Achillieus" "Pompeius Magnus" "Marcus Porcius Cato" "Marcus Porcius Cato Uticensis" "Marcus Tullius Cicero" "Romulus" "Numitor" "Publius Horatius" "Marcus Atilius Regulus" "Tiberius Sempronius Longus" "Gaius Terentius Varro" "Quintus Pedius" "Arius Didymus" "Gaius Cilnius Maecenas" "Marcus Claudius Marcellus" "Octavia Minor"
+		}
+	}
+	light_cruiser = {
+		prefix = ""
+		generic = { "Cruxator" }
+		unique = {
+			"Sagittarius" "Scorpio" "Ballista" "Tribulus" "Catapulta" "Rostra" "Harpax" "Corvus" "Ignis Graecus" 
+		}
+	}
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Cruxator" }
+		unique = {
+			"Tunica" "Focale" "Balteus" "Cingulum" "Braccae" "Sagum" "Paenula" "Caligae" "Loculus" "Sarcina"
+		}
+	}
+	battle_cruiser = {
+        prefix = ""
+        generic = { "Cruxator" }
+        unique = {
+            "Javelin" "Armatura" "Catafracta" "Ocrea" "Vericulum" "Lorica" "Hamata" "Lorica Segmentata" "Pteruges" "Squamta" "Galea" "Manica" 
+       }
+    }
+    battleship = {
+        prefix = ""
+        generic = { "Coriacea Magna" }
+        unique = {
+            "Saint Constantine" "Marcus Cassianius Latinius Postumus" "Julia Magna" "Saint Justinian" "Saint Caesarius Comnenus" "Alexius V" "Septimus Severus" "Aurelian" "Vespasian" "Titus" "Domitian" "Traianus Comnenus" "Henricus IV Salian" "Carolus Magnus" "Nerva" "Antoninus Pius" "Diocletian" "Constantius Chlorus" "Theodosius" "Majorian"
+       }
+    }
+	carrier = {
+		prefix = ""
+		generic = { "Navis Aeroplanigera" }
+		unique = {
+			"Valeria Imperatrix" "Valeria the Martyr" "Valeria the Living Saint" "Valeria the Shadow" "Valeria the Apostle" "Valerie" "Valeria of the Thousand Faces" "Valeria"
+		}
+	}
+
+	infantry = {
+		prefix = ""
+		generic = { "Peditatus" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	motorized = {
+		prefix = ""
+		generic = { "Automatarius" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	mountaineers = {
+		prefix = ""
+		generic = { "Monticola" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	cavalry = {
+		prefix = ""
+		generic = { "Equitatus" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	light_armor = {
+		prefix = ""
+		generic = { "Autocurrus Armatus" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	medium_armor = {
+		prefix = ""
+		generic = { "Essedum Loricatum" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+}

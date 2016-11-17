@@ -1,0 +1,26 @@
+state=
+{
+	id=269
+	name="STATE_269"
+	manpower = 5677248
+	
+	state_category = metropolis
+	
+	history= {
+		owner = SOM
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 8
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 3
+			air_base = 5
+			12759 = {
+				naval_base = 10
+			}
+		}
+	}
+	provinces={
+		1905 5068 8094 10777 10833 10921 12759 12814
+	}
+}

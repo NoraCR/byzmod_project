@@ -1,0 +1,27 @@
+state={
+	id=268
+	name="STATE_268"
+	manpower = 2123000
+
+
+	state_category = megalopolis
+
+	history={
+		owner = SOM
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 8
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 3
+			air_base = 5
+			8124 = {
+				naval_base = 10
+			}
+		}
+
+	}
+	provinces={
+		4985 8124
+ 	}
+}
