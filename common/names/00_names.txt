@@ -152,6 +152,7 @@ BYZ = {
 		names = { 
 			Aphrodite Mary Jane Nora Noor Despina Eve Leonora Leah Katherine Triantafillia Delia Penelope Irus Rachel San Sharona Pazit Yafa Zeynep Zeyno Zoharin Oz Kardelen Ulker
 			Beyhan Akgul Boncuk Ceylan Diana Andromeda Elpida Eirine Yalena Xena Eileen Theresa Zoi Lara Anastazija Alessandra Zlata Osanna Rina Annabella Carla  
+		}
 	}
 	surnames = { 
 		Adler Altanis Trakas Alexopoulous Christos Ceska-Lipa Mallas Kanas Zervas Speros Liakos Raptis Gianakos Cyrahzax Abbott Zografou Melli Gianakou Anthe Anthi 
