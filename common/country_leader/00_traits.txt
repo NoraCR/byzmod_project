@@ -226,6 +226,17 @@ leader_traits = {
 		}
 	}
 	
+	ayn_rand = {
+		random = no
+		# Boosts Pangalism
+		sprite = 13
+		pangalism_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
 	popular_figurehead = {
 		sprite = 13
 		unity_factor = 0.15 
