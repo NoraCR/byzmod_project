@@ -465,7 +465,7 @@ ideas = {
 				original_tag = "FRA"
 			}
 			
-			picture = generic_political_advisor_europe_3
+			picture = fra_isabelle_durand
 			
 			traits = { smooth_talking_charmer }
 	

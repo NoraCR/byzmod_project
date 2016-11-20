@@ -1765,7 +1765,7 @@
  political.100.d:1 "'Why should the [Root.GetAdjective] have to be stifled with red tape by the [Root.GetRulingParty]? They take your money for their so called taxes, and where does it go? Into their own pockets! The teachings of Pangalos show us the best path to freedom and prosperity for all, if we would just listen!'\n\nThe poor want to be rich, the rich want to be richer. That's as true in [Root.GetName] as anywhere else, and local businessmen with Pangalist sympathies are tapping into this desire to sow discontent with our leaders. It's only a low rumble at the moment, but it doesn't take much for a rumble to turn into a massive earthquake."
  political.100.a:0 "The top brass dream of swimming in a pool of money."
  political.100.a.tt:0 "Increases the chance of internal support for a pangalist coup."
- political.100.b:0 "Our young are bitter and feel they have no economic future. This message rings loudest for them."
+ political.100.b:0 "Our young are bitter and feel they have no economic future."
  political.100.b.tt:0 "Increases the chance of popular support for a pangalist coup."
  political.101.t:0 "Pangalist Sympathies in the Military"
  political.101.d:1 "Several high-ranking members of the [Root.GetAdjective] military have expressed support for Pangalism in [Root.GetName]. Some feel the [Root.GetRulingParty] have lost the ability to govern efficiently, others have been rather blatantly bribed. Whether they believe, or have been bought, they feel Pangalism will lead [Root.GetName] into the future.\n\nAs this faction consists of politicians, high-ranking military officers and influential businessmen, if they are not stopped they might quickly gather enough influence to launch a coup."

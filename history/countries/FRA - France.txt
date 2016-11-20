@@ -121,9 +121,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Philippe Pétain"
+	name = "Valeria Postuma"
 	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
-	picture = "Portrait_France_Philippe_Petain.dds"
+	picture = "fra_valeria_postuma.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
