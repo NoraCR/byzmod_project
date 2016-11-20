@@ -103,6 +103,26 @@ ideas = {
 				democratic_acceptance = 85
 			}
 		}
+
+		pangalist_influence = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = pangalism
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				pangalism_drift = 0.1
+				pangalism_acceptance = 85
+			}
+		}
 		
 		soviet_german_friendship = {
 			allowed = {
