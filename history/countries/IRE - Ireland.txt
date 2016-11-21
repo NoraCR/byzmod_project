@@ -177,9 +177,9 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
-	name = "Michael Costello"
-	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+create_field_marshal = {
+	name = "Art de Barra"
+	portrait_path = "gfx/leaders/IRE/ire_art_de_barra.dds"
 	traits = {  }
-	skill = 2
+	skill = 4
 }
