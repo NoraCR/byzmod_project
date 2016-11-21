@@ -79,8 +79,8 @@ set_politics = {
 
 create_country_leader = {
 	name = "Zhang Zhulin"
-	desc = ""
-	picture = ""
+	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+	picture = "chi_zhang_zhulin.dds"
 	expire = "1965.1.1"
 	ideology = shanghai_school_economics
 	traits = {
