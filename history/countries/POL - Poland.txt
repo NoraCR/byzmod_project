@@ -218,11 +218,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bolesław Piasecki"
+	name = "Stanislaus II de Valois Vexin"
 	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
-	picture = "GFX_POL_boleslaw_piasecki"
+	picture = "pol_stanislas_ii_de_valois_vexin"
 	expire = "1965.1.1"
-	ideology = falangism
+	ideology = rexism
 	traits = {
 		#
 	}
