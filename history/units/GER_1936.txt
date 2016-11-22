@@ -260,7 +260,7 @@ units = {
 	# V. Armeekorps
 	division= {	
 		name = "5. Infanterie-Division"
-		location = 9517
+		location = 6488
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -274,19 +274,19 @@ units = {
 	}
 	division= {	
 		name = "10. Infanterie-Division"
-		location = 11497
+		location = 6488
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "17. Infanterie-Division"
-		location = 586
+		location = 6488
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}			
 	division= {	
 		name = "Gebirgsjäger-Brigade" 
-		location = 692
+		location = 6488
 		division_template = "Gebirgsjäger-Brigade" 
 		start_experience_factor = 0.3
 	}
