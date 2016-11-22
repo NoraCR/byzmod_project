@@ -31,6 +31,12 @@ set_technology = {
 	basic_machine_tools = 1
 }
 
+# DIPLOMACY / WAR 36
+	declare_war_on = {
+		target = CZE
+		type = annex_everything
+	}
+
 1939.1.1 = {
 	
 	if = {
