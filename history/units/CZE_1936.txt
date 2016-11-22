@@ -273,7 +273,7 @@ air_wings = {
 	}
 
 	# Letectvo III.Armády -- Bratislava
-	69 = {
+	9 = {
 		fighter_equipment_0 = {		# Avia B.534
 			owner = "CZE" 
 			amount = 36
