@@ -433,7 +433,7 @@ ideas = {
 				original_tag = "FRA"
 			}
 			
-			picture = idea_jean_ioannes_gaudreau.dds
+			picture = jean_ioannes_gaudreau
 			
 			traits = { prince_of_terror }
 	
@@ -454,7 +454,7 @@ ideas = {
 				original_tag = "FRA"
 			}
 			
-			picture = idea_kevin_vaugrenard.dds
+			picture = kevin_vaugrenard
 			
 			traits = { backroom_backstabber }
 	
@@ -469,7 +469,7 @@ ideas = {
 				original_tag = "FRA"
 			}
 			
-			picture = idea_isabelle_durand.dds
+			picture = isabelle_durand
 			
 			traits = { smooth_talking_charmer }
 	

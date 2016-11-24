@@ -1585,11 +1585,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_jean_ioannes_gaudreau"
-		texturefile = "gfx/interface/ideas/idea_jean_ioannes_gaudreau.dds"
+		texturefile = "gfx/interface/ideas/idea_fra_jean_ioannes_gaudreau.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_isabelle_durand"
-		texturefile = "gfx/interface/ideas/idea_isabelle_durand.dds"
+		texturefile = "gfx/interface/ideas/idea_fra_isabelle_durand.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_kevin_vaugrenard"
