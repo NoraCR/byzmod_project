@@ -264,11 +264,11 @@ air_wings = {
 		}
 		tac_bomber_equipment_0 =  {	# Bloch MB.200
 			owner = "CZE" 
-			amount = 72
+			amount = 70
 		}
 		CAS_equipment_1 =  {		# Aero A-101
 			owner = "CZE" 
-			amount = 24
+			amount = 20
 		}
 	}
 
@@ -276,11 +276,7 @@ air_wings = {
 	9 = {
 		fighter_equipment_0 = {		# Avia B.534
 			owner = "CZE" 
-			amount = 36
-		}
-		fighter_equipment_0 = {		# Avia B.534
-			owner = "CZE" 
-			amount = 72
+			amount = 30
 		}
 		CAS_equipment_1 =  {		# Aero A-101
 			owner = "CZE" 
