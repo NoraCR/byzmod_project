@@ -7,7 +7,7 @@ state={
 
 	state_category = large_city
 	history={
-		owner = FRA
+		owner = BAV
 		victory_points = {
 			9517 5 
 		}
@@ -18,7 +18,7 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = FRA
+		add_core_of = BAV
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 11
