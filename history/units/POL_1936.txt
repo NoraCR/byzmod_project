@@ -1,5 +1,5 @@
 division_template = {
-	name = "Królewski Polska Piechota"		
+	name = "Krolewski Polska Piechota"		
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -17,7 +17,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Dywizja Górskiej"
+	name = "Dywizja Gorskiej"
 
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
@@ -35,6 +35,44 @@ division_template = {
 	}
 }
 division_template = {
+	name = "Krolewski Dywizja Pancernej" 
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		
+		light_armor = { x = 0 y = 1 }		
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }		
+		light_armor = { x = 1 y = 1 }		
+		light_armor = { x = 1 y = 2 }
+		light_armor = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		engineer = { x = 0 y = 3 }    		
+	}
+}
+division_template = {
+	name = "Krolewski Husaria"	#Armoured fist of Poland		
+	regiments = {
+		heavy_armor = { x = 0 y = 0 }
+		heavy_armor = { x = 0 y = 1 }
+		artillery_brigade = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		engineer = { x = 0 y = 3 }    		
+	}
+}
+division_template = {
 	name = "Brygada Kawalerii" 
 
 	regiments = {
@@ -43,11 +81,12 @@ division_template = {
 		cavalry = { x = 0 y = 2 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }     
+		recon = { x = 0 y = 0 }
+		military_police = { x = 0 y = 1 }    		
 	}
 }
 division_template = {
-	name = "Królewski Artyleria"  	# The Polish Army being in a bit of a shambles, for the most part they don't so much have dedicated artillery support as a few specific artillery divisions
+	name = "Krolewski Artyleria"  	# The Polish Army being in a bit of a shambles, for the most part they don't so much have dedicated artillery support as a few specific artillery divisions
 
 	regiments = {						
 		infantry = { x = 0 y = 0 }
@@ -71,25 +110,25 @@ units = {
 	######## Sztab Generalny Wojska Polskiego ########
 	### Armia Pomorze ###	
 	division= {	
-		name = "4 Królewski Polska Piechota"
+		name = "4 Krolewski Polska Piechota"
 		location = 6534
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "15 Królewski Polska Piechota"
+		name = "15 Krolewski Polska Piechota"
 		location = 6534
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "16 Królewski Polska Piechota"
+		name = "16 Krolewski Polska Piechota"
 		location = 6534
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
@@ -97,25 +136,25 @@ units = {
 
 	### Armia Poznan ###	
 	division= {	
-		name = "14 Królewski Polska Piechota"
+		name = "14 Krolewski Polska Piechota"
 		location = 3545
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "17 Królewski Polska Piechota"
+		name = "17 Krolewski Polska Piechota"
 		location = 3545
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "25 Królewski Polska Piechota"
+		name = "25 Krolewski Polska Piechota"
 		location = 3485
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -123,7 +162,7 @@ units = {
 	division= {	
 		name = "Podolska B.K."
 		location = 3485
-		division_template = "Brygada Kawalerii" 
+		division_template = "Krolewski Dywizja Pancernej" 
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -131,7 +170,7 @@ units = {
 	}
 	division= {	
 		name = "Wielkopolska B.K."
-		location = 6458
+		location = 3485
 		division_template = "Brygada Kawalerii" 
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
@@ -141,25 +180,25 @@ units = {
 
 	### Armia Lódz ###	
 	division= {	
-		name = "2 Królewski Polska Piechota"
+		name = "2 Krolewski Polska Piechota"
 		location = 11517
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "7 Królewski Polska Piechota"
+		name = "7 Krolewski Polska Piechota"
 		location = 11517
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "10 Królewski Polska Piechota"
+		name = "10 Krolewski Polska Piechota"
 		location = 6534
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
@@ -185,25 +224,25 @@ units = {
 
 	### Armia Kraków ###	
 	division= {	
-		name = "6 Królewski Polska Piechota"
+		name = "6 Krolewski Polska Piechota"
 		location = 11511
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "21 Królewski Polska Piechota Górskiej"
+		name = "21 Krolewski Polska Piechota Gorskiej"
 		location = 421
-		division_template = "Dywizja Górskiej"
+		division_template = "Dywizja Gorskiej"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "23 Królewski Polska Piechota"
+		name = "23 Krolewski Polska Piechota"
 		location = 3553
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -220,25 +259,25 @@ units = {
 
 	### Armia Modlin ###	
 	division= {	
-		name = "8 Królewski Polska Piechota"
+		name = "8 Krolewski Polska Piechota"
 		location = 569
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "26 Królewski Polska Piechota"
+		name = "26 Krolewski Polska Piechota"
 		location = 569
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division= {	
-		name = "28 Królewski Polska Piechota"
+		name = "28 Krolewski Polska Piechota"
 		location = 569
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -266,23 +305,23 @@ units = {
 	division= {	
 		name = "1 DP Legionów im. Pilsudskiego"
 		location = 421
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "19 Królewski Polska Piechota"
+		name = "19 Krolewski Polska Piechota"
 		location = 421
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "20 Królewski Polska Piechota"
+		name = "20 Krolewski Polska Piechota"
 		location = 421
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
@@ -299,33 +338,33 @@ units = {
 
 	### Armia Wolyn ###	
 	division= {	
-		name = "3 Królewski Polska Piechota Legionów"
+		name = "3 Krolewski Polska Piechota Legionów"
 		location = 3485
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "11 Karpacka Królewski Polska Piechota"
+		name = "11 Karpacka Krolewski Polska Piechota"
 		location = 3485
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "12 Królewski Polska Piechota"
+		name = "12 Krolewski Polska Piechota"
 		location = 3485
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "24 Królewski Polska Piechota"
+		name = "24 Krolewski Polska Piechota"
 		location = 3569
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -333,17 +372,17 @@ units = {
 
 	## GO Lublin ##	
 	division= {	
-		name = "9 Królewski Polska Piechota"
+		name = "9 Krolewski Polska Piechota"
 		location = 3569
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "30 Królewski Polska Piechota"
+		name = "30 Krolewski Polska Piechota"
 		location = 3569
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -351,17 +390,17 @@ units = {
 
 	## SGO Narew ##	
 	division= {	
-		name = "18 Królewski Polska Piechota"
+		name = "18 Krolewski Polska Piechota"
 		location = 11517
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "29 Królewski Polska Piechota"
+		name = "29 Krolewski Polska Piechota"
 		location = 11517
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -387,17 +426,17 @@ units = {
 
 	## SGO Polesie ##	
 	division= {	
-		name = "13 Królewski Polska Piechota"
+		name = "13 Krolewski Polska Piechota"
 		location = 421
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "27 Królewski Polska Piechota"
+		name = "27 Krolewski Polska Piechota"
 		location = 421
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -405,17 +444,17 @@ units = {
 
 	## SGO Lwów ##	
 	division= {	
-		name = "5 Królewski Polska Piechota"
+		name = "5 Krolewski Polska Piechota"
 		location = 421
-		division_template = "Królewski Polska Piechota"
+		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "22 Królewski Polska Piechota Górskiej"
+		name = "22 Krolewski Polska Piechota Gorskiej"
 		location = 421
-		division_template = "Dywizja Górskiej"
+		division_template = "Dywizja Gorskiej"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
@@ -425,20 +464,28 @@ units = {
 ##### Wojska Lotnicze i Obrony Powietrzne #####
 air_wings = {
 	66 = { 
-		fighter_equipment_0 =  {
+		fighter_equipment_1 =  {
 			owner = "POL" 
 			amount = 108
+		}
+		CAS_equipment_1 =  {
+			owner = "POL" 
+			amount = 100
 		}
 		
 	}
 	75 = { 
-		fighter_equipment_0 =  {
+		fighter_equipment_1 =  {
 			owner = "POL" 
 			amount = 100
 		}
 		CAS_equipment_1 =  {
 			owner = "POL" 
 			amount = 50
+		}
+		tac_bomber_equipment_1 =  {	
+			owner = "POL" 
+			amount = 80
 		}
 	}
 }
@@ -453,7 +500,7 @@ instant_effect = {
 			creator = "POL"
 		}
 		requested_factories = 2
-		progress = 0.20
+		progress = 0.80
 		efficiency = 100
 	}
 	add_equipment_production = {
@@ -462,16 +509,52 @@ instant_effect = {
 			creator = "POL"
 		}
 		requested_factories = 1
-		progress = 0.20
+		progress = 0.80
 		efficiency = 100
 	}
 	add_equipment_production = {
 		equipment = {
-			type = fighter_equipment_0
+			type = fighter_equipment_1
 			creator = "POL"
 		}
 		requested_factories = 1
-		progress = 0.20
+		progress = 0.50
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_2
+			creator = "POL"
+		}
+		requested_factories = 2
+		progress = 0.90
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = heavy_tank_equipment_1
+			creator = "POL"
+		}
+		requested_factories = 3
+		progress = 0.90
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "POL"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "POL"
+		}
+		requested_factories = 1
+		progress = 0.80
 		efficiency = 100
 	}
 }
