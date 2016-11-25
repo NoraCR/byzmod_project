@@ -92,9 +92,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Konrad Adenauer"
+	name = "Paul Meier"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "Portrait_Germany_Konrad_Adenauer.dds"
+	picture = "ger_paul_meier.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
