@@ -243,11 +243,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Konstantin Rodzaevsky"
+	name = "Yekaterina V Ceska Lipa"
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
-	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
+	picture = "sov_yekaterina_v_ceska_lipa.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = rexism
 	traits = {
 		
 	}

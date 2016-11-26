@@ -163,9 +163,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Peter Rochegune Munch"
+	name = "Gunnar af Belev"
 	desc = "POLITICS_PETER_ROCHEGUNE_MUNCH_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	picture = "den_gunnar_af_belev.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
