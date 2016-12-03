@@ -1209,11 +1209,55 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_norfolk_naval_yard.dds"
 	}
 
-	### TURKEY IDEAS
+	### BYZANTINE IDEAS
 	spriteType = {
-		name = "GFX_idea_sabiha_gocen"
-		texturefile = "gfx/interface/ideas/idea_sabiha_gocen.dds"
-	}	
+		name = "GFX_idea_robert_de_bassot"
+		texturefile = "gfx/interface/ideas/idea_robert_de_bassot.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_darion_flesnolk"
+		texturefile = "gfx/interface/ideas/idea_darion_flesnolk.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_helvetica_bold"
+		texturefile = "gfx/interface/ideas/idea_helvetica_bold.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_philomon_anatolikos"
+		texturefile = "gfx/interface/ideas/idea_philomon_anatolikos.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ioannes_raseres"
+		texturefile = "gfx/interface/ideas/idea_ioannes_raseres.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lillian_palamara"
+		texturefile = "gfx/interface/ideas/idea_lillian_palamara.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_simonis_cyrahzax"
+		texturefile = "gfx/interface/ideas/idea_simonis_cyrahzax.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_berat_qutuzid"
+		texturefile = "gfx/interface/ideas/idea_berat_qutuzid.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nicole_kondou"
+		texturefile = "gfx/interface/ideas/idea_nicole_kondou.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yahsi_turel"
+		texturefile = "gfx/interface/ideas/idea_yahsi_turel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_eirene_sagona"
+		texturefile = "gfx/interface/ideas/idea_eirene_sagona.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_melisa_terzi"
+		texturefile = "gfx/interface/ideas/idea_melisa_terzi.dds"
+	}		
 	
 	### SPAIN IDEAS
 	spriteType = {

@@ -1,0 +1,288 @@
+ideas = {
+
+	political_advisor = {
+		helvetica_bold = {
+			
+			
+			allowed = {
+				original_tag = "BYZ"
+			}
+			
+			picture = idea_helvetica_bold
+
+			
+			traits = { fascist_demagogue }
+	
+			on_add = {
+				country_event = political.7
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+			
+		nicole_kondou = {
+			
+			
+			allowed = {
+				original_tag = "BYZ"
+			}
+			
+			picture = idea_nicole_kondou
+
+			
+			traits = { democratic_reformer }
+	
+			on_add = {
+				country_event = political.13
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		lillian_palamara = {
+			
+			
+			allowed = {
+				original_tag = "BYZ"
+			}
+			
+			picture = idea_lillian_palamara
+			
+			traits = { ayn_rand }
+	
+			on_add = {
+				country_event = political.100
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = pangalism
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		BYZ_robert_de_bassot = {
+			
+			allowed = {
+				original_tag = "BYZ"
+			}
+			
+			picture = robert_de_bassot
+			
+			traits = { silent_workhorse }
+	
+			on_add = {
+			}
+	
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+
+		BYZ_simonis_cyrahzax = {
+			
+			allowed = {
+				original_tag = "BYZ"
+			}
+			
+			picture = simonis_cyrahzax
+			
+			traits = { backroom_backstabber }
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+
+		BYZ_philomon_anatolikos = {
+			
+			allowed = {
+				original_tag = "BYZ"
+			}
+			
+			picture = philomon_anatolikos
+			
+			traits = { captain_of_industry }
+	
+			on_add = {
+			}
+	
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+
+		BYZ_yahsi_turel = {
+			
+			allowed = {
+				original_tag = "BYZ"
+			}
+			
+			picture = yahsi_turel
+			
+			traits = { war_industrialist }
+	
+			on_add = {
+			}
+	
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+
+		BYZ_ioannes_raseres = {
+			
+			allowed = {
+				original_tag = "BYZ"
+			}
+			
+			picture = ioannes_raseres
+			
+			traits = { fortification_engineer }
+	
+			on_add = {
+			}
+	
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+
+		BYZ_berat_qutuzid = {
+			
+			allowed = {
+				original_tag = "BYZ"
+			}
+			
+			picture = berat_qutuzid
+			
+			traits = { compassionate_gentleman }
+	
+			on_add = {
+			}
+	
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+
+		BYZ_alexios_mars = {
+			
+			allowed = {
+				original_tag = "BYZ"
+			}
+			
+			picture = generic_political_advisor_europe_3
+			
+			traits = { ideological_crusader }
+	
+			on_add = {
+			}
+	
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+
+		BYZ_darion_flesnolk = {
+			
+			allowed = {
+				original_tag = "BYZ"
+			}
+			
+			picture = darion_flesnolk
+			
+			traits = { popular_figurehead }
+	
+			on_add = {
+			}
+	
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+
+		BYZ_melisa_terzi = {
+			
+			allowed = {
+				original_tag = "BYZ"
+			}
+			
+			picture = melisa_terzi
+			
+			traits = { armaments_organizer }
+	
+			on_add = {
+			}
+	
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+
+		BYZ_eirene_sagona = {
+			
+			allowed = {
+				original_tag = "BYZ"
+			}
+
+			picture = eirene_sagona
+			
+			traits = { quartermaster_general }
+	
+			on_add = {
+			}
+	
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+}
