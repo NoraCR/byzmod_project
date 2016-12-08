@@ -184,8 +184,8 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Art de Barra"
-	portrait_path = "gfx/leaders/IRE/ire_art_de_barra.dds"
+	name = "Eoin Aiken"
+	portrait_path = "gfx/leaders/IRE/ire_eoin_aiken.dds"
 	traits = {  }
 	skill = 4
 }
