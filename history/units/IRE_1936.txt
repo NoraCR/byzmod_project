@@ -233,13 +233,17 @@ air_wings = {
 			owner = "IRE" 
 			amount = 50
 		}
+		fighter_equipment_1 =  {
+			owner = "IRE" 
+			amount = 100
+		}
 	}
 
 	### 2 IAF Wing -- Northern Ireland
 	119 = { 
 		# 1st Grupa Trodaire
 		# 2nd Grupa Trodaire 'an Clairseach Fuilteach'
-		fighter_equipment_0 =  {
+		fighter_equipment_1 =  {
 			owner = "IRE" 
 			amount = 150
 		}
