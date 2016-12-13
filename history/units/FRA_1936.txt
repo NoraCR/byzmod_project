@@ -986,7 +986,7 @@ air_wings = {
 	29 = { 
 		# Groupement de Chasse 21 
 		# Groupement de Chasse 23
-		fighter_equipment_0 = {
+		fighter_equipment_1 = {
 			owner = "FRA" 
 			amount = 192
 		}
@@ -1001,11 +1001,11 @@ air_wings = {
 	# Z.d'Op. Aériennes Est -- Reims
 	18 = {
 		# Groupement de Chasse 22
-		fighter_equipment_0 = {
+		fighter_equipment_1 = {
 			owner = "FRA" 
 			amount = 96
 		}
-		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
+		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_1).
 			modifier="fighter_genius"
 			name="Jacques"
 			surname="Courbet"
@@ -1017,7 +1017,7 @@ air_wings = {
 	# Z.d'Op. Aériennes du Alps -- Marseille
 	21 = {
 		# Groupement de Chasse d'Alps
-		fighter_equipment_0 = {
+		fighter_equipment_1 = {
 			owner = "FRA" 
 			amount = 96
 		}
@@ -1038,7 +1038,7 @@ air_wings = {
 	# Z.d'Op. Aériennes Africain -- Tunis
 	458 = {
 		# Groupement de Chasse du Nord-Africain
-		fighter_equipment_0 = {
+		fighter_equipment_1 = {
 			owner = "FRA" 
 			amount = 48
 		}
