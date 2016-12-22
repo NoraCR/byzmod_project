@@ -1,6 +1,6 @@
 ﻿capital = 64
 
-oob = "GER_byzfire"
+oob = "GER_1936"
 
 # Starting tech
 set_technology = {

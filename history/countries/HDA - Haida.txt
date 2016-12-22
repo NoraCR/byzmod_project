@@ -3,7 +3,7 @@
 # Starting tech
 set_research_slots = 4
 
-oob = "HDA_byzfire"
+oob = "HDA_1936"
 
 # Starting tech
 set_technology = {

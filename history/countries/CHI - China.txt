@@ -1,6 +1,6 @@
 ﻿capital = 613 # Nanjing
 
-oob = "CHI_byzfire"
+oob = "CHI_1936"
 
 set_research_slots = 4
 

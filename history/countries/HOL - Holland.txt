@@ -1,6 +1,6 @@
 ﻿capital = 7
 
-oob = "HOL_byzfire"
+oob = "HOL_1936"
 
 set_research_slots = 3
 

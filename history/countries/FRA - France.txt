@@ -1,6 +1,6 @@
 ﻿capital = 16
 
-oob = "FRA_byzfire"
+oob = "FRA_1936"
 
 set_research_slots = 3
 
