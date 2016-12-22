@@ -1,0 +1,13 @@
+leader_traits = {
+	
+	ayn_rand = {
+		random = no
+		# Boosts Pangalism
+		sprite = 13
+		pangalism_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

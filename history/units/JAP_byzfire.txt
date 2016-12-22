@@ -1,0 +1,627 @@
+division_template = {
+	name = "Kokka Anchisukiru" #National Guard (Garrison)
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		#artillery = { x = 0 y = 0}
+	}
+	priority = 0
+}
+division_template = {
+	name = "Hohei Shidan" #Infantry Division			
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+		
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Kaigai Hohei" #Marines Division
+	
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Dendo Ryodan" #Motorized Brigade
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = { #includes army and navy but not air-force 
+	
+	### GARRISON UNITS ### Most numerous units at start, guarding islands, ports and cities
+	division = {
+		name = "1st Molucca Anchisukiru"
+		location = 1574
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Molucca Anchisukiru"
+		location = 7413
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Okinawa Anchisukiru"
+		location = 11932
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Iwo Jima Anchisukiru"
+		location = 13025
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Tochu-no Anchisukiru"
+		location = 13025
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Nyukaredonia Anchisukiru"
+		location = 1263
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Fiji Anchisukiru"
+		location = 4286
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Soroman Anchisukiru"
+		location = 1269
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Soroman Anchisukiru"
+		location = 4226
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Palau Anchisukiru"
+		location = 4357
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Saipan Anchisukiru"
+		location = 3995
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Guam Anchisukiru"
+		location = 12140
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Tahiti Anchisukiru"
+		location = 12148
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	} 
+	division = {
+		name = "1st Mikuroneshia Anchisukiru"
+		location = 13043
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Mikuroneshia Anchisukiru"
+		location = 13046
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Kuril Anchisukiru"
+		location = 1399
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Hokkaido Anchisukiru"
+		location = 10444
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Tohoku Anchisukiru"
+		location = 9859
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Tohoku Anchisukiru"
+		location = 7169
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Hokuriku Anchisukiru"
+		location = 1117
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Koshinetsu Anchisukiru"
+		location = 10032
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Tokai Anchisukiru"
+		location = 10125
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Kansai Anchisukiru"
+		location = 1136
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Kanto Anchisukiru"
+		location = 9998
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Shikoku Anchisukiru"
+		location = 7197
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chugoku Anchisukiru"
+		location = 1092
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Kyushu Anchisukiru"
+		location = 1025
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Kyushu Anchisukiru"
+		location = 4102
+		division_template = "Kokka Anchisukiru"
+		start_experience_factor = 0.1
+	}
+	
+	### REPUBLICAN ARMY ### 9 Inf divisions and 3 Motor divisions
+	# Kansai Army #
+	division = { 
+		name = "1st Hohei Shidan"
+		location = 11960
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Hohei Shidan"
+		location = 11960
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Hohei Shidan"
+		location = 11960
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "10th Dendo Ryodan"
+		location = 11960
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	# Kyushu Army #
+	division = {
+		name = "4th Hohei Shidan"
+		location = 7110
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Hohei Shidan"
+		location = 7110
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Hohei Shidan"
+		location = 7110
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "11th Dendo Ryodan"
+		location = 7110
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	# Kanto Army #
+	division = {
+		name = "7th Hohei Shidan"
+		location = 1182
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "8th Hohei Shidan"
+		location = 1182
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "9th Hohei Shidan"
+		location = 1182
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "12th Dendo Ryodan"
+		location = 1182
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	# Marine Corps # based in Osaka - 5 divisions
+	division = {
+		name = "13th Kaigai Hohei"
+		location = 7072
+		division_template = "Kaigai Hohei"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "14th Kaigai Hohei"
+		location = 7072
+		division_template = "Kaigai Hohei"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "15th Kaigai Hohei"
+		location = 7072
+		division_template = "Kaigai Hohei"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "16th Kaigai Hohei"
+		location = 7072
+		division_template = "Kaigai Hohei"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "17th Kaigai Hohei"
+		location = 7072
+		division_template = "Kaigai Hohei"
+		start_experience_factor = 0.3
+	}
+
+		### Navy ###
+#Osaka - Republican Grand Battlefleet
+	navy = {
+		name = "Kyōwakoku Sōdaina Sentōki"
+		base = 7072
+		location = 7072
+		
+		ship = { name = "Zankokunatenshi" definition = carrier equipment = { carrier_2 = {amount = 1 owner = JAP} } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "JAP" amount = 30 } 
+				cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 25 } 	
+
+			}
+		}
+		ship = { name = "Sorairo" definition = carrier equipment = { carrier_2 = {amount = 1 owner = JAP} } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "JAP" amount = 30 } 
+				cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 25 } 	
+
+			}
+		}
+		ship = { name = "Shiriusu" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "JAP" amount = 25 } 
+				cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 20 } 	
+
+			}
+		}
+		ship = { name = "Ōkina Bosu" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Kotai Hebi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Ekitai Hebi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Furui Hebi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Sendai" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Jintsu" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Nagara" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Edo" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Ariake" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Yugure" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Hatsuharu" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Nenohi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
+		ship = { name = "Wakaba" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+		ship = { name = "Hatsushimo" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Mutsuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Kisaragi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Yayoi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Uzuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Asakaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Harukaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Matsukaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Hatakaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+	}
+	
+	navy = { #Edo - Eastern Sea Battlefleet 
+		name = "Tōkai Sentōki"
+		base = 9998
+		location = 9998
+		
+		ship = { name = "Umōbuton" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "JAP" amount = 25 } 
+				cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 20 } 	
+
+			}
+		}
+		ship = { name = "Chimamire Nagare" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "JAP" amount = 25 } 
+				cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 20 } 	
+
+			}
+		}
+		ship = { name = "Oserotto" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Mankashoku" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Matoi" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Kuma" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Abukuma" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Isuzu" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Yugiri" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
+		ship = { name = "Sagiri" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Shiokaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Yukaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Tachikaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Hokaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Akatsuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Hibiki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+		ship = { name = "Ikazuchi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
+		ship = { name = "Inazuma" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
+	}
+	
+	navy = { #Moluccas - Southern Sea Fleet 
+		name = "Nankai Kantai"
+		base = 11932
+		location = 11932
+		
+		ship = { name = "Sunaipāookami" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Kamina" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
+		ship = { name = "Yoko" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
+		ship = { name = "Natori" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Yura" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Satsuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Minazuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Fumizuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Nagatsuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Kikuzuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Mikazuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Mochizuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+	}
+	
+	navy = { #Okinawa - China Sea Fleet 
+		name = "Higashishinakai Kantai"
+		base = 11932
+		location = 11932
+		
+		ship = { name = "Nagareboshi" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "JAP" amount = 25 } 
+				cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 20 } 	
+
+			}
+		}
+		ship = { name = "Saikomanto" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Ikari" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ayanami" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
+		ship = { name = "Oi" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }
+		ship = { name = "Tenryu" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Tama" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = } } }
+		ship = { name = "Oboro" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
+		ship = { name = "Akebono" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
+		ship = { name = "Sazanami" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP v} } }
+		ship = { name = "Ushio" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Murakumo" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+		ship = { name = "Usugumo" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
+		ship = { name = "Shirakumo" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Yuzuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+	}
+	
+	navy = { #Coast Guard No. 1
+		name = "1st Engan Keibitai"
+		base = 6994
+		location = 6994
+		
+		ship = { name = "Kuma" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Yomogi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Tade" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Kiku" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Aoi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Hagi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Fuji" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Susuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Tsuta" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+	}
+	
+	navy = { #Coast Guard No. 2 - Hiroshima
+		name = "2nd Engan Keibitai"
+		base = 1092
+		location = 1092 
+		
+		ship = { name = "Abukuma" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Ariake" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Yugure" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Hatsuharu" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Nenohi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
+		ship = { name = "Wakaba" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+		ship = { name = "Hatsushimo" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Mutsuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Kisaragi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Yayoi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Uzuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+	}
+	
+	navy = {
+		name = "1st Sensui Sentai" 
+		base = 7197
+		location = 7197  
+		
+		ship = { name = "RJ-51" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+		ship = { name = "RJ-152" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }		
+		ship = { name = "RJ-153" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }			
+		ship = { name = "RJ-154" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
+		ship = { name = "RJ-155" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
+		ship = { name = "RJ-156" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+		ship = { name = "RJ-157" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
+		ship = { name = "RJ-158" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+		ship = { name = "RJ-159" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+		ship = { name = "RJ-60" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+		ship = { name = "RJ-61" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+		ship = { name = "RJ-162" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
+		ship = { name = "RJ-63" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
+		ship = { name = "RJ-164" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+		ship = { name = "RJ-165" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
+		ship = { name = "RJ-166" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
+		ship = { name = "RJ-67" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+		ship = { name = "RJ-168" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+		ship = { name = "RJ-169" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+		ship = { name = "RJ-70" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+		ship = { name = "RJ-171" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+	}
+	
+	
+	navy = {
+		name = "2nd Sensui Kantai"
+		base = 1092
+		location = 1092  # Hiroshima
+		
+		ship = { name = "Ro-26" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-27" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-28" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-30" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-31" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-32" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-33" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-51" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-56" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-57" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-58" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-59" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-60" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-61" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-62" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-63" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-64" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-65" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-66" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-67" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ro-68" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }	
+	}
+	
+}
+
+## AIRPLANES ##
+air_wings = {
+
+	282 = { 
+		fighter_equipment_0 = {
+			owner = "JAP" 
+			amount = 76
+		}
+		fighter_equipment_0 = {
+			owner = "JAP" 
+			amount = 76
+		}
+		CAS_equipment_1 =  {
+			owner = "JAP" 
+			amount = 52
+		}
+		tac_bomber_equipment_0 =  {
+			owner = "JAP" 
+			amount = 36
+		}
+	}
+	
+	528 = {
+		fighter_equipment_0 = {
+			owner = "JAP" 
+			amount = 76
+		}
+		fighter_equipment_0 = {
+			owner = "JAP" 
+			amount = 76
+		}
+		nav_bomber_equipment_1 = {
+			owner = "JAP"
+			amount = 52
+		}
+	}
+	
+	526 = {
+		fighter_equipment_0 = {
+			owner = "JAP" 
+			amount = 76
+		}
+		nav_bomber_equipment_1 = {
+			owner = "JAP"
+			amount = 52
+		}
+	}
+
+}

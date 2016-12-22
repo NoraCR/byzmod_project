@@ -3,18 +3,20 @@
 # Starting tech
 set_research_slots = 4
 
-oob = "HDA_1936"
+oob = "HDA_byzfire"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	support_weapons = 1
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
 	gw_artillery = 1
 	gwtank = 1
 	early_fighter = 1
+	fighter1 = 1
 	cv_early_fighter = 1
 	cv_naval_bomber1 = 1
 	cv_CAS1 = 1
