@@ -1,7 +1,7 @@
 ﻿capital = 341
 
 set_research_slots = 4
-oob = "BYZ_1936"
+oob = "BYZ_byzfire"
 
 
 # Starting tech

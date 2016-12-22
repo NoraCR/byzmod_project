@@ -1,6 +1,6 @@
 ﻿capital = 531 #Kyoto
 
-oob = "JAP_1936"
+oob = "JAP_byzfire"
 
 set_national_unity = 0.95
 
