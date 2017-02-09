@@ -160,19 +160,17 @@ units = {
 
 	}
 	division= {	
-		name = "Podolska B.K."
+		name = "Podolska D.P."
 		location = 3485
 		division_template = "Krolewski Dywizja Pancernej" 
-		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division= {	
-		name = "Wielkopolska B.K."
+		name = "Wielkopolska D.P."
 		location = 3485
-		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
+		division_template = "Krolewski Dywizja Pancernej" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -204,10 +202,9 @@ units = {
 
 	}
 	division= {	
-		name = "Kresowa B.K."
+		name = "Kresowa Husaria"
 		location = 6534
-		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
+		division_template = "Krolewski Husaria" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -248,10 +245,9 @@ units = {
 
 	}
 	division= {	
-		name = "Krakowska B.K."
+		name = "Krakowska Artyleria"
 		location = 3553
-		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
+		division_template = "Krolewski Artyleria" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -286,7 +282,6 @@ units = {
 		name = "Nowogródzka B.K."
 		location = 11511
 		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -295,7 +290,6 @@ units = {
 		name = "Mazowiecka B.K."
 		location = 11511
 		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -415,10 +409,9 @@ units = {
 
 	}
 	division= {	
-		name = "Pomorska B.K."
+		name = "Pomorska Artyleria"
 		location = 6534
-		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
+		division_template = "Krolewski Artyleria"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
