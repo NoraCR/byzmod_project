@@ -2,7 +2,7 @@
 
 oob = "FRA_byzfire"
 
-set_research_slots = 3
+set_research_slots = 4
 
 # Starting tech
 set_technology = {
@@ -59,6 +59,38 @@ add_to_faction = POR
 
 set_convoys = 300
 set_national_unity = 0.75
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = BAV
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = HOL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = SPR
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		set_autonomy = {
+			target = BAV
+			autonomous_state = autonomy_puppet
+		}
+		set_autonomy = {
+			target = HOL
+			autonomous_state = autonomy_puppet
+		}
+		set_autonomy = {
+			target = SPR
+			autonomous_state = autonomy_puppet
+		}
+	}
+}
 
 set_politics = {
 
