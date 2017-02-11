@@ -36,7 +36,7 @@ bookmarks = {
 		}
 		"AYI"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = communism
 			ideas = {
 				sour_loser
 				general_staff
