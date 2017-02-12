@@ -1,8 +1,8 @@
-﻿capital = 613 # Nanjing
+capital = 236 # Astrakhan
 
-oob = "CHI_byzfire"
+oob = "AKH_byzfire"
 
-set_research_slots = 4
+set_research_slots = 3
 
 # Starting tech
 set_technology = {
@@ -15,18 +15,11 @@ set_technology = {
 	gw_artillery = 1
 	gwtank = 1
 	basic_light_tank = 1
-	improved_light_tank = 1
-	basic_heavy_tank = 1
 	early_fighter = 1
 	fighter1 = 1
-	heavy_fighter1 = 1
-	cv_early_fighter = 1
-	cv_naval_bomber1 = 1
-	cv_CAS1 = 1
 	naval_bomber1 = 1
 	CAS1 = 1
 	early_bomber = 1
-	tactical_bomber1 = 1
 	early_submarine = 1
 	basic_submarine = 1
 	early_destroyer = 1
@@ -35,49 +28,19 @@ set_technology = {
 	early_heavy_cruiser = 1
 	early_battleship = 1
 	early_battlecruiser = 1
-	early_carrier = 1
-	basic_carrier = 1
 	transport = 1
 	superior_firepower = 1
 	base_strike = 1
-	basic_machine_tools = 1
-	electronic_mechanical_engineering = 1
 }
 
-# DIPLOMACY
-create_faction = Chinabloc
-add_to_faction = CHI
-add_to_faction = SOM
-add_to_faction = TIB
-add_to_faction = TRX
-add_to_faction = NEN
-add_to_faction = AKH
-
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = AKH
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		set_autonomy = {
-			target = AKH
-			autonomous_state = autonomy_puppet
-		}
-	}
-}
-
-set_convoys = 400
+set_convoys = 200
 
 
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 15
+			popularity = 10
 		}
 
 		fascism = {
@@ -105,9 +68,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Zhang Zhulin"
+	name = "Liu Kesan"
 	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "chi_zhang_zhulin.dds"
+	picture = "akh_liu_kesan.dds"
 	expire = "1965.1.1"
 	ideology = shanghai_school_economics
 	traits = {
@@ -120,7 +83,7 @@ create_country_leader = {
 	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
 	picture = "Portrait_China_Chiang_Kai_Shek.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = moderatism
 	traits = {
 		#
 	}
@@ -129,39 +92,37 @@ create_country_leader = {
 set_national_unity = 0.6
 
 create_country_leader = {
-	name = "Mao Zedong"
+	name = "Chang Zi-Ping"
 	desc = "POLITICS_MAO_ZEDONG_DESC"
 	picture = "Portrait_China_Mao_Zedong.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = stalinism
 	traits = {
 		cornered_fox
 	}
 }
 
 create_country_leader = {
-	name = "Wang Jingwei"
+	name = "Byambyn Jamsu"
 	desc = "POLITICS_WANG_JINGWEI_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = rexism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Zhang Lan"
+	name = "Enver Chagaev"
 	desc = "POLITICS_ZHANG_LAN_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = liberalism
 	traits = {
 		#
 	}
 }
-
-add_opinion_modifier = { target = PRC modifier = hostile_status }
 
 1939.1.1 = {
 	set_politics = {
@@ -193,28 +154,28 @@ add_opinion_modifier = { target = PRC modifier = hostile_status }
 }
 
 create_field_marshal = {
-	name = "Tu Yu-ming"
+	name = "Gao Hongqi"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { defensive_doctrine }
 	skill = 4
 }
 
 create_field_marshal = {
-	name = "Hsueh Yueh"
+	name = "Naidangiin Damba"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
 	traits = { offensive_doctrine }
 	skill = 3
 }
 
 create_field_marshal = {
-	name = "Tai An-lan"
+	name = "Ulambayar Erdeni"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	traits = {  offensive_doctrine }
 	skill = 3
 }
 
 create_field_marshal = {
-	name = "Wang Yao-wu"
+	name = "Ma Fuxiang"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	traits = { defensive_doctrine }
 	skill = 2

@@ -4,15 +4,17 @@ state={
 	name="STATE_236"
 	manpower = 647208
 	
-	state_category = rural
+	state_category = city
 
 	history={
-		owner = CHI
+		owner = AKH
 		victory_points = {
-			9753 3 
+			9753 30.0 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 2
 			air_base = 1
 		}
 		add_core_of = CHI
