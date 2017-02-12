@@ -81,7 +81,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Chiang Kai-shek"
+	name = "Hu Anliang I"
 	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
 	picture = "Portrait_China_Chiang_Kai_Shek.dds"
 	expire = "1965.1.1"
@@ -105,7 +105,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Byambyn Jamsu"
+	name = "Hu Fuxiang IV"
 	desc = "POLITICS_WANG_JINGWEI_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1965.1.1"
@@ -156,7 +156,7 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Gao Hongqi"
+	name = "La Wenxiu"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { defensive_doctrine }
 	skill = 4
