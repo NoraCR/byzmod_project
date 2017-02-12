@@ -178,7 +178,7 @@ units = {
 		ship = { name = "LE Cosantoir" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = IRE  } } }				
 		ship = { name = "LE Echtra" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE  } } }	
 		ship = { name = "LE Niamh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE  } } }									
-		ship = { name = "LE Tir na n”g" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE  } } }								
+		ship = { name = "LE Tir na nog" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE  } } }								
 		ship = { name = "LE Mag Mell" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE  } } }
 		ship = { name = "LE Padraig" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
 		ship = { name = "LE Brigit of Kildare" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
