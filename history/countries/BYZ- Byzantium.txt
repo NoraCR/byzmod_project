@@ -331,7 +331,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Ephraim Zymvrakakis"
 		picture = "byz_ephraim_zymvrakakis.dds"
-	traits = { old_guard_navy superior_tactician }
+	traits = { superior_tactician }
 	skill = 4
 }
 
