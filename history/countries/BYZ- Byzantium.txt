@@ -137,6 +137,300 @@ create_country_leader = {
 	}
 }
 
+create_corps_commander = {
+	name = "Yavuz Arikan"
+	picture = "byz_yavuz_arikan.dds"
+	traits = { trickster }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Anteros Cyrahzax"
+	picture = "byz_anteros_cyrahzax.dds"
+	traits = { old_guard mountaineer }
+	skill = 3
+}
+
+create_field_marshal = {
+	name = "Louis Barthas"
+	picture = "byz_gen_barthas.dds"
+	traits = { defensive_doctrine charismatic }
+	skill = 7
+}
+
+create_field_marshal = {
+	name = "Theodora Papadopolous"
+	picture = "byz_gen_papadopolous.dds"
+	traits = { offensive_doctrine defensive_doctrine }
+	skill = 9
+}
+
+create_field_marshal = {
+	name = "Zenobia Stanotas"
+	picture = "byz_zenobia_stanotas.dds"
+	traits = { defensive_doctrine }
+	skill = 6
+}
+
+create_field_marshal = {
+	name = "Lydia de Bassot"
+	picture = "byz_lydia_de_bassot.dds"
+	traits = { logistics_wizard }
+	skill = 6
+}
+
+create_corps_commander = {
+	name = "Elias Mars"
+	picture = "byz_elias_mars.dds"
+	traits = {  panzer_leader }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Isidora Staikopoulos"
+	picture = "byz_isidora_staikopoulos.dds"
+	traits = {  }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Drakon Zymvrakakis"
+	picture = "byz_drakon_zymvrakakis.dds"
+	traits = { engineer invader }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Mira Varon"
+	picture = "byz_mira_varon.dds"
+	traits = {  }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Auriane Pasquier"
+	picture = "byz_auriane_pasquier.dds"
+	traits = { trickster }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Emma Volkova"
+	picture = "byz_emma_volkova.dds"
+	traits = {  }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Andrej Radonjanin"
+	picture = "byz_andrej_radonjanin.dds"
+	traits = { ranger }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Jovana Hajdin"
+	picture = "byz_jovana_hajdin.dds"
+	traits = { mountaineer }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Magdalena Kavonski"
+	picture = "byz_magdalena_kavonski.dds"
+	traits = { hill_fighter }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Darko Sirola"
+	picture = "byz_darko_sirola.dds"
+	traits = { winter_specialist }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Osman Cagri"
+	picture = "byz_osman_cagri.dds"
+	traits = {  }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Veysel Karaman"
+	picture = "byz_veysel_karaman.dds"
+	traits = { desert_fox }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Emira Zovko"
+	picture = "byz_emira_zovko.dds"
+	traits = {  }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Salvatore Fiametta"
+	picture = "byz_salvatore_fiametta.dds"
+	traits = {  }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Rosalia Zorzi"
+	picture = "byz_rosalia_zorzi.dds"
+	traits = {  }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Vera Belitrova"
+	picture = "byz_vera_belitrova.dds"
+	traits = {  }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Evangeline Hira"
+	picture = "byz_evangeline_hira.dds"
+	traits = {  }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Anastasia Sava"
+	picture = "byz_anastasia_sava.dds"
+	traits = {  }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Elizabeth Kezra"
+	picture = "byz_elizabeth_kezra.dds"
+	traits = { old_guard }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Vasilios Flesnolk"
+		picture = "byz_vasilios_flesnolk.dds"
+	traits = { superior_tactician ironside }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Ercole Andretti"
+		picture = "byz_ercole_andretti.dds"
+	traits = { superior_tactician spotter }
+	skill = 5
+}
+
+create_navy_leader = {
+	name = "Ephraim Zymvrakakis"
+		picture = "byz_ephraim_zymvrakakis.dds"
+	traits = { old_guard_navy superior_tactician }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Iskender Qutuzid"
+		picture = "byz_iskender_qutuzid.dds"
+	traits = { spotter }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Alessandra Carlini"
+	picture = "byz_alessandra_carlini.dds"
+	traits = { seawolf }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Callidora Mars"
+		picture = "byz_callidora_mars.dds"
+	traits = { fly_swatter }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Leonid Shulgin"
+		picture = "byz_leonid_shulgin.dds"
+	traits = {  }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Ptolema Makris"
+		picture = "byz_ptolema_makris.dds"
+	traits = { old_guard_navy }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Demetrius Cyrahzax"
+		picture = "byz_demetrius_cyrahzax.dds"
+	traits = { blockade_runner }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Damon Manellas"
+	picture = "byz_damon_manellas.dds"
+	traits = {  }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Samuil Volgin"
+		picture = "byz_samuil_volgin.dds"
+	traits = { superior_tactician }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Nazim Dagdelen"
+		picture = "byz_nazim_dagdelen.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Elena Dragunova"
+		picture = "byz_elena_dragunova.dds"
+	traits = {  }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Sofia Vidale"
+	picture = "byz_sofia_vidale.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Zelia Doukas"
+	picture = "byz_zelia_doukas.dds"
+	traits = { old_guard_navy }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Irene Palaiologos"
+	picture = "byz_irene_palaiologos.dds"
+	traits = {  }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Marina Zubareva"
+	picture = "byz_marina_zubareva.dds"
+	traits = {  }
+	skill = 5
+}
+
 
 ### Ship Variants ###
 

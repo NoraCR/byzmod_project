@@ -183,3 +183,31 @@ create_field_marshal = {
 	traits = { defensive_doctrine }
 	skill = 2
 }
+
+create_corps_commander = {
+	name = "Zhang Chongxi"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	traits = { desert_fox panzer_leader }
+	skill = 5
+}
+
+create_navy_leader = {
+	name = "Byambyn Jamsu"
+		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	traits = { spotter }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Pai Hualong"
+		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
+	traits = { superior_tactician spotter }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Ruslan Bragin"
+		picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_navy_3.dds"
+	traits = { }
+	skill = 3
+}
