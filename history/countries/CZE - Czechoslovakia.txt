@@ -24,19 +24,23 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 1
+			popularity = 20
 		}
 
 		fascism = {
-			popularity = 1
+			popularity = 3
 		}
 		
 		communism = {
 			popularity = 1
 		}
 		
+		pangalism = { 
+			popularity = 1
+		}
+		
 		neutrality = {
-			popularity = 97
+			popularity = 75
 		}
 	}
 	
@@ -47,20 +51,20 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Edvard Beneš" # Beneš if we get font support :)
+	name = "Robert Havlik"
 	desc = "POLITICS_EDVARD_BENES_DESC"
-	picture = "Portrait_Czech_Edvard_Benes.dds"
+	picture = "cze_robert_havlik.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = liberalism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Jaroslav Krejčí"
+	name = "Roland I Ceska Lipa"
 	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
-	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
+	picture = "cze_roland_ceska_lipa.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -69,11 +73,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Klement Gottwald"
+	name = "Jolana Sukova"
 	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
-	picture = "Portrait_Czech_Klement_Gottwald.dds"
+	picture = "cze_jolana_sukova.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gustav Kraus"
+	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
+	picture = "cze_vladan_zukal.dds"
+	expire = "1965.1.1"
+	ideology = objectivism
 	traits = {
 		#
 	}
@@ -94,5 +109,12 @@ create_field_marshal = {
 	name = "Daniel Zukal"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { defensive_doctrine }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Nikolas Ceska Lipa"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { trait_mountaineer }
 	skill = 3
 }

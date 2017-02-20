@@ -81,7 +81,7 @@ units = {
 		location = 3342
 		division_template = "Rannan Coisithe"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.4
 
 	}			
 	division= {			
