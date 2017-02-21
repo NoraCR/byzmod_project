@@ -136,7 +136,7 @@ set_technology = {
 }
 
 
-set_convoys = 10
+set_convoys = 100
 
 set_politics = {
 
@@ -154,7 +154,11 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 25
+			popularity = 20
+		}
+		
+		pangalism = { 
+			popularity = 5
 		}
 	}
 	
@@ -204,20 +208,20 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ignacy Mościcki"
+	name = "Augustyn Landa"
 	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
-	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
+	picture = "pol_augustyn_landa.dds"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = cacicazgo
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Władysław Gomułka"
+	name = "Justyn Korda"
 	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
+	picture = "pol_justyn_korda.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
@@ -226,11 +230,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wincenty Witos"
+	name = "Bohater Wolinski"
 	desc = "POLITICS_WINCENTY_WITOS_DESC"
-	picture = "GFX_POL_wincenty_witos"
+	picture = "pol_bohater_wolinski.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = socialism
 	traits = {
 		#
 	}
