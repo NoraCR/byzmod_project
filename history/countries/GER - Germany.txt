@@ -104,14 +104,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm Pieck"
-	desc = "POLITICS_WILHELM_PIECK_DESC"
-	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	name = "Niklaus I von Kotzau"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "ger_paul_meier.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = moderatism
 	traits = {
-		stalins_puppet
-		exiled
+	}
+}
+
+create_country_leader = {
+	name = "Maria Hoffman"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "ger_maria_hoffman.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
 	}
 }
 
