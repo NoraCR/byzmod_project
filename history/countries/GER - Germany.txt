@@ -83,11 +83,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Adolf Hitler"
+	name = "Kunigunde I von Starschedel"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Germany_Adolf_Hitler.dds"
+	picture = "ger_kunigunde_von_starschedel.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = fascism_ideology
 	traits = {
 		dictator
 	}

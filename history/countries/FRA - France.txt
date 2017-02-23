@@ -104,7 +104,11 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 10
+			popularity = 8
+		}
+		
+		pangalism = {
+			popularity = 2
 		}
 	}
 	
@@ -121,24 +125,33 @@ add_ideas = {
 	limited_conscription
 }
 
-#give_guarantee = CZE
 
-#Order matters here Daladier will start as leaders because added last
 create_country_leader = {
-	name = "Charles de Gaulle"
+	name = "Louis VIII de Valois-Vexin"
 	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
-	picture = "Portrait_France_Charles_De_Gaulle.dds"
+	picture = "fra_louis_de_valois_vexin.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = oligarchism
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Édouard Daladier"
+	name = "Lucienne Marais"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
+	picture = "fra_lucienne_marais.dds"
+	expire = "1965.1.1"
+	ideology = objectivism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Kevin Vaugrenard"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "fra_kevin_vaugrenard.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -147,9 +160,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Maurice Thorez"
+	name = "Jocelyne Rodier"
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
-	picture = "Portrait_France_Generic_3.dds"
+	picture = "fra_jocelyne_rodier.dds"
 	expire = "1965.1.1"
 	ideology = 	leninism
 	traits = {
@@ -183,10 +196,10 @@ create_corps_commander = {
 }
 
 create_field_marshal = {
-	name = "Maurice Gamelin"
-	picture = "Portrait_France_Maurice_Gamelin.dds"
-	traits = { defensive_doctrine old_guard }
-	skill = 2
+	name = "Armel de Forbin"
+	picture = "fra_armel_de_forbin.dds"
+	traits = { defensive_doctrine offensive_doctrine }
+	skill = 9
 }
 
 create_field_marshal = {
