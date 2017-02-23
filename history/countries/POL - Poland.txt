@@ -197,9 +197,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Władysław Sikorski"
+	name = "Ludwyk Weyher"
 	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
+	picture = "pol_ludwyk_weyher.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {
@@ -252,10 +252,10 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Władysław Sikorski"
-	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
-	traits = { defensive_doctrine }
-	skill = 3
+	name = "Ludwyk Weyher"
+	picture = "pol_ludwyk_weyher.dds"
+	traits = { offensive_doctrine logistics_wizard }
+	skill = 5
 }
 
 create_field_marshal = {

@@ -106,8 +106,8 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Daniel Zukal"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	name = "Vladan I Zukal"
+	portrait_path = "cze_vladan_zukal.dds"
 	traits = { defensive_doctrine }
 	skill = 3
 }
