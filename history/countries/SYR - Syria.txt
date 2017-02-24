@@ -87,9 +87,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Hashim al-Atassi"
+	name = "Muhammad al-Wazir"
 	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_navy_1.dds"
+	picture = "syr_muhammad_al_wazir.dds"
 	ideology = liberalism
 	traits = {
 		#

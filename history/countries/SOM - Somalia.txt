@@ -79,13 +79,13 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Xuseen "
+	name = "Xuseen Mohamed"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
 	expire = "1947.1.1"
 	ideology = liberalism
 	traits = {
-		dislikes_germany
+		
 	}
 }
 
@@ -94,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = "Portrait_USA_William_Dudley_Pelley.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = falangism
 	traits = {
 		
 	}
@@ -116,7 +116,7 @@ create_country_leader = {
 	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
 	picture = "som_pan_adey_walashma.dds"
 	expire = "1965.1.1"
-	ideology = shanghai_school_economics
+	ideology = corpocracy
 	traits = {
 		#
 	}

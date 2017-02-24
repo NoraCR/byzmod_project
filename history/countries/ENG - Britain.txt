@@ -222,11 +222,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Rajani Palme Dutt"
+	name = "Mary Napier"
 	desc = "POLITICS_PALME_DUTT_DESC"
-	picture = "Portrait_Britain_Palme_Dutt.dds"
+	picture = "eng_mary_napier.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = marxism
 	traits = {
 		
 	}

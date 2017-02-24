@@ -67,6 +67,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Konstantinos Shahbal"
+	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	picture = "ken_konstantinos_shahbal.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
 1939.1.1 = {
 	set_politics = {
 

@@ -6,11 +6,14 @@ set_research_slots = 3
 
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantry_weapons1 = 
+	gwtank = 1
+	basic_light_tank = 1
 	tech_support = 1		
 	tech_recon = 1
 	gw_artillery = 1
 	early_fighter = 1
+	fighter1 = 1
 	CAS1 = 1
 }
 
@@ -79,15 +82,19 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 43
+			popularity = 45
 		}
 
 		fascism = {
-			popularity = 3
+			popularity = 2
 		}
 		
 		communism = {
-			popularity = 54
+			popularity = 52
+		}
+		
+		pangalism = {
+			popularity = 1
 		}
 	}
 	
@@ -109,9 +116,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Mátyás Rákosi"
+	name = "Zsigmond Juhasz"
 	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
-	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
+	picture = "hun_zsigmond_juhasz.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {

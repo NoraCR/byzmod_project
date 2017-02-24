@@ -57,6 +57,10 @@ set_politics = {
 			popularity = 2
 			#banned = no #default is no
 		}
+
+		pangalism = {
+			popularity = 0
+		}
 	}
 	
 	ruling_party = democratic
@@ -66,9 +70,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Democratic Placeholder"
+	name = "Yeltatzie Kaawaas"
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	picture = "hda_yeltatzie_kaawaas.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
