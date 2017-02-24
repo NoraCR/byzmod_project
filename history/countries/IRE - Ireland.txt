@@ -44,10 +44,6 @@ set_technology = {
 
 }
 
-add_ideas = {
-	limited_conscription
-}
-
 set_convoys = 100
 
 1939.1.1 = {
