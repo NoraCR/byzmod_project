@@ -55,7 +55,7 @@ set_politics = {
 create_country_leader = {
 	name = "Fatima Iqbal"
 	desc = ""
-	picture = "lba_fatima_iqbal.dds.dds"
+	picture = "lba_fatima_iqbal.dds"
 	ideology = liberalism
 	traits = {
 		#
