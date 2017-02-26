@@ -27,7 +27,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Gebirgsjäger"					# Bavarian mountain division
+	name = "Gebirgsjager"					# Bavarian mountain division
 	regiments = {
 		mountaineers = { x = 0 y = 0 }			# It might or might not be saying much but these guys are the best troops Bavaria has to offer
 		mountaineers = { x = 0 y = 1 }
@@ -112,26 +112,26 @@ units = {
 
 	}
 	division= {	
-		name = "1. Gebirgsjäger"			
+		name = "1. Gebirgsjager"			
 		location = 3692
-		division_template = "Gebirgsjäger"
+		division_template = "Gebirgsjager"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 
 	}
 	division= {	
-		name = "2. Gebirgsjäger"			
+		name = "2. Gebirgsjager"			
 		location = 3530
-		division_template = "Gebirgsjäger"
+		division_template = "Gebirgsjager"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 
 	}
 
 	division= {	
-		name = "3. Gebirgsjäger"				
+		name = "3. Gebirgsjager"				
 		location = 9515  # Vienna
-		division_template = "Gebirgsjäger"
+		division_template = "Gebirgsjager"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 
