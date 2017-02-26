@@ -540,7 +540,7 @@ units = {
 	# XIXe Corps d'Armée (Région Militaire in 1936) -- Alger
 	division= {	
 		name = "1ère Bge. d'Infanterie Algérienne"
-		location = 1145
+		location = 6788
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -549,7 +549,7 @@ units = {
 	}
 	division= {	
 		name = "2ème Bge. d'Infanterie Algérienne"
-		location = 1145
+		location = 6788
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -558,7 +558,7 @@ units = {
 	}
 	division= {	
 		name = "4ème Bge. d'Infanterie Algérienne"
-		location = 1145
+		location = 6788
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -567,7 +567,7 @@ units = {
 	}
 	division= {	
 		name = "5ème Bge. d'Infanterie Algérienne"
-		location = 1145
+		location = 6788
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -577,7 +577,7 @@ units = {
 	# attached directly to Army
 	division= {	
 		name = "3ème Bge. d'Infanterie Algérienne"
-		location = 7132
+		location = 11502
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -586,7 +586,7 @@ units = {
 	}
 	division= {	
 		name = "7ème Bge. d'Infanterie Algérienne"
-		location = 7132
+		location = 11502
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -595,7 +595,7 @@ units = {
 	}
 	division= {	
 		name = "Groupement Cavalerie d'Algérienne"
-		location = 7132
+		location = 11502
 		division_template = "Division de Cavalerie" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -606,7 +606,7 @@ units = {
 	### Army: Protectorat de Tunisie ### -- Tunis
 	division= {	
 		name = "Division de Tunis"
-		location = 11969
+		location = 6788
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -615,7 +615,7 @@ units = {
 	}
 	division= {	
 		name = "Division de Sousse"
-		location = 9994
+		location = 11773
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -626,7 +626,7 @@ units = {
 	### Army: Protectorat du Maroc ### -- Casablanca
 	division= {	
 		name = "Division de Meknès"
-		location = 7069
+		location = 6788
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -635,7 +635,7 @@ units = {
 	}
 	division= {	
 		name = "Division de Casablanca"	
-		location = 7069
+		location = 6788
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -644,7 +644,7 @@ units = {
 	}
 	division= {	
 		name = "Division de Fès"
-		location = 7100
+		location = 6788
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -653,7 +653,7 @@ units = {
 	}
 	division= {	
 		name = "Division de Marrakech"	
-		location = 7069
+		location = 6788
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -662,7 +662,7 @@ units = {
 	}
 	division= {	
 		name = "Groupement de Maroc"
-		location = 7100
+		location = 6788
 		division_template = "Division de Cavalerie" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -675,7 +675,7 @@ units = {
 	### Army: Mandat du Levant ### -- Beirut
 	division= {	
 		name = "Mandat du Levant"
-		location = 792
+		location = 6788
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -686,7 +686,7 @@ units = {
 	# Troupes de Madagascar
 	division= {	
 		name = "Troupes de Madagascar"	
-		location = 5222
+		location = 6788
 		division_template = "Brigade Coloniale" 	# Miltia unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_equipment_factor = 0.15
@@ -697,7 +697,7 @@ units = {
 	##### Far Seas Theatre ##### -- Dakar
 	division= {	
 		name = "Troupes de Sénégalais"
-		location = 4948
+		location = 9793
 		division_template = "Brigade Coloniale" 	# Miltia unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_equipment_factor = 0.3
@@ -705,7 +705,7 @@ units = {
 	}
 	division= {	
 		name = "Troupes de Afrique Equatoriale Française"	
-		location = 5139
+		location = 9793
 		division_template = "Brigade Coloniale" 	# Miltia unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_equipment_factor = 0.15
@@ -717,7 +717,7 @@ units = {
 	### Army Group: Troupes d'Indochine ### -- Saigon
 	division= {	
 		name = "Division de Tonkin"
-		location = 4401
+		location = 6583
 		division_template = "Division Infanterie" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -726,7 +726,7 @@ units = {
 	}
 	division= {	
 		name = "Division de Cochinchine-Cambodge"
-		location = 4075
+		location = 6583
 		division_template = "Division Infanterie" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -735,7 +735,7 @@ units = {
 	}
 	division= {	
 		name = "Brigade d'Annam-Laos"	
-		location = 7376
+		location = 6583
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -875,8 +875,8 @@ units = {
 	### NORTH AFRICA ###				
 	navy = {				
 		name = "Flottille de Haute Mers"			
-		base = 7132 
-		location = 7132 # Oran			
+		base = 9863 
+		location = 9863 # Oran			
 		ship = { name = "Juliana Comnena Magna" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }			
 		ship = { name = "Augustus Caesar" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }			
 		ship = { name = "Traianus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }			
@@ -903,8 +903,8 @@ units = {
 	}				
 	navy = {				
 		name = "Attack Force Légère"			
-		base = 9994 
-		location = 9994 # Bizerte, Tunisia	
+		base = 11773 
+		location = 11773 # Bizerte, Tunisia	
 		ship = { name = "Dolabra" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FRA } } }	# La Galissonnière variant
 		ship = { name = "Falx" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
 		# 1e Division des Contre-Torpilleurs
@@ -922,16 +922,16 @@ units = {
 	}				
 	navy = {				
 		name = "Flotte du Afrique de l'Ouest"			
-		base = 4948 
-		location = 4948 # Dakar			
+		base = 9793 
+		location = 9793 # Dakar			
 		ship = { name = "Plumbata" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
 		ship = { name = "Scutum" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
 		ship = { name = "Parma" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
 	}
 	navy = {				
 		name = "2ème Escadron Soumarins" 			
-		base = 7132 
-		location = 7132 # Oran			
+		base = 9863 
+		location = 9863 # Oran			
 		# 4e Division des Sous-Marins
 		ship = { name = "Messalina" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
 		ship = { name = "Gaius Silius" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
@@ -952,8 +952,8 @@ units = {
 	}				
 	navy = {				
 		name = "6ème Escadron Soumarins"			
-		base = 9994 
-		location = 9994 # Bizerte, Tunisia	
+		base = 11773 
+		location = 11773 # Bizerte, Tunisia	
 		# 9e Division des Sous-Marins
 		ship = { name = "Basiliskianos" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
 		ship = { name = "Theophano" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
@@ -970,8 +970,8 @@ units = {
 	}				
 	navy = {				
 		name = "Soumarins Force de Levant"			
-		base = 792 
-		location = 792 # Beirut			
+		base = 6778 
+		location = 6778 			
 		# 11e Division des Sous-Marins
 		ship = { name = "Thraustelas" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
 		ship = { name = "Petronius Maximus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
@@ -1000,7 +1000,7 @@ air_wings = {
 
 	# Z.d'Op. Aériennes Est -- Reims
 	18 = {
-		# Groupement de Chasse 22
+		 Groupement de Chasse 22
 		fighter_equipment_1 = {
 			owner = "FRA" 
 			amount = 96

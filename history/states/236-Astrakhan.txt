@@ -2,14 +2,14 @@
 state={
 	id=236
 	name="STATE_236"
-	manpower = 647208
+	manpower = 3647208
 	
 	state_category = city
 
 	history={
 		owner = AKH
 		victory_points = {
-			9753 30.0 
+			9753 50.0 
 		}
 		buildings = {
 			infrastructure = 7
@@ -17,7 +17,6 @@ state={
 			industrial_complex = 2
 			air_base = 1
 		}
-		add_core_of = CHI
 	}
 
 	provinces={
