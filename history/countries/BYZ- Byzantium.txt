@@ -78,6 +78,14 @@ set_politics = {
 			popularity = 75
 			#banned = no #default is no
 		}
+		
+		pangalism = {
+			popularity = 0
+		}
+		
+		neutrality = {
+			popularity = 0
+		}
 	}
 	
 	ruling_party = communism
@@ -134,6 +142,28 @@ create_country_leader = {
 	picture = "byz_leader_democracy.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Stephanos I Altuntekin"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "byz_leader_neutral.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Nicola Morosini"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "byz_nicola_morosini.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
 	traits = {
 		
 	}
