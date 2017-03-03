@@ -27,8 +27,9 @@ set_technology = {
 	basic_heavy_tank = 1
 	early_fighter = 1
 	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
 	fighter1 = 1
-	bomber1 = 1
 	CAS1 = 1
 	early_destroyer = 1
 	early_submarine = 1	
@@ -87,7 +88,6 @@ set_technology = {
 	complete_national_focus = production_effort
 
 	add_ideas = {
-		#laws
 		limited_conscription
 		partial_economic_mobilisation
 	}

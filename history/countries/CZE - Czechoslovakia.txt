@@ -107,7 +107,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Vladan I Zukal"
-	portrait_path = "cze_vladan_zukal.dds"
+	portrait_path = "gfx/leaders/CZE/cze_vladan_zukal.dds"
 	traits = { defensive_doctrine }
 	skill = 3
 }

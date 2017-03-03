@@ -1,0 +1,237 @@
+##### Division Templates #####
+division_template = {
+	name = "Askari Mgawanyiko"  	
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Walinzi Mgawanyiko"  	
+
+	regiments = {						
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Silaha Mgawanyiko"  		
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
+		light_armor = { x = 0 y = 1 }		# Bn. of Hotchkiss tanks
+		motorized = { x = 1 y = 0 }			# Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
+		engineer = { x = 0 y = 1 }   # US Eng Bn
+		artillery = { x = 0 y = 2 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
+	}
+}
+division_template = {
+	name = "Mlinzi Mgawanyiko"  		
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+	priority = 0
+}
+
+###### OOB ######
+units = {
+	### 1st Army ###
+	# I Army Corps #
+	division= {			
+		name = "1 Askari la Kenya"		
+		location = 1939
+		division_template = "Askari Mgawanyiko"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}			
+	division= {			
+		name = "2 Askari la Kenya"		
+		location = 1939
+		division_template = "Askari Mgawanyiko"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "3 Askari la Kenya"		
+		location = 1939
+		division_template = "Askari Mgawanyiko"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.3
+
+	}			
+	
+	# III Army Corps #
+	division= {			
+		name = "1 Mlinzi la Kenya"		
+		location = 1939
+		division_template = "Mlinzi Mgawanyiko"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "1 Nyumbani Walinzi la Kenya"		
+		location = 1939
+		division_template = "Walinzi Mgawanyiko"
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.87
+
+	}			
+
+
+	# V Army Corps #	
+	division= {			
+		name = "1 Kivita Walezi la Kenya"		
+		location = 1939
+		division_template = "Silaha Mgawanyiko"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.99
+
+	}
+	
+	division= {			
+		name = "2 Nyumbani Walinzi la Kenya"		
+		location = 1939
+		division_template = "Walinzi Mgawanyiko"
+		start_experience_factor = 0.3
+
+	}			
+
+	##### NAVAL UNITS #####
+	navy = {					
+		name = "Jeshi la Wanamaji la Kenya"				
+		base = 5210
+		location = 5210
+		ship = { name = "KNS Maasai" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KEN } } }				
+		ship = { name = "KNS Kikuyu" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KEN } } }	
+		ship = { name = "KNS Kamba" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KEN  } } }				
+		ship = { name = "KNS Turkana" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KEN  } } }	
+		ship = { name = "KNS Mombasa" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = KEN  } } }				
+		ship = { name = "KNS Nairobi" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = KEN  } } }	
+		ship = { name = "KNS Kisumu" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = KEN  } } }								
+		ship = { name = "KNS Mag Mell" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Kenya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Kilimanjaro" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Elgon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Mau" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Kakamega" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Galana" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Tana" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Elmenteita" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Maasinta" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KEN } } }
+		ship = { name = "KNS Nyakowa" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Were Nyasaye" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Kalisanga" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Kaliteyo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KEN  } } }	
+	}	
+}
+	
+	##### AIR FORCE #####
+air_wings = {
+	### 1 JAK Wing 
+	547 = { 
+		tac_bomber_equipment_0 = {
+			owner = "KEN" 
+			amount = 100
+		}		
+		CAS_equipment_1 = {
+			owner = "KEN" 
+			amount = 50
+		}
+		fighter_equipment_0 =  {
+			owner = "KEN" 
+			amount = 200
+		}
+		fighter_equipment_1 =  {
+			owner = "KEN" 
+			amount = 90
+		}
+	}
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+		
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "KEN"
+		}
+		requested_factories = 1
+		progress = 0.83
+		efficiency = 90
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "KEN" 
+		}
+		requested_factories = 1
+		progress = 0.7
+		efficiency = 75
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "KEN" 
+		}
+		requested_factories = 1
+		progress = 0.97
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "KEN" 
+		}
+		requested_factories = 1
+		progress = 0.45
+		efficiency = 50
+	}
+}
+#####################
