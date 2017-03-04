@@ -57,6 +57,10 @@ set_politics = {
 		neutrality = { 
 			popularity = 0
 		}
+		
+		pangalism = { 
+			popularity = 0
+		}
 	}
 	
 	ruling_party = democratic
@@ -65,14 +69,14 @@ set_politics = {
 	elections_allowed = yes
 }
 
-set_convoys = 20
+set_convoys = 100
 set_national_unity = 0.95
 
-# Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)
+
 create_country_leader = {
-	name = "Lib Placeholder"
+	name = "Azim Derya"
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
-	picture = "Portrait_Turkey_Ismet_Inonu.dds"
+	picture = "azb_azim_derya.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {

@@ -10,9 +10,13 @@ set_technology = {
 	tech_engineers = 1
 	tech_recon = 1
 	gw_artillery = 1
+	interwar_artillery = 1
 	gwtank = 1
 	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
 	early_fighter = 1
+	fighter1 = 1
 	cv_early_fighter = 1
 	cv_naval_bomber1 = 1
 	naval_bomber1 = 1
@@ -34,7 +38,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 45
+			popularity = 55
 		}
 
 		fascism = {
@@ -45,6 +49,11 @@ set_politics = {
 		communism = {
 			popularity = 30
 			#banned = no #default is no
+		}
+		
+		pangalism = {
+			popularity = 10
+			banned = yes
 		}
 		
 		neutrality = { 
@@ -58,9 +67,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Syngman Rhee"
+	name = "Han Kyongsu"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	picture = "kor_han_kyongsu.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {

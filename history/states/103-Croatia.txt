@@ -24,7 +24,6 @@ state={
 			}
 		}
 		add_core_of = BYZ
-		#add_claim_by = ITA #added by focus
 	}
 
 	provinces={

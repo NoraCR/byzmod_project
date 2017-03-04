@@ -135,7 +135,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 17
+			popularity = 80
 		}
 
 		fascism = {
@@ -143,18 +143,22 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 10
+		}
+
+		pangalism = {
+			popularity = 7
 		}
 
 		neutrality = {
-			popularity = 80
+			popularity = 1
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
@@ -192,9 +196,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "B. P. Sitaramayya"
+	name = "Radhanath Trivedi"
 	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	picture = "raj_radhanath_trivedi.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {

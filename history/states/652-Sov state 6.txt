@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = CHI
+		owner = AKH
 		buildings = {
 			infrastructure = 4
 

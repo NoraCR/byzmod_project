@@ -90,22 +90,16 @@
 		prefix = ""
 		generic = { "Senkan" }
 		unique = {
-			"Yamato" "Musashi" "Tosa" "Kii" "Owari" "Iwami" "Sagami" "Suwo" "Hizen" "Tango" "Iki" 
-			# Captured/Converted/Older Models
-			"Fuso" "Yamashiro" "Ise" "Hyuga" "Nagato" "Mutsu" "Kaga" "Shinano" 
-			# Fictional
-			"Dewa" "Hitachi" "Noto" "Hida" "Mino" "Mikawa" "Suruga" "Kai" "Izumi" "Kawachi" "Iga" "Tanba" "Sanuki" "Awa" "Satsuma"
-			"Osumi" "Aki" "Settsu" "Tajima" "Iyo" "Omi"
-			
+			#terms relating to liberty, democracy, etc. use WWWJDIC for reference
+			"Jiyuu" "Kyouwasei" "Kyouwakoku" "Gijidou" "Minshushugi" "Jiyuushugi" "Kakumei" "Kaihouundou" "Kaichou" "Kokumingikai" "Dantoudai" "Okoroshi" "Jingi" "Jyougi" "Kenpou" "Yuuto" "Shikigyou" "Hankou" "Shuukai no Jiyuu" "Genron no Jiyuu" "Kokkaigijidou" "Shoukou" "Risuu" "Funun" "Shinpo" "Sezokushugi" "Gourisei" "Keimoushichou" 
 		}
 	}
 	carrier = {
 		prefix = ""
 		generic = { "Kokubokan" }
 		unique = {
-			"Soryu" "Hiryu" "Shokaku" "Zuikaku" "Junyo" "Hiyo" "Taiho" "Unryu" "Amagi" "Katsuragi" "Shinano" "Kasagi" "Aso" "Ikoma" 
-			"Kurama" "Akagi" "Kaga" "Hosho" "Ryujo" "Zuiho" "Shoho" "Ryuho" "Chitose" "Chiyoda" "Ibuki"	"Taiyo" "Unyo" "Chuyo"
-			"Shinyo"
+			#famous revolutionaries (aka ryuzoji, hasegawa, and a bunch of made-up randos and in-jokes
+			"Ryuzoji Nagahito" "Hasegawa Akiko" "Mori Mariko" "Ishida Buntaro" "Kiyohara Toshiko" "Kanazawa Ichiro" "Uehara Koji" "Takemura Sakura" "Mizuki Arisu" "Kanno Takeshi" "Shimizu Miho" "Iwakura Yasuo" "Yokomitsu Yuka" "Sato Asami" "Murakami Haruko" "Saito Kei" "Kanazawa Aki" "Honda Shinji" "Ishiguro Kazuo" "Maeda Shizuko"
 		}
 	}
 

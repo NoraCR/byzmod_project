@@ -155,13 +155,13 @@ BYZ = {
 		}
 	}
 	surnames = { 
-		Adler Altanis Trakas Alexopoulous Christos Ceska-Lipa Mallas Kanas Zervas Speros Liakos Raptis Gianakos Cyrahzax Abbott Zografou Melli Gianakou Anthe Anthi 
+		Adler Altanis Trakas Alexopoulous Christos "Ceska Lipa" Mallas Kanas Zervas Speros Liakos Raptis Gianakos Cyrahzax Abbott Zografou Melli Gianakou Anthe Anthi 
 		Hondrou Louka Kaliva Papadaki Elia Metaxas Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
 		Mars Birnberg Silverman "ben Nessi" "ben Amarel" "bat Zephaniah" Brewer Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos
 		Kallergis Kanaris Katsimiros Delorme Makaila Cross Lasan Alapic Bakaric Bettera Bilic Blazevic Bondic Boroevic Bosnajk Bunic Crnkovic
 		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis "de Bassot" Flesnolk
 		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
-		Wells Holmgren Acton Albricci Baldissera Cadorna Cagni Landeshut
+		Wells Holmgren Acton Albricci Baldissera Cadorna Cagni Landeshut Hira
 		Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti 
 		Menabrea Orengo Pallavicino Pecori-Giraldi  Pelloux Perruchetti Pianelli Porro
 		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Vaccari Zupelli Zimmerer

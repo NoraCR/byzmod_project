@@ -4,47 +4,47 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "BYZ"
 		default = yes
 		
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = fascism
 			ideas = {
 				FRA_victors_of_wwi
 				FRA_disjointed_government
 				FRA_protected_by_the_maginot_line
 			}
 		}
-		"USA"={
+		"BYZ"={
 			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = communism
 			ideas = {
 				home_of_the_free
 				great_depression
 				undisturbed_isolation
 			}
 		}
-		"ENG"={
+		"MRT"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = communism
 			ideas = {
 				stiff_upper_lip
 				ENG_the_war_to_end_all_wars
 				george_v
 			}
 		}
-		"GER"={
+		"AYI"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = communism
 			ideas = {
 				sour_loser
 				general_staff
 			}
 		}
-		"ITA"={
+		"CHI"={
 			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = pangalism
 			ideas={
 				vittoria_mutilata
 				victor_emmanuel
@@ -52,14 +52,14 @@ bookmarks = {
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = democratic
 			ideas={
 				state_shintoism
 			}			
 		}
-		"SOV"={
+		"SOM"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = pangalism
 			ideas = {
 				trotskyite_plot
 				home_of_revolution

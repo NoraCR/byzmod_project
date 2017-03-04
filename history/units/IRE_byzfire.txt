@@ -1,0 +1,316 @@
+##### Division Templates ##### # 
+division_template = {
+	name = "Rannan Coisithe"  	# Core of the Irish Army. Experience and equipment from the Irish Civil War + reforms and support given by Byzantium = small but powerful army
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+
+division_template = {
+	name = "Rannan Airtleire"  	# Irish doctrine, honed by years of brutal civil war, says infantry are the anvil, artillery are the hammer - armour and motorised exploit breakthroughs
+
+	regiments = {						
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # Paradox guide would put rocket artillery here but that's pretty ahead of time
+		logistics_company = { x= 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Rannan Armurtha"  		# Pretty much copied from the Byzantines. Doubt mechanisation was foreign to the Irish at any point but a lot was destroyed in the war
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
+		light_armor = { x = 0 y = 1 }		# Bn. of Hotchkiss tanks
+		motorized = { x = 1 y = 0 }			# Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
+		engineer = { x = 0 y = 1 }   # US Eng Bn
+		artillery = { x = 0 y = 2 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
+	}
+}
+
+division_template = {
+	name = "Gardai"  		# Unlikely to need to suppress partisans but just in case. In universe maybe they're police? Peacekeepers originally tasked with suppressing Iron Heart insurgency?
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }   
+	}
+}
+
+
+###### OOB ######
+units = {
+	### 1st Army ###
+	# I Army Corps #
+	division= {			
+		name = "1 Rannan Coisithe 'Claiomh Iathghlas'"		
+		location = 3342
+		division_template = "Rannan Coisithe"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+
+	}			
+	division= {			
+		name = "2 Rannan Coisithe 'Sciath Iathglas'"		
+		location = 3342
+		division_template = "Rannan Coisithe"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	# II Army Corps #
+	division= {			
+		name = "3 Rannan Coisithe"		
+		location = 3342
+		division_template = "Rannan Coisithe"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}			
+	division= {			
+		name = "4 Rannan Coisithe 'Rannan Tuar Ceatha'"		
+		location = 3342
+		division_template = "Rannan Coisithe"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "5 Rannan Coisithe"		
+		location = 3342
+		division_template = "Rannan Coisithe"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	
+	# III Army Corps #
+	division= {			
+		name = "1 Rannan Airtleire 'Crith Talun'"		
+		location = 3342
+		division_template = "Rannan Airtleire"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "2 Rannan Airtleire 'Bristeoir Iarann'"		
+		location = 3342
+		division_template = "Rannan Airtleire"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.3
+
+	}			
+
+
+	# V Army Corps #
+	division= {			
+		name = "3 Rannan Airtleire"		
+		location = 3342
+		division_template = "Rannan Airtleire"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "1 Rannan Armurtha 'Toirneach Dearg'"		
+		location = 3342
+		division_template = "Rannan Armurtha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {			
+		name = "2 Rannan Armurtha 'Ridiri Dearg'"		
+		location = 3342
+		division_template = "Rannan Armurtha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}			
+
+	##### NAVAL UNITS #####
+	navy = {					
+		name = "Iathghlas Cabhlach"				
+		base = 11293
+		location = 11293 # Dublin
+		ship = { name = "LE Tuatha De Danann" definition = battleship equipment = { battleship_1 = { amount = 1 owner = IRE } } }				
+		ship = { name = "LE Nuada" definition = battleship equipment = { battleship_1 = { amount = 1 owner = IRE } } }	
+		ship = { name = "LE Lugh" definition = battleship equipment = { battleship_1 = { amount = 1 owner = IRE  } } }				
+		ship = { name = "LE Ogma" definition = battleship equipment = { battleship_1 = { amount = 1 owner = IRE  } } }	
+		ship = { name = "LE Ard-Ri" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = IRE  } } }				
+		ship = { name = "LE Brian Boru" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = IRE  } } }	
+		ship = { name = "LE Donnchad Donn" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = IRE  } } }									
+		ship = { name = "LE Cosantoir" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = IRE  } } }				
+		ship = { name = "LE Echtra" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE  } } }	
+		ship = { name = "LE Niamh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE  } } }									
+		ship = { name = "LE Tir na nog" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE  } } }								
+		ship = { name = "LE Mag Mell" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Padraig" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Brigit of Kildare" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Columba" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Abran" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Adomnan" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Aileran" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Kentigerna" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Scuithin" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Olcan" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Tirechan" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }	
+	}
+	
+	navy = {					
+		name = "1st Fomhuirean Scuadrun"				
+		base = 3379
+		location = 3379 # Belfast
+		# 1st Fomhuirean Rannan 				
+		ship = { name = "LE Fomoire" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRE } } }
+		ship = { name = "LE Balor" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Buarainech" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Cichol Gricenchos" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Bres" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Elatha" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Conand" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRE } } }
+		ship = { name = "LE Tethra" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRE  } } }
+		# 2nd  Fomhuirean Rannan			
+		ship = { name = "LE Claiomh" definition = submarine equipment = { submarine_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Orna" definition = submarine equipment = { submarine_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Gae Bulg" definition = submarine equipment = { submarine_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Caladbolg" definition = submarine equipment = { submarine_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Fragarach" definition = submarine equipment = { submarine_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Luin of Celtchar" definition = submarine equipment = { submarine_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Claiomh Solais" definition = submarine equipment = { submarine_2 = { amount = 1 owner = IRE  } } }
+		ship = { name = "LE Moralltach" definition = submarine equipment = { submarine_2 = { amount = 1 owner = IRE  } } }
+	}	
+}
+	
+	##### AIR FORCE #####
+air_wings = {
+	### 1 IAF Wing -- Leinster
+	113 = {
+		# 1st Grupa Bombardu
+		# 2nd Grupa Bombardu
+		# 3rd Grupa Bombardu 
+		tac_bomber_equipment_0 = {
+			owner = "IRE" 
+			amount = 150
+		}
+		# 1st Grupa Tacaiocht Aeir 
+		CAS_equipment_1 = {
+			owner = "IRE" 
+			amount = 50
+		}
+		fighter_equipment_1 =  {
+			owner = "IRE" 
+			amount = 100
+		}
+	}
+
+	### 2 IAF Wing -- Northern Ireland
+	119 = { 
+		# 1st Grupa Trodaire
+		# 2nd Grupa Trodaire 'an Clairseach Fuilteach'
+		fighter_equipment_1 =  {
+			owner = "IRE" 
+			amount = 150
+		}
+		# 1st Farraige Patroil 
+		nav_bomber_equipment_1 =  {
+			owner = "IRE" 
+			amount = 50
+		}
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "IRE"
+		}
+		requested_factories = 2
+		progress = 0.80
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "IRE"
+		}
+		requested_factories = 1
+		progress = 0.80
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "IRE"
+		}
+		requested_factories = 1
+		progress = 0.50
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_2
+			creator = "IRE"
+		}
+		requested_factories = 2
+		progress = 0.90
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "IRE"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "IRE"
+		}
+		requested_factories = 1
+		progress = 0.80
+		efficiency = 100
+	}
+}

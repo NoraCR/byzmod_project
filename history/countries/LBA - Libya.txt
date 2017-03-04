@@ -53,9 +53,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Bashir es Sadawi"
+	name = "Fatima Iqbal"
 	desc = ""
-	picture = "gfx/leaders/LBA/Portrait_Arabia_Generic_democratic1.dds"
+	picture = "lba_fatima_iqbal.dds"
 	ideology = liberalism
 	traits = {
 		#

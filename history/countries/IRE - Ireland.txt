@@ -1,17 +1,23 @@
 ﻿capital = 113
 
-oob = "IRE_1936"
+oob = "IRE_byzfire"
 
 set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	infantry_weapons2 = 1
+	motorised_infantry = 1
 	tech_recon = 1
-	tech_support = 1		
+	tech_support = 1
+	support_weapons = 1
 	tech_engineers = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
 	gw_artillery = 1
+	interwar_artillery = 1
 	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
 	early_fighter = 1
 	cv_early_fighter = 1
 	cv_naval_bomber1 = 1
@@ -19,6 +25,8 @@ set_technology = {
 	naval_bomber1 = 1
 	CAS1 = 1
 	early_bomber = 1
+	tactical_bomber1 = 1
+	fighter1 = 1
 	early_submarine = 1
 	basic_submarine = 1
 	early_destroyer = 1
@@ -134,20 +142,20 @@ set_politics = {
 	}
 }
 create_country_leader = {
-	name = "Éamon de Valera"
+	name = "Kevin Donnelly"
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
-	picture = "Portrait_Ireland_Eamon_de_Valera.dds"
+	picture = "ire_kevin_donnelly.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = liberalism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Eoin O'Duffy"
+	name = "Lorcan O Brogain"
 	desc = "POLITICS_EOIN_ODUFFY_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	picture = "ire_lorcan_o_brogain.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -167,9 +175,20 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William Norton"
+	name = "Fiona Meloy"
 	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "ire_fiona_meloy.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Siobhan Mulcahy"
+	desc = "POLITICS_JAMES_LARKIN_DESC"
+	picture = "ire_siobhan_mulcahy.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
@@ -177,9 +196,9 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
-	name = "Michael Costello"
-	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+create_field_marshal = {
+	name = "Eoin Aiken"
+	portrait_path = "gfx/leaders/IRE/ire_eoin_aiken.dds"
 	traits = {  }
-	skill = 2
+	skill = 4
 }

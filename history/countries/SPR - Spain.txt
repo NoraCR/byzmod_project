@@ -160,9 +160,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Francisco Franco"
+	name = "Gabriela Fatima Hu"
 	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
-	picture = "Portrait_Spain_Francisco_Franco.dds"
+	picture = "spr_gabriela_fatima_hu.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

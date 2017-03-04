@@ -1,0 +1,184 @@
+division_template = {
+	name = "Bundesinfanterie"				# 
+									# Not complete walkovers, but certainly not the best of the WRE
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Bundeskavallerie"			# Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		light_armor = { x = 0 y = 3 }
+
+	}
+	support = {
+		military_police = { x = 0 y = 0 }   
+	}
+}
+
+division_template = {
+	name = "Gebirgsjager"					# Bavarian mountain division
+	regiments = {
+		mountaineers = { x = 0 y = 0 }			# It might or might not be saying much but these guys are the best troops Bavaria has to offer
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	##### Bayerische Bundesheer #####
+	# I Korps
+	division= {	
+		name = "1. Bundeskavallerie"
+		location = 9515  # Vienna
+		division_template = "Bundeskavallerie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "2. Bundeskavallerie"
+		location = 519  # Vienna
+		division_template = "Bundeskavallerie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+
+	}
+	division= {	
+		name = "12. Bundeskavallerie"
+		location = 3679  # Vienna
+		division_template = "Bundeskavallerie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "1. Bundesinfanterie"
+		location = 9515  # Vienna
+		division_template = "Bundesinfanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2. Bundesinfanterie"			
+		location = 9515  # Vienna
+		division_template = "Bundesinfanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "3. Bundesinfanterie"			
+		location = 9515 # St Poelten
+		division_template = "Bundesinfanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	# II Korps
+	division= {	
+		name = "4. Bundesinfanterie"			
+		location = 9681
+		division_template = "Bundesinfanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "5. Bundesinfanterie"			
+		location = 3692
+		division_template = "Bundesinfanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "1. Gebirgsjager"			
+		location = 3692
+		division_template = "Gebirgsjager"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "2. Gebirgsjager"			
+		location = 3530
+		division_template = "Gebirgsjager"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		name = "3. Gebirgsjager"				
+		location = 9515  # Vienna
+		division_template = "Gebirgsjager"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+}
+
+air_wings = {
+	### Bayerische Luftwaffe 
+	50 = {
+		fighter_equipment_0 =  {
+			owner = "BAV" 
+			amount = 200
+		} 
+		tac_bomber_equipment_0 = {
+			owner = "BAV" 
+			amount = 100
+		}
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BAV"
+		}
+		requested_factories = 1
+		progress = 0.92
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "BAV"
+		}
+		requested_factories = 3
+		progress = 0.80
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "BAV"
+		}
+		requested_factories = 1
+		progress = 0.74
+		efficiency = 100
+	}
+}

@@ -1,0 +1,239 @@
+spriteTypes = {	
+
+
+
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 14		
+	}
+
+	### UNIQUE national focus icons				
+
+	
+
+	### BYZANTINE IDEAS
+	spriteType = {
+		name = "GFX_idea_robert_de_bassot"
+		texturefile = "gfx/interface/ideas/idea_robert_de_bassot.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_darion_flesnolk"
+		texturefile = "gfx/interface/ideas/idea_darion_flesnolk.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_helvetica_bold"
+		texturefile = "gfx/interface/ideas/idea_helvetica_bold.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_philomon_anatolikos"
+		texturefile = "gfx/interface/ideas/idea_philomon_anatolikos.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ioannes_raseres"
+		texturefile = "gfx/interface/ideas/idea_ioannes_raseres.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lillian_palamara"
+		texturefile = "gfx/interface/ideas/idea_lillian_palamara.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_simonis_cyrahzax"
+		texturefile = "gfx/interface/ideas/idea_simonis_cyrahzax.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_berat_qutuzid"
+		texturefile = "gfx/interface/ideas/idea_berat_qutuzid.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nicole_kondou"
+		texturefile = "gfx/interface/ideas/idea_nicole_kondou.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yahsi_turel"
+		texturefile = "gfx/interface/ideas/idea_yahsi_turel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_eirene_sagona"
+		texturefile = "gfx/interface/ideas/idea_eirene_sagona.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_melisa_terzi"
+		texturefile = "gfx/interface/ideas/idea_melisa_terzi.dds"
+	}
+	
+	
+	### FRENCH IDEAS
+	spriteType = {
+		name = "GFX_idea_jocelyne_rodier"
+		texturefile = "gfx/interface/ideas/idea_jocelyne_rodier.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_xavier_masson"
+		texturefile = "gfx/interface/ideas/idea_xavier_masson.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lucienne_marais"
+		texturefile = "gfx/interface/ideas/idea_lucienne_marais.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jean_ioannes_gaudreau"
+		texturefile = "gfx/interface/ideas/idea_fra_jean_ioannes_gaudreau.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_isabelle_durand"
+		texturefile = "gfx/interface/ideas/idea_fra_isabelle_durand.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kevin_vaugrenard"
+		texturefile = "gfx/interface/ideas/idea_kevin_vaugrenard.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_maurice_gamelin"
+		texturefile = "gfx/interface/ideas/idea_maurice_gamelin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_maxime_weygand"
+		texturefile = "gfx/interface/ideas/idea_maxime_weygand.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_alphonse_georges"
+		texturefile = "gfx/interface/ideas/idea_alphonse_georges.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_francois_darlan"
+		texturefile = "gfx/interface/ideas/idea_francois_darlan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jean_marie_abrial"
+		texturefile = "gfx/interface/ideas/idea_jean_marie_abrial.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_marcel_gensoul"
+		texturefile = "gfx/interface/ideas/idea_marcel_gensoul.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_joseph_vuillemin"
+		texturefile = "gfx/interface/ideas/idea_joseph_vuillemin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_philippe_fequant"
+		texturefile = "gfx/interface/ideas/idea_philippe_fequant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rene_prioux"
+		texturefile = "gfx/interface/ideas/idea_rene_prioux.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_charles_huntziger"
+		texturefile = "gfx/interface/ideas/idea_charles_huntziger.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_philippe_leclerc"
+		texturefile = "gfx/interface/ideas/idea_philippe_leclerc.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_alfred_heurtaux"
+		texturefile = "gfx/interface/ideas/idea_alfred_heurtaux.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_martial_valin"
+		texturefile = "gfx/interface/ideas/idea_martial_valin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jean_francois_jannekeyn"
+		texturefile = "gfx/interface/ideas/idea_jean_francois_jannekeyn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jean_de_laborde"
+		texturefile = "gfx/interface/ideas/idea_jean_de_laborde.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_emile_muselier"
+		texturefile = "gfx/interface/ideas/idea_emile_muselier.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rene_emile_godfroy"
+		texturefile = "gfx/interface/ideas/idea_rene_emile_godfroy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_charles_de_gaulle"
+		texturefile = "gfx/interface/ideas/idea_charles_de_gaulle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_henri_giraud"
+		texturefile = "gfx/interface/ideas/idea_henri_giraud.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_louis_kahn"
+		texturefile = "gfx/interface/ideas/idea_louis_kahn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jean_decoux"
+		texturefile = "gfx/interface/ideas/idea_jean_decoux.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_victor_denain"
+		texturefile = "gfx/interface/ideas/idea_victor_denain.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jean_marie_bergeret"
+		texturefile = "gfx/interface/ideas/idea_jean_marie_bergeret.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_frederic_irene_joliot_curie"
+		texturefile = "gfx/interface/ideas/idea_frederic_irene_joliot_curie.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_robert_odic"
+		texturefile = "gfx/interface/ideas/idea_robert_odic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_renault"
+		texturefile = "gfx/interface/ideas/idea_renault.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_somua"
+		texturefile = "gfx/interface/ideas/idea_somua.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mas"
+		texturefile = "gfx/interface/ideas/idea_mas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_schneider"
+		texturefile = "gfx/interface/ideas/idea_schneider.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_morane_saulnier"
+		texturefile = "gfx/interface/ideas/idea_morane_saulnier.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bloch"
+		texturefile = "gfx/interface/ideas/idea_bloch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_amiot"
+		texturefile = "gfx/interface/ideas/idea_amiot.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_levasseur"
+		texturefile = "gfx/interface/ideas/idea_levasseur.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fcm"
+		texturefile = "gfx/interface/ideas/idea_fcm.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_famh"
+		texturefile = "gfx/interface/ideas/idea_famh.dds"
+	}
+	
+	### RUSSIAN IDEAS
+
+
+	### JAPANESE IDEAS
+
+	
+	
+}

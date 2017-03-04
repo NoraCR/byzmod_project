@@ -354,6 +354,7 @@ ideas = {
 				original_tag = "FRA"
 			}
 			
+			picture = idea_jocelyne_rodier.dds			
 
 			
 			traits = { communist_revolutionary }
@@ -380,6 +381,7 @@ ideas = {
 				original_tag = "FRA"
 			}
 			
+			picture = idea_xavier_masson.dds			
 
 			
 			traits = { democratic_reformer }
@@ -406,6 +408,8 @@ ideas = {
 				original_tag = "FRA"
 			}
 			
+			picture = idea_lucienne_marais.dds
+			
 			traits = { ayn_rand }
 	
 			on_add = {
@@ -429,7 +433,7 @@ ideas = {
 				original_tag = "FRA"
 			}
 			
-			picture = fra_jean_ioannes_gaudreau
+			picture = jean_ioannes_gaudreau
 			
 			traits = { prince_of_terror }
 	
@@ -450,7 +454,7 @@ ideas = {
 				original_tag = "FRA"
 			}
 			
-			picture = fra_kevin_vaugrenard
+			picture = kevin_vaugrenard
 			
 			traits = { backroom_backstabber }
 	
@@ -465,7 +469,7 @@ ideas = {
 				original_tag = "FRA"
 			}
 			
-			picture = generic_political_advisor_europe_3
+			picture = isabelle_durand
 			
 			traits = { smooth_talking_charmer }
 	
