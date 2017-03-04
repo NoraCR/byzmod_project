@@ -76,63 +76,33 @@ units = {
 	### 1st Army ###
 	# I Army Corps #
 	division= {			
-		name = "1 Askari la Kenya"		
-		location = 1939
-		division_template = "Askari Mgawanyiko"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.8
-	}			
-	division= {			
-		name = "2 Askari la Kenya"		
-		location = 1939
-		division_template = "Askari Mgawanyiko"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		name = "3 Askari la Kenya"		
-		location = 1939
-		division_template = "Askari Mgawanyiko"
-		start_experience_factor = 0.25
-		start_equipment_factor = 0.3
-
-	}			
-	
-	# III Army Corps #
-	division= {			
 		name = "1 Mlinzi la Kenya"		
 		location = 1939
 		division_template = "Mlinzi Mgawanyiko"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.5
 
 	}			
 	division= {			
-		name = "1 Nyumbani Walinzi la Kenya"		
+		name = "2 Mlinzi la Kenya"		
 		location = 1939
-		division_template = "Walinzi Mgawanyiko"
-		start_experience_factor = 0.45
-		start_equipment_factor = 0.87
+		division_template = "Mlinzi Mgawanyiko"
+		start_experience_factor = 0.2
 
 	}			
 
 
 	# V Army Corps #	
 	division= {			
-		name = "1 Kivita Walezi la Kenya"		
+		name = "3 Mlinzi la Kenya"		
 		location = 1939
-		division_template = "Silaha Mgawanyiko"
+		division_template = "Mlinzi Mgawanyiko"
 		start_experience_factor = 0.7
-		start_equipment_factor = 0.99
 
-	}
-	
+	}	
 	division= {			
-		name = "2 Nyumbani Walinzi la Kenya"		
+		name = "4 Mlinzi la Kenya"		
 		location = 1939
-		division_template = "Walinzi Mgawanyiko"
-		start_experience_factor = 0.3
+		division_template = "Mlinzi Mgawanyiko"
 
 	}			
 
@@ -171,15 +141,11 @@ air_wings = {
 	547 = { 
 		tac_bomber_equipment_0 = {
 			owner = "KEN" 
-			amount = 100
+			amount = 50
 		}		
 		CAS_equipment_1 = {
 			owner = "KEN" 
 			amount = 50
-		}
-		fighter_equipment_0 =  {
-			owner = "KEN" 
-			amount = 200
 		}
 		fighter_equipment_1 =  {
 			owner = "KEN" 

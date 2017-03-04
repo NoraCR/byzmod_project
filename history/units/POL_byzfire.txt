@@ -465,6 +465,10 @@ air_wings = {
 			owner = "POL" 
 			amount = 100
 		}
+		tac_bomber_equipment_1 =  {	
+			owner = "POL" 
+			amount = 100
+		}
 		
 	}
 	75 = { 
