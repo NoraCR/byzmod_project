@@ -2292,12 +2292,12 @@ news_event = {
 	trigger = {
 		date > 1936.8.15
 		NOT = { has_global_flag = olympics_1936 }
-		country_exists = GER
-		country_exists = USA
+		country_exists = FRA
+		country_exists = BYZ
 		GER = { has_war = no }
 		FRA = { has_war = no }
 		ENG = { has_war = no }
-		USA = { has_war = no }
+		BYZ = { has_war = no }
 	}
 	
 	mean_time_to_happen = {
@@ -2337,12 +2337,12 @@ news_event = {
 			has_global_flag = olympics_fin_1940
 		}
 		country_exists = JAP
-		country_exists = USA
+		country_exists = BYZ
 		country_exists = GER
 		GER = { has_war = no }
 		FRA = { has_war = no }
 		ENG = { has_war = no }
-		USA = { has_war = no }
+		BYZ = { has_war = no }
 		JAP = { has_war = no }
 	}
 	
@@ -2376,7 +2376,7 @@ news_event = {
 			has_global_flag = olympics_fin_1940
 		}
 		country_exists = FIN
-		country_exists = USA
+		country_exists = BYZ
 		country_exists = GER
 		country_exists = ITA
 		JAP = { has_war = yes }
@@ -2386,7 +2386,7 @@ news_event = {
 		GER = { has_war = no }
 		FRA = { has_war = no }
 		ENG = { has_war = no }
-		USA = { has_war = no }
+		BYZ = { has_war = no }
 	}
 	
 	mean_time_to_happen = {
