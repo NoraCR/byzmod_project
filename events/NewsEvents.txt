@@ -2402,6 +2402,45 @@ news_event = {
 	}
 }
 
+# Kimetto vs Crozier
+news_event = {
+	id = news.900
+	title = news.900.t
+	desc = news.900.d
+	picture = GFX_news_event_olympics_1940
+	
+	major = yes
+	
+	trigger = {
+		date = 1936.6.19
+		country_exists = FRA
+		country_exists = BYZ
+		GER = { has_war = no }
+		FRA = { has_war = no }
+		ENG = { has_war = no }
+		BYZ = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = news.238_fired 
+	}
+	
+	option = {
+		name = news.900.a
+		trigger = { 
+			NOT = { TAG = FRA }
+		}
+	}
+	option = {
+		name = news.900.b
+		trigger = { TAG = FRA }
+	}
+}
+
 # Baltic country annexed (base event baltic.5)
 news_event = {
 	id = news.69
