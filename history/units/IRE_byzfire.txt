@@ -81,7 +81,7 @@ units = {
 		location = 3342
 		division_template = "Rannan Coisithe"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+	#	start_equipment_factor = 0.4
 
 	}			
 	division= {			
@@ -89,7 +89,7 @@ units = {
 		location = 3342
 		division_template = "Rannan Coisithe"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+	#	start_equipment_factor = 0.3
 
 	}
 	# II Army Corps #
@@ -98,24 +98,16 @@ units = {
 		location = 3342
 		division_template = "Rannan Coisithe"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+	#	start_equipment_factor = 0.3
 	}			
 	division= {			
 		name = "4 Rannan Coisithe 'Rannan Tuar Ceatha'"		
 		location = 3342
 		division_template = "Rannan Coisithe"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+	#	start_equipment_factor = 0.3
 
-	}			
-	division= {			
-		name = "5 Rannan Coisithe"		
-		location = 3342
-		division_template = "Rannan Coisithe"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
+	}		
 	
 	# III Army Corps #
 	division= {			
@@ -123,7 +115,7 @@ units = {
 		location = 3342
 		division_template = "Rannan Airtleire"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.3
+	#	start_equipment_factor = 0.3
 
 	}			
 	division= {			
@@ -131,7 +123,7 @@ units = {
 		location = 3342
 		division_template = "Rannan Airtleire"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.3
+	#	start_equipment_factor = 0.3
 
 	}			
 
@@ -142,7 +134,7 @@ units = {
 		location = 3342
 		division_template = "Rannan Airtleire"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.3
+	#	start_equipment_factor = 0.3
 
 	}			
 	division= {			
@@ -150,7 +142,7 @@ units = {
 		location = 3342
 		division_template = "Rannan Armurtha"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+	#	start_equipment_factor = 0.3
 
 	}
 	
@@ -159,7 +151,7 @@ units = {
 		location = 3342
 		division_template = "Rannan Armurtha"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+	#	start_equipment_factor = 0.3
 
 	}			
 
@@ -169,8 +161,7 @@ units = {
 		base = 11293
 		location = 11293 # Dublin
 		ship = { name = "LE Tuatha De Danann" definition = battleship equipment = { battleship_1 = { amount = 1 owner = IRE } } }				
-		ship = { name = "LE Nuada" definition = battleship equipment = { battleship_1 = { amount = 1 owner = IRE } } }	
-		ship = { name = "LE Lugh" definition = battleship equipment = { battleship_1 = { amount = 1 owner = IRE  } } }				
+		ship = { name = "LE Nuada" definition = battleship equipment = { battleship_1 = { amount = 1 owner = IRE } } }				
 		ship = { name = "LE Ogma" definition = battleship equipment = { battleship_1 = { amount = 1 owner = IRE  } } }	
 		ship = { name = "LE Ard-Ri" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = IRE  } } }				
 		ship = { name = "LE Brian Boru" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = IRE  } } }	
@@ -181,7 +172,6 @@ units = {
 		ship = { name = "LE Tir na nog" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE  } } }								
 		ship = { name = "LE Mag Mell" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE  } } }
 		ship = { name = "LE Padraig" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
-		ship = { name = "LE Brigit of Kildare" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
 		ship = { name = "LE Columba" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
 		ship = { name = "LE Abran" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
 		ship = { name = "LE Adomnan" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IRE  } } }
@@ -231,11 +221,11 @@ air_wings = {
 		# 1st Grupa Tacaiocht Aeir 
 		CAS_equipment_1 = {
 			owner = "IRE" 
-			amount = 50
+			amount = 40
 		}
 		fighter_equipment_1 =  {
 			owner = "IRE" 
-			amount = 100
+			amount = 50
 		}
 	}
 
@@ -245,7 +235,7 @@ air_wings = {
 		# 2nd Grupa Trodaire 'an Clairseach Fuilteach'
 		fighter_equipment_1 =  {
 			owner = "IRE" 
-			amount = 150
+			amount = 100
 		}
 		# 1st Farraige Patroil 
 		nav_bomber_equipment_1 =  {
