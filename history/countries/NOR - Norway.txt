@@ -1,6 +1,6 @@
 ﻿capital = 110
 
-oob = "NOR_1936"
+oob = "NOR_byzfire"
 
 set_research_slots = 3
 
