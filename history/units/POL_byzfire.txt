@@ -297,7 +297,7 @@ units = {
 
 	### Armia Wilno ###	
 	division= {	
-		name = "1 DP Legionów im. Pilsudskiego"
+		name = "32 Krolewski Polska Piechota"
 		location = 421
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
