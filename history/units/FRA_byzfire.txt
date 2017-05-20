@@ -1007,10 +1007,20 @@ air_wings = {
 		}
 		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_1).
 			modifier="fighter_genius"
-			name="Jacques"
+			name="Jean"
 			surname="Courbet"
 			callsign="Quint"
 			portrait=1 # Pick random index here, or make special GFX_FRA_ace_Jacques_Courbet to override.
+		}
+		# Groupement de Chasse du Place
+		fighter_equipment_1 = {
+			owner = "FRA" 
+			amount = 48
+		}
+		# Groupement de Whatever
+		tac_bomber_equipment_1 =  {
+			owner = "FRA" 
+			amount = 30
 		}
 	}
 
@@ -1035,26 +1045,12 @@ air_wings = {
 		}
 	}
 
-	# Z.d'Op. Aériennes Africain -- Tunis
-	458 = {
-		# Groupement de Chasse du Nord-Africain
-		fighter_equipment_1 = {
-			owner = "FRA" 
-			amount = 48
-		}
-		# Groupement de Bombardment du Nord-Africain
-		tac_bomber_equipment_1 =  {
-			owner = "FRA" 
-			amount = 30
-		}
-	}
-
 	# Aeronautique Navale -- Cherbourg
 	15 = {
 		# Flotille F1
 		nav_bomber_equipment_1 = {
 			owner = "FRA" 
-			amount = 24
+			amount = 124
 		}
 	}
 }
@@ -1086,7 +1082,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_1
+			type = fighter_equipment_1
 			creator = "FRA" 
 		}
 		requested_factories = 1
