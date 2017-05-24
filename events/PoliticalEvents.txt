@@ -622,7 +622,7 @@ country_event = {
 			if = {
 				limit = { pangalism > 0.4 }
 				start_civil_war = {
-					ruling_party = pangalismism
+					ruling_party = pangalism
 					ideology = communism
 					size = 0.6
 				}
@@ -1364,6 +1364,7 @@ country_event = {
 				ideology = neutrality
 				size = 0.5
 			}
+		}
 		if = {
 			limit = {
 				has_government = fascism

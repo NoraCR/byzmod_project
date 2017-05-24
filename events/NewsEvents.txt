@@ -2412,7 +2412,7 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		date = 1936.6.19
+		date > 1936.6.19
 		country_exists = FRA
 		country_exists = BYZ
 		GER = { has_war = no }

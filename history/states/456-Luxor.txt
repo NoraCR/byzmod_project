@@ -10,11 +10,12 @@ state=
 		owner = SOM
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 7
+			industrial_complex = 6
 			air_base = 4
 		}
 
 		add_core_of = EGY
+		add_core_of = SOM
 
 	}
 	provinces={

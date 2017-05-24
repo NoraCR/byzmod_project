@@ -1290,7 +1290,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = maurice_thorez
+			#add_ideas = maurice_thorez
 			every_other_country = {
 				limit = { 
 					has_government = communism
@@ -1799,7 +1799,7 @@ focus_tree = {
 		#	factor = 1
 		#}
 		completion_reward = {
-			add_ideas = marcel_bucard
+			#add_ideas = marcel_bucard
 			every_other_country = {
 				limit = { 
 					has_government = fascism

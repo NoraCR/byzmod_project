@@ -1,4 +1,4 @@
-﻿capital = 279
+﻿capital = 276
 
 # Starting tech
 set_research_slots = 3

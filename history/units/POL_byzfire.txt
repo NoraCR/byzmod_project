@@ -1,4 +1,4 @@
-division_template = {
+锘縟ivision_template = {
 	name = "Krolewski Polska Piechota"		
 
 	regiments = {
@@ -176,7 +176,7 @@ units = {
 
 	}
 
-	### Armia L骴z ###	
+	### Armia L贸dz ###	
 	division= {	
 		name = "2 Krolewski Polska Piechota"
 		location = 11517
@@ -219,7 +219,7 @@ units = {
 
 	}
 
-	### Armia Krak體 ###	
+	### Armia Krak贸w ###	
 	division= {	
 		name = "6 Krolewski Polska Piechota"
 		location = 11511
@@ -279,7 +279,11 @@ units = {
 
 	}
 	division= {	
+<<<<<<< HEAD
+		name = "Nowogr贸dzka B.K."
+=======
 		name = "31 Krolewski Polska Piechota"
+>>>>>>> origin/master
 		location = 11511
 		division_template = "Krolewski Polska Piechota" 
 		start_experience_factor = 0.2
@@ -297,7 +301,11 @@ units = {
 
 	### Armia Wilno ###	
 	division= {	
+<<<<<<< HEAD
+		name = "1 DP Legion贸w im. Pilsudskiego"
+=======
 		name = "32 Krolewski Polska Piechota"
+>>>>>>> origin/master
 		location = 421
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
@@ -332,7 +340,11 @@ units = {
 
 	### Armia Wolyn ###	
 	division= {	
+<<<<<<< HEAD
+		name = "3 Krolewski Polska Piechota Legion贸w"
+=======
 		name = "3 Krolewski Polska Piechota"
+>>>>>>> origin/master
 		location = 3485
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
@@ -435,7 +447,7 @@ units = {
 
 	}
 
-	## SGO Lw體 ##	
+	## SGO Lw贸w ##	
 	division= {	
 		name = "5 Krolewski Polska Piechota"
 		location = 421
