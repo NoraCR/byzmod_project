@@ -1,4 +1,4 @@
-##### Division Templates ##### # 
+﻿##### Division Templates ##### # 
 division_template = {
 	name = "Rannan Coisithe"  	# Core of the Irish Army. Experience and equipment from the Irish Civil War + reforms and support given by Byzantium = small but powerful army
 

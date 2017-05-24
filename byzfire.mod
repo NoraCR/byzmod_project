@@ -1,6 +1,6 @@
-name="Hearts of Fire"
+﻿name="Hearts of Fire"
 path="mod/byzfire/"
 tags={
 	"Alternative History"
 }
-supported_version="1.3"
+supported_version="1.2.1"
