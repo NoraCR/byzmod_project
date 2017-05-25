@@ -601,6 +601,8 @@
  FRA_fighter_equipment_3_short:0 "Fulminis"
  FRA_jet_fighter_equipment_1:0 "Rochard Caelus"
  FRA_jet_fighter_equipment_1_short:0 "Caelus"
+ FRA_jet_fighter_equipment_2:0 "Henriot Durandal"
+ FRA_jet_fighter_equipment_2_short:0 "Durandal"
  FRA_nav_bomber_equipment_1:0 "Latécoère 298"
  FRA_nav_bomber_equipment_1_short:0 "298"
  FRA_nav_bomber_equipment_2:0 "SNCAO CAO.600"

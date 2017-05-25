@@ -278,12 +278,8 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-	division= {	
-<<<<<<< HEAD
-		name = "Nowogródzka B.K."
-=======
+	division= {
 		name = "31 Krolewski Polska Piechota"
->>>>>>> origin/master
 		location = 11511
 		division_template = "Krolewski Polska Piechota" 
 		start_experience_factor = 0.2
@@ -300,12 +296,8 @@ units = {
 	}
 
 	### Armia Wilno ###	
-	division= {	
-<<<<<<< HEAD
-		name = "1 DP Legionów im. Pilsudskiego"
-=======
+	division= {
 		name = "32 Krolewski Polska Piechota"
->>>>>>> origin/master
 		location = 421
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
@@ -339,12 +331,8 @@ units = {
 	}
 
 	### Armia Wolyn ###	
-	division= {	
-<<<<<<< HEAD
-		name = "3 Krolewski Polska Piechota Legionów"
-=======
+	division= {
 		name = "3 Krolewski Polska Piechota"
->>>>>>> origin/master
 		location = 3485
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
