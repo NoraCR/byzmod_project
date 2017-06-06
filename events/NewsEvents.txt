@@ -2415,6 +2415,7 @@ news_event = {
 		date > 1936.6.19
 		country_exists = FRA
 		country_exists = BYZ
+		NOT = {	has_global_flag = news.238_fired }
 		GER = { has_war = no }
 		FRA = { has_war = no }
 		ENG = { has_war = no }
