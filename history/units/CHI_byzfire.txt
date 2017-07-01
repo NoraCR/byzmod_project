@@ -1,0 +1,906 @@
+##### Ming Division Templates #####
+division_template = {
+	name = "Bubingshi"  	# Standard infantry division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # OTL US-Style artillery batallions
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Siren Junshi Fuwu Gongsi"  # Private Military Companies - small but well-equipped 
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		motorized = { x = 0 y = 0 }
+	   	motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	support = {
+        artillery = { x = 0 y = 0 }			
+	}
+}
+division_template = {
+	name = "Qibing Shi"  	#Old-style cavalry division - may add a few of this to the OOB, player would replace with motorized
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Cav Recon 
+		engineer = { x = 0 y = 1 }   # Eng Bn
+	}
+}
+division_template = {
+	name = "Zhuangjia Qibing"  	# First type of armored cavalry
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		
+		light_armor = { x = 0 y = 1 }		
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Hailun Pai" 		# Marine Brigades, precursors to Marine Divisions
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+	priority = 2
+}
+division_template = {
+	name = "Dishan Pai" 		# Mountain Brigades, precursors to Marine Divisions
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+	priority = 2
+}
+division_template = {
+	name = "Zhujun Lu"  		# used for internal defense
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }   
+	}
+	priority = 0
+}
+
+########ORDER OF BATTLE########
+units = {
+
+
+##Capital Garrison/Imperial Guard
+	division = {
+		name = "2 Lujun Shi"
+		location = 11913
+		division_template = "Bubingshi"
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Jinwei Jun"
+		location = 11913
+		division_template = "Siren Junshi Fuwu Gongsi"		
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "1 Nanking Jingbei"
+		location = 11913
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3		
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "2 Nanking Jingbei"
+		location = 11913
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3		
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "3 Nanking Jingbei"
+		location = 11913
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3		
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "4 Nanking Jingbei"
+		location = 11913
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3		
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Qingdao Jingbei"
+		location = 10000
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3	
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Di 3 Zhuangjia Qibing"
+		location = 7191
+		division_template = "Zhuangjia Qibing"
+		start_experience_factor = 0.3	
+		start_equipment_factor = 0.5
+
+	}
+
+
+	##Heishui - Private Military Company, near Beijing
+	division = {
+		name = "Di 1 Heishui Shi"
+		location = 9843
+		division_template = "Siren Junshi Fuwu Gongsi"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Di 2 Heishui Shi"
+		location = 10068
+		division_template = "Siren Junshi Fuwu Gongsi"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Di 3 Heishui Shi"
+		location = 11761
+		division_template = "Siren Junshi Fuwu Gongsi"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Di 4 Heishui Shi"
+		location = 4140
+		division_template = "Siren Junshi Fuwu Gongsi"
+		start_experience_factor = 0.3
+	}
+
+##Mainland Divisions
+	division = {
+		name = "Di 2 Bubing Shi"
+		location = 1069
+		division_template = "Bubingshi"		
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 25 Bubing Shi"
+		location = 1069
+		division_template = "Bubingshi"		
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 4 Bubing Shi"
+		location = 9958
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 89 Bubing Shi"
+		location = 9958
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+
+	division = {
+		name = "Di 6 Qibing Jun"
+		location = 4114
+		division_template = "Zhuangjia Qibing"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Di 73 Bubing Shi"
+		location = 7014
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 75 Bubing Shi"
+		location = 7014
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 77 Bubing Shi"
+		location = 7014
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 13 Bubing Shi"
+		location = 6999 #Chongqing
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 14 Bubing Shi"
+		location = 6999
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 15 Bubing Shi"
+		location = 6999
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 16 Bubing Shi"
+		location = 7222 #Hefei
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 17 Bubing Shi"
+		location = 7222
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+##Fujian Coastal Garrisons
+	division = {
+		name = "Di 1 Fujian Jingbei"
+		location = 9974
+		division_template = "Bubingshi"	
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Di 2 Fujian Jingbei"
+		location = 4169
+		division_template = "Bubingshi"	
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Di 3 Fujian Jingbei"
+		location = 4196
+		division_template = "Bubingshi"	
+		start_equipment_factor = 0.3
+
+	}
+##Taiwan
+	division = {
+		name = "Taiwan Zhujun"
+		location = 7186 #Taipei
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3		
+	}
+
+	division = {
+		name = "Di 3 Bubing Shi"
+		location = 7186 #Taipei
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Di 6 Bubing Shi"
+		location = 7186 #Taipei
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Di 11 Bubing Shi"
+		location = 7186 #Taipei
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+	}
+
+	##Indochina
+	division = {
+		name = "Yangguang Zhujun"
+		location = 1330 #Yangon
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Bangu Zhujun"
+		location = 7408 #Bangkok
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Zhaonandao Zhujun" 
+		location = 12299 #Singapore
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Henei Zhujun"
+		location = 4075 #Hanoi
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 2 Miandian Zhujun Lu"
+		location = 12404
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Xin Di 22 Bubing Shi"
+		location = 11966
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Di 96 Bubing Shi"
+		location = 1142
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Di 200 Bubing Shi"
+		location = 1082
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Di 49 Bubing Shi"
+		location = 7122
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+		division = {
+		name = "Di 93 Bubing Shi"
+		location = 4454
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Di 55 Bubing Shi"
+		location = 10486
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 57 Bubing Shi"
+		location = 12284
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Xin Di 28 Bubing Shi"
+		location = 12284
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Xin Di 29 Bubing Shi"
+		location = 1650
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Xin Di 38 Bubing Shi"
+		location = 10267
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Xin Di 39 Bubing Shi"
+		location = 4336
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+	}
+
+
+##Central Asia
+	division = {
+		name = "Jindun Anfang Gongsi" ##Afghan PMC
+		location = 10737
+		division_template = "Siren Junshi Fuwu Gongsi"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Di 313 'Pashidun' Bubing Shi"
+		location = 10737
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {			
+		name = "Di 18 'Tu'erqi' Qibing Shi"		
+		location = 12370
+		division_template = "Qibing Shi"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "Di 20 'Tajike' Qibing Shi"		
+		location = 5062
+		division_template = "Qibing Shi"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "Di 21 'Hanxue' Qibing Shi"		
+		location = 4768
+		division_template = "Qibing Shi"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "Di 19 Qibing Shi"		
+		location = 1459
+		division_template = "Qibing Shi"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "Di 68 Xinjiang Dishan Pai"		
+		location = 4923
+		division_template = "Dishan Pai"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {			
+		name = "Di 83 Xinjiang Dishan Pai"		
+		location = 12805
+		division_template = "Dishan Pai"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "Di 89 'He'ermande' Dishan Pai"		
+		location = 2078
+		division_template = "Dishan Pai"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "Di 97 'Helate' Dishan Pai"		
+		location = 4893
+		division_template = "Dishan Pai"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+##Nepal	
+	division = {
+		name = "Di 449 Bubing Shi"
+		location = 4987
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Di 450 Bubing Shi"
+		location = 4987
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Di 451 Bubing Shi"
+		location = 4987
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {			
+		name = "Di 497 'Xianggeli-La' Dishan Pai"		
+		location = 4987
+		division_template = "Dishan Pai"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "Di 499 'Zhumulang-Ma' Dishan Pai"		
+		location = 4987
+		division_template = "Dishan Pai"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+
+	}
+##Tibet
+	division= {			
+		name = "Di 501 'Shijie Wuji' Dishan Pai"		
+		location = 7316
+		division_template = "Dishan Pai"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "Di 502 'Qiongcang' Dishan Pai"		
+		location = 7316
+		division_template = "Dishan Pai"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}		
+##Kazakhstan
+	division = {
+		name = "Di 347 'Alamutu' Bubing Shi"
+		location = 12564
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 349 'Hasake' Bubing Shi"
+		location = 12564
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 351 'E'erqisi' Bubing Shi"
+		location = 12564
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 351 'Xi'er' Qibing Shi"
+		location = 4333
+		division_template = "Qibing Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 355 'Asutana' Qibing Shi"
+		location = 4333
+		division_template = "Qibing Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+
+
+
+
+	##Marine Brigades
+	division = {
+		name = "Di 1 Hailun Pai"
+		location = 1070
+		division_template = "Hailun Pai"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Di 2 Hailun Pai"
+		location = 994
+		division_template = "Hailun Pai"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Di 3 Hailun Pai"
+		location = 1038
+		division_template = "Hailun Pai"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Di 4 Hailun Pai"
+		location = 1047
+		division_template = "Hailun Pai"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Di 5 Hailun Pai"
+		location = 7137
+		division_template = "Hailun Pai"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Di 6 Hailun Pai"
+		location = 4401
+		division_template = "Hailun Pai"
+		start_experience_factor = 0.2
+	}
+
+
+##Mongolia/Manchuria/Amur
+	division = {
+		name = "Di 1 Menggu Qibing Shi" 
+		location = 4801
+		division_template = "Qibing Shi"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Di 2 Menggu Qibing Shi" 
+		location = 4801
+		division_template = "Qibing Shi"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Di 3 Menggu Qibing Shi" 
+		location = 4801
+		division_template = "Qibing Shi"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Dongbei Tielu Jingwei" # Manchuria Railway Guard
+		location = 11771 #Mukden
+		division_template = "Zhujun Lu"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7	
+	}
+	division = {
+		name = "Dongbei Jun Jingcha Silingbu"
+		location = 4572 #Xinjing
+		division_template = "Bubingshi"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7		
+	}
+	division = {
+		name = "Dalian Zhujun"
+		location = 1150 #Dalian
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "Di 9 Dongbei Shi"
+		location = 3944 #Near Changkufeng Lake
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Di 14 Dongbei Shi"
+		location = 12189 #Eastern Manchuria
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Di 1 Yuanbei Shi"
+		location = 7743
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3		
+		start_equipment_factor = 0.7		
+	}
+	division = {
+		name = "Di 2 Yuanbei Shi"
+		location = 10541
+		division_template = "Zhujun Lu"		
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7		
+	}
+	division = {
+		name = "Di 1 'Baqi' Manzu Bubing Shi"
+		location = 6981
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Di 1 Manzu Qibing Shi" #Manchu cavalry
+		location = 10433
+		division_template = "Qibing Shi"
+		start_experience_factor = 0.3
+	}
+	division= {			
+		name = "Di 181 A'ertai Dishan Pai"		
+		location = 12509
+		division_template = "Dishan Pai"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+#####Peshawar#####	
+	division = {
+		name = "Di 317 Bubing Shi"
+		location = 12763
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 318 Bubing Shi"
+		location = 12763
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 319 Bubing Shi"
+		location = 12763
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+#####NAVAL UNITS#####
+	navy = {
+		name = "Di 1 Jiandui" ##still small for a nation this big, but with their industry it can get a lot bigger
+		base = 12076
+		location = 12076 #Shanghai
+		ship = { name = "CNS Baomin" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Kaiji" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Nanchen" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Nanrui" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Hairong" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Zhaohe" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Haiqi" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Dadong" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Zhejiang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Caojiang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Zehai" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Weijing" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Haian" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Jingquan" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Yuyuan" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Yuankai" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "CNS Dengyingzhou" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+}
+	navy = {				
+		name = "Di 1 Qianting Jiandui"			
+		base = 12076
+		location = 12076
+		ship = { name = "CNS Q1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q7" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q8" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		
+	}
+	navy = {				
+		name = "Nanyang Jiandui"
+		base = 1047
+		location = 1047 # Guangdong			
+
+		ship = { name = "CNS Laiyuan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CHI } } }	
+		ship = { name = "CNS Dingyuan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CHI } } }	
+		ship = { name = "CNS Zhenyuan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Chaoyong" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Yangwei" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Zhenbei" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }		
+		ship = { name = "CNS Zhenbian" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }		
+		ship = { name = "CNS Zhendong" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }		
+		ship = { name = "CNS Zhennan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Zhenxi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Zhenzhong" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }		
+	}
+		navy = {				
+		name = "Zhaonandao Jiandui"
+		base = 12299
+		location = 12299 # Singapore
+
+		ship = { name = "CNS Jieshen" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Xianfeng" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHI } } }		
+		ship = { name = "CNS Nanchen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }		
+		ship = { name = "CNS Nanrui" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }		
+		ship = { name = "CNS Kangji" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Feiting" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Huantai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }		
+	}
+}
+### Air Forces ###
+air_wings = {
+	# Beijing
+	608 = { 
+		fighter_equipment_0 = { owner = "CHI" amount = 60 }				
+	}
+	#Shanghai
+	613 = {
+		fighter_equipment_0 = { owner = "CHI" amount = 72 } 		
+		tac_bomber_equipment_0 =  { owner = "CHI" amount = 48 }		
+	}
+	#Chongqing
+	605 = { 
+		fighter_equipment_0 = { owner = "CHI" amount = 48 }				
+	}
+	#Liaodong
+	716 = {
+		fighter_equipment_0 = { owner = "CHI" amount = 72 }
+		tac_bomber_equipment_0 = { owner = "CHI" amount = 60 }
+	}
+	#Singapore
+	336 = {
+		fighter_equipment_0 = { owner = "CHI" amount = 48 }
+	}
+}
+

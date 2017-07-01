@@ -1,6 +1,6 @@
 ﻿capital = 426 #Orissa
 
-oob = "RAJ_1936"
+oob = "RAJ_byzfire"
 
 # Starting tech
 set_technology = {

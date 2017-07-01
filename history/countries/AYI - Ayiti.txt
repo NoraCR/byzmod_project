@@ -2,7 +2,7 @@
 
 set_research_slots = 4
 
-oob = "AYI_1936"
+oob = "AYI_byzfire"
 
 # Starting tech
 set_technology = {

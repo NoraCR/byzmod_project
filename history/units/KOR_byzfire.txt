@@ -1,0 +1,303 @@
+division_template = {
+	name = "Bobyeong Sadan"				# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Regiment of 155mm howitzers, 105mm arty
+		engineer = { x = 0 y = 1 }   
+		recon = { x = 0 y = 2 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+division_template = {
+	name = "Gibyeong Yeodan"   	# Cavalry Brigade 
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+
+division_template = {
+	name = "Gigab Yeondae"  	
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+
+division_template = {
+	name = "Gunsa Jiyeog"				# Garrison Force
+	# For reserve and independent regiments, lower experience and equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+units = {
+	######## LAND UNITS ########
+	##### Korean Peninsula #####
+	division = {
+		name = "1. Bobyeong Sadan"
+		location = 7125 # Seoul
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "2. Bobyeong Sadan"
+		location = 7125 # Seoul
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "1. Gigab Yeondae"
+		location = 7125 # Seoul
+		division_template = "Gigab Yeondae"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "3. Bobyeong Sadan"
+		location = 4052 # Pyongyang
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "4. Bobyeong Sadan"
+		location = 4052 # Pyongyang
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "5. Bobyeong Sadan"
+		location = 4056 # Busan
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "6. Bobyeong Sadan"
+		location = 4056 # Busan
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+##### Eastern Siberia #####
+	division = {
+		name = "Oho-ta Gunsa Jiyeog"
+		location = 10598 # Okhotsk
+		division_template = "Gunsa Jiyeog"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Amuleu Gang Gunsa Jiyeog"
+		location = 4719 # Chita
+		division_template = "Gunsa Jiyeog"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+##### Central Siberia #####
+	division = {
+		name = "7. Bobyeong Sadan"
+		location = 4866 # Krasnoyarsk
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "8. Bobyeong Sadan"
+		location = 4866 # Krasnoyarsk
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "9. Bobyeong Sadan"
+		location = 4866 # Krasnoyarsk
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "1. Gibyeong Yeodan"
+		location = 4866 # Krasnoyarsk
+		division_template = "Gibyeong Yeodan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "2. Gibyeong Yeodan"
+		location = 4866 # Krasnoyarsk
+		division_template = "Gibyeong Yeodan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+##### Western Siberia/Russian Border #####
+	division = {
+		name = "10. Bobyeong Sadan"
+		location = 1821 
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "11. Bobyeong Sadan"
+		location = 1821 
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "2. Gigab Yeondae"
+		location = 1821
+		division_template = "Gigab Yeondae"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "12. Bobyeong Sadan"
+		location = 9292 
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "13. Bobyeong Sadan"
+		location = 9292 
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+##### Australia/New Guinea #####
+	division = {
+		name = "14. Bobyeong Sadan"
+		location = 7566 
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Dae-Namju Gunsa Jiyeog"
+		location = 7566 
+		division_template = "Gunsa Jiyeog"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Papua Gunsa Jiyeog"
+		location = 4329 ## Port Moresby 
+		division_template = "Gunsa Jiyeog"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+##### Africa #####
+	division = {
+		name = "Ang-golla Gunsa Jiyeog"
+		location = 8248 ## Luanda
+		division_template = "Gunsa Jiyeog"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+##### NAVAL UNITS #####
+	navy = { 
+		name = "1. Hamdae"
+		base = 4056
+		location = 4056 # Busan
+		ship = { name = "ROKS Gwanggaeto Wang" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Munmu Wang" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Baeduk" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }				
+		ship = { name = "ROKS Yi Sunsin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }				
+		ship = { name = "ROKS Dokdo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }				
+		# 1. Guchugham Hamdae				
+		ship = { name = "ROKS Hae-Joo Im" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }		
+		ship = { name = "ROKS Sonmi-451" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }		
+		ship = { name = "ROKS Zhang Bogo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Eulji Mundeok" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Yang Manchun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }			
+	}
+##### AIR FORCE #####
+air_wings = {
+	653 = {
+		tac_bomber_equipment_1 = { owner = "KOR" amount = 48 }			
+		CAS_equipment_1 = { owner = "KOR" amount = 48 }					
+		fighter_equipment_0 =  { owner = "KOR" amount = 48 }			
+	}
+}
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "KOR"
+		}
+		requested_factories = 1
+		progress = 0.29
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "KOR"
+		}
+		requested_factories = 1
+		progress = 0.61
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = submarine_1
+			creator = "KOR"
+		}
+		requested_factories = 1
+		progress = 0.30
+		amount = 1
+	}
+
+}

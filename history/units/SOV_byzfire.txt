@@ -1,4 +1,4 @@
-﻿##### Division Templates #####
+##### Division Templates #####
 division_template = {
 	name = "Strelkovaya Diviziya"			# Rifle Division
 
@@ -1350,7 +1350,7 @@ units = {
 
 	}			
 	
-
+	}
 
 
 	##### NAVAL UNITS #####

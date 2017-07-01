@@ -1,0 +1,589 @@
+##### Division Templates #####
+division_template = {
+	name = "Padatikabarga Dibhisana"	
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		#recon = { x = 0 y = 0 } 		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and they seem rather OP. Could revisit if balance changes
+		#engineer = { x = 0 y = 1 } 	# (semi-mot) Engineer bn
+		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
+	}
+}
+
+division_template = {
+	name = "Parbata Padatikabarga Dibhisana"		# Mountain Division
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }	
+		mountaineers = { x = 2 y = 1 }	
+		mountaineers = { x = 2 y = 2 }	
+		mountaineers = { x = 3 y = 0 }	
+		mountaineers = { x = 3 y = 1 }	
+		mountaineers = { x = 3 y = 2 }	
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 		# Engineer bn
+		artillery = { x = 0 y = 1 } 	# Heavy Arty Regiment had 2x 122mm bn
+	}
+}
+
+division_template = {
+	name = "Motaraba'ika inaphyantri Dibhisana"		# Motor Rifle Division
+											
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		#recon = { x = 0 y = 0 } 		# Recon bn had 16x L tanks, 45 ACs #Eng and recon removed and they seem rather OP. Could revisit if balance changes 
+		#engineer = { x = 0 y = 1 } 	# (mot) Engineer bn
+		#light_armor = { x = 0 y = 3 }	# Tank bn had 51 L tanks, 3 ACs - (removed)
+	}
+}
+
+division_template = {
+	name = "Asbarohi Bahini Dibhisana" 	# Kavaleriyskaya Diviziya
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Yantrika Karpasa" 				# Represents regular mechanized corps (4 existed in 1935-38); 
+													# Also represents groups of independent tank, mech brigades of the time, though groups are best represented by tank bge 
+													# (2x M/L tank + 1x mot), and 2x mech bge (2x L tank + 1x mot)
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }		
+		light_armor = { x = 1 y = 1 }		
+		light_armor = { x = 1 y = 2 }		
+		motorized = { x = 2 y = 0 }		
+		motorized = { x = 2 y = 1 }	
+		motorized = { x = 2 y = 2 }		
+		motorized = { x = 2 y = 3 }		
+	}
+}
+units = {
+#######North Bengal#######
+	division= {			
+		name = "1 Parbata Padatikabarga Dibhisana"		
+		location = 8010 ##Thimphu
+		division_template = "Parbata Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "2 Parbata Padatikabarga Dibhisana"		
+		location = 8010
+		division_template = "Parbata Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "3 Parbata Padatikabarga Dibhisana"		
+		location = 8010
+		division_template = "Parbata Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "1 Padatikabarga Dibhisana"		
+		location = 1497 #Assam
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "2 Padatikabarga Dibhisana"		
+		location = 1497 #Assam
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "3 Padatikabarga Dibhisana"		
+		location = 1497 #Assam
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "4 Padatikabarga Dibhisana"		
+		location = 10514
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "5 Padatikabarga Dibhisana"		
+		location = 10514
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "6 Padatikabarga Dibhisana"		
+		location = 10514
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+#######South Bengal#######
+	division= {			
+		name = "7 Padatikabarga Dibhisana"		
+		location = 11929 ##Dhaka
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "8 Padatikabarga Dibhisana"		
+		location = 11929
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "9 Padatikabarga Dibhisana"		
+		location = 11929
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "10 Padatikabarga Dibhisana"		
+		location = 11929
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "11 Padatikabarga Dibhisana"		
+		location = 11929
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "1 Yantrika Karpasa"		
+		location = 11929
+		division_template = "Yantrika Karpasa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+#####Bihar#####
+	division= {			
+		name = "12 Padatikabarga Dibhisana"		
+		location = 4516 #Patna
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "13 Padatikabarga Dibhisana"		
+		location = 4516
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "14 Padatikabarga Dibhisana"		
+		location = 4516
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "15 Padatikabarga Dibhisana"		
+		location = 4516
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "16 Padatikabarga Dibhisana"		
+		location = 4516
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "17 Padatikabarga Dibhisana"		
+		location = 4516
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "18 Padatikabarga Dibhisana"		
+		location = 10751
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "19 Padatikabarga Dibhisana"		
+		location = 10751
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "1 Asbarohi Bahini Dibhisana"		
+		location = 10751
+		division_template = "Asbarohi Bahini Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "4 Parbata Padatikabarga Dibhisana"		
+		location = 10471
+		division_template = "Parbata Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "5 Parbata Padatikabarga Dibhisana"		
+		location = 10471
+		division_template = "Parbata Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "20 Padatikabarga Dibhisana"		
+		location = 12307
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+#####Orissa#####
+	division= {			
+		name = "21 Padatikabarga Dibhisana"		
+		location = 1059 #Orissa
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "22 Padatikabarga Dibhisana"		
+		location = 1059
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "23 Padatikabarga Dibhisana"		
+		location = 1059
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "24 Padatikabarga Dibhisana"		
+		location = 1059
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "25 Padatikabarga Dibhisana"		
+		location = 1059
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "1 Motaraba'ika inaphyantri Dibhisana"		
+		location = 1059
+		division_template = "Motaraba'ika inaphyantri Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "6 Parbata Padatikabarga Dibhisana"		
+		location = 12490
+		division_template = "Parbata Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "7 Parbata Padatikabarga Dibhisana"		
+		location = 12490
+		division_template = "Parbata Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "26 Padatikabarga Dibhisana"		
+		location = 9946
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "2 Asbarohi Bahini Dibhisana"		
+		location = 9946
+		division_template = "Asbarohi Bahini Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+#####Hyderabad######
+	division= {			
+		name = "27 Padatikabarga Dibhisana"		
+		location = 8087 #Hyderabad
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "28 Padatikabarga Dibhisana"		
+		location = 8087
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "29 Padatikabarga Dibhisana"		
+		location = 8087
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "2 Motaraba'ika inaphyantri Dibhisana"		
+		location = 8087
+		division_template = "Motaraba'ika inaphyantri Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "30 Padatikabarga Dibhisana"		
+		location = 4472
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "31 Padatikabarga Dibhisana"		
+		location = 4472
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "32 Padatikabarga Dibhisana"		
+		location = 4472
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "3 Asbarohi Bahini Dibhisana"		
+		location = 10311
+		division_template = "Asbarohi Bahini Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "4 Asbarohi Bahini Dibhisana"		
+		location = 10311
+		division_template = "Asbarohi Bahini Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "5 Asbarohi Bahini Dibhisana"		
+		location = 10311
+		division_template = "Asbarohi Bahini Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+#####Madras#####
+	division= {			
+		name = "33 Padatikabarga Dibhisana"		
+		location = 10756
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "34 Padatikabarga Dibhisana"		
+		location = 10756
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "35 Padatikabarga Dibhisana"		
+		location = 10756
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "36 Padatikabarga Dibhisana"		
+		location = 12180
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "37 Padatikabarga Dibhisana"		
+		location = 12180
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "38 Padatikabarga Dibhisana"		
+		location = 12180
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+#####Sri Lanka#####
+	division= {			
+		name = "39 Padatikabarga Dibhisana"		
+		location = 10201 #Trincomalee
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "40 Padatikabarga Dibhisana"		
+		location = 10201 #Trincomalee
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "41 Padatikabarga Dibhisana"		
+		location = 10201 #Trincomalee
+		division_template = "Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {			
+		name = "8 Parbata Padatikabarga Dibhisana"		
+		location = 4219
+		division_template = "Parbata Padatikabarga Dibhisana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+#######NAVAL UNITS#######
+	navy = {	
+		name = "Bangopasagara Upakule Bayu" ##Bay of Bengal Fleet
+		base = 4245
+		location = 4245 # Dhaka
+		# 1 Dhbansatmaka phlita
+		ship = { name = "Dhaleshwari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "Bijoy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "Shadhinota" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "Prottoy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		# 2 Dhbansatmaka phlita
+		ship = { name = "Meghna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "Jamuna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+	}
+	navy = {	
+		name = "Srilanka Phlita"
+		base = 10201
+		location = 10201 # Trincomalee
+		# 8 Dhbansatmaka phlita
+		ship = { name = "Karnafuli" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "Tista" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+	}
+}	
+air_wings = {
+	431 = { 
+		fighter_equipment_0 = {
+			owner = "RAJ" 
+			amount = 94
+		}
+		tac_bomber_equipment_0 =  {
+			owner = "RAJ" 
+			amount = 60
+		}
+	}
+}
+}

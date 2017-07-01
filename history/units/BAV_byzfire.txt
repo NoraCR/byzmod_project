@@ -1,4 +1,4 @@
-﻿division_template = {
+division_template = {
 	name = "Bundesinfanterie"				# 
 									# Not complete walkovers, but certainly not the best of the WRE
 	regiments = {
