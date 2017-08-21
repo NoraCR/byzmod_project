@@ -255,7 +255,7 @@ create_field_marshal = {
 	name = "Ludwyk Weyher"
 	picture = "pol_ludwyk_weyher.dds"
 	traits = { offensive_doctrine logistics_wizard }
-	skill = 7
+	skill = 5
 }
 
 create_field_marshal = {
@@ -287,7 +287,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Bernard Pełka
+	name = "Bernard Pelka
 	picture = "pol_bernard_pelka.dds"
 	traits = {  }
 	skill = 4
