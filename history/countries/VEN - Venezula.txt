@@ -1,6 +1,6 @@
 ﻿capital = 307
 
-oob = "VEN_byzfire"
+oob = "VEN_1936"
 
 # Starting tech
 set_technology = {

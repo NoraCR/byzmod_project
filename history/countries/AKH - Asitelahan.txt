@@ -1,4 +1,4 @@
-capital = 236 # Astrakhan
+﻿capital = 236 # Astrakhan
 
 oob = "AKH_byzfire"
 

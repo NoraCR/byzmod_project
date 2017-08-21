@@ -1,6 +1,6 @@
 ﻿capital = 313
 
-oob = "GUA_byzfire"
+oob = "GUA_1936"
 
 # Starting tech
 set_technology = {

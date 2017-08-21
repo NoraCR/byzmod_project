@@ -1,6 +1,6 @@
 ﻿capital = 304
 
-oob = "PAN_byzfire"
+oob = "PAN_1936"
 
 # Starting tech
 set_technology = {

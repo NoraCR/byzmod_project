@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Ñíidaawaa" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
+	name = "Regular Infantry" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
 									# 1 engineering regiment, 1 recon regiment
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -21,22 +21,22 @@
 	}
 }
 division_template = {
-	name = "Tlat'a'áaw Ñíidaawaa" 	# Independent Mixed Brigade: 5 infantry battalions (4k men total), 1 field artillery basttalion - abstracted into infantry,
+	name = "Guardian" 	# Independent Mixed Brigade: 5 infantry battalions (4k men total), 1 field artillery basttalion - abstracted into infantry,
 										# 1 engineering battalion
 	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		light_armor = { x= 2 y = 0 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
 	}
 }
 division_template = {
-	name = "Gyuudáan Ñíidaawaa" 			# Cavalry Division - 2 Cavalry Division regiments (3k men); 1 mounted artillery regiment
+	name = "Cavalry" 			# Cavalry Division - 2 Cavalry Division regiments (3k men); 1 mounted artillery regiment
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -47,7 +47,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Káagaay ñíidaawaa" 			# Motorized divisions - 4 motorized infantry regiments (3k men each), 1 recon regiment, 
+	name = "Motorized Infantry" 			# Motorized divisions - 4 motorized infantry regiments (3k men each), 1 recon regiment, 
 										#1 engineer regiment, 1 mounted artillery regiment
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -70,7 +70,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Dlagánggwaang Ñíidaawaa"				#This template covers SNLF divisions; historically there were roughly 5 total, with 1 being paratroopers
+	name = "Sea Guard"				#This template covers SNLF divisions; historically there were roughly 5 total, with 1 being paratroopers
 	regiments = {
 		marine = { x = 0 y = 0 }
 		marine = { x = 0 y = 1 }
@@ -85,7 +85,7 @@ division_template = {
 	priority = 2
 }
 division_template = {
-	name = "Sáan Hlçats'a" 			# Garrison template - represents Imperial Manchukuo Army infantry divisions: 2 infantry regiments (3k men) -- militia (lowest equipment, experience)
+	name = "Home Guard" 			# Garrison template - represents Imperial Manchukuo Army infantry divisions: 2 infantry regiments (3k men) -- militia (lowest equipment, experience)
 										# Also represents (over-sized) IJN Base Defense Unit (island, city and naval base garrisons): 2 infantry rgts (3k men), 1 field artillery rgt (abstracted), 1 engineering rgt
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -99,268 +99,12 @@ division_template = {
 }
 
 
-######## OOB ########
+##### OOB #####
 units = {
-#####Alaska######
-	division= {	
-		name = "1 Ñíidaawaa"
-		location = 13091  # Anchorage
-		division_template = "Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "2 Ñíidaawaa"
-		location = 13091  # Anchorage
-		division_template = "Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "1 Tlat'a'áaw Ñíidaawaa"
-		location = 13091  # Anchorage
-		division_template = "Tlat'a'áaw Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "3 Ñíidaawaa"
-		location = 1869  # Haida Gwaii
-		division_template = "Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "4 Ñíidaawaa"
-		location = 1869  # Haida Gwaii
-		division_template = "Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-#####British Columbia#####
-	division= {	
-		name = "5 Ñíidaawaa"
-		location = 1408  # Vancouver
-		division_template = "Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "6 Ñíidaawaa"
-		location = 1408  # Vancouver
-		division_template = "Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "1 Gyuudáan Ñíidaawaa"
-		location = 1408  # Vancouver
-		division_template = "Gyuudáan Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "2 Tlat'a'áaw Ñíidaawaa"
-		location = 1408
-		division_template = "Tlat'a'áaw Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-#####Hawaii#####
-	division= {	
-		name = "7 Ñíidaawaa"
-		location = 4180  # Hilo
-		division_template = "Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "1 Dlagánggwaang Ñíidaawaa"
-		location = 4180  # Hilo
-		division_template = "Dlagánggwaang Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-#####California#####
-	division= {	
-		name = "2 Dlagánggwaang Ñíidaawaa"
-		location = 9814 # Los Angeles
-		division_template = "Dlagánggwaang Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "8 Ñíidaawaa"
-		location = 9814  
-		division_template = "Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "9 Ñíidaawaa"
-		location = 9814  
-		division_template = "Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-#####Arizona#####
-	division= {	
-		name = "10 Ñíidaawaa"
-		location = 853  
-		division_template = "Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "3 Tlat'a'áaw Ñíidaawaa"
-		location = 853
-		division_template = "Tlat'a'áaw Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-#####Mexico#####
-	division= {	
-		name = "4 Tlat'a'áaw Ñíidaawaa"
-		location = 12835 #North Mexico
-		division_template = "Tlat'a'áaw Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "11 Ñíidaawaa"
-		location = 12835  
-		division_template = "Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "12 Ñíidaawaa"
-		location = 4956 #Chichimeca 
-		division_template = "Ñíidaawaa"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	navy = {
-		name = "Combined Fleet"
-		base = 1869
-		location = 1869  # Haida Gwaii
-		ship = { name = "Tlingit" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Eyak" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Denali" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Cehdotlothna" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Yukon" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Stikine" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Waahúu Ñ'ust'anáay " definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Gyúudaanaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Ñúndlaan" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Madaláaw" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Mas" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Ts'áamaas Ñ'íidaay " definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
-	}
-	navy = {
-		name = "Battleship Fleet 1"				
-		base = 9671
-		location = 9671  # San Francisco
-		ship = { name = "Chaan Xúujaay" definition = carrier equipment = { carrier_1 = {amount = 1 owner = HDA } } 				
-			air_wings = { 
-				cv_fighter_equipment_0 =  { owner = "HDA" amount = 24 } # historical 24
-				cv_CAS_equipment_1 = { owner = "HDA" amount = 12 } 	# historical 12
-
-			}
-		}
-		ship = { name = "Tsimshian" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Haisla" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Helitsuk" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA } } }	
-		ship = { name = "Nuxalk" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Tlingit" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Nisga'a" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Gitxsan" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Yaas'éit'aa Shaa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Tsalxhaan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Tahini-wud" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Tagish" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Tr'ondëk Hwëch'in" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Dagdagdiyáa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Dagdag" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Híilang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Híilaang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Kingáang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "K'idáng" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "K'áy ýiláay" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Ngáahlang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Sdagwaanáa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "St'a K'ún" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Ts'ahts'áa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Wáanuug" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Xyáahl" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Giid" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
-		ship = { name = "Gyahgdáang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Hlçíid" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Hlíing" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Hlñ'ámaal" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Ináahlgaal" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Kaas" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "K'áalts'adaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "K'ayánhl " definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Kuyánhl " definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Skíi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "S'ám" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "S'íinaang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "S'úuluud" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "T'a'áaw" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
-		ship = { name = "Dlagáng" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+	
 }
-	navy = {	
-		name = "1st Submarine Fleet" 
-		base = 9671
-		location = 9671 
-		ship = { name = "S-1" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }	
-		ship = { name = "S-2" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }		
-		ship = { name = "S-3" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }	
-		ship = { name = "S-4" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }		
-		ship = { name = "S-5" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }	
-		ship = { name = "S-6" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }	
-	}					
-}
-#####AIRCRAFT#####
-air_wings = {
-	378 = {
-		CAS_equipment_1 = {
-			owner = "HDA" 
-			amount = 72
-		}
-		fighter_equipment_0 =  {
-			owner = "HDA" 
-			amount = 60
-		}
-	}
-	386 = {
-		tac_bomber_equipment_0 =  {
-			owner = "HDA" 
-			amount = 48
-		}
-	}
 
-}
+
 #########################
 ## STARTING PRODUCTION ##
 #########################
@@ -383,16 +127,6 @@ instant_effect =
 		}
 		requested_factories = 1
 		progress = 0.3
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = motorized_equipment_1
-			creator = "HDA" 
-		}
-		requested_factories = 1
-		progress = 0.4
 		efficiency = 50
 	}
 

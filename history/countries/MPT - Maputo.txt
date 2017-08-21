@@ -1,6 +1,4 @@
-﻿capital = 298
-
-oob = "MPT_byzfire"
+﻿capital = 544
 
 # Starting tech
 set_technology = {

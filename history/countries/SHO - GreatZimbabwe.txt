@@ -1,6 +1,4 @@
-﻿capital = 298
-
-oob = "SHO_byzfire"
+﻿capital = 546
 
 # Starting tech
 set_technology = {

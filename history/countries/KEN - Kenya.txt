@@ -1,4 +1,4 @@
-﻿capital = 298
+﻿capital = 547
 
 set_research_slots = 3
 oob = "KEN_byzfire"

@@ -1,6 +1,4 @@
-﻿capital = 126
-
-oob = "GHA_byzfire"
+﻿capital = 298
 
 set_research_slots = 3
 

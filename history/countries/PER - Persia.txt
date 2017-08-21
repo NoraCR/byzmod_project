@@ -1,6 +1,6 @@
 ﻿capital = 266
 
-oob = "PER_byzfire"
+oob = "PER_1936"
 
 # Starting tech
 set_technology = {

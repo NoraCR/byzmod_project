@@ -1,6 +1,6 @@
-﻿capital = 322
+﻿capital = 434
 
-oob = "TIB_byzfire"
+oob = "TIB_1936"
 
 # Starting tech
 set_technology = {

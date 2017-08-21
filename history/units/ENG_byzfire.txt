@@ -202,6 +202,61 @@ units = {
 	}
 	
 	### Middle East Command ###
+	#Sudan
+	division= {	
+		name = "Sudan Defense Force"
+		location = 12806
+		division_template = "Colonial Garrison"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+
+	}
+	#Palestine & Transjordan
+	division= {	
+		name = "Jerusalem & Lydda Area"
+		location = 4206
+		division_template = "Colonial Garrison"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	#Aden
+	division= {	
+		name = "Aden Defense Force"
+		location = 12821
+		division_template = "Colonial Garrison"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	#Egypt
+	division= {	
+		name = "Cairo Force"
+		location = 7011
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Canal Brigade"
+		location = 1155
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}
+	division= {	
+		name = "The Cavalry Brigade (Egypt)"
+		location = 4076
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
 	#Gibraltar
 	division= {	
 		name = "Gibraltar Defense Force"
@@ -222,39 +277,52 @@ units = {
 
 	}
 	
-	###Africa
+	###East Africa
 	division= {	
-		name = "Congo Force"
-		location = 10968
+		name = "East Africa Force"
+		location = 1939
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division= {	  
-		name = "Cameroon Force"
-		location = 6039
-		division_template = "Colonial Garrison"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {	  
-		name = "Ubangi-Shari Force"
-		location = 5084
+		name = "Southern Africa Force"
+		location = 12911
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division= {	
-		name = "Katanga Groups"
-		location = 4515
+		name = "Northern Rhodesia Groups"
+		location = 1939
 		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 		start_equipment_factor = 0.3
 
 	}
+
+	###West Africa
+	division= {	
+		name = "1 West African Force"
+		location = 2050
+		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.15
+
+	}
+	division= {	  
+		name = "2 West African Force"
+		location = 10862 
+		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.15
+
+	}
+	
+
+
 	
 	##### NAVAL UNITS #####
 	### HOME COMMAND ###
@@ -510,8 +578,8 @@ units = {
 	### MEDITERRANIAN FLEET ###			
 	navy = {				
 		name = "Mediterranean Fleet"
-		base = 11837
-		location = 11837 # Taranto
+		base = 4076
+		location = 4076 # Alexandria
 		ship = { name = "HMS Arthur Pendragon" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG } } 
 			air_wings = {
 				cv_fighter_equipment_0 =  { owner = "ENG" amount = 6 } #historical 9
@@ -572,8 +640,8 @@ units = {
 	}				
 	navy = {				
 		name = "1st Submarine Flotilla"			
-		base = 4159 
-		location = 4159 # Messina
+		base = 4076 
+		location = 4076 # Alexandria
 		# Submarine Division 11
 		ship = { name = "HMS Enkidu" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }		
 		ship = { name = "HMS Gilgamesh" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }		
@@ -589,16 +657,16 @@ units = {
 	### FAR EAST ###			
 	navy = {				
 		name = "East Indies Fleet"
-		base = 13002
-		location = 13002 # Cocos Islands
+		base = 10201
+		location = 10201 # Trincomalee, Ceylon
 		ship = { name = "HMS Torridon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 		ship = { name = "HMS Applecross" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 		ship = { name = "HMS Gairloch" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 	}				
 	navy = {				
-		name = "Nova Scotia Fleet"
-		base = 7361
-		location = 7361 # Halifax			
+		name = "China Fleet"
+		base = 10062
+		location = 10062 # Hong Kong			
 		ship = { name = "HMS Gwenhwfar" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG } } 
 			air_wings = {
 				cv_fighter_equipment_0 =  { owner = "ENG" amount = 18 }
@@ -617,16 +685,16 @@ units = {
 		ship = { name = "HMS Spartacus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
 	}				
 	navy = {				
-		name = "Indian Ocean Division"
-		base = 2188
-		location = 2188 # Seychelles	
+		name = "New Zealand Division"
+		base = 13056
+		location = 13056 # Fongfale	
 		ship = { name = "HMS Stonehaven" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }		# to RNZN 1941
 		ship = { name = "HMS Lochmodan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }		# to RNZN 1941
 	}				
 	navy = {				
 		name = "4th Submarine Flotilla"			
-		base = 2188
-		location = 2188 # Seychelles
+		base = 12299
+		location = 12299 # Singapore
 		ship = { name = "HMS Mimir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		# Submarine Division 41
 		ship = { name = "HMS Aegir" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
@@ -726,8 +794,8 @@ air_wings = {
 	}
 
 	### RAF Middle East and Africa
-	116 = { 
-		### AHQ Malta
+	447 = { 
+		### AHQ Egypt
 		fighter_equipment_0 = {
 			owner = "ENG" 
 			amount = 72
@@ -741,12 +809,28 @@ air_wings = {
 			amount = 64
 		}
 	}
-
+	454 = { 
+		### RAF Palestine & Iraq
+		CAS_equipment_1 = {
+			owner = "ENG" 
+			amount = 32
+		}
+	}
+	659 = { 
+		### RAF Aden
+		fighter_equipment_0 = {
+			owner = "ENG" 
+			amount = 24
+		}
+		CAS_equipment_1 = {
+			owner = "ENG" 
+			amount = 16
+		}
 	}
 
-	### RAF Gibraltar
-	118 = { 
-		### RAF Gibraltar
+	### RAF Far East
+	336 = { 
+		### RAF Far East
 		nav_bomber_equipment_1 = {
 			owner = "ENG" 
 			amount = 24

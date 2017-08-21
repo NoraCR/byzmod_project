@@ -1,7 +1,5 @@
 ﻿capital = 554
 
-oob = "SYR_byzfire"
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

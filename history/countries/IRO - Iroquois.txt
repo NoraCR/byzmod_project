@@ -1,6 +1,4 @@
-﻿capital = 279
-
-oob = "IRO_byzfire"
+﻿capital = 276
 
 # Starting tech
 set_research_slots = 3

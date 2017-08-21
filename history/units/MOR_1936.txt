@@ -1,4 +1,4 @@
-division_template = {
+﻿division_template = {
 	name = "Katibat Mushatan" #It's a basic infantry division; if Morocco is granted a sizable amount of industry then a support artillery could be considered, 
 							  #but as is they likely won't be able to produce enough to support it
 	regiments = {
@@ -105,7 +105,7 @@ units = {
 	}
 	#Canaries Command
 	division = {
-		name = "Añazo Garrison" #Canaries garrison division; garrison nature reflected by low starting supplies
+		name = "AÃ±azo Garrison" #Canaries garrison division; garrison nature reflected by low starting supplies
 		location = 13071
 		division_template = "Katibat Mushatan"
 		start_experience_factor = 0.1

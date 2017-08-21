@@ -1,6 +1,6 @@
 ﻿capital = 277
 
-oob = "MEX_byzfire"
+oob = "MEX_1936"
 
 # Starting tech
 set_technology = {

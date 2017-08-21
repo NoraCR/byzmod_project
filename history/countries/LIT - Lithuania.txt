@@ -1,6 +1,6 @@
 ﻿capital = 11
 
-oob = "LIT_byzfire"
+oob = "LIT_1936"
 
 set_research_slots = 3
 

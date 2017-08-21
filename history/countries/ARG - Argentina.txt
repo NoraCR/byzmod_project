@@ -1,6 +1,6 @@
 ﻿capital = 278
 
-oob = "ARG_byzfire"
+oob = "ARG_1936"
 
 # Starting tech
 set_technology = {

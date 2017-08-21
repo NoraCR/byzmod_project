@@ -1,6 +1,5 @@
-﻿capital = 49
+﻿capital = 229
 
-oob = "AZB_byzfire"
 
 set_research_slots = 3
 
