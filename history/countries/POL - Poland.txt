@@ -278,31 +278,3 @@ create_field_marshal = {
 	traits = {  inspirational_leader }
 	skill = 5
 }
-
-create_corps_commander = {
-	name = "Eliasz Mioduski"
-	picture = "pol_eliasz_mioduski.dds"
-	traits = {  panzer_leader }
-	skill = 4
-}
-
-create_corps_commander = {
-	name = "Bernard Pelka
-	picture = "pol_bernard_pelka.dds"
-	traits = {  }
-	skill = 4
-}
-
-create_corps_commander = {
-	name = "Boleslaw Karnicki"
-	picture = "pol_boleslaw_karnicki.dds"
-	traits = { trickster }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Luiza Mrotek
-	picture = "pol_luiza_mrotek.dds"
-	traits = {  }
-	skill = 4
-}
