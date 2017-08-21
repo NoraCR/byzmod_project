@@ -1,4 +1,4 @@
-﻿capital = 554
+﻿capital = 677
 
 oob = "SYR_byzfire"
 
