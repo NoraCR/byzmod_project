@@ -1,0 +1,50 @@
+############
+# Ireland Events
+############
+
+add_namespace = ir
+
+
+### Britain pressures us
+
+country_event = {
+	id = ir.1
+	title = ir.1.t
+	desc = ir.1.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	# We must accept
+	option = {
+		name = ir.1.a
+		set_autonomy = {
+				target = IRE
+				autonomy_state = autonomy_puppet
+		}
+		hidden_effect = {
+				news_event = { id = news.701 hours = 6}
+		}
+	}
+}
+
+### Britain makes us an integrated puppet
+
+country_event = {
+	id = ir.2
+	title = ir.2.t
+	desc = ir.2.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	# We must accept
+	option = {
+		name = ir.2.a
+		hidden_effect = {
+				news_event = { id = news.702 hours = 6}
+		}
+	}
+	
+}
+

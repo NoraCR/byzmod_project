@@ -1,0 +1,68 @@
+############
+# Scandinavian Events
+############
+
+add_namespace = sca
+
+### Scandinavia receives request from NGF
+
+country_event = {
+	id = sca.200
+	title = sca.200.t
+	desc = sca.200.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	# We refuse
+	option = {
+		name = sca.200.a
+		GER = {
+			country_event = { id = germany.301  }
+		}
+	}
+	# We will help them in exchange for the rest of Denmark
+	option = {
+		name = sca.200.b
+		GER = {
+			country_event = { id = germany.321  }
+		}
+	}
+}
+
+### Scandinavia receives request from ENG
+
+country_event = {
+	id = sca.10
+	title = sca.10.t
+	desc = sca.10.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	# We refuse
+	option = {
+		name = sca.10.a
+		ENG = {
+			country_event = { id = eng.4  }
+		}
+	}
+	# We will help them
+	option = {
+		name = sca.10.b
+		ENG = {
+			country_event = { id = eng.5  }
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

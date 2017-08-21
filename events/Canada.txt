@@ -1,0 +1,40 @@
+add_namespace = can
+
+# Britain extends the hand
+
+country_event = {
+	id = can.1
+	title = can.1.t
+	desc = can.1.d
+	picture = GFX_report_event_german_politician_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = can.1.a
+		add_ideas = democratic_influence
+	}
+}
+
+# We join England
+
+country_event = {
+	id = can.2
+	title = can.2.t
+	desc = can.2.d
+	picture = GFX_report_event_german_politician_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = can.2.a
+		ENG = {
+			add_to_faction = CAN
+		}
+		BYZ = { remove_from_faction = ROOT }
+		hidden_effect = {
+				news_event = { id = news.721 hours = 6}
+		}
+	}
+}
+
