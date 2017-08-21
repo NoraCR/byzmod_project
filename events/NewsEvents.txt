@@ -2402,6 +2402,156 @@ news_event = {
 	}
 }
 
+# Kimetto vs Crozier
+news_event = {
+	id = news.900
+	title = news.900.t
+	desc = news.900.d
+	picture = GFX_news_event_olympics_1940
+	
+	major = yes
+	
+	trigger = {
+		date > 1936.6.19
+		country_exists = FRA
+		country_exists = BYZ
+		GER = { has_war = no }
+		FRA = { has_war = no }
+		ENG = { has_war = no }
+		BYZ = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = news.238_fired 
+	}
+	
+	option = {
+		name = news.900.a
+		trigger = { 
+			NOT = { TAG = FRA }
+		}
+	}
+	option = {
+		name = news.900.b
+		trigger = { TAG = FRA }
+	}
+}
+
+# Crozier vs Thrane
+news_event = {
+	id = news.901
+	title = news.901.t
+	desc = news.901.d
+	picture = GFX_news_event_olympics_1940
+	
+	major = yes
+	
+	trigger = {
+		date = 1937.6.22
+		country_exists = FRA
+		country_exists = DEN
+		FRA = { has_war = no }
+		DEN = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = news.901_fired 
+	}
+	
+	option = {
+		name = news.901.a
+		trigger = { 
+			NOT = { TAG = FRA }
+		}
+	}
+	option = {
+		name = news.901.b
+		trigger = { TAG = FRA }
+	}
+}
+
+# Kimetto vs Crozier rematch
+news_event = {
+	id = news.902
+	title = news.902.t
+	desc = news.902.d
+	picture = GFX_news_event_olympics_1940
+	
+	major = yes
+	
+	trigger = {
+		date = 1938.6.22
+		country_exists = FRA
+		country_exists = BYZ
+		FRA = { has_war = no }
+		BYZ = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = news.902_fired 
+	}
+	
+	option = {
+		name = news.902.a
+		trigger = { 
+			NOT = { TAG = FRA }
+		}
+	}
+	option = {
+		name = news.902.b
+		trigger = { TAG = FRA }
+	}
+}
+
+# McCadden vs Yuwans
+news_event = {
+	id = news.903
+	title = news.903.t
+	desc = news.903.d
+	picture = GFX_news_event_olympics_1940
+	
+	major = yes
+	
+	trigger = {
+		date = 1936.1.19
+		country_exists = IRE
+		country_exists = HDA
+		IRE = { has_war = no }
+		HDA = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = news.903_fired 
+	}
+	
+	option = {
+		name = news.903.a
+		trigger = { 
+			NOT = { TAG = IRE }
+		}
+	}
+	option = {
+		name = news.903.b
+		trigger = { TAG = IRE }
+	}
+}
+
 # Baltic country annexed (base event baltic.5)
 news_event = {
 	id = news.69
