@@ -4,13 +4,13 @@ state={
 	name="STATE_612" # Chahar
 	manpower = 566000
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = CHI
 		add_core_of = CHI
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
 	}
 

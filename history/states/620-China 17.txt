@@ -4,16 +4,16 @@ state=
 	name="STATE_620" # Hubei
 	manpower = 25541600
 	
-	state_category = city
+	state_category = large_city
 	history=
 	{
 		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			arms_factory = 2
-			industrial_complex = 1
+			industrial_complex = 3
 		}
 		victory_points = { 
 			4619 5

@@ -3,10 +3,11 @@ state={
 	name="STATE_716"
 	manpower = 11264620
 	resources={
-		steel=36
+		steel=72
+		aluminium=72
 	}
 	
-	state_category = city
+	state_category = large_city
 
 
 	history={

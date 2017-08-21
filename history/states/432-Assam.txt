@@ -7,13 +7,14 @@ state={
 	state_category = town
 	
 	resources={
-		oil=6
+		oil=8
 	}
 
 	history={
 		owner = RAJ
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 2
 		}
 
 	}

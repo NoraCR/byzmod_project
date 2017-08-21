@@ -4,13 +4,15 @@ state={
 	name="STATE_328" # Kirin
 	manpower = 7536266
 	
-	state_category = rural
+	state_category = city
 
 	history={
 		owner = CHI
 		add_core_of = CHI
 		buildings = {
-			infrastructure = 4
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
 		}
 		victory_points = {
 			4572 1

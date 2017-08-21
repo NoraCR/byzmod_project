@@ -4,12 +4,12 @@ state={
 	name="STATE_471" # Northwestern Canada
 	manpower = 27681
 	
-	state_category = wasteland
+	state_category = large_town
 
 	history={
 		owner = HDA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 			10548 = {
 				naval_base = 1
 			}

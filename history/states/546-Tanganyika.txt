@@ -2,7 +2,7 @@ state={
 	id=546
 	name="STATE_546"
 	
-	state_category = town
+	state_category = large_town
 
 	history={
 		owner = SHO
@@ -11,7 +11,7 @@ state={
 			2196 1
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 6
 			industrial_complex = 3
 			air_base = 8
 			2196 = {

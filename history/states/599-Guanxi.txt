@@ -6,14 +6,14 @@ state= {
 	resources={
 		tungsten=20
 		steel= 20
-		chromium = 4
+		chromium = 6
 	}
 
 	history= {
 		owner = CHI
 		add_core_of = CHI
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 1
 			air_base = 2
 		}

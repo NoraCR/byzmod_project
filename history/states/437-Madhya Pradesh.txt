@@ -4,14 +4,14 @@ state={
 	name="STATE_437" # Indore
 	manpower = 8402500
 
-	state_category = rural
+	state_category = city
 
 	history={
 		owner = MRT
 		add_core_of = MRT
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 5
+			industrial_complex = 4
 		}
 
 	}

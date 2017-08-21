@@ -3,10 +3,11 @@ state= {
 	name="STATE_606" # Anhui
 	manpower = 23265400
 	
-	state_category = city
+	state_category = large_city
 	
 	resources={
-		steel=16
+		steel=48
+		aluminium=18
 	}
 
 	history= {
@@ -14,8 +15,8 @@ state= {
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 6
+			industrial_complex = 4
 		}
 		victory_points = { 
 			7222 1 

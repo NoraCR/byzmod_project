@@ -9,7 +9,7 @@ state={
 	
 	resources={
 
-		tungsten=1
+		tungsten=40
 
 	}
 

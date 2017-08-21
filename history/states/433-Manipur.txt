@@ -4,7 +4,7 @@ state={
 	name="STATE_433" # Rajasthan
 	manpower = 11786000
 	
-	state_category = town
+	state_category = city
 	
 	
 	resources={
@@ -16,7 +16,7 @@ state={
 		add_core_of = MRT
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			industrial_complex = 2
 		}
 
 	}

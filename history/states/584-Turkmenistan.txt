@@ -4,7 +4,7 @@ state={
 	name="STATE_584" # Ashkhabad
 	manpower = 1064523
 	
-	state_category = pastoral
+	state_category = rural
 
 	history={
 		owner = TRX

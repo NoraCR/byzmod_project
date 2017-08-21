@@ -4,15 +4,15 @@ state={
 	name="STATE_609" # East Hebei
 	manpower = 6400000
 	
-	state_category = town
+	state_category = city
 
 	history={
 		owner = CHI
 		add_core_of = CHI
 		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 1
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 2
 		}
 
 	}

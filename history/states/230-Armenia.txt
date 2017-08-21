@@ -4,7 +4,7 @@ state={
 	name="STATE_230"
 	manpower = 1250082
 	
-	state_category = town
+	state_category = large_town
 
 	history={
 		owner = AZB
@@ -12,7 +12,7 @@ state={
 			12320 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 2
 			air_base = 2
 		}
