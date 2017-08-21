@@ -96,7 +96,9 @@ set_politics = {
 
 
 add_ideas = {
-
+	BYZ_byzantine_abundance
+	BYZ_incompetant_officers
+	BYZ_home_of_the_revolution
 }
 
 

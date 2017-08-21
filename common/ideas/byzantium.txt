@@ -1,5 +1,72 @@
 ideas = {
 
+	country = {
+	
+		BYZ_byzantine_abundance = {
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_goods_red_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.3
+				conversion_cost_civ_to_mil_factor= 0.5
+			}
+		}
+		
+		BYZ_incompetant_officers = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_victors_of_ww1
+			
+			research_bonus = {
+				land_doctrine = -0.33
+			}
+			modifier = {
+				army_org_factor = -0.05
+				planning_speed = -0.25
+			}
+		}
+		
+		BYZ_home_of_the_revolution = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+	}
+	
 	political_advisor = {
 		helvetica_bold = {
 			
