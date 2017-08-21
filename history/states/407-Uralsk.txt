@@ -9,7 +9,7 @@ state={
 	history={
 		owner = AKH
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 		}
 		add_core_of = AKH
 	}

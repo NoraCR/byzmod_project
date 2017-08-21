@@ -119,7 +119,9 @@ set_politics = {
 }
 
 add_ideas = {
-	IG_cult_of_valeria
+	FRA_victors_of_wwi
+	FRA_disjointed_government
+	FRA_protected_by_the_maginot_line
 	limited_conscription
 }
 

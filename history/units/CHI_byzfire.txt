@@ -1,4 +1,4 @@
-##### Ming Division Templates #####
+﻿##### Ming Division Templates #####
 division_template = {
 	name = "Bubingshi"  	# Standard infantry division
 

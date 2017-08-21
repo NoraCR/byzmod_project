@@ -15,7 +15,7 @@ state={
 		owner = MRT
 		add_core_of = MRT
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			industrial_complex = 2
 		}
 

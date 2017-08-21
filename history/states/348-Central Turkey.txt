@@ -4,13 +4,13 @@ state={
 	name="STATE_348" # Kayseri
 	manpower = 858452
 	
-	state_category = rural
+	state_category = city
 
 	history={
 		owner = BYZ
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			infrastructure = 6
+			industrial_complex = 3
 		}
 		add_core_of = BYZ
 	}

@@ -4,16 +4,16 @@ state={
 	name="STATE_121" # Lothian
 	manpower = 1431624
 	
-	state_category = city
+	state_category = metropolis
 
 	history={
 		owner = ENG
 		victory_points = { 9392 10 }
 		victory_points = { 6300 1 }
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 1
-			dockyard = 1
+			infrastructure = 8
+			industrial_complex = 3
+			dockyard = 2
 			air_base = 3
 			6300 = {
 				naval_base = 5

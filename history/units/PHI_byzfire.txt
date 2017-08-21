@@ -1,4 +1,4 @@
-division_template = {
+﻿division_template = {
 	name = "Bahagian Infantri"	# Divisions were reserves assigned to various military districts
 
 	regiments = {

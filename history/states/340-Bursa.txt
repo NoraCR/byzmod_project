@@ -7,7 +7,7 @@ state={
 		chromium=54
 	}
 
-	state_category = large_town
+	state_category = city
 
 	history={
 		owner = BYZ

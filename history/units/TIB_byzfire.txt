@@ -1,4 +1,4 @@
-division_template = {
+﻿division_template = {
 	name = "Juntuan"			
 								# Troops were militias, similar to other warlord levies
 	regiments = {

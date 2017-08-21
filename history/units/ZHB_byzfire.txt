@@ -78,7 +78,7 @@ units = {
 	}			
 	division = {			
 		name = "2a División de Infantería"		
-		location = 9382  # Connecticut
+		location = 9832  # Connecticut
 		division_template = "División de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
@@ -217,26 +217,5 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.24
 		efficiency = 100
-	}
-	### Under Contruction Notes ###
-	# DD: Churucca class (x3) ("ARE Almirante Miranda" "ARE Gravina" "ARE Escaño" "ARE Císcar" "ARE Jorge Juan" "ARE Ulloa")
-	add_equipment_production = {
-		equipment = {
-			type = destroyer_2
-			creator = "ZHB"
-		}
-		requested_factories = 1
-		progress = 0.80
-		amount = 3
-	}
-	# CA: ARE Canarias (Canarias class, comm. 1-Oct, 1936), ARE Baleares (Canarias class, comm. 28-Dec, 1936)
-	add_equipment_production = {
-		equipment = {
-			type = heavy_cruiser_2
-			creator = "ZHB"
-		}
-		requested_factories = 2
-		progress = 0.85
-		amount = 2
 	}
 }

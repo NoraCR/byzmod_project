@@ -1,4 +1,4 @@
-division_template = {
+﻿division_template = {
 	name = "Alfurqat Almasha"		# 'Infantry Division' - Represents local tribal levies (militia)
 
 	regiments = {

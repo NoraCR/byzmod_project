@@ -13,6 +13,7 @@ set_technology = {
 	interwar_antiair = 1
 	gwtank = 1
 	basic_light_tank = 1
+	motorised_infantry = 1
 	#improved_light_tank = 1  # PLACEHOLDER
 	#basic_heavy_tank = 1  # PLACEHOLDER
 	#basic_medium_tank = 1 # PLACEHOLDER

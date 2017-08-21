@@ -1,4 +1,4 @@
-##### Astrakhan Division Templates #####
+﻿##### Astrakhan Division Templates #####
 division_template = {
 	name = "Bubingshi"  	# Standard infantry division
 

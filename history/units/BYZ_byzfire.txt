@@ -181,7 +181,7 @@ units = {
 	}			
 	division= {			
 		name = "Ecclesiastic Union Local 42"		
-		location = 923
+		location = 819
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -334,8 +334,8 @@ units = {
 	##### NAVAL UNITS #####
 	navy = {					
 		name = "Ostia Home Fleet"				
-		base = 923
-		location = 923 # Ostia
+		base = 819
+		location = 819 # Ostia
 		ship = { name = "RNS Monte Rosa" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Olympus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Smolikas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
@@ -390,32 +390,32 @@ units = {
 	
 	navy = {					
 		name = "Battleship Division 1"				
-		base = 923
-		location = 923 # Ostia
+		base = 819
+		location = 819 # Ostia
 		ship = { name = "RNS Drymonakos" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Cavinato" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Milenov" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 	}					
 	navy = {					
 		name = "Battleship Division 2"				
-		base = 923
-		location = 923 # Ostia
+		base = 819
+		location = 819 # Ostia
 		ship = { name = "RNS Gracchus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Krakatoa" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Vesuvius" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 	}					
 	navy = {					
 		name = "Battleship Division 4"				
-		base = 923
-		location = 923 # Ostia
+		base = 819
+		location = 819 # Ostia
 		ship = { name = "RNS Matterhorn" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Monte Rosa" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Corno Grande" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 	}				
 	navy = {					
 		name = "Carrier Division"				
-		base = 923
-		location = 923 # Ostia
+		base = 819
+		location = 819 # Ostia
 		ship = { name = "RNS Hyacinth" definition = carrier equipment = { carrier_1 = { amount = 1 owner = BYZ } } 
 			air_wings = {
 				cv_fighter_equipment_0 =  { owner = "BYZ" amount = 8 } # historical: 16
@@ -433,16 +433,16 @@ units = {
 	}					
 	navy = {					
 		name = "Cruiser Division 3"				
-		base = 923
-		location = 923 # Ostia
+		base = 819
+		location = 819 # Ostia
 		ship = { name = "RNS Athens" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Ankara" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Florence" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }				
 	}					
 	navy = {					
 		name = "Cruiser Division 4"				
-		base = 923
-		location = 923 # Ostia
+		base = 819
+		location = 819 # Ostia
 		ship = { name = "RNS Hypatia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Thucydides" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Pythagoras" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ } } }				
@@ -450,8 +450,8 @@ units = {
 	}					
 	navy = {					
 		name = "Cruiser Division 5"				
-		base = 923
-		location = 923 # Ostia
+		base = 819
+		location = 819 # Ostia
 		ship = { name = "RNS Socrates" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Aristotle" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		ship = { name = "RNS Plato" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ } } }					
@@ -459,8 +459,8 @@ units = {
 	}					
 	navy = {					
 		name = "Cruiser Division 6"				
-		base = 923
-		location = 923 # Ostia
+		base = 819
+		location = 819 # Ostia
 		ship = { name = "RNS Pericles" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
 		ship = { name = "RNS Antisthenes" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
 		ship = { name = "RNS Cleisthenes" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
@@ -468,8 +468,8 @@ units = {
 	}					
 	navy = {					
 		name = "Destroyer Flotilla  1"				
-		base = 923
-		location = 923 # Ostia
+		base = 819
+		location = 819 # Ostia
 		ship = { name = "RNS Sofia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		# 1st Destroyer Division				
 		ship = { name = "RNS Argosy" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
@@ -495,8 +495,8 @@ units = {
 	}				
 	navy = {					
 		name = "Destroyer Flotilla  5"				
-		base = 923
-		location = 923 # Ostia
+		base = 819
+		location = 819 # Ostia
 		ship = { name = "RNS Thessalonika" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }				
 		# 15th Destroyer Division				
 		ship = { name = "RNS Kalonimos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
@@ -522,8 +522,8 @@ units = {
 	}					
 	navy = {					
 		name = "4th Submarine Squadron"				
-		base = 923
-		location = 923 # Ostia
+		base = 819
+		location = 819 # Ostia
 		# 41st Submarine Division				
 		ship = { name = "RNS Durandal" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Cortana" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
@@ -545,8 +545,8 @@ units = {
 	}					
 	navy = {					
 		name = "6th Submarine Squadron"				
-		base = 923
-		location = 923 # Ostia
+		base = 819
+		location = 819 # Ostia
 		# 61st Submarine Division				
 		ship = { name = "RNS Kusanagi No Tsurugi" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Sword of Damocles" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }

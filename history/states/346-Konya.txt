@@ -4,13 +4,14 @@ state={
 	name="STATE_346"
 	manpower = 430305
 	
-	state_category = rural
+	state_category = city
 
 	history={
 		owner = BYZ
 		buildings = {
 			infrastructure = 6
 			air_base = 5
+			industrial_complex = 2
 		}
 		
 		victory_points = {

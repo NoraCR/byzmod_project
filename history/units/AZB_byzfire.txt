@@ -1,4 +1,4 @@
-start_equipment_factor = 0.15
+﻿start_equipment_factor = 0.15
 division_template = {
 	name = "Piyada Diviziyasi"  	
 									
@@ -157,7 +157,7 @@ units = {
 
 ### Air Wings ###
 air_wings = {
-	##### Azerbaycan Hava Q�vveleri #####
+	##### Azerbaycan Hava Qüvveleri #####
 	419 = { 
 		fighter_equipment_1 = { owner = "AZB" amount = 60 }					
 	}
