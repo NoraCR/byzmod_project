@@ -1,0 +1,195 @@
+start_equipment_factor = 0.15
+division_template = {
+	name = "Piyada Diviziyasi"  	
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon bn mix of cav recon, ACs, and tankettes
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Dag piyada diviziyasi"  
+	# Note: Mountain Divisions are same as Infantry Divisions above, but with mountain regiments
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon bn mix of cav recon, ACs, and tankettes
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Dag Piyada Briqadasi"
+	# Independent Mountain Brigade, binary organization
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "At Piyada Briqadasi" 			
+	# Independent Cavalry Brigade
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+	}
+}
+
+units = {
+##Tabriz
+	division = {
+		name = "Dag piyada diviziyasi 10"
+		location = 1896
+		division_template = "Dag Piyada Briqadasi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "At Piyada Briqadasi 1"
+		location = 1896
+		division_template = "At Piyada Briqadasi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+
+
+	# Yerevan #
+	division = {
+		name = "Piyada Diviziyasi 3"
+		location = 12320
+		division_template = "Piyada Diviziyasi" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Dag Piyada Briqadasi 11"
+		location = 12320
+		division_template = "Dag Piyada Briqadasi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Dag Piyada Briqadasi 12"
+		location = 12320
+		division_template = "Dag Piyada Briqadasi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	# Division 4 Command #
+	division = {
+		name = "Piyada Diviziyasi 4"
+		location = 4637
+		division_template = "Piyada Diviziyasi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+
+	# Division 5 Command #
+	division = {
+		name = "Piyada Diviziyasi 5"
+		location = 1822
+		division_template = "Piyada Diviziyasi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Dag Piyada Briqadasi 9"
+		location = 1822
+		division_template = "Dag Piyada Briqadasi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+
+	### 3. Armeekorps ###
+	division = {
+		name = "Dag Piyada Briqadasi 12"
+		location = 1536
+		division_template = "Dag Piyada Briqadasi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Piyada Diviziyasi 6"
+		location = 7661
+		division_template = "Piyada Diviziyasi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Piyada Diviziyasi 7"
+		location = 7661
+		division_template = "Piyada Diviziyasi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+
+
+}
+
+### Air Wings ###
+air_wings = {
+	##### Azerbaycan Hava Qüvveleri #####
+	419 = { 
+		fighter_equipment_1 = { owner = "AZB" amount = 60 }					
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "AZB"
+		}
+		requested_factories = 1
+		progress = 0.38
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "AZB"
+		}
+		requested_factories = 1
+		progress = 0.65
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "AZB"
+		}
+		requested_factories = 1
+		progress = 0.77
+		efficiency = 100
+	}
+}

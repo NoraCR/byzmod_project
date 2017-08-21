@@ -1,6 +1,6 @@
 ﻿capital = 284
 
-oob = "NZL_1936"
+oob = "NZL_byzfire"
 
 # Starting tech
 

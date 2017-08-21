@@ -1,4 +1,4 @@
-﻿capital = 337
+﻿capital = 110
 
 oob = "NOR_byzfire"
 

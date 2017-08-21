@@ -1,6 +1,6 @@
-﻿capital = 681
+﻿capital = 275
 
-oob = "SAF_1936"
+oob = "SAF_byzfire"
 
 # Starting tech
 set_technology = {

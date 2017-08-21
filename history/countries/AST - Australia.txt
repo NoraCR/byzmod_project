@@ -1,6 +1,6 @@
 ﻿capital = 285
 
-oob = "AST_1936"
+oob = "AST_byzfire"
 
 # Starting tech
 set_technology = {

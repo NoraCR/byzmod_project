@@ -1,6 +1,6 @@
-﻿capital = 468
+﻿capital = 276
 
-oob = "CAN_1936"
+oob = "CAN_byzfire"
 
 set_research_slots = 3
 set_country_flag = monroe_doctrine

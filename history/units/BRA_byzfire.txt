@@ -1,0 +1,210 @@
+﻿division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	support = {
+  	      engineer = { x = 0 y = 0 }
+ 	}
+}
+division_template = {
+	name = "Cavalry Division"  
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	##### Anacona Federation Army #####
+	division= {	
+		name = "1a Infantry Division"
+		location = 10980 # Rio de Janiero
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "11a Infantry Division"
+		location = 10980 # Rio de Janiero
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2a Infantry Division"
+		location = 10513 # Sao Paulo
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "12a Infantry Division"
+		location = 10513 # Sao Paulo
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "3a Infantry Division"
+		location = 10447 # Porto Alegre
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "13a Infantry Division"
+		location = 10447 # Porto Alegre
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "4a Infantry Division"
+		location = 5168 # Recife
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "14a Infantry Division"
+		location = 5168 # Recife
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "5a Infantry Division"
+		location = 8242 # Belo Horizonte
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "15a Infantry Division"
+		location = 8242 # Belo Horizonte
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "1a Cavalry Division"
+		location = 12853 # Belem
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "3a Cavalry Division"
+		location = 12853 # Belem
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2a Cavalry Division"
+		location = 5156 # Curitiba
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "4a Cavalry Division"
+		location = 5156 # Curitiba
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+
+	##### Naval OOB #####
+	navy = {				
+		name = "Anacoana Navy"			
+		base = 10980 
+		location = 10980 # Rio de Janiero
+		ship = { name = "NRA Guiana" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRA } } }
+		ship = { name = "NRA Tupiniqium" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRA } } }
+		ship = { name = "NRA Sergipe" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
+		ship = { name = "NRA Guarani" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
+		# 1a Flotilla de Contratorpedeiros
+		ship = { name = "NRA Piaui" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+		ship = { name = "NRA Potengi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+		ship = { name = "NRA Paraíba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+		ship = { name = "NRA Alagoas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+		# 2a Flotilla de Contratorpedeiros
+		ship = { name = "NRA Caxias" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }	
+		ship = { name = "NRA Sergipe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+		ship = { name = "NRA Uruguaia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+		ship = { name = "NRA Cuiabá" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+	}				
+	navy = {				
+		name = "Submarine Flotilla"			
+		base = 10980 
+		location = 10980 # Rio de Janiero
+		ship = { name = "NRA Humaytá" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BRA } } }
+	}				
+}
+
+
+air_wings = {
+	### Aviação Militar -- Rio de Janiero
+	500 = {
+		# Fighter Air Group -- Boeing 256s
+		fighter_equipment_0 =  {
+			owner = "BRA" 
+			amount = 48
+		}
+	}
+}
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "BRA"
+		}
+		requested_factories = 1
+		progress = 0.59
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "BRA"
+		}
+		requested_factories = 1
+		progress = 0.22
+		efficiency = 100
+	}
+}

@@ -1,0 +1,242 @@
+﻿division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Regiment of 155mm howitzers, 105mm arty
+		engineer = { x = 0 y = 1 }   
+		recon = { x = 0 y = 2 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+
+division_template = {
+	name = "Armor Regiment"  	
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+division_template = {
+	name = "Militia"		
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+units = {
+	##### LAND UNITS #####
+	## New York ##
+	division = {
+		name = "1st Infantry Division"
+		location = 3878 # Mannahatta
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "2nd Infantry Division"
+		location = 3878 # Mannahatta
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "3rd Infantry Division"
+		location = 3878 # Mannahatta
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "4th Infantry Division"
+		location = 11654 # Buffalo
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "1st Cavalry Brigade"
+		location = 11654 # Buffalo
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	## New Jersey ##
+	division = {
+		name = "5th Infantry Division"
+		location = 6882 # Achkinhenhcky
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "1st Armored Regiment"
+		location = 6882 # Achkinhenhcky
+		division_template = "Armor Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "6th Infantry Division"
+		location = 3863
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "7th Infantry Division"
+		location = 3863
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	## Pennsylvania ##
+	division = {
+		name = "8th Infantry Division"
+		location = 6845 # Philadelphia
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "2nd Armored Regiment"
+		location = 6845 
+		division_template = "Armor Regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	##### NAVAL UNITS #####
+
+	navy = { 
+		name = "1st Squadron"
+		base = 3878
+		location = 3878 # Mannahatta
+		ship = { name = "LNS Buckongahelas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = NEN } } }				
+		ship = { name = "LNS Shingas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = NEN } } }
+		ship = { name = "LNS Leni Lenape" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }				
+		ship = { name = "LNS Kittakima" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }				
+		ship = { name = "LNS Konieschquanoheel" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }				
+		ship = { name = "LNS Remkoke" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = NEN } } }				
+		# 1. Jagarflottiljen				
+		ship = { name = "LNS Klampeechen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }		
+		ship = { name = "LNS Kittahikan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }		
+		ship = { name = "LNS Kchiechpecat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }		
+		ship = { name = "LNS Ktemaque" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }		
+	}
+	navy = { 
+		name = "Pennsylvania Squadron"
+		base = 6845
+		location = 6845 
+		ship = { name = "LNS Gelelemend" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }				
+		ship = { name = "LNS Koquethagechton" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }
+		# 1. Ubatsflottiljen				
+		ship = { name = "LNS Achgook" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }
+		ship = { name = "LNS Welchos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }
+		ship = { name = "LNS Michalappotis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }
+	}
+}
+
+### Flygvapnet ###
+air_wings = {
+	358 = {
+		CAS_equipment_1 = {
+			owner = "NEN" 
+			amount = 36
+		}
+		fighter_equipment_0 =  {
+			owner = "NEN" 
+			amount = 30
+		}
+	}
+	360 = {
+		cv_nav_bomber_equipment_1 =  {
+			owner = "NEN" 
+			amount = 12
+		}
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "NEN"
+		}
+		requested_factories = 1
+		progress = 0.77
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "NEN"
+		}
+		requested_factories = 1
+		progress = 0.21
+		efficiency = 100
+	}
+	### Under Construction Notes ###
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "NEN"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 1
+	}
+	# SS: Draken variant (x3) ("LNS Delfinen" "LNS Nordkaparen" "LNS Springaren")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_1
+			creator = "NEN"
+			version_name = "Draken Class"
+		}
+		requested_factories = 2
+		progress = 0.80
+		amount = 3
+	}
+}
