@@ -1,0 +1,84 @@
+technology_sharing_group = {
+	id = tctp_tech_sharing_group
+	name = tctp_tech_sharing_group
+	desc = tctp_tech_sharing_group_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.2
+
+    available = {
+    	is_in_faction_with = CHI
+		CHI = {
+    		is_faction_leader = yes
+    		has_government = pangalism
+		}
+    }
+}
+
+technology_sharing_group = {
+	id = wre_tech_sharing_group
+	name = wre_tech_sharing_group
+	desc = wre_tech_sharing_group_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.2
+
+    available = {
+    	is_in_faction_with = FRA
+		FRA = {
+    		is_faction_leader = yes
+    		has_government = fascism
+		}
+    }
+}
+
+technology_sharing_group = {
+	id = rrp_tech_sharing_group
+	name = rrp_tech_sharing_group
+	desc = rrp_tech_sharing_group_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.2
+
+    available = {
+    	is_in_faction_with = BYZ
+		BYZ = {
+    		is_faction_leader = yes
+    		has_government = communism
+		}
+    }
+}
+
+technology_sharing_group = {
+	id = allies_tech_sharing_group
+	name = allies_tech_sharing_group
+	desc = allies_tech_sharing_group_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.2
+
+    available = {
+    	is_in_faction_with = JAP
+		JAP = {
+    		is_faction_leader = yes
+    		has_government = democratic
+		}
+    }
+}
+
+technology_sharing_group = {
+	id = northern_tech_pact_tech_group
+	name = northern_tech_pact_tech_group
+	desc = northern_tech_pact_tech_group_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.2
+
+    available = {
+    	is_in_faction_with = ENG
+		ENG = {
+    		is_faction_leader = yes
+    		has_government = democratic
+		}
+    }
+}

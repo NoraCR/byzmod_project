@@ -2292,12 +2292,12 @@ news_event = {
 	trigger = {
 		date > 1936.8.15
 		NOT = { has_global_flag = olympics_1936 }
-		country_exists = FRA
-		country_exists = BYZ
+		country_exists = GER
+		country_exists = USA
 		GER = { has_war = no }
 		FRA = { has_war = no }
 		ENG = { has_war = no }
-		BYZ = { has_war = no }
+		USA = { has_war = no }
 	}
 	
 	mean_time_to_happen = {
@@ -2337,12 +2337,12 @@ news_event = {
 			has_global_flag = olympics_fin_1940
 		}
 		country_exists = JAP
-		country_exists = BYZ
+		country_exists = USA
 		country_exists = GER
 		GER = { has_war = no }
 		FRA = { has_war = no }
 		ENG = { has_war = no }
-		BYZ = { has_war = no }
+		USA = { has_war = no }
 		JAP = { has_war = no }
 	}
 	
@@ -2376,7 +2376,7 @@ news_event = {
 			has_global_flag = olympics_fin_1940
 		}
 		country_exists = FIN
-		country_exists = BYZ
+		country_exists = USA
 		country_exists = GER
 		country_exists = ITA
 		JAP = { has_war = yes }
@@ -2386,7 +2386,7 @@ news_event = {
 		GER = { has_war = no }
 		FRA = { has_war = no }
 		ENG = { has_war = no }
-		BYZ = { has_war = no }
+		USA = { has_war = no }
 	}
 	
 	mean_time_to_happen = {
@@ -2399,119 +2399,6 @@ news_event = {
 	
 	option = {
 		name = news.66.a
-	}
-}
-
-# Kimetto vs Crozier
-news_event = {
-	id = news.900
-	title = news.900.t
-	desc = news.900.d
-	picture = GFX_news_event_olympics_1940
-	
-	major = yes
-	
-	trigger = {
-		date > 1936.6.19
-		country_exists = FRA
-		country_exists = BYZ
-		GER = { has_war = no }
-		FRA = { has_war = no }
-		ENG = { has_war = no }
-		BYZ = { has_war = no }
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	immediate = {
-		set_global_flag = news.238_fired 
-	}
-	
-	option = {
-		name = news.900.a
-		trigger = { 
-			NOT = { TAG = FRA }
-		}
-	}
-	option = {
-		name = news.900.b
-		trigger = { TAG = FRA }
-	}
-}
-
-# Crozier vs Thrane
-news_event = {
-	id = news.901
-	title = news.901.t
-	desc = news.901.d
-	picture = GFX_news_event_olympics_1940
-	
-	major = yes
-	
-	trigger = {
-		date = 1937.6.22
-		country_exists = FRA
-		country_exists = DEN
-		FRA = { has_war = no }
-		DEN = { has_war = no }
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	immediate = {
-		set_global_flag = news.901_fired 
-	}
-	
-	option = {
-		name = news.901.a
-		trigger = { 
-			NOT = { TAG = FRA }
-		}
-	}
-	option = {
-		name = news.901.b
-		trigger = { TAG = FRA }
-	}
-}
-
-# Kimetto vs Crozier rematch
-news_event = {
-	id = news.902
-	title = news.902.t
-	desc = news.902.d
-	picture = GFX_news_event_olympics_1940
-	
-	major = yes
-	
-	trigger = {
-		date = 1938.6.22
-		country_exists = FRA
-		country_exists = BYZ
-		FRA = { has_war = no }
-		BYZ = { has_war = no }
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	immediate = {
-		set_global_flag = news.902_fired 
-	}
-	
-	option = {
-		name = news.902.a
-		trigger = { 
-			NOT = { TAG = FRA }
-		}
-	}
-	option = {
-		name = news.902.b
-		trigger = { TAG = FRA }
 	}
 }
 
@@ -9676,5 +9563,988 @@ news_event = {
 				TAG = ENG
 			}
 		}
+	}
+}
+
+# France denounces Communism
+news_event = {
+	id = news.506
+	title = news.506.t
+	picture = GFX_news_event_king_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = {
+		text = news.506.desc
+	}
+	
+	option = {
+		name = news.506.a
+		trigger = {
+			TAG = FRA
+		}
+	}
+	option = {
+		name = news.506.b
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.506.c
+		trigger = {
+			has_government = fascism
+			NOT = {
+				TAG = FRA
+			}
+		}
+	}
+	option = {
+		name = news.506.d
+		trigger = {
+			has_government = pangalism
+		}
+	}
+	option = {
+		name = news.506.e
+		trigger = {
+			has_government = democratic
+		}
+	}
+
+}
+# The Norman Wall
+news_event = {
+	id = news.500
+	title = news.500.t
+	picture = GFX_news_event_soldiers_marching
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.500.d.desc
+	}
+	
+	option = {
+		name = news.500.a
+		trigger = {
+			TAG = FRA
+		}
+	}
+	option = {
+		name = news.500.b
+		trigger = {
+			has_government = communism
+			NOT = {
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = news.500.c
+		trigger = {
+			has_government = fascism
+			NOT = {
+				TAG = FRA
+			}
+		}
+	}
+	option = {
+		name = news.500.d
+		trigger = {
+			TAG = ENG
+		}
+	}
+	option = {
+		name = news.500.e
+		trigger = {
+			has_government = democratic
+			has_government = pangalism
+		}
+	}
+}
+
+news_event = {
+	id = news.501
+	title = news.501.t
+	picture = GFX_news_event_german_soldiers
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.501.d.desc
+	}
+	
+	option = {
+		name = news.501.a
+		trigger = {
+			TAG = FRA
+		}
+	}
+	option = {
+		name = news.501.b
+		trigger = {
+			TAG = BYZ
+		}
+	}
+	option = {
+		name = news.501.c
+		trigger = {
+			has_government = fascism
+			NOT = {
+				TAG = FRA
+			}
+		}
+	}
+	option = {
+		name = news.501.d
+		trigger = {
+			has_government = communism
+			NOT = {
+				TAG = BYZ
+			}
+		}
+	}
+	option = {
+		name = news.501.e
+		trigger = {
+			has_government = democratic
+			has_government = pangalism
+		}
+	}
+
+}
+
+### The Orleans Agreement ###
+
+# France demands a bunch of territory
+news_event = {
+	id = news.510
+	title = news.510.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.510.d.desc
+	}
+	
+	option = {
+		name = news.510.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.510.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = news.510.c
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.510.d
+		trigger = {
+			NOT = {
+				has_government = fascism
+				TAG = GER
+				has_government = communism
+			}
+		}
+	}
+}
+
+# Germany surrenders its territory
+news_event = {
+	id = news.511
+	title = news.511.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.511.d.desc
+	}
+	
+	option = {
+		name = news.511.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.511.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = news.511.c
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.511.d
+		trigger = {
+			NOT = {
+				has_government = fascism
+				TAG = GER
+				has_government = communism
+			}
+		}
+	}
+}
+
+# Germany refuses
+news_event = {
+	id = news.512
+	title = news.512.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.512.d.desc
+	}
+	
+	option = {
+		name = news.512.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.512.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = news.512.c
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.512.d
+		trigger = {
+			NOT = {
+				has_government = fascism
+				TAG = GER
+				has_government = communism
+			}
+		}
+	}
+}
+
+# Germany refuses with Byzantine Support
+news_event = {
+	id = news.513
+	title = news.513.t
+	picture = GFX_news_event_053
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.513.d.desc
+	}
+	
+	option = {
+		name = news.513.a
+		trigger = {
+			OR = {
+				has_government = communism
+				has_government = fascism
+				tag = GER
+			}
+		}
+	}
+	option = {
+		name = news.513.b
+		trigger = {
+			NOT = {
+				has_government = communism
+				has_government = fascism
+				tag = GER
+			}
+		}
+	}	
+}
+
+# France backs down
+news_event = {
+	id = news.514
+	title = news.514.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.514.d.desc
+	}
+	
+	option = {
+		name = news.514.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.514.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = news.514.c
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.514.d
+		trigger = {
+			NOT = {
+				has_government = fascism
+				TAG = GER
+				has_government = communism
+			}
+		}
+	}
+}
+
+# Germany refuses with Scandinavian Support
+news_event = {
+	id = news.515
+	title = news.515.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.515.d.desc
+	}
+	
+	option = {
+		name = news.515.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.515.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = news.515.c
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.515.d
+		trigger = {
+			tag = DEN
+		}
+	}
+	
+	option = {
+		name = news.515.e
+		trigger = {
+			NOT = {
+				has_government = fascism
+				TAG = GER
+				has_government = communism
+				tag = DEN
+			}
+		}
+	}
+}
+
+# France backs down in face of CEDP
+news_event = {
+	id = news.516
+	title = news.516.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.516.d.desc
+	}
+	
+	option = {
+		name = news.516.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.516.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = news.516.c
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.516.d
+		trigger = {
+			TAG = DEN
+		}
+	}
+	option = {
+		name = news.516.e
+		trigger = {
+			NOT = {
+				has_government = fascism
+				TAG = GER
+				TAG = DEN
+				has_government = communism
+			}
+		}
+	}
+}
+
+# France annexs Baetica
+news_event = {
+	id = news.560
+	title = news.560.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.560.d.desc
+	}
+	
+	option = {
+		name = news.560.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.560.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+	}
+	option = {
+		name = news.560.c
+		trigger = {
+			has_government = communism
+		}
+	}
+}
+
+# France annexs Lusitania
+#news_event = {
+#	id = news.561
+#	title = news.561.t
+#	picture = GFX_news_event_germany_speech
+#	is_triggered_only = yes
+#	fire_only_once = yes
+#	
+#	desc = {
+#		text = news.561.d.desc
+#	}
+#	
+#	option = {
+#		name = news.561.a
+#		trigger = {
+#			has_government = fascism
+#		}
+#	}
+#	option = {
+#		name = news.561.b
+#		trigger = {
+#			NOT = {
+#				has_government = fascism
+#				has_government = communism
+#			}
+#		}
+#	}
+#	option = {
+#		name = news.561.c
+#		trigger = {
+#			has_government = communism
+#		}
+#	}
+#}
+
+# France annexs Tarraconensis
+news_event = {
+	id = news.566
+	title = news.566.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.566.d.desc
+	}
+	
+	option = {
+		name = news.566.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.566.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+	}
+	option = {
+		name = news.566.c
+		trigger = {
+			has_government = communism
+		}
+	}
+}
+
+# France Integrates Spain
+news_event = {
+	id = news.562
+	title = news.562.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.562.d.desc
+	}
+	
+	option = {
+		name = news.562.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.562.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+	}
+	option = {
+		name = news.562.c
+		trigger = {
+			has_government = communism
+		}
+	}
+}
+
+# France Invites Russia
+news_event = {
+	id = news.563
+	title = news.563.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.563.d.desc
+	}
+	
+	option = {
+		name = news.563.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.563.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+	}
+	option = {
+		name = news.563.c
+		trigger = {
+			has_government = communism
+		}
+	}
+}
+
+# The Creation of Greater Germania
+news_event = {
+	id = news.564
+	title = news.564.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.564.d.desc
+	}
+	
+	option = {
+		name = news.564.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.564.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+	}
+	option = {
+		name = news.564.c
+		trigger = {
+			has_government = communism
+		}
+	}
+}
+
+# France Invites Germania
+news_event = {
+	id = news.565
+	title = news.565.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.565.d.desc
+	}
+	
+	option = {
+		name = news.565.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.565.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+	}
+	option = {
+		name = news.565.c
+		trigger = {
+			has_government = communism
+		}
+	}
+}
+
+# Irish Dominion
+news_event = {
+	id = news.600
+	title = news.600.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.600.d.desc
+	}
+	
+	option = {
+		name = news.600.a
+		trigger = {
+			tag = ENG
+		}
+	}
+	option = {
+		name = news.600.b
+		trigger = {
+			tag = IRE
+		}
+	}
+	option = {
+		name = news.600.c
+		NOT = {
+			tag = ENG
+			tag = IRE
+		}
+	}
+}
+
+# No More Monarchs
+news_event = {
+	id = news.700
+	title = news.700.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.700.d.desc
+	}
+	
+	option = {
+		name = news.700.a
+		trigger = {
+			tag = ENG
+		}
+	}
+	option = {
+		name = news.700.b
+		trigger = {
+			NOT = {
+				has_government = democratic
+				has_government = communism
+				tag = ENG
+				has_government = fascist
+				tag = MRT
+			}
+		}
+	}
+	option = {
+		name = news.700.d
+		trigger = {
+			has_government = communism
+			NOT = {
+				tag = MRT
+			}
+		}
+	}
+	option = {
+		name = news.700.e
+		trigger = {
+			has_government = democratic
+		}
+	}
+	option = {
+		name = news.700.f
+		trigger = {
+			has_government = fascist
+		}
+	}
+	option = {
+		name = news.700.c
+		trigger = {
+			tag = MRT
+		}
+	}
+}
+
+
+# Scandinavia forms alliance with England
+news_event = {
+	id = news.720
+	title = news.720.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.720.d.desc
+	}
+	
+	option = {
+		name = news.720.a
+		trigger = {
+			tag = DEN
+		}
+	}
+	option = {
+		name = news.720.b
+		trigger = {
+			NOT = {
+				tag = DEN
+				tag = ENG
+			}
+		}
+	}
+	option = {
+		name = news.720.c
+		trigger = {
+			tag = ENG
+		}
+	}
+}
+
+# Canada Joins CEDP
+news_event = {
+	id = news.710
+	title = news.710.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.710.d.desc
+	}
+	
+	option = {
+		name = news.710.a
+		trigger = {
+			tag = ENG
+		}
+	}
+	option = {
+		name = news.710.b
+		trigger = {
+			NOT = {
+				tag = ENG
+				tag = GER
+			}
+		}
+	}
+	option = {
+		name = news.710.c
+		trigger = {
+			tag = GER
+		}
+	}
+}
+
+# Canada Joins CEDP
+news_event = {
+	id = news.721
+	title = news.721.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.721.d.desc
+	}
+	
+	option = {
+		name = news.721.a
+		trigger = {
+			tag = ENG
+		}
+	}
+	option = {
+		name = news.721.b
+		trigger = {
+			NOT = {
+				tag = ENG
+				tag = CAN
+			}
+		}
+	}
+	option = {
+		name = news.721.c
+		trigger = {
+			tag = CAN
+		}
+	}
+}
+
+# Ireland becomes puppet
+news_event = {
+	id = news.701
+	title = news.701.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.701.d.desc
+	}
+	
+	option = {
+		name = news.701.a
+		trigger = {
+			tag = ENG
+		}
+	}
+	option = {
+		name = news.701.b
+		trigger = {
+			NOT = {
+				tag = ENG
+				tag = IRE
+			}
+		}
+	}
+	option = {
+		name = news.701.c
+		trigger = {
+			tag = IRE
+		}
+	}
+}
+
+# Ireland becomes integrated puppet
+news_event = {
+	id = news.702
+	title = news.702.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.702.d.desc
+	}
+	
+	option = {
+		name = news.702.a
+		trigger = {
+			tag = ENG
+		}
+	}
+	option = {
+		name = news.702.b
+		trigger = {
+			NOT = {
+				tag = ENG
+				tag = IRE
+			}
+		}
+	}
+	option = {
+		name = news.702.c
+		trigger = {
+			tag = IRE
+		}
+	}
+}
+
+# Surprise for Nora
+
+news_event = {
+	id = news.703
+	title = news.703.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.703.d.desc
+	}
+	
+	option = {
+		name = news.703.b
 	}
 }

@@ -1,7 +1,86 @@
 ideas = {
 
 	country = {
+		IG_cult_of_valeria = {
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
 
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+			
+			modifier = {
+				unity_factor = 0.15
+				drift_defence_factor = 0.5
+			}
+			
+			rule = {
+				can_create_factions = yes
+			}
+		}
+		IG_hastati = {
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+			
+			modifier = {
+				conscription = 0.02
+			}
+		}
+		IG_work_shall_make_you_free = {
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				
+			}
+		}
+		IG_lords_of_the_sky = {
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = air_support_focus
+			
+			equipment_bonus = {
+				air_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
 		FRA_victors_of_wwi = {
 			
 			allowed = {
