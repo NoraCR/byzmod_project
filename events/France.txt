@@ -215,7 +215,7 @@ country_event = {
 # Annexation of Andalucia
 country_event = {
 	id = france.52
-	title = france.42.t
+	title = france.52.t
 	desc = france.52.d
 	picture = GFX_report_event_german_politician_speech
 	
@@ -227,9 +227,8 @@ country_event = {
 		169 = { add_core_of = FRA }
 		175 = { add_core_of = FRA }
 		173 = { add_core_of = FRA }
-		annex_country = { target = SPA transfer_troops = yes }
-		add_political_power = 75
-		add_named_threat = { threat = 10 name = france.41.t }
+		annex_country = { target = SPR transfer_troops = yes }
+		add_named_threat = { threat = 10 name = france.52.t }
 	}
 }
 
@@ -259,7 +258,7 @@ country_event = {
 		SPR = { transfer_state = 167 }
 		168 = { add_core_of = SPR }
 		SPR = { transfer_state = 168 }
-		add_named_threat = { threat = 5 name = france.42.t }
+		add_named_threat = { threat = 5 name = france.53.t }
 	}
 }
 
