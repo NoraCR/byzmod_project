@@ -2527,7 +2527,8 @@ news_event = {
 	trigger = {
 		date = 1936.1.19
 		country_exists = IRE
-		country_exists = HDA
+		country_exists = HDA 
+		NOT = { has_global_flag = news.903_fired }
 		IRE = { has_war = no }
 		HDA = { has_war = no }
 	}
