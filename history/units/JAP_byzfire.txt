@@ -472,10 +472,10 @@ units = { #includes army and navy but not air-force
 		ship = { name = "Ayanami" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
 		ship = { name = "Oi" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }
 		ship = { name = "Tenryu" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Tama" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = } } }
+		ship = { name = "Tama" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Oboro" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
 		ship = { name = "Akebono" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
-		ship = { name = "Sazanami" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP v} } }
+		ship = { name = "Sazanami" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Ushio" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Murakumo" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
 		ship = { name = "Usugumo" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
@@ -488,7 +488,7 @@ units = { #includes army and navy but not air-force
 		base = 6994
 		location = 6994
 		
-		ship = { name = "Kuma" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Kuma" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Yomogi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
 		ship = { name = "Tade" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
 		ship = { name = "Kiku" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }

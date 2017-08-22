@@ -17,7 +17,7 @@
 	}
 }
 division_template = {
-	name = "Binær Division"	# represents second part of enlarged divisions
+	name = "Binaer Division"	# represents second part of enlarged divisions
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -72,7 +72,7 @@ division_template = {
 units = {
 	##### Kongelige Danske Overkommando #####
 	division = {
-		name = "1. Sjællandske Division"
+		name = "1. Sjaellandske Division"
 		location = 6287  # Copenhagen
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
@@ -80,7 +80,7 @@ units = {
 
 	}
 	division = {
-		name = "2. Sjællandske Division"
+		name = "2. Sjaellandske Division"
 		location = 3325  # Odense
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
@@ -98,7 +98,7 @@ units = {
 	division = {
 		name = "2. Jyske Division"
 		location = 11251  # Sonderborg
-		division_template = "Binær Division"
+		division_template = "Binaer Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -131,7 +131,7 @@ units = {
 	division = {
 		name = "2. Divisjon"
 		location = 9157
-		division_template = "Binær Divisjon"
+		division_template = "Binaer Divisjon"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -148,7 +148,7 @@ units = {
 	division = {
 		name = "3. Divisjon"
 		location = 9296
-		division_template = "Binær Divisjon"
+		division_template = "Binaer Divisjon"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -157,7 +157,7 @@ units = {
 	division = {
 		name = "4. Divisjon"
 		location = 122
-		division_template = "Binær Divisjon"
+		division_template = "Binaer Divisjon"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -166,7 +166,7 @@ units = {
 	division = {
 		name = "5. Divisjon"
 		location = 3022
-		division_template = "Binær Divisjon"
+		division_template = "Binaer Divisjon"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -183,7 +183,7 @@ units = {
 	division = {
 		name = "6. Divisjon"
 		location = 192
-		division_template = "Binær Divisjon"
+		division_template = "Binaer Divisjon"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -191,7 +191,7 @@ units = {
 	division = {
 		name = "Finnmark Brigaden"
 		location = 9116
-		division_template = "Binær Divisjon"
+		division_template = "Binaer Divisjon"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -405,7 +405,7 @@ air_wings = {
 			amount = 22
 		}
 	}
-	# Søværnets Flyvetjeneste -- Jutland
+	# Søvaernets Flyvetjeneste -- Jutland
 	99 = {
 		# Consisted of 12 Hawker Nimrods
 		fighter_equipment_0 = {

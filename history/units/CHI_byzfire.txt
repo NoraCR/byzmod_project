@@ -813,8 +813,8 @@ units = {
 #####NAVAL UNITS#####
 	navy = {
 		name = "Di 1 Jiandui" ##still small for a nation this big, but with their industry it can get a lot bigger
-		base = 12076
-		location = 12076 #Shanghai
+		base = 7014
+		location = 7014 #Shanghai
 		ship = { name = "CNS Baomin" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = CHI } } }
 		ship = { name = "CNS Kaiji" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = CHI } } }
 		ship = { name = "CNS Nanchen" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
@@ -835,8 +835,8 @@ units = {
 }
 	navy = {				
 		name = "Di 1 Qianting Jiandui"			
-		base = 12076
-		location = 12076
+		base = 7014
+		location = 7014
 		ship = { name = "CNS Q1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Q2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Q3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
