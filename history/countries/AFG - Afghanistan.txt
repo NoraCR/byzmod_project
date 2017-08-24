@@ -1,4 +1,4 @@
-﻿capital = 267
+﻿capital = 585
 
 oob = "AFG_1936"
 

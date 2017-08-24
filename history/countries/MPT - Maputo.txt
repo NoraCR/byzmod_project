@@ -1,4 +1,4 @@
-﻿capital = 298
+﻿capital = 544
 
 oob = "MPT_byzfire"
 

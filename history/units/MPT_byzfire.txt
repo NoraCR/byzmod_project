@@ -119,10 +119,10 @@ units = {
 		ship = { name = "KNS Zambezi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
 		ship = { name = "KNS Limpopo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
 		ship = { name = "KNS Chilwa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
-		ship = { name = "KNS Malawi" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MPT  } } }
-		ship = { name = "KNS Lukugu" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MPT  } } }
-		ship = { name = "KNS Pungwe" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MPT  } } }
-		ship = { name = "KNS Ruvuma" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MPT  } } }
+		ship = { name = "KNS Malawi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
+		ship = { name = "KNS Lukugu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
+		ship = { name = "KNS Pungwe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
+		ship = { name = "KNS Ruvuma" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
 	}	
 }
 

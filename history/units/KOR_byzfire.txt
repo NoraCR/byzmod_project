@@ -129,6 +129,23 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
+	division = {
+		name = "Baikal Gunsa Jiyeog"
+		location = 4797 # Irkutsk
+		division_template = "Gunsa Jiyeog"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Sahallin Gunsa Jiyeog"
+		location = 12446 # Sakhalin
+		division_template = "Gunsa Jiyeog"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	
 ##### Central Siberia #####
 	division = {
 		name = "7. Bobyeong Sadan"
@@ -250,24 +267,44 @@ units = {
 		name = "1. Hamdae"
 		base = 4056
 		location = 4056 # Busan
-		ship = { name = "ROKS Gwanggaeto Wang" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
-		ship = { name = "ROKS Munmu Wang" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
-		ship = { name = "ROKS Baeduk" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }				
-		ship = { name = "ROKS Yi Sunsin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }				
-		ship = { name = "ROKS Dokdo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }				
-		# 1. Guchugham Hamdae				
+		ship = { name = "ROKS Gwanggaeto Wang" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Eulji Mundeok" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Yang Manchun" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Yi Sunsin" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Go Wang" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Gang Gamchan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Chungnam" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }				
+		ship = { name = "ROKS Masan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }				
+		ship = { name = "ROKS Kyeongbuk" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Jeonnam" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }	
+		ship = { name = "ROKS Jeju" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }	
+		ship = { name = "ROKS Busan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }	
+		ship = { name = "ROKS Cheongju" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+		}
+	navy = { 
+		name = "1. Guchugham Hamdae"
+		base = 4056
+		location = 4056 # Busan								
 		ship = { name = "ROKS Hae-Joo Im" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }		
 		ship = { name = "ROKS Sonmi-451" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }		
 		ship = { name = "ROKS Zhang Bogo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
-		ship = { name = "ROKS Eulji Mundeok" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
-		ship = { name = "ROKS Yang Manchun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }			
+		ship = { name = "ROKS Nan Yeongho" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Paeng Heechul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Pak Sangchol" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Ping Yijae" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Yu Ji-eun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Sol Sebin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Mae Seungwoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Paek Seonggi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Kim Seung-hyeon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "ROKS Ryu Young-sook" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }			
 	}
 ##### AIR FORCE #####
 air_wings = {
 	653 = {
-		tac_bomber_equipment_1 = { owner = "KOR" amount = 48 }			
-		CAS_equipment_1 = { owner = "KOR" amount = 48 }					
-		fighter_equipment_0 =  { owner = "KOR" amount = 48 }			
+		tac_bomber_equipment_1 = { owner = "KOR" amount = 72 }			
+		CAS_equipment_1 = { owner = "KOR" amount = 72 }					
+		fighter_equipment_0 =  { owner = "KOR" amount = 72 }			
 	}
 }
 ### Starting Production ###

@@ -1,4 +1,4 @@
-﻿capital = 279
+﻿capital = 276
 
 oob = "IRO_byzfire"
 

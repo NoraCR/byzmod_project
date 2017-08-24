@@ -485,8 +485,8 @@ units = { #includes army and navy but not air-force
 	
 	navy = { #Coast Guard No. 1
 		name = "1st Engan Keibitai"
-		base = 6994
-		location = 6994
+		base = 11847
+		location = 11847
 		
 		ship = { name = "Kuma" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Yomogi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
@@ -519,8 +519,8 @@ units = { #includes army and navy but not air-force
 	
 	navy = {
 		name = "1st Sensui Sentai" 
-		base = 7197
-		location = 7197  
+		base = 1092
+		location = 1092  
 		
 		ship = { name = "RJ-51" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
 		ship = { name = "RJ-152" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }		

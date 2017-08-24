@@ -21,7 +21,7 @@ set_technology = {
 	early_heavy_cruiser = 1
 }
 
-set_convoys = 5
+set_convoys = 250
 
 1939.1.1 = {
 

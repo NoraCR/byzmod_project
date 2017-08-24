@@ -468,7 +468,7 @@ units = {
 	division= {	
 		name = "Zambezi Brigade"
 		location = 1580
-		division_template = "Qeybta Ilaaliyee" 	# Colonial unit, reserve equipment
+		division_template = "Qeybta Ilaaliye" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3

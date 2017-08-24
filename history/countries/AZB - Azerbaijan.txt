@@ -1,4 +1,4 @@
-﻿capital = 49
+﻿capital = 419
 
 oob = "AZB_byzfire"
 

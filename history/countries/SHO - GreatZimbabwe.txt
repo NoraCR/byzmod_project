@@ -1,4 +1,4 @@
-﻿capital = 298
+﻿capital = 545
 
 oob = "SHO_byzfire"
 

@@ -159,7 +159,10 @@ units = {
 air_wings = {
 	##### Azerbaycan Hava Qüvveleri #####
 	419 = { 
-		fighter_equipment_1 = { owner = "AZB" amount = 60 }					
+		fighter_equipment_0 = { 
+			owner = "AZB" 
+			amount = 60 
+		}					
 	}
 }
 

@@ -131,7 +131,7 @@ units = {
 	division = {
 		name = "2. Divisjon"
 		location = 9157
-		division_template = "Binaer Divisjon"
+		division_template = "Binaer Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -148,7 +148,7 @@ units = {
 	division = {
 		name = "3. Divisjon"
 		location = 9296
-		division_template = "Binaer Divisjon"
+		division_template = "Binaer Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -157,7 +157,7 @@ units = {
 	division = {
 		name = "4. Divisjon"
 		location = 122
-		division_template = "Binaer Divisjon"
+		division_template = "Binaer Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -166,7 +166,7 @@ units = {
 	division = {
 		name = "5. Divisjon"
 		location = 3022
-		division_template = "Binaer Divisjon"
+		division_template = "Binaer Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -183,7 +183,7 @@ units = {
 	division = {
 		name = "6. Divisjon"
 		location = 192
-		division_template = "Binaer Divisjon"
+		division_template = "Binaer Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -191,7 +191,7 @@ units = {
 	division = {
 		name = "Finnmark Brigaden"
 		location = 9116
-		division_template = "Binaer Divisjon"
+		division_template = "Binaer Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 

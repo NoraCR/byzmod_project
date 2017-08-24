@@ -1,4 +1,4 @@
-﻿capital = 126
+﻿capital = 298
 
 oob = "GHA_byzfire"
 
