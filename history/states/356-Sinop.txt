@@ -2,7 +2,7 @@
 state={
 	id=356
 	name="STATE_356" # Kastamonu
-	manpower = 860589
+	manpower = 2360589
 	state_category = city
 
 	history={

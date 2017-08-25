@@ -2,9 +2,9 @@ state=
 {
 	id=163
 	name="STATE_163"
-	manpower = 18000
+	manpower = 580000
 	
-	state_category = enclave
+	state_category = large_town
 	
 	history={
 		owner = BYZ

@@ -178,14 +178,6 @@ units = {
 		start_equipment_factor = 0.7
 
 	}			
-	division= {			
-		name = "LVO Mekhanizirovanaya Gruppa"		
-		location = 3151
-		division_template = "Mekhanizirovaniy Korpus"		# 1x Tank Bge, 2x Mekh Bge
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
 
 	### Leningraskaya Gruppa Armiya (Leningrad Army Group) -- Leningrad ###
 	#  Okhrana Leningradksii Korpus -- Okhrana Border Guard and RR units	
@@ -206,22 +198,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
-	}			
-	division= {			
-		name = "7ya Mekhanizirovaniy Korpus"		
-		location = 6174
-		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge, 1x Mot Bge
-		start_experience_factor = 0.3
-	}
-	# Subordinate to AG
-	division= {			
-		name = "11ya Mekhanizirovaniy Korpus"		
-		location = 149
-		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge
-		start_experience_factor = 0.3
-	}
-	
-		
+	}					
 	#### Belorusskii Voennyii Okrug (Belorussian Military District) -- Velikie Luki, Minsk ####			
 	# 4ya Strelkoviy Korpus			
 	division= {			
@@ -240,14 +217,6 @@ units = {
 		start_equipment_factor = 0.7
 
 	}			
-	division= {			
-		name = "1ya BVO Mekhanizirovanaya Gruppa"		
-		location = 126
-		division_template = "Mekhanizirovaniy Korpus"		# 3x Mekh Bge
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
 
 	# 5ya Strelkoviy Korpus
 	division= {			
@@ -274,14 +243,6 @@ units = {
 		start_equipment_factor = 0.7
 
 	}			
-	division= {			
-		name = "2ya BVO Mekhanizirovanaya Gruppa"		
-		location = 11202
-		division_template = "Mekhanizirovaniy Korpus"		# 1x Tank Bge, 2x Mekh Bge
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
 
 	# 11ya Strelkoviy Korpus
 	division= {			
@@ -375,14 +336,6 @@ units = {
 		start_equipment_factor = 0.7
 
 	}			
-	division= {			
-		name = "MVO Mekhanizirovanaya Gruppa"		
-		location = 6380
-		division_template = "Mekhanizirovaniy Korpus"		# 3x Mekh Bge
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
 
 	# 3ya Strelkoviy Korpus		
 	division= {			
@@ -430,15 +383,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
-	}			
-	# Subordinate to AG
-	division= {			
-		name = "5ya Mekhanizirovaniy Korpus"		
-		location = 6380
-		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge, 1x Mot Bge
-		start_experience_factor = 0.3
-	}			
-
+	}					
 	#### Volga Voennyii Okrug (Volga Military District) -- Hoymel (Gomel) ####
 	# 12ya Strelkoviy Korpus				
 	division= {			
@@ -632,17 +577,6 @@ units = {
 		start_equipment_factor = 0.3
 
 	}			
-
-	# Subordinate to VO
-	division= {			
-		name = "2ya KiVO Mekhanizirovanaya Gruppa"		
-		location = 525
-		division_template = "Mekhanizirovaniy Korpus"		# 1x Tank Bge, 2x Mekh Bge
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-
 	# 6ya Strelkoviy Korpus		
 	division= {			
 		name = "7ya 'Chernigovskaya' Strelk. Div."		
@@ -656,14 +590,6 @@ units = {
 		name = "44ya 'Kyiv' Strelk. Div."		
 		location = 6380
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-	division= {			
-		name = "1ya KiVO Mekhanizirovanaya Gruppa"		
-		location = 6380
-		division_template = "Mekhanizirovaniy Korpus"		# 1x H Tank Bge, 2x Mekh Bge
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -685,15 +611,6 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-
-	# Subordinate to VO
-	division= {			
-		name = "45ya Mekhanizirovaniy Korpus"		
-		location = 11437
-		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge, 1x Mot Bge
-		start_experience_factor = 0.3
-	}
-
 
 	#### Kharkov Voenniy Okrug (Kharkov Military District) -- Kharkov ####
 	# 7ya Strelkoviy Korpus		

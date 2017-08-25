@@ -2,7 +2,7 @@
 state={
 	id=345
 	name="STATE_345" # Mersin
-	manpower = 411798
+	manpower = 1111798
 
 	state_category = large_town
 
