@@ -112,6 +112,22 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
+	division = {
+		name = "15. Bobyeong Sadan"
+		location = 4056 #Busan 
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "16. Bobyeong Sadan"
+		location = 4052 #Pyongyang 
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}	
 ##### Eastern Siberia #####
 	division = {
 		name = "Oho-ta Gunsa Jiyeog"

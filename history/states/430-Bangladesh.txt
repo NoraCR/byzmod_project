@@ -4,19 +4,19 @@ state={
 	name="STATE_430" # East Bengal
 	manpower = 31973300
 	
-	state_category = metropolis
+	state_category = large_city
 
 	history={
 		owner = RAJ
 		victory_points = {
-			11929 1
+			11929 5
 		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 4
 			arms_factory = 2
 			11968 = {
-				naval_base = 3
+				naval_base = 4
 
 			}
 

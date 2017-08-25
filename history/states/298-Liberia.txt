@@ -8,6 +8,7 @@ state=
 	
 	resources={
 		rubber=30.0000
+		oil=22.0000
 	}
 
 	history= {
@@ -21,7 +22,7 @@ state=
 			}
 		}
 		victory_points = {
-			7959 10
+			7959 15
 		}
 		add_core_of = GHA
 	}

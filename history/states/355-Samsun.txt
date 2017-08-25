@@ -9,6 +9,7 @@ state={
 		owner = BYZ
 		buildings = {
 			infrastructure = 6
+			industrial_complex = 2
 			11894 = {
 				naval_base = 3
 			}

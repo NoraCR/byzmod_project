@@ -1,4 +1,4 @@
-﻿capital = 1751
+﻿capital = 698
 
 oob = "POR_byzfire"
 

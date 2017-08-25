@@ -10,10 +10,10 @@ state=
 		owner = KOR
 		buildings = {
 			infrastructure = 8
-			arms_factory = 4
-			industrial_complex = 2
+			arms_factory = 5
+			industrial_complex = 3
 			air_base = 6
-			dockyard = 1
+			dockyard = 2
 			4056 = {
 				naval_base = 5
 			}
