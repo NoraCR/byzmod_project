@@ -246,13 +246,13 @@ units = {
 	}
 	division= {	
 		name = "20. Infanterie-Division"
-		location = 9572
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "22. Infanterie-Division"
-		location = 9572
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -268,7 +268,7 @@ units = {
 	# VII. Armeekorps
 	division= {	
 		name = "7. Infanterie-Division"
-		location = 11544
+		location = 3535
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}

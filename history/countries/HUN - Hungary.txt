@@ -1,6 +1,6 @@
 ﻿capital = 43
 
-oob = "HUN_1936"
+oob = "HUN_byzfire"
 
 set_research_slots = 3
 

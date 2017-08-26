@@ -120,14 +120,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division= {	
-		name = "2ème Div. d'Inf. Nord-Africaine"
-		location = 5291
-		division_template = "Division Infanterie" 	# Second line, reserve equipment
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
 		name = "3ème Brigade de Chars de Combat"
 		location = 11502
 		division_template = "Brigade de Chars de Combat" 		# FT-17s
@@ -164,14 +156,6 @@ units = {
 		location = 549
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "4ème Div. d'Inf. Nord-Africaine"
-		location = 549
-		division_template = "Division Infanterie" 	# Second line, reserve equipment
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
 	}
 	division= {	
 		name = "2ème Division de Cavalerie"
@@ -264,14 +248,6 @@ units = {
 		location = 3671
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "3ème Div. d'Inf. Nord-Africaine"
-		location = 3671
-		division_template = "Division Infanterie" 	# Second line, reserve equipment
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
 	}
 
 	# XIe Corps d'Armée (Région Militaire in 1936) -- Nantes
@@ -444,14 +420,6 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	division= {	
-		name = "4ème Div. d'Inf. Coloniale"
-		location = 6766
-		division_template = "Division Infanterie" 	# Second line, reserve equipment
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
 
 	# XVIIIe Corps d'Armée (Région Militaire in 1936) -- Bordeaux
 	division= {	
@@ -459,14 +427,6 @@ units = {
 		location = 9737
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "1ère Div. d'Inf. Coloniale"
-		location = 6657
-		division_template = "Division Infanterie" 	# Second line, reserve equipment
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
 	}
 
 	# XIVe Corps d'Armée (Région Militaire in 1936) -- Lyon
@@ -485,14 +445,6 @@ units = {
 
 	}
 	division= {	
-		name = "1ère Div. d'Inf. Nord-Africaine"
-		location = 3764
-		division_template = "Division Infanterie" 	# Second line, reserve equipment
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
 		name = "1ère Brigade de Chars de Combat"
 		location = 6613
 		division_template = "Brigade de Chars de Combat" 			# FT-17s
@@ -506,14 +458,6 @@ units = {
 		location = 6975
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "2ème Div. d'Inf. Coloniale"
-		location = 11834
-		division_template = "Division Infanterie" 	# Second line, reserve equipment
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
 	}
 
 	# XVIe Corps d'Armée (Région Militaire in 1936) -- Montpellier
@@ -533,7 +477,103 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-
+	# Swiss Alpine Divisions
+	division= {	
+		name = "33ème Division d'Infanterie Alpine"
+		location = 9620
+		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "35ème Division d'Infanterie Alpine"
+		location = 9620
+		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	# Piedmont Infantry Divisions
+	division= {	
+		name = "38ème Division d'Infanterie"
+		location = 6780
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "40ème Division d'Infanterie"
+		location = 6780
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "42ème Division d'Infanterie"
+		location = 6780
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "44ème Division d'Infanterie"
+		location = 6788
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "46ème Division d'Infanterie"
+		location = 6788
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5ère Brigade de Chars de Combat"
+		location = 6788
+		division_template = "Brigade de Chars de Combat" 			# FT-17s
+		start_experience_factor = 0.2
+	}
+	# Corsica/Sardinia/Balearic Garrisons
+	division= {	
+		name = "Corse Div. d'Inf. de Forteresse"
+		location = 3838
+		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	
+		name = "Sardaigne Div. d'Inf. de Forteresse"
+		location = 11773
+		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	
+		name = "Îles Baléares Div. d'Inf. de Forteresse"
+		location = 11773
+		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	### SPANISH GARRISONS ###
+	division= {	
+		name = "47ème Division d'Infanterie"
+		location = 885
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "48ème Division d'Infanterie"
+		location = 3816
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "37ème Division d'Infanterie Alpine"
+		location = 3816
+		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+		division= {	
+		name = "49ème Division d'Infanterie"
+		location = 6906
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
 	### METRPOLITAN FRANCE ###
 	navy = {				
 		name = "1ère Région Navale"			

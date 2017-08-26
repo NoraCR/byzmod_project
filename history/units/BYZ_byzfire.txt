@@ -271,19 +271,19 @@ units = {
 		name = "First Treaty Army Cataphracts"		
 		location = 3773
 		division_template = "Cavalry Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.6
 	}
 	division= {			
 		name = "Second Treaty Army Cataphracts"		
 		location = 3773
 		division_template = "Cavalry Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.6
 	}
 	division= {			
 		name = "Third Treaty Army Cataphracts"		
 		location = 3780
 		division_template = "Cavalry Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.6
 	}
 					
 	### 4th Army -- note: Armies only paper organizations in 1936 ###
@@ -309,7 +309,7 @@ units = {
 		name = "First Treaty Army Infantry"		
 		location = 9548
 		division_template = "Infantry Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.6
 	}			
 	division = {			
 		name = "Agricultural Workers Local 313"		
@@ -335,7 +335,7 @@ units = {
 		name = "Second Treaty Army Infantry"		
 		location = 9548
 		division_template = "Infantry Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.15
 
 	}			
@@ -343,7 +343,7 @@ units = {
 		name = "Third Treaty Army Infantry"		
 		location = 9548
 		division_template = "Infantry Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.15
 
 	}
@@ -656,7 +656,7 @@ units = {
 	##### ITALY #####
 	division= {			
 		name = "32nd Infantry Division 'Sunshine'"		
-		location = 11074
+		location = 10074
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
@@ -959,7 +959,7 @@ units = {
 		ship = { name = "RNS Kusanagi No Tsurugi" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Sword of Damocles" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Houken" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
-		ship = { name = "Joyeuse" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
+		ship = { name = "RNS Joyeuse" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Hauteclere" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Tyrfing" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Coreiseuse" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }

@@ -1,5 +1,7 @@
 ﻿capital = 387
 
+oob = "SHS_byzfire"
+
 # Starting tech
 set_research_slots = 3
 
