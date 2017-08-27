@@ -1,0 +1,33 @@
+﻿# Pair of Battleships
+
+units = {
+	navy = {					
+		name = "Julius and Augustus"				
+		base = 6621
+		location = 6621 # Sussex, prolly not correct at all
+		# 7th Destroyer Division				
+		ship = {
+			name = "HIM Augustus" 
+			definition = battleship 
+			equipment = {
+				battleship_1 = {
+					amount = 1 
+					owner = FRA 
+					creator = FRA 
+				} 
+			} 
+		}			# USS Twiggs
+		ship = {
+			name = "HIM Julius" 
+			definition = battleship 
+			equipment = {
+				battleship_1 = {
+					amount = 1 
+					owner = FRA 
+					creator = FRA 
+				} 
+			} 
+		}
+	}	# USS Twiggs			
+}					
+					
