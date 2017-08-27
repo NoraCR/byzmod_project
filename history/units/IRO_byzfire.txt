@@ -92,7 +92,7 @@ units = {
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 	}
-
+}
 ###No Naval OOB###
 
 air_wings = {
@@ -115,5 +115,4 @@ instant_effect = {
 		progress = 0.28
 		efficiency = 100
 	}
-}
 }

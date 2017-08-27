@@ -183,29 +183,53 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-
-
-	##Heishui - Private Military Company, near Beijing
 	division = {
-		name = "Di 1 Heishui Shi"
+		name = "Di 117 Jingbei"
+		location = 4091
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3		
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 118 Jingbei"
+		location = 4091
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3		
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 119 Jingbei"
+		location = 4091
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3		
+		start_equipment_factor = 0.7
+
+	}
+
+
+	##Shiwai Taoyuan- Private Military Company, near Beijing
+	division = {
+		name = "Di 1 Shiwai Taoyuan Shi"
 		location = 9843
 		division_template = "Siren Junshi Fuwu Gongsi"
 		start_experience_factor = 0.3
 	}
 	division = {
-		name = "Di 2 Heishui Shi"
+		name = "Di 2 Shiwai Taoyuan Shi"
 		location = 10068
 		division_template = "Siren Junshi Fuwu Gongsi"
 		start_experience_factor = 0.3
 	}
 	division = {
-		name = "Di 3 Heishui Shi"
+		name = "Di 3 Shiwai Taoyuan Shi"
 		location = 11761
 		division_template = "Siren Junshi Fuwu Gongsi"
 		start_experience_factor = 0.3
 	}
 	division = {
-		name = "Di 4 Heishui Shi"
+		name = "Di 4 Shiwai Taoyuan Shi"
 		location = 4140
 		division_template = "Siren Junshi Fuwu Gongsi"
 		start_experience_factor = 0.3
@@ -317,6 +341,47 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
+	division = {
+		name = "Di 501 Bubing Shi"
+		location = 7101
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 502 Bubing Shi"
+		location = 7101
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 551 Bubing Shi"
+		location = 7097
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 552 Bubing Shi"
+		location = 7097
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 553 Bubing Shi"
+		location = 7097
+		division_template = "Bubingshi"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+
 ##Fujian Coastal Garrisons
 	division = {
 		name = "Di 1 Fujian Jingbei"
@@ -366,117 +431,6 @@ units = {
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
 	}
-
-	##Indochina
-	division = {
-		name = "Yangguang Zhujun"
-		location = 1330 #Yangon
-		division_template = "Zhujun Lu"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-	}
-	division = {
-		name = "Bangu Zhujun"
-		location = 7408 #Bangkok
-		division_template = "Zhujun Lu"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-	}
-	division = {
-		name = "Zhaonandao Zhujun" 
-		location = 12299 #Singapore
-		division_template = "Zhujun Lu"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-	}
-	division = {
-		name = "Henei Zhujun"
-		location = 4075 #Hanoi
-		division_template = "Zhujun Lu"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-	}
-	division = {
-		name = "Di 2 Miandian Zhujun Lu"
-		location = 12404
-		division_template = "Zhujun Lu"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-	}
-	division = {
-		name = "Xin Di 22 Bubing Shi"
-		location = 11966
-		division_template = "Bubingshi"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "Di 96 Bubing Shi"
-		location = 1142
-		division_template = "Bubingshi"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-	}
-	division = {
-		name = "Di 200 Bubing Shi"
-		location = 1082
-		division_template = "Bubingshi"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-	}
-	division = {
-		name = "Di 49 Bubing Shi"
-		location = 7122
-		division_template = "Bubingshi"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-	}
-		division = {
-		name = "Di 93 Bubing Shi"
-		location = 4454
-		division_template = "Bubingshi"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-	}
-	division = {
-		name = "Di 55 Bubing Shi"
-		location = 10486
-		division_template = "Bubingshi"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-	}
-	division = {
-		name = "Di 57 Bubing Shi"
-		location = 12284
-		division_template = "Bubingshi"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-	}
-	division = {
-		name = "Xin Di 28 Bubing Shi"
-		location = 12284
-		division_template = "Bubingshi"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "Xin Di 29 Bubing Shi"
-		location = 1650
-		division_template = "Bubingshi"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "Xin Di 38 Bubing Shi"
-		location = 10267
-		division_template = "Bubingshi"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "Xin Di 39 Bubing Shi"
-		location = 4336
-		division_template = "Bubingshi"
-		start_experience_factor = 0.2
-	}
-
-
 ##Central Asia
 	division = {
 		name = "Jindun Anfang Gongsi" ##Afghan PMC
@@ -671,13 +625,13 @@ units = {
 	}
 	division = {
 		name = "Di 2 Hailun Pai"
-		location = 994
+		location = 1070
 		division_template = "Hailun Pai"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "Di 3 Hailun Pai"
-		location = 1038
+		location = 1070
 		division_template = "Hailun Pai"
 		start_experience_factor = 0.2
 	}
@@ -689,13 +643,13 @@ units = {
 	}
 	division = {
 		name = "Di 5 Hailun Pai"
-		location = 7137
+		location = 1047
 		division_template = "Hailun Pai"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "Di 6 Hailun Pai"
-		location = 4401
+		location = 1047
 		division_template = "Hailun Pai"
 		start_experience_factor = 0.2
 	}
@@ -810,13 +764,33 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
+#####Mercenaries Stationed Abroad#####
+	division = {
+		name = "Bawang Anquan Gongsi"
+		location = 12465 ##Transoxiana
+		division_template = "Siren Junshi Fuwu Gongsi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "San Tianpeng Anquan Gongsi"
+		location = 1427 ##Transoxiana
+		division_template = "Siren Junshi Fuwu Gongsi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Liumang Heshang Anquan Gongsi"
+		location = 9707 ##Astrakhan
+		division_template = "Siren Junshi Fuwu Gongsi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
 #####NAVAL UNITS#####
 	navy = {
 		name = "Di 1 Jiandui" ##still small for a nation this big, but with their industry it can get a lot bigger
 		base = 7014
 		location = 7014 #Shanghai
-		ship = { name = "CNS Baomin" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = CHI } } }
-		ship = { name = "CNS Kaiji" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = CHI } } }
 		ship = { name = "CNS Nanchen" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
 		ship = { name = "CNS Nanrui" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
 		ship = { name = "CNS Hairong" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
@@ -882,7 +856,7 @@ units = {
 air_wings = {
 	# Beijing
 	608 = { 
-		fighter_equipment_0 = { owner = "CHI" amount = 60 }				
+		fighter_equipment_0 = { owner = "CHI" amount = 100 }				
 	}
 	#Shanghai
 	613 = {
@@ -900,7 +874,7 @@ air_wings = {
 	}
 	#Singapore
 	336 = {
-		fighter_equipment_0 = { owner = "CHI" amount = 48 }
+		fighter_equipment_0 = { owner = "CHI" amount = 100 }
 	}
 }
 

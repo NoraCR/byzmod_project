@@ -80,9 +80,9 @@ units = {
 air_wings = {
 	### Da Qin Air Force (DQAF)
 	291 = {
-		CAS_equipment_1 =  {
+		fighter_equipment_0 =  {
 			owner = "SYR" 
-			amount = 25
+			amount = 24
 		}
 	}
 }

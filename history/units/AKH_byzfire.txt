@@ -131,7 +131,7 @@ units = {
 	}
 	division = {
 		name = "Xiaolu Ren"
-		location = 6474 #Stalino
+		location = 449
 		division_template = "Siren Junshi Fuwu Gongsi"		
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -139,16 +139,16 @@ units = {
 	}
 	division = {
 		name = "Tebie Renwu Ying"
-		location = 9461 #Voroshilovgrad
+		location = 449
 		division_template = "Siren Junshi Fuwu Gongsi"		
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
-#####Voronezh#####
+#####Tsaritysn#####
 	division = {
 		name = "Di 4 Bubing Shi"
-		location = 413 #Voronezh
+		location = 217 #Tsaritsyn
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -156,7 +156,7 @@ units = {
 	}
 	division = {
 		name = "Di 5 Bubing Shi"
-		location = 413 #Voronezh
+		location = 217 #Tsaritsyn
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -164,7 +164,7 @@ units = {
 	}
 	division = {
 		name = "Di 6 Bubing Shi"
-		location = 413 #Voronezh
+		location = 217 #Tsaritsyn
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -172,7 +172,7 @@ units = {
 	}
 	division = {
 		name = "Di 1 Qibing Shi 'Gesake'"
-		location = 413 #Voronezh
+		location = 217 #Tsaritsyn
 		division_template = "Qibing Shi"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5

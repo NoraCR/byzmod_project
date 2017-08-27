@@ -409,7 +409,7 @@ units = {
 		start_equipment_factor = 0.3
 	}
 	division= {			
-		name = "7th Infantry Division 'Mount Athos'"		
+		name = "7th Infantry Division"		
 		location = 4109
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
@@ -502,7 +502,7 @@ units = {
 		start_equipment_factor = 0.3
 	}
 	division= {			
-		name = "Stevedores International - Trabzon"		
+		name = "Stevedores International 343 - Trabzon"		
 		location = 9932
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
@@ -539,7 +539,7 @@ units = {
 	}
 	##### BULGARIA #####
 	division= {			
-		name = "20th Infantry Division"		
+		name = "20th Infantry Division 'Golden Lion'"		
 		location = 949
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
@@ -564,6 +564,20 @@ units = {
 		name = "23rd Infantry Division"		
 		location = 9716
 		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	division= {			
+		name = "6th Motorized Division"		
+		location = 9716
+		division_template = "Motorized Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	division= {			
+		name = "7th Motorized Division"		
+		location = 9716
+		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
@@ -647,7 +661,7 @@ units = {
 		start_equipment_factor = 0.3
 	}
 	division= {			
-		name = "6th Cavalry Division"		
+		name = "6th Cavalry Division 'Ironclad'"		
 		location = 596
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
@@ -695,7 +709,6 @@ units = {
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
 	division= {			
 		name = "37th Infantry Division"		
@@ -726,7 +739,7 @@ units = {
 		start_equipment_factor = 0.3
 	}
 	division= {			
-		name = "4th Motorized Division"		
+		name = "4th Motorized Division 'Carabinieri'"		
 		location = 11584
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
@@ -737,6 +750,34 @@ units = {
 		location = 11584
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	division= {			
+		name = "7th Cavalry Division"		
+		location = 11584
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	division= {			
+		name = "41st Infantry Division"		
+		location = 6973
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	division= {			
+		name = "42nd Infantry Division"		
+		location = 6973
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	division= {			
+		name = "Stevedores International 560 - La Spezia"		
+		location = 9907
+		division_template = "Red Guard Division"
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 	##### NAVAL UNITS #####

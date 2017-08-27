@@ -151,10 +151,6 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-
-
-}
-
 ### Air Wings ###
 air_wings = {
 	##### Azerbaycan Hava Qüvveleri #####

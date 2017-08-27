@@ -315,6 +315,7 @@ units = {
 		ship = { name = "ROKS Kim Seung-hyeon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
 		ship = { name = "ROKS Ryu Young-sook" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }			
 	}
+}
 ##### AIR FORCE #####
 air_wings = {
 	653 = {
@@ -352,5 +353,4 @@ instant_effect = {
 		progress = 0.30
 		amount = 1
 	}
-
 }

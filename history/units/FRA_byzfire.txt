@@ -490,6 +490,24 @@ units = {
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
+	division= {	
+		name = "34ème Division d'Infanterie Alpine"
+		location = 663
+		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "36ème Division d'Infanterie Alpine"
+		location = 663
+		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "37ème Division d'Infanterie Alpine"
+		location = 673
+		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
 	# Piedmont Infantry Divisions
 	division= {	
 		name = "38ème Division d'Infanterie"
@@ -543,8 +561,8 @@ units = {
 		start_equipment_factor = 0.3
 	}
 	division= {	
-		name = "Îles Baléares Div. d'Inf. de Forteresse"
-		location = 11773
+		name = "Iles Baléares Div. d'Inf. de Forteresse"
+		location = 9793
 		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -568,12 +586,67 @@ units = {
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
-		division= {	
+	division= {	
 		name = "49ème Division d'Infanterie"
 		location = 6906
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
+	### GRAND-EST ###
+	division= {	
+		name = "50ème Division d'Infanterie"
+		location = 516
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "51ème Division d'Infanterie"
+		location = 516
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "52ème Division d'Infanterie"
+		location = 516
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6ère Brigade de Chars de Combat"
+		location = 516
+		division_template = "Brigade de Chars de Combat" 			# FT-17s
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "52ème Division d'Infanterie"
+		location = 9444
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "53ème Division d'Infanterie"
+		location = 9444
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "54ème Division d'Infanterie"
+		location = 9444
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "13ème Div. d'Infanterie Motorisée"
+		location = 3423
+		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "15ème Div. d'Infanterie Motorisée"
+		location = 3423
+		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.3
+	}		
 	### METRPOLITAN FRANCE ###
 	navy = {				
 		name = "1ère Région Navale"			
