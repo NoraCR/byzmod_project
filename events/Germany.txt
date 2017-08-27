@@ -3,6 +3,329 @@
 ###########################
 
 add_namespace = germany
+
+# German Civil War
+country_event = {
+	id = germany.900
+	title = germany.900.t
+	desc = germany.900.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = { has_global_flag = scw_over }
+		tag = GER
+		has_defensive_war = no
+		NOT = { has_government = fascism }
+		date > 1937.3.15 # Trigger at some point after 1937 elections
+	}
+
+	mean_time_to_happen = {
+		days = 100
+	}
+	
+	option = { # Support HRE
+		name = germany.900.a
+		trigger = { is_ai = no }
+		hidden_effect = {
+			set_capital = 176
+			start_civil_war = {
+				ruling_party = fascism
+				ideology = democratic
+				size = 0.5
+				capital = 64
+				states = { 64 58 59 60 57 56 55 54 }
+			}
+			random_other_country = {
+				limit = {
+					original_tag = GER
+					has_government = democratic
+				}
+				load_oob = "SPR_Civil_War"
+				set_equipment_fraction = 0.5
+				set_national_unity = 0.9
+				#country_event = { id = germany.902 days = 1 }
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.35
+				}
+			}
+			news_event = { hours = 6 id = news.63 }
+			set_global_flag = spanish_civil_war
+			
+			load_oob = "SPA_Civil_War"
+			set_equipment_fraction = 0.5
+			set_national_unity = 0.9
+			
+			add_popularity = {
+				ideology = fascism
+				popularity = 1
+			}
+
+			#country_event = { id = germany.901 days = 7 }
+		}
+		custom_effect_tooltip = nationalists_chosen
+	}
+	option = { # Support Republicans
+		name = germany.900.b
+		hidden_effect = {
+			start_civil_war = {
+				ideology = fascism
+				size = 0.5
+				capital = 85
+				states = { 699 5 62 61 36 51 85 63 65 68 }
+			}
+			random_other_country = {
+				limit = {
+					original_tag = GER
+					has_government = fascism
+				}
+				set_equipment_fraction = 0.5
+				set_national_unity = 0.9
+				#country_event = { id = germany.901 days = 1 }
+				load_oob = "SPA_Civil_War"
+			}
+			news_event = { hours = 6 id = news.63 }
+			set_global_flag = spanish_civil_war
+			
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.3
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = -1
+			}	
+			load_oob = "GER_Civil_War"
+			set_equipment_fraction = 0.5
+			set_national_unity = 0.9
+			
+			#country_event = { id = germany.902 days = 7 }
+		}
+		custom_effect_tooltip = republicans_chosen
+	}
+}
+
+# HRE: Seek Support
+country_event = {
+	id = germany.901
+	title = germany.901.t
+	desc = germany.901.d
+	picture = GFX_report_event_spain_civil_war_volunteers_01
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_civil_war = yes
+		original_tag = SPR
+	}
+
+	option = {
+		name = germany.901.a
+		every_other_country = {
+			limit = {
+				has_government = fascism
+				NOT = { original_tag = SPR }
+			}
+			country_event = { id = spain.4 days = 1 }
+		}
+		if = {
+			limit = {
+				POR = { NOT = { has_government = communism } }
+			}
+			POR = { country_event = { id = spain.4 days = 1 } }
+		}
+	}
+
+	option = {
+		name = germany.901.b
+		add_political_power = 40
+		ai_chance = { factor = 0 }
+	}
+}
+
+# NGF: Seek Support
+country_event = {
+	id = germany.902
+	title = germany.901.t
+	desc = germany.902.d
+	picture = GFX_report_event_spain_civil_war_volunteers
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_civil_war = yes
+	}
+
+	option = {
+		name = germany.902.a
+		every_other_country = {
+			limit = {
+				NOT = { has_government = fascism }
+				NOT = { has_government = pangalism }
+				NOT = { tag = GER }
+			}
+			country_event = { id = germany.904 days = 1 }
+		}
+		if = {
+			limit = {
+				MEX = { NOT = { has_government = fascism } }
+			}
+			MEX = { country_event = { id = germany.904 days = 1 } }
+		}
+	}
+
+	option = {
+		name = germany.902.b
+		add_political_power = 40
+		ai_chance = { factor = 0 }
+	}
+}
+
+# HRE Wants Our Help
+country_event = {
+	id = germany.903
+	title = germany.903.t
+	desc = germany.903.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+
+	trigger = {
+		GER = { has_civil_war = yes }
+	}
+
+	option = {
+		name = germany.903.a
+		set_country_flag = promised_help_nationalist_spain
+		custom_effect_tooltip = spain.4.a.tt
+	}
+
+	option = {
+		name = germany.903.b
+		
+	}
+}
+
+# NGF Wants Our Help
+country_event = {
+	id = germany.904
+	title = germany.904.t
+	desc = germany.904.d
+	picture = GFX_report_event_spain_civil_war_volunteers_02
+	
+	is_triggered_only = yes
+
+	trigger = {
+		GER = { has_civil_war = yes }
+	}
+
+	option = {
+		name = germany.904.a
+		set_country_flag = promised_help_republican_spain
+		custom_effect_tooltip = spain.4.a.tt
+	}
+
+	option = {
+		name = germany.904.b
+		
+	}
+}
+
+# Nationalist Spain Appreciates our Help
+country_event = {
+	id = germany.905
+	title = germany.905.t
+	desc = germany.905.d
+	picture = GFX_report_event_finnish_letter
+	
+	trigger = {
+		has_country_flag = promised_help_nationalist_spain
+		GER = { has_civil_war = yes }
+		any_other_country = {
+			original_tag = GER
+			has_government = fascism
+			ROOT = { is_lend_leasing = PREV }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = spain.6.a
+		clr_country_flag = promised_help_nationalist_spain
+		random_other_country = {
+			limit = {
+				original_tag = GER
+				has_government = fascism
+			}
+			add_opinion_modifier = { target = ROOT modifier = lend_leased_spanish_civil_war }
+		}
+	}
+}
+
+# Republican Spain Appreciates our Help
+country_event = {
+	id = germany.906
+	title = germany.906.t
+	desc = germany.906.d
+	picture = GFX_report_event_spain_civil_war_volunteers_01
+	
+	trigger = {
+		has_country_flag = promised_help_republican_spain
+		SPR = { has_civil_war = yes }
+		is_lend_leasing = GER
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = germany.906.a
+		clr_country_flag = promised_help_republican_spain
+		SPR = { add_opinion_modifier = { target = ROOT modifier = lend_leased_spanish_civil_war } }
+	}
+}
+
+# Civil war over. Move Capital
+country_event = {
+	id = germany.907
+	title = germany.907.t
+	desc = germany.907.d
+	picture = GFX_report_event_spain_civil_war_volunteers_01
+	
+	trigger = {
+		original_tag = GER
+		has_government = fascism
+		has_global_flag = nationalist_victory
+		owns_state = 64
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		ai_chance = { factor = 1 }
+		name = germany.907.a
+		set_capital = 64
+	}
+	option = {
+		ai_chance = { factor = 0 }
+		name = germany.907.b
+	}
+}
+
 # France sent ultimatum
 country_event = {
 	id = germany.200
