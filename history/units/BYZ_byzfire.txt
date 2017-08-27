@@ -1349,12 +1349,12 @@ air_wings = {
 		# 18th Pursuit Group 
 		fighter_equipment_0 =  {
 			owner = "BYZ" 
-			amount = 48
+			amount = 96
 		}
 		# 5th Composite Group 
 		tac_bomber_equipment_0 = {
 			owner = "BYZ" 
-			amount = 36
+			amount = 72
 		}
 	}
 
@@ -1386,7 +1386,7 @@ air_wings = {
 		# Naval Patrol Wing 3 
 		nav_bomber_equipment_1 =  {
 			owner = "BYZ" 
-			amount = 36
+			amount = 72
 		}
 	}
 	### USN Pacific Naval Patrol Division -- Ostia
