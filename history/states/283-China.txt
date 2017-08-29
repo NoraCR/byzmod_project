@@ -22,7 +22,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 		}
 
 		1938.10.25 = {
