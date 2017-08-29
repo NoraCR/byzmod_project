@@ -89,24 +89,6 @@ division_template = {
 	}
 	priority = 0
 }
-division_template = {
-	name = "Marine Division" 		
-
-	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 0 y = 2 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
-		marine = { x = 1 y = 2 }
-		marine = { x = 2 y = 0 }
-		marine = { x = 2 y = 1 }
-		marine = { x = 2 y = 2 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }   
-	}
-}
 
 ###### OOB ######
 units = {
@@ -795,45 +777,9 @@ units = {
 		name = "Stevedores International 560 - La Spezia"		
 		location = 9907
 		division_template = "Red Guard Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
-	##### MARINES #####
-	division= {			
-		name = "1st Marine Division"		
-		location = 11965
-		division_template = "Marine Division"
-		start_experience_factor = 0.6
-		start_equipment_factor = 0.5
-	}
-	division= {			
-		name = "2nd Marine Division"		
-		location = 11965
-		division_template = "Marine Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
-	}
-	division= {			
-		name = "3rd Marine Division"		
-		location = 11965
-		division_template = "Marine Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
-	}
-	division= {			
-		name = "4th Marine Division"		
-		location = 4193
-		division_template = "Marine Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
-	}
-	division= {			
-		name = "5th Marine Division"		
-		location = 4193
-		division_template = "Marine Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
-	}	
 	##### NAVAL UNITS #####
 	navy = {					
 		name = "Ostia Home Fleet"				

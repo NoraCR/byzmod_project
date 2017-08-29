@@ -8,7 +8,7 @@ state={
 		owner = BYZ
 		add_core_of = BYZ
 		buildings = {
-			infrastructure = 6
+			infrastructure = 2
 			11735 = {
 				naval_base = 5
 
