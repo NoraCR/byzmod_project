@@ -290,7 +290,7 @@ units = {
 		name = "Di 3 Dishan Pai 'Bashenji'er'"
 		location = 1278 #Ufa
 		division_template = "Dishan Pai"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -298,7 +298,7 @@ units = {
 		name = "Di 4 Dishan Pai 'Mali Ai'er'"
 		location = 1278 #Ufa
 		division_template = "Dishan Pai"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -306,7 +306,7 @@ units = {
 		name = "Di 5 Dishan Pai 'Wudemute'er'"
 		location = 1278 #Ufa
 		division_template = "Dishan Pai"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -314,7 +314,7 @@ units = {
 		name = "Di 6 Dishan Pai 'Chuwashen'"
 		location = 1278 #Ufa
 		division_template = "Dishan Pai"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -339,7 +339,7 @@ units = {
 		name = "Di 7 Dishan Pai 'Azha'er'"
 		location = 3653 #Batumi
 		division_template = "Dishan Pai"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -347,7 +347,7 @@ units = {
 		name = "Di 8 Dishan Pai 'Abuhazi'"
 		location = 3698 #Abkhazia
 		division_template = "Dishan Pai"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -355,7 +355,7 @@ units = {
 		name = "Di 9 Dishan Pai 'Nan Aosaiti'"
 		location = 9632 #South Ossetia
 		division_template = "Dishan Pai"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -395,7 +395,7 @@ units = {
 		name = "Di 2 Qibing Shi 'Qierkeshe'"
 		location = 714
 		division_template = "Qibing Shi"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -403,7 +403,7 @@ units = {
 		name = "Di 10 Dishan Pai 'Chechen'"
 		location = 3672
 		division_template = "Dishan Pai"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -412,7 +412,7 @@ units = {
 		name = "Di 23 Bubing Shi"
 		location = 9753 #Astrakhan
 		division_template = "Bubingshi"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -420,7 +420,7 @@ units = {
 		name = "Di 24 Bubing Shi"
 		location = 9753
 		division_template = "Bubingshi"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -428,7 +428,7 @@ units = {
 		name = "Di 25 Bubing Shi"
 		location = 9753
 		division_template = "Bubingshi"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}

@@ -2553,6 +2553,42 @@ news_event = {
 	}
 }
 
+# Zhang Zhulin married
+news_event = {
+	id = news.904
+	title = news.904.t
+	desc = news.904.d.desc
+	picture = GFX_report_event_chinese_japanese_handshake
+	
+	major = yes
+	
+	trigger = {
+		date = 1936.8.8
+		country_exists = CHI
+		NOT = { has_global_flag = news.904_fired }
+		CHI = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = news.904_fired 
+	}
+	
+	option = {
+		name = news.904.a
+		trigger = { 
+			NOT = { TAG = CHI }
+		}
+	}
+	option = {
+		name = news.904.b
+		trigger = { TAG = CHI }
+	}
+}
+
 # Baltic country annexed (base event baltic.5)
 news_event = {
 	id = news.69
