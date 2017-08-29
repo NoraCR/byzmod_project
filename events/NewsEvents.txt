@@ -2416,9 +2416,7 @@ news_event = {
 		country_exists = FRA
 		country_exists = BYZ
 		NOT = { has_global_flag = news.900_fired }
-		GER = { has_war = no }
 		FRA = { has_war = no }
-		ENG = { has_war = no }
 		BYZ = { has_war = no }
 	}
 	
