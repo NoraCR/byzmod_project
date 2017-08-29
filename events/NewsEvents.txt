@@ -2163,7 +2163,7 @@ news_event = {
 	}
 }
 
-# The Spanish Civil War
+# The German Civil War
 news_event = {
 	id = news.63
 	title = news.63.t
@@ -2177,18 +2177,18 @@ news_event = {
 	option = {
 		name = news.63.a
 		trigger = {
-			NOT = { original_tag = SPR }
+			NOT = { original_tag = GER }
 		}
 	}
 	option = {
 		name = news.63.b
 		trigger = { 
-			original_tag = SPR
+			original_tag = GER
 		}
 	}
 }
 
-# End of the Spanish Civil War (Nationalist victory)
+# End of the German Civil War (Imperial victory)
 news_event = {
 	id = news.64
 	title = news.64.t
@@ -2200,14 +2200,14 @@ news_event = {
 	trigger = {
 		has_global_flag = spanish_civil_war
 		NOT = { has_global_flag = scw_over }
-		SPR = { has_civil_war = no }
+		GER = { has_civil_war = no }
 		any_other_country = {
-			original_tag = SPR
+			original_tag = GER
 			has_government = fascism
 		}
 		all_country = {
 			OR = {
-				NOT = { original_tag = SPR }
+				NOT = { original_tag = GER }
 				has_government = fascism
 			}
 		}
@@ -2225,16 +2225,16 @@ news_event = {
 	option = {
 		name = news.64.a
 		trigger = {
-			NOT = { original_tag = SPR }
+			NOT = { original_tag = GER }
 		}
 	}
 	option = {
 		name = news.64.b
-		trigger = { original_tag = SPR }
+		trigger = { original_tag = GER }
 	}
 }
 
-# End of the Spanish Civil War (Republican victory)
+# End of the Spanish Civil War (Federation victory)
 news_event = {
 	id = news.65
 	title = news.64.t
@@ -2248,12 +2248,12 @@ news_event = {
 		NOT = { has_global_flag = scw_over }
 		SPR = { has_civil_war = no }
 		any_other_country = {
-			original_tag = SPR
+			original_tag = GER
 			NOT = { has_government = fascism }
 		}
 		all_country = {
 			OR = {
-				NOT = { original_tag = SPR }
+				NOT = { original_tag = GER }
 				NOT = { has_government = fascism }
 			}
 		}
@@ -2271,12 +2271,12 @@ news_event = {
 	option = {
 		name = news.65.a
 		trigger = {
-			NOT = { original_tag = SPR }
+			NOT = { original_tag = GER }
 		}
 	}
 	option = {
 		name = news.64.b
-		trigger = { original_tag = SPR }
+		trigger = { original_tag = GER }
 	}
 }
 
@@ -2293,11 +2293,11 @@ news_event = {
 		date > 1936.8.15
 		NOT = { has_global_flag = olympics_1936 }
 		country_exists = GER
-		country_exists = USA
+		country_exists = BYZ
 		GER = { has_war = no }
 		FRA = { has_war = no }
 		ENG = { has_war = no }
-		USA = { has_war = no }
+		BYZ = { has_war = no }
 	}
 	
 	mean_time_to_happen = {
@@ -2311,12 +2311,12 @@ news_event = {
 	option = {
 		name = news.66.a
 		trigger = { 
-			NOT = { TAG = GER }
+			NOT = { TAG = FRA }
 		}
 	}
 	option = {
 		name = news.66.b
-		trigger = { TAG = GER }
+		trigger = { TAG = FRA }
 	}
 }
 
@@ -2415,6 +2415,7 @@ news_event = {
 		date > 1936.6.19
 		country_exists = FRA
 		country_exists = BYZ
+		NOT = { has_global_flag = news.900_fired }
 		GER = { has_war = no }
 		FRA = { has_war = no }
 		ENG = { has_war = no }
@@ -2426,7 +2427,7 @@ news_event = {
 	}
 	
 	immediate = {
-		set_global_flag = news.238_fired 
+		set_global_flag = news.900_fired 
 	}
 	
 	option = {
@@ -2454,6 +2455,7 @@ news_event = {
 		date = 1937.6.22
 		country_exists = FRA
 		country_exists = DEN
+		NOT = { has_global_flag = news.901_fired }
 		FRA = { has_war = no }
 		DEN = { has_war = no }
 	}
@@ -2491,6 +2493,7 @@ news_event = {
 		date = 1938.6.22
 		country_exists = FRA
 		country_exists = BYZ
+		NOT = { has_global_flag = news.902_fired }
 		FRA = { has_war = no }
 		BYZ = { has_war = no }
 	}
