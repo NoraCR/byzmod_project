@@ -239,7 +239,7 @@ SWE = {
 NOR = {
 	male = {
 		names = { Adolph Jens Sverre Odd Johan Frederik Lorentz Ole Hans
-			Harald Haakon Olaf Paul Petter Carl Christian Kaare Jacob Søren Wilhelm Tryggve Daniel
+			Harald Haakon Olaf Paul Petter Carl  Christian Kaare Jacob Søren Wilhelm Tryggve Daniel
 		 }
 	}
 	
@@ -1161,45 +1161,27 @@ NEP = {
 }
 RAJ = {
 	male = {
-		names = { Amitava Anshumaan Balendra Champavati Chandrashekar Chinmay Ganesh Hrishabh Mithun Dwijendra 
-		Dheerendra Bansilal Abhijeet Jaladhar Utpal Swampnil Baadal Bhubaneswar Bishwanath Ramesh 
-		Sudeep Roshan Gagan Deeptimay Vikrant Vidhaata Kranti 
+		names = { Amitava Anshumaan Balendra Champavati Chandrashekar Chinmay Ganesh Hrishabh Mithun 
 		  }
 	}
 	female = {
-		names = { Amolika Arpita Bhaarati Bithika Damyanti Ekavali Fullara Durva Falguni Vipasha Tara
-		Etka Prakruti Bhaavana Ujwala Arunima Baruna Sarita Kanchan Lalima Rani }
+		names = { Amolika Arpita Bhaarati Bithika Damyanti Ekavali Fullara  }
 	}
-	surnames = { Chakravarthy Ghose Pramahamsa Syed Sheikh Mir Lashkar Akhand Mazumdar Dewan Sarkar Huq Maitra Karanam 
-	Mustafi Battacharya Banerjee Choudhuri Gangopadhyay Mozumdar Purakasthya Roy Sen Thakur Chanchalam Poduri Chiguluri
-		}
-	callsigns = { }
-}
-MRT = {
-	male = {
-		names = { Amal Bhaumik Satya Jaisal Hardip Vidit Pakhi Sunder Aman Shanti Dasra Vikramaditya Ashtavakra Nakshatra
-			Fakhir Javesh Gandharv Devagya Pranit Gaurang 
-		  }
-	}
-	female = {
-		names = { Rashmi Sima Rupal Mukti Iraja Durgautti Raktavati Zohana Maya Anushree Sarama Krishna Surya Sarasvati
-		Dixa Govindi Urva Banmala Aisha }
-	}
-	surnames = { Nambisan Patil Kapadia Vrishchka Limbu Gharapure Dongerkerry Karamchand Gurnani Gayakvad Dorwani Basantani Acharya Thakkar Suthar Desai Wala Tanti
-		Visaria Ganatra Parvada Zariwala
+	surnames = { 	Syed Sheikh Mir Lashkar Akhand Mazumdar Dewan Sarkar Mustafi Battacharya Banerjee Choudhuri Gangopadhyay Mozumdar Purakasthya Roy Sen Thakur
 		}
 	callsigns = { }
 }
 
+
 PHI = {
 	male = {
-		names = { Salwa Mastini Surintan Hilmiyya Puspa Waseema Sepiah Kuntum Munah Afeefa Abijah Solikin }
+		names = { Emilio Apolinario Andrés José Hermano Jacinto Mariano Deodato Ladislao Teodoro Valentíne Antonio León Simeón Arcadio Artemio Manuel  }
 	}
 	female = {
-		names = { Rutaiba Suminten Widjaja Misbaah Harjanti Ratna Limantoro Surati Eko Hadassah }
+		names = { }
 	}
 	surnames = {
-		Pattihahuan Sugiarto Cahyadi Kartawijaya Setiawan Serhalawan Simangunsong Lingga Naiborhu
+		Aguainaldo Mabini Bonifacio Jacinto Rizal Díaz Plata Diwa Arellano
 	}
 	callsigns = { }
 }
@@ -1220,17 +1202,12 @@ SIA = {
 }
 CHI = {
 	male = {
-		names = { Wei Qiang Lei Yong Jie Gang Chao Tao Jun Min Fu Peng
-		Wen Guo Hui Kang Liang Bolin Bingwen Jianyu Mengyao
-		Peizhi Guangli Fu Jinhai Guozhi Honghui Jiayi Yanlin Yongnian
-		Yunru Zhengsheng Zhiqiang Zixin Shunming Weisheng Wencheng Tengfei }
+		names = { Wei Qiang Lei Yong Jie Gang Chao Tao Jun Min Fu Peng Wen Guo Hui Kang Liang }
 	}
 	female = {
-		names = { Fang Xiuying Na Min Jing Li Xiulan Mulan Xia Zhen
-		Hui Lian Shan Yun Chenguang Chunhua Baozhai Mochou Ruohua
-		Wanqing Lingshan Shuanghua Qiushui}
+		names = { Fang Xiuying Na Min Jing Li Xiulan Mulan Xia Zhen Hui Lian Shan Yun }
 	}
-	surnames = { Wang Li Zhang Liu Chen Yang Huang Zhao Wu Zhou Xu Sun Ma Zhu Hu Guo He Gao Lin Luo Zheng Liang Xie Song Tang Wan Xue Bao Ma }
+	surnames = { Wang Li Zhang Liu Chen Yang Huang Zhao Wu Zhou Xu Sun Ma Zhu Hu Guo He Gao Lin Luo Zheng Liang Xie Song Tang }
 	callsigns = { }
 }
 GXC = {
@@ -1408,18 +1385,6 @@ GHA = {
 	surnames = { Adeleke Balogun Odalele Amaechi Okeke Okezie Sani Ahmed }
 	callsigns = { }
 }
-SHO = {
-	male = {
-		names = { Tawedzegwa Tatenda Dambanyika Tinotenda Munwai Nyika Tinavo Tsuru Muchaneta
-			Nzou Nashe Tashongedzwa Shingai Mbada Kudiwanashe Hosho Tinomudaishe Tirivangani Tichitonga
-		  }
-	}
-	female = {
-		names = { Idai Manyara Anotida Kufara Anoona Tawana Tinashe Hazvinei Teuraiishe Tauya }
-	}
-	surnames = { Mnangagwa Magwa Jongwe Mkondo Mnkandla Mutsekwa Carne Moyo Muchinguri Mukonoweshuro Dumbutshena Tsvangirai Mutezo }
-	callsigns = { }
-}
 
 ###############################################################
 # North America
@@ -1454,10 +1419,7 @@ AYI = {
 		}
 	}
 	surnames = { 
-			Tsalagi Hisatsinom Niimiipu Sutaio Tsitsistsas Naabeeho Dine Niitsitapi Ojiibwabwe Nunt'zi Hutanga 
-			Neutache Tamaroa Chepoussa Yoron Kaskinampo Waxhaw Skarureh Monacan Shawanwa
-			Tocobaga Ais Jaega Maya-imi Tequesta Vizcayno Matecumbe Osochi Saloki Mvskoke Ocmulgee 
-			Ani'yunwi'ya Kaskaskaham Peewaareewa Yamasee Guale Escamacu Tsoyaha 
+			Tsalagi Hisatsinom Niimiipu Sutaio Tsitsistsas Naabeeho Dine Niitsitapi Ojiibwabwe 
 	}
 	callsigns = { }
 }
@@ -1487,9 +1449,11 @@ MEX = {
 		names = { Necahual Ixpanton Mocauhqui Mauhcaxochitl Coaxoch Xoco Yaoxochitl Teichpoch }
 	}
 	surnames = { 
-		Tenochtitlan Teotihuacan Tlateloco Texoco Tlaxcala Calixtahuaca Xochicalco Tlacopan Atzcapotzalco 
-		Tzintzuntzan Malinalco Tula Tamuin Teayo Cempoala Tlalmanalco Ixtapaluca Huexotla Tepexpan Tepetlaoxtoc
-		Chiconautla Zitlaltepec Coyotepec Tequixquiac Jilotzingo Tuiltitan Iztapam
+		Martinez Almonte Álvarez Arista Barragán Bocanegra Bravo Bustamante Canalizo Carranza Caserta
+		Cervantes Corona Corra "de Ampudia" "de Cos" "de Itúrbide" Díaz Echeverría Escandón Escobedo
+		Fagoaga "Fernández del Valle" Flores Gómez González Guerrero Huerta Kosterlitzky "López de Santa Ana" Lozada
+		"Martínez del Río" Mejía Miramón Múzquiz Obregón Pedraza Pimentel Reyes "Rincón Gallardo" Robles
+		Ruíz Salas Sánchez "Sarmaniego del Castillo" "Vázquez de la Cadena" Villa Woll Zapata Zaragoza Zuloaga		
 	}
 	callsigns = { }
 }
@@ -1868,15 +1832,12 @@ PAR = {
 PRU = {
 	male = {
 		names = { 
-			Awank’Ay Imasumaq Kokka Kusiyaya Ñust'a Mayu Michik Pachakusi Puquykilla Qhispisisa
-			Qoraokllo Qoriurma Suyana Willka Yanay Kuka Nimat'Ika Yuria Phakchay
+			Awank’Ay Imasumaq Kokka Kusiyaya Ñust'a Mayu Michik Pachakusi Puquykilla Qhispisisa Qoraokllo Qoriurma Suyana Willka Yanay  
 		
 		  }
 	}
 	female = {
-		names = { Apuqateqill Inkaurko Kunturpoma Wayaw Qollqe Pillku Qatiqil Quichuasamin
-		Pillqo Tupaqamaru Qateqil Yuraq Yanamayu Yaku Killinchu
-		}
+		names = { Apuqateqill Inkaurko Kunturpoma Wayaw  }
 	}
 	surnames = { 
 		Chihuan Chumpitaz Chuquisengo Huaman Huanchuari Huapaya Humala Mamani Quispe Villca Yarleque
