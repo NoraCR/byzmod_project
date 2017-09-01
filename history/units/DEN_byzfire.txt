@@ -373,9 +373,9 @@ units = {
 		ship = { name = "KSMS Wasa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }				
 		ship = { name = "KSMS Manligheten" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }
 		# 1. Ubatsflottiljen				
-		ship = { name = "KSMS Draken" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN version_name = "Draken Class" } } }
-		ship = { name = "KSMS Gripen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN version_name = "Draken Class" } } }
-		ship = { name = "KSMS Ulven" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN version_name = "Draken Class" } } }
+		ship = { name = "KSMS Draken" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
+		ship = { name = "KSMS Gripen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
+		ship = { name = "KSMS Ulven" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
 	}
 	navy = { 
 		name = "Göteborgs Eskadern"
@@ -424,7 +424,7 @@ air_wings = {
 	### Scandinavian Air Force
 	141 = {
 		# 1. Bombflyggruppen -- Hawker Harts
-		CAS_equipment_1 = {
+		tac_bomber_equipment_1 = {
 			owner = "DEN" 
 			amount = 36
 		}
