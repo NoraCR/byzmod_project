@@ -6,14 +6,14 @@ state={
 	
 	state_category = large_city
 	resources={
-		steel=11
+		steel=14
 	}
 	history={
 		owner = AZB
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
-			arms_factory = 1
+			arms_factory = 3
 		}
 		victory_points = {
 			1896 3 

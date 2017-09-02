@@ -36,6 +36,7 @@ division_template = {
 		recon = { x = 0 y = 0 }      # Recon Group consisted of 26 ACs + motorcycles
 		artillery = { x = 0 y = 1 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
 	}
+	priority = 2
 }
 division_template = {
 	name = "Red Guard Division"  	# local forces.
@@ -75,6 +76,7 @@ division_template = {
 		engineer = { x = 0 y = 1 }   # US Eng Bn
 		artillery = { x = 0 y = 2 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
 	}
+	priority = 2
 }
 division_template = {
 	name = "Garrison Brigade"  		# do i even use these guys anywhere. oh well
@@ -105,6 +107,22 @@ division_template = {
 	}
 	support = {
 		engineer = { x = 0 y = 0 }   
+	}
+}
+division_template = {
+	name = "Mountain Division"	#small, elite			
+	
+	regiments = {
+		mountaineers = { x = 0 y = 0 }		
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
 	}
 }
 
@@ -535,7 +553,7 @@ units = {
 		start_equipment_factor = 0.3
 	}
 	division= {			
-		name = "17th Infantry Division 'Ararat'"		
+		name = "17th Infantry Division"		
 		location = 9932
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
@@ -834,6 +852,42 @@ units = {
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.5
 	}	
+	##### MOUNTAIN INFANTRY #####
+	division= {			
+		name = "1st Mountain Division 'Torino'"		
+		location = 6661
+		division_template = "Mountain Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {			
+		name = "2nd Mountain Division 'Lumbardia'"		
+		location = 6661
+		division_template = "Mountain Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {			
+		name = "3rd Mountain Division 'Ister'"		
+		location = 6626
+		division_template = "Mountain Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {			
+		name = "4th Mountain Division 'Parhar'"		
+		location = 7454
+		division_template = "Mountain Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {			
+		name = "5th Mountain Division 'Ararat'"		
+		location = 10472
+		division_template = "Mountain Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}			
 	##### NAVAL UNITS #####
 	navy = {					
 		name = "Ostia Home Fleet"				
