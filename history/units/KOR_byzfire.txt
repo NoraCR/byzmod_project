@@ -127,7 +127,47 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
+	}
+	division = {
+		name = "17. Bobyeong Sadan"
+		location = 11828 #Kanggye
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "18. Bobyeong Sadan"
+		location = 11828 #Kanggye
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "19. Bobyeong Sadan"
+		location = 959 #Chongjin
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "20. Bobyeong Sadan"
+		location = 959 #Chongjin
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
 	}	
+	division = {
+		name = "21. Bobyeong Sadan"
+		location = 959 #Chongjin
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}		
 ##### Eastern Siberia #####
 	division = {
 		name = "Oho-ta Gunsa Jiyeog"
@@ -318,9 +358,20 @@ units = {
 }
 ##### AIR FORCE #####
 air_wings = {
+#Siberia
 	653 = {
 		tac_bomber_equipment_1 = { owner = "KOR" amount = 72 }			
 		CAS_equipment_1 = { owner = "KOR" amount = 72 }					
+		fighter_equipment_0 =  { owner = "KOR" amount = 72 }			
+	}
+#North Korean Peninsula
+	527 = {
+		tac_bomber_equipment_1 = { owner = "KOR" amount = 100 }			
+		fighter_equipment_0 =  { owner = "KOR" amount = 100 }			
+	}
+#South Korean Peninsula
+	525 = {
+		tac_bomber_equipment_1 = { owner = "KOR" amount = 72 }			
 		fighter_equipment_0 =  { owner = "KOR" amount = 72 }			
 	}
 }

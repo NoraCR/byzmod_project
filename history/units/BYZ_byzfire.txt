@@ -79,6 +79,23 @@ division_template = {
 	priority = 2
 }
 division_template = {
+	name = "Heavy Tank Division" 	# Heavy Tank Brigades - Represents a pair of independent tank brigades (1 heavy (truly heavy) + 1 regular (light) brigades) 
+
+	regiments = {
+		heavy_armor = { x = 0 y = 0 }		
+		heavy_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }				
+		light_armor = { x = 1 y = 0 }			
+		light_armor = { x = 1 y = 1 }		
+		light_armor = { x = 1 y = 2 }		
+		motorized = { x = 2 y = 0 }		
+		motorized = { x = 2 y = 1 }	
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 		
+	}
+}
+division_template = {
 	name = "Garrison Brigade"  		# do i even use these guys anywhere. oh well
 
 	regiments = {
@@ -421,6 +438,13 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
+	division= {			
+		name = "1st Independent Heavy Cavalry Brigade"		
+		location = 9833
+		division_template = "Heavy Tank Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
 	##### MACEDONIA #####
 	division= {			
 		name = "4th Infantry Division 'Thessalonika'"		
@@ -663,14 +687,14 @@ units = {
 	}
 	division= {			
 		name = "2nd Motorized Division 'Dalmatian'"		
-		location = 9914
+		location = 3924
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {			
 		name = "3rd Motorized Division"		
-		location = 9914
+		location = 3924
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
@@ -893,10 +917,10 @@ units = {
 		name = "Ostia Home Fleet"				
 		base = 819
 		location = 819 # Ostia
-		ship = { name = "RNS Monte Rosa" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-		ship = { name = "RNS Olympus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-		ship = { name = "RNS Smolikas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
-		ship = { name = "RNS Kaimaktsalan" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
+		ship = { name = "RNS Monte Rosa" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+		ship = { name = "RNS Olympus" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+		ship = { name = "RNS Smolikas" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
+		ship = { name = "RNS Kaimaktsalan" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
 		ship = { name = "RNS Ararat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
 		ship = { name = "RNS Ayiti" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Avalon Class" } } }
 		ship = { name = "RNS Avalon" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Avalon Class" } } }
@@ -949,25 +973,25 @@ units = {
 		name = "Battleship Division 1"				
 		base = 819
 		location = 819 # Ostia
-		ship = { name = "RNS Drymonakos" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-		ship = { name = "RNS Cavinato" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-		ship = { name = "RNS Milenov" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+		ship = { name = "RNS Drymonakos" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+		ship = { name = "RNS Cavinato" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+		ship = { name = "RNS Milenov" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 	}					
 	navy = {					
 		name = "Battleship Division 2"				
 		base = 819
 		location = 819 # Ostia
-		ship = { name = "RNS Gracchus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-		ship = { name = "RNS Krakatoa" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-		ship = { name = "RNS Vesuvius" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+		ship = { name = "RNS Gracchus" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+		ship = { name = "RNS Krakatoa" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+		ship = { name = "RNS Vesuvius" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 	}					
 	navy = {					
 		name = "Battleship Division 4"				
 		base = 819
 		location = 819 # Ostia
-		ship = { name = "RNS Matterhorn" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-		ship = { name = "RNS Monte Rosa" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-		ship = { name = "RNS Corno Grande" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+		ship = { name = "RNS Matterhorn" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+		ship = { name = "RNS Monte Rosa" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+		ship = { name = "RNS Corno Grande" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 	}				
 	navy = {					
 		name = "Carrier Division"				
@@ -1170,11 +1194,11 @@ units = {
 		name = "Battleship Division 3"				
 		base = 4135
 		location = 4135 # Gibraltar
-		ship = { name = "RNS Athos" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-		ship = { name = "RNS Etna" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-		ship = { name = "RNS Helicon" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
-		ship = { name = "RNS Matterhorn" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
-		ship = { name = "RNS Vesuvius" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }	
+		ship = { name = "RNS Athos" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+		ship = { name = "RNS Etna" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+		ship = { name = "RNS Helicon" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
+		ship = { name = "RNS Matterhorn" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
+		ship = { name = "RNS Vesuvius" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }	
 	}					
 	navy = {					
 		name = "Battleship Division 5"				

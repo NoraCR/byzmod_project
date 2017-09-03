@@ -277,7 +277,7 @@ units = {
 		ship = { name = "Ts'áamaas Ñ'íidaay " definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
 	}
 	navy = {
-		name = "Battleship Fleet 1"				
+		name = "Combined Fleet 1"				
 		base = 9671
 		location = 9671  # San Francisco
 		ship = { name = "Chaan Xúujaay" definition = carrier equipment = { carrier_1 = {amount = 1 owner = HDA } } 				
@@ -287,6 +287,20 @@ units = {
 
 			}
 		}
+		ship = { name = "Sgáanuwaa" definition = carrier equipment = { carrier_1 = {amount = 1 owner = HDA } } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "HDA" amount = 24 } # historical 24
+				cv_CAS_equipment_1 = { owner = "HDA" amount = 12 } 	# historical 12
+
+			}
+		}
+		ship = { name = "Dagwiig" definition = carrier equipment = { carrier_1 = {amount = 1 owner = HDA } } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "HDA" amount = 24 } # historical 24
+				cv_CAS_equipment_1 = { owner = "HDA" amount = 12 } 	# historical 12
+
+			}
+		}		
 		ship = { name = "Tsimshian" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA} } }
 		ship = { name = "Haisla" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA} } }
 		ship = { name = "Helitsuk" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA } } }	
@@ -299,6 +313,14 @@ units = {
 		ship = { name = "Tahini-wud" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
 		ship = { name = "Tagish" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA} } }
 		ship = { name = "Tr'ondëk Hwëch'in" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Ts'áak'" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Ts'áamaas ñ'íidaay" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Ts'ánhlñ'al" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+}
+	navy = {
+		name = "Destroyer Fleet 1"				
+		base = 9671
+		location = 9671  # San Francisco
 		ship = { name = "Dagdagdiyáa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
 		ship = { name = "Dagdag" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
 		ship = { name = "Híilang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
@@ -333,12 +355,16 @@ units = {
 		name = "1st Submarine Fleet" 
 		base = 9671
 		location = 9671 
-		ship = { name = "S-1" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }	
-		ship = { name = "S-2" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }		
-		ship = { name = "S-3" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }	
-		ship = { name = "S-4" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }		
-		ship = { name = "S-5" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }	
-		ship = { name = "S-6" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }	
+		ship = { name = "S-1" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "S-2" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }		
+		ship = { name = "S-3" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "S-4" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }		
+		ship = { name = "S-5" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "S-6" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "S-7" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "S-8" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "S-9" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "S-10" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }		
 	}					
 }
 #####AIRCRAFT#####
@@ -356,7 +382,17 @@ air_wings = {
 	386 = {
 		tac_bomber_equipment_0 =  {
 			owner = "HDA" 
-			amount = 48
+			amount = 72
+		}
+	}
+	385 = {
+		tac_bomber_equipment_0 =  {
+			owner = "HDA" 
+			amount = 72
+		}
+		fighter_equipment_0 =  {
+			owner = "HDA" 
+			amount = 72
 		}
 	}
 

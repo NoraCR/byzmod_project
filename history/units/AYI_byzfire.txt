@@ -407,10 +407,22 @@ units = {
 		name = "Ayiti Main Fleet"			
 		base = 4641 #Jaragua 
 		location = 4641
-		ship = { name = "ANS Ayiti" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AYI } } }	 
+		ship = { name = "ANS Ayiti" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Coabana" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AYI } } }	 
+		ship = { name = "ANS Tocobaga" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AYI } } }	 
+		ship = { name = "ANS Cahokia" definition = battle_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Penobscot" definition = battle_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Samoset" definition = battle_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }	
 		ship = { name = "ANS Agueybana" definition = battle_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }			
 		ship = { name = "ANS Mecidiye" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Guarionex" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Umpqua" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Wampanoag" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Allegheny" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Catawba" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Iuka" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Tatnuck" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Keosankwa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Abama" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Manica" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Brizuela" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
@@ -428,7 +440,13 @@ units = {
 		ship = { name = "ANS Chahta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Niukonska" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Hinono'eino" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
-		ship = { name = "ANS Yanktonai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ANS Yanktonai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }	
+		ship = { name = "ANS Patoka" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Kaweah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Sangamon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Suwannee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Merrimack" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Kankakee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 	}				
 	navy = {				
 		name = "Ayiti Submarine Fleet"			
