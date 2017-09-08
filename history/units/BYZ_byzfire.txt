@@ -171,7 +171,7 @@ units = {
 		location = 6675
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 	division= {			
@@ -179,7 +179,7 @@ units = {
 		location = 6675
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	# II Army Corps #
@@ -194,7 +194,7 @@ units = {
 		location = 11598
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 	division= {			
@@ -202,7 +202,7 @@ units = {
 		location = 11598
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 	# III Army Corps #
@@ -211,7 +211,7 @@ units = {
 		location = 6675
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 	division= {			
@@ -219,7 +219,7 @@ units = {
 		location = 6675
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 
@@ -231,7 +231,7 @@ units = {
 		location = 9833
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 	division= {			
@@ -239,7 +239,7 @@ units = {
 		location = 9833
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 	# VI Army Corps #
@@ -248,7 +248,7 @@ units = {
 		location = 11293
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 	division= {			
@@ -256,7 +256,7 @@ units = {
 		location = 819
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 
@@ -268,7 +268,7 @@ units = {
 		location = 6600
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 	division= {			
@@ -276,7 +276,7 @@ units = {
 		location = 6600
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 	# VIII Army Corps #
@@ -285,7 +285,7 @@ units = {
 		location = 3773
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	division= {			
@@ -293,7 +293,7 @@ units = {
 		location = 3773
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}	
 	division= {			
@@ -301,7 +301,7 @@ units = {
 		location = 3780
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}	
 	division= {			
@@ -309,7 +309,7 @@ units = {
 		location = 3773
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 	division= {			
@@ -317,7 +317,7 @@ units = {
 		location = 3773
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 	division= {			
@@ -346,7 +346,7 @@ units = {
 		location = 9548
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 	division= {			
@@ -354,7 +354,7 @@ units = {
 		location = 9548
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 	# IX Army Corps (CO: DeWitt) #
@@ -369,7 +369,7 @@ units = {
 		location = 9548
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 	division= {			
@@ -377,7 +377,7 @@ units = {
 		location = 9548
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}			
 					
@@ -408,35 +408,35 @@ units = {
 		location = 9833
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "2nd Infantry Division 'Thrace'"		
 		location = 9833
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "3rd Infantry Division 'Adrianople'"		
 		location = 9833
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "1st Cavalry Division"		
 		location = 9833
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "2nd Cavalry Division"		
 		location = 9833
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "1st Independent Heavy Cavalry Brigade"		
@@ -451,14 +451,14 @@ units = {
 		location = 11818
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "5th Infantry Division 'Mount Athos'"		
 		location = 11818
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	##### ATHENS #####
 	division= {			
@@ -466,21 +466,21 @@ units = {
 		location = 4109
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "7th Infantry Division"		
 		location = 4109
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "8th Infantry Division 'Pelopennese'"		
 		location = 4109
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	##### ANATOLIA #####
 	division= {			
@@ -488,35 +488,35 @@ units = {
 		location = 4112
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "10th Infantry Division"		
 		location = 4112
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "11th Infantry Division"		
 		location = 947
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "12th Infantry Division"		
 		location = 947
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "United Electrical Workers 207"		
 		location = 947
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	division= {			
@@ -524,49 +524,49 @@ units = {
 		location = 11747
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "5th Cavalry Division"		
 		location = 11747
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "13th Infantry Division"		
 		location = 890
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "14th Infantry Division"		
 		location = 890
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "15th Infantry Division"		
 		location = 890
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "3rd Cavalry Division"		
 		location = 890
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "Stevedores International 343 - Trabzon"		
 		location = 9932
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	division= {			
@@ -574,28 +574,28 @@ units = {
 		location = 9932
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "17th Infantry Division"		
 		location = 9932
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "18th Infantry Division 'Colchis'"		
 		location = 9932
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "19th Infantry Division 'Amazonia'"		
 		location = 9932
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	##### BULGARIA #####
 	division= {			
@@ -603,21 +603,21 @@ units = {
 		location = 949
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "21st Infantry Division"		
 		location = 949
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "22nd Infantry Division"		
 		location = 657
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	##### MOLDOVA #####
 	division= {			
@@ -625,21 +625,21 @@ units = {
 		location = 9716
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "6th Motorized Division"		
 		location = 9716
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "7th Motorized Division"		
 		location = 9716
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	##### ALBANIA #####
 	division= {			
@@ -647,7 +647,7 @@ units = {
 		location = 9914
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	##### ILLYRIA #####
 	division= {			
@@ -655,77 +655,77 @@ units = {
 		location = 11899
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "25th Infantry Division"		
 		location = 11899
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "26th Infantry Division"		
 		location = 3924
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "27th Infantry Division"		
 		location = 11581
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "28th Infantry Division"		
 		location = 11581
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "2nd Motorized Division 'Dalmatian'"		
 		location = 3924
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "3rd Motorized Division"		
 		location = 3924
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "29th Infantry Division"		
 		location = 9627
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "30th Infantry Division"		
 		location = 9627
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "31st Infantry Division"		
 		location = 9627
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "6th Cavalry Division 'Ironclad'"		
 		location = 596
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	##### ITALY #####
 	division= {			
@@ -733,112 +733,112 @@ units = {
 		location = 10074
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "33rd Infantry Division"		
 		location = 11837
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "34th Infantry Division 'Gracchus'"		
 		location = 9904
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "35th Infantry Division 'Roma'"		
 		location = 9904
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "36th Infantry Division 'Tuscany'"		
 		location = 9907
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "Artists Union 989 - Florence"		
 		location = 9907
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "37th Infantry Division"		
 		location = 6606
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "38th Infantry Division"		
 		location = 6606
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "39th Infantry Division"		
 		location = 11584
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "40th Infantry Division"		
 		location = 11584
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "4th Motorized Division 'Carabinieri'"		
 		location = 11584
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "5th Motorized Division"		
 		location = 11584
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "7th Cavalry Division"		
 		location = 11584
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "41st Infantry Division"		
 		location = 6973
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "42nd Infantry Division"		
 		location = 6973
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {			
 		name = "Stevedores International 560 - La Spezia"		
 		location = 9907
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	##### MARINES #####
 	division= {			
@@ -921,7 +921,7 @@ units = {
 		ship = { name = "RNS Olympus" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Smolikas" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
 		ship = { name = "RNS Kaimaktsalan" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
-		ship = { name = "RNS Ararat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
+		ship = { name = "RNS Ararat" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
 		ship = { name = "RNS Ayiti" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Avalon Class" } } }
 		ship = { name = "RNS Avalon" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ version_name = "Avalon Class" } } }
 		ship = { name = "RNS Qiu Zhichao" definition = carrier equipment = { carrier_2 = { amount = 1 owner = BYZ } } 

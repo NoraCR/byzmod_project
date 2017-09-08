@@ -46,10 +46,7 @@ division_template = {
 	regiments = {
 		light_armor = { x = 0 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
 		light_armor = { x = 0 y = 1 }		# Bn. of Hotchkiss tanks
-		motorized = { x = 1 y = 0 }			# Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-		motorized = { x = 1 y = 3 }
+
 	}
 	support = {
 		recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm

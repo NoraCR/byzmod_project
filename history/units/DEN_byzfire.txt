@@ -424,7 +424,7 @@ air_wings = {
 	### Scandinavian Air Force
 	141 = {
 		# 1. Bombflyggruppen -- Hawker Harts
-		tac_bomber_equipment_1 = {
+		tac_bomber_equipment_0 = {
 			owner = "DEN" 
 			amount = 36
 		}
@@ -434,12 +434,6 @@ air_wings = {
 			amount = 30
 		}
 	}
-	140 = {
-		# 2. Torpedflyggruppen -- Heinkel HD 16s
-		cv_nav_bomber_equipment_1 =  {
-			owner = "DEN" 
-			amount = 12
-		}
 	}
 }
 

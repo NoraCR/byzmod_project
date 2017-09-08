@@ -75,7 +75,7 @@ if = {
 }
 
 set_convoys = 400
-
+set_national_unity = 0.6
 
 set_politics = {
 
@@ -120,7 +120,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Chiang Kai-shek"
+	name = "Dai Chunfeng"
 	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
 	picture = "Portrait_China_Chiang_Kai_Shek.dds"
 	expire = "1965.1.1"
@@ -130,10 +130,8 @@ create_country_leader = {
 	}
 }
 
-set_national_unity = 0.6
-
 create_country_leader = {
-	name = "Mao Zedong"
+	name = "Guan Xiannian"
 	desc = "POLITICS_MAO_ZEDONG_DESC"
 	picture = "Portrait_China_Mao_Zedong.dds"
 	expire = "1965.1.1"
@@ -144,7 +142,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wang Jingwei"
+	name = "D.H.H.D.B.X. Huang Fuqiang"
 	desc = "POLITICS_WANG_JINGWEI_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1965.1.1"
@@ -197,29 +195,134 @@ add_opinion_modifier = { target = PRC modifier = hostile_status }
 }
 
 create_field_marshal = {
-	name = "Tu Yu-ming"
+	name = "Mei Zuoteng" #female
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { defensive_doctrine }
-	skill = 4
+	traits = { offensive_doctrine panzer_leader }
+	skill = 7
 }
-
 create_field_marshal = {
-	name = "Hsueh Yueh"
+	name = "Feng Dalei"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
 	traits = { offensive_doctrine }
 	skill = 3
 }
-
 create_field_marshal = {
-	name = "Tai An-lan"
+	name = "Yin Mengyu" #female
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
-	traits = {  offensive_doctrine }
+	traits = { }
 	skill = 3
 }
-
 create_field_marshal = {
-	name = "Wang Yao-wu"
+	name = "Wang Chengdong"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	traits = { defensive_doctrine }
+	skill = 4
+}
+create_corps_commander = {
+	name = "Ma Xiaobin"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Zheng Jitian"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { }
+	skill = 2
+}
+create_corps_commander = {
+	name = "Jia Tiansheng"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { }
+	skill = 4
+}
+create_corps_commander = {
+	name = "Ha Rongzhao" #female
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { logistics_wizard }
+	skill = 5
+}
+create_corps_commander = {
+	name = "Cai Wenli" #female
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Sakda Abahai" #Manchu, female
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { hill_fighter }
+	skill = 4
+}
+create_corps_commander = {
+	name = "Ma Yahui"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { engineer }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Olodaghar" #Mongol
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { trickster winter_specialist }
+	skill = 4
+}
+create_corps_commander = {
+	name = "Gul Agha Bakhwal" #Pashtun
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { commando }
+	skill = 4
+}
+create_corps_commander = {
+	name = "Ma Baogui"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Maxamad Cabdulle Jilicow"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = { }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Ma Weiming"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	traits = { seawolf }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Hu Ping" #female
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	traits = { old_guard_navy }
+	skill = 1
+}
+create_navy_leader = {
+	name = "Wu Gongping"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	traits = { fly_swatter }
+	skill = 2
+}
+create_navy_leader = {
+	name = "Zhen Dazhou"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	traits = { }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Chen Songgao" #female
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	traits = { }
+	skill = 1
+}
+create_navy_leader = {
+	name = "Huang Zhejun"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	traits = { }
+	skill = 2
+}
+create_navy_leader = {
+	name = "Lu Jianmei" #female
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	traits = { blockade_runner }
 	skill = 2
 }

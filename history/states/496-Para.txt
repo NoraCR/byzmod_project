@@ -4,16 +4,16 @@ state={
 	name="STATE_496" # Minas Gerais
 	manpower = 4603600
 	
-	state_category = rural
+	state_category = large_town
 	
 	resources={
-		steel=4
+		steel=8
 	}
 
 	history={
 		owner = BRA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 2
 			11002 = {
 				naval_base = 1

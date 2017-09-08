@@ -12,10 +12,10 @@ state={
 	history={
 		owner = PRU
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
+			infrastructure = 5
+			arms_factory = 2
 			industrial_complex = 4
-			air_base = 1
+			air_base = 2
 			8252 = {
 				naval_base = 4
 			}

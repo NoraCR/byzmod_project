@@ -360,18 +360,18 @@ units = {
 air_wings = {
 #Siberia
 	653 = {
-		tac_bomber_equipment_1 = { owner = "KOR" amount = 72 }			
+		tac_bomber_equipment_0 = { owner = "KOR" amount = 72 }			
 		CAS_equipment_1 = { owner = "KOR" amount = 72 }					
 		fighter_equipment_0 =  { owner = "KOR" amount = 72 }			
 	}
 #North Korean Peninsula
 	527 = {
-		tac_bomber_equipment_1 = { owner = "KOR" amount = 100 }			
+		tac_bomber_equipment_0 = { owner = "KOR" amount = 100 }			
 		fighter_equipment_0 =  { owner = "KOR" amount = 100 }			
 	}
 #South Korean Peninsula
 	525 = {
-		tac_bomber_equipment_1 = { owner = "KOR" amount = 72 }			
+		tac_bomber_equipment_0 = { owner = "KOR" amount = 72 }			
 		fighter_equipment_0 =  { owner = "KOR" amount = 72 }			
 	}
 }

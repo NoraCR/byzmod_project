@@ -45,7 +45,7 @@ units = {
 	division = {
 		name = "3 Alfurqat"
 		location = 12473 #Aleppo
-		division_template = "Alfurqat Aljabalia"	
+		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
@@ -61,7 +61,7 @@ units = {
 	division = {
 		name = "5 Alfurqat"
 		location = 1086 #Jerusalem
-		division_template = "Alfurqat Aljabalia"	
+		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
@@ -69,7 +69,7 @@ units = {
 	division = {
 		name = "6 Alfurqat"
 		location = 12883 #Jeddah
-		division_template = "Alfurqat Aljabalia"	
+		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
