@@ -171,249 +171,216 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
-	name = "Yavuz Arikan"
-	picture = "byz_yavuz_arikan.dds"
-	traits = { trickster }
-	skill = 2
-}
 
 create_corps_commander = {
 	name = "Anteros Cyrahzax"
-	picture = "byz_anteros_cyrahzax.dds"
+	picture = "byz_general_anteros_cyrahzax.tga"
 	traits = { old_guard trait_mountaineer }
 	skill = 3
 }
 
 create_field_marshal = {
 	name = "Louis Barthas"
-	picture = "byz_gen_barthas.dds"
+	picture = "byz_marshal_louis_barthas.tga"
 	traits = { defensive_doctrine inspirational_leader }
-	skill = 7
-}
-
-create_field_marshal = {
-	name = "Theodora Papadopolous"
-	picture = "byz_gen_papadopolous.dds"
-	traits = { offensive_doctrine defensive_doctrine }
-	skill = 9
-}
-
-create_field_marshal = {
-	name = "Zenobia Stanotas"
-	picture = "byz_zenobia_stanotas.dds"
-	traits = { defensive_doctrine }
-	skill = 6
-}
-
-create_field_marshal = {
-	name = "Lydia de Bassot"
-	picture = "byz_lydia_de_bassot.dds"
-	traits = { logistics_wizard }
-	skill = 6
-}
-
-create_corps_commander = {
-	name = "Elias Mars"
-	picture = "byz_elias_mars.dds"
-	traits = {  panzer_leader }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Isidora Staikopoulos"
-	picture = "byz_isidora_staikopoulos.dds"
-	traits = {  }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Drakon Zymvrakakis"
-	picture = "byz_drakon_zymvrakakis.dds"
-	traits = { trait_engineer naval_invader }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Mira Varon"
-	picture = "byz_mira_varon.dds"
-	traits = {  }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Auriane Pasquier"
-	picture = "byz_auriane_pasquier.dds"
-	traits = { trickster }
 	skill = 4
 }
 
+create_field_marshal = {
+	name = "Theodora Papadopolou"
+	picture = "byz_marshal_theodora_padapolous.tga"
+	traits = { offensive_doctrine defensive_doctrine old_guard }
+	skill = 5
+}
+
+create_field_marshal = {
+	name = "Unver Hayrettin"
+	picture = "byz_marshal_unver_hayrettin.tga"
+	traits = { defensive_doctrine }
+	skill = 3
+}
+
 create_corps_commander = {
-	name = "Emma Volkova"
-	picture = "byz_emma_volkova.dds"
-	traits = {  }
+	name = "Isidora Staikopoula"
+	picture = "bzy_general_isidora_straikopoula.tga"
+	traits = { old_guard }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Zdravko Savic"
+	picture = "byz_general_zdravko_savic.tga"
+	traits = { trait_engineer naval_invader }
 	skill = 2
 }
 
 create_corps_commander = {
-	name = "Andrej Radonjanin"
-	picture = "byz_andrej_radonjanin.dds"
+	name = "Adrian Katselis-Kurya"
+	picture = "byz_general_adrian_katselis-kurya.tga"
+	traits = {  }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Antigone Tassi"
+	picture = "byz_general_antigone_tassi.tga"
+	traits = { trickster old_guard }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Atanas Mladenov"
+	picture = "byz_general_atanas_mladenov.tga"
+	traits = { old_guard }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Dajad Malkhassian"
+	picture = "byz_general_dajad_malkhassian.tga"
 	traits = { ranger }
 	skill = 2
 }
 
 create_corps_commander = {
-	name = "Jovana Hajdin"
-	picture = "byz_jovana_hajdin.dds"
-	traits = { trait_mountaineer }
-	skill = 2
+	name = "Valentina Ha"
+	picture = "byz_general_valentina_ha.tga"
+	traits = { trait_mountaineer winter_specialist hill_fighter }
+	skill = 4
 }
 
 create_corps_commander = {
-	name = "Magdalena Kavonski"
-	picture = "byz_magdalena_kavonski.dds"
-	traits = { hill_fighter }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Darko Sirola"
-	picture = "byz_darko_sirola.dds"
-	traits = { winter_specialist }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Osman Cagri"
-	picture = "byz_osman_cagri.dds"
-	traits = {  }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Veysel Karaman"
-	picture = "byz_veysel_karaman.dds"
-	traits = { desert_fox }
+	name = "Serhan Cavdarli"
+	picture = "byz_general_serhan_cavdarli.tga"
+	traits = { hill_fighter old_guard }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "Emira Zovko"
-	picture = "byz_emira_zovko.dds"
-	traits = {  }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Salvatore Fiametta"
-	picture = "byz_salvatore_fiametta.dds"
-	traits = {  }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Rosalia Zorzi"
-	picture = "byz_rosalia_zorzi.dds"
-	traits = {  }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Vera Belitrova"
-	picture = "byz_vera_belitrova.dds"
-	traits = {  }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Evangeline Hira"
-	picture = "byz_evangeline_hira.dds"
-	traits = {  }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Anastasia Sava"
-	picture = "byz_anastasia_sava.dds"
-	traits = {  }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Elizabeth Kezra"
-	picture = "byz_elizabeth_kezra.dds"
+	name = "Salvatore Marchegiano"
+	picture = "byz_general_salvatore_marchegiano.tga"
 	traits = { old_guard }
 	skill = 2
 }
 
+create_corps_commander = {
+	name = "Safiye Uygun"
+	picture = "byz_general_safiye_uygun.tga"
+	traits = { old_guard }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Gavriel Halevi"
+	picture = "byz_general_gavriel_halevi.tga"
+	traits = { desert_fox }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Palatino Badalementi"
+	picture = "byz_general_palatino_badalementi.tga"
+	traits = {  }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Flaminia Montemarano"
+	picture = "byz_general_flaminia_montemarano.tga"
+	traits = {  }
+	skill = 2
+}
+
+
+create_corps_commander = {
+	name = "Evangeline Hira"
+	picture = "byz_general_evangeline_hira.tga"
+	traits = {  }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Eudokia Akinyi"
+	picture = "byz_general_eudokia_akinyi.tga"
+	traits = { hill_fighter }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Esra Cevdet"
+	picture = "byz_general_esra_cevdet.tga"
+	traits = {  }
+	skill = 2
+}
+
 create_navy_leader = {
-	name = "Vasilios Flesnolk"
-		picture = "byz_vasilios_flesnolk.dds"
+	name = "Alexandros Sallajer"
+		picture = "byz_admiral_alexandros_sallajer.tga"
 	traits = { superior_tactician ironside }
 	skill = 4
 }
 
 create_navy_leader = {
-	name = "Ercole Andretti"
-		picture = "byz_ercole_andretti.dds"
+	name = "Ariadne Rodinou"
+		picture = "byz_admiral_ariadne_rodinou.tga"
 	traits = { superior_tactician spotter }
 	skill = 5
 }
 
 create_navy_leader = {
-	name = "Ephraim Zymvrakakis"
-		picture = "byz_ephraim_zymvrakakis.dds"
+	name = "Atlas Nicolaides"
+		picture = "byz_admiral_atlas_nicolaides.tga"
 	traits = { superior_tactician }
 	skill = 4
 }
 
 create_navy_leader = {
-	name = "Iskender Qutuzid"
-		picture = "byz_iskender_qutuzid.dds"
+	name = "Benevenuta Pasqualigo"
+		picture = "byz_admiral_benevenuta_pasqualigo.tga"
 	traits = { spotter }
-	skill = 3
+	skill = 4
 }
 
 create_navy_leader = {
-	name = "Alessandra Carlini"
-	picture = "byz_alessandra_carlini.dds"
+	name = "Callidora Mars"
+	picture = "byz_admiral_callidora_mars.tga"
 	traits = { seawolf }
 	skill = 3
 }
 
 create_navy_leader = {
-	name = "Callidora Mars"
-		picture = "byz_callidora_mars.dds"
+	name = "Ercole Andretti"
+		picture = "byz_admiral_ercole_andretti.tga"
 	traits = { fly_swatter }
 	skill = 4
 }
 
 create_navy_leader = {
-	name = "Leonid Shulgin"
-		picture = "byz_leonid_shulgin.dds"
-	traits = {  }
+	name = "Hypatia Kiyohara"
+		picture = "byz_admiral_hypatia_kiyohara.tga"
+	traits = { spotter ironsaide }
 	skill = 3
 }
 
 create_navy_leader = {
-	name = "Ptolema Makris"
-		picture = "byz_ptolema_makris.dds"
-	traits = { old_guard_navy }
-	skill = 3
+	name = "Rivkah Avinbruch"
+		picture = "byz_admiral_rivkah_avinbruch.tga"
+	traits = { old_guard_navy ironside }
+	skill = 4
 }
 
 create_navy_leader = {
-	name = "Demetrius Cyrahzax"
-		picture = "byz_demetrius_cyrahzax.dds"
+	name = "Iskender Qutuzid"
+		picture = "byz_admiral_iskender_qutuzid.tga"
 	traits = { blockade_runner }
-	skill = 2
+	skill = 3
 }
 
 create_navy_leader = {
-	name = "Damon Manellas"
-	picture = "byz_damon_manellas.dds"
-	traits = {  }
-	skill = 2
+	name = "Vasilios Flesnolk"
+	picture = "byz_admiral_vasilios_flesnolk.tga"
+	traits = { superior_tactician }
+	skill = 3
 }
 
 create_navy_leader = {
