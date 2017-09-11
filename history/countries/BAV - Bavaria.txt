@@ -90,10 +90,26 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Karl August Hasenöhrl"
+	desc = "POLITICS_ALFRED_KLAHR_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = objectivism
+	traits = {
+		#
+	}
+}
 
 create_corps_commander = {
-	name = "Julius von Bayern"
+	name = "Augustus Ebron von Wildenburg"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { trait_mountaineer trickster }
-	skill = 3
+	skill = 2
+}
+create_corps_commander = {
+	name = "Apollonia Perghauser zu Weichs" #female
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = {  }
+	skill = 1
 }

@@ -9,9 +9,9 @@ state={
 	history={
 		owner = PHI
 		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			dockyard = 1
+			infrastructure = 5
+			arms_factory = 2
+			dockyard = 2
 			4241 = {
 				naval_base = 1
 			}

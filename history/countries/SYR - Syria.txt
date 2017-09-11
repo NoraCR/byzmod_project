@@ -110,7 +110,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Antun Saadeh"
+	name = "Samir al-Mahdavi"
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_land_3.dds"
 	ideology = fascism_ideology
@@ -120,7 +120,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ghazi bin Faisal"
+	name = "Murshid al-Khalil"
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds"
 	ideology = despotism
@@ -128,13 +128,27 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
-	name = "Khalid Bakdash"
+	name = "Emre Hayek"
+	desc = ""
+	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_1.dds"
+	ideology = corpocracy
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Dilkanî Hezar" #kurdish, female
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_communism1.dds"
 	ideology = leninism
 	traits = {
 		#
 	}
+}
+create_field_marshal = {
+	name = "Cenk Kashani" #Turkish
+	portrait_path = "gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds"
+	traits = { logistics_wizard  }
+	skill = 2
 }

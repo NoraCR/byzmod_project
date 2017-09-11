@@ -106,7 +106,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Miklós Horthy"
+	name = "Flórián Szilágyi"
 	desc = "POLITICS_MIKLOS_HORTHY_DESC"
 	picture = "Portrait_Hungary_Miklos_Horthy.dds"
 	expire = "1965.1.1"
@@ -128,11 +128,21 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Árpád Szakasits"
+	name = "Károly Moholy-Nagy"
 	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = socialism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "József Esterházy"
+	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = objectivism
 	traits = {
 		#
 	}
@@ -164,14 +174,14 @@ create_country_leader = {
 
 
 create_corps_commander = {
-	name = "Géza Lakatos"
+	name = "Erzsébet Somogyi" #female
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = {  }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "Iván Hindy"
+	name = "Krisztofer Zobor"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = {  trickster }
 	skill = 4

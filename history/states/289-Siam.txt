@@ -14,10 +14,11 @@ state={
 	history={
 		owner = SIA
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
+			infrastructure = 8
+			arms_factory = 3
 			industrial_complex = 5
-			air_base = 3
+			dockyard = 2
+			air_base = 2
 			7408 = {
 				naval_base = 3
 			}

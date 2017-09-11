@@ -808,15 +808,15 @@ air_wings = {
 	550 = {
 		fighter_equipment_0 =  {
 			owner = "SOM" 
-			amount = 40
+			amount = 80
 		}
 		tac_bomber_equipment_0 =  {
 			owner = "SOM" 
-			amount = 32
+			amount = 64
 		}
 		CAS_equipment_1 =  {
 			owner = "SOM" 
-			amount = 48
+			amount = 96
 		}
 	}
 ##Somalia
