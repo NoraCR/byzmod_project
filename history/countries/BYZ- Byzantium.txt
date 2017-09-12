@@ -345,91 +345,42 @@ create_navy_leader = {
 	name = "Callidora Mars"
 	picture = "byz_admiral_callidora_mars.tga"
 	traits = { seawolf }
-	skill = 3
+	skill = 4
 }
 
 create_navy_leader = {
 	name = "Ercole Andretti"
 		picture = "byz_admiral_ercole_andretti.tga"
-	traits = { fly_swatter }
-	skill = 4
+	traits = { fly_swatter superior_tactician }
+	skill = 5
 }
 
 create_navy_leader = {
 	name = "Hypatia Kiyohara"
 		picture = "byz_admiral_hypatia_kiyohara.tga"
 	traits = { spotter ironsaide }
-	skill = 3
+	skill = 4
 }
 
 create_navy_leader = {
 	name = "Rivkah Avinbruch"
 		picture = "byz_admiral_rivkah_avinbruch.tga"
 	traits = { old_guard_navy ironside }
-	skill = 4
+	skill = 5
 }
 
 create_navy_leader = {
 	name = "Iskender Qutuzid"
 		picture = "byz_admiral_iskender_qutuzid.tga"
 	traits = { blockade_runner }
-	skill = 3
+	skill = 5
 }
 
 create_navy_leader = {
 	name = "Vasilios Flesnolk"
 	picture = "byz_admiral_vasilios_flesnolk.tga"
 	traits = { superior_tactician }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "Samuil Volgin"
-		picture = "byz_samuil_volgin.dds"
-	traits = { superior_tactician }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "Nazim Dagdelen"
-		picture = "byz_nazim_dagdelen.dds"
-	traits = {  }
 	skill = 4
-}
-
-create_navy_leader = {
-	name = "Elena Dragunova"
-		picture = "byz_elena_dragunova.dds"
-	traits = {  }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "Sofia Vidale"
-	picture = "byz_sofia_vidale.dds"
-	traits = {  }
-	skill = 4
-}
-
-create_navy_leader = {
-	name = "Zelia Doukas"
-	picture = "byz_zelia_doukas.dds"
-	traits = { old_guard_navy }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "Irene Palaiologos"
-	picture = "byz_irene_palaiologos.dds"
-	traits = {  }
-	skill = 2
-}
-
-create_navy_leader = {
-	name = "Marina Zubareva"
-	picture = "byz_marina_zubareva.dds"
-	traits = {  }
-	skill = 5
 }
 
 
