@@ -201,10 +201,10 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Isidora Staikopoula"
+	name = "Zenobia Stanotas"
 	picture = "bzy_general_isidora_straikopoula.tga"
-	traits = { old_guard }
-	skill = 3
+	traits = { old_guard defensive_doctrine }
+	skill = 4
 }
 
 create_corps_commander = {
