@@ -103,7 +103,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Manuel Luis Quezón"
+	name = "Wienathan Meihui" #Mixed Chinese, female
 	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
 	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
 	expire = "1965.1.1"
@@ -114,11 +114,31 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pedro P. Baguisa"
+	name = "Ithamar Daransi" #Moluccan, male
 	desc = "POLITICS_PEDRO_BAGUISA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	expire = "1965.1.1"
 	ideology = marxism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Purwodarminto" #Javanese, male
+	desc = "POLITICS_PEDRO_BAGUISA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Jauhar Alam Syah" #Acehnese, male
+	desc = "POLITICS_PEDRO_BAGUISA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = rexism
 	traits = {
 		#
 	}
@@ -147,4 +167,30 @@ create_country_leader = {
 		election_frequency = 72
 		elections_allowed = yes
 	}
+}
+create_corps_commander = {
+	name = "Megawati" #Javanese, female
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	traits = { }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Ade Utari Sasmita"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	traits = { desert_fox }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Susilo Iman Kusnadi"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+	traits = { superior_tactician }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Tjahjana Wencheng"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	traits = { }
+	skill = 2
 }

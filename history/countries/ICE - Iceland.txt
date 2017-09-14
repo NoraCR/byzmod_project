@@ -127,7 +127,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Sveinn Björnsson"
+	name = "Thorsteinn Ingimundursson"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
@@ -138,7 +138,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Johannes Valurson"
+	name = "Benedikta Hilmirsdottir" #female
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	expire = "1965.1.1"
@@ -149,8 +149,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Haraldur Gudmunsson"
-	desc = ""
+	name = "Svanhildur Hagbertsdottir" #female
+	desc = "" 
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = centrism
@@ -160,11 +160,21 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Einar Olgeirsson"
+	name = "Egill Bernhardsson"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = marxism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Gunnar Arnbergsson"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = corpocracy
 	traits = {
 		#
 	}

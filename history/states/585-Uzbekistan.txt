@@ -6,6 +6,8 @@ state={
 		owner = TRX
 		buildings = {
 			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
 
 		}
 		add_core_of = TRX

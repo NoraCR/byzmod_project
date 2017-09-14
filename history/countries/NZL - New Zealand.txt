@@ -110,7 +110,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Michael Joseph Savage"
+	name = "Tana Arepata" #maori, male
 	desc = "POLITICS_MICHAEL_JOSEPH_SAVAGE_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
@@ -121,7 +121,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sidney Holland"
+	name = "Ao Mania Watihana" #maori, female
 	desc = "POLITICS_SIDNEY_HOLLAND_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
@@ -132,7 +132,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John Ormond"
+	name = "Rakina Au Arana" #maori, female
 	desc = "POLITICS_JOHN_ORMOND_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
@@ -143,11 +143,21 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Elsie Farrelly"
+	name = "Mirama Hamutana" #maori, male
 	desc = "POLITICS_JOHN_ORMOND_DESC"
 	picture = "gfx/leaders/leader_unknown.dds"
 	expire = "1965.1.1"
 	ideology = marxism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Uru Tonga Keretene" #maori, male
+	desc = "POLITICS_JOHN_ORMOND_DESC"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
 	traits = {
 		#
 	}
@@ -194,14 +204,14 @@ set_convoys = 70
 }
 
 create_corps_commander = {
-	name = "Bernard Freyberg"
+	name = "Uru Reio Munu" #male
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = {  }
 	skill = 2
 }
 
 create_navy_leader = {
-	name = "Edmund Rupert Drummond"
+	name = "Uru Tarangi Taimana" #female
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
 	traits = { }
 	skill = 3

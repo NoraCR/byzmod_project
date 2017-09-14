@@ -64,7 +64,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Democratic Placeholder"
+	name = "Josefina Xian Lifu-Ocampo"
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	expire = "1965.1.1"
@@ -74,9 +74,18 @@ create_country_leader = {
 	}
 }
 
-
 create_country_leader = {
-	name = "Fascist Placeholder"
+	name = "Lucia Yongzai Chen-Taberna"
+	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = cacicazgo
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Christofo Jia Qingquan"
 	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
@@ -87,7 +96,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Communist Placeholder"
+	name = "Marcelo Franco Lim"
 	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
@@ -98,7 +107,7 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Placeholder General"
+	name = "Juan-Bautista Emmanuel Villosillo-Zhang"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_9.dds"
 	traits = { trait_mountaineer }
 	skill = 4

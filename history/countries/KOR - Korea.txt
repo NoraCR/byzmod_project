@@ -79,7 +79,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Yi Kang"
+	name = "Yi Dan 'Taejo'"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	expire = "1965.1.1"
@@ -90,7 +90,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kim Il-sung"
+	name = "Won Kyungmin" #female
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	expire = "1965.1.1"
@@ -101,7 +101,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Yi Un"
+	name = "Oh Eun-a" #female
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	expire = "1965.1.1"
@@ -109,4 +109,54 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+create_country_leader = {
+	name = "Yi Yeong-Jin"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
+	traits = {
+		#
+	}
+}
+create_field_marshal = {
+	name = "Lee Seok"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Chelgiyeene" #female, Yakut
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Zhou Gang" #chinese, male
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	traits = { }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Kim Hyun-Jung"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Seo Hyeon-tae"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+	traits = { air_controller }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Choi Gu-sam"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	traits = { }
+	skill = 3
 }

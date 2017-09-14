@@ -125,7 +125,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Antanas Smetona"
+	name = "Alvyda Jaseliunaite" #female
 	desc = "POLITICS_ANTANAS_SMETONA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
@@ -136,7 +136,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Antanas Snieckus"
+	name = "Kasparas Sereikis"
 	desc = "POLITICS_ANTANAS_SNIECKUS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
@@ -145,9 +145,19 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Margarita Paulauskiene" #female
+	desc = "POLITICS_ANTANAS_SNIECKUS_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
-	name = "Augustinas Voldemaras"
+	name = "Stefanija Kazuriene" #female
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"

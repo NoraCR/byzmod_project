@@ -99,7 +99,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 45
+			popularity = 44
 		}
 		
 		communism = {
@@ -108,6 +108,9 @@ set_politics = {
 		
 		neutrality = {
 			popularity = 50
+		}
+		pangalism = {
+			popularity = 1
 		}
 	}
 	
@@ -144,7 +147,7 @@ set_politics = {
 set_convoys = 40
 
 create_country_leader = {
-	name = "Thorvald Stauning"
+	name = "Lise-Lotte Korsgaard"
 	desc = "POLITICS_THORVALD_STAUNING_DESC"
 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
@@ -155,7 +158,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Frits Clausen"
+	name = "Julius Marius Pallesen"
 	desc = "POLITICS_FRITS_CLAUSEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
@@ -166,11 +169,21 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Aksel Larsen"
+	name = "Hannah Abildgaard" #female
 	desc = "POLITICS_AKSEL_LARSEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
 	ideology = leninism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Kristiane Christiansen" #female
+	desc = "POLITICS_AKSEL_LARSEN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = corpocracy
 	traits = {
 		#
 	}
@@ -189,8 +202,14 @@ create_country_leader = {
 
 
 create_corps_commander = {
-	name = "Wilhelm Wain Prior"
+	name = "Tage Laustsen"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { trickster }
 	skill = 3
+}
+create_navy_leader = {
+	name = "Helena Hemmingsen" #female
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+	traits = { blockade_runner superior_tactician }
+	skill = 2
 }

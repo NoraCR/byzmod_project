@@ -128,7 +128,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Eric Campbell"
+	name = "Merricumana" #aboriginal
 	desc = "POLITICS_ERIC_CAMPBELL_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
@@ -139,7 +139,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Richard Dixon"
+	name = "Pengoorra" #female, aboriginal
 	desc = "POLITICS_RICHARD_DIXON_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
@@ -150,7 +150,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Earle Page"
+	name = "Kalallow" #male, aboriginal
 	desc = "POLITICS_EARLE_PAGE_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
@@ -161,11 +161,21 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Rod Hull"
+	name = "Yearndiemurra" #male, aboriginal
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = despotism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Whatchella" #female, aboriginal
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
 	traits = {
 		#
 	}
@@ -200,38 +210,17 @@ set_convoys = 100
 }
 
 create_corps_commander = {
-	name = "Leslie Morshead"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { }
-	skill = 4
-}
-
-create_corps_commander = {
-	name = "Iven Mackay"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = { }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Thomas Blamey"
+	name = "Jowallie" #male, aboriginal
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { }
-	skill = 4
+	skill = 3
 }
 
 create_navy_leader = {
-	name = "Harold Farncomb"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
-	traits = { air_controller }
-	skill = 4
-}
-
-create_navy_leader = {
-	name = "Victor Crutchley"
+	name = "Wanering" #male, aboriginal
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
 	traits = { }
-	skill = 3
+	skill = 2
 }
 
 ### Ship Variants ###
