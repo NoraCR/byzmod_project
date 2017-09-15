@@ -391,7 +391,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Hermann Boehm"
+	name = "Sebastian Vogt"
 		picture = "Portrait_Germany_Hermann_Boehm.dds"
 	traits = { seawolf }
 	skill = 3
@@ -407,7 +407,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Günther Lütjens"
+	name = "Ernst Zeuge"
 		picture = "Portrait_Germany_Gunter_Lutjens.dds"
 	traits = { fly_swatter spotter }
 	skill = 2
