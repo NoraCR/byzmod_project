@@ -2402,6 +2402,41 @@ news_event = {
 	}
 }
 
+# Ireland selected to host 1938 World Cup
+news_event = {
+	id = news.905
+	title = news.905.t
+	desc = news.905.d
+	picture = GFX_news_event_069
+	
+	major = yes
+	
+	trigger = {
+		date > 1936.8.13
+		NOT = { has_global_flag = world_cup_selected }
+		country_exists = IRE
+		country_exists = BYZ
+		country_exists = GER
+		country_exists = MEX
+		MEX = { has_war = no }
+		IRE = { has_war = no }
+		BYZ = { has_war = no }
+		GER = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = world_cup_selected
+	}
+	
+	option = {
+		name = news.905.a
+	}
+}
+
 # Kimetto vs Crozier
 news_event = {
 	id = news.900
