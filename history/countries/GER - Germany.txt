@@ -80,7 +80,6 @@ set_politics = {
 
 
 add_ideas = {
-	sour_loser
 	general_staff
 	limited_exports
 	limited_conscription
@@ -159,73 +158,72 @@ add_namespace = {
 }
 
 create_field_marshal = {
-	name = "Gerd von Rundstedt"
+	name = "Christian von Kotzau"
 	picture = "Portrait_Germany_Gerd_von_Rundstedt.dds"
 	traits = { defensive_doctrine offensive_doctrine }
-	skill = 3
+	skill = 5
 	id = 1
 }
 
 
 create_corps_commander = {
-	name = "Friedrich Paulus"
+	name = "Joachim Lege"
 	picture = "Portrait_Germany_Friedrich_Paulus.dds"
-	traits = {  }
-	skill = 1
+	traits = { trait_mountaineer }
+	skill = 3
 	id = 3
 }
 
 create_corps_commander = {
-	name = "Erwin Rommel"
+	name = "Konrad Tegeler"
 	picture = "Portrait_Germany_Erwin_Rommel.dds"
-	traits = { trickster panzer_leader }
+	traits = { panzer_leader }
 	skill = 4
 	id = 4
 }
 
 create_corps_commander = {
-	name = "Erich von Manstein"
+	name = "Erich Ceska Lipa"
 	picture = "Portrait_Germany_Erich_von_Manstein.dds"
-	traits = { trickster panzer_leader fortress_buster }
+	traits = { trickster fortress_buster }
 	skill = 4
 	id = 5
 }
 
 create_corps_commander = {
-	name = "Heinz Guderian"
+	name = "Alaric Vorster"
 	picture = "Portrait_Germany_Heinz_Guderian.dds"
-	traits = { trickster  panzer_leader }
+	traits = { trickster }
 	skill = 4
 	id = 6
 }
 
 create_corps_commander = {
-	name = "Wilhelm List"
+	name = "Karl Romer"
 	picture = "Portrait_Germany_Wilhelm_List.dds"
-	traits = {  }
-	skill = 1
+	traits = { old_guard }
+	skill = 3
 	id = 7
 }
 
 create_corps_commander = {
-	name = "Ewald von Kleist"
-	desc = ""
+	name = "Paul Schanburg"
 	picture = "Portrait_Germany_Ewald_von_Kleist.dds"
-	traits = {  }
-	skill = 1
+	traits = { old_guard }
+	skill = 2
 	id = 8
 }
 
 create_corps_commander = {
-	name = "Fedor von Bock"
-		picture = "Portrait_Germany_Fedor_von_Bock.dds"
+	name = "Elisa Vahlen"
+	picture = "Portrait_Germany_Fedor_von_Bock.dds"
 	traits = {  }
 	skill = 4
 	id = 9
 }
 
 create_corps_commander = {
-	name = "Walter Model"
+	name = "Walter Stenzel"
 	picture = "Portrait_Germany_Walter_Model.dds"
 	traits = {  }
 	skill = 1
@@ -233,23 +231,23 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Maximilian von Weichs"
+	name = "Emil Prawer"
 	picture = "Portrait_Germany_Maximilian_von_Weichs.dds"
 	traits = {  }
-	skill = 4
+	skill = 3
 	id = 11
 }
 
 create_corps_commander = {
-	name = "Wilhelm Ritter von Leeb"
+	name = "Johannes Hanke"
 	picture = "Portrait_Germany_Wilhelm_Ritter_von_Leeb.dds"
 	traits = {  }
-	skill = 3
+	skill = 4
 	id = 13
 }
 
 create_corps_commander = {
-	name = "Georg-Hans Reinhardt"
+	name = "Gerhard Klock"
 	picture = "Portrait_Germany_Georg_von_Reinhardt.dds"
 	traits = { panzer_leader }
 	skill = 3
@@ -257,39 +255,39 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Walter Krüger"
+	name = "Gustav Aigner"
 	picture = "Portrait_Germany_Walter_Kruger.dds"
-	traits = { panzer_leader }
-	skill = 3
+	traits = { old_guard commando }
+	skill = 4
 	id = 15
 }
 
 create_corps_commander = {
-	name = "Kurt Student"
+	name = "Hans Boden"
 	picture = "Portrait_Germany_Kurt_Student.dds"
-	traits = {  commando }
-	skill = 4
+	traits = { commando }
+	skill = 2
 	id = 16
 }
 
 create_corps_commander = {
-	name = "Erwin von Witzleben"
+	name = "Josef Axmann"
 	picture = "Portrait_Germany_Erwin_von_Witzleben.dds"
 	traits = {  }
-	skill = 4
+	skill = 3
 	id = 17
 }
 
 create_corps_commander = {
-	name = "Hermann Hoth"
+	name = "Miriam Kerr"
 	picture = "Portrait_Germany_Herman_Hoth.dds"
-	traits = { panzer_leader  }
-	skill = 3
+	traits = { trait_mountaineer  }
+	skill = 5
 	id = 18
 }
 
 create_corps_commander = {
-	name = "Johannes Blaskowitz"
+	name = "Anton Reibling
 	picture = "Portrait_Germany_Johannes_Blaskowitz.dds"
 	traits = {  }
 	skill = 3
@@ -297,98 +295,97 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Paul Hausser"
+	name = "Lorenz Wanner"
 	picture = "Portrait_Germany_Paul_Hausser.dds"
-	traits = {  panzer_leader  }
+	traits = { ranger  }
 	skill = 4
 	id = 20
 }
 
 create_corps_commander = {
-	name = "Friedrich Schulz"
+	name = "Wolfgang Janos"
 	picture = "Portrait_Germany_Friedrich_Schulz.dds"
-	traits = { panzer_leader }
-	skill = 3
+	traits = {  }
+	skill = 5
 	id = 21
 }
 
 create_corps_commander = {
-	name = "Georg von Küchler"
+	name = "Stefan Malzahn"
 	picture = "Portrait_Germany_Georg_von_Kuchler.dds"
-	traits = {  }
+	traits = { trait_engineer }
 	skill = 4
 	id = 22
 }
 
 create_corps_commander = {
-	name = "Alfred Jodl"
+	name = "Laura Trajdos"
 	picture = "Portrait_Germany_Alfred_Jodl.dds"
-	traits = {  }
+	traits = { trait_engineer hill_fighter }
 	skill = 3
 	id = 23
 }
 
 create_corps_commander = {
-	name = "Sepp Dietrich"
+	name = "Thomas Konitz"
 	picture = "Portrait_Germany_Josef_Dietrich.dds"
-	traits = { panzer_leader }
+	traits = { fortress_buster }
 	skill = 4
 	id = 24
 }
 
 create_corps_commander = {
-	name = "Hasso von Manteuffel"
-		picture = "Portrait_Germany_Hasso_von_Manteuffel.dds"
-	traits = {  panzer_leader }
+	name = "Otto Beinroth"
+	picture = "Portrait_Germany_Hasso_von_Manteuffel.dds"
+	traits = { trickster }
 	skill = 4
 	id = 25
 }
 
 create_corps_commander = {
-	name = "Albert Kesselring"
+	name = "Albert Gessner"
 	picture = "Portrait_Germany_Albert_Kesselring.dds"
-	traits = {  }
-	skill = 4
+	traits = { old_guard }
+	skill = 2
 	id = 32
 }
 
 create_corps_commander = {
-	name = "Gotthard Heinrici"
+	name = "Richard Smirat"
 	picture = "Portrait_Germany_Gotthard_Heinrici.dds"
-	traits = {  fortress_buster }
+	traits = { ranger }
 	skill = 3
-
 	id = 33
 }
 
 create_corps_commander = {
-	name = "Ernst-Eberhard Hell"
+	name = "Marcus Hell"
 	picture = "Portrait_Germany_Ernst-Eberhard_Hell.dds"
-	traits = { winter_specialist fortress_buster }
-	skill = 3
+	traits = { winter_specialist fortress_buster trait_engineer }
+	skill = 5
 	id = 34
 }
 
 create_navy_leader = {
-	name = "Karl Dönitz"
-		picture = "Portrait_Germany_Karl_Donitz.dds"
-	traits = { seawolf }
+	name = "Valentin Schroder"
+	picture = "Portrait_Germany_Karl_Donitz.dds"
+	traits = { ironside }
 	skill = 5
 	id = 26
 }
 
 create_navy_leader = {
-	name = "Erich Raeder"
-		picture = "Portrait_Germany_Erich_Raeder.dds"
-	traits = { blockade_runner }
-	skill = 4
+	name = "Florian Amsel"
+	picture = "Portrait_Germany_Erich_Raeder.dds"
+	traits = {  }
+	skill = 3
 	id = 27
 }
 
 create_navy_leader = {
-	name = "Alfred Saalwächter"
+	name = "Maximilian von Kotzau" # Related to Christian and Niklaus
 		picture = "Portrait_Germany_Alfred_Saalwachter.dds"
-	traits = { old_guard_navy }
+	traits = { old_guard_navy superior_tactician }
 	skill = 4
 	id = 28
 }
@@ -396,15 +393,15 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Hermann Boehm"
 		picture = "Portrait_Germany_Hermann_Boehm.dds"
-	traits = { superior_tactician }
-	skill = 4
+	traits = { seawolf }
+	skill = 3
 	id = 29
 }
 
 create_navy_leader = {
-	name = "Wilhelm Marschall"
+	name = "Tyron Sturm"
 		picture = "Portrait_Germany_Wilhelm_Marschall.dds"
-	traits = { old_guard_navy }
+	traits = { superior_tactician ironside spotter }
 	skill = 4
 	id = 30
 }
@@ -412,8 +409,8 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Günther Lütjens"
 		picture = "Portrait_Germany_Gunter_Lutjens.dds"
-	traits = { superior_tactician }
-	skill = 3
+	traits = { fly_swatter spotter }
+	skill = 2
 	id = 31
 }
 
