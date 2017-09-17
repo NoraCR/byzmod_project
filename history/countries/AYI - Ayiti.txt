@@ -47,12 +47,16 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 5
 		}
 		
 		communism = {
-			popularity = 55
+			popularity = 50
 			#banned = no #default is no
+		}
+
+		pangalism = {
+			popularity = 0
 		}
 	}
 	
@@ -79,7 +83,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Fascist Placeholder"
+	name = "Tamanaco Jatibonu"
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = "Portrait_USA_William_Dudley_Pelley.dds"
 	expire = "1965.1.1"
@@ -90,9 +94,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Communist Placeholder"
+	name = "Mayneri Nitaino"
 	desc = "POLITICS_EARL_BROWDER_DESC"
-	picture = "Portrait_USA_Generic_1.dds"
+	picture = "ayi_mayneri_nitaino.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
@@ -100,10 +104,37 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Pangalist Placeholder"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "Portrait_USA_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = cacicazgo
+	traits = {
+		
+	}
+}
+
+create_field_marshal = {
+	name = "Yahima Camaguey" #female
+		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	traits = {  defensive_doctrine }
+	skill = 3
+
+}
+
 create_corps_commander = {
-	name = "George S. Placeholder"
+	name = "Imotonex Daguao"
 		picture = "Portrait_USA_George_S_Patton.dds"
-	traits = {  trickster panzer_leader }
+	traits = {  old_guard }
+	skill = 4
+
+}
+
+create_corps_commander = {
+	name = "Macuya Cueba"
+		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	traits = {   }
 	skill = 5
 
 }
