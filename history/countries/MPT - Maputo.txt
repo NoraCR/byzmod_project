@@ -50,6 +50,9 @@ set_politics = {
 		neutrality = {
 			popularity = 0
 		}
+		pangalism = {
+			popularity = 0
+		}
 	}
 	
 	ruling_party = communism

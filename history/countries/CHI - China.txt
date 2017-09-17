@@ -198,7 +198,7 @@ create_field_marshal = {
 	name = "Mei Zuoteng" #female
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { offensive_doctrine panzer_leader }
-	skill = 7
+	skill = 5
 }
 create_field_marshal = {
 	name = "Feng Dalei"

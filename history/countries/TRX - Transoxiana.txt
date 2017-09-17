@@ -88,11 +88,31 @@ set_politics = {
 
 # Mohammad Hashim Khan (Prime Minister) other potential candidate
 create_country_leader = {
-	name = "Mohammed Zahir Shah"
+	name = "Mohammed Jahangir Shah"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "1965.1.1"
 	ideology = despotism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Abdulaziz Makham"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Nazira Parpiye"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	expire = "1965.1.1"
+	ideology = leninism
 	traits = {
 		#
 	}
@@ -128,7 +148,7 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Sardar Shah Wali Khan"
+	name = "Yarmat Shah Wali Khan"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = { desert_fox }
 	skill = 4
