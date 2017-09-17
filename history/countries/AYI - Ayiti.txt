@@ -131,6 +131,30 @@ create_corps_commander = {
 	skill = 5
 }
 create_corps_commander = {
+	name = "Attakullakulla Echoy"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = {   }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Sugmuk Mesheketeno"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = {  offensive_doctrine }
+	skill = 4
+}
+create_corps_commander = {
+	name = "Wambli-Waste Mdewakanton"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { defensive_doctrine  }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Unaduti Watauga"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { trickster  }
+	skill = 3
+}
+create_corps_commander = {
 	name = "Seiichi Sasahara"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { trickster }
@@ -154,7 +178,18 @@ create_navy_leader = {
 	traits = { ironside }
 	skill = 2
 }
-
+create_navy_leader = {
+	name = "Nokosi Chichuchate"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Agasga Hiwassee" #female
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	traits = { }
+	skill = 3
+}
 
 ### Ship Variants ###
 

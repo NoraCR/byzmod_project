@@ -62,7 +62,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Edwin Barclay"
+	name = "Petros Dundubala"
 	desc = "POLITICS_EDWIN_BARCLAY_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
@@ -71,7 +71,36 @@ create_country_leader = {
 		#
 	}
 }
-
+create_country_leader = {
+	name = "Alexandros Mthokozisi"
+	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Abdul Sinoxolo"
+	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = rexism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Anna Nomthandazo"
+	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
+	traits = {
+		#
+	}
+}
 1939.1.1 = {
 	set_politics = {
 
@@ -95,4 +124,16 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = yes
 	}
+}
+create_corps_commander = {
+	name = "Anastasios Sibakabaka"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = {  }
+	skill = 2
+}
+create_navy_leader = {
+	name = "Melinda Nomandla"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	traits = { spotter }
+	skill = 3
 }
