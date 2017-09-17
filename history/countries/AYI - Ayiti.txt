@@ -54,10 +54,9 @@ set_politics = {
 			popularity = 50
 			#banned = no #default is no
 		}
-
 		pangalism = {
 			popularity = 0
-		}
+			}
 	}
 	
 	ruling_party = communism
@@ -103,9 +102,8 @@ create_country_leader = {
 		
 	}
 }
-
 create_country_leader = {
-	name = "Pangalist Placeholder"
+	name = "Ayn Rand Placeholder"
 	desc = "POLITICS_EARL_BROWDER_DESC"
 	picture = "Portrait_USA_Generic_1.dds"
 	expire = "1965.1.1"
@@ -114,29 +112,47 @@ create_country_leader = {
 		
 	}
 }
-
 create_field_marshal = {
 	name = "Yahima Camaguey" #female
 		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	traits = {  defensive_doctrine }
 	skill = 3
-
 }
-
 create_corps_commander = {
 	name = "Imotonex Daguao"
-		picture = "Portrait_USA_George_S_Patton.dds"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = {  old_guard }
 	skill = 4
-
 }
-
 create_corps_commander = {
 	name = "Macuya Cueba"
-		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	traits = {   }
 	skill = 5
-
+}
+create_corps_commander = {
+	name = "Seiichi Sasahara"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { trickster }
+	skill = 4
+}
+create_corps_commander = {
+	name = "Seán Galligan"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	traits = { fortress_buster }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Kathrin Möhring"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Iftiin Khalif Abdi Dhala"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = { ironside }
+	skill = 2
 }
 
 

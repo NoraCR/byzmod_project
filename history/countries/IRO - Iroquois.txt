@@ -64,7 +64,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Democratic Placeholder"
+	name = "Akwiraron Gowanda"
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	expire = "1965.1.1"
@@ -76,7 +76,7 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Fascist Placeholder"
+	name = "Kainnenhawi Ganienkeh" #female
 	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
@@ -87,7 +87,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Communist Placeholder"
+	name = "Onatah Tyendinaga" #female
 	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
@@ -96,12 +96,22 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Ratonhnhake-ton Quinte" 
+	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	expire = "1965.1.1"
+	ideology = cacicazgo
+	traits = {
+		#
+	}
+}
 
 create_corps_commander = {
-	name = "Placeholder General"
+	name = "Otetiani Akwesasme"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_9.dds"
 	traits = { trait_mountaineer }
-	skill = 4
+	skill = 3
 }
 
 

@@ -166,7 +166,7 @@ units = {
 		ship = { name = "LNS Ktemaque" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }		
 	}
 	navy = { 
-		name = "Pennsylvania Squadron"
+		name = "Cruiser Squadron"
 		base = 6845
 		location = 6845 
 		ship = { name = "LNS Gelelemend" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }				

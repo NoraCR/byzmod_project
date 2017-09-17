@@ -86,15 +86,15 @@ units = {
 		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "Kunming Zhujun"
-		location = 1319 #Kunming
+		name = "Shidui Zhujun"
+		location = 12090 #Sittwe
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "Dali Zhujun"
-		location = 7965 #Dali
+		name = "Hat Yai Zhujun"
+		location = 7236 #Hat Yai
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5

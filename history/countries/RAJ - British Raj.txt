@@ -163,7 +163,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Lord Linlithgow"
+	name = "Sarmila Maharani" #Female
 	desc = "POLITICS_LORD_LINLITHGOW_DESC"
 	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
 	expire = "1965.1.1"
@@ -175,7 +175,7 @@ create_country_leader = {
 
 # REVISIT Unclear if appropriate for this ideology
 create_country_leader = {
-	name = "V. D. Savarkar"
+	name = "Rathika Basavaraju" #Female
 	desc = "POLITICS_VD_SAVARKAR_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_3.dds"
 	expire = "1965.1.1"
@@ -186,7 +186,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "P. Krishna Pillai"
+	name = "Amitabha Guhathakurta"
 	desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
 	expire = "1965.1.1"
@@ -206,10 +206,41 @@ create_country_leader = {
 		
 	}
 }
+create_country_leader = {
+	name = "Damyanti Chatterjee" #female
+	desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
+	traits = {
+		
+	}
+}
 
 create_field_marshal = {
-	name = "Edward Quinan"
+	name = "Nithushayan Aranarivan"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	traits = { logistics_wizard  }
 	skill = 2
+}
+create_corps_commander = {
+	name = "Bankimchandra Vidyasagar"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	traits = { trickster  }
+	skill = 3
+
+}
+create_corps_commander = {
+	name = "Tharaka Samaraweera" #female
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	traits = { urban_assault_specialist }
+	skill = 3
+	
+}
+create_corps_commander = {
+	name = "Udhayathara Visvaamithan" #female
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	traits = {  }
+	skill = 4
+
 }

@@ -80,22 +80,6 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-	#Ust Urt
-	division = {
-		name = "Aktau Xalq Lashkari"
-		location = 1517
-		division_template = "Xalq Lashkari"
-		start_equipment_factor = 0.3
-
-	}
-	division = {
-		name = "Kazak Xalq Lashkari"
-		location = 1517
-		division_template = "Xalq Lashkari"
-		start_equipment_factor = 0.3
-
-	}	
-
 }
 
 ### Starting Equipment ###

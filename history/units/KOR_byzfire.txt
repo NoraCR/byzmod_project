@@ -204,7 +204,7 @@ units = {
 	
 ##### Central Siberia #####
 	division = {
-		name = "7. Bobyeong Sadan"
+		name = "7. Bobyeong Sadan 'Gom'"
 		location = 4866 # Krasnoyarsk
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.3

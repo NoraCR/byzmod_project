@@ -150,6 +150,7 @@ units = {
 		ship = { name = "ARE Galicia" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Baetica" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Lusitania" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Tarraconensis" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Almirante Zheng He" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Julio César" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Emerita Augusta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
@@ -160,6 +161,9 @@ units = {
 		ship = { name = "ARE Valentia Edetanorum" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Cesaraugusta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Galatea" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Segisama" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Saguntum" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Emporion" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
 		
 	}
 }

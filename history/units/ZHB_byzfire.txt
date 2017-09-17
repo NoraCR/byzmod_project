@@ -135,11 +135,8 @@ units = {
 		name = "Base Naval Providencia"
 		base = 9832
 		location = 9832  # Providence
-		ship = { name = "ARE Pelayo de Asturias" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ZHB } } }
-		ship = { name = "ARE España" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ZHB } } }
 		ship = { name = "ARE Libertad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ZHB } } }
 		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ZHB } } }
-		# Flotilla de Destructores de El Ferrol
 		ship = { name = "ARE Alsedo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZHB } } }
 		ship = { name = "ARE Velasco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZHB } } }
 		ship = { name = "ARE Lazaga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZHB } } }
@@ -149,7 +146,8 @@ units = {
 		base = 9832
 		location = 9832  #Cádiz
 		ship = { name = "ARE Independencia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ZHB } } }
-		ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "ARE Constante" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "ARE Resistencia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ZHB } } }
 	}
 	navy = {
 		name = "Base Naval Moswetuset"
