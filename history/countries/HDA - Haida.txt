@@ -83,7 +83,7 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Fascist Placeholder"
+	name = "Qaavotay" #Hopi
 	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
@@ -94,21 +94,78 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Communist Placeholder"
+	name = "'Ikiaq' Sammurtok" #Inuit
 	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = stalinism
 	traits = {
 		#
 	}
 }
-
+create_country_leader = {
+	name = "Tahaygen 'Skíl Jáadaay' Idɨnsaw" #Haida
+	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
+	traits = {
+		#
+	}
+}
+create_field_marshal = {
+	name = "Kingagwaaw Hlinqwan" 
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	traits = {  defensive_doctrine }
+	skill = 3
+}
 create_corps_commander = {
-	name = "Placeholder General"
+	name = "Akeakamai Kalainawai" #Hawaiian
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_9.dds"
 	traits = { trait_mountaineer }
+	skill = 2
+}
+create_corps_commander = {
+	name = "Tetua-umeritini" #Tahitian, female
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_8.dds"
+	traits = {  }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Norihide Yoshigahara " #Japanese
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = {  }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Heriko Aperahama " #Maori
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = {  }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Skilkwiitlaas Kaysuun Llnagaay"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { ironside }
+	skill = 5
+}
+create_navy_leader = {
+	name = "Chimako Arakawa" #Japanese, female
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { spotter }
 	skill = 4
+}
+create_navy_leader = {
+	name = "Sandlenee Hlgihla-ala"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { air_controller }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Matvey Shults" #Russian
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { air_controller }
+	skill = 2
 }
 
 

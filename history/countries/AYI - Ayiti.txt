@@ -74,7 +74,7 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Democratic Placeholder"
+	name = "Ese'he Ohnesesestse"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
 	expire = "1967.1.1"
@@ -103,7 +103,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Ayn Rand Placeholder"
+	name = "Matho Wathakpe Sihasapa"
 	desc = "POLITICS_EARL_BROWDER_DESC"
 	picture = "Portrait_USA_Generic_1.dds"
 	expire = "1965.1.1"
