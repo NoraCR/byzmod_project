@@ -3178,7 +3178,7 @@ news_event = {
 	}
 }
 
-# The Fall of Washington
+# The Fall of Mogadishu
 news_event = {
 	id = news.110
 	title = news.110.t
@@ -3188,14 +3188,14 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		361 = { is_controlled_by = GER }
-		361 = { is_owned_by = USA }
-		GER = { has_war_with = USA }
-		NOT = { has_global_flag = fall_of_washington }
+		361 = { is_controlled_by = BYZ }
+		361 = { is_owned_by = SOM }
+		BYZ = { has_war_with = SOM }
+		NOT = { has_global_flag = fall_of_mogadishu }
 	}
 	
 	immediate = {
-		set_global_flag = fall_of_washington
+		set_global_flag = fall_of_mogadishu
 	}
 	
 	mean_time_to_happen = {
@@ -3203,21 +3203,21 @@ news_event = {
 	}
 	
 	option = {
-		name = news.145.a
+		name = news.110.a
 		trigger = {
 			NOT = {
-				TAG = GER
-				TAG = USA
+				TAG = SOM
+				TAG = BYZ
 			}
 		}
 	}
 	option = {
-		name = news.100.b
-		trigger = { TAG = GER }
+		name = news.110.b
+		trigger = { TAG = BYZ }
 	}
 	option = {
-		name = news.100.c
-		trigger = { TAG = USA }
+		name = news.110.c
+		trigger = { TAG = SOM }
 	}
 }
 
@@ -3231,14 +3231,14 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		358 = { is_controlled_by = GER }
-		358 = { is_owned_by = USA }
-		GER = { has_war_with = USA }
-		NOT = { has_global_flag = fall_of_new_york }
+		9 = { is_controlled_by = POL }
+		9 = { is_owned_by = CZE }
+		POL = { has_war_with = CZE }
+		NOT = { has_global_flag = fall_of_prague }
 	}
 	
 	immediate = {
-		set_global_flag = fall_of_new_york
+		set_global_flag = fall_of_prague
 	}
 	
 	mean_time_to_happen = {
@@ -3246,21 +3246,21 @@ news_event = {
 	}
 	
 	option = {
-		name = news.145.a
+		name = news.111.a
 		trigger = {
 			NOT = {
-				TAG = GER
-				TAG = USA
+				TAG = POL
+				TAG = CZE
 			}
 		}
 	}
 	option = {
-		name = news.100.b
-		trigger = { TAG = GER }
+		name = news.111.b
+		trigger = { TAG = POL }
 	}
 	option = {
-		name = news.100.c
-		trigger = { TAG = USA }
+		name = news.111.c
+		trigger = { TAG = CZE }
 	}
 }
 
