@@ -2625,6 +2625,44 @@ news_event = {
 	}
 }
 
+# Zhongnan Protest Massacre
+news_event = {
+	id = news.990
+	title = news.990.t
+	desc = news.990.d
+	picture = GFX_news_event_soldiers_marching
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	trigger = {
+		date > 1937.2.15
+		NOT = { has_global_flag = zhongnan_massacre }
+		country_exists = SIA
+		SIA = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = zhongnan_massacre
+	}
+	
+	option = {
+		name = news.990.a
+		trigger = { 
+			NOT = { TAG = SIA }
+		}
+	}
+	option = {
+		name = news.990.b
+		trigger = { TAG = SIA }
+	}
+}
+
 # Baltic country annexed (base event baltic.5)
 news_event = {
 	id = news.69
