@@ -258,23 +258,23 @@ create_field_marshal = {
 	skill = 5
 }
 
-create_field_marshal = {
+create_corps_commander = {
 	name = "Sebastian Furck"
 	picture = "pol_sebastian_furck.dds"
-	traits = {  thorough_planner }
-	skill = 5
+	traits = { panzer_leader trait_engineer }
+	skill = 4
 }
 
-create_field_marshal = {
+create_corps_commander = {
 	name = "Aleksander Karski"
 	picture= "pol_aleksander_karski.dds"
-	traits = {  defensive_doctrine }
+	traits = {  trait_mountaineer }
 	skill = 3
 }
 
-create_field_marshal = {
+create_corps_commander= {
 	name = "Czcibor Umiastowski"
 	picture = "pol_czcibor_umiastowski.dds"
-	traits = {  inspirational_leader }
+	traits = { urban_assault_specialist }
 	skill = 5
 }

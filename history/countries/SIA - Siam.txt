@@ -196,7 +196,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "U Yarzar Zaw" #Burmese male
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	traits = { }
+	traits = { jungle_rat }
 	skill = 2
 }
 create_corps_commander = {
