@@ -154,7 +154,7 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Nimo de Anquín"
+	name = "Porfiro de Páez-Torchinovich"
 	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 	expire = "1965.1.1"
@@ -165,18 +165,27 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Marcelo T. de Alvear"
+	name = "Prospero J. de Iglesias"
 	desc = "POLITICS_MARCELO_ALVEAR_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = centrism
 	traits = {
 		#
 	}
 }
-
 create_country_leader = {
-	name = "Fanny Jabcovsky"
+	name = "Julian Bäumler-Ma"
+	desc = "POLITICS_MARCELO_ALVEAR_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = corpocracy
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Xiaoping Murad" ##nora's portrait goes here
 	desc = "POLITICS_FANNY_JABCOVSKY_DESC"
 	picture = "Portrait_Argentina_Fanny_Jabcovsky.dds"
 	expire = "1965.1.1"
@@ -187,21 +196,21 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Arturo Rawson"
+	name = "Bernadette Ibañez" #female
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	traits = { defensive_doctrine }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "Juan Pistarini"
+	name = "Estanislao Panicucci"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	traits = { urban_assault_specialist fortress_buster }
 	skill = 3
 }
 
 create_navy_leader = {
-	name = "Alberto Teisaire"
+	name = "Atahualpa Moretti"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	traits = { blockade_runner }
 	skill = 3

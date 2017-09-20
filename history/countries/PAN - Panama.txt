@@ -117,7 +117,7 @@ create_country_leader = {
 	}
 
 	create_country_leader = {
-		name = "Juan Demóstenes Arosemena"
+		name = "John Claude Gibbs"
 		desc = "POLITICS_JUAN_DEMOSTENES_AROSEMENA_DESC"
 		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 		expire = "1965.1.1"
@@ -128,7 +128,7 @@ create_country_leader = {
 	}
 
 	create_country_leader = {
-		name = "July Portocarrero"
+		name = "Eileen Crawford"
 		desc = "POLITICS_JULY_PORTOCARRERO_DESC"
 		picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 		expire = "1965.1.1"

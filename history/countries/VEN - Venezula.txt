@@ -84,20 +84,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Eleazar López Contreras"
+	name = "Eleazar Vicente Ng" #nora's portrait goes here
 	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
 	picture = "Portrait_Venezuela_Elezar_Lopez_Contreras.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Juan Bautista Fuenmayor"
-	desc = "POLITICS_JUAN_BAUTISTA_FUENMAYOR_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
@@ -105,6 +94,36 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Juan Basilio Vanzin"
+	desc = "POLITICS_JUAN_BAUTISTA_FUENMAYOR_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Marelys Pellegrini-Hu" #female
+	desc = "POLITICS_JUAN_BAUTISTA_FUENMAYOR_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Grete Evenstad" #female
+	desc = "POLITICS_JUAN_BAUTISTA_FUENMAYOR_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
+	traits = {
+		#
+	}
+}
 1939.1.1 = {
 	set_politics = {
 
@@ -128,4 +147,17 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = no
 	}
+}
+create_corps_commander = {
+	name = "Cristóbal Moya-Zhen" 
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	traits = { }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Muxamad Ali Ceydiid" #Somali
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	traits = { blockade_runner }
+	skill = 4
 }
