@@ -82,11 +82,22 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Harmodio Arias Madrid"
-	desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	name = "John Claude Gibbs"
+	desc = "POLITICS_JUAN_DEMOSTENES_AROSEMENA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Eileen Crawford"
+	desc = "POLITICS_JULY_PORTOCARRERO_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	expire = "1965.1.1"
+	ideology = marxism
 	traits = {
 		#
 	}

@@ -152,7 +152,7 @@ units = {
 
 	}
 
-	# VII Hadtest
+	
 	division= {	
 		name = "13. Gyalogdandár"
 		location = 6751
@@ -164,6 +164,23 @@ units = {
 	division= {	
 		name = "14. Gyalogdandár"
 		location = 6751
+		division_template = "Gyalogdandár"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	# VII Hadtest
+	division= {	
+		name = "15. Gyalogdandár"
+		location = 11586
+		division_template = "Gyalogdandár"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+		division= {	
+		name = "16. Gyalogdandár"
+		location = 11586
 		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
