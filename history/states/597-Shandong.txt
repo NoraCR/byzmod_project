@@ -21,6 +21,7 @@ state=
 			infrastructure = 8
 			industrial_complex = 1
 			air_base = 4
+			dockyard = 2
 			10000 = {
 				naval_base = 5
 				coastal_bunker = 1

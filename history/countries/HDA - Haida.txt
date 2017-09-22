@@ -104,7 +104,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Tahaygen 'Skíl Jáadaay' Idɨnsaw" #Haida
+	name = "Tahaygen 'Skíl Jáadaay' Idinsaw" #Haida
 	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
