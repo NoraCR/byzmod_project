@@ -103,7 +103,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Wienathan Meihui" #Mixed Chinese, female
+	name = "Nur Maryam Hamza"
 	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
 	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
 	expire = "1965.1.1"
