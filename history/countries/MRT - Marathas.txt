@@ -70,7 +70,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Durga Bai Sharqi" #female
+	name = "Rishma Sharqi" #female
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"
