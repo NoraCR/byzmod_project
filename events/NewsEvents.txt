@@ -2416,12 +2416,10 @@ news_event = {
 		NOT = { has_global_flag = world_cup_selected }
 		country_exists = IRE
 		country_exists = BYZ
-		country_exists = GER
 		country_exists = MEX
 		MEX = { has_war = no }
 		IRE = { has_war = no }
 		BYZ = { has_war = no }
-		GER = { has_war = no }
 	}
 	
 	mean_time_to_happen = {
@@ -2626,7 +2624,7 @@ news_event = {
 news_event = {
 	id = news.904
 	title = news.904.t
-	desc = news.904.d.desc
+	desc = news.904.d
 	picture = GFX_report_event_chinese_japanese_handshake
 	
 	major = yes
@@ -9915,7 +9913,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.500.d.desc
+		text = news.500.d
 	}
 	
 	option = {
@@ -9966,7 +9964,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.501.d.desc
+		text = news.501.d
 	}
 	
 	option = {
@@ -10020,7 +10018,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.510.d.desc
+		text = news.510.d
 	}
 	
 	option = {
@@ -10062,7 +10060,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.511.d.desc
+		text = news.511.d
 	}
 	
 	option = {
@@ -10104,7 +10102,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.512.d.desc
+		text = news.512.d
 	}
 	
 	option = {
@@ -10146,7 +10144,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.513.d.desc
+		text = news.513.d
 	}
 	
 	option = {
@@ -10180,7 +10178,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.514.d.desc
+		text = news.514.d
 	}
 	
 	option = {
@@ -10222,7 +10220,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.515.d.desc
+		text = news.515.d
 	}
 	
 	option = {
@@ -10272,7 +10270,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.516.d.desc
+		text = news.516.d
 	}
 	
 	option = {
@@ -10321,7 +10319,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.560.d.desc
+		text = news.560.d
 	}
 	
 	option = {
@@ -10356,7 +10354,7 @@ news_event = {
 #	fire_only_once = yes
 #	
 #	desc = {
-#		text = news.561.d.desc
+#		text = news.561.d
 #	}
 #	
 #	option = {
@@ -10391,7 +10389,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.566.d.desc
+		text = news.566.d
 	}
 	
 	option = {
@@ -10426,7 +10424,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.562.d.desc
+		text = news.562.d
 	}
 	
 	option = {
@@ -10461,7 +10459,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.563.d.desc
+		text = news.563.d
 	}
 	
 	option = {
@@ -10496,7 +10494,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.564.d.desc
+		text = news.564.d
 	}
 	
 	option = {
@@ -10531,7 +10529,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.565.d.desc
+		text = news.565.d
 	}
 	
 	option = {
@@ -10566,7 +10564,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.600.d.desc
+		text = news.600.d
 	}
 	
 	option = {
@@ -10599,7 +10597,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.700.d.desc
+		text = news.700.d
 	}
 	
 	option = {
@@ -10659,7 +10657,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.720.d.desc
+		text = news.720.d
 	}
 	
 	option = {
@@ -10694,7 +10692,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.710.d.desc
+		text = news.710.d
 	}
 	
 	option = {
@@ -10729,7 +10727,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.721.d.desc
+		text = news.721.d
 	}
 	
 	option = {
@@ -10764,7 +10762,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.701.d.desc
+		text = news.701.d
 	}
 	
 	option = {
@@ -10799,7 +10797,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.702.d.desc
+		text = news.702.d
 	}
 	
 	option = {
@@ -10835,7 +10833,7 @@ news_event = {
 	fire_only_once = yes
 	
 	desc = {
-		text = news.703.d.desc
+		text = news.703.d
 	}
 	
 	option = {
