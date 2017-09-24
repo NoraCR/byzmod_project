@@ -125,7 +125,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = industrial_effort
+		id = industrial_effort_1
 		icon = GFX_goal_generic_construction
 		cost = 10
 		x = 10
@@ -517,7 +517,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10
 		prerequisite = {
-			focus = industrial_effort
+			focus = industrial_effort_1
 		}
 		x = 9
 		y = 1
@@ -904,7 +904,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10
 		prerequisite = {
-			focus = industrial_effort
+			focus = industrial_effort_1
 		}
 		x = 11
 		y = 1
@@ -2494,7 +2494,7 @@ focus_tree = {
 		x = 43
 		y = 2
 		available = {
-			has_global_flag = scw_over
+			has_global_flag = scw_over # The German Civil War needs to be over
 		}
 
 		ai_will_do = {
