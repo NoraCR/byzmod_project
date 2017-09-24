@@ -4,7 +4,7 @@ state=
 	name="STATE_550"
 	manpower = 1468210
 	
-	state_category = megalopolis
+	state_category = metropolis
 	
 	history=
 	{
@@ -14,7 +14,7 @@ state=
 			12766 1
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 6
 			industrial_complex = 3
 			air_base = 8
 			dockyard = 3

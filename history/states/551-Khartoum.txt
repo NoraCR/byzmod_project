@@ -3,11 +3,11 @@ state={
 	name="STATE_551"
 	manpower = 1993507
 	
-	state_category = megalopolis
+	state_category = large_city
 	history = {
 		owner = SOM
 		buildings = {
-			infrastructure = 4
+			infrastructure = 6
 			industrial_complex = 3
 			air_base = 8
 			12725 = {

@@ -300,16 +300,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
-	}			
-	division= {			
-		name = "8ya Okhrana Pogranichnaya Diviziya"		
-		location = 306
-		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}			
+	}					
 
 
 	#### Moskva Voennyii Okrug (Moscow Military District) -- Moscow ####
@@ -329,35 +320,7 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
-	}			
-
-	# 3ya Strelkoviy Korpus		
-	division= {			
-		name = "17ya 'Gor'kovskaya' Strelk. Div."		
-		location = 6262
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		name = "19ya 'Voronezhskaya' Strelk. Div."		
-		location = 6262
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		name = "84ya 'Tul'skogo' Strelk. Div."		
-		location = 6262
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-
-
+	}					
 	### Moskva Gruppa Armiya (Moscow Army Group) -- Moscow ###		
 	# Okhrana Moskva Gruppa -- Okhrana Border Guard and RR units	
 	division= {			
@@ -406,32 +369,6 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-	
-	# 16ya Strelkoviy Korpus		
-	division= {			
-		name = "4ya 'Smolenskaya' Strelk. Div."		
-		location = 11271
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		name = "43ya Strelkovaya Diviziya"		
-		location = 11271
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		name = "81ya Strelkovaya Diviziya"		
-		location = 11271
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
 
 	# Subordinate to VO		
 	division= {			
@@ -474,32 +411,6 @@ units = {
 	}
 	division= {			
 		name = "99ya Strelkovaya Diviziya"		
-		location = 6380
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-
-	# 15ya Strelkoviy Korpus		
-	division= {			
-		name = "15ya 'Sivashskaya' Strelk. Div."		
-		location = 6380
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		name = "51ya 'Perekopskaya' Strelk. Div."		
-		location = 6380
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		name = "96ya 'Vinnitskaya' Strelk. Div."		
 		location = 6380
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
@@ -694,15 +605,7 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
-	}			
-	division= {			
-		name = "20ya 'Kavkazskaya' Gornostrelk. Div."		
-		location = 6380
-		division_template = "Gornostrelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
+	}						
 	division= {			
 		name = "47ya 'Gruzinskaya' Gornostrelk. Div."		
 		location = 6380
@@ -900,25 +803,6 @@ air_wings = {
 			amount = 48
 		}
 		# TODO -- 46ya Transporta Aviabrigada -- transport planes
-	}
-
-	# BOVO Aviatsya Komandovaniya -- Minsk
-	206 = {
-		# 8ya Istrebitel'nye Aviabrigada
-		fighter_equipment_1 = {
-			owner = "SOV" 
-			amount = 48
-		}
-		# 14ya Istrebitel'nye Aviabrigada
-		fighter_equipment_0 = {
-			owner = "SOV" 
-			amount = 48
-		}
-		# 16ya Bombardirovochnye Aviabrigada
-		tac_bomber_equipment_0 =  {
-			owner = "SOV" 
-			amount = 60
-		}
 	}
 
 	# KOVO Aviatsya Komandovaniya -- Kiev

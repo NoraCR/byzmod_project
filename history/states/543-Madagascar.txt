@@ -14,7 +14,7 @@ state={
 			arms_factory = 1
 			air_base = 3
 			5222 = {
-				naval_base = 2
+				naval_base = 5
 			}
 		}
 
