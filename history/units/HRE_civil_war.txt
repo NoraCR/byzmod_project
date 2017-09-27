@@ -85,7 +85,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "16. Legionäre Kampfgruppe"
+		name = "16. Legionäre Kampfgruppe 'Wiking'"
 		location = 317  # Schleswig-Holstein
 		division_template = "Legionäre Kampfgruppe"
 	}
@@ -125,7 +125,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "24. Legionäre Kampfgruppe"
+		name = "24. Legionäre Kampfgruppe 'Traditionelle Arbeiterpartei'"
 		location = 6332 # Prussen
 		division_template = "Legionäre Kampfgruppe"
 	}
@@ -155,7 +155,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "30. Legionäre Kampfgruppe"
+		name = "30. Legionäre Kampfgruppe 'Vanguard'"
 		location = 6332 # Prussen
 		division_template = "Legionäre Kampfgruppe"
 	}
@@ -170,7 +170,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "33. Legionäre Kampfgruppe"
+		name = "33. Legionäre Kampfgruppe 'König Stanislaus'"
 		location = 6332 # Prussen
 		division_template = "Legionäre Kampfgruppe"
 	}
@@ -180,7 +180,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "35. Legionäre Kampfgruppe"
+		name = "35. Legionäre Kampfgruppe 'Zar Ekaterina'"
 		location = 334 # Danzig
 		division_template = "Legionäre Kampfgruppe"
 	}
@@ -195,7 +195,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "38. Legionäre Kampfgruppe"
+		name = "38. Legionäre Kampfgruppe 'Stolze Jungen'"
 		location = 334 # Danzig
 		division_template = "Legionäre Kampfgruppe"
 	}
@@ -230,7 +230,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "45. Legionäre Kampfgruppe"
+		name = "45. Legionäre Kampfgruppe 'Deutsche Liga'"
 		location = 334 # Danzig
 		division_template = "Legionäre Kampfgruppe"
 	}
@@ -245,7 +245,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "48. Legionäre Kampfgruppe"
+		name = "48. Legionäre Kampfgruppe 'Nationalgard'"
 		location = 334 # Danzig
 		division_template = "Legionäre Kampfgruppe"
 	}

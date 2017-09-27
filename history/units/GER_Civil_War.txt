@@ -71,7 +71,7 @@ units = {
 		division_template = "Internationale Brigaden"
 	}
 	division = {
-		name = "XIII Internationale Brigaden"
+		name = "XIII Internationale Brigaden 'Bulgarien'"
 		location = 241  # Wilhelmshaven
 		division_template = "Internationale Brigaden"
 	}
@@ -101,7 +101,7 @@ units = {
 		division_template = "Internationale Brigaden"
 	}
 	division = {
-		name = "XIX Internationale Brigaden"
+		name = "XIX Internationale Brigaden 'Kreta'"
 		location = 6377  # Hannover
 		division_template = "Internationale Brigaden"
 	}
@@ -126,12 +126,12 @@ units = {
 		division_template = "Internationale Brigaden"
 	}
 	division = {
-		name = "XXIV Internationale Brigaden"
+		name = "XXIV Internationale Brigaden 'Athen'"
 		location = 6469  # Essen
 		division_template = "Internationale Brigaden"
 	}
 	division = {
-		name = "XXV Internationale Brigaden"
+		name = "XXV Internationale Brigaden 'Extebarria'"
 		location = 6469  # Essen
 		division_template = "Internationale Brigaden"
 	}

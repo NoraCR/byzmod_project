@@ -108,7 +108,19 @@ division_template = {
 	}
 	priority = 0
 }
+division_template = {
+	name = "Régiment du CSP"					# CSP regiments (elite equipment & training)
 
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	support = {
+        artillery = { x = 0 y = 0 }			
+	}
+	priority = 2
+}
 ##### OOB #####
 units = {
 	##### Northern France Region #####
@@ -642,13 +654,13 @@ units = {
 		start_experience_factor = 0.3
 	}
 		division= {	
-		name = "54ème Division d'Infanterie"
+		name = "55ème Division d'Infanterie"
 		location = 9444
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
 	division= {	
-		name = "55ème Div. d'Infanterie Motorisée"
+		name = "5ème Div. d'Infanterie Motorisée"
 		location = 6496
 		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
@@ -676,7 +688,44 @@ units = {
 		location = 3423
 		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
-	}		
+	}
+#####CSP (Comité de salut public) REGIMENTS - SECRET POLICE #####
+	division= {	
+		name = "Comité de Salut Public - Quartier Général"
+		location = 11506
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "CSP Bureau Extérieur - Catalaunia"
+		location = 9764
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "CSP Bureau Extérieur - Caesaraugusta"
+		location = 3816
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "CSP Bureau Extérieur - Belgica"
+		location = 11519
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "CSP Bureau Extérieur - Germania"
+		location = 11435
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "CSP Bureau Extérieur - Subalpina"
+		location = 9741
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}	
 	### METRPOLITAN FRANCE ###
 	navy = {				
 		name = "1ère Région Navale"			
@@ -996,7 +1045,7 @@ air_wings = {
 		# Flotille F1
 		nav_bomber_equipment_1 = {
 			owner = "FRA" 
-			amount = 48
+			amount = 96
 		}
 	}
 }
