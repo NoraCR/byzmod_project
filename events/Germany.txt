@@ -42,7 +42,7 @@ country_event = {
 					original_tag = GER
 					has_government = democratic
 				}
-				load_oob = "SPR_Civil_War"
+				load_oob = "GER_Civil_War"
 				set_equipment_fraction = 0.5
 				set_national_unity = 0.9
 				#country_event = { id = germany.902 days = 1 }
@@ -54,7 +54,7 @@ country_event = {
 			news_event = { hours = 6 id = news.63 }
 			set_global_flag = spanish_civil_war
 			
-			load_oob = "SPA_Civil_War"
+			load_oob = "HRE_Civil_War"
 			set_equipment_fraction = 0.5
 			set_national_unity = 0.9
 			
@@ -84,7 +84,7 @@ country_event = {
 				set_equipment_fraction = 0.5
 				set_national_unity = 0.9
 				#country_event = { id = germany.901 days = 1 }
-				load_oob = "SPA_Civil_War"
+				load_oob = "HRE_Civil_War"
 			}
 			news_event = { hours = 6 id = news.63 }
 			set_global_flag = spanish_civil_war
