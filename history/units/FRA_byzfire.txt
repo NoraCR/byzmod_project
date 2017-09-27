@@ -348,7 +348,7 @@ units = {
 	division= {	
 		name = "Longuyon Div. d'Inf. de Forteresse"
 		location = 5291
-		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -356,7 +356,7 @@ units = {
 	division= {	
 		name = "Metz Div. d'Inf. de Forteresse"
 		location = 11502
-		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -364,7 +364,7 @@ units = {
 	division= {	
 		name = "Sarreguimines Div. d'Inf. de Forteresse"
 		location = 3629
-		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -372,7 +372,7 @@ units = {
 	division= {	
 		name = "Strassbourg Div. d'Inf. de Forteresse"
 		location = 9503
-		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -380,7 +380,7 @@ units = {
 	division= {	
 		name = "Mulhouse Div. d'Inf. de Forteresse"
 		location = 678
-		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -472,7 +472,7 @@ units = {
 	division= {	
 		name = "Nice Div. d'Inf. de Forteresse"
 		location = 9909
-		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -545,25 +545,31 @@ units = {
 		division_template = "Brigade de Chars de Combat" 			# FT-17s
 		start_experience_factor = 0.2
 	}
+	division= {	
+		name = "6ère Brigade de Chars de Combat"
+		location = 11834
+		division_template = "Brigade de Chars de Combat" 			# FT-17s
+		start_experience_factor = 0.2
+	}
 	# Corsica/Sardinia/Balearic Garrisons
 	division= {	
 		name = "Corse Div. d'Inf. de Forteresse"
 		location = 3838
-		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		name = "Sardaigne Div. d'Inf. de Forteresse"
 		location = 11773
-		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		name = "Iles Baléares Div. d'Inf. de Forteresse"
 		location = 9793
-		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 	}
@@ -635,14 +641,38 @@ units = {
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
+		division= {	
+		name = "54ème Division d'Infanterie"
+		location = 9444
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
 	division= {	
-		name = "13ème Div. d'Infanterie Motorisée"
+		name = "55ème Div. d'Infanterie Motorisée"
+		location = 6496
+		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "56ème Division d'Infanterie"
+		location = 6496
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "57ème Division d'Infanterie"
+		location = 11435
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "15ème Div. d'Infanterie Motorisée"
 		location = 3423
 		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
 	}
 	division= {	
-		name = "15ème Div. d'Infanterie Motorisée"
+		name = "16ème Div. d'Infanterie Motorisée"
 		location = 3423
 		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
@@ -692,7 +722,8 @@ units = {
 		name = "3ème Région Navale"			
 		base = 911 
 		location = 911 # Toulon			
-		ship = { name = "Gladius" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = FRA } }	}	# Algerie variant		
+		ship = { name = "Campus Mauriacus" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = FRA } } }
+		ship = { name = "Gladius" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }		
 		ship = { name = "Pugio" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
 		ship = { name = "Spatha" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
 		ship = { name = "Hasta" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
@@ -782,7 +813,8 @@ units = {
 		location = 9863 # Oran			
 		ship = { name = "Juliana Comnena Magna" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }			
 		ship = { name = "Augustus Caesar" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }			
-		ship = { name = "Traianus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }			
+		ship = { name = "Traianus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Maiorianus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }
 		ship = { name = "Cheiroballistra" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
 		# 1e Légère Division des Contre-Torpilleurs
 		ship = { name = "Manius Manilius" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
@@ -802,13 +834,20 @@ units = {
 		ship = { name = "Saint Taurinus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
 		# 9e Légère Division des Contre-Torpilleurs
 		ship = { name = "Marcus Atilius Regulus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
-		ship = { name = "Gaius Duilius" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Gaius Duilius" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Auspicius of Trier" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }		
+		# 10e Légère Division des Contre-Torpilleurs
+		ship = { name = "Saint Maturinus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Saint Clemens de Metiae" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Saint Honorina" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
 	}				
 	navy = {				
 		name = "Attack Force Légère"			
 		base = 11773 
 		location = 11773 # Bizerte, Tunisia	
-		ship = { name = "Dolabra" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FRA } } }	# La Galissonnière variant
+		ship = { name = "Dolabra" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FRA } } }
+		ship = { name = "Ardens" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FRA } } }
+		ship = { name = "Vehemens" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FRA } } }
 		ship = { name = "Falx" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
 		# 1e Division des Contre-Torpilleurs
 		ship = { name = "Irene Atheniensis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
@@ -848,7 +887,7 @@ units = {
 		ship = { name = "Gaius Cassius Parmensis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
 		ship = { name = "Lucius Pontius Aquila" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
 		# 14e Division des Sous-Marins
-		ship = { name = "Lucius COrnelius Cinna" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Lucius Cornelius Cinna" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
 		ship = { name = "Pausanias" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
 		ship = { name = "Olympias" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
 		ship = { name = "Bardanes" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
@@ -897,7 +936,7 @@ air_wings = {
 		# Groupement de Bombardment 9
 		tac_bomber_equipment_1 =  {
 			owner = "FRA" 
-			amount = 60
+			amount = 120
 		}
 	}
 
@@ -957,7 +996,7 @@ air_wings = {
 		# Flotille F1
 		nav_bomber_equipment_1 = {
 			owner = "FRA" 
-			amount = 24
+			amount = 48
 		}
 	}
 }

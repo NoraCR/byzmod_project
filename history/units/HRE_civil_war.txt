@@ -1,0 +1,288 @@
+﻿division_template = {
+	name = "Legionäre Kampfgruppe"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. Legionäre Kampfgruppe 'Stahlhelm'"
+		location = 514  # Dresden
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "2. Legionäre Kampfgruppe"
+		location = 514  # Dresden
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "3. Legionäre Kampfgruppe 'Antikommunistische Aktion'"
+		location = 514  # Dresden
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "4. Legionäre Kampfgruppe"
+		location = 514  # Dresden
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "5. Legionäre Kampfgruppe"
+		location = 514  # Dresden
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "6. Legionäre Kampfgruppe 'Karl der Große'"
+		location = 3512  # Rheinland
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "7. Legionäre Kampfgruppe 'Wacht am Rhein'"
+		location = 3512  # Rheinland
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "8. Legionäre Kampfgruppe"
+		location = 3512  # Friesland
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "9. Legionäre Kampfgruppe 'Niederlande'"
+		location = 6286  # Friesland
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "10. Legionäre Kampfgruppe 'Eisenzieher'"
+		location = 6286  # Friesland
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "11. Legionäre Kampfgruppe"
+		location = 6286  # Friesland
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "12. Legionäre Kampfgruppe 'Europa'"
+		location = 6570  # Essen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "13. Legionäre Kampfgruppe"
+		location = 6570  # Essen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "14. Legionäre Kampfgruppe"
+		location = 6570  # Essen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "15. Legionäre Kampfgruppe 'Norrland'"
+		location = 317  # Schleswig-Holstein
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "16. Legionäre Kampfgruppe"
+		location = 317  # Schleswig-Holstein
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "17. Legionäre Kampfgruppe"
+		location = 6282  # Pommern
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "18. Legionäre Kampfgruppe"
+		location = 6282  # Pommern
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "19. Legionäre Kampfgruppe"
+		location = 6282  # Pommern
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "20. Legionäre Kampfgruppe"
+		location = 293 # Mecklemberg
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "21. Legionäre Kampfgruppe 'Österreich'"
+		location = 293 # Mecklemberg
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "22. Legionäre Kampfgruppe 'Spanien'"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "23. Legionäre Kampfgruppe"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "24. Legionäre Kampfgruppe"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "25. Legionäre Kampfgruppe 'Henricus Auceps'"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "26. Legionäre Kampfgruppe"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "27. Legionäre Kampfgruppe 'Ottonius Magnus'"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "28. Legionäre Kampfgruppe"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "29. Legionäre Kampfgruppe"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "30. Legionäre Kampfgruppe"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "31. Legionäre Kampfgruppe"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "32. Legionäre Kampfgruppe"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "33. Legionäre Kampfgruppe"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "34. Legionäre Kampfgruppe 'Henricus'"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "35. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "36. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "37. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "38. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "39. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "40. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "41. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "42. Legionäre Kampfgruppe 'Adler'"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "43. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "44. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "45. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "46. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "47. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "48. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "49. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "50. Legionäre Kampfgruppe"
+		location = 334 # Danzig
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "51. Legionäre Kampfgruppe 'Polonia'"
+		location = 9306 # Hinterpommern
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "52. Legionäre Kampfgruppe"
+		location = 9306 # Hinterpommern
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "53. Legionäre Kampfgruppe"
+		location = 3474 # Franken
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "54. Legionäre Kampfgruppe 'Rhaetia'"
+		location = 3474 # Franken
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "55. Legionäre Kampfgruppe"
+		location = 589 # Hessen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	
+}

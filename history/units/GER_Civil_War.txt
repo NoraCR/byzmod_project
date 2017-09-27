@@ -1,0 +1,137 @@
+﻿division_template = {
+	name = "Internationale Brigaden"			# International volunteers -- poor equipment, no experience (militia)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "I Internationale Brigaden 'AFA'"
+		location = 6521  # Berlin
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "II Internationale Brigaden 'Byzantion'"
+		location = 6521  # Berlin
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "III Internationale Brigaden 'Littau'"
+		location = 6521  # Berlin
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "IV Internationale Brigaden 'Ungarn'"
+		location = 6521  # Berlin
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "V Internationale Brigaden"
+		location = 6521  # Berlin
+		division_template = "Internationale Brigaden"
+	}
+
+	division = {
+		name = "VI Internationale Brigaden 'Victoria'"
+		location = 3326  # Bremen
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "VII Internationale Brigaden 'Irland'"
+		location = 3326  # Bremen
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "VIII Internationale Brigaden 'Ayitische'"
+		location = 3326  # Bremen
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "IX Internationale Brigaden"
+		location = 9347  # Hamburg
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "X Internationale Brigaden 'Volksmiliz'"
+		location = 9347  # Hamburg
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XI Internationale Brigaden"
+		location = 9347  # Hamburg
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XII Internationale Brigaden 'Askari'"
+		location = 241  # Wilhelmshaven
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XIII Internationale Brigaden"
+		location = 241  # Wilhelmshaven
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XIV Internationale Brigaden 'Freiheit'"
+		location = 241  # Wilhelmshaven
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XV Internationale Brigaden 'UdHuK'"
+		location = 3522  # Magdeburg
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XVI Internationale Brigaden 'FAUD'"
+		location = 3522  # Magdeburg
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XVII Internationale Brigaden 'Roma'"
+		location = 3522  # Magdeburg
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XVIII Internationale Brigaden 'Befreiungsarmee'"
+		location = 6377  # Hannover
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XIX Internationale Brigaden"
+		location = 6377  # Hannover
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XX Internationale Brigaden 'Widerstand'"
+		location = 6377  # Hannover
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XXI Internationale Brigaden 'Spartakusbund'"
+		location = 6521  # Berlin
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XXII Internationale Brigaden"
+		location = 6469  # Essen
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XXIII Internationale Brigaden 'Revolutionäre Armee'"
+		location = 6469  # Essen
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XXIV Internationale Brigaden"
+		location = 6469  # Essen
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XXV Internationale Brigaden"
+		location = 6469  # Essen
+		division_template = "Internationale Brigaden"
+	}
