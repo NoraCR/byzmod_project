@@ -461,7 +461,7 @@ ICE = {
 
 
 D01 = {
-	color = rgb { 200 100 31 }
+	color = rgb { 255 255 255 }
 	color_ui = rgb { 245 123 38 }
 }
 D02 = {
