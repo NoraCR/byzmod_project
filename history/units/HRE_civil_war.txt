@@ -284,5 +284,29 @@ units = {
 		location = 589 # Hessen
 		division_template = "Legionäre Kampfgruppe"
 	}
-	
+	division = {
+		name = "56. Legionäre Kampfgruppe"
+		location = 589 # Hessen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "57. Legionäre Kampfgruppe"
+		location = 589 # Hessen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "58. Legionäre Kampfgruppe"
+		location = 589 # Hessen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "59. Legionäre Kampfgruppe 'Deutschherrenorden'"
+		location = 589 # Hessen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "60. Legionäre Kampfgruppe"
+		location = 589 # Hessen
+		division_template = "Legionäre Kampfgruppe"
+	}	
 }
