@@ -2292,9 +2292,8 @@ news_event = {
 	trigger = {
 		date > 1936.8.15
 		NOT = { has_global_flag = olympics_1936 }
-		country_exists = GER
+		country_exists = FRA
 		country_exists = BYZ
-		GER = { has_war = no }
 		FRA = { has_war = no }
 		ENG = { has_war = no }
 		BYZ = { has_war = no }
