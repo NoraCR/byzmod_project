@@ -30,7 +30,7 @@ units = {
 		division_template = "Internationale Brigaden"
 	}
 	division = {
-		name = "V Internationale Brigaden"
+		name = "V Internationale Brigaden 'Athen'"
 		location = 6521  # Berlin
 		division_template = "Internationale Brigaden"
 	}
@@ -61,7 +61,7 @@ units = {
 		division_template = "Internationale Brigaden"
 	}
 	division = {
-		name = "XI Internationale Brigaden"
+		name = "XI Internationale Brigaden 'Extebarria'"
 		location = 9347  # Hamburg
 		division_template = "Internationale Brigaden"
 	}
@@ -108,30 +108,5 @@ units = {
 	division = {
 		name = "XX Internationale Brigaden 'Widerstand'"
 		location = 6377  # Hannover
-		division_template = "Internationale Brigaden"
-	}
-	division = {
-		name = "XXI Internationale Brigaden 'Spartakusbund'"
-		location = 6521  # Berlin
-		division_template = "Internationale Brigaden"
-	}
-	division = {
-		name = "XXII Internationale Brigaden"
-		location = 6469  # Essen
-		division_template = "Internationale Brigaden"
-	}
-	division = {
-		name = "XXIII Internationale Brigaden 'Revolutionäre Armee'"
-		location = 6469  # Essen
-		division_template = "Internationale Brigaden"
-	}
-	division = {
-		name = "XXIV Internationale Brigaden 'Athen'"
-		location = 6469  # Essen
-		division_template = "Internationale Brigaden"
-	}
-	division = {
-		name = "XXV Internationale Brigaden 'Extebarria'"
-		location = 6469  # Essen
 		division_template = "Internationale Brigaden"
 	}

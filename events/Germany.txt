@@ -557,6 +557,7 @@ country_event = {
 		50 = { add_core_of = GER }
 		52 = { add_core_of = GER }
 		153 = { add_core_of = GER }
+		326 = { add_core_of = GER }
 		53 = { add_core_of = GER }
 		152 = { add_core_of = GER }
 		4 = { add_core_of = GER }
