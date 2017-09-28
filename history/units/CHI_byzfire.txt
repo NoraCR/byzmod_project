@@ -595,7 +595,7 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-##Tibet
+##Tibet and Yunnan
 	division= {			
 		name = "Di 501 'Shijie Wuji' Dishan Pai"		
 		location = 7316
@@ -608,6 +608,33 @@ units = {
 	division= {			
 		name = "Di 502 'Qiongcang' Dishan Pai"		
 		location = 7316
+		division_template = "Dishan Pai"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "Di 503 'Yulong' Dishan Pai"		
+		location = 1319
+		division_template = "Dishan Pai"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "Di 504 'Hutiaosha' Dishan Pai"		
+		location = 1319
+		division_template = "Dishan Pai"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "Di 505 'Heilongtan' Dishan Pai"		
+		location = 1319
 		division_template = "Dishan Pai"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
 		start_experience_factor = 0.3
@@ -650,7 +677,13 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
-
+	division = {
+		name = "Di 357 'Karaganda' Qibing Shi"
+		location = 4333
+		division_template = "Qibing Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
 
 
 
@@ -734,6 +767,20 @@ units = {
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Di 128 Bubing Shi"
+		location = 11771
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Di 129 Bubing Shi"
+		location = 11771
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
 	}	
 	division = {
 		name = "Di 1 Menggu Qibing Shi" 
@@ -782,6 +829,24 @@ units = {
 	}
 	division = {
 		name = "Di 14 Dongbei Shi"
+		location = 12189 #Eastern Manchuria
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Di 15 Dongbei Shi"
+		location = 12189 #Eastern Manchuria
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Di 16 Dongbei Shi"
+		location = 12189 #Eastern Manchuria
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Di 17 Dongbei Shi"
 		location = 12189 #Eastern Manchuria
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
