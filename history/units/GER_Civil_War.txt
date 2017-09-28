@@ -51,7 +51,7 @@ units = {
 		division_template = "Internationale Brigaden"
 	}
 	division = {
-		name = "IX Internationale Brigaden"
+		name = "IX Internationale Brigaden 'Haida'"
 		location = 9347  # Hamburg
 		division_template = "Internationale Brigaden"
 	}
@@ -107,6 +107,31 @@ units = {
 	}
 	division = {
 		name = "XX Internationale Brigaden 'Widerstand'"
+		location = 6377  # Hannover
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XXI Internationale Brigaden 'Japanisch'"
+		location = 6377  # Hannover
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XXII Internationale Brigaden 'Koreaner'"
+		location = 6377  # Hannover
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XXIII Internationale Brigaden 'Madagaskar'"
+		location = 6377  # Hannover
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XXIV Internationale Brigaden 'Ostindien'"
+		location = 6377  # Hannover
+		division_template = "Internationale Brigaden"
+	}
+	division = {
+		name = "XXV Internationale Brigaden 'Simbabwe'"
 		location = 6377  # Hannover
 		division_template = "Internationale Brigaden"
 	}
