@@ -196,14 +196,14 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "Unver Hayrettin"
 	picture = "byz_marshal_unver_hayrettin.tga"
-	traits = { defensive_doctrine }
+	traits = { defensive_doctrine logistics_wizard }
 	skill = 3
 }
 
 create_corps_commander = {
 	name = "Zenobia Stanotas"
 	picture = "bzy_general_isidora_straikopoula.tga"
-	traits = { old_guard defensive_doctrine }
+	traits = { old_guard trait_engineer }
 	skill = 4
 }
 
@@ -302,7 +302,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Eudokia Akinyi"
 	picture = "byz_general_eudokia_akinyi.tga"
-	traits = { hill_fighter }
+	traits = { hill_fighter trickster }
 	skill = 3
 }
 
