@@ -187,7 +187,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Andreas Jacquemoud Fortunatus"
+	name = "Andreas Jacquemond Fortunatus"
 	picture = "fra_general_andreas_jacquemoud_fortunatus.tga"
 	traits = { panzer_leader  }
 	skill = 4
@@ -243,7 +243,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Élisa Hardouineau Holsatica"
+	name = "Élise Hardouineau Holsatica"
 	picture = "fra_general_elisa_hardouineau_holsatica.tga"
 	traits = {  panzer_leader }
 	skill = 3

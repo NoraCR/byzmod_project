@@ -71,13 +71,13 @@ units = { #includes army and navy but not air-force
 	
 	### GARRISON UNITS ### Most numerous units at start, guarding islands, ports and cities
 	division = {
-		name = "1st Molucca Anchisukiru"
+		name = "Seramu Anchisukiru"
 		location = 1574
 		division_template = "Kokka Anchisukiru"
 		start_experience_factor = 0.1
 	}
 	division = {
-		name = "2nd Molucca Anchisukiru"
+		name = "Harumaera Anchisukiru"
 		location = 7413
 		division_template = "Kokka Anchisukiru"
 		start_experience_factor = 0.1
@@ -101,7 +101,7 @@ units = { #includes army and navy but not air-force
 		start_experience_factor = 0.1
 	}
 	division = {
-		name = "Nyukaredonia Anchisukiru"
+		name = "Nuumea Anchisukiru"
 		location = 1263
 		division_template = "Kokka Anchisukiru"
 		start_experience_factor = 0.1
@@ -113,13 +113,13 @@ units = { #includes army and navy but not air-force
 		start_experience_factor = 0.1
 	}
 	division = {
-		name = "1st Soroman Anchisukiru"
+		name = "Honiara Anchisukiru"
 		location = 1269
 		division_template = "Kokka Anchisukiru"
 		start_experience_factor = 0.1
 	}
 	division = {
-		name = "2nd Soroman Anchisukiru"
+		name = "Arawa Anchisukiru"
 		location = 4226
 		division_template = "Kokka Anchisukiru"
 		start_experience_factor = 0.1
@@ -149,13 +149,13 @@ units = { #includes army and navy but not air-force
 		start_experience_factor = 0.1
 	} 
 	division = {
-		name = "1st Mikuroneshia Anchisukiru"
+		name = "Majuro Anchisukiru"
 		location = 13043
 		division_template = "Kokka Anchisukiru"
 		start_experience_factor = 0.1
 	}
 	division = {
-		name = "2nd Mikuroneshia Anchisukiru"
+		name = "Ani-wetok Anchisukiru"
 		location = 13046
 		division_template = "Kokka Anchisukiru"
 		start_experience_factor = 0.1

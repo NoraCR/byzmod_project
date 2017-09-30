@@ -114,7 +114,7 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Placeholder General"
+	name = "Allaquippa Naraticonck"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_9.dds"
 	traits = { engineer }
 	skill = 3
