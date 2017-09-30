@@ -9,6 +9,7 @@ state={
 		owner = POR
 		buildings = {
 			infrastructure = 3
+			arms_factory = 1
 			3118 = {
 				naval_base = 1
 			}
