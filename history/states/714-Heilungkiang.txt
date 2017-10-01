@@ -2,6 +2,10 @@ state={
 	id=714
 	name="STATE_714"
 	manpower = 5694191
+	resources={
+		oil=12
+
+	}
 	
 	state_category = pastoral
 

@@ -19,6 +19,7 @@ state={
 
 		}
 		add_core_of = FRA
+		add_core_of = GER
 
 		1939.1.1 ={
 			buildings = {
