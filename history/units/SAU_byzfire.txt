@@ -52,6 +52,26 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
+
+###NAVY###
+	navy = {					
+		name = "Royal Seljuk Navy"				
+		base = 12702
+		location = 12702
+		ship = { name = "Alp Arslan" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SAU  } } }						
+		ship = { name = "Al Riyadh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SAU  } } }
+		ship = { name = "Dammam" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SAU  } } }
+		ship = { name = "Hofouf" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SAU  } } }
+		ship = { name = "Doha" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU  } } }
+		ship = { name = "Sana'a" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU  } } }
+		ship = { name = "Aden" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU  } } }
+		ship = { name = "Al Mukallah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU  } } }
+		ship = { name = "Muscat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU  } } }
+		ship = { name = "Al Jubail" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU  } } }
+		ship = { name = "Khafji" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU  } } }
+		ship = { name = "Al Khobar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU  } } }
+		ship = { name = "Sharjah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU  } } }
+	}	
 }
 
 	######## No notable air force ########

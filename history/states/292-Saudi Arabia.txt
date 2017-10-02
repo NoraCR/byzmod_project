@@ -6,13 +6,13 @@ state={
 	
 	state_category = rural
 	resources={
-		oil=20
+		oil=72
 	}
 
 	history={
 		owner = SAU
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 1
 			12702 = {

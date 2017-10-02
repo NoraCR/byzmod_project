@@ -139,7 +139,6 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	traits = {  old_guard }
 	skill = 2
-	rank = 1
 }
 
 create_corps_commander = {
@@ -147,7 +146,6 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	traits = {  panzer_leader }
 	skill = 5
-	rank = 1
 }
 
 create_corps_commander = {
@@ -180,7 +178,7 @@ create_navy_leader = {
 	name = "Samiira Isir Mareye" #female
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	traits = { superior_tactician spotter }
-	skill = 3
+	skill = 5
 }
 
 create_navy_leader = {
