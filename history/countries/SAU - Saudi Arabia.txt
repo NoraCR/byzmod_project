@@ -82,12 +82,16 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 15
+			popularity = 5
 		}
 		
 		communism = {
 			popularity = 0
 			#banned = no #default is no
+		}
+
+		pangalism = {
+			popularity = 10
 		}
 		
 		neutrality = { 
