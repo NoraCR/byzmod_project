@@ -38,20 +38,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division = {
-		name = "Urgench Xalq Lashkari"
-		location = 1479
-		division_template = "Xalq Lashkari"
-		start_equipment_factor = 0.3
-
-	}
-	division = {
-		name = "Khiva Xalq Lashkari"
-		location = 1479
-		division_template = "Xalq Lashkari"
-		start_equipment_factor = 0.3
-
-	}
-	division = {
 		name = "Samarkand Xalq Lashkari"
 		location = 10470
 		division_template = "Xalq Lashkari"

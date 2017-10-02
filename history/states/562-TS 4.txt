@@ -3,13 +3,16 @@ state={
 	id=562
 	name="STATE_562" # Okhotsk
 	manpower = 126961
-	state_category = wasteland
+	state_category = rural
 
 	history={
 		owner = KOR
 		buildings = {
-			infrastructure = 3
-			naval_base = 3
+			infrastructure = 4
+			industrial_complex = 1
+			10598 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = KOR
 	}
