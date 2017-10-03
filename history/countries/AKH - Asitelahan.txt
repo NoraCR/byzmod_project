@@ -34,6 +34,7 @@ set_technology = {
 	transport = 1
 	superior_firepower = 1
 	base_strike = 1
+	synth_oil_experiments = 1
 }
 
 set_convoys = 200
