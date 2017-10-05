@@ -939,8 +939,19 @@ units = {
 		start_equipment_factor = 0.5
 	}
 #####NAVAL UNITS#####
+	navy = {				
+		name = "Di 1 Zhanjian Jiandui"			
+		base = 7014
+		location = 7014 #Shanghai
+		ship = { name = "CNS Fujian" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Zhejiang" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Shandong" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Liaoning" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Hebei" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Guangdong" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
+	}
 	navy = {
-		name = "Di 1 Jiandui" ##still small for a nation this big, but with their industry it can get a lot bigger
+		name = "Di 1 Haifang Jiandui" ##still small for a nation this big, but with their industry it can get a lot bigger
 		base = 7014
 		location = 7014 #Shanghai
 		ship = { name = "CNS Nanchen" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
@@ -977,7 +988,8 @@ units = {
 		name = "Nanyang Jiandui"
 		base = 1047
 		location = 1047 # Guangdong			
-
+		ship = { name = "CNS Jiangxi" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Anhui" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Laiyuan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CHI } } }	
 		ship = { name = "CNS Dingyuan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CHI } } }	
 		ship = { name = "CNS Zhenyuan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CHI } } }
@@ -994,7 +1006,7 @@ units = {
 		name = "Zhaonandao Jiandui"
 		base = 12299
 		location = 12299 # Singapore
-
+		ship = { name = "CNS Xingzhou" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Jieshen" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Xianfeng" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHI } } }		
 		ship = { name = "CNS Nanchen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }		
@@ -1002,6 +1014,20 @@ units = {
 		ship = { name = "CNS Kangji" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Feiting" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Huantai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }		
+	}
+		navy = {				
+		name = "Di 2 Qianting Jiandui"			
+		base = 12299
+		location = 12299
+		ship = { name = "CNS Q9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q11" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q12" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		
 	}
 }
 ### Air Forces ###
