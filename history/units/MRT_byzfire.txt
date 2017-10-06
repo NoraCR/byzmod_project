@@ -595,11 +595,14 @@ units = {
 	}
 #######Maratha Navy#######
 	navy = {
-		name = "Maratha Naudala" 
+		name = "1 Maratha Vegavana" 
 		base = 1349
 		location = 1349 # Mumbai
 		ship = { name = "Samyavada" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "Hivali Kranti" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Ahamadabada" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Gova" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } } 
+		ship = { name = "Madrasa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } } 
 		# 3 Nasa karanara Phadaphada
 		ship = { name = "Capala" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "Jalada" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
@@ -610,17 +613,32 @@ units = {
 		ship = { name = "Cidakhora" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }		
 		ship = { name = "Abhimana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }		
 		ship = { name = "Joradara" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }		
-		ship = { name = "Meghagarjana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }		
-	}		
+		ship = { name = "Meghagarjana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Bhavya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		# 5 Nasa karanara Phadaphada
+		ship = { name = "Hiravati" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Phrabhavati" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Dipavati" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+	}
+	navy = {
+		name = "Panabudi Vegavana" 
+		base = 3456
+		location = 3456 # Karachi
+		ship = { name = "P1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "P2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "P3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "P4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }	
+		ship = { name = "P5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }			
+	}			
 }
 air_wings = {
 	429 = {
 		fighter_equipment_0 = {
-			owner = "SOV" 
+			owner = "MRT" 
 			amount = 94
 		}
 		tac_bomber_equipment_0 =  {
-			owner = "SOV" 
+			owner = "MRT" 
 			amount = 60
 		}
 	}

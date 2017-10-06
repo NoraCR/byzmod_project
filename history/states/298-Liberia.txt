@@ -7,7 +7,7 @@ state=
 	state_category = megalopolis
 	
 	resources={
-		rubber=76.0000
+		rubber=106.0000
 		oil=22.0000
 	}
 

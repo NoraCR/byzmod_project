@@ -60,7 +60,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "11. Legionäre Kampfgruppe"
+		name = "11. Legionäre Kampfgruppe 'Valeria'"
 		location = 6286  # Friesland
 		division_template = "Legionäre Kampfgruppe"
 	}
@@ -105,7 +105,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "20. Legionäre Kampfgruppe"
+		name = "20. Legionäre Kampfgruppe 'Renovatio Imperii'"
 		location = 293 # Mecklemberg
 		division_template = "Legionäre Kampfgruppe"
 	}
@@ -135,7 +135,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "26. Legionäre Kampfgruppe"
+		name = "26. Legionäre Kampfgruppe 'Otto der Rote'"
 		location = 6332 # Prussen
 		division_template = "Legionäre Kampfgruppe"
 	}

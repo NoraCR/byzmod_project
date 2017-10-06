@@ -947,8 +947,6 @@ units = {
 		ship = { name = "CNS Zhejiang" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Shandong" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Liaoning" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
-		ship = { name = "CNS Hebei" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
-		ship = { name = "CNS Guangdong" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
 	}
 	navy = {
 		name = "Di 1 Haifang Jiandui" ##still small for a nation this big, but with their industry it can get a lot bigger

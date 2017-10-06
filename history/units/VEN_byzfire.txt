@@ -32,7 +32,7 @@ units = {
 
 	}
 	division= {	
-		name = "Los Qibings de Venezuela"
+		name = "Los Caballeros de Tianhui Catalina"
 		location = 8113 # Caracas
 		division_template = "División de Caballería"
 		start_experience_factor = 0.1
