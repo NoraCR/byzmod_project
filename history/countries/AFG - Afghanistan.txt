@@ -1,11 +1,25 @@
 ﻿capital = 585
 
-oob = "AFG_1936"
+oob = "AFG_byzfire"
 
 set_technology = {
 	infantry_weapons = 1
 	gwtank = 1
 	basic_light_tank = 1
+	early_fighter = 1
+	CAS1 = 1
+	gw_artillery = 1
+	interwar_artillery = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	tech_support = 1
+	support_weapons = 1	
+	basic_machine_tools = 1
+	construction1 = 1
+	oil_plant = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
 }
 
 1939.1.1 = {
@@ -24,7 +38,7 @@ set_technology = {
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "AFG_1939"
+	oob = "AFG_byzfire"
 	set_technology = {
 		early_fighter = 1
 		CAS1 = 1
@@ -63,32 +77,36 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 70
 		}
 
 		fascism = {
-			popularity = 15
+			popularity = 2
 		}
 		
 		communism = {
-			popularity = 10
+			popularity = 15
 			#banned = no #default is no
+		}
+
+		pangalism = {
+			popularity = 10
 		}
 		
 		neutrality = { 
-			popularity = 75
+			popularity = 3
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-# Mohammad Hashim Khan (Prime Minister) other potential candidate
+
 create_country_leader = {
-	name = "Mohammed Zahir Shah"
+	name = "Munir Akbar Ibrahimzai"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "1965.1.1"
@@ -96,6 +114,60 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+create_country_leader = {
+	name = "Razaq Parsa"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Siyar Durrani"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Kabir Shinwari"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Rahmat Khan Alpuri"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Mohammad Rushan"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_9.dds"
+	traits = { defensive_doctrine inspirational_leader }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Haron Zia Khan"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { desert_fox trait_mountaineer hill_fighter }
+	skill = 4
 }
 
 1939.1.1 = {
@@ -125,11 +197,4 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = no
 	}
-}
-
-create_corps_commander = {
-	name = "Sardar Shah Wali Khan"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { desert_fox }
-	skill = 4
 }
