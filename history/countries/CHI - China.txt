@@ -257,7 +257,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Ma Yahui"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { engineer }
+	traits = { trait_engineer }
 	skill = 3
 }
 create_corps_commander = {
