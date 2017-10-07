@@ -135,7 +135,7 @@ units = {
 	}			
 	division= {			
 		name = "16ya Kavaleriyskaya Diviziya"		
-		location = 11181
+		location = 7375 #Perm
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -197,7 +197,7 @@ units = {
 	# 4ya Strelkoviy Korpus			
 	division= {			
 		name = "29ya  'Vyatskaya' Strelk. Div."		
-		location = 9408
+		location = 3320
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -205,7 +205,7 @@ units = {
 	}			
 	division= {			
 		name = "33ya 'Belorusskaya' Strelk. Div."		
-		location = 9120
+		location = 6359
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -215,7 +215,7 @@ units = {
 	# 5ya Strelkoviy Korpus
 	division= {			
 		name = "5ya 'Vitebskaya' Strelk. Div."		
-		location = 415
+		location = 3255
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -223,7 +223,7 @@ units = {
 	}			
 	division= {			
 		name = "48ya 'Kashino-Tver.' Strelk. Div."		
-		location = 3310
+		location = 9340
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -231,7 +231,7 @@ units = {
 	}			
 	division= {			
 		name = "64ya Strelkovaya Diviziya"		
-		location = 3333
+		location = 310
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -294,7 +294,7 @@ units = {
 	}			
 	division= {			
 		name = "3ya Okhrana Pogranichnaya Diviziya"		
-		location = 11202
+		location = 3320
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1

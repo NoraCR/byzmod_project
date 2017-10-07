@@ -4,13 +4,13 @@ state={
 	name="STATE_536"
 	manpower = 2812000
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 		}
 		victory_points = {
 			10444 15 
