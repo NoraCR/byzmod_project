@@ -142,7 +142,7 @@ create_corps_commander = {
 }
 
 create_field_marshal = {
-	name = "Matsudaira Tsuka" #female
+	name = "Matsudaira Tsukasa" #female
 	picture = "jpn_marshal_tsuka_matsudaira.tga"
 	traits = { offensive_doctrine }
 	skill = 4
