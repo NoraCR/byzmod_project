@@ -703,6 +703,8 @@
  AFG_neutrality_DEF:0 "Afghanistan"
  AFG_communism:0 "Democratic Republic of Afghanistan"
  AFG_communism_DEF:0 "The Democratic Republic of Afghanistan"
+ AFG_pangalism:0 "Afuhan"
+ AFG_pangalism_DEF:0 "Afuhan Gongheguo"
  AFG_fascism_ADJ:0 "Afghan"
  AFG_democratic_ADJ:0 "Afghan"
  AFG_neutrality_ADJ:0 "Afghan"
