@@ -197,7 +197,7 @@ add_opinion_modifier = { target = PRC modifier = hostile_status }
 create_field_marshal = {
 	name = "Mei Zuoteng" #female
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { offensive_doctrine panzer_leader }
+	traits = { offensive_doctrine logistics_wizard }
 	skill = 5
 }
 create_field_marshal = {
@@ -239,7 +239,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Ha Rongzhao" #female
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { logistics_wizard }
+	traits = { panzer_leader }
 	skill = 5
 }
 create_corps_commander = {
