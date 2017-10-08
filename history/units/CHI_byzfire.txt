@@ -949,7 +949,7 @@ units = {
 		ship = { name = "CNS Liaoning" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
 	}
 	navy = {
-		name = "Di 1 Haifang Jiandui" ##still small for a nation this big, but with their industry it can get a lot bigger
+		name = "Di 1 Haifang Jiandui" 
 		base = 7014
 		location = 7014 #Shanghai
 		ship = { name = "CNS Nanchen" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }

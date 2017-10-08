@@ -10,17 +10,11 @@
 		prefix = "CNS"
 		generic = { "Quzujian" }
 		unique = {
-		#ming dynasty heroes
 		"Bailianjiao" "Zhu Yuanzhang" "Han Shantong" "Liu Futong" "Han Lin'er" "Xu Shouhui" "Chen Youliang" "Lan Yu" "Ding Dexing" "Mu Ying" "Feng Sheng" "Hu Dahai" "Chang Yuchun" "Guo Zixing" "Hongjin Qiyi" "Zhu Sheng" "Jiao Yu" "Liu Bowen" "Mu Ying" "Quan Tang" "He Suonan"
-		#naval heroes
 		"Xu Fu" "Zheng He" "Zhu Yu" "Yuan Kang" "Li Fang" "Wu Zixu" "Li Quan" "Qi Jiguang" "Li Bao"
-		#literary figures
 		"Sun Wukong" "Xuanzang" "Zhu Bajie" "Zhang Jiao" "He Jin" "Jia Baoyu" "Lin Daiyu" "Xue Baochai" "Jia Yuanchun" "Jia Tanchun" "Shi Xingyun" "Gao Qiu" "Chao Gai" "Lin Chong" "Shi Jin" "Chao Gai" "Miaoyu" "Jia Yingchun" "Jia Xichun" "Liu Bei" "Guan Yu" "Zhang Fei" "Wu Song" "Lin Chong" "Lu Zhishen" "Cao Cao" "Zhuge Liang" "Wang Xifeng" "Jia Qiaojie" "Sha Wujing" "Li Wan" "Qin Keqing" "Jia She" "Wang Yun" "Lu Bu" "Zhang Xiu" "Yuan Shu" "Sun Ce" "Sun Quan" "Sun Jian" "Gongsun Zan" "Jia Lian" "Xiangling" "Xue Pan" "Ping'er" "Liu Laolao" "Wang Furen" "Xue Yima" "Hua Xiren" "Qingwen" "Yuanyang" "Mingyan" "Zijuan" "Xueyan" 
-		#mythical beasts
 		"Xiao" "Ao" "Bashe" "Fucanglong" "Xiangliu" "Yinglong" "Rui Shi" "Tianlong" "Pixiu" "Xiniu" "Jingwei" "Jian" "Genghuang" "Sanzuwu" "Qing Niao" "Jiufeng" "Zhen" "Taowu" "Hundun" "Qiongqi" "Zhayu" "Peng" "Bi Fang" "Fusang" "Bai Ze" "Qinlin" "Xiezhi" "Luduan" "Dilong" "Jialong" "Nian" "Jiuwei Hu" "Qilin" "Kui" "Jiangshi" "Yaoguai"
-		#geological features
 		"Taishan" "Huashan" "Hengshan" "Songshan" "Wutaishan" "Emeishan" "Jihuashan" "Putuoshan" "Wudangshan" "Longhushan" "Qiyunshan" "Qingchengshan" "Kunlunshan"
-		#rivers
 		"Changjiang" "Huanghe" "Zhujiang" "Lancangjiang" "Songhuajiang" "Zangbujiang" "Shiquanhe" "Nujiang" "Gangajiang" "Amuhe" "Tarimuhe"
 		}
 	}
@@ -28,15 +22,13 @@
 		prefix = "CNS"
 		generic = { "Qing Xunyangjian" }
 		unique = {
-		#non-capital cities
-			"Suzhou" "Chonqging" "Dalian" "Qingdao" "Quanzhou" "Dalian" "Baoding" "Changsha" "Lanzhou" "Shenyang" "Hankou" "Hanyang" "Changchun" "Ningbo" "Zibo" "Hefei" "Changzhou" "Taizhou" "Taishan" "Nantong" "Nanning" "Huai'an" "Xuzhou" "Linyi" "Anshan" "Huaibei" "Haikou" "Yiwu" "Baotou" "Liuzhou" "Anyang" Yangzhou" "Huizhou" "Dongguan" "Wenzhou" "Anqing" "Jiujiang" "Qiqihar" "Dihua"
+			"Suzhou" "Chonqging" "Dalian" "Qingdao" "Quanzhou" "Baoding" "Changsha" "Lanzhou" "Shenyang" "Hankou" "Hanyang" "Changchun" "Ningbo" "Zibo" "Hefei" "Changzhou" "Taizhou" "Taishan" "Nantong" "Nanning" "Huai'an" "Xuzhou" "Linyi" "Anshan" "Huaibei" "Haikou" "Yiwu" "Baotou" "Liuzhou" "Anyang" Yangzhou" "Huizhou" "Dongguan" "Wenzhou" "Anqing" "Jiujiang" "Qiqihar" "Dihua"
 		}
 	}
 	heavy_cruiser = {
 		prefix = "CNS"
 		generic = { "Zhong Xunyangjian" }
 		unique = {
-			#provincial capitals/independent cities
 			"Shanghai" "Beijing" "Nanjing" "Fuzhou" "Guangzhou" "Guilin" "Guiyang" "Kaifeng" "Wuchang" "Nanchang" "Xi'an" "Jinan" "Taiyuan" "Chengdu" "Yunnan" "Hangzhou" "Kunming" "Mangu" "Henei" "Chaigun" "Mandelei" "Kabu'er" "Asitelahan" "Tashengan" "Bishenkaike" "Wanxiang" "Wu'er" "Huangheshi"
 		}
 	}
@@ -44,7 +36,6 @@
 		prefix = "CNS"
 		generic = { "Zhanlie Xunyangjian" }
 		unique = {
-		#non-Han provinces/protectorates/dependencies
 			"Annan" "Jiaozhi" "Jianpuzhai" "Xianluo" "Gaomian" "Miandian" "Malai" "Aertai" "Xizang" "Qinghai" "Menggu" "Fengtian" "Heilongjiang" "Jilin" "Asitelahan" "Chechen" "Gelujiya" "Tang Gesake" "Kuban Gesake"
 		}
 	}
@@ -52,7 +43,6 @@
 		prefix = "CNS"
 		generic = { "Zhanjian" }
 		unique = {
-		#Ming Dynasty provinces
 			"Zhili" "Fujian" "Guangdong" "Guangxi" "Guizhou" "Henan" "Huguang" "Jiangxi" "Shaanxi" "Shandong" "Shanxi" "Sichuan" "Yunnan" "Zhejiang"
 		}
 	}
@@ -60,9 +50,7 @@
 		prefix = "CNS"
 		generic = { "Hangmu" }
 		unique = {
-		#foundational battle sites
 			"Poyang Hu" "Caishi" "Tangdao" "Jingxing" "Weihu" "Gaixia" "Chibi" "Julu" "Fancheng" "Xiakou" "Xiapi" 
-		#the richest men and women in china
 			"Zhang Zhulin" "Mu Dahai" "Song Xiexia" "Chen Xin" "Long Yibing" "Hu Minxia" "Zhang Li" "Pang Ye" "Zheng Hanbin" "Cao Liuxian" "Liu Kesan"
 		}
 	}
