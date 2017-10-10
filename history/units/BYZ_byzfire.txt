@@ -10,8 +10,8 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
@@ -35,11 +35,12 @@ division_template = {
 	support = {
 		recon = { x = 0 y = 0 }      # Recon Group consisted of 26 ACs + motorcycles
 		artillery = { x = 0 y = 1 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
+		engineer = { x = 0 y = 2 }
 	}
 	priority = 2
 }
 division_template = {
-	name = "Red Guard Division"  	# local forces.
+	name = "Red Guard Division"  	# local forces. Useful for mass assaults
 
 	regiments = {						
 		infantry = { x = 0 y = 0 }
@@ -58,6 +59,7 @@ division_template = {
 	support = {
 		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
 		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+		anti_tank = { x = 0 y = 2 }
 	}
 }
 division_template = {
@@ -104,7 +106,8 @@ division_template = {
 		infantry = { x = 0 y = 2 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }   
+		engineer = { x = 0 y = 0 }  
+		anti_air = { x = 0 y = 1 }
 	}
 	priority = 0
 }
