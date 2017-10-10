@@ -130,12 +130,14 @@ units = {
 		location = 11502
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division= {	
 		name = "3ème Brigade de Chars de Combat"
 		location = 11502
 		division_template = "Brigade de Chars de Combat" 		# FT-17s
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
 	}
 
 	# Xe Corps d'Armée (Région Militaire in 1936) -- Strassbourg
@@ -144,7 +146,7 @@ units = {
 		location = 9503
 		division_template = "Division Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division= {	
@@ -152,6 +154,7 @@ units = {
 		location = 6529
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 
 	# XXe Corps d'Armée (Région Militaire in 1936) -- Nancy
@@ -160,7 +163,7 @@ units = {
 		location = 3629
 		division_template = "Division Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division= {	
@@ -168,6 +171,7 @@ units = {
 		location = 549
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division= {	
 		name = "2ème Division de Cavalerie"
@@ -182,6 +186,7 @@ units = {
 		location = 11516
 		division_template = "Brigade de Chars de Combat" 		# FT-17s
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
 	}
 
 	# Ie Corps d'Armée (Région Militaire in 1936) -- Lille
@@ -190,13 +195,14 @@ units = {
 		location = 11483
 		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "7ème Division d'Infanterie"
 		location = 575
 		division_template = "Division Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 
 	}
 
@@ -206,6 +212,7 @@ units = {
 		location = 454
 		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 
 	# IIIe Corps d'Armée (Région Militaire in 1936) -- Rouen
@@ -214,6 +221,7 @@ units = {
 		location = 11563
 		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 
 	# XIIe Corps d'Armée (Région Militaire in 1936) -- Reims
@@ -222,12 +230,14 @@ units = {
 		location = 9472
 		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "1ère Division Légère Mécanique"
 		location = 13011
 		division_template = "Division Légère Mécanique" 	# DLM is frontline, best equipment, L Arm = H-35
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 
 	# IVe Corps d'Armée (Région Militaire in 1936) -- Le Mans
@@ -236,6 +246,7 @@ units = {
 		location = 3509
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 
 	# Ve Corps d'Armée (Région Militaire in 1936) -- Orleans
@@ -244,6 +255,7 @@ units = {
 		location = 3509
 		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {	
 		name = "1ère Division de Cavalerie"
@@ -260,6 +272,7 @@ units = {
 		location = 3671
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 
 	# XIe Corps d'Armée (Région Militaire in 1936) -- Nantes
@@ -276,12 +289,14 @@ units = {
 		location = 6536
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "5ème Brigade de Chars de Combat"
 		location = 11465
 		division_template = "Brigade de Chars de Combat" 		# R-35s
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
 	}
 
 	# Région Militaire de Paris -- Paris
@@ -332,12 +347,14 @@ units = {
 		location = 678
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "14ème Division d'Infanterie"
 		location = 9642
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 
 	# VIIIe Corps d'Armée (Région Militaire in 1936) -- Dijon
@@ -346,13 +363,14 @@ units = {
 		location = 3652
 		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division= {	
 		name = "24ème Division d'Infanterie"
 		location = 3652
 		division_template = "Division Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 
 	}
 
@@ -405,7 +423,7 @@ units = {
 		location = 11576
 		division_template = "Division Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 
 	}
 	division= {	
@@ -413,7 +431,7 @@ units = {
 		location = 11576
 		division_template = "Division Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 
 	}
 	division= {	
@@ -421,6 +439,7 @@ units = {
 		location = 11576
 		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 
 	# XVIIe Corps d'Armée (Région Militaire in 1936) -- Toulouse
@@ -429,7 +448,7 @@ units = {
 		location = 6766
 		division_template = "Division Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 
@@ -439,6 +458,7 @@ units = {
 		location = 9737
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 
 	# XIVe Corps d'Armée (Région Militaire in 1936) -- Lyon
@@ -447,13 +467,14 @@ units = {
 		location = 778
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division= {	
 		name = "30ème Division d'Infanterie Alpine"
 		location = 9745
 		division_template = "Division d'Infanterie Alpine" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.6
 
 	}
 	division= {	
@@ -461,6 +482,7 @@ units = {
 		location = 6613
 		division_template = "Brigade de Chars de Combat" 			# FT-17s
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
 	}
 
 
@@ -470,6 +492,7 @@ units = {
 		location = 6975
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 
 	# XVIe Corps d'Armée (Région Militaire in 1936) -- Montpellier
@@ -478,6 +501,7 @@ units = {
 		location = 9898
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 
 	# Division d'Inf. Forteresse -- Nice
@@ -495,30 +519,35 @@ units = {
 		location = 9620
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {	
 		name = "35ème Division d'Infanterie Alpine"
 		location = 9620
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "34ème Division d'Infanterie Alpine"
 		location = 663
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "36ème Division d'Infanterie Alpine"
 		location = 663
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "37ème Division d'Infanterie Alpine"
 		location = 673
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	# Piedmont Infantry Divisions
 	division= {	
@@ -526,42 +555,49 @@ units = {
 		location = 6780
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "40ème Division d'Infanterie"
 		location = 6780
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "42ème Division d'Infanterie"
 		location = 6780
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "44ème Division d'Infanterie"
 		location = 6788
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "46ème Division d'Infanterie"
 		location = 6788
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "5ère Brigade de Chars de Combat"
 		location = 6788
 		division_template = "Brigade de Chars de Combat" 			# FT-17s
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 	division= {	
 		name = "6ère Brigade de Chars de Combat"
 		location = 11834
 		division_template = "Brigade de Chars de Combat" 			# FT-17s
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 	# Corsica/Sardinia/Balearic Garrisons
 	division= {	
@@ -591,24 +627,28 @@ units = {
 		location = 885
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "48ème Division d'Infanterie"
 		location = 3816
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "37ème Division d'Infanterie Alpine"
 		location = 3816
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "49ème Division d'Infanterie"
 		location = 6906
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	### GRAND-EST ###
 	division= {	
@@ -616,78 +656,91 @@ units = {
 		location = 516
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {	
 		name = "51ème Division d'Infanterie"
 		location = 516
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "52ème Division d'Infanterie"
 		location = 516
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "6ère Brigade de Chars de Combat"
 		location = 516
 		division_template = "Brigade de Chars de Combat" 			# FT-17s
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "52ème Division d'Infanterie"
 		location = 9444
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "53ème Division d'Infanterie"
 		location = 9444
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "54ème Division d'Infanterie"
 		location = 9444
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 		division= {	
 		name = "55ème Division d'Infanterie"
 		location = 9444
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "5ème Div. d'Infanterie Motorisée"
 		location = 6496
 		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division= {	
 		name = "56ème Division d'Infanterie"
 		location = 6496
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "57ème Division d'Infanterie"
 		location = 11435
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "15ème Div. d'Infanterie Motorisée"
 		location = 3423
 		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "16ème Div. d'Infanterie Motorisée"
 		location = 3423
 		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 #####CSP (Comité de salut public) REGIMENTS - SECRET POLICE #####
 	division= {	
