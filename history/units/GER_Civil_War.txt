@@ -135,3 +135,9 @@ units = {
 		location = 6377  # Hannover
 		division_template = "Internationale Brigaden"
 	}
+	division = {
+		name = "XXVI Internationale Brigaden 'Republik'"
+		location = 6377  # Hannover
+		division_template = "Internationale Brigaden"
+	}	
+}

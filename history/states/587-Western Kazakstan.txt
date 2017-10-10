@@ -5,6 +5,9 @@ state={
 	manpower = 245133
 	
 	state_category = rural
+	resources={
+		oil = 37.000
+	}
 
 	history={
 		owner = TRX

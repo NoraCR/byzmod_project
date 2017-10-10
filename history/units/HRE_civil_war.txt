@@ -15,7 +15,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "2. Legionäre Kampfgruppe"
+		name = "2. Legionäre Kampfgruppe 'Otto der Rote'"
 		location = 514  # Dresden
 		division_template = "Legionäre Kampfgruppe"
 	}
@@ -30,7 +30,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "5. Legionäre Kampfgruppe"
+		name = "5. Legionäre Kampfgruppe 'Henricus Auceps'"
 		location = 514  # Dresden
 		division_template = "Legionäre Kampfgruppe"
 	}
@@ -45,7 +45,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "8. Legionäre Kampfgruppe"
+		name = "8. Legionäre Kampfgruppe 'Ottonius Magnus'"
 		location = 3512  # Friesland
 		division_template = "Legionäre Kampfgruppe"
 	}
@@ -121,26 +121,6 @@ units = {
 	}
 	division = {
 		name = "23. Legionäre Kampfgruppe 'König Stanislaus'"
-		location = 6332 # Prussen
-		division_template = "Legionäre Kampfgruppe"
-	}
-	division = {
-		name = "24. Legionäre Kampfgruppe"
-		location = 6332 # Prussen
-		division_template = "Legionäre Kampfgruppe"
-	}
-	division = {
-		name = "25. Legionäre Kampfgruppe 'Henricus Auceps'"
-		location = 6332 # Prussen
-		division_template = "Legionäre Kampfgruppe"
-	}
-	division = {
-		name = "26. Legionäre Kampfgruppe 'Otto der Rote'"
-		location = 6332 # Prussen
-		division_template = "Legionäre Kampfgruppe"
-	}
-	division = {
-		name = "27. Legionäre Kampfgruppe 'Ottonius Magnus'"
 		location = 6332 # Prussen
 		division_template = "Legionäre Kampfgruppe"
 	}
