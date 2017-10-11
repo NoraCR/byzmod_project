@@ -410,10 +410,10 @@ units = {
 		ship = { name = "ANS Ayiti" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Coabana" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AYI } } }	 
 		ship = { name = "ANS Tocobaga" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AYI } } }	 
-		ship = { name = "ANS Cahokia" definition = battle_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }
-		ship = { name = "ANS Penobscot" definition = battle_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }
-		ship = { name = "ANS Samoset" definition = battle_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }	
-		ship = { name = "ANS Agueybana" definition = battle_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }			
+		ship = { name = "ANS Cahokia" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Penobscot" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Samoset" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }	
+		ship = { name = "ANS Agueybana" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }			
 		ship = { name = "ANS Mecidiye" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Guarionex" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Umpqua" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
@@ -429,8 +429,7 @@ units = {
 		ship = { name = "ANS Guacanagarix" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Hayuya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Orocobix" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
-	}	
-			
+	}				
 	navy = {				
 		name = "Ayiti Destroyer Patrol"			
 		base = 1550
@@ -458,7 +457,24 @@ units = {
 		ship = { name = "ANS Barana" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Chali" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Coai" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }		
-	}				
+	}	
+	navy = {				
+		name = "Ayiti Northern Command"			
+		base = 788
+		location = 788 # Roanoke
+		ship = { name = "ANS Quinipissa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ANS Biloxi" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ANS Chickamauga" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Karankawa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Millioke" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Tjisondari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }	
+		ship = { name = "ANS Kajeruna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Montauk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Santee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Keweenaw" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Timicua" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Chickasaw" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+	}	
 }
 #####AIR WINGS######
 air_wings = {
