@@ -85,6 +85,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_fra_jean_ioannes_gaudreau.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_armel_de_forbin"
+		texturefile = "gfx/interface/ideas/idea_armel_de_forbin.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_isabelle_durand"
 		texturefile = "gfx/interface/ideas/idea_fra_isabelle_durand.dds"
 	}

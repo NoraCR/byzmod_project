@@ -690,9 +690,9 @@ ideas = {
 			}
 		}
 
-		FRA_henri_marie_auguste_bineau = {
+		FRA_armel_de_forbin = {
 			
-			picture = generic_army_europe_3
+			picture = armel_de_forbin
 			
 			allowed = {
 				original_tag = FRA
@@ -700,7 +700,7 @@ ideas = {
 			
 
 			
-			traits = { army_chief_offensive_1 }
+			traits = { army_chief_offensive_3 }
 			
 			ai_will_do = {
 				factor = 1
