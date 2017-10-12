@@ -1,0 +1,109 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+SOM_template_design_1 = {
+	enable = {
+	
+		original_tag = SOM
+		date < 1940.1.1				
+	}
+	abort = { 
+		date > 1940.1.1
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = 10
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = cavalry
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = light_armor
+		value = 40
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = medium_armor
+		value = 10
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = heavy_armor
+		value = -50
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = paratroopers
+		value = -50
+	}
+}
+
+
+SOM_template_design_2 = {
+	enable = {
+	
+		original_tag = SOM
+		date > 1940.1.1				
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = 30
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = cavalry
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = light_armor
+		value = -20
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = medium_armor
+		value = 40
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = heavy_armor
+		value = 10
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = paratroopers
+		value = -50
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = mechanized
+		value = -20
+	}
+}
