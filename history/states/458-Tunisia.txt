@@ -3,9 +3,9 @@ state={
 	id=458
 	name="STATE_458"
 	manpower = 1982940
-	state_category = town
+	state_category = city
 	resources={
-		steel=8
+		steel=18
 	}
 
 	history={
@@ -18,8 +18,10 @@ state={
 			9994 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
 			air_base = 8
 			9994 = {
 				naval_base = 8

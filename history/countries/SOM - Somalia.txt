@@ -127,10 +127,86 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
-	name = "George S. Placeholder"
-		picture = "Portrait_USA_George_S_Patton.dds"
-	traits = {  trickster panzer_leader }
-	skill = 5
+create_field_marshal = {
+	name = "Cumar Cabdullahi Ugas"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = { defensive_doctrine old_guard }
+	skill = 2
+}
 
+create_corps_commander = {
+	name = "Khadiijo Maxamed Qambi" #female
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = {  old_guard }
+	skill = 2
+	rank = 1
+}
+
+create_corps_commander = {
+	name = "Berehanu Gedeyon" #Ethiopian
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = {  panzer_leader }
+	skill = 5
+	rank = 1
+}
+
+create_corps_commander = {
+	name = "Hufane Huruuse Mursal"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = {  }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Caaqil Maxamuud Naaleeye"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	traits = {  }
+	skill = 2
+}
+create_corps_commander = {
+	name = "Abdirashid Moalim Idiris"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	traits = {  }
+	skill = 2
+}
+create_corps_commander = {
+	name = "Fadumma Farah Haid" #female
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	traits = {  }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Samiira Isir Mareye" #female
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = { superior_tactician spotter }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Abdirahman Hirsi Jama"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = { ironside }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Asha-Kos Hussein Haji Abdi"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	traits = { }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Cabdullahi Osoble Tahir"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = { superior_tactician }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Athouman Qureshi" #Egyptian
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	traits = { superior_tactician spotter }
+	skill = 3
 }

@@ -255,54 +255,26 @@ create_field_marshal = {
 	name = "Ludwyk Weyher"
 	picture = "pol_ludwyk_weyher.dds"
 	traits = { offensive_doctrine logistics_wizard }
-	skill = 7
+	skill = 5
 }
 
-create_field_marshal = {
+create_corps_commander = {
 	name = "Sebastian Furck"
 	picture = "pol_sebastian_furck.dds"
-	traits = {  thorough_planner }
-	skill = 5
+	traits = { panzer_leader trait_engineer }
+	skill = 4
 }
 
-create_field_marshal = {
+create_corps_commander = {
 	name = "Aleksander Karski"
 	picture= "pol_aleksander_karski.dds"
-	traits = {  defensive_doctrine }
+	traits = {  trait_mountaineer }
 	skill = 3
 }
 
-create_field_marshal = {
+create_corps_commander= {
 	name = "Czcibor Umiastowski"
 	picture = "pol_czcibor_umiastowski.dds"
-	traits = {  inspirational_leader }
+	traits = { urban_assault_specialist }
 	skill = 5
-}
-
-create_corps_commander = {
-	name = "Eliasz Mioduski"
-	picture = "pol_eliasz_mioduski.dds"
-	traits = {  panzer_leader }
-	skill = 4
-}
-
-create_corps_commander = {
-	name = "Bernard Pełka
-	picture = "pol_bernard_pelka.dds"
-	traits = {  }
-	skill = 4
-}
-
-create_corps_commander = {
-	name = "Boleslaw Karnicki"
-	picture = "pol_boleslaw_karnicki.dds"
-	traits = { trickster }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Luiza Mrotek
-	picture = "pol_luiza_mrotek.dds"
-	traits = {  }
-	skill = 4
 }

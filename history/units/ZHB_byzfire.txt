@@ -1,0 +1,219 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "División de Infantería" 		# Used for both regular infantry divisions and larger garrison divisions
+	# Note: Spanish divisions were 2x brigades of 2x2 rgts each, + support
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
+		engineer = { x = 0 y = 1 }   # Eng Bn
+	}
+}
+division_template = {
+	name = "División de Caballería"  		# Only one Cavalry Division (3x bge of 2x2 Rgts)
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		cavalry = { x = 2 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of motorcycles and ACs
+	}
+}
+division_template = {
+	name = "Brigada Montaña"  		# Mountain Brigades were 2x2 Rgts + support
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
+	}
+}
+division_template = {
+	name = "Brigada de Infantería" 		# Infantry Brigade - Used for smaller garrison units
+	regiments = {
+		infantry = { x = 0 y = 0 }	
+		infantry = { x = 0 y = 1 }	
+		infantry = { x = 1 y = 0 }	
+		infantry = { x = 1 y = 1 }	
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   # Eng Bn
+	}
+}
+
+###### OOB ######
+units = {
+	#####LAND UNITS #####
+	### MAINLAND UNITS ###
+	division = {			
+		name = "1a División de Infantería"		
+		location = 6732  # Boston
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "2a División de Infantería"		
+		location = 9832  # Connecticut
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "3a División de Infantería"		
+		location = 3712  # New Hampshire
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = {			
+		name = "1a División de Caballería"		
+		location = 6732  # Boston
+		division_template = "División de Caballería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = {			
+		name = "1a Brigada Montaña"		
+		location = 12221  # Maine
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "2a Brigada Montaña"		
+		location = 4445 # Vermont
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+		
+	### Island Garrisons ###
+	division = {			
+		name = "Comandancia de Bermuda"		
+		location = 13010  #Bermuda
+		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ZHB" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+					
+	##### NAVAL UNITS #####
+	navy = {
+		name = "Base Naval Providencia"
+		base = 9832
+		location = 9832  # Providence
+		ship = { name = "ARE Libertad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "ARE Alsedo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "ARE Velasco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "ARE Lazaga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZHB } } }
+	}
+	navy = {
+		name = "Flota del Cruceros"
+		base = 9832
+		location = 9832  #Cádiz
+		ship = { name = "ARE Independencia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "ARE Constante" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "ARE Resistencia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ZHB } } }
+	}
+	navy = {
+		name = "Base Naval Moswetuset"
+		base = 6732
+		location = 6732  #Boston
+		# Flotilla de Destructores n.1
+		ship = { name = "ARE Almirante Ferrándiz" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "ARE Alcalá Galiano" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "ARE Almirante Valdés" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZHB } } }
+		# Flotilla de Destructores n.2
+		ship = { name = "ARE Churucca" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "ARE José Luis Díez" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "ARE Lepanto" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ZHB } } }
+	}
+	navy = {
+		name = "Grupo de Bermudas"
+		base = 13010
+		location = 13010  #Bermuda
+		# S103 Flotilla
+		ship = { name = "B1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "B2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "B3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ZHB } } }
+		ship = { name = "B4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ZHB } } }
+	}
+}
+
+### Air Wings
+air_wings = {
+	357 = { 
+		# Grupo n.1 de Caza FARE 'Alas Rojas'
+		fighter_equipment_0 = {
+			owner = "ZHB" 
+			amount = 36
+		}
+	}
+}
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "ZHB"
+		}
+		requested_factories = 2
+		progress = 0.42
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ZHB"
+		}
+		requested_factories = 1
+		progress = 0.24
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "ZHB"
+		}
+		requested_factories = 1
+		progress = 0.24
+		efficiency = 100
+	}
+}

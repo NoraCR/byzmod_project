@@ -3,12 +3,13 @@ state={
 	name="STATE_701"
 	manpower = 199520
 	
-	state_category = enclave
+	state_category = city
 	history={
 		owner = GHA
 		add_core_of = GHA
 		buildings = {
-			infrastructure = 5
+			infrastructure = 6
+			industrial_complex = 2
 			4989 = {
 				naval_base = 1
 			}

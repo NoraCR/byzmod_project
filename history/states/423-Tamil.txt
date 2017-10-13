@@ -4,7 +4,7 @@ state={
 	name="STATE_423" # Madurai
 	manpower = 29147500
 	
-	state_category = rural
+	state_category = large_city
 	
 	resources={
 		rubber=28
@@ -14,15 +14,16 @@ state={
 		owner = MRT
 		add_core_of = MRT
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			air_base = 1
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
 			10278 = {
 				naval_base = 4
 			}
 		}
 		victory_points = {
-			10278 1 
+			10278 5 
 		}
 
 	}

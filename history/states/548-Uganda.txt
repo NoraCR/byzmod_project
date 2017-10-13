@@ -2,7 +2,8 @@ state={
 	id=548
 	name="STATE_548"
 	resources={
-		rubber=6.000
+		rubber=44.000
+		tungsten=12.000
 	}
 
 	state_category = rural

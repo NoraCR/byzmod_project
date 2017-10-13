@@ -206,7 +206,7 @@ units = {
 		location = 6534
 		division_template = "Krolewski Husaria" 
 		start_experience_factor = 0.2
-	#	start_equipment_factor = 0.3
+		start_equipment_factor = 0.3
 
 	}
 	division= {	
@@ -249,7 +249,7 @@ units = {
 		location = 3553
 		division_template = "Krolewski Artyleria" 
 		start_experience_factor = 0.2
-	#	start_equipment_factor = 0.3
+		start_equipment_factor = 0.3
 
 	}
 
@@ -278,26 +278,26 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-	division= {
-		name = "31 Krolewski Polska Piechota"
+	division= {	
+		name = "Nowogródzka B.K."
 		location = 11511
-		division_template = "Krolewski Polska Piechota" 
+		division_template = "Brygada Kawalerii" 
 		start_experience_factor = 0.2
-	#	start_equipment_factor = 0.3
+		start_equipment_factor = 0.3
 
 	}
 	division= {	
-		name = "Mazowiecka D.P."
+		name = "Mazowiecka B.K."
 		location = 11511
-		division_template = "Krolewski Dywizja Pancernej" 
+		division_template = "Brygada Kawalerii" 
 		start_experience_factor = 0.2
-	#	start_equipment_factor = 0.3
+		start_equipment_factor = 0.3
 
 	}
 
 	### Armia Wilno ###	
-	division= {
-		name = "32 Krolewski Polska Piechota"
+	division= {	
+		name = "1 DP Legionów im. Pilsudskiego"
 		location = 421
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
@@ -331,12 +331,12 @@ units = {
 	}
 
 	### Armia Wolyn ###	
-	division= {
-		name = "3 Krolewski Polska Piechota"
+	division= {	
+		name = "3 Krolewski Polska Piechota Legionów"
 		location = 3485
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.3
-	#	start_equipment_factor = 0.7
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -378,7 +378,7 @@ units = {
 		location = 3569
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
-	#	start_equipment_factor = 0.3
+		start_equipment_factor = 0.3
 
 	}
 

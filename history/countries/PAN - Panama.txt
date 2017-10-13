@@ -1,10 +1,11 @@
 ﻿capital = 304
 
-oob = "PAN_1936"
+oob = "PAN_byzfire"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	tech_support = 1
 }
 
 set_convoys = 10
@@ -81,11 +82,22 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Harmodio Arias Madrid"
-	desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	name = "John Claude Gibbs"
+	desc = "POLITICS_JUAN_DEMOSTENES_AROSEMENA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Eileen Crawford"
+	desc = "POLITICS_JULY_PORTOCARRERO_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	expire = "1965.1.1"
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -116,7 +128,7 @@ create_country_leader = {
 	}
 
 	create_country_leader = {
-		name = "Juan Demóstenes Arosemena"
+		name = "John Claude Gibbs"
 		desc = "POLITICS_JUAN_DEMOSTENES_AROSEMENA_DESC"
 		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 		expire = "1965.1.1"
@@ -127,7 +139,7 @@ create_country_leader = {
 	}
 
 	create_country_leader = {
-		name = "July Portocarrero"
+		name = "Eileen Crawford"
 		desc = "POLITICS_JULY_PORTOCARRERO_DESC"
 		picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 		expire = "1965.1.1"

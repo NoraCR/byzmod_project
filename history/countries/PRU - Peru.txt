@@ -70,7 +70,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 49
+			popularity = 39
 		}
 
 		fascism = {
@@ -78,8 +78,11 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 51
+			popularity = 11
 			#banned = no #default is no
+		}
+		neutrality = {
+			popularity = 50
 		}
 	}
 	
@@ -90,16 +93,57 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Óscar Benavides"
+	name = "Viracocha II Quingallumba" #nora portrait here
 	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = despotism
 	traits = {
 		#
 	}
 }
-
+create_country_leader = {
+	name = "Mama’Achiq Ucharima Ticahuanca"
+	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Awak Huyhua Aucapuma"
+	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+	expire = "1965.1.1"
+	ideology = rexism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Lliuyaq Huayta Rimayhuaman" #female
+	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+create_corps_commander = {
+	name = "Sumak Guañuna Soncco"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { trickster  }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Qhapaqyupanki Jaillita Chamba" #female
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { }
+	skill = 2
+}
 1939.1.1 = {
 	set_politics = {
 

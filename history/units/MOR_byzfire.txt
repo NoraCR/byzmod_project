@@ -105,7 +105,7 @@ units = {
 	}
 	#Canaries Command
 	division = {
-		name = "AÃ±azo Garrison" #Canaries garrison division; garrison nature reflected by low starting supplies
+		name = "Añazo Garrison" #Canaries garrison division; garrison nature reflected by low starting supplies
 		location = 13071
 		division_template = "Katibat Mushatan"
 		start_experience_factor = 0.1

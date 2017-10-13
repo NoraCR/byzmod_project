@@ -2,9 +2,9 @@
 state={
 	id=480
 	name="STATE_480"
-	manpower = 827826
+	manpower = 1527826
 	
-	state_category = town
+	state_category = city
 	
 	resources={
 		oil=48
@@ -13,8 +13,9 @@ state={
 	history={
 		owner = HDA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 1
+			arms_factory = 1
 		}
 		add_core_of = HDA
 		victory_points = {

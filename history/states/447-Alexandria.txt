@@ -4,7 +4,8 @@ state={
 	name="STATE_447"
 	manpower = 3859239
 	resources={
-		oil=2
+		oil=66
+		steel=88
 	}
 	
 	state_category = megalopolis

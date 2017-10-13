@@ -135,295 +135,191 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Tomoyuki Yamashita"
+	name = "Gennosuke Moriyama"
 		picture = "Portrait_Japan_Tomoyuki_Yamashita.dds"
 	traits = {trickster trait_engineer}
 	skill = 5
 }
 
 create_field_marshal = {
-	name = "Hisaichi Terauchi"
+	name = "Tsuka Matsudaira" #female
 	picture = "Portrait_Japan_Hisaichi_Terauchi.dds"
 	traits = { offensive_doctrine }
 	skill = 4
 }
 
 create_field_marshal = {
-	name = "Shunroku Hata"
+	name = "Otojiro Ogasawara" 
 		picture = "Portrait_Japan_Shunroku_Hata.dds"
 	traits = { offensive_doctrine }
 	skill = 4
 }
 
-create_field_marshal = {
-	name = "Iwane Matsui"
-		picture = "Portrait_Japan_Iwane_Matsui.dds"
-	traits = { offensive_doctrine old_guard }
-	skill = 1
-}
-
 create_corps_commander = {
-	name = "Akira Muto"
-		picture = "Portrait_Japan_Akira_Muto.dds"
-	traits = {   }
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Kanji Ishiwara"
-		picture = "Portrait_Japan_Kanji_Ishiwara.dds"
-	traits = {  }
-	skill = 1 
-}
-
-create_corps_commander = {
-	name = "Shizuichi Tanaka"
+	name = "Misao Hayashi"
 		picture = "Portrait_Japan_Shizuichi_Tanaka.dds"
 	traits = { trickster }
 	skill = 4
 }
-
 create_corps_commander = {
-	name = "Yasuji Okamura"
-		picture = "Portrait_Japan_Yasuji_Okamura.dds"
-	traits = {  }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Toshizo Nishio" #Toshizo
+	name = "Enko Tanegashima" #female
 		picture = "Portrait_Japan_Toshizo_Nishio.dds"
 	traits = {  }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "Rikichi Ando" #Ando
+	name = "Reisa Utsunomiya" #female
 		picture = "Portrait_Japan_Rikichi_Ando.dds"
 	traits = {  }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "Naruhiko Higashikuni"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = {  }
-	skill = 1 
-}
-
-create_corps_commander = {
-	name = "Seishiro Itagaki"
+	name = "Isono Nitta" #female
 		picture = "Portrait_Japan_Seishiro_Itagaki.dds"
 	traits = {  }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "Takashi Sakai"
+	name = "Seinosuke Imagawa"
 		picture = "Portrait_Japan_Takashi_Sakai.dds"
 	traits = {  }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "Kenji Doihara"
-		picture = "Portrait_Japan_Kenji_Doihara.dds"
-	traits = {  }
-	skill = 1 
-}
-
-create_corps_commander = {
-	name = "Nobuyushi Muto"
+	name = "Hirohisa Kinunui"
 		picture = "Portrait_Japan_Nobuyoshi_Muto.dds"
 	traits = {  }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "Kenkichi Ueda"
+	name = "Yaeko Kagawa" #female
 		picture = "Portrait_Japan_Kenkichi_Ueda.dds"
 	traits = {  }
 	skill = 4
 }
-
 create_corps_commander = {
-	name = "Shigeru Honjo"
-		picture = "Portrait_Japan_Shigeru_Honjo.dds"
+	name = "Liu Guanting"
+		picture = "Portrait_Japan_Kenkichi_Ueda.dds"
 	traits = {  }
-	skill = 1
+	skill = 4
 }
-
 create_corps_commander = {
-	name = "Yoshijiro Umezu"
+	name = "Junnosuke Ishihara"
+		picture = "Portrait_Japan_Yoshijiro_Umezu.dds"
+	traits = {  }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Pak Tae-yeon" #female
 		picture = "Portrait_Japan_Yoshijiro_Umezu.dds"
 	traits = {  }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "Otozo Yamada"
+	name = "Sei Fugunaga" #female
 		picture = "Portrait_Japan_Otozo_Yamada.dds"
 	traits = {  }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "Hatazo Adachi"
+	name = "Hideyori Mitsuwa"
 		picture = "Portrait_Japan_Hatazo_Adachi.dds"
 	traits = { trickster }
 	skill = 2
 }
-
 create_corps_commander = {
-	name = "Iwane Matsui"
-		picture = "Portrait_Japan_Iwane_Matsui.dds"
-	traits = {  }
-	skill = 1
-}
-create_corps_commander = {
-	name = "Sadao Araki"
-		picture = "Portrait_Japan_Sadao_Araki.dds"
-	traits = {  }
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Keisuke Fujie"
-		picture = "Portrait_Japan_Keisuke_Fujie.dds"
-	traits = { fortress_buster }
-	skill = 3
-}
-create_corps_commander = {
-	name = "Kiichiro Higuchi"
-		picture = "Portrait_Japan_Kiichiro_Higuchi.dds"
-	traits = {  }
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Masaharu Homma"
-		picture = "Portrait_Japan_Masaharu_Homma.dds"
-	traits = {  }
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Harukichi Hyakutake"
-		picture = "Portrait_Japan_Harukichi_Hyakutake.dds"
-	traits = {  }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Jo Iimura"
-		picture = "Portrait_Japan_Jo_Iimura.dds"
-	traits = {  }
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Hitoshi Imamura"
-		picture = "Portrait_Japan_Hitoshi_Imamura.dds"
-	traits = {  commando }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Masatane Kanda"
-		picture = "Portrait_Japan_Masatane_Kanda.dds"
-	traits = {  }
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Kuniaki Koiso"
+	name = "Akemi Hirata" #female
 		picture = "Portrait_Japan_Kuniaki_Koiso.dds"
 	traits = {  }
 	skill = 2
 }
 
 create_navy_leader = {
-	name = "Isoroku Yamamoto"
+	name = "Mutsuko Nishimuraya" #female
 		picture = "Portrait_Japan_Isoroku_Yamamoto.dds"
 	traits = { superior_tactician spotter }
 	skill = 5
 }
 
 create_navy_leader = {
-	name = "Mineichi Koga"
+	name = "Yukio Takeuchi"
 		picture = "Portrait_Japan_Mineichi_Koga.dds"
 	traits = { superior_tactician spotter }
 	skill = 4
 }
 
 create_navy_leader = {
-	name = "Kiyoshi Hasegawa"
+	name = "Saeko Ochiai"
 		picture = "Portrait_Japan_Hasegawa_Kiyoshi.dds"
 	traits = {  }
 	skill = 2
 }
 
-# Keen on planes
 create_navy_leader = {
-	name = "Shigeyoshi Inoue"
-		picture = "Portrait_Japan_Shigeyoshi_Inoue.dds"
-	traits = { air_controller }
-	skill = 1
-}
-
-create_navy_leader = {
-	name = "Nobutake Kondo"
+	name = "Eiichi Watanabe"
 		picture = "Portrait_Japan_Nobutake_Kondo.dds"
 	traits = { fly_swatter }
 	skill = 3
 }
 
 create_navy_leader = {
-	name = "Takeo Takagi"
+	name = "Honami Ichisada" #female
 		picture = "Portrait_Japan_Takeo_Takagi.dds"
 	traits = {  }
 	skill = 2
 }
 
 create_navy_leader = {
-	name = "Soemu Toyoda"
-		picture = "Portrait_Japan_Soemu_Toyoda.dds"
-	traits = { old_guard_navy }
-	skill = 1
-}
-
-create_navy_leader = {
-	name = "Jisaburo Ozawa"
+	name = "Hisako Nobusawa" #female
 		picture = "Portrait_Japan_Jisaburo_Ozawa.dds"
 	traits = { blockade_runner superior_tactician }
 	skill = 5
 	}
 
 create_navy_leader = {
-	name = "Zengo Yoshida"
+	name = "Seiryo Kashiwabara"
 		picture = "Portrait_Japan_Zengo_Yoshida.dds"
 	traits = {  }
 	skill = 2
 }
+create_navy_leader = {
+	name = "Hikaru Nishida"
+		picture = "Portrait_Japan_Zengo_Yoshida.dds"
+	traits = {  }
+	skill = 4
+}
 
 create_navy_leader = {
-	name = "Hiroaki Abe"
+	name = "Hatsue Yamaha"
 		picture = "Portrait_Japan_Hiroaki_Abe.dds"
 	traits = {  }
 	skill = 1
 }
+create_navy_leader = {
+	name = "Shiori Hitotsuyanagi"
+	picture = "Portrait_Japan_Hiroaki_Abe.dds"
+	traits = { superior_tactician }
+	skill = 3
+}
 
 create_navy_leader = {
-	name = "Tadashige Daigo"
+	name = "Narahiko Omae"
 		picture = "Portrait_Japan_Tadashige_Daigo.dds"
-	traits = { seawolf }
+	traits = {  }
 	skill = 1
 }
 
 create_navy_leader = {
-	name = "Gengo Hyakutake"
+	name = "Izumi Taniguchi" #female
 		picture = "Portrait_Japan_Gengo_Hyakutake.dds"
-	traits = {  }
+	traits = { seawolf }
 	skill = 3
 }
 

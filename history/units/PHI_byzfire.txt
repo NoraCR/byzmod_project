@@ -1,0 +1,257 @@
+﻿division_template = {
+	name = "Bahagian Infantri"	# Divisions were reserves assigned to various military districts
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+}
+division_template = {
+	name = "Bahagian Kavaleri"  
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Bahagian Infantri Marin" #Marines Division
+	
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Bahagian Infanteri Gunung"  
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "Bahagian Perisai"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+units = {
+	##### Tentera Republikan Pasifik #####
+	###Philippines###
+	division= {	
+		name = "1st Infantry Division"
+		location = 10265 # Manila
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "2nd Infantry Division"
+		location = 10265 # Manila
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "1st Armored Brigade"
+		location = 10265 # Manila
+		division_template = "Bahagian Perisai"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "3rd Infantry Division"
+		location = 12118 # Cebu
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "4th Infantry Division"
+		location = 4241 # Mindanao
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "5th Infantry Division"
+		location = 12213 # Aparri
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	###Borneo###
+	division= {	
+		name = "6th Infantry Division"
+		location = 7371 # Kuching
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "7th Infantry Division"
+		location = 10237 # Balikpapan
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	###Makassar###
+	division= {	
+		name = "8th Infantry Division"
+		location = 10263 # Makassar
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	###Timor###
+	division= {	
+		name = "9th Infantry Division"
+		location = 1355
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	###Papua###
+	division= {	
+		name = "1st Cavalry Division"
+		location = 12371 #Jayapura
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	###Sumatra###
+	division= {	
+		name = "10th Infantry Division"
+		location = 12268 #Palembang
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "11th Infantry Division"
+		location = 12268 #Palembang
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "12th Infantry Division"
+		location = 12268 #Palembang
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "2nd Armored Brigade"
+		location = 12268 #Palembang
+		division_template = "Bahagian Perisai"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "1st Mountain Brigade"
+		location = 1648
+		division_template = "Bahagian Infanteri Gunung"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	###Madagascar###
+	division= {	
+		name = "13th Infantry Division"
+		location = 5222 
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "14th Infantry Division"
+		location = 5222 
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "15th Infantry Division"
+		location = 5222 
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+	##### NAVAL UNITS #####
+	### ROYAL NAVY ###
+	navy = {				
+		name = "Tentera Laut Republik"			
+		base = 10265 
+		location = 10265  # Manila
+		ship = { name = "KRP Luzon" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PHI } } }		
+		ship = { name = "KRP Mindanao" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PHI } } }		
+		ship = { name = "KRP Mindoro" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }		
+	}			
+
+	### EAST INDIES SQUADRON ###
+	navy = {				
+		name = "Skuadron Sumatra"			
+		base = 12268 
+		location = 12268  # Sumatra	
+		ship = { name = "KRP Surabaya" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP Madagasikara" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP Aceh" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PHI } } }		
+		ship = { name = "KRP Java" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP Sumatra" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PHI } } }
+		# Torpedobootjager Divisie
+		ship = { name = "KRP Lombok" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }		
+		ship = { name = "KRP Sulawesi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }		
+		ship = { name = "KRP Biak" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }		
+		ship = { name = "KRP Bangka" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }		
+		ship = { name = "KRP Sumba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }	
+		ship = { name = "KRP Siberut" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }	
+		ship = { name = "KRP Nias" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }	
+	}				
+	navy = {				
+		name = "Armada Kapal Selam Madagasikara"			
+		base = 4608
+		location = 4608  # Soerbaja
+		ship = { name = "KRP K-VII" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-VIII" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-X" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XVII" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XVIII" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-IX" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XI" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XII" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XIII" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XIV" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XV" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XVI" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+	}				
+}

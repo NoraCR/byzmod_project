@@ -4,13 +4,14 @@ state={
 	name="STATE_584" # Ashkhabad
 	manpower = 1064523
 	
-	state_category = pastoral
+	state_category = large_town
 
 	history={
 		owner = TRX
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 1
+			arms_factory = 2
 		}
 		add_core_of = TRX
 	}

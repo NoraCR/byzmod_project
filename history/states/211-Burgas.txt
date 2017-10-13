@@ -5,7 +5,7 @@ state={
 	manpower = 1575499
 
 
-	state_category = town
+	state_category = city
 
 	history={
 		owner = BYZ
@@ -13,7 +13,7 @@ state={
 			9783 5
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 6
 			industrial_complex = 2
 			9783 = {
 				naval_base = 3

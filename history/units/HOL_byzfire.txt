@@ -61,35 +61,7 @@ units = {
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "6e Divisie"
-		location = 391
-		division_template = "Infanterie Divisie"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}
-
-	# 4e Legerkorps
-	division= {	
-		name = "7e Divisie"
-		location = 391
-		division_template = "Infanterie Divisie"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "8e Divisie"
-		location = 391
-		division_template = "Infanterie Divisie"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}
-
+}
 
 	##### NAVAL UNITS #####
 	navy = {				

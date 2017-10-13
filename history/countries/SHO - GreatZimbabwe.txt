@@ -1,4 +1,6 @@
-﻿capital = 546
+﻿capital = 545
+
+oob = "SHO_byzfire"
 
 # Starting tech
 set_technology = {
@@ -33,7 +35,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 1
 		}
 
 		fascism = {
@@ -46,7 +48,7 @@ set_politics = {
 		}
 		
 		neutrality = {
-			popularity = 100
+			popularity = 99
 		}
 	}
 	
@@ -57,11 +59,41 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Edwin Barclay"
+	name = "Achieng I Nkomo"
 	desc = "POLITICS_EDWIN_BARCLAY_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Izibongo Mumbengegwi"
+	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = rexism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Gondayi Dangarembga"
+	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Tamutswa Majabvi"
+	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = corpocracy
 	traits = {
 		#
 	}
@@ -90,4 +122,22 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = yes
 	}
+}
+create_corps_commander = {
+	name = "Zuva Mutambara" #female
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = {  }
+	skill = 4
+}
+create_corps_commander = {
+	name = "Dakarai Mathema" #female
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = {  }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Zvionere Chikerema"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = { spotter }
+	skill = 3
 }

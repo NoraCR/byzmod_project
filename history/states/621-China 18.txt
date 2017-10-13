@@ -3,13 +3,13 @@ state={
 	name="STATE_621" # Suiyuan
 	manpower = 2083700
 	
-	state_category = pastoral
+	state_category = rural
 
 	history={
 		owner = CHI
 		add_core_of = CHI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
 		}
 

@@ -3,4 +3,4 @@ path="mod/byzfire/"
 tags={
 	"Alternative History"
 }
-supported_version="1.4.1"
+supported_version="1.4.2"

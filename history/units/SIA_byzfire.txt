@@ -1,0 +1,208 @@
+﻿##### Zhongnan Division Templates #####
+division_template = {
+	name = "Bubingshi"  	# Standard infantry division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # OTL US-Style artillery batallions
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Dishan Pai" 		# Mountain Brigades, precursors to Mountain Divisions
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+}
+division_template = {
+	name = "Zhujun Lu"  		# used for internal defense
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }   
+	}
+	priority = 0
+}
+########ORDER OF BATTLE########
+units = {
+	##### City Garrisons #####
+	division = {
+		name = "Mangu Zhujun"
+		location = 7408 #Bangkok
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Xigong Zhujun"
+		location = 4401 #Saigon
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Henei Zhujun"
+		location = 4075 #Hanoi
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Qingmai Zhujun"
+		location = 1488 #Chiang Mai
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Shidui Zhujun"
+		location = 12090 #Sittwe
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Hat Yai Zhujun"
+		location = 7236 #Hat Yai
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Mizhina Zhujun"
+		location = 4425 #Myitkyina
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Mandelei Zhujun"
+		location = 1492 #Mandalay
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Yangguang Zhujun"
+		location = 1330 #Rangoon
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Geda Balu Zhujun"
+		location = 7329 #Kota Bharu
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Ji Longpo Zhujun"
+		location = 10297 #Ji Longpo
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Xingzhou Zhujun"
+		location = 12299 #Singapore
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	##### Infantry Divisions #####
+	division = {
+		name = "Di 1 Zhongnan Bubing Shi"
+		location = 7408 #Bangkok
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 2 Zhongnan Bubing Shi"
+		location = 7408 #Bangkok
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 3 Zhongnan Bubing Shi"
+		location = 7408 #Bangkok
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 4 Zhongnan Bubing Shi"
+		location = 10438
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 5 Zhongnan Bubing Shi"
+		location = 10438
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	##### Mountain Infantry #####
+	division = {
+		name = "Di 1 Zhongnan Dishan Pai 'Miaozu Jun'"
+		location = 7075
+		division_template = "Dishan Pai"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 2 Zhongnan Dishan Pai 'Dongxu'"
+		location = 2061
+		division_template = "Dishan Pai"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 3 Zhongnan Dishan Pai 'Danbang'"
+		location = 1607
+		division_template = "Dishan Pai"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+}
+#####AIR FORCE######
+air_wings = {
+	289 = {  #Thailand
+		fighter_equipment_0 = { owner = "SIA" amount = 24 }				
+	}
+}

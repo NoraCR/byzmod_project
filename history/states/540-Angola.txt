@@ -2,6 +2,10 @@
 state={
 	id=540
 	name="STATE_540"
+	resources={
+		rubber=12
+	}
+
 	manpower = 3225000
 	
 	state_category = rural
@@ -11,7 +15,7 @@ state={
 		buildings = {
 			infrastructure = 2
 			8248 ={
-				naval_base = 1
+				naval_base = 2
 			}
 		}
 		victory_points = {

@@ -9,7 +9,7 @@ state={
 	
 	resources={
 
-		tungsten=1
+		tungsten=40
 
 	}
 
@@ -22,7 +22,9 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
 		}
 
 		1938.10.25 = {

@@ -102,7 +102,7 @@ units = {
 	}
 	division= {	
 		name = "6. Division"			# Used to form 2. Gebirgs-division post-Anschluss
-		location = 673  # Innsbruck
+		location = 9692  # Bratislava
 		division_template = "Alpenjäger Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -132,7 +132,7 @@ air_wings = {
 	4 = {
 		fighter_equipment_1 =  {
 			owner = "AUS" 
-			amount = 42
+			amount = 24
 		}
 	}
 }

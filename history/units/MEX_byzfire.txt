@@ -1,0 +1,105 @@
+﻿division_template = {
+	name = "Infantry Division"			# Standing regular army divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Cavalry Division"  
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	##### Army of the Aztec Tlācatlahtohcāyōtl #####
+	division= {	
+		name = "1st Infantry Division"
+		location = 1965 # Tenochtitlan
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "2nd Infantry Division"
+		location = 12810 # Tuetlaxtlan
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "3a Infantry Division"
+		location = 13089 # Guadalajara
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Tlapixki Tlakatlajtokayo"
+		location = 1965 # Tenochtitlan
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "1st Cavalry Division"
+		location = 1965 # Tenochtitlan
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "2nd Cavalry Division"
+		location = 1900 # Chiapas
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+
+	##### No Notable Naval Forces #####
+}
+
+
+air_wings = {
+	### Air Force -- Tenochtitlan
+	277 = {
+		# CAS Air Group
+		CAS_equipment_1 =  {
+			owner = "MEX" 
+			amount = 12
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MEX"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+	}
+}

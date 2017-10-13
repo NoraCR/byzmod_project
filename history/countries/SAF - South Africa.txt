@@ -1,6 +1,6 @@
 ﻿capital = 681
 
-oob = "SAF_1936"
+oob = "SAF_byzfire"
 
 # Starting tech
 set_technology = {
@@ -113,7 +113,7 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "J. B. M. Hertzog"
+	name = "Chanardaye Jutia"
 	desc = "POLITICS_J_B_M_HERTZOG_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
@@ -161,7 +161,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "D. F. Malan"
+	name = "W. E. Cairiaco"
 	desc = "POLITICS_DF_MALAN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
@@ -172,7 +172,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Moses Kotane"
+	name = "Takakunda Chigwedere"
 	desc = "POLITICS_MOSES_KOTANE_DESC"
 	picture = "gfx/leaders/Afrika/Portrait_Africa_Generic_1.dds"
 	expire = "1965.1.1"
@@ -194,14 +194,14 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "George Edwin Brink"
+	name = "Maphikelela Dumisane"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = { desert_fox  }
 	skill = 4
 }
 
 create_navy_leader = {
-	name = "Guy Hallifax"
+	name = "Chiratidzo Chimutengwende" #female
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
 	traits = { }
 	skill = 3

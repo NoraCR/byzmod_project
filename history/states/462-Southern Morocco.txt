@@ -4,13 +4,15 @@ state={
 	name="STATE_462"
 	manpower = 1865552
 	
-	state_category = wasteland
+	state_category = town
 
 	history={
 		owner = MOR
 		add_core_of = MOR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
 		}
 	}
 

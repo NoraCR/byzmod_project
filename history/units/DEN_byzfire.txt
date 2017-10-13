@@ -57,7 +57,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Militärområde"			# Garrison Force
+	name = "MilitÃ¤romrÃ¥de"			# Garrison Force
 	# For reserve and independent regiments, lower experience and equipment
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -72,7 +72,7 @@ division_template = {
 units = {
 	##### Kongelige Danske Overkommando #####
 	division = {
-		name = "1. Sjællandske Division"
+		name = "1. Sjaellandske Division"
 		location = 6287  # Copenhagen
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
@@ -80,7 +80,7 @@ units = {
 
 	}
 	division = {
-		name = "2. Sjællandske Division"
+		name = "2. Sjaellandske Division"
 		location = 3325  # Odense
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
@@ -112,7 +112,7 @@ units = {
 
 	}
 	division = {
-		name = "1. Division"
+		name = "1. Divisjon"
 		location = 6115
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
@@ -129,9 +129,9 @@ units = {
 	}
 
 	division = {
-		name = "2. Division"
+		name = "2. Divisjon"
 		location = 9157
-		division_template = "Infanteri Division"
+		division_template = "Binaer Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -146,27 +146,27 @@ units = {
 	}
 
 	division = {
-		name = "3. Division"
+		name = "3. Divisjon"
 		location = 9296
-		division_template = "Infanteri Division"
+		division_template = "Binaer Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 
 	division = {
-		name = "4. Division"
+		name = "4. Divisjon"
 		location = 122
-		division_template = "Infanteri Division"
+		division_template = "Binaer Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 
 	division = {
-		name = "5. Division"
+		name = "5. Divisjon"
 		location = 3022
-		division_template = "Infanteri Division"
+		division_template = "Binaer Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -181,7 +181,7 @@ units = {
 	}
 
 	division = {
-		name = "6. Division"
+		name = "6. Divisjon"
 		location = 192
 		division_template = "Binaer Division"
 		start_experience_factor = 0.2
@@ -223,23 +223,23 @@ units = {
 	division = {
 		name = "VIII. Infanteri Division"
 		location = 11148 # Osterund
-		division_template = "Militärområde"
+		division_template = "MilitÃ¤romrÃ¥de"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 	# Western Military District
 	division = {
 		name = "III. Infanteri Division"
-		location = 3375 # Skövde
+		location = 3375 # SkÃ¶vde
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		name = "Västra Militärområde"
+		name = "VÃ¤stra MilitÃ¤romrÃ¥de"
 		location = 3375 # Skovde
-		division_template = "Militärområde"
+		division_template = "MilitÃ¤romrÃ¥de"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -261,9 +261,9 @@ units = {
 
 	}
 	division = {
-		name = "Östra Militärområde"
+		name = "Ã–stra MilitÃ¤romrÃ¥de"
 		location = 6050 #Stockholm
-		division_template = "Militärområde"
+		division_template = "MilitÃ¤romrÃ¥de"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
@@ -276,24 +276,24 @@ units = {
 		start_equipment_factor = 0.3
 	}
 	division = {
-		name = "Övre Norrland Militärområde"
+		name = "Ã–vre Norrland MilitÃ¤romrÃ¥de"
 		location = 9186 # Boden
-		division_template = "Militärområde"
+		division_template = "MilitÃ¤romrÃ¥de"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 
 	division = {
-		name = "Gotlands Militärområde"
+		name = "Gotlands MilitÃ¤romrÃ¥de"
 		location = 408 # Gotland
-		division_template = "Militärområde"
+		division_template = "MilitÃ¤romrÃ¥de"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 
 	##### NAVAL UNITS #####
 	navy = {				
-		name = "Den Danske Flåde"			
+		name = "Den Danske FlÃ¥de"			
 		base = 6287
 		location = 6287  # Copenhagen			
 		ship = { name = "KSMS Niels Juel" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }
@@ -305,7 +305,7 @@ units = {
 		ship = { name = "KSMS Dryaden" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
 	}
 	navy = {					
-		name = "1. Sjøforsvarsdistrikt"				
+		name = "1. SjÃ¸forsvarsdistrikt"				
 		base = 9296
 		location =  9296 # Kristiansand
 		ship = { name = "KSMS Harald Haarfagre" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }				
@@ -320,7 +320,7 @@ units = {
 		ship = { name = "KSMS B5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
 	}					
 	navy = {					
-		name = "2. Sjøforsvarsdistrikt"				
+		name = "2. SjÃ¸forsvarsdistrikt"				
 		base = 122
 		location =  122 # Bergen
 		ship = { name = "KSMS Draug" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DEN } } }
@@ -328,7 +328,7 @@ units = {
 		ship = { name = "KSMS Garm" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DEN } } }
 	}					
 	navy = {					
-		name = "3. Sjøforsvarsdistrikt"				
+		name = "3. SjÃ¸forsvarsdistrikt"				
 		base = 11050
 		location =  11050 # Tromso
 		ship = { name = "KSMS Eidsvold" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }				
@@ -342,7 +342,7 @@ units = {
 		base = 6050 
 		location = 6050 # Stockholm
 		ship = { name = "KSMS Dristigheten" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }				
-		ship = { name = "KSMS Örnen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DEN } } }		
+		ship = { name = "KSMS Ã–rnen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DEN } } }		
 		ship = { name = "KSMS Jacob Bagge" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DEN } } }		
 	}
 	navy = { 
@@ -356,14 +356,14 @@ units = {
 		# 1. Jagarflottiljen				
 		ship = { name = "KSMS Klas Horn" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DEN } } }		
 		ship = { name = "KSMS Klas Uggla" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DEN } } }		
-		ship = { name = "KSMS Ehrensköld" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DEN } } }		
-		ship = { name = "KSMS Nordenskjöld" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DEN } } }		
+		ship = { name = "KSMS EhrenskÃ¶ld" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DEN } } }		
+		ship = { name = "KSMS NordenskjÃ¶ld" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DEN } } }		
 	}
 	navy = { 
-		name = "Ålandshavseskader"
+		name = "Ã…landshavseskader"
 		base = 408 
 		location = 408 # Gotland
-		ship = { name = "KSMS Äran" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }				
+		ship = { name = "KSMS Ã„ran" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }				
 		ship = { name = "KSMS Tapperheten" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }				
 	}
 	navy = { 
@@ -373,22 +373,22 @@ units = {
 		ship = { name = "KSMS Wasa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }				
 		ship = { name = "KSMS Manligheten" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }
 		# 1. Ubatsflottiljen				
-		ship = { name = "KSMS Draken" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN version_name = "Draken Class" } } }
-		ship = { name = "KSMS Gripen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN version_name = "Draken Class" } } }
-		ship = { name = "KSMS Ulven" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN version_name = "Draken Class" } } }
+		ship = { name = "KSMS Draken" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
+		ship = { name = "KSMS Gripen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
+		ship = { name = "KSMS Ulven" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
 	}
 	navy = { 
-		name = "Göteborgs Eskadern"
+		name = "GÃ¶teborgs Eskadern"
 		base = 383
-		location = 383 # Göteborg
+		location = 383 # GÃ¶teborg
 		ship = { name = "KSMS Oscar II" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }				
 		ship = { name = "KSMS Fylgia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = DEN } } }				
 		# 2. Ubatsflottiljen				
 		ship = { name = "KSMS Hajen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
-		ship = { name = "KSMS Sälen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
+		ship = { name = "KSMS SÃ¤len" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
 		ship = { name = "KSMS Valrossen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
 		# 3. Ubatsflottiljen				
-		ship = { name = "KSMS Bävern" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
+		ship = { name = "KSMS BÃ¤vern" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
 		ship = { name = "KSMS Illern" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
 		ship = { name = "KSMS Uttern" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
 		ship = { name = "KSMS Valen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
@@ -405,7 +405,7 @@ air_wings = {
 			amount = 22
 		}
 	}
-	# Søværnets Flyvetjeneste -- Jutland
+	# SÃ¸vaernets Flyvetjeneste -- Jutland
 	99 = {
 		# Consisted of 12 Hawker Nimrods
 		fighter_equipment_0 = {
@@ -424,7 +424,7 @@ air_wings = {
 	### Scandinavian Air Force
 	141 = {
 		# 1. Bombflyggruppen -- Hawker Harts
-		CAS_equipment_1 = {
+		tac_bomber_equipment_0 = {
 			owner = "DEN" 
 			amount = 36
 		}
@@ -434,12 +434,6 @@ air_wings = {
 			amount = 30
 		}
 	}
-	140 = {
-		# 2. Torpedflyggruppen -- Heinkel HD 16s
-		cv_nav_bomber_equipment_1 =  {
-			owner = "DEN" 
-			amount = 12
-		}
 	}
 }
 

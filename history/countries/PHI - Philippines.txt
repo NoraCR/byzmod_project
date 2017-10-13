@@ -1,19 +1,31 @@
 ﻿capital = 327
 
-oob = "PHI_1936"
+oob = "PHI_byzfire"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	marines  = 1
 	tech_support = 1		
 	tech_engineers = 1
+	gwtank = 1
+	basic_light_tank = 1
+	motorised_infantry = 1
 	gw_artillery = 1
+	interwar_artillery = 1
 	early_fighter = 1
 	early_bomber = 1
+	early_submarine = 1
+	basic_destroyer = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
 }
 
-set_convoys = 5
+set_convoys = 250
 
 1939.1.1 = {
 
@@ -91,7 +103,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Manuel Luis Quezón"
+	name = "Nur Maryam Hamza"
 	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
 	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
 	expire = "1965.1.1"
@@ -102,11 +114,31 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pedro P. Baguisa"
+	name = "Ithamar Daransi" #Moluccan, male
 	desc = "POLITICS_PEDRO_BAGUISA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	expire = "1965.1.1"
 	ideology = marxism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Purwodarminto" #Javanese, male
+	desc = "POLITICS_PEDRO_BAGUISA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Jauhar Alam Syah" #Acehnese, male
+	desc = "POLITICS_PEDRO_BAGUISA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = rexism
 	traits = {
 		#
 	}
@@ -135,4 +167,30 @@ create_country_leader = {
 		election_frequency = 72
 		elections_allowed = yes
 	}
+}
+create_corps_commander = {
+	name = "Megawati" #Javanese, female
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	traits = { }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Ade Utari Sasmita"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	traits = { desert_fox }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Susilo Iman Kusnadi"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+	traits = { superior_tactician }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Tjahjana Wencheng"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	traits = { }
+	skill = 2
 }

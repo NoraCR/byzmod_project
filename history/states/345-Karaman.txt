@@ -2,14 +2,17 @@
 state={
 	id=345
 	name="STATE_345" # Mersin
-	manpower = 411798
+	manpower = 1111798
 
-	state_category = rural
+	state_category = large_town
 
 	history={
 		owner = BYZ
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = BYZ
 	}

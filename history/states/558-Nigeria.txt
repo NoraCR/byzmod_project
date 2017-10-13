@@ -3,6 +3,9 @@ state={
 	id=558
 	name="STATE_558"
 	manpower = 19757000
+	resources={
+		oil=152.000
+	}
 	
 	state_category = metropolis
 	
@@ -20,7 +23,7 @@ state={
 			}
 		}
 		victory_points = {
-			2050 1
+			2050 5
 		}
 
 	}

@@ -1,6 +1,6 @@
 ﻿capital = 313
 
-oob = "GUA_1936"
+oob = "GUA_byzfire"
 
 # Starting tech
 set_technology = {
@@ -86,16 +86,35 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Jorge Ubico"
+	name = "Tuyuc" #female
 	desc = "POLITICS_JORGE_UBICO_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_6.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = liberalism
 	traits = {
 		#
 	}
 }
-
+create_country_leader = {
+	name = "Paxbolonacha"
+	desc = "POLITICS_DIONISIO_ENCINA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = corpocracy
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Teyacapan" #female
+	desc = "POLITICS_DIONISIO_ENCINA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
 1939.1.1 = {
 	set_politics = {
 
@@ -123,4 +142,10 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = no
 	}
+}
+create_corps_commander = {
+	name = "K'ak'upakal K'awiil"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	traits = { }
+	skill = 3
 }

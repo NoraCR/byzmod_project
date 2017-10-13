@@ -1,6 +1,6 @@
 ﻿capital = 266
 
-oob = "PER_1936"
+oob = "PER_byzfire"
 
 # Starting tech
 set_technology = {
@@ -64,7 +64,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Reza Shah Pahlavi"
+	name = "Arzhang Shah Vali"
 	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
 	picture = "Portrait_Iran_Reza_Shah_Pahlavi.dds"
 	expire = "1965.1.1"
@@ -86,7 +86,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Soleyman Mirza Eskandari"
+	name = "Hamideh Meherzadian" #female
 	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
 	expire = "1965.1.1"
@@ -95,6 +95,27 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Abdul Karim Dadrewala"
+	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = objectivism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Daryush Shahmoradi-Khorrami"
+	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
 
 1939.1.1 = {
 	set_politics = {
@@ -125,7 +146,7 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Hasan Arfa"
+	name = "Ardeshir Behramvarzavand"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	traits = {  desert_fox }
 	skill = 3

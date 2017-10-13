@@ -4,13 +4,14 @@ state={
 	name="STATE_610" # Jehol
 	manpower = 1975377
 	
-	state_category = pastoral
+	state_category = town
 
 	history={
 		owner = CHI
 		add_core_of = CHI
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
+			industrial_complex = 2
 		}
 
 	}

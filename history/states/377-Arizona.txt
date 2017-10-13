@@ -2,21 +2,21 @@
 state={
 	id=377
 	name="STATE_377"
-	manpower = 435572
+	manpower = 1935572
 	
-	state_category = rural
+	state_category = city
 	
 	resources={
-		steel=40
-		oil=10
+		steel=50
+		oil=22
 		aluminium=16
 	}
 
 	history={
 		owner = HDA
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 5
+			industrial_complex = 2
 			air_base = 2
 		}
 		add_core_of = HDA

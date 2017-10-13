@@ -1,5 +1,7 @@
 ﻿capital = 448
 
+oob = "LBA_byzfire"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -63,7 +65,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ettore Bastico"
+	name = "Noorani Taweckint" #female
 	desc = ""
 	picture = "gfx/leaders/LBA/Portrait_Italy_Guiseppe_Fioravanzo.dds"
 	ideology = fascism_ideology
@@ -90,4 +92,11 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+create_corps_commander = {
+	name = "Mimouna Jaffer" #female
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	traits = { desert_fox }
+	skill = 3
+
 }

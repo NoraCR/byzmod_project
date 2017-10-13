@@ -4,19 +4,21 @@ state={
 	name="STATE_433" # Rajasthan
 	manpower = 11786000
 	
-	state_category = town
+	state_category = city
 	
 	
 	resources={
 		tungsten=42
+		steel=100
 	}
 
 	history={
 		owner = MRT
 		add_core_of = MRT
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
 		}
 
 	}

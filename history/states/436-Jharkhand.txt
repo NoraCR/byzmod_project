@@ -4,17 +4,19 @@ state={
 	name="STATE_436" # Jabalpur
 	manpower = 14123100
 	
-	state_category = rural
+	state_category = city
 	
 	resources={
-		chromium=6
+		chromium=20
 	}
 
 	history={
 		owner = MRT
 		add_core_of = MRT
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
 		}
 
 	}

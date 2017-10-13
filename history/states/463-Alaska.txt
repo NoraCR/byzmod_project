@@ -1,14 +1,15 @@
 state={
 	id=463
 	name="STATE_463"
-
 	history={
 		owner = HDA
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 3
+			air_base = 4
 			13091 = {
-				naval_base = 1
+				naval_base = 6
 
 			}
 
@@ -26,7 +27,7 @@ state={
 	provinces={
 		1135 1830 4833 4848 7855 7884 10679 10694 10707 12661 13069 13090 13091 13202 13203 
 	}
-	manpower=67500
+	manpower=1067500
 	buildings_max_level_factor=1
-	state_category="rural"
+	state_category="large_city"
 }

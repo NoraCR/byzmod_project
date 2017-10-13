@@ -350,7 +350,7 @@ units = { #includes army and navy but not air-force
 		### Navy ###
 #Osaka - Republican Grand Battlefleet
 	navy = {
-		name = "KyÅwakoku SÅdaina SentÅki"
+		name = "Kyōwakoku Sōdaina Sentōki"
 		base = 7072
 		location = 7072
 		
@@ -375,7 +375,7 @@ units = { #includes army and navy but not air-force
 
 			}
 		}
-		ship = { name = "ÅŒkina Bosu" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Ōkina Bosu" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
 		ship = { name = "Kotai Hebi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Ekitai Hebi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Furui Hebi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
@@ -400,11 +400,11 @@ units = { #includes army and navy but not air-force
 	}
 	
 	navy = { #Edo - Eastern Sea Battlefleet 
-		name = "TÅkai SentÅki"
+		name = "Tōkai Sentōki"
 		base = 9998
 		location = 9998
 		
-		ship = { name = "UmÅbuton" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
+		ship = { name = "Umōbuton" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
 			air_wings = { 
 				cv_fighter_equipment_0 =  { owner = "JAP" amount = 25 } 
 				cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 20 } 	
@@ -441,7 +441,7 @@ units = { #includes army and navy but not air-force
 		base = 11932
 		location = 11932
 		
-		ship = { name = "SunaipÄookami" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Sunaipāookami" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Kamina" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
 		ship = { name = "Yoko" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
 		ship = { name = "Natori" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
@@ -472,10 +472,10 @@ units = { #includes army and navy but not air-force
 		ship = { name = "Ayanami" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
 		ship = { name = "Oi" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }
 		ship = { name = "Tenryu" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Tama" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Tama" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Oboro" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
 		ship = { name = "Akebono" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
-		ship = { name = "Sazanami" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Sazanami" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Ushio" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Murakumo" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
 		ship = { name = "Usugumo" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
@@ -485,10 +485,10 @@ units = { #includes army and navy but not air-force
 	
 	navy = { #Coast Guard No. 1
 		name = "1st Engan Keibitai"
-		base = 9998
-		location = 9998
+		base = 9859
+		location = 9859
 		
-		ship = { name = "Kuma" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Kuma" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Yomogi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
 		ship = { name = "Tade" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
 		ship = { name = "Kiku" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
@@ -519,8 +519,8 @@ units = { #includes army and navy but not air-force
 	
 	navy = {
 		name = "1st Sensui Sentai" 
-		base = 9998
-		location = 9998
+		base = 1092
+		location = 1092  
 		
 		ship = { name = "RJ-51" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
 		ship = { name = "RJ-152" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }		

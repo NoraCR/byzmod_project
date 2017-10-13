@@ -274,7 +274,7 @@ ideas = {
 				original_tag = "BYZ"
 			}
 			
-			picture = generic_political_advisor_europe_3
+			picture = alexios_mars
 			
 			traits = { ideological_crusader }
 	

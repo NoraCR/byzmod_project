@@ -4,11 +4,16 @@ state={
 	name="STATE_419"
 	manpower = 1431714
 	
-	state_category = rural
+	state_category = large_city
+	resources={
+		steel=14
+	}
 	history={
 		owner = AZB
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 3
 		}
 		victory_points = {
 			1896 3 

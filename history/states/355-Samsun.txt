@@ -2,15 +2,17 @@
 state={
 	id=355
 	name="STATE_355"
-	manpower = 1151863
-	state_category = rural
+	manpower = 1851863
+	state_category = large_town
 
 	history={
 		owner = BYZ
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
 			11894 = {
-				naval_base = 3
+				naval_base = 4
 			}
 		}
 		add_core_of = BYZ

@@ -4,11 +4,12 @@ state={
 	name="STATE_425" # Mysore
 	manpower = 12348200
 	
-	state_category = rural
+	state_category = large_city
 	
 	resources={
 		chromium=20
 		tungsten=128
+		aluminium=6
 	}
 
 	history={
@@ -18,8 +19,9 @@ state={
 			8011 1
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 1
 		}
 
 	}

@@ -4,7 +4,7 @@ state={
 	name="STATE_236"
 	manpower = 3647208
 	
-	state_category = city
+	state_category = large_city
 
 	history={
 		owner = AKH
@@ -12,10 +12,10 @@ state={
 			9753 50.0 
 		}
 		buildings = {
-			infrastructure = 7
-			arms_factory = 2
-			industrial_complex = 2
-			air_base = 1
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 3
+			air_base = 4
 		}
 	}
 

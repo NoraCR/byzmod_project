@@ -1,0 +1,174 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Umkontho Ibutho"  	
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Fasimba Ibutho"  	
+
+	regiments = {						
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Okusheshayo Ibutho"  		
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
+		light_armor = { x = 0 y = 1 }		# Bn. of Hotchkiss tanks
+
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
+		engineer = { x = 0 y = 1 }   # US Eng Bn
+		artillery = { x = 0 y = 2 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
+	}
+}
+division_template = {
+	name = "Iwahu Ibutho"  		
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+	priority = 0
+}
+
+#####MAPUTO ORDER OF BATTLE#####
+###ARMY###
+units = {
+	##1st Army
+	division= {			
+		name = "1 Impi iwaZulu 'umKhulushane'"		
+		location = 8245 ##Maputo
+		division_template = "Iwahu Ibutho"
+		start_experience_factor = 0.5
+	}
+	division= {			
+		name = "2 Impi iwaZulu 'umCijo'"		
+		location = 8245
+		division_template = "Iwahu Ibutho"
+		start_experience_factor = 0.5
+	}	
+	division= {			
+		name = "3 Impi iwaZulu 'umHlanga'"		
+		location = 8245
+		division_template = "Iwahu Ibutho"
+		start_experience_factor = 0.5
+	}
+	##2nd Army
+	division= {			
+		name = "4 Impi iwaZulu 'inGobamakhosi'"		
+		location = 2120
+		division_template = "Okusheshayo Ibutho"
+		start_experience_factor = 0.5
+	}
+	division= {			
+		name = "5 Impi iwaZulu 'uMbonambi'"		
+		location = 2120
+		division_template = "Iwahu Ibutho"
+		start_experience_factor = 0.5
+	}		
+###NAVY###
+	navy = {					
+		name = "Nesinkanawa iwaZulu"				
+		base = 8245
+		location = 8245	
+		ship = { name = "KNS Maputo" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MPT  } } }
+		ship = { name = "KNS Nampula" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MPT  } } }							
+		ship = { name = "KNS Namuli" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MPT  } } }
+		ship = { name = "KNS Binga" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MPT  } } }
+		ship = { name = "KNS Mabu" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MPT  } } }
+		ship = { name = "KNS Zambezi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
+		ship = { name = "KNS Limpopo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
+		ship = { name = "KNS Chilwa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
+		ship = { name = "KNS Malawi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
+		ship = { name = "KNS Lukugu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
+		ship = { name = "KNS Pungwe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
+		ship = { name = "KNS Ruvuma" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
+	}	
+}
+
+##no air force to speak of
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+		
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "MPT"
+		}
+		requested_factories = 1
+		progress = 0.83
+		efficiency = 90
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "MPT" 
+		}
+		requested_factories = 1
+		progress = 0.7
+		efficiency = 75
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "MPT" 
+		}
+		requested_factories = 1
+		progress = 0.97
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "MPT" 
+		}
+		requested_factories = 1
+		progress = 0.45
+		efficiency = 50
+	}
+}
+#####################
+	

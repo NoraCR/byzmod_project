@@ -10,7 +10,7 @@ state={
 	history = {
 		owner = SOM
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			1155 = {
 				naval_base = 2
 			}

@@ -46,6 +46,10 @@ set_technology = {
 
 set_convoys = 100
 
+add_ideas = {
+	limited_conscription
+}
+
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -199,6 +203,20 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Eoin Aiken"
 	portrait_path = "gfx/leaders/IRE/ire_eoin_aiken.dds"
-	traits = {  }
+	traits = { defensive_doctrine }
 	skill = 4
 }
+create_corps_commander = {
+	name = "Deirdre O'Mahony" #female
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	traits = { fortress_buster }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Eamonn McGovern"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+	traits = { blockade_runner superior_tactician }
+	skill = 4
+}
+

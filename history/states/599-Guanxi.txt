@@ -2,19 +2,20 @@ state= {
 	id=599
 	name="STATE_599"
 	manpower = 8685200
-	state_category = town
+	state_category = city
 	resources={
 		tungsten=20
 		steel= 20
-		chromium = 4
+		chromium = 6
 	}
 
 	history= {
 		owner = CHI
 		add_core_of = CHI
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
 			air_base = 2
 		}
 		victory_points = { 

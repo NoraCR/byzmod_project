@@ -7,17 +7,18 @@ state={
 	state_category = megalopolis
 	
 	resources={
-		rubber=10
-		tungsten=2
+		rubber=22
+		tungsten=4
 	}
 
 	history={
-		owner = CHI
+		owner = SIA
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
+			infrastructure = 8
+			arms_factory = 3
 			industrial_complex = 5
-			air_base = 3
+			dockyard = 2
+			air_base = 2
 			7408 = {
 				naval_base = 3
 			}

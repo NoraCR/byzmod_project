@@ -1,6 +1,6 @@
 ﻿capital = 468
 
-oob = "CAN_1936"
+oob = "CAN_byzfire"
 
 set_research_slots = 3
 set_country_flag = monroe_doctrine
@@ -115,7 +115,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Mackenzie King"
+	name = "Agnes Ross" #female
 	desc = "POLITICS_MACKENZIE_KING_DESC"
 	picture = "Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
@@ -126,7 +126,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Adrien Arcand"
+	name = "Gordon H. Turnbull"
 	desc = "POLITICS_ADRIEN_ARCAND_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
@@ -137,7 +137,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Tim Buck"
+	name = "Duncan McDougall"
 	desc = "POLITICS_TIM_BUCK_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
@@ -148,11 +148,21 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "J. S. Woodsworth"
+	name = "Mary Daum Stinson"
 	desc = "POLITICS_JS_WOODSWORTH_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
 	ideology = centrism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "John Franklin Sutherland"
+	desc = "POLITICS_TIM_BUCK_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = cacicazgo
 	traits = {
 		#
 	}
@@ -187,35 +197,35 @@ set_national_unity = 0.9
 }
 
 create_corps_commander = {
-	name = "Thomas Victor Anderson"
+	name = "Peter McKinnon"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = {  }
 	skill = 4
 }
 
 create_field_marshal = {
-	name = "Charles Foulkes"
+	name = "Joan K. Anderson"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	traits = { }
 	skill = 4
 }
 
 create_corps_commander = {
-	name = "John Montague"
+	name = "Maxime Heenan"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { }
 	skill = 3
 }
 
 create_navy_leader = {
-	name = "Leonard W. Murray"
+	name = "Gertrude B. Cayley"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 	traits = { }
 	skill = 4
 }
 
 create_navy_leader = {
-	name = "H.T. Baillie-Grohman"
+	name = "Wilson McLaren"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
 	traits = { spotter }
 	skill = 4

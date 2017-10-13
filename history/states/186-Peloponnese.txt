@@ -2,16 +2,16 @@
 state={
 	id=186
 	name="STATE_186"
-	manpower=945000
+	manpower=2445000
 	
-	state_category = town
+	state_category = city
 
 	history={
 		owner = BYZ
 		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 1
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 2
 			11965 = {
 				naval_base = 1
 

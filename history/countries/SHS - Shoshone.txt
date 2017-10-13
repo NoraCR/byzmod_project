@@ -1,5 +1,7 @@
 ﻿capital = 387
 
+oob = "SHS_byzfire"
+
 # Starting tech
 set_research_slots = 3
 
@@ -62,7 +64,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Democratic Placeholder"
+	name = "Antannewe" #female
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	expire = "1965.1.1"
@@ -74,7 +76,7 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Fascist Placeholder"
+	name = "Hoi'tcu"
 	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
@@ -85,7 +87,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Communist Placeholder"
+	name = "Ma'ro-pai"
 	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
@@ -96,7 +98,7 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Placeholder General"
+	name = "Tsoangkaaya'a"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_9.dds"
 	traits = { trait_mountaineer }
 	skill = 4

@@ -197,14 +197,14 @@ create_field_marshal = {
 	name = "Valeria Postuma"
 	picture = "fra_valeria_postuma.dds"
 	traits = { defensive_doctrine offensive_doctrine }
-	skill = 9
+	skill = 5
 }
 
 create_corps_commander = {
 	name = "Armel de Forbin"
 	picture = "fra_armel_de_forbin.dds"
-	traits = { panzer_leader fortress_buster }
-	skill = 9
+	traits = { panzer_leader fortress_buster trait_engineer }
+	skill = 5
 }
 
 create_field_marshal = {

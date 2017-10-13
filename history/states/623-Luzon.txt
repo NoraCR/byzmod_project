@@ -3,17 +3,18 @@ state= {
 	name="STATE_623"
 	manpower = 2010656
 	
-	state_category = city
+	state_category = large_city
 	
 	resources={
-		rubber=2
+		rubber=20
 	}
 
 	history= {
 		owner = PHI
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 2
 			12213 = {
 				naval_base = 1
 			}

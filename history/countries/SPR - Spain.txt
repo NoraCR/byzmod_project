@@ -1,6 +1,6 @@
 ﻿capital = 41
 
-oob = "SPR_1936"
+oob = "SPR_byzfire"
 
 set_research_slots = 3
 
@@ -138,7 +138,7 @@ set_national_unity = 0.5
 }
 
 create_country_leader = {
-	name = "Manuel Azana"
+	name = "Juan Sebastián Puig-Gaona"
 	desc = "POLITICS_MANUEL_AZANA_DESC"
 	picture = "Portrait_Spain_Manuel_Azana.dds"
 	expire = "1965.1.1"
@@ -149,7 +149,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "José Díaz"
+	name = "José María de la Cruz"
 	desc = "POLITICS_JOSE_DIAZ_DESC"
 	picture = "Portrait_Spain_Jose_Diaz.dds"
 	expire = "1965.1.1"
@@ -171,7 +171,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alejandro Lerroux"
+	name = "Rafaela Santizo-Bellón"
 	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
@@ -180,9 +180,18 @@ create_country_leader = {
 		#
 	}
 }
-
+create_country_leader = {
+	name = "Antonio Chen Zhicheng"
+	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = objectivism
+	traits = {
+		#
+	}
+}
 create_field_marshal = {
-	name = "José Asensio Torrado"
+	name = "Ezozia Guerricaechevarria" #female
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { defensive_doctrine }
 	skill = 2

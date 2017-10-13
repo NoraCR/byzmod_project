@@ -4,7 +4,7 @@ state={
 	name="STATE_659"
 	manpower = 891505
 
-	state_category = pastoral
+	state_category = town
 
 	history={
 		owner = SAU
@@ -12,7 +12,8 @@ state={
 			5074 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			industrial_complex = 1
 			air_base = 4
 			5074 = {
 				naval_base = 3

@@ -1,5 +1,6 @@
-﻿capital = 229
+﻿capital = 419
 
+oob = "AZB_byzfire"
 
 set_research_slots = 3
 
@@ -85,7 +86,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Neut Placeholder"
+	name = "Eldar Zeynallu Rəis"
 	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
 	expire = "1968.11.10"
@@ -96,7 +97,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Com Placeholder"
+	name = "Atabala Urxanoğlu"
 	desc = "POLITICS_SEFIK_HUSNU_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
@@ -107,7 +108,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Fasc Placeholder"
+	name = "Tamara Teymurçinqızı" #female
 	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 	expire = "1965.1.1"
@@ -116,9 +117,18 @@ create_country_leader = {
 		#
 	}
 }
-
+create_country_leader = {
+	name = "CEO Muxtar Əbűlhəsənli"
+	desc = "POLITICS_SEFIK_HUSNU_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = corporatism
+	traits = {
+		#
+	}
+}
 create_corps_commander = {
-	name = "Placeholder Cahit Toydemir"
+	name = "Solmaz Asimanlü" #female
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
 	traits = { desert_fox }
 	skill = 3

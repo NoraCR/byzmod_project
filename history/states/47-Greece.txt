@@ -4,7 +4,7 @@ state={
 	name="STATE_47" # Thessaly
 	manpower=5404713
 	resources={
-		steel=4
+		steel=40
 		chromium=22
 		aluminium=58
 		tungsten = 20
@@ -18,9 +18,9 @@ state={
 			4109 25 
 		}
 		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 5
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 4
 			dockyard = 4
 			air_base = 10
 			4109 = {

@@ -1,0 +1,225 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "División de Infantería" 		# Used for both regular infantry divisions and larger garrison divisions
+	# Note: Spanish divisions were 2x brigades of 2x2 rgts each, + support
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
+		engineer = { x = 0 y = 1 }   # Eng Bn
+	}
+}
+division_template = {
+	name = "División de Caballería"  		# Only one Cavalry Division (3x bge of 2x2 Rgts)
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		cavalry = { x = 2 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of motorcycles and ACs
+	}
+}
+division_template = {
+	name = "Brigada Montaña"  		# Mountain Brigades were 2x2 Rgts + support
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
+	}
+}
+division_template = {
+	name = "Brigada de Infantería" 		# Infantry Brigade - Used for smaller garrison units
+	regiments = {
+		infantry = { x = 0 y = 0 }	
+		infantry = { x = 0 y = 1 }	
+		infantry = { x = 1 y = 0 }	
+		infantry = { x = 1 y = 1 }	
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   # Eng Bn
+	}
+}
+
+###### OOB ######
+units = {
+	#####LAND UNITS #####
+	### MAINLAND UNITS ###
+	division = {			
+		name = "1a División de Infantería"		
+		location = 3938  # Madrid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "2a División de Infantería"		
+		location = 7183  # Sevilla
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "3a División de Infantería"		
+		location = 875  # Cordoba
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "4a División de Infantería"		
+		location = 758  # La Coruña
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division = {			
+		name = "5a División de Infantería"		
+		location = 9979  # Malaga
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division = {			
+		name = "6a División de Infantería"		
+		location = 11805  # Lisbon
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}		
+	division = {			
+		name = "1a Brigada Montaña"		
+		location = 9817  # Porto
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "Brigada Mixta Montaña"		
+		location = 11707  #Oviedo
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = {			
+		name = "Brigada de Arma de Infantería"		
+		location = 1048  #Cádiz
+		division_template = "Brigada de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+		
+	##### NAVAL UNITS #####
+	navy = {
+		name = "Base Naval Cádiz"
+		base = 1048
+		location = 1048  #Cádiz
+		ship = { name = "ARE Galicia" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Baetica" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Lusitania" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Tarraconensis" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Almirante Zheng He" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Julio César" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Emerita Augusta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Tarraco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Corduba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Brigantium" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Segovia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Valentia Edetanorum" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Cesaraugusta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Galatea" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Segisama" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Saguntum" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Emporion" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		
+	}
+}
+
+### Air Wings
+air_wings = {
+	# Arma de Aviación -- Madrid (Getafe)
+	41 = { 
+		fighter_equipment_0 = {
+			owner = "SPR" 
+			amount = 36
+		}
+	}
+	# Arma de Aviación -- Sevilla (and Barcelona)
+	169 = {
+		fighter_equipment_0 = {
+			owner = "SPR" 
+			amount = 24
+		}
+	}
+	# Aeronáutica Naval -- Murcia
+	168 = {
+			owner = "SPR" 
+			amount = 27
+		}
+	}
+}
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SPR"
+		}
+		requested_factories = 2
+		progress = 0.42
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "SPR"
+		}
+		requested_factories = 1
+		progress = 0.24
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "SPR"
+		}
+		requested_factories = 1
+		progress = 0.24
+		efficiency = 100
+	}
+
+}

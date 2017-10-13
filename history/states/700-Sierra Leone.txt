@@ -5,6 +5,10 @@ state={
 	
 	state_category = megalopolis
 	
+	resources={
+		steel=12.0000
+	}	
+	
 	history=
 	{
 		owner = GHA

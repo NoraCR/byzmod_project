@@ -1,0 +1,36 @@
+﻿division_template = {
+	name = "Infantry Brigade"			# Represents regional reserve mixed brigades
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+  	      engineer = { x = 0 y = 0 }
+ 	}
+}
+
+
+units = {
+	division= {	
+		name = "Territorial Garrison"
+		location = 1789 # Idaho
+		division_template = "Infantry Brigade"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}		
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SHS"
+		}
+		requested_factories = 1
+		progress = 0.33
+		efficiency = 100
+	}
+}

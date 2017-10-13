@@ -1,5 +1,7 @@
 ﻿capital = 298
 
+oob = "GHA_byzfire"
+
 set_research_slots = 3
 
 set_national_unity = 0.9
@@ -81,7 +83,7 @@ set_politics = {
 # Order matters - here Chamberlain becomes starting leader
 
 create_country_leader = {
-	name = "Winston Placeholder"
+	name = "Annan Akenten"
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
 	picture = "Portrait_Britain_Winston_Churchill.dds"
 	expire = "1965.1.1"
@@ -92,7 +94,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Neville Placeholder"
+	name = "Okparra Chukwuemeka"
 	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
 	picture = "Portrait_Britain_Neville_Chamberlain.dds"
 	expire = "1965.1.1"
@@ -103,7 +105,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Oswald Placeholder"
+	name = "Madukaife Nwabudike" 
 	desc = "POLITICS_OSWALD_MOSLEY_DESC"
 	picture = "Portrait_Britain_Oswald_Mosley.dds"
 	expire = "1965.1.1"
@@ -123,10 +125,44 @@ create_country_leader = {
 		
 	}
 }
+create_country_leader = {
+	name = "Chidie Chydi" #female
+	desc = "POLITICS_OSWALD_MOSLEY_DESC"
+	picture = "Portrait_Britain_Oswald_Mosley.dds"
+	expire = "1965.1.1"
+	ideology = objectivism
+	traits = {
+		
+	}
+}
 
 create_field_marshal = {
-	name = "Alan Placeholder"
+	name = "Ioannes Oluwaremilekun"
 	picture = "Portrait_Britain_Alan_Brooke.dds"
 	traits = { offensive_doctrine defensive_doctrine }
 	skill = 5
+}
+create_corps_commander = {
+	name = "Kwasí Omenaa"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	traits = {  }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Amacheah Ozoemena" #female
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = {  }
+	skill = 2
+}
+create_navy_leader = {
+	name = "Ajwoba Owoahene" #female
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+	traits = { superior_tactician }
+	skill = 4
+}
+create_navy_leader = {
+	name = "Kaku Soadwa"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	traits = { spotter }
+	skill = 3
 }

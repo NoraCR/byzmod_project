@@ -1,5 +1,5 @@
-division_template = {
-	name = "Gyalogdand�r"				# Infantry Brigade
+﻿division_template = {
+	name = "Gyalogdandár"				# Infantry Brigade
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -11,7 +11,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Husz�r Dand�r" 					# Cavalry Brigade
+	name = "Huszár Dandár" 					# Cavalry Brigade
 	# Note: has 2x bicycle inf bns added during 1938-40 mobilization
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -25,20 +25,20 @@ division_template = {
 }
 
 units = {
-	##### Honv�delmi F�parancsnoks�g #####
+	##### Honvédelmi Fõparancsnokság #####
 	# Gyorshadtest ('Rapid Corps', actual corps raised in 1940)
 	division= {	
-		name = "1. Husz�r Dand�r"
+		name = "1. Huszár Dandár"
 		location = 9660
-		division_template = "Husz�r Dand�r"
+		division_template = "Huszár Dandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 	division= {	
-		name = "2. Husz�r Dand�r"
+		name = "2. Huszár Dandár"
 		location = 9660
-		division_template = "Husz�r Dand�r"
+		division_template = "Huszár Dandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
@@ -46,17 +46,17 @@ units = {
 
 	# I Hadtest
 	division= {	
-		name = "1. Gyalogdand�r"
+		name = "1. Gyalogdandár"
 		location = 9660
-		division_template = "Gyalogdand�r"
+		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 	division= {	
-		name = "2. Gyalogdand�r"
+		name = "2. Gyalogdandár"
 		location = 9660
-		division_template = "Gyalogdand�r"
+		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
@@ -64,17 +64,17 @@ units = {
 
 	# II Hadtest
 	division= {	
-		name = "3. Gyalogdand�r"
+		name = "3. Gyalogdandár"
 		location = 9660
-		division_template = "Gyalogdand�r"
+		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 	division= {	
-		name = "4. Gyalogdand�r"
+		name = "4. Gyalogdandár"
 		location = 9660
-		division_template = "Gyalogdand�r"
+		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
@@ -82,17 +82,17 @@ units = {
 
 	# III Hadtest
 	division= {	
-		name = "5. Gyalogdand�r"
-		location = 9660
-		division_template = "Gyalogdand�r"
+		name = "5. Gyalogdandár"
+		location = 6711
+		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 	division= {	
-		name = "6. Gyalogdand�r"
-		location = 9660
-		division_template = "Gyalogdand�r"
+		name = "6. Gyalogdandár"
+		location = 6711
+		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
@@ -100,17 +100,17 @@ units = {
 
 	# IV Hadtest
 	division= {	
-		name = "7. Gyalogdand�r"
+		name = "7. Gyalogdandár"
 		location = 9660
-		division_template = "Gyalogdand�r"
+		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 	division= {	
-		name = "8. Gyalogdand�r"
+		name = "8. Gyalogdandár"
 		location = 9660
-		division_template = "Gyalogdand�r"
+		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
@@ -118,17 +118,17 @@ units = {
 
 	# V Hadtest
 	division= {	
-		name = "9. Gyalogdand�r"
+		name = "9. Gyalogdandár"
 		location = 679
-		division_template = "Gyalogdand�r"
+		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 	division= {	
-		name = "10. Gyalogdand�r"
+		name = "10. Gyalogdandár"
 		location = 679
-		division_template = "Gyalogdand�r"
+		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
@@ -136,60 +136,79 @@ units = {
 
 	# VI Hadtest
 	division= {	
-		name = "11. Gyalogdand�r"
+		name = "11. Gyalogdandár"
 		location = 11659
-		division_template = "Gyalogdand�r"
+		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 	division= {	
-		name = "12. Gyalogdand�r"
+		name = "12. Gyalogdandár"
 		location = 11659
-		division_template = "Gyalogdand�r"
+		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 
+	
+	division= {	
+		name = "13. Gyalogdandár"
+		location = 6751
+		division_template = "Gyalogdandár"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "14. Gyalogdandár"
+		location = 6751
+		division_template = "Gyalogdandár"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
 	# VII Hadtest
 	division= {	
-		name = "13. Gyalogdand�r"
-		location = 6751
-		division_template = "Gyalogdand�r"
+		name = "15. Gyalogdandár"
+		location = 11586
+		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
-	division= {	
-		name = "14. Gyalogdand�r"
-		location = 6751
-		division_template = "Gyalogdand�r"
+		division= {	
+		name = "16. Gyalogdandár"
+		location = 11586
+		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
 }
 
-### Magyar L�giero ###
+### Magyar Légiero ###
 air_wings = {
 	43 = {
-		# 1. L�gi Ezred -- Fiat CR.32 fighters
-		# 2. L�gi Ezred -- Fiat CR.32 fighters
+		# 1. Légi Ezred -- Fiat CR.32 fighters
+		# 2. Légi Ezred -- Fiat CR.32 fighters
 		fighter_equipment_0 = {
-			owner = "HUN"
+			owner = "HUN" 
+			creator = "HUN"
 				amount = 72
 		}
 
 	}
 	154 = {
-		# 3. L�gi Ezred -- Caproni Ca.101, WM-16 Budapest light bombers
+		# 3. Légi Ezred -- Caproni Ca.101, WM-16 Budapest light bombers
 		CAS_equipment_1 = {
 			owner = "HUN" 
 			amount = 12
 		}
 		tac_bomber_equipment_0 = {
-			owner = "HUN"
+			owner = "HUN" 
+			creator = "HUN"
 			amount = 12
 		}
 	}
