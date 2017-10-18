@@ -404,7 +404,7 @@ units = {
 	}
 ########NAVAL OOB########
 	navy = {				
-		name = "Ayiti Main Fleet"			
+		name = "Battleship Fleet 1"			
 		base = 4641 #Jaragua 
 		location = 4641
 		ship = { name = "ANS Ayiti" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AYI } } }
@@ -431,7 +431,7 @@ units = {
 		ship = { name = "ANS Orocobix" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 	}				
 	navy = {				
-		name = "Ayiti Destroyer Patrol"			
+		name = "Destroyer Patrol 1"			
 		base = 1550
 		location = 1550 # Guantanamo
 		ship = { name = "ANS Tymangoua" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }		
@@ -448,7 +448,7 @@ units = {
 		ship = { name = "ANS Kankakee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 	}				
 	navy = {				
-		name = "Ayiti Submarine Fleet"			
+		name = "Submarine Fleet 1"			
 		base = 1550
 		location = 1550 # Guantanamo
 		ship = { name = "ANS Kaima" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }		
@@ -459,7 +459,7 @@ units = {
 		ship = { name = "ANS Coai" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }		
 	}	
 	navy = {				
-		name = "Ayiti Northern Command"			
+		name = "Northern Command"			
 		base = 788
 		location = 788 # Roanoke
 		ship = { name = "ANS Quinipissa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }		
@@ -475,6 +475,34 @@ units = {
 		ship = { name = "ANS Timicua" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Chickasaw" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 	}	
+	navy = {				
+		name = "Submarine Fleet 2"			
+		base = 7552
+		location = 7552 # Quinipissa
+		ship = { name = "ANS Canaris" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ANS Fotuto" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ANS Caona" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Barana" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Ciba" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Kachi" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }		
+	}
+	navy = {				
+		name = "Destroyer Patrol 2"			
+		base = 1440
+		location = 1440 # Boriken
+		ship = { name = "ANS Chawasha" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ANS Bayogoula" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ANS Taneksa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Surruque" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Jaega" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Eufaula" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }	
+		ship = { name = "ANS Naniaba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Kasihta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Impsaktea" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Intcutwalipa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Ugahxpah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Pankah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+	}		
 }
 #####AIR WINGS######
 air_wings = {
