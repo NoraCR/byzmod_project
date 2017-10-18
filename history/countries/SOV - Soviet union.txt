@@ -223,7 +223,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Colonel Nikolay Grigoryev"
+	name = "Nikolay Grigoryev"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Generic_1.dds"
 	expire = "1953.3.1"

@@ -43,7 +43,7 @@
 		prefix = "CNS"
 		generic = { "Zhanjian" }
 		unique = {
-			"Zhili" "Fujian" "Guangdong" "Guangxi" "Guizhou" "Henan" "Hubei" "Hebei" "Jiangxi" "Shaanxi" "Shandong" "Shanxi" "Sichuan" "Yunnan" "Zhejiang"
+			"Zhili" "Fujian" "Guangdong" "Guangxi" "Guizhou" "Henan" "Hubei" "Hebei" "Jiangxi" "Shaanxi" "Shandong" "Shanxi" "Sichuan" "Yunnan" "Zhejiang" "Taiwan" "Jilin" "Andong" "Gansu" "Hejiang" "Hexi" "Liaobei" "Liaoning" "Nenjiang" "Ningxia" "Chahar" "Songjiang" "Suiyuan" "Xing'an" "Xinjiang" 
 		}
 	}
 	carrier = {
