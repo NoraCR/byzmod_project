@@ -10,9 +10,9 @@
 # protect
 # influence
 
-less_trucks_4_u_JAP = {
+HDA_templates_start = {
 	enable = {
-		tag = JAP
+		tag = HDA
 		date < 1939.1.1				
 	}
 	abort = { 
@@ -67,10 +67,9 @@ less_trucks_4_u_JAP = {
 		value = 20 #10 to 20
 	}
 }
-
-JAP_template_design = {
+HDA_template_design = {
 	enable = {
-		original_tag = JAP
+		original_tag = HDA
 		date > 1940.1.1				
 	}
 	
@@ -127,110 +126,4 @@ JAP_template_design = {
 		id = mechanized
 		value = 10
 	}
-}
-southern_expansion = {
-	enable = {
-		tag = JAP
-		has_completed_focus = southern_expansion_focus
-		OR = {
-			country_exists = HOL
-			country_exists = ENG	
-		}
-	}
-	abort = {
-		NOT = {
-			country_exists = HOL
-			country_exists = ENG	
-		}
-	}
-	
-	ai_strategy = {
-		type = antagonize
-		id = "HOL"			
-		value = 200
-	}		
-	ai_strategy = {
-		type = antagonize
-		id = "ENG"			
-		value = 100
-	}
-}
-
-northern_expansion = {
-	enable = {
-		tag = JAP
-		has_completed_focus = northern_expansion_focus
-		country_exists = SOV
-	}
-	abort = {
-		NOT = {
-			country_exists = SOV
-		}
-	}
-	
-	ai_strategy = {
-		type = antagonize
-		id = "SOV"			
-		value = 200
-	}		
-}
-
-chinese_war = {
-	enable = {
-		tag = JAP
-		has_completed_focus = chinese_war_focus
-		country_exists = CHI
-	}
-	abort = {
-		NOT = {
-			country_exists = CHI
-		}
-	}
-	
-	ai_strategy = {
-		type = antagonize
-		id = "CHI"			
-		value = 200
-	}		
-}
-
-strike_usa = {
-	enable = {
-		tag = JAP
-		has_completed_focus = strike_usa_focus
-		country_exists = USA
-	}
-	abort = {
-		NOT = {
-			country_exists = USA
-		}
-	}
-	
-	ai_strategy = {
-		type = antagonize
-		id = "USA"			
-		value = 200
-	}		
-}
-
-germany_ally = {
-	enable = {
-		tag = JAP
-		has_completed_focus = axis_leanings_focus
-		country_exists = GER
-	}
-	abort = {
-		NOT = { country_exists = GER }
-	}
-	
-	ai_strategy = {
-		type = befriend
-		id = "GER"			
-		value = 200
-	}
-	ai_strategy = {
-		type = alliance
-		id = "GER"			
-		value = 200
-	}	
 }

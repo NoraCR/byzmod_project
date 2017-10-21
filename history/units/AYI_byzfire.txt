@@ -502,7 +502,17 @@ units = {
 		ship = { name = "ANS Intcutwalipa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Ugahxpah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Pankah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
-	}		
+	}
+	navy = {				
+		name = "Destroyer Patrol 3"			
+		base = 7552
+		location = 7552 # Quinipissa
+		ship = { name = "ANS Ibitoupa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ANS Koroa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ANS Tallahatchie" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Yalobusha" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Tiou" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+	}	
 }
 #####AIR WINGS######
 air_wings = {
