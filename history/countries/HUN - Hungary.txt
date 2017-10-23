@@ -106,7 +106,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Flórián Szilágyi"
+	name = "Szilágyi Flórián"
 	desc = "POLITICS_MIKLOS_HORTHY_DESC"
 	picture = "Portrait_Hungary_Miklos_Horthy.dds"
 	expire = "1965.1.1"
@@ -117,7 +117,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Zsigmond Juhasz"
+	name = "Juhasz Zsigmond"
 	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
 	picture = "hun_zsigmond_juhasz.dds"
 	expire = "1965.1.1"
@@ -128,7 +128,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Károly Moholy-Nagy"
+	name = "Moholy-Nagy Károly"
 	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
@@ -138,7 +138,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "József Esterházy"
+	name = "Esterházy József"
 	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
@@ -174,14 +174,14 @@ create_country_leader = {
 
 
 create_corps_commander = {
-	name = "Erzsébet Somogyi" #female
+	name = "Somogyi Erzsébet" #female
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = {  }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "Krisztofer Zobor"
+	name = "Zobor Krisztofer"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = {  trickster }
 	skill = 4
