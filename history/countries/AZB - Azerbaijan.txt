@@ -86,7 +86,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Eldar Zeynallu Rəis"
+	name = "Eldar Zeynallu Reis"
 	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
 	expire = "1968.11.10"
@@ -118,11 +118,11 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "CEO Muxtar Əbűlhəsənli"
+	name = "Muxtar Abulheseinli"
 	desc = "POLITICS_SEFIK_HUSNU_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = corporatism
+	ideology = shanghai_school_economics
 	traits = {
 		#
 	}

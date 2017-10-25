@@ -108,11 +108,31 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Nazira Parpiye"
+	name = "Nazira Parpiye" #female
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "1965.1.1"
 	ideology = leninism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Arslon Khongkhai"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	expire = "1965.1.1"
+	ideology = fascism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Narzuqul Abdulghafur"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
 	traits = {
 		#
 	}
