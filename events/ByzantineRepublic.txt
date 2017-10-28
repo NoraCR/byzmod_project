@@ -37,10 +37,38 @@ country_event = {
 	}
 }
 
-	
-
-
-
+#Erdemir assassination attempt
+country_event = {
+	id = byz.201
+	title = byz.201.t
+	desc = byz.201.d
+	picture = GFX_report_event_generic_rally2
+	fire_only_once = yes	
+	trigger = {
+		date > 1939.2.15
+		has_government = communism 
+		country_exists = BYZ
+	}
+	option = {
+		name = byz.201.a
+		trigger = {
+		NOT = { TAG = BYZ }
+		NOT = { TAG = FRA }
+		}
+	}
+	option = {
+		name = byz.201.b
+		trigger = {
+			TAG = BYZ
+		}
+	}
+	option = {
+		name = byz.201.c
+		trigger = {
+			TAG = FRA
+		}
+	}
+}
 
 
 

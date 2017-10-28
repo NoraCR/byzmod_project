@@ -10,9 +10,10 @@ country_event = {
 	id = som.1
 	title = som.1.t
 	desc = som.1.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_fighters
+	fire_only_once = yes
 	
-		trigger = {
+	trigger = {
 		date > 1937.2.13
 		country_exists = SOM
 		country_exists = SYR
@@ -21,8 +22,10 @@ country_event = {
 	}
 	option = {
 		name = som.1.a
+		trigger = {
 		NOT = { TAG = SOM }
 		NOT = { TAG = SYR }
+		}
 	}
 	option = {
 		name = som.1.b
