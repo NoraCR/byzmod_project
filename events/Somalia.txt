@@ -17,8 +17,15 @@ country_event = {
 		date > 1937.2.13
 		country_exists = SOM
 		country_exists = SYR
+		NOT = { has_global_flag = som.1_fired }
 		SOM = { has_war = no }
 		SYR = { has_war = no }
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = som.1_fired 
 	}
 	option = {
 		name = som.1.a

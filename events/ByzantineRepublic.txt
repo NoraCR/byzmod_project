@@ -48,6 +48,13 @@ country_event = {
 		date > 1939.2.15
 		has_government = communism 
 		country_exists = BYZ
+		NOT = { has_global_flag = byz.201_fired }
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = byz.201_fired 
 	}
 	option = {
 		name = byz.201.a
