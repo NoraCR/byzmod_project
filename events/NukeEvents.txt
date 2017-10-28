@@ -66,7 +66,7 @@ news_event = {
 				state = 282
 			}
 			FROM = {
-				state = 361
+				state = 318
 			}
 			FROM = {
 				state = 2
@@ -82,6 +82,18 @@ news_event = {
 			}
 			FROM = {
 				state = 141
+			}
+			FROM = {
+				state = 9
+			}
+			FROM = {
+				state = 341
+			}
+			FROM = {
+				state = 525
+			}
+			FROM = {
+				state = 613
 			}
 		}
 	}
@@ -284,7 +296,7 @@ news_event = {
 	}
 }
 
-# Nuclear Attack on Washington D.C.
+# Nuclear Attack on Jaragua.
 news_event = {
 	id = nuke_dropped.8
 	title = nuke_dropped.8.t
@@ -296,7 +308,7 @@ news_event = {
 	fire_only_once = yes
 
 	trigger = {
-		FROM = { state = 361 }
+		FROM = { state = 318 }
 	}
 
 	option = {
@@ -482,4 +494,119 @@ news_event = {
 		}
 	}
 }
+# Nuclear Attack on Prague
+news_event = {
+	id = nuke_dropped.14
+	title = nuke_dropped.14.t
+	desc = nuke_dropped.14.d
+	picture = GFX_news_event_nuke
 
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		FROM = { state = 9 }
+	}
+
+	option = {
+		name = nuke_dropped.14.a
+		trigger = {
+			NOT = { owns_state = FROM }
+		}
+	}
+	
+	option = {
+		name = nuke_dropped.14.b
+		trigger = {
+			owns_state = FROM
+		}
+	}
+}
+# Nuclear Attack on Byzantion
+news_event = {
+	id = nuke_dropped.15
+	title = nuke_dropped.15.t
+	desc = nuke_dropped.15.d
+	picture = GFX_news_event_nuke
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		FROM = { state = 341 }
+	}
+
+	option = {
+		name = nuke_dropped.15.a
+		trigger = {
+			NOT = { owns_state = FROM }
+		}
+	}
+	
+	option = {
+		name = nuke_dropped.15.b
+		trigger = {
+			owns_state = FROM
+		}
+	}
+}
+# Nuclear Attack on Seoul
+news_event = {
+	id = nuke_dropped.16
+	title = nuke_dropped.16.t
+	desc = nuke_dropped.16.d
+	picture = GFX_news_event_nuke
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		FROM = { state = 525 }
+	}
+
+	option = {
+		name = nuke_dropped.16.a
+		trigger = {
+			NOT = { owns_state = FROM }
+		}
+	}
+	
+	option = {
+		name = nuke_dropped.16.b
+		trigger = {
+			owns_state = FROM
+		}
+	}
+}
+# Nuclear Attack on Shanghai
+news_event = {
+	id = nuke_dropped.17
+	title = nuke_dropped.17.t
+	desc = nuke_dropped.17.d
+	picture = GFX_news_event_nuke
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		FROM = { state = 613 }
+	}
+
+	option = {
+		name = nuke_dropped.17.a
+		trigger = {
+			NOT = { owns_state = FROM }
+		}
+	}
+	
+	option = {
+		name = nuke_dropped.17.b
+		trigger = {
+			owns_state = FROM
+		}
+	}
+}

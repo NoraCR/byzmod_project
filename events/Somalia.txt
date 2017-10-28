@@ -1,0 +1,50 @@
+############
+# Somali Events
+############
+
+add_namespace = som
+
+
+### Fluff event about air travel
+country_event = {
+	id = som.1
+	title = som.1.t
+	desc = som.1.d
+	picture = GFX_report_event_german_speech
+	
+		trigger = {
+		date > 1937.2.13
+		country_exists = SOM
+		country_exists = SYR
+		SOM = { has_war = no }
+		SYR = { has_war = no }
+	}
+	option = {
+		name = som.1.a
+		NOT = { TAG = SOM }
+		NOT = { TAG = SYR }
+	}
+	option = {
+		name = som.1.b
+		trigger = {
+			TAG = SOM
+		}
+	option = {
+		name = som.1.c
+		trigger = {
+			TAG = SYR
+		}	
+	}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
