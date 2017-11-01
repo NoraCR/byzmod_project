@@ -41,7 +41,7 @@ GER = {
 
 ENG = {
 	male = {
-		names = { A"A." "B." "C." "D." "E." "F." "G." "H." "I." "J." "L." "R." "S." "T." "W." "U." "K." "V."
+		names = { "A." "B." "C." "D." "E." "F." "G." "H." "I." "J." "L." "R." "S." "T." "W." "U." "K." "V."
 		  }
 	}
 	female = {
@@ -424,7 +424,7 @@ EST = {
 
 LAT = {
 	male = {
-		names = { A"A." "B." "D." "G." "H." "J." "K." "L." "M." "P." "R." "S." "V." "Z."
+		names = { "A." "B." "D." "G." "H." "J." "K." "L." "M." "P." "R." "S." "V." "Z."
 		  }
 	}
 	female = {
@@ -1574,7 +1574,7 @@ DOM = {
 HAI = {
 	male = {
 		names = {  
-			A"A." "M." "H." "I." "G." "T." "Y."
+			"A." "M." "H." "I." "G." "T." "Y."
 		 }
 	}
 	female = {
