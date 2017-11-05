@@ -98,7 +98,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Abdul Karim Dadrewala"
 	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	expire = "1965.1.1"
 	ideology = objectivism
 	traits = {
@@ -106,11 +106,21 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Daryush Shahmoradi-Khorrami"
+	name = "Daryush IV Vali"
+	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Avizheh Hakhamaneshi"
 	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = rexism
 	traits = {
 		#
 	}

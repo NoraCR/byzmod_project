@@ -5,6 +5,10 @@ state={
 	
 	state_category = wasteland
 	
+	resources={
+		oil=12
+	}
+	
 	history={
 		owner = LBA
 		buildings = {
