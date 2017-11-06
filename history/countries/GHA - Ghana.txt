@@ -135,6 +135,16 @@ create_country_leader = {
 		
 	}
 }
+create_country_leader = {
+	name = "Oluwole Ogunde"
+	desc = "POLITICS_OSWALD_MOSLEY_DESC"
+	picture = "Portrait_Britain_Oswald_Mosley.dds"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = {
+		
+	}
+}
 
 create_field_marshal = {
 	name = "Ioannes Oluwaremilekun"

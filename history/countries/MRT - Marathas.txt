@@ -104,9 +104,19 @@ create_country_leader = {
 create_country_leader = {
 	name = "Mukhtiar Agarwal"
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
-	picture = "Portrait_Soviet_Generic_1.dds"
+	picture = "Portrait_Soviet_Generic_2.dds"
 	expire = "1953.3.1"
 	ideology = shanghai_school_economics
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Anand Rao Sharqi"
+	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	picture = "Portrait_Soviet_Generic_1.dds"
+	expire = "1953.3.1"
+	ideology = monarchism
 	traits = {
 		
 	}

@@ -126,6 +126,15 @@ create_country_leader = {
 	traits = {
 	}
 }
+create_country_leader = {
+	name = "Isabell Spalding"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "Portrait_Soviet_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = pangalism
+	traits = {
+	}
+}
 
 #create_country_leader = {
 #	name = "Otto Wels"

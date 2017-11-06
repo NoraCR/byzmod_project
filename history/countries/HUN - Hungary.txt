@@ -147,6 +147,16 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Lakatos Márkó"
+	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
 
 1939.1.1 = {
 	set_politics = {

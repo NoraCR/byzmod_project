@@ -103,7 +103,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Mama’Achiq Ucharima Ticahuanca"
+	name = "Mama'Achiq Ucharima Ticahuanca"
 	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
 	expire = "1965.1.1"
@@ -128,6 +128,16 @@ create_country_leader = {
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
 	expire = "1965.1.1"
 	ideology = leninism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Sumaq Paucarchuco Huamancuri"
+	desc = "POLITICS_ARMANDO_SALES_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
 	traits = {
 		#
 	}
