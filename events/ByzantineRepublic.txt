@@ -4,7 +4,35 @@
 
 add_namespace = byz
 
+# Completing the Bosporus Bridge
 
+country_event = {
+	id = byz.199
+	title = byz.199.t
+	desc = byz.199.d
+	picture = GFX_news_event_generic_rally
+	fire_only_once = yes
+	trigger = {
+		date = 1937.5.27
+		country_exists = BYZ
+		NOT = { has_global_flag = byz.199_fired }
+		BYZ = { has_war = no }
+	}
+	
+	immediate = {
+		set_global_flag = byz.199_fired 
+	}
+	
+	option = {
+		name = byz.199.a
+		341 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+			}
+		}
+	}
+}
 # Germany requests aid
 country_event = {
 	id = byz.200
@@ -43,7 +71,7 @@ country_event = {
 	title = byz.201.t
 	desc = byz.201.d
 	picture = GFX_report_event_generic_rally2
-	fire_only_once = yes	
+	fire_only_once = yes
 	trigger = {
 		date > 1939.2.15
 		has_government = communism 

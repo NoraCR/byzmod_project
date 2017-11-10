@@ -166,6 +166,22 @@ units = {
 		start_equipment_factor = 0.65
 
 	}
+	division = {			
+		name = "Malta Garrison"		
+		location = 12003
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.65
+
+	}
+	division = {			
+		name = "Gibraltar Garrison"		
+		location = 4135
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.65
+
+	}
 
 	### 1st Army -- note: Armies only paper organizations in 1936 ###
 	# I Army Corps #

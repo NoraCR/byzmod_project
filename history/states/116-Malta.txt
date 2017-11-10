@@ -5,19 +5,19 @@ state=
 	manpower = 241621
 	state_category = small_island
 	history= {
-		owner = ENG
+		owner = BYZ
 		victory_points = {
 			12003 5 
 		}
 		buildings = {
 			infrastructure = 3
-			air_base = 3
+			air_base = 4
 			12003 = {
-				naval_base = 3
+				naval_base = 4
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = ENG
+		add_core_of = BYZ
 	}
 	provinces= { 12003 }
 }
