@@ -303,7 +303,8 @@ units = {
 		ship = { name = "HMS Folkestone" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Jaragua" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Oaxaca" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Keynes" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Keynes" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Oxton" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 	}						
 	navy = {				
 		name = "Channel Force"			

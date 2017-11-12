@@ -3,6 +3,10 @@ state={
 	name="STATE_546"
 	
 	state_category = large_town
+	
+	resources={
+		steel=66
+	}
 
 	history={
 		owner = SHO
