@@ -166,3 +166,13 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Benediktas Bakanauskas" 
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = corpocracy
+	traits = {
+		#
+	}
+}
