@@ -184,42 +184,42 @@ units = {
 	}
 	division= {	
 		name = "15th Infantry Division"
-		location = 3123
+		location = 4889
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "16th Infantry Division"
-		location = 1473
+		location = 4889
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "17th Infantry Division"
-		location = 4902
+		location = 4889
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "18th Infantry Division"
-		location = 8128
+		location = 4889
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "19th Infantry Division"
-		location = 8077
+		location = 4889
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "20th Infantry Division"
-		location = 12842
+		location = 4889
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
