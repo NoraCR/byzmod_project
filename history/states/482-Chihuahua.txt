@@ -12,6 +12,7 @@ state={
 			infrastructure = 4
 		}
 		add_core_of = HDA
+		add_core_of = MEX
 	}
 
 	provinces={

@@ -274,7 +274,7 @@ JAP = {
 		 }
 	}
 	female = {
-		names = { "A." "H." "I." "J." "K." "M." "N." "R." "S." "T." "Y." "F."
+		names = { "A." "H." "I." "J." "K." "M." "N." "R." "S." "T." "Y." "F." }
 	}
 	surnames = { 
 		Arisugawa Arichi Akiyama Araki
@@ -840,7 +840,7 @@ IRQ = {
 OMA = {
 	male = {
 		names = {
-			""A." "F." "H." "I." "J." "K." "M." "N." "S." "T." "U." "Y." "Z." 		
+			"A." "F." "H." "I." "J." "K." "M." "N." "S." "T." "U." "Y." "Z." 		
 		 }
 	}
 	female = {
@@ -852,15 +852,13 @@ OMA = {
 			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
 			"ibn Muhammad" "ibn Mustafa" "ibn Salim"   
 			"ibn Umar" "ibn Uthman" "ibn Yusuf" 
-	
 	}
 	callsigns = { }
 }
 PER = {
 	male = {
-		names = { "A." "E." "F." "H." "K." "M." "N." "R."  
+		names = { "A." "E." "F." "H." "K." "M." "N." "R." }  
 		}
-	}
 	female = {
 		names = { "A." "E." "F." "H." "K." "M." "N." "R." }
 	}
@@ -1114,6 +1112,7 @@ RAJ = {
 		names = { "C." "P." "K." "D." "J." "S." "K." "R." "A."
 		}
 	callsigns = { }
+	}
 }
 MRT = {
 	male = {
@@ -1292,11 +1291,11 @@ LIB = {
 ETH = {
 	male = {
 		names = {
-			"A." "B." "S." "H." "D." "G." "K." "N.
+			"A." "B." "S." "H." "D." "G." "K." "N."
 		   }
 	}
 	female = {
-		names = { "A." "B." "S." "H." "D." "G." "K." "N. }
+		names = { "A." "B." "S." "H." "D." "G." "K." "N." }
 	}
 	surnames = {
 		Selassie Mikael Mariam Melekot Seged Wossen Makonnen

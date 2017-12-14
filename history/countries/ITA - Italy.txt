@@ -2,11 +2,9 @@
 
 oob = "ITA_1936"
 
-set_research_slots = 4
+set_research_slots = 3
 
 add_ideas = {
-	victor_emmanuel
-	vittoria_mutilata
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
@@ -171,7 +169,7 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Benito Mussolini"
+	name = "Achilles Scarpato"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "Portrait_Italy_Benito_Mussolini.dds"
 	expire = "1965.1.1"
@@ -180,74 +178,75 @@ create_country_leader = {
 		
 	}
 }
+create_country_leader = {
+	name = "Ernesto Mastroianni"
+	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	picture = "Portrait_Italy_Benito_Mussolini.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Marinetta Postiglione"
+	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	picture = "Portrait_Italy_Benito_Mussolini.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Emerico Galiani"
+	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	picture = "Portrait_Italy_Benito_Mussolini.dds"
+	expire = "1965.1.1"
+	ideology = cacicazgo
+	traits = {
+		
+	}
+}
 
 create_field_marshal = {
-	name = "Pietro Badoglio"
+	name = "Domiziano Ingenito"
 	picture = "Portrait_Italy_Pietro_Badoglio.dds"
 	traits = { defensive_doctrine old_guard }
 	skill = 1
 }
 
 create_corps_commander = {
-	name = "Ugo Cavallero"
+	name = "Lucia Catanzaro"
 	picture = "Portrait_Italy_Ugo_Cavallero.dds"
 	traits = {  old_guard }
 	skill = 1
-	rank = 1
 }
 
-create_corps_commander = {
-	name = "Giovanni Messe"
-	picture = "Portrait_Italy_Giovanni_Messe.dds"
-	traits = {  panzer_leader }
-	skill = 4
-	rank = 1
-}
 
 create_corps_commander = {
-	name = "Sebastiano Visconti Prasca"
+	name = "Bertoldo Caldarone"
 	picture = "Portrait_Italy_Sebastiano_Visconti_Prasca.dds"
 	traits = {  }
 	skill = 1
 }
 
 create_corps_commander = {
-	name = "Ubaldo Soddu"
+	name = "Claudia Petrosino"
 	picture = "Portrait_Italy_Ubaldo_Soddu.dds"
 	traits = {  }
 	skill = 1
 }
 
 create_navy_leader = {
-	name = "Inigo Campioni"
-		picture = "Portrait_Italy_Inigo_Campioni.dds"
-	traits = { superior_tactician spotter }
-	skill = 2
-}
-
-create_navy_leader = {
-	name = "Alberto Da Zara"
-		picture = "Portrait_Italy_Alberto_Da_Zara.dds"
-	traits = { superior_tactician }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "Giuseppe Fioravanzo"
-		picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
-	traits = { superior_tactician }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "Carlo Bergamini"
+	name = "Vittorio Petrillo"
 		picture = "Portrait_Italy_Carlo_Bergamini.dds"
 	traits = { superior_tactician }
 	skill = 2
 }
 
 create_navy_leader = {
-	name = "Angelo Iachino"
+	name = "Loretta Rega"
 		picture = "Portrait_Italy_Angelo_Iachino.dds"
 	traits = { superior_tactician spotter }
 	skill = 2

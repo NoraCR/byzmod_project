@@ -5,6 +5,7 @@ state={
 	manpower = 3540948
 	
 	state_category = rural
+
 	
 	resources={
 		tungsten=24
@@ -26,7 +27,7 @@ state={
 		victory_points = {
 			5117 3 
 		}
-
+		add_core_of = COG
 	}
 
 	provinces={

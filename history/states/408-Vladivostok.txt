@@ -25,6 +25,7 @@ state={
 			}
 		}
 		add_core_of = CHI
+		add_core_of = MAN
 	}
 
 	provinces={

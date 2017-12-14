@@ -5,7 +5,6 @@ state={
 	manpower = 2564000
 	
 	state_category = rural
-
 	history={
 		owner = ENG
 		victory_points = {
@@ -14,6 +13,7 @@ state={
 		victory_points = {
 			5139 1
 		}
+		add_core_of = COG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

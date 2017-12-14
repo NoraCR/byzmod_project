@@ -10,8 +10,8 @@
 		prefix = "CNS"
 		generic = { "Quzujian" }
 		unique = {
-		"Bailianjiao" "Zhu Yuanzhang" "Han Shantong" "Liu Futong" "Han Lin'er" "Xu Shouhui" "Chen Youliang" "Lan Yu" "Ding Dexing" "Mu Ying" "Feng Sheng" "Hu Dahai" "Chang Yuchun" "Guo Zixing" "Hongjin Qiyi" "Zhu Sheng" "Jiao Yu" "Liu Bowen" "Mu Ying" "Quan Tang" "He Suonan"
-		"Xu Fu" "Zheng He" "Zhu Yu" "Yuan Kang" "Li Fang" "Wu Zixu" "Li Quan" "Qi Jiguang" "Li Bao"
+		"Bailianjiao" "Han Shantong" "Liu Futong" "Han Lin'er" "Xu Shouhui" "Chen Youliang" "Lan Yu" "Ding Dexing" "Mu Ying" "Feng Sheng" "Hu Dahai" "Chang Yuchun" "Guo Zixing" "Hongjin Qiyi" "Zhu Sheng" "Jiao Yu" "Liu Bowen" "Mu Ying" "Quan Tang" "He Suonan"
+		"Xu Fu" "Zhu Yu" "Yuan Kang" "Li Fang" "Wu Zixu" "Li Quan" "Qi Jiguang" "Li Bao"
 		"Sun Wukong" "Xuanzang" "Zhu Bajie" "Zhang Jiao" "He Jin" "Jia Baoyu" "Lin Daiyu" "Xue Baochai" "Jia Yuanchun" "Jia Tanchun" "Shi Xingyun" "Gao Qiu" "Chao Gai" "Lin Chong" "Shi Jin" "Chao Gai" "Miaoyu" "Jia Yingchun" "Jia Xichun" "Liu Bei" "Guan Yu" "Zhang Fei" "Wu Song" "Lin Chong" "Lu Zhishen" "Cao Cao" "Zhuge Liang" "Wang Xifeng" "Jia Qiaojie" "Sha Wujing" "Li Wan" "Qin Keqing" "Jia She" "Wang Yun" "Lu Bu" "Zhang Xiu" "Yuan Shu" "Sun Ce" "Sun Quan" "Sun Jian" "Gongsun Zan" "Jia Lian" "Xiangling" "Xue Pan" "Ping'er" "Liu Laolao" "Wang Furen" "Xue Yima" "Hua Xiren" "Qingwen" "Yuanyang" "Mingyan" "Zijuan" "Xueyan" 
 		"Xiao" "Ao" "Bashe" "Fucanglong" "Xiangliu" "Yinglong" "Rui Shi" "Tianlong" "Pixiu" "Xiniu" "Jingwei" "Jian" "Genghuang" "Sanzuwu" "Qing Niao" "Jiufeng" "Zhen" "Taowu" "Hundun" "Qiongqi" "Zhayu" "Peng" "Bi Fang" "Fusang" "Bai Ze" "Qinlin" "Xiezhi" "Luduan" "Dilong" "Jialong" "Nian" "Jiuwei Hu" "Qilin" "Kui" "Jiangshi" "Yaoguai"
 		"Taishan" "Huashan" "Hengshan" "Songshan" "Wutaishan" "Emeishan" "Jihuashan" "Putuoshan" "Wudangshan" "Longhushan" "Qiyunshan" "Qingchengshan" "Kunlunshan"
@@ -22,14 +22,14 @@
 		prefix = "CNS"
 		generic = { "Qing Xunyangjian" }
 		unique = {
-			"Suzhou" "Chonqging" "Dalian" "Qingdao" "Quanzhou" "Baoding" "Changsha" "Lanzhou" "Shenyang" "Hankou" "Hanyang" "Changchun" "Ningbo" "Zibo" "Hefei" "Changzhou" "Taizhou" "Taishan" "Nantong" "Nanning" "Huai'an" "Xuzhou" "Linyi" "Anshan" "Huaibei" "Haikou" "Yiwu" "Baotou" "Liuzhou" "Anyang" Yangzhou" "Huizhou" "Dongguan" "Wenzhou" "Anqing" "Jiujiang" "Qiqihar" "Dihua"
+			"Suzhou" "Chonqging" "Dalian" "Qingdao" "Quanzhou" "Baoding" "Changsha" "Lanzhou" "Shenyang" "Hankou" "Hanyang" "Changchun" "Ningbo" "Zibo" "Hefei" "Changzhou" "Taizhou" "Taishan" "Nantong" "Nanning" "Huaian" "Xuzhou" "Linyi" "Anshan" "Huaibei" "Haikou" "Yiwu" "Baotou" "Liuzhou" "Anyang" "Yangzhou" "Huizhou" "Dongguan" "Wenzhou" "Anqing" "Jiujiang" "Qiqihar" "Dihua"
 		}
 	}
 	heavy_cruiser = {
 		prefix = "CNS"
 		generic = { "Zhong Xunyangjian" }
 		unique = {
-			"Shanghai" "Beijing" "Nanjing" "Fuzhou" "Guangzhou" "Guilin" "Guiyang" "Kaifeng" "Wuchang" "Nanchang" "Xi'an" "Jinan" "Taiyuan" "Chengdu" "Yunnan" "Hangzhou" "Kunming" "Mangu" "Henei" "Chaigun" "Mandelei" "Kabu'er" "Asitelahan" "Tashengan" "Bishenkaike" "Wanxiang" "Wu'er" "Huangheshi"
+			"Shanghai" "Beijing" "Nanjing" "Fuzhou" "Guangzhou" "Guilin" "Guiyang" "Kaifeng" "Wuchang" "Nanchang" "Xian" "Jinan" "Taiyuan" "Chengdu" "Yunnan" "Hangzhou" "Kunming" "Mangu" "Henei" "Chaigun" "Mandelei" "Kabuer" "Asitelahan" "Tashengan" "Bishenkaike" "Wanxiang" "Wuer" "Huangheshi"
 		}
 	}
 	battle_cruiser = {
@@ -43,14 +43,15 @@
 		prefix = "CNS"
 		generic = { "Zhanjian" }
 		unique = {
-			"Zhili" "Fujian" "Guangdong" "Guangxi" "Guizhou" "Henan" "Hubei" "Hebei" "Jiangxi" "Shaanxi" "Shandong" "Shanxi" "Sichuan" "Yunnan" "Zhejiang" "Taiwan" "Jilin" "Andong" "Gansu" "Hejiang" "Hexi" "Liaobei" "Liaoning" "Nenjiang" "Ningxia" "Chahar" "Songjiang" "Suiyuan" "Xing'an" "Xinjiang" 
+			"Zhili" "Fujian" "Guangdong" "Guangxi" "Guizhou" "Henan" "Hubei" "Hebei" "Jiangxi" "Shaanxi" "Shandong" "Shanxi" "Sichuan" "Yunnan" "Zhejiang" "Taiwan" "Jilin" "Andong" "Gansu" "Hejiang" "Hexi" "Liaobei" "Liaoning" "Nenjiang" "Ningxia" "Chahar" "Songjiang" "Suiyuan" "Xingan" "Xinjiang" "Huainan" "Jingdong" "Jinghu" "Jingji" "Jingxi" "Kuizhou" "Liangzhe" "Lizhou" "Qinfeng" "Yonxingjun" "Zizhou"
 		}
 	}
 	carrier = {
 		prefix = "CNS"
 		generic = { "Hangmu" }
 		unique = {
-			"Poyang Hu" "Caishi" "Tangdao" "Jingxing" "Weihu" "Gaixia" "Chibi" "Julu" "Fancheng" "Xiakou" "Xiapi" 
+			"Poyang Hu" "Caishi" "Tangdao" "Jingxing" "Weihu" "Gaixia" "Chibi" "Julu" "Fancheng" "Xiakou" "Xiapi" "Yushan"
+			"Zheng He" "Baochuan" "Ming Taizu" "Kaitian" "Xingdao" "Liji" "Dasheng" "Zhishen" "Renwen" "Junde" "Chenggong" "Shensheng" "Zhicheng" "Fatian"
 			"Zhang Zhulin" "Mu Dahai" "Song Xiexia" "Chen Xin" "Long Yibing" "Hu Minxia" "Zhang Li" "Pang Ye" "Zheng Hanbin" "Cao Liuxian" "Liu Kesan"
 		}
 	}

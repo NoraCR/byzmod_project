@@ -1,5 +1,8 @@
 #reload countrycolors
-
+UKR = {
+	color = rgb { 0  80  230 }
+	color_ui = rgb { 0  80  230 }	
+}
 SHO = {
 	color = rgb { 140 200 10 }
 	color_ui = rgb { 160 220 30 }
@@ -9,7 +12,10 @@ MPT = {
 	color = rgb { 235  94  123 }
 	color_ui = rgb { 255  114  143 }
 }
-
+COG = {
+	color = rgb { 152 159 209 }
+	color_ui = rgb { 152 159 209 }
+}
 KEN = {
 	color = rgb { 66  94  123 }
 	color_ui = rgb { 86  114  143 }
@@ -388,6 +394,10 @@ SLO = {
 	color = rgb { 158  161  188 }
 	color_ui = rgb { 255 255 255 }
 }
+CRI = {
+	color = rgb { 158  161  188 }
+	color_ui = rgb { 255 255 255 }
+}
 RAJ = {
 	color = rgb { 130  220  235 }
 	color_ui = rgb { 150  230  255 }
@@ -460,7 +470,7 @@ SIA = {
 
 MRT = {
 	color = rgb { 217 144 88 }
-	color_ui = rgb { 217 144 88 }
+	color_ui = rgb { 255 69 0 }
 }
 
 ICE = {

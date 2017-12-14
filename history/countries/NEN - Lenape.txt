@@ -28,14 +28,13 @@ set_technology = {
 	basic_light_cruiser = 1
 	early_heavy_cruiser = 1
 	early_battleship = 1
-	basic_battleship
+	basic_battleship = 1
 	early_battlecruiser = 1
 	early_carrier = 1
 	basic_carrier = 1
 	transport = 1
 	superior_firepower = 1
 	base_strike = 1
-
 }
 
 set_convoys = 0
@@ -116,7 +115,7 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Allaquippa Naraticonck"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_9.dds"
-	traits = { engineer }
+	traits = { trait_engineer }
 	skill = 3
 }
 

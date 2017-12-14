@@ -38,6 +38,7 @@ state={
 		}
 		add_core_of = FRA
 		add_core_of = SWI
+		add_core_of = BYZ
 	}
 
 	provinces={

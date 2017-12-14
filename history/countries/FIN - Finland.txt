@@ -1,7 +1,5 @@
 ﻿capital = 111
 
-oob = "FIN_1936"
-
 set_research_slots = 3
 
 add_ideas = {
@@ -139,7 +137,7 @@ set_politics = {
 	}
 }
 create_country_leader = {
-	name = "Risto Heikki Ryti"
+	name = "Vilho Mäenpää"
 	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
 	picture = "Portrait_Finland_Risto_Heikki_Ryti.dds"
 	expire = "1965.1.1"
@@ -150,7 +148,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Aimo Aaltonen"
+	name = "Ilma Valtonen" #female
 	desc = "POLITICS_AIMO_AALTONEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
@@ -161,7 +159,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vilho Annala"
+	name = "Antto Peltonen"
 	desc = "POLITICS_VILHO_ANNALA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
@@ -172,11 +170,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kyösti Kallio"
+	name = "Katja Haapalainen" #female
 	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
 	picture = "gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = corpocracy
 	traits = {
 		#
 	}
@@ -189,14 +187,14 @@ add_ideas = {
 }
 
 create_corps_commander = {
-	name = "Erik Heinrichs"
+	name = "Raita Salminen" #female
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { winter_specialist ranger }
 	skill = 4
 }
 
 create_corps_commander = {
-	name = "Vilho Petter Nenonen"
+	name = "Henrik Kärkkäinen"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = { winter_specialist commando }
 	skill = 3

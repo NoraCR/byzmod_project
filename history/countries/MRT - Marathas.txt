@@ -116,7 +116,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
 	picture = "Portrait_Soviet_Generic_1.dds"
 	expire = "1953.3.1"
-	ideology = monarchism
+	ideology = despotism
 	traits = {
 		
 	}
@@ -138,7 +138,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Amrit Barvadekar"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
-	traits = { defensive_doctrine }
+	traits = { }
 	skill = 3
 }
 create_corps_commander = {

@@ -63,12 +63,12 @@ set_politics = {
 	parties = {
 		democratic = { 
 			popularity = 0
-			banned = yes
+			banned = no
 		}
 
 		fascism = {
 			popularity = 0
-			banned = yes
+			banned = no
 		}
 		
 		communism = {
@@ -80,15 +80,55 @@ set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Anandyn Amar"
+	name = "Seruuntungalag Chakha" #female
 	desc = "POLITICS_ANANDYN_AMAR_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
 	expire = "1965.1.1"
 	ideology = marxism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Sokhatai Enkhtuyaa" #female
+	desc = "POLITICS_ANANDYN_AMAR_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Sorghaghtani-Beki Chambui" #female
+	desc = "POLITICS_ANANDYN_AMAR_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Bodonchar Uriangkadai"
+	desc = "POLITICS_ANANDYN_AMAR_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Idughadai Tömörbaatar"
+	desc = "POLITICS_ANANDYN_AMAR_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
 	traits = {
 		#
 	}

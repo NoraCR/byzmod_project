@@ -796,12 +796,6 @@ air_wings = {
 			owner = "SOV" 
 			amount = 60
 		}
-		# 3ya Dal'nyaya Bombardirovochnye Aviabrigada
-		# 13ya Dal'nyaya Bombardirovochnye Aviabrigada
-		strat_bomber_equipment_1 =  {
-			owner = "SOV" 
-			amount = 48
-		}
 	}
 
 	# KOVO Aviatsya Komandovaniya -- Kiev
@@ -887,17 +881,7 @@ instant_effect = {
 		progress = 0.15
 		efficiency = 50
 	}
-
-	add_equipment_production = {
-		equipment = {
-			type = strat_bomber_equipment_1
-			creator = "SOV" 
-		}
-		requested_factories = 1
-		progress = 0.2
-		efficiency = 50
-	}
-
+	
 	### Ships Under Construction Notes ###
 	# DD: Leningrad & Minsk variant (x4) ("Leningrad" "Moskva" "Kharkov" "Minsk")
 	add_equipment_production = {

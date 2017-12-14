@@ -87,7 +87,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Muhammad Naguib"
+	name = "Zaaida al-Salih"
 	desc = ""
 	picture = "gfx/leaders/EGY/Portrait_Arabia_Generic_democratic1.dds"
 	ideology = liberalism
@@ -97,7 +97,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ahmed Husayn"
+	name = "Mutasim Husayn al-Sharif"
 	desc = ""
 	picture = "gfx/leaders/EGY/Portrait_Arabia_Generic_1.dds"
 	ideology = fascism_ideology
@@ -107,7 +107,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Farouk Muhammad Ali"
+	name = "Muhammad II Ali"
 	desc = ""
 	picture = "gfx/leaders/EGY/Portrait_Arabia_Generic_land_1.dds"
 	ideology = despotism
@@ -117,10 +117,19 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hosni al-Arabi"
+	name = "Muammar al-Madani"
 	desc = ""
 	picture = "gfx/leaders/EGY/Portrait_Arabia_Generic_navy_3.dds"
 	ideology = leninism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Maisara el-Mostafa"
+	desc = ""
+	picture = "gfx/leaders/EGY/Portrait_Arabia_Generic_navy_2.dds"
+	ideology = shanghai_school_economics
 	traits = {
 		#
 	}
