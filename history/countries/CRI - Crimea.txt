@@ -1,4 +1,4 @@
-capital = 137
+﻿capital = 137
 
 oob = "CRI_byzfire"
 

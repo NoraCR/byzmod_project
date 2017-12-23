@@ -21,6 +21,7 @@ state={
 			1652 3 
 		}
 		add_core_of = KOR
+		add_core_of = AST
 	}
 
 	provinces={

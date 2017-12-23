@@ -131,7 +131,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Boris III"
+	name = "Vladimir IV"
 	desc = "POLITICS_BORIS_III_DESC"
 	picture = "Portrait_Bulgaria_Boris_III.dds"
 	expire = "1965.1.1"
@@ -142,7 +142,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Georgi Dimitrov"
+	name = "Bogomil Dinev"
 	desc = "POLITICS_GEORGI_DIMITROV_DESC"
 	picture = "Portrait_Bulgaria_Georgi_Dimitrov.dds"
 	expire = "1965.1.1"
@@ -153,18 +153,18 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Zivko Topalovic"
+	name = "Gergana Pironeva"
 	desc = "POLITICS_ZIVCO_TOPALOVIC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = corpocracy
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Hristo Lukov"
+	name = "Stefan Deliivanov"
 	desc = "POLITICS_HRISTO_LUKOV_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
@@ -175,14 +175,14 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Vasil Tenev Boydev"
+	name = "Dragomir Balkanski"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	traits = { panzer_leader }
 	skill = 3
 }
 
 create_field_marshal = {
-	name = "Georgi Nikolov Popov"
+	name = "Ivana Ilieva"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { defensive_doctrine }
 	skill = 4

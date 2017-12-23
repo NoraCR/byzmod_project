@@ -2670,7 +2670,7 @@ focus_tree = {
 		}
 
 		available = {
-			SPA = {
+			SPR = {
 				is_ai = yes 
 			}
 		}
