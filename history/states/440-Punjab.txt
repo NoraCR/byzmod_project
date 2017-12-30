@@ -8,7 +8,8 @@ state={
 
 	history={
 		owner = MRT
-		owner = MRT
+		add_core_of = MRT
+		add_core_of = RAJ
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2

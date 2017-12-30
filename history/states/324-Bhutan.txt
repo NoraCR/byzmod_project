@@ -15,6 +15,8 @@ state={
 
 	history={
 		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = MRT
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
