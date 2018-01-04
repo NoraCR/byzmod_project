@@ -156,7 +156,7 @@ ideas = {
 	
 	
 	political_advisor = {	
-		sanzo_nosaka = {
+		yoshii_norihisa = {
 			
 			
 			allowed = {
@@ -182,7 +182,7 @@ ideas = {
 			}
 		}	
 			
-		kijuro_shidehara = {
+		sasagawa_fumiko = {
 			
 			
 			allowed = {
@@ -208,7 +208,32 @@ ideas = {
 			}
 		}
 		
-		kingoro_hashimoto = {
+		horiuchi_shigeaki = {
+			
+			
+			allowed = {
+				original_tag = "JAP"
+			}
+			
+
+			
+			traits = { fascist_demagogue }
+	
+			on_add = {
+				country_event = political.7
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		mitsubishi_sadako = {
 			
 			
 			allowed = {
@@ -234,7 +259,7 @@ ideas = {
 			}
 		}
 
-		JAP_mitsumasa_yonai = {
+		JAP_mizuno_tomoe = {
 			
 			picture = generic_political_advisor_asia_2
 			
@@ -245,18 +270,7 @@ ideas = {
 			traits = { silent_workhorse }
 		}
 
-		JAP_hiroshi_oshima = {
-			
-			picture = generic_political_advisor_asia_1
-			
-			allowed = {
-				original_tag = JAP
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		JAP_chiune_sugihara = {
+		JAP_sempo_sugihara = {
 			
 			picture = generic_political_advisor_asia_3
 			
@@ -271,7 +285,7 @@ ideas = {
 	# MILITARY
 	army_chief = {
 		
-		kanin_kotohito = {
+		nagatani_mitsuko = {
 			
 			
 			allowed = {
@@ -287,7 +301,7 @@ ideas = {
 			}
 		}
 		
-		hajime_sugiyama = {
+		yanagihara_shiro = {
 			
 			
 			allowed = {
@@ -303,7 +317,7 @@ ideas = {
 			}
 		}
 		
-		hideki_tojo = {
+		kunio_sawako = {
 			
 			
 			allowed = {
@@ -323,7 +337,7 @@ ideas = {
 		
 		
 		
-		fushimi_hiroyasu = {
+		nakagawa_shunichi = {
 			
 			
 			allowed = {
@@ -339,7 +353,7 @@ ideas = {
 			}
 		}
 		
-		osami_nagano = {
+		endo_chimaki = {
 			
 			
 			allowed = {
@@ -355,7 +369,7 @@ ideas = {
 			}
 		}
 		
-		shigetaro_shimada = {
+		sugiura_atsumori = {
 			
 			
 			allowed = {
@@ -374,7 +388,7 @@ ideas = {
 	air_chief = {
 		
 		
-		torashiro_kawabe = {
+		toyoda_toyokuni = {
 			
 			
 			allowed = {
@@ -390,7 +404,7 @@ ideas = {
 			}
 		}
 		
-		korechika_anami = {
+		okamoto_hana = {
 			
 			
 			allowed = {
@@ -406,7 +420,7 @@ ideas = {
 			}
 		}
 		
-		kenji_doihara = {
+		morioka_tadashi = {
 			
 			
 			allowed = {
@@ -426,7 +440,7 @@ ideas = {
 	
 	high_command = {
 		
-		hitoshi_imamura = {
+		li_xue = {
 			
 			
 			allowed = {
@@ -442,7 +456,7 @@ ideas = {
 			}
 		}
 		
-		yasuji_okamura = {
+		kamei_nariaki = {
 			
 			
 			allowed = {
@@ -458,7 +472,7 @@ ideas = {
 			}
 		}
 		
-		shunroku_hata = {
+		otonari_eitaro = {
 			
 			
 			allowed = {
@@ -474,7 +488,7 @@ ideas = {
 			}
 		}	
 		
-		mitsuo_fuchida = {
+		tanaka_hiroe = {
 			
 			
 			allowed = {
@@ -490,7 +504,7 @@ ideas = {
 			}
 		}
 		
-		nishizo_tsukahara = {
+		furuya_gempachi = {
 			
 			
 			allowed = {
@@ -506,7 +520,7 @@ ideas = {
 			}
 		}
 		
-		tateo_kato = {
+		nagatsuka_riho = {
 			
 			
 			allowed = {
@@ -522,7 +536,7 @@ ideas = {
 			}
 		}	
 		
-		soemu_toyoda = {
+		matsushima_taro = {
 			
 			
 			allowed = {
@@ -538,7 +552,7 @@ ideas = {
 			}
 		}
 		
-		matome_ugaki = {
+		takayama_hideko = {
 			
 			
 			allowed = {
@@ -554,7 +568,7 @@ ideas = {
 			}
 		}
 		
-		chuichi_nagumo = {
+		fukuhara_makoto = {
 			
 			
 			allowed = {
@@ -735,7 +749,7 @@ ideas = {
 			traits = { electronics_concern }
 		}
 
-		JAP_idemitsu_kosan = {
+		JAP_yasutake_umi = {
 						
 			picture = generic_industrial_concern_2
 			
@@ -807,7 +821,7 @@ ideas = {
 	
 	theorist = {
 		
-		tomoyuki_yamashita = {
+		han_kangdae = {
 						
 			allowed = {
 				original_tag = JAP
@@ -822,7 +836,7 @@ ideas = {
 			traits = { grand_battle_plan_expert }
 		}
 		
-		hisaichi_terauchi = {
+		sasori_miyoshi = {
 						
 			allowed = {
 				original_tag = JAP
@@ -835,7 +849,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		isoroku_yamamoto = {
+		amano_rikyu = {
 						
 			allowed = {
 				original_tag = JAP
@@ -850,7 +864,7 @@ ideas = {
 			traits = { naval_aviation_pioneer }
 		}
 		
-		minoru_genda = {
+		aoyama_hitomi = {
 						
 			allowed = {
 				original_tag = JAP
@@ -863,7 +877,7 @@ ideas = {
 			traits = { naval_theorist }
 		}
 		
-		yoshitoshi_tokugawa = {
+		takashima_hitoshi = {
 						
 			allowed = {
 				original_tag = JAP
@@ -878,7 +892,7 @@ ideas = {
 			traits = { assault_avaition }
 		}
 		
-		hino_kumazo = {
+		uemura_nara = {
 						
 			allowed = {
 				original_tag = JAP
@@ -891,7 +905,7 @@ ideas = {
 			traits = { air_warfare_theorist }
 		}
 		
-		yoshio_nishina = {
+		iwata_mabuki = {
 			
 			
 			allowed = {
@@ -907,7 +921,7 @@ ideas = {
 			traits = { nuclear_scientist }
 		}
 		
-		hideo_itokawa = {
+		yonamine_higashikuni = {
 			
 			
 			allowed = {

@@ -31,6 +31,10 @@ ideas = {
 				original_tag = KOR
 			}
 			
+			on_add = {
+				country_event = political.100
+			}
+			
 			traits = { ayn_rand }
 		}
 	}	
