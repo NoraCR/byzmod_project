@@ -1,0 +1,445 @@
+ideas = {
+	# MILSOMRY
+
+
+	political_advisor = {
+
+		SOM_ahmed_moalim_omar = {
+
+			picture = generic_political_advisor_african_2
+
+			allowed = {
+				original_tag = SOM
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		SOM_caaliyah_fariido_dhudi = {
+
+			picture = generic_political_advisor_african_1
+				
+			allowed = {
+				original_tag = SOM
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		SOM_ikran_mohamad_aboow = {
+
+			picture = generic_political_advisor_african_3
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+		SOM_usman_maow_hussein = {
+
+			picture = generic_political_advisor_african_1
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			traits = { ayn_rand }
+		}
+	}
+	tank_manufacturer = {
+	
+		designer = yes
+	
+		dabka = {
+			
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+	}
+	
+	
+	
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		buulo_mareel = {
+			
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		
+		waran = {
+			
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+		balcad = {
+			
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+	
+	
+	aircraft_manufacturer = {	
+		
+		designer = yes
+		
+		afgoye = {
+			
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
+		hargeisa_aircraft = {
+			
+			
+			allowed = {
+				original_tag = SOM
+			}
+
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		
+		dhabolaq = {
+						
+			allowed = {
+				original_tag = SOM
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+		}
+		
+		gaayte = {
+						
+			allowed = {
+				original_tag = SOM
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+	}
+	
+	industrial_concern = {
+	
+		qandala = {
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			research_bonus = {
+				industry = 0.10
+				
+			}
+			
+			traits = { industrial_concern }
+		}		
+	}
+	
+	
+	naval_manufacturer = {
+	
+		designer = yes
+		
+		mogadishu_yards = {
+						
+			allowed = {
+				original_tag = SOM
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.12
+			}
+			
+			traits = { naval_manufacturer }
+		}
+	}	
+
+	army_chief = {
+
+		SOM_abdirahman_ismael_gabobe = {
+
+			picture = generic_army_african_2
+			
+			allowed = {
+				original_tag = SOM
+			}		
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SOM_jeylani_nur_bashiir = {
+
+			picture = generic_army_african_1
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		SOM_faduma_geelo_kaaha = {
+
+			picture = generic_air_african_3
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SOM_zakarie_guled = {
+
+			picture = generic_air_african_3
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		SOM_samira_hassan = {
+
+			picture = generic_navy_african_2
+			
+			allowed = {
+				original_tag = SOM
+			}
+					
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SOM_hawa_ali_farah = {
+
+			picture = generic_navy_african_3
+			
+			allowed = {
+				original_tag = SOM
+			}
+					
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		SOM_yacqub_shek_maye = {
+			
+			picture = generic_army_african_1
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		SOM_adam_haji_abdi_isse = {
+
+			picture = generic_army_african_3
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SOM_abdukadir_ali_khalif = {
+
+			picture = generic_army_african_2
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SOM_maryam_muruxo_shumeey = {
+
+			picture = generic_air_african_2
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SOM_abdinasir_seid_askar = {
+
+			picture = generic_navy_african_2
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}	
+
+	theorist = {
+		SOM_isak_osman_dhuxul = {
+			
+			picture = generic_army_african_2
+
+			allowed = {
+				original_tag = SOM
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		SOM_fariido_roon_gacalo = {
+
+			picture = generic_navy_african_3
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}	
+
+		SOM_lul_osoble_suge = {
+
+			picture = generic_air_african_2
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+	}
+}

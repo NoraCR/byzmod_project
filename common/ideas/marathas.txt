@@ -1,0 +1,245 @@
+ideas = {
+	political_advisor = {
+
+		MRT_gulika_chennubhotla = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { ideological_crusader }
+		}
+
+		MRT_sukharian_bhadare = {
+
+			picture = generic_political_advisor_arab_2
+				
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+
+		MRT_ranjit_singh_ojal = {
+
+			picture = generic_political_advisor_arab_3
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { armaments_organizer }
+		}
+
+		MRT_aarati_sanghavi = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { prince_of_terror }
+		}
+	}
+
+	theorist = {
+
+		MRT_ramadeep_nandanavanam = {
+					
+			picture = generic_political_advisor_arab_2
+
+			allowed = {
+				original_tag = MRT
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+
+		MRT_hubert_bierwirth = {
+					
+			picture = generic_army_europe_1
+				
+			allowed = {
+				original_tag = MRT
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+	}
+
+	high_command = {
+
+		MRT_talibah_varandani = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MRT_preet_jobanputra = {
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { army_infantry_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MRT_dhilan_karavadra = {
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { navy_screen_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MRT_arsia_bhaimunshi = {
+
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { army_entrenchment_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		MRT_peshwa_sharqi = {
+			
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MRT_indrota_pavagi = {
+			
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { army_chief_morale_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+
+		MRT_kasturbai_upadhyay = {
+			
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MRT_sanskriti_chakarvarti = {
+			
+			picture = generic_air_arab_3
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		MRT_gopesh_kapadia = {
+			
+			picture = generic_navy_arab_2
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MRT_aruvi_kansagara = {
+			
+			picture = generic_navy_arab_1
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { navy_chief_naval_aviation_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}

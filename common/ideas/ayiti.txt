@@ -1,0 +1,249 @@
+ideas = {
+	political_advisor = {
+
+		AYI_adhamh_o_lideadha = {
+
+			picture = generic_political_advisor_south_america_1
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			traits = { backroom_backstabber }
+		}
+
+		AYI_tayanita_tsaskahi = {
+
+			picture = generic_political_advisor_south_america_2
+				
+			allowed = {
+				original_tag = AYI
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+
+		AYI_touloukaera = {
+
+			picture = generic_political_advisor_south_america_3
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			traits = { popular_figurehead }
+		}
+	}
+
+	theorist = {
+
+		AYI_manatiguahuraguana = {
+					
+			picture = generic_army_south_america_1
+
+			allowed = {
+				original_tag = AYI
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+
+		AYI_mabodomaca = {
+					
+			picture = generic_political_advisor_south_america_1
+				
+			allowed = {
+				original_tag = AYI
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+	}
+
+	high_command = {
+
+		AYI_guaicaba_bani = {
+
+			picture = generic_air_south_america_1
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			traits = { air_air_combat_training_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		AYI_yuisa_loiza = {
+
+			picture = generic_navy_south_america_2
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			traits = { navy_naval_air_defense_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		AYI_salvador_gouveia = {
+
+			picture = generic_army_south_america_3
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		AYI_ayamuynuex_kiskeya = {
+
+			picture = generic_air_south_america_2
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			traits = { air_air_superiority_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		AYI_acanorex_quisqueya = {
+			
+			picture = generic_army_south_america_1
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		AYI_caguax_turabo = {
+			
+			picture = generic_army_south_america_3
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+
+		AYI_daguao_naguabo = {
+			
+			picture = generic_air_south_america_1
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		AYI_guacara_guayaney = {
+			
+			picture = generic_air_south_america_2
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			traits = { air_chief_night_operations_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		AYI_aristides_saccas = {
+			
+			picture = generic_navy_south_america_2
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			traits = { navy_chief_naval_aviation_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		AYI_omofay_jaragueyal = {
+			
+			picture = generic_navy_south_america_1
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		AYI_tinima_sabaneque = {
+			
+			picture = generic_navy_south_america_3
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}

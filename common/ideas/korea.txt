@@ -1,0 +1,288 @@
+ideas = {
+
+	political_advisor = {
+
+		KOR_bae_hyeongnam = {
+
+			picture = generic_political_advisor_asia_3
+				
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		KOR_song_hongyeol = {
+
+			picture = generic_political_advisor_asia_1
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { captain_of_industry }
+		}
+		KOR_jin_yuseon = {
+
+			picture = generic_political_advisor_asia_1
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { ayn_rand }
+		}
+	}	
+
+	army_chief = {
+		
+		KOR_lee_jeonggji = {
+			
+			picture = generic_army_asia_2
+
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { army_chief_morale_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+
+		KOR_kim_sangdon = {
+
+			picture = generic_army_asia_3
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	air_chief = {
+		
+
+		KOR_jin_duyan = {
+			
+			picture = generic_air_asia_2
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+		KOR_kim_namgyu = {
+
+			picture = generic_air_asia_3
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { air_chief_night_operations_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	navy_chief = {
+		
+
+		KOR_ji_ukjung = {
+			
+			picture = generic_navy_asia_1
+
+			allowed = {
+				original_tag = KOR
+			}
+					
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+		KOR_hong_amhoe = {
+			
+			picture = generic_navy_asia_3
+
+			allowed = {
+				original_tag = KOR
+			}
+					
+			traits = { navy_chief_maneuver_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		KOR_hong_munpyeong = {
+
+			picture = generic_army_asia_3
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		KOR_seo_gwanggyun = {
+
+			picture = generic_army_asia_1
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { army_logistics_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		KOR_park_jaehak = {
+
+			picture = generic_air_asia_3
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		KOR_lee_chiyong = {
+
+			picture = generic_air_asia_1
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { air_naval_strike_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		KOR_kim_jun = {
+
+			picture = generic_navy_asia_3
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { navy_screen_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		KOR_jeong_haejeong = {
+
+			picture = generic_navy_asia_1
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { navy_submarine_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+
+
+	theorist = {
+		KOR_kim_yundong = {
+
+			picture = generic_army_asia_2
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		KOR_im_sanghun = { 
+
+			picture = generic_navy_asia_3
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}
+
+		KOR_kwak_nakseo = {
+
+			picture = generic_air_asia_3
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+	}
+
+
+
+}
