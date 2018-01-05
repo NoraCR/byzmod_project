@@ -123,7 +123,7 @@ ideas = {
 	
 	political_advisor = {
 		strassmann = {
-
+			picture = generic_political_advisor_europe_1
 			
 			allowed = {
 				original_tag = GER
@@ -135,7 +135,7 @@ ideas = {
 			traits = { fortification_engineer }
 		}
 		magdalena_wachsmuth = {
-
+			picture = generic_political_advisor_europe_2
 			
 			allowed = {
 				original_tag = GER
@@ -145,7 +145,7 @@ ideas = {
 		}
 		
 		dagmar_fellerer = {
-
+			picture = generic_political_advisor_europe_3
 			
 			allowed = {
 				original_tag = GER
@@ -155,7 +155,7 @@ ideas = {
 		}
 
 		finn_gerstenberg = {
-
+			picture = generic_political_advisor_europe_1
 			
 			allowed = {
 				original_tag = GER
@@ -179,7 +179,7 @@ ideas = {
 		}	
 			
 		vincent_rahmer = {
-
+			picture = generic_political_advisor_europe_2
 			
 			allowed = {
 				original_tag = GER
@@ -203,7 +203,7 @@ ideas = {
 		}
 		
 		henricus_von_regenstein = {
-
+			picture = generic_army_europe_2
 			
 			allowed = {
 				original_tag = GER
@@ -226,7 +226,7 @@ ideas = {
 			}
 		}
 		erich_behrendt = {
-
+			picture = generic_political_advisor_europe_2
 			
 			allowed = {
 				original_tag = GER
@@ -236,7 +236,7 @@ ideas = {
 		}
 		
 		fabien_von_hoensbroeck = {
-
+			picture = generic_political_advisor_europe_1
 			
 			allowed = {
 				original_tag = GER
@@ -249,7 +249,7 @@ ideas = {
 	
 	# TECHNOLOGY
 	tank_manufacturer = { 
-		
+
 		designer = yes
 		
 		porsche = {
@@ -268,7 +268,6 @@ ideas = {
 		}
 		
 		henschel = {
-
 			
 			allowed = {
 				original_tag = GER
@@ -570,6 +569,7 @@ ideas = {
 		}
 		lewinski = {
 
+			picture = generic_army_europe_1
 			
 			allowed = {
 				original_tag = GER
@@ -603,6 +603,7 @@ ideas = {
 		
 		karoline_tegeler = {
 
+			picture = generic_army_europe_2
 			
 			allowed = {
 				original_tag = GER
@@ -616,7 +617,7 @@ ideas = {
 		}
 		
 		nikolaus_von_uxkull = {
-
+			picture = generic_air_europe_2
 			
 			allowed = {
 				original_tag = GER
@@ -630,7 +631,7 @@ ideas = {
 		}
 		
 		alfred_saalwachter = {
-
+			
 			
 			allowed = {
 				original_tag = GER
@@ -664,7 +665,7 @@ ideas = {
 	army_chief = {
 
 		wolfhard_haugwitz = {
-
+			picture = generic_army_europe_2
 			
 			allowed = {
 				original_tag = GER
@@ -676,7 +677,7 @@ ideas = {
 			}
 		}
 		artur_mohring = {
-
+			picture = generic_army_europe_1
 			
 			allowed = {
 				original_tag = GER
@@ -710,7 +711,7 @@ ideas = {
 	navy_chief = { #CHIEF OF NAVY
 		
 		pfefferberg = {
-
+			picture = generic_navy_europe_1
 			
 			allowed = {
 				original_tag = GER
@@ -724,7 +725,7 @@ ideas = {
 		}
 		
 		gorder = {
-
+			picture = generic_navy_europe_2
 			
 			allowed = {
 				original_tag = GER
@@ -741,7 +742,7 @@ ideas = {
 	high_command = {
 				
 		anika_schindler = {
-
+			picture = generic_army_europe_2
 			
 			allowed = {
 				original_tag = GER
@@ -755,7 +756,7 @@ ideas = {
 		}
 		
 		adam_von_isenberg = {
-
+			picture = generic_army_europe_1
 			
 			allowed = {
 				original_tag = GER
@@ -769,7 +770,7 @@ ideas = {
 		}
 		
 		irina_desch = {
-
+			picture = generic_air_europe_2
 			
 			allowed = {
 				original_tag = GER
@@ -783,7 +784,7 @@ ideas = {
 		}
 		
 		sophie_kronthaler = {
-
+			picture = generic_air_europe_1
 			
 			allowed = {
 				original_tag = GER

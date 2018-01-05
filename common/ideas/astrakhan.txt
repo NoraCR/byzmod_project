@@ -1,0 +1,161 @@
+ideas = {
+
+	political_advisor = {
+
+		AKH_ma_shucheng = {
+
+			picture = generic_political_advisor_asia_2
+			
+			allowed = {
+				original_tag = AKH
+			}
+			
+			traits = { armaments_organizer }
+		}
+
+		AKH_cihansha_amirxan = {
+
+			picture = generic_political_advisor_asia_3
+				
+			allowed = {
+				original_tag = AKH
+			}
+			
+			traits = { fortification_engineer }
+		}
+
+		AKH_terenti_manvelishvili = {
+
+			picture = generic_political_advisor_asia_1
+			
+			allowed = {
+				original_tag = AKH
+			}
+			
+			traits = { captain_of_industry }
+		}
+	}	
+
+	army_chief = {
+
+		AKH_ma_junshao = {
+			
+			picture = generic_army_asia_4
+
+			allowed = {
+				original_tag = AKH
+			}
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+		AKH_zheng_meiseng = {
+
+			picture = generic_air_asia_3
+			
+			allowed = {
+				original_tag = AKH
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+
+	high_command = {
+
+		AKH_he_meizhi = {
+
+			picture = generic_army_asia_3
+			
+			allowed = {
+				original_tag = AKH
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		AKH_huang_jiewen = {
+
+			picture = generic_air_asia_2
+			
+			allowed = {
+				original_tag = AKH
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		AKH_tapa_mashkad = {
+
+			picture = generic_army_asia_1
+			
+			allowed = {
+				original_tag = AKH
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+
+	theorist = {
+		AKH_meng_guanghou = {
+
+			picture = generic_army_asia_1
+			
+			allowed = {
+				original_tag = AKH
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		AKH_ha_jiwu = { 
+
+			picture = generic_air_asia_2
+			
+			allowed = {
+				original_tag = AKH
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+	}
+
+
+
+}

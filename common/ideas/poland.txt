@@ -111,7 +111,7 @@ country = {
 
 political_advisor = {
 
-	POL_roman_dmowski = {
+	POL_waleria_witkowska = {
 
 		picture = generic_fascist_demagogue_eastern_european_2d
 
@@ -126,7 +126,7 @@ political_advisor = {
 		}
 	}
 
-	POL_stanislaw_radkiewicz = {
+	POL_ignacy_wojnicz = {
 	
 		picture = generic_communist_revolutionary_eastern_european_2d
 
@@ -141,7 +141,7 @@ political_advisor = {
 		}
 	}
 
-	POL_mieczyslaw_michalowicz = {
+	POL_benedyct_zaniewski = {
 
 		picture = generic_democratic_reformer_eastern_european_2d
 
@@ -155,8 +155,22 @@ political_advisor = {
 			factor = 0
 		}
 	}
+	
+	POL_tomislaw_mielcarek = {
 
-	POL_jozef_haller = {
+		picture = generic_democratic_reformer_eastern_european_2d
+
+		allowed = {
+			original_tag = POL
+		}
+		
+		traits = { ayn_rand }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	POL_zbigniew_krygowski = {
 
 		picture = generic_army_europe_1
 
@@ -167,7 +181,7 @@ political_advisor = {
 		traits = { war_industrialist }
 	}
 
-	POL_eugeniusz_kwiatkowiski = {
+	POL_bozimir_ciszewski = {
 
 		picture = generic_army_europe_2
 			
@@ -178,7 +192,7 @@ political_advisor = {
 		traits = { prince_of_terror }
 	}
 
-	POL_jozef_beck = {
+	POL_wieslawa_gruszczynska = {
 
 		picture = generic_army_europe_3
 
@@ -192,7 +206,7 @@ political_advisor = {
 
 theorist = {
 
-	POL_tomislaw_lupaszko = {
+	POL_tadeusz_lesniewski = {
 				
 				
 		allowed = {
@@ -208,7 +222,7 @@ theorist = {
 		traits = { military_theorist }
 	}
 
-	POL_wladyslaw_kalkus = {
+	POL_boleslaw_sikorski = {
 				
 				
 		allowed = {
@@ -229,7 +243,7 @@ theorist = {
 	army_chief = {
 				
 		
-		POL_edward_rydz_smigly = {
+		POL_elzbieta_wegrzecka = {
 			
 			picture = generic_army_europe_1
 			
@@ -246,7 +260,7 @@ theorist = {
 			}
 		}
 
-		POL_kazimierz_sosnkowski = {
+		POL_wlodzislaw_jurczyk = {
 			
 			picture = generic_army_europe_3
 			
@@ -267,7 +281,7 @@ theorist = {
 	air_chief = {
 		
 		
-		POL_jozef_zajac = {
+		POL_ewa_porada = {
 			
 			picture = generic_air_europe_1
 			
@@ -284,7 +298,7 @@ theorist = {
 			}
 		}
 
-		POL_ludomil_rayski = {
+		POL_jozefina_owsiana = {
 			
 			picture = generic_air_europe_3
 			
@@ -305,7 +319,7 @@ theorist = {
 
 	navy_chief = {
 		
-		POL_josef_unrug = {
+		POL_eliasz_kolanko = {
 			
 			picture = generic_navy_europe_2
 			
@@ -322,7 +336,7 @@ theorist = {
 			}
 		}
 		
-		POL_xawery_czernicki = {
+		POL_hedwiga_iwinska = {
 			
 			picture = generic_navy_europe_1
 			
@@ -342,7 +356,7 @@ theorist = {
 	
 	
 	high_command = {
-		POL_zygmunt_buhusz_szysko = {
+		POL_zygfryd_janosik = {
 			
 			
 			allowed = {
@@ -358,7 +372,7 @@ theorist = {
 			}
 		}
 		
-		POL_stanislav_maczek = {
+		POL_tadeusz_rzepka = {
 			
 			
 			allowed = {
@@ -374,7 +388,7 @@ theorist = {
 			}
 		}
 	
-		POL_wladyslaw_anders = {
+		POL_magdalena_matczak = {
 			
 			
 			allowed = {
@@ -390,7 +404,7 @@ theorist = {
 			}
 		}
 
-		POL_stanislaw_pawluc = {
+		POL_boguslaw_kotlinski = {
 			
 			
 			allowed = {

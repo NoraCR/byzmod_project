@@ -23,6 +23,7 @@ ideas = {
 			
 			traits = { captain_of_industry }
 		}
+		
 		KOR_jin_yuseon = {
 
 			picture = generic_political_advisor_asia_1

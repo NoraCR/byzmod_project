@@ -22,9 +22,9 @@ ideas = {
 
 	political_advisor = {
 
-		RAJ_john_edward_golightly = {
+		RAJ_abhra_brahmananda = {
 
-			picture = generic_political_advisor_europe_1
+			picture = generic_political_advisor_arab_1
 			
 			allowed = {
 				original_tag = RAJ
@@ -33,9 +33,9 @@ ideas = {
 			traits = { silent_workhorse }
 		}
 
-		RAJ_george_h_douglas = {
+		RAJ_rajendra_vadekar = {
 
-			picture = generic_political_advisor_europe_2
+			picture = generic_political_advisor_arab_2
 				
 			allowed = {
 				original_tag = RAJ
@@ -44,7 +44,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 
-		RAJ_mahatma_mohandas_gandhi = {
+		RAJ_jaya_patvardhan = {
 
 			picture = generic_political_advisor_arab_3
 			
@@ -55,7 +55,7 @@ ideas = {
 			traits = { compassionate_gentleman }
 		}
 
-		RAJ_john_mathai = {
+		RAJ_jeevabharathi_ashmithan = {
 
 			picture = generic_political_advisor_europe_1
 			
@@ -66,7 +66,7 @@ ideas = {
 			traits = { captain_of_industry }
 		}
 
-		RAJ_sir_mohammed_iqbal = {
+		RAJ_yadaiah_geddam = {
 
 			picture = generic_political_advisor_arab_3
 			
@@ -81,7 +81,7 @@ ideas = {
 			}
 		}
 
-		RAJ_agha_khan_iii = {
+		RAJ_mahawattage_edirisinghe = {
 
 			picture = generic_political_advisor_arab_2
 			
@@ -91,11 +91,26 @@ ideas = {
 			
 			traits = { ideological_crusader }
 		}
+		
+		RAJ_nagar_singh_rawat = {
+
+			picture = generic_political_advisor_arab_2
+			
+			allowed = {
+				original_tag = RAJ
+			}
+			
+			traits = { ayn_rand }
+	
+			on_add = {
+				country_event = political.100
+			}
+		}
 	}
 
 	theorist = {
 
-		RAJ_rajendra_prasad = {
+		RAJ_asheesh_mukhopdadhyay = {
 					
 			picture = generic_army_arab_1
 
@@ -110,7 +125,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 
-		RAJ_anyang_bhula = {
+		RAJ_yamini_maitra = {
 					
 			picture = generic_air_arab_1
 				
@@ -125,7 +140,7 @@ ideas = {
 			traits = { air_warfare_theorist }
 		}
 
-		RAJ_bahadur_jayla_of_khoch_bahur = {
+		RAJ_ashutosh_vidyabhusan = {
 					
 					
 			allowed = {
@@ -144,7 +159,7 @@ ideas = {
 
 	high_command = {
 
-		RAJ_ram_singh_thakur = {
+		RAJ_gangaichelvan_alagiri = {
 
 			picture = generic_army_arab_1
 			
@@ -159,7 +174,7 @@ ideas = {
 			}
 		}
 
-		RAJ_arjan_singh_vibhusan = {
+		RAJ_prarthana_thogai = {
 
 			picture = generic_air_arab_3
 			
@@ -174,7 +189,7 @@ ideas = {
 			}
 		}
 
-		RAJ_aspy_merwan_engineer = {
+		RAJ_harekrishna_yaddanapudi = {
 
 			picture = generic_air_arab_2
 			
@@ -189,7 +204,7 @@ ideas = {
 			}
 		}
 
-		RAJ_mehar_singh = {
+		RAJ_kirpal_tola_singh = {
 
 			picture = generic_air_arab_1
 			
@@ -204,9 +219,9 @@ ideas = {
 			}
 		}
 
-		RAJ_w_h_gould_bradford = {
+		RAJ_v_c_vanamohan = {
 
-			picture = generic_navy_europe_1
+			picture = generic_navy_arab_1
 			
 			allowed = {
 				original_tag = RAJ
@@ -222,9 +237,9 @@ ideas = {
 	# MILITARY
 	army_chief = {
 
-		RAJ_arthur_a_barrett = {
+		RAJ_apurba_brahmananda = {
 			
-			picture = generic_army_europe_2
+			picture = generic_army_arab_2
 			
 			allowed = {
 				original_tag = RAJ
@@ -239,9 +254,9 @@ ideas = {
 			}
 		}
 		
-		RAJ_archibald_wavell = {
+		RAJ_binita_maji = {
 			
-			picture = generic_army_europe_1
+			picture = generic_army_arab_1
 			
 			allowed = {
 				original_tag = RAJ
@@ -256,7 +271,7 @@ ideas = {
 			}
 		}
 
-		RAJ_sir_frank_messervy = {
+		RAJ_valentin_karantirov = {
 			
 			picture = generic_army_europe_1
 			
@@ -273,7 +288,7 @@ ideas = {
 			}
 		}
 
-		RAJ_kodandera_cariappa = {
+		RAJ_gaurishankar_mukhopdadhyay = {
 			
 			picture = generic_army_arab_3
 			
@@ -290,7 +305,7 @@ ideas = {
 			}
 		}
 
-		RAJ_mohan_singh = {
+		RAJ_ekaagar_kaur = {
 			
 			picture = generic_army_arab_2
 			
@@ -312,7 +327,7 @@ ideas = {
 
 		RAJ_bruce_w_mcpherson = {
 			
-			picture = generic_air_europe_1
+			picture = generic_air_arab_1
 			
 			allowed = {
 				original_tag = RAJ
@@ -364,9 +379,9 @@ ideas = {
 
 	navy_chief = {
 
-		RAJ_louis_mountbatten = {
+		RAJ_rahulamathavan_pravinth = {
 			
-			picture = generic_navy_europe_2
+			picture = generic_navy_arab_2
 			
 			allowed = {
 				original_tag = RAJ
@@ -381,9 +396,9 @@ ideas = {
 			}
 		}
 
-		RAJ_william_e_parry = {
+		RAJ_ekta_kivaraj = {
 			
-			picture = generic_navy_europe_1
+			picture = generic_navy_arab_1
 			
 			allowed = {
 				original_tag = RAJ

@@ -2,7 +2,7 @@ ideas = {
 
 	political_advisor = {
 
-		CAN_ian_a_mackenzie = {
+		CAN_iain_macdhomhnaill = {
 
 			picture = generic_political_advisor_europe_1
 			
@@ -13,7 +13,7 @@ ideas = {
 			traits = { quartermaster_general }
 		}
 
-		CAN_r_b_bennett = {
+		CAN_artair_sutherlainn = {
 
 			picture = generic_political_advisor_europe_2
 				
@@ -24,7 +24,7 @@ ideas = {
 			traits = { silent_workhorse }
 		}
 
-		CAN_newton_wesley_rowell = {
+		CAN_lili_macfhiongain = {
 
 			picture = generic_political_advisor_europe_3
 			
@@ -71,7 +71,7 @@ ideas = {
 	# MILITARY
 	army_chief = {
 		
-		CAN_harry_crerar = {
+		CAN_leopold_mattingly = {
 			picture = generic_army_europe_3
 			
 			allowed = {
@@ -87,7 +87,7 @@ ideas = {
 			}
 		}
 
-		CAN_andrew_mcnaughton = {
+		CAN_nathaniel_illsley = {
 			picture = generic_army_europe_3
 			
 			allowed = {
@@ -103,7 +103,7 @@ ideas = {
 			}
 		}
 
-		CAN_george_pearkes = {
+		CAN_caterina_sbarra = {
 			picture = generic_army_europe_3
 			
 			allowed = {
@@ -122,7 +122,7 @@ ideas = {
 
 	air_chief = {
 		
-		CAN_percy_nelles = {
+		CAN_eric_kudryavstev = {
 			picture = generic_air_europe_3
 			
 			allowed = {
@@ -138,7 +138,7 @@ ideas = {
 			}
 		}
 
-		CAN_george_croil = {
+		CAN_kamdyistowesit = {
 			picture = generic_air_europe_1
 			
 			allowed = {
@@ -157,7 +157,7 @@ ideas = {
 
 	navy_chief = {
 		
-		CAN_lloyd_samuel_breadner = {
+		CAN_eleanor_dunstan = {
 			picture = generic_navy_europe_2
 			
 			allowed = {
@@ -173,7 +173,7 @@ ideas = {
 			}
 		}
 
-		CAN_alasdair_murray = {
+		CAN_roderick_whittemore = {
 			picture = generic_navy_europe_1
 			
 			allowed = {
@@ -191,7 +191,7 @@ ideas = {
 	high_command = {
 	
 	
-		CAN_guy_simonds = {
+		CAN_matthieu_delanoy = {
 			
 			picture = generic_army_europe_1
 
@@ -206,7 +206,7 @@ ideas = {
 			}
 		}
 
-		CAN_gino_verchiella = {
+		CAN_tazio_sansalone = {
 			
 			picture = generic_air_europe_2
 			
@@ -221,7 +221,7 @@ ideas = {
 			}
 		}
 
-		CAN_john_murchie = {
+		CAN_joan_northway = {
 			
 			picture = generic_army_europe_2
 
@@ -236,7 +236,7 @@ ideas = {
 			}
 		}
 
-		CAN_frederick_m_w_harvey = {
+		CAN_christopher_aldworth = {
 			
 			picture = generic_army_europe_3
 

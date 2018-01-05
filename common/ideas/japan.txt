@@ -158,6 +158,7 @@ ideas = {
 	political_advisor = {	
 		yoshii_norihisa = {
 			
+			picture = generic_political_advisor_asia_2
 			
 			allowed = {
 				original_tag = "JAP"
@@ -183,7 +184,7 @@ ideas = {
 		}	
 			
 		sasagawa_fumiko = {
-			
+			picture = generic_political_advisor_asia_1
 			
 			allowed = {
 				original_tag = "JAP"
@@ -210,7 +211,7 @@ ideas = {
 		
 		horiuchi_shigeaki = {
 			
-			
+			picture = generic_political_advisor_asia_3
 			allowed = {
 				original_tag = "JAP"
 			}
@@ -235,6 +236,7 @@ ideas = {
 		}
 		mitsubishi_sadako = {
 			
+			picture = generic_political_advisor_asia_2
 			
 			allowed = {
 				original_tag = "JAP"
@@ -242,17 +244,12 @@ ideas = {
 			
 
 			
-			traits = { fascist_demagogue }
+			traits = { ayn_rand }
 	
 			on_add = {
-				country_event = political.7
+				country_event = political.100
 			}
-	
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
-			}
+
 			
 			ai_will_do = {
 				factor = 0
@@ -287,6 +284,7 @@ ideas = {
 		
 		nagatani_mitsuko = {
 			
+			picture = generic_army_asia_4
 			
 			allowed = {
 				original_tag = JAP
@@ -303,6 +301,7 @@ ideas = {
 		
 		yanagihara_shiro = {
 			
+			picture = generic_army_asia_3
 			
 			allowed = {
 				original_tag = JAP
@@ -318,7 +317,7 @@ ideas = {
 		}
 		
 		kunio_sawako = {
-			
+			picture = generic_army_asia_2
 			
 			allowed = {
 				original_tag = JAP
@@ -339,6 +338,7 @@ ideas = {
 		
 		nakagawa_shunichi = {
 			
+			picture = generic_navy_asia_3
 			
 			allowed = {
 				original_tag = JAP
@@ -355,6 +355,7 @@ ideas = {
 		
 		endo_chimaki = {
 			
+			picture = generic_navy_asia_2
 			
 			allowed = {
 				original_tag = JAP
@@ -371,6 +372,7 @@ ideas = {
 		
 		sugiura_atsumori = {
 			
+			picture = generic_navy_asia_1
 			
 			allowed = {
 				original_tag = JAP
@@ -390,6 +392,7 @@ ideas = {
 		
 		toyoda_toyokuni = {
 			
+			picture = generic_air_asia_2
 			
 			allowed = {
 				original_tag = JAP
@@ -406,6 +409,7 @@ ideas = {
 		
 		okamoto_hana = {
 			
+			picture = generic_air_asia_1
 			
 			allowed = {
 				original_tag = JAP
@@ -422,6 +426,7 @@ ideas = {
 		
 		morioka_tadashi = {
 			
+			picture = generic_air_asia_2
 			
 			allowed = {
 				original_tag = JAP
@@ -442,6 +447,7 @@ ideas = {
 		
 		li_xue = {
 			
+			picture = generic_army_asia_3
 			
 			allowed = {
 				original_tag = JAP
@@ -458,6 +464,7 @@ ideas = {
 		
 		kamei_nariaki = {
 			
+			picture = generic_air_asia_2
 			
 			allowed = {
 				original_tag = JAP
@@ -474,6 +481,7 @@ ideas = {
 		
 		otonari_eitaro = {
 			
+			picture = generic_air_asia_1
 			
 			allowed = {
 				original_tag = JAP
@@ -490,6 +498,7 @@ ideas = {
 		
 		tanaka_hiroe = {
 			
+			picture = generic_air_asia_2
 			
 			allowed = {
 				original_tag = JAP
@@ -506,6 +515,7 @@ ideas = {
 		
 		furuya_gempachi = {
 			
+			picture = generic_air_asia_1
 			
 			allowed = {
 				original_tag = JAP
@@ -522,6 +532,7 @@ ideas = {
 		
 		nagatsuka_riho = {
 			
+			picture = generic_army_asia_1
 			
 			allowed = {
 				original_tag = JAP
@@ -538,6 +549,7 @@ ideas = {
 		
 		matsushima_taro = {
 			
+			picture = generic_army_asia_2
 			
 			allowed = {
 				original_tag = JAP
@@ -554,6 +566,7 @@ ideas = {
 		
 		takayama_hideko = {
 			
+			picture = generic_navy_asia_3
 			
 			allowed = {
 				original_tag = JAP
@@ -570,6 +583,7 @@ ideas = {
 		
 		fukuhara_makoto = {
 			
+			picture = generic_navy_asia_2
 			
 			allowed = {
 				original_tag = JAP
@@ -822,6 +836,8 @@ ideas = {
 	theorist = {
 		
 		han_kangdae = {
+		
+			picture = generic_navy_asia_3
 						
 			allowed = {
 				original_tag = JAP
@@ -837,6 +853,8 @@ ideas = {
 		}
 		
 		sasori_miyoshi = {
+		
+			picture = generic_army_asia_1
 						
 			allowed = {
 				original_tag = JAP
@@ -850,6 +868,8 @@ ideas = {
 		}
 		
 		amano_rikyu = {
+		
+			picture = generic_air_asia_2
 						
 			allowed = {
 				original_tag = JAP
@@ -865,6 +885,8 @@ ideas = {
 		}
 		
 		aoyama_hitomi = {
+			
+			picture = generic_air_asia_1
 						
 			allowed = {
 				original_tag = JAP
@@ -878,6 +900,8 @@ ideas = {
 		}
 		
 		takashima_hitoshi = {
+		
+			picture = generic_air_asia_2
 						
 			allowed = {
 				original_tag = JAP
@@ -893,6 +917,8 @@ ideas = {
 		}
 		
 		uemura_nara = {
+		
+			picture = generic_air_asia_1
 						
 			allowed = {
 				original_tag = JAP
@@ -907,6 +933,7 @@ ideas = {
 		
 		iwata_mabuki = {
 			
+			picture = generic_political_advisor_asia_2
 			
 			allowed = {
 				original_tag = JAP
@@ -923,6 +950,7 @@ ideas = {
 		
 		yonamine_higashikuni = {
 			
+			picture = generic_political_advisor_asia_1
 			
 			allowed = {
 				original_tag = JAP
