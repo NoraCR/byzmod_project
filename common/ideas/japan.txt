@@ -209,9 +209,9 @@ ideas = {
 			}
 		}
 		
-		horiuchi_shigeaki = {
+		masahiro_kobayakawa = {
 			
-			picture = generic_political_advisor_asia_3
+			picture = masahiro_kobayakawa
 			allowed = {
 				original_tag = "JAP"
 			}
@@ -234,9 +234,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		mitsubishi_sadako = {
+		yosuke_inada = {
 			
-			picture = generic_political_advisor_asia_2
+			picture = yosuke_inada
 			
 			allowed = {
 				original_tag = "JAP"
@@ -265,6 +265,17 @@ ideas = {
 			}
 			
 			traits = { silent_workhorse }
+		}
+
+		JAP_kazuo_yoshida = {
+			
+			picture = kazuo_yoshida
+			
+			allowed = {
+				original_tag = JAP
+			}
+			
+			traits = { backroom_backstabber }
 		}
 
 		JAP_sempo_sugihara = {

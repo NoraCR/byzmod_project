@@ -241,6 +241,18 @@ spriteTypes = {
 
 
 	### JAPANESE IDEAS
+	spriteType = {
+		name = "GFX_idea_masahiro_kobayakawa"
+		texturefile = "gfx/interface/ideas/idea_masahiro_kobayakawa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yosuke_inada"
+		texturefile = "gfx/interface/ideas/idea_yosuke_inada.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kazuo_yoshida"
+		texturefile = "gfx/interface/ideas/idea_kazuo_yoshida.dds"
+	}
 
 	
 	
