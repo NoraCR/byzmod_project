@@ -34,7 +34,60 @@ ideas = {
 			
 			traits = { smooth_talking_charmer }
 		}
-	}
+		
+		IRE_lorcan_o_brogain = {
+			
+			picture = lorcan_o_brogain
+			allowed = {
+				original_tag = "IRE"
+			}
+			
+
+			
+			traits = { fascist_demagogue }
+	
+			on_add = {
+				country_event = political.7
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}	
+			
+		IRE_kevin_donnelly = {
+			
+			
+			allowed = {
+				original_tag = "IRE"
+			}
+			
+			picture = idea_kevin_donnelly
+
+			
+			traits = { democratic_reformer }
+	
+			on_add = {
+				country_event = political.13
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
 	
 
 	army_chief = {

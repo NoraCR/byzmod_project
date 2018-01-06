@@ -238,6 +238,16 @@ spriteTypes = {
 	}
 	
 	### RUSSIAN IDEAS
+	
+	### IRISH IDEAS
+	spriteType = {
+		name = "GFX_idea_kevin_donnelly"
+		texturefile = "gfx/interface/ideas/idea_kevin_donnelly.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lorcan_o_brogain"
+		texturefile = "gfx/interface/ideas/lorcan_o_brogain.dds"
+	}
 
 
 	### JAPANESE IDEAS
