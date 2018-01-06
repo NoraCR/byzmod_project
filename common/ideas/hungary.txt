@@ -298,7 +298,7 @@ ideas = {
 
 	political_advisor = {
 
-		HUN_kalman_kanya = {
+		HUN_vaszoly_abel = {
 
 			picture = generic_political_advisor_europe_1
 
@@ -309,7 +309,7 @@ ideas = {
 			traits = { compassionate_gentleman }
 		}
 
-		HUN_lajos_remenyi_schneller = {
+		HUN_orosz_boglarka = {
 
 			picture = generic_political_advisor_europe_1
 
@@ -320,7 +320,7 @@ ideas = {
 			traits = { captain_of_industry }
 		}
 
-		HUN_vilmos_roder = {
+		HUN_fulop_szilveszter = {
 
 			picture = generic_political_advisor_europe_2
 			
@@ -332,19 +332,7 @@ ideas = {
 
 		}
 
-		HUN_gusztav_gratz = {
-
-			picture = generic_political_advisor_europe_1
-
-			allowed = {
-				original_tag = HUN
-				has_dlc = "Death or Dishonor"
-			}
-			
-			traits = { staunch_monarchist }
-		}
-
-		HUN_kalman_daranyi = {
+		HUN_takacs_valentin = {
 
 			picture = generic_political_advisor_europe_2
 				
@@ -355,7 +343,7 @@ ideas = {
 			traits = { smooth_talking_charmer }
 		}
 
-		HUN_zoltan_tildy = {
+		HUN_hegedus_kira = {
 
 			picture = generic_political_advisor_europe_3
 			
@@ -365,39 +353,6 @@ ideas = {
 			
 			traits = { silent_workhorse }
 		}
-
-		HUN_laszlo_rajk = {
-
-			picture = generic_communist_europe
-			
-			allowed = {
-				original_tag = HUN
-			}
-			
-			traits = { communist_revolutionary }
-		}
-
-		HUN_jozsef_szell = {
-
-			picture = generic_democratic_europe
-			
-			allowed = {
-				original_tag = HUN
-			}
-			
-			traits = { democratic_reformer }
-		}
-
-		HUN_gyula_gombos_de_jakfa = {
-
-			picture = generic_fascist_europe
-			
-			allowed = {
-				original_tag = HUN
-			}
-			
-			traits = { fascist_demagogue }
-		}
 	}
 
 
@@ -406,7 +361,7 @@ ideas = {
 	army_chief = {
 		
 
-		HUN_ferenc_szombathelyi = {
+		HUN_andreanszky_daniel = {
 			
 			picture = generic_army_europe_4
 			
@@ -423,7 +378,7 @@ ideas = {
 			}
 		}
 
-		HUN_hugo_sonyi = {
+		HUN_kosztolanyi_adel = {
 			
 			picture = generic_army_europe_5
 			
@@ -444,7 +399,7 @@ ideas = {
 	air_chief = {
 		
 
-		HUN_bela_rakosi = {
+		HUN_alena_papandrea = {
 			
 			picture = generic_air_europe_1
 			
@@ -461,7 +416,7 @@ ideas = {
 			}
 		}
 
-		HUN_sandor_magyarossy = {
+		HUN_miksa_benedek = {
 			
 			picture = generic_air_europe_2
 			
@@ -482,7 +437,7 @@ ideas = {
 	navy_chief = {
 		
 
-		HUN_francois_deak = {
+		HUN_alexandras_tavoularis = {
 			
 			picture = generic_navy_europe_1
 			
@@ -499,7 +454,7 @@ ideas = {
 			}
 		}
 
-		HUN_reszo_kastner = {
+		HUN_boros_armin = {
 			
 			picture = generic_navy_europe_2
 			
@@ -519,7 +474,7 @@ ideas = {
 
 	high_command = {
 
-		HUN_gusztav_jany = {
+		HUN_korlatkoi_matyas = {
 			
 			picture = generic_army_europe_3
 
@@ -536,7 +491,7 @@ ideas = {
 			}
 		}
 	
-		HUN_dezso_laszlo = {
+		HUN_sandor_ivett = {
 			
 			picture = generic_army_europe_2			
 			allowed = {
@@ -552,7 +507,7 @@ ideas = {
 			}
 		}
 	
-		HUN_jeno_ratz = {
+		HUN_surany_kornel = {
 			
 			picture = generic_air_europe_3
 
@@ -567,7 +522,7 @@ ideas = {
 			}
 		}
 
-		HUN_henrik_werth = {
+		HUN_bohumil_stastny = {
 
 			picture = generic_army_europe_1
 
@@ -586,7 +541,7 @@ ideas = {
 	}
 	
 	theorist = {
-		HUN_shvoy_kalman = {
+		HUN_otto_eisler = {
 		
 			picture = generic_army_europe_2
 
@@ -601,7 +556,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		HUN_gyorgy_jendrassik = {
+		HUN_jelinek_gyorgy = {
 
 			picture = generic_air_europe_2
 			

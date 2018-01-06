@@ -2,7 +2,7 @@ ideas = {
 
 	political_advisor = {
 
-		AUS_arthur_seyss-inquart = {
+		AUS_franz_hinterseer = {
 
 			picture = generic_political_advisor_europe_1
 
@@ -13,7 +13,7 @@ ideas = {
 			traits = { prince_of_terror }
 		}
 
-		AUS_leopold_figl = {
+		AUS_oswald_von_leitner = {
 
 			picture = generic_political_advisor_europe_2
 				
@@ -24,7 +24,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 
-		AUS_julius_raab = {
+		AUS_paul_ehrenfest = {
 
 			picture = generic_political_advisor_europe_3
 			
@@ -34,12 +34,23 @@ ideas = {
 			
 			traits = { captain_of_industry }
 		}
+		
+		AUS_auer_madersperger = {
+
+			picture = generic_political_advisor_europe_2
+			
+			allowed = {
+				original_tag = AUS
+			}
+			
+			traits = { ayn_rand }
+		}
 	}
 	
 
 	army_chief = {
 		
-		AUS_eduard_freiherr = {
+		AUS_karla_aufschneiter = {
 			picture = generic_army_europe_1
 			
 			allowed = {
@@ -55,7 +66,7 @@ ideas = {
 			}
 		}
 
-		AUS_ernst_kaltenbrunner = {
+		AUS_gerlinda_stangl = {
 			picture = generic_army_europe_2
 			
 			allowed = {
@@ -71,7 +82,7 @@ ideas = {
 			}
 		}
 		
-		AUS_franz_bohme = {
+		AUS_markus_kasparek = {
 			picture = generic_army_europe_1
 			
 			allowed = {
@@ -87,7 +98,7 @@ ideas = {
 			}
 		}
 
-		AUS_odilo_globocnik = {
+		AUS_herbert_kaplan = {
 			picture = generic_army_europe_2
 			
 			allowed = {
@@ -106,7 +117,7 @@ ideas = {
 
 	air_chief = {
 		
-		AUS_alexander_lohr = {
+		AUS_ellen_wahle = {
 			picture = generic_air_europe_1
 			
 			allowed = {
@@ -122,7 +133,7 @@ ideas = {
 			}
 		}
 
-		AUS_otto_schobel = {
+		AUS_johann_nostlinger = {
 			picture = generic_air_europe_2
 			
 			allowed = {
@@ -141,7 +152,7 @@ ideas = {
 
 	navy_chief = {
 		
-		AUS_paul_von_hegedus = {
+		AUS_rudolf_maislinger = {
 			picture = generic_navy_europe_1
 			
 			allowed = {
@@ -157,7 +168,7 @@ ideas = {
 			}
 		}
 
-		AUS_josef_teufl = {
+		AUS_alma_von_payer = {
 			picture = generic_navy_europe_3
 			
 			allowed = {
@@ -176,7 +187,7 @@ ideas = {
 
 	high_command = {
 
-		AUS_lothar_rendulic = {
+		AUS_marie_bemelmans = {
 			picture = generic_army_europe_1
 			
 			allowed = {
@@ -190,7 +201,7 @@ ideas = {
 			}
 		}
 		
-		AUS_viktor_seebauer = {
+		AUS_virgil_preminger = {
 
 			picture = generic_air_europe_2
 			
@@ -205,7 +216,7 @@ ideas = {
 			}
 		}
 
-		AUS_wilhelm_zehner = {
+		AUS_wilhelm_feigl = {
 
 			picture = generic_army_europe_3
 			
@@ -220,7 +231,7 @@ ideas = {
 			}
 		}
 
-		AUS_eugen_beyer = {
+		AUS_anna_senefelder = {
 
 			picture = generic_army_europe_2
 			
@@ -237,7 +248,7 @@ ideas = {
 	}
 
 	theorist = {
-		AUS_otto_meixner_von_zweienstamm = {
+		AUS_gertrude_staudinger = {
 			
 			picture = generic_army_europe_3
 
@@ -252,7 +263,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		AUS_julius_yllam = {
+		AUS_bruno_wisenfeldt = {
 			
 			picture = generic_air_europe_1
 			

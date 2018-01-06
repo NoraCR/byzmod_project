@@ -1,7 +1,7 @@
 ideas = {
 	political_advisor = {
 
-	LIT_vladas_jurgutis = {
+	LIT_ksaveras_francas = {
 
 		picture = generic_political_advisor_europe_1
 		
@@ -12,7 +12,7 @@ ideas = {
 		traits = { captain_of_industry }
 	}
 
-	LIT_leonas_bistras = {
+	LIT_aurika_preiksaite = {
 
 		picture = generic_political_advisor_europe_2
 			
@@ -23,7 +23,7 @@ ideas = {
 		traits = { compassionate_gentleman }
 	}
 
-	LIT_mykolas_slezevicius = {
+	LIT_indre_belkeviciute = {
 
 		picture = generic_political_advisor_europe_3
 		
@@ -37,7 +37,7 @@ ideas = {
 
 theorist = {
 
-	LIT_jonas_cernius = {
+	LIT_zygis_meksraitis = {
 				
 		picture = generic_army_europe_1
 
@@ -52,7 +52,7 @@ theorist = {
 		traits = { military_theorist }
 	}
 
-	LIT_vincentas_latozaite = {
+	LIT_linas_tamasauskas = {
 				
 		picture = generic_air_europe_1
 			
@@ -70,7 +70,7 @@ theorist = {
 
 high_command = {
 
-	LIT_juoza_barzda_bradauskas = {
+	LIT_inga_kelmelyte = {
 
 		picture = generic_army_europe_1
 		
@@ -85,7 +85,7 @@ high_command = {
 		}
 	}
 
-	LIT_albinas_cepas = {
+	LIT_uosis_sukevicius = {
 
 		picture = generic_army_europe_3
 		
@@ -100,7 +100,7 @@ high_command = {
 		}
 	}
 
-	LIT_kazys_musteikis = {
+	LIT_julija_pavilionyte = {
 
 		picture = generic_army_europe_2
 		
@@ -115,7 +115,7 @@ high_command = {
 		}
 	}
 
-	LIT_adolfas_ramanauskas = {
+	LIT_joris_ceicys = {
 
 		picture = generic_army_europe_1
 		
@@ -133,7 +133,7 @@ high_command = {
 	# MILITARY
 	army_chief = {
 		
-		LIT_stasys_rastikis = {
+		LIT_aistis_grikpedis = {
 			
 			picture = generic_army_europe_1
 			
@@ -150,7 +150,7 @@ high_command = {
 			}
 		}
 		
-		LIT_feliksas_baltusis = {
+		LIT_teodoras_cechanavicius = {
 			
 			picture = generic_army_europe_2
 			
@@ -170,7 +170,7 @@ high_command = {
 
 	air_chief = {
 		
-		LIT_antanas_gustaitis = {
+		LIT_dagne_velykyte = {
 			
 			picture = generic_air_europe_3
 			
@@ -187,7 +187,7 @@ high_command = {
 			}
 		}
 
-		LIT_juozas_ambrazevicius = {
+		LIT_aivaras_kuolys = {
 			
 			picture = generic_air_europe_1
 			
@@ -208,7 +208,7 @@ high_command = {
 
 	navy_chief = {
 		
-		LIT_antanas_kaskelis = {
+		LIT_izaokas_puzinas = {
 			
 			picture = generic_navy_europe_3
 			
@@ -225,7 +225,7 @@ high_command = {
 			}
 		}
 
-		LIT_vladas_karvelis = {
+		LIT_kazys_vidziunas = {
 			
 			picture = generic_navy_europe_1
 			
