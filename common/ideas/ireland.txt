@@ -69,7 +69,7 @@ ideas = {
 				original_tag = "IRE"
 			}
 			
-			picture = idea_kevin_donnelly
+			picture = kevin_donnelly
 
 			
 			traits = { democratic_reformer }
