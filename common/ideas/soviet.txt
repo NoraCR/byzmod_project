@@ -641,8 +641,9 @@ ideas = {
 
 
 	political_advisor = {
-		mikhail_kalinin = {
+		SOV_artur_druganin = {
 			
+			picture = generic_political_advisor_europe_1
 			
 			allowed = {
 				original_tag = "SOV"
@@ -658,29 +659,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 
-		SOV_lavrentiy_beria = {
-			
-			picture = generic_army_europe_2
-			
-			allowed = {
-				original_tag = SOV
-			}
-
-			available = 
-			{
-				custom_trigger_tooltip = {
-					tooltip =  SOV_beria_idea
-					has_country_flag = purge_2_group_a
-				}
-				NOT = { 
-					has_country_flag = counter_purge
-				}
-			}
-			
-			traits = { ideological_crusader }
-		}
-
-		SOV_vyacheslav_molotov = {
+		SOV_elizaveta_zharkova = {
 			
 			picture = generic_political_advisor_europe_1
 			
@@ -691,7 +670,7 @@ ideas = {
 			traits = { smooth_talking_charmer }
 		}
 
-		SOV_nikolai_voznesensky = {
+		SOV_mitrofan_vedernikov = {
 			
 			picture = generic_political_advisor_europe_2
 			
@@ -702,7 +681,7 @@ ideas = {
 			traits = { captain_of_industry }
 		}
 
-		SOV_nikolai_yezhov = {
+		SOV_konstantin_engalychev = {
 			
 			picture = generic_army_europe_2
 			
@@ -721,7 +700,7 @@ ideas = {
 
 		
 		
-		nikita_khrushchev = {
+		SOV_zoya_grekova = {
 			
 			
 			allowed = {
@@ -752,7 +731,7 @@ ideas = {
 			}
 		}	
 			
-		alexander_kerensky = {
+		SOV_isaak_kasyanenko = {
 			
 			
 			allowed = {
@@ -778,7 +757,7 @@ ideas = {
 			}
 		}
 		
-		konstantin_rodzaevsky = {
+		SOV_valeriy_chebotaryov = {
 			
 			
 			allowed = {
@@ -812,7 +791,7 @@ ideas = {
 	army_chief = {
 		
 		
-		semyon_timoshenko = {
+		SOV_varvara_shchukina = {
 			#Also unit leader: 404
 			
 			allowed = {
@@ -841,7 +820,7 @@ ideas = {
 			}
 		}
 		
-		kliment_voroshilov = {
+		SOV_gennady_podshivalov = {
 			#Also unit leader: 405
 			
 			allowed = {
@@ -870,7 +849,7 @@ ideas = {
 			}
 		}
 		
-		alexander_yegorov = {
+		SOV_mariya_khokhlacheva = {
 			
 			
 			allowed = {
@@ -891,7 +870,7 @@ ideas = {
 			}
 		}
 		
-		vasily_blucher = {
+		SOV_stanislav_ivashchenko = {
 			
 			
 			allowed = {
@@ -915,7 +894,7 @@ ideas = {
 	}
 	navy_chief = {
 		
-		pyotr_smirnov = {
+		SOV_albina_azarova = {
 			
 			
 			allowed = {
@@ -937,7 +916,7 @@ ideas = {
 			}
 		}
 		
-		mikhail_frinovsky = {
+		SOV_semyon_aliyev = {
 			
 			
 			allowed = {
@@ -959,7 +938,7 @@ ideas = {
 			}
 		}
 		
-		nikolay_kuznetsov = {
+		SOV_vitaliy_salagin = {
 			
 			
 			allowed = {
@@ -981,7 +960,7 @@ ideas = {
 			}
 		}
 		
-		ivan_yumashev = {
+		SOV_ioanna_zimina = {
 			
 			
 			allowed = {
@@ -1006,7 +985,7 @@ ideas = {
 	air_chief = {
 		
 		
-		alexander_novikov = {
+		SOV_makar_azhikelyamov = {
 						
 			allowed = {
 				original_tag = SOV
@@ -1027,7 +1006,7 @@ ideas = {
 			}
 		}
 		
-		konstantin_vershinin = {
+		SOV_esaias_ihalainen = {
 			
 			
 			allowed = {
@@ -1048,7 +1027,7 @@ ideas = {
 			}
 		}
 		
-		yakov_smushkevich = {
+		SOV_olga_lomovtseva = {
 			
 			
 			allowed = {
@@ -1070,7 +1049,7 @@ ideas = {
 			}
 		}
 		
-		pavel_rychagov = {
+		SOV_korney_terekhov = {
 			
 			
 			allowed = {
@@ -1096,7 +1075,7 @@ ideas = {
 	
 	high_command = {
 	
-		ivan_konev = {
+		SOV_prokhor_suvorin = {
 			#Also unit leader: 408
 			
 			allowed = {
@@ -1127,7 +1106,7 @@ ideas = {
 			}
 		}
 		
-		aleksandr_vasilevsky = {
+		SOV_ludmila_bogomazova = {
 			#Also unit leader: 407
 			
 			allowed = {
@@ -1157,7 +1136,7 @@ ideas = {
 			}
 		}
 		
-		konstantin_rokossovsky = {
+		SOV_demian_safiyulin = {
 			#Also unit leader: 402
 			
 			allowed = {
@@ -1188,7 +1167,7 @@ ideas = {
 			}
 		}	
 		
-		pavel_zhigarev = {
+		SOV_klavdia_ugoleva = {
 			
 			
 			allowed = {
@@ -1209,7 +1188,7 @@ ideas = {
 			}
 		}
 		
-		sergei_khudyakov = {
+		SOV_havrylo_pashchenko = {
 			
 			
 			allowed = {
@@ -1231,7 +1210,7 @@ ideas = {
 			}
 		}
 		
-		stepan_krasovsky = {
+		SOV_ilarion_talanov = {
 			
 			
 			allowed = {
@@ -1252,7 +1231,7 @@ ideas = {
 			}
 		}	
 		
-		vladimir_kasatonov = {
+		SOV_vladimir_molchanov = {
 			#Also unit leader: 403
 			
 			allowed = {
@@ -1282,7 +1261,7 @@ ideas = {
 			}
 		}
 		
-		gordey_levchenko = {
+		SOV_jelena_siyanskikh = {
 			#Also unit leader: 406
 			
 			allowed = {
@@ -1313,7 +1292,7 @@ ideas = {
 			}
 		}
 		
-		arseniy_golovko = {
+		SOV_petr_zhilov = {
 			#Also unit leader: 409
 			
 			allowed = {
@@ -1573,25 +1552,6 @@ ideas = {
 			}
 		}
 		
-		gaz = {
-			
-			
-			allowed = {
-				original_tag = SOV
-			}
-			
-
-			
-			research_bonus = {
-				motorized_equipment = 0.10
-				mot_rockets = 0.50
-			}
-			
-			traits = { motorized_equipment_manufacturer }
-			
-			modifier = {
-			}
-		}
 	}
 	
 	naval_manufacturer = {
@@ -1619,31 +1579,8 @@ ideas = {
 	}
 	
 	theorist = {	
-	
-			
-		mikhail_tukhachevsky = {
-			
-			
-			allowed = {
-				original_tag = SOV
-
-			}
-			available = 
-			{
-				NOT = { has_country_flag = purge_1_group_a }
-			}
-			
-			cost = 250
-			
-			research_bonus = {
-				cat_mass_assault = 0.10
-			}
-			
-			# PURGED
-			traits = { mass_assault_expert }
-		}
 		
-		boris_shaposhnikov = {
+		samuil_zhivenkov = {
 			
 			
 			allowed = {
@@ -1659,31 +1596,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		georgy_zhukov = {
-			
-			
-			allowed = {
-				original_tag = SOV # Unlocked via focus
-
-			}
-			available = 
-			{
-				NOT = { has_country_flag = counter_purge }
-			}
-			available = {
-				has_completed_focus = SOV_positive_heroism
-			}
-			
-			cost = 250
-			
-			research_bonus = {
-				cat_mass_assault = 0.10
-			}
-			
-			traits = { mass_assault_expert }
-		}
-		
-		sergey_gorshkov = {
+		natasha_yefremova = {
 			
 			
 			allowed = {
@@ -1704,7 +1617,7 @@ ideas = {
 			traits = { naval_theorist }
 		}
 		
-		vladimir_tributs = {
+		vadim_tokmakov = {
 			
 			
 			allowed = {
@@ -1720,7 +1633,7 @@ ideas = {
 			traits = { grand_fleet_proponent}
 		}
 		
-		sergei_rudenko = {
+		anton_melnychenko = {
 			
 			
 			allowed = {
@@ -1741,7 +1654,7 @@ ideas = {
 			traits = { close_air_support_proponent }
 		}
 		
-		alexander_golovanov = {
+		abram_markin = {
 			
 			
 			allowed = {
@@ -1755,37 +1668,6 @@ ideas = {
 			}
 			
 			traits = { air_warfare_theorist }
-		}
-		
-		igor_kurchatov = {
-			
-			
-			allowed = {
-				original_tag = SOV
-			}
-			
-
-			
-			research_bonus = {
-				nuclear = 0.10
-			}
-			
-			traits = { nuclear_scientist }
-		}
-		
-		sergei_korolev = {
-			
-			
-			allowed = {
-				original_tag = SOV
-			}
-			
-			research_bonus = {
-				rocketry = 0.10
-			}
-
-			
-			traits = { rocket_scientist }
 		}
 	}
 	
