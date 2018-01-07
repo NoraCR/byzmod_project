@@ -4,7 +4,7 @@ ideas = {
 
 	political_advisor = {
 
-		ARG_ramon_castillo = {
+		ARG_jose_maria_bellucci = {
 
 			picture = generic_political_advisor_south_america_2
 
@@ -15,7 +15,7 @@ ideas = {
 			traits = { quartermaster_general }
 		}
 
-		ARG_luis_podesta_costa = {
+		ARG_bonifacio_siciliano = {
 
 			picture = generic_political_advisor_south_america_1
 				
@@ -26,7 +26,7 @@ ideas = {
 			traits = { backroom_backstabber }
 		}
 
-		ARG_manuel_maria_de_iriondo = {
+		ARG_yajaira_feimann = {
 
 			picture = generic_political_advisor_south_america_3
 			
@@ -36,11 +36,21 @@ ideas = {
 			
 			traits = { prince_of_terror }
 		}
+		ARG_ignazio_dukaroff = {
+
+			picture = generic_political_advisor_south_america_3
+			
+			allowed = {
+				original_tag = ARG
+			}
+			
+			traits = { ayn_rand }
+		}
 	}
 
 	army_chief = {
 
-		ARG_manuel_a_rodriguez = {
+		ARG_reynardo_caceres_ma = {
 
 			picture = generic_army_south_america_3
 			
@@ -55,7 +65,7 @@ ideas = {
 			}
 		}
 
-		ARG_pedro_pablo_ramirez = {
+		ARG_arella_napolitano = {
 
 			picture = generic_army_south_america_2
 			
@@ -73,7 +83,7 @@ ideas = {
 
 	air_chief = {
 
-		ARG_antonio_parodi = {
+		ARG_juan_manuel_kampfer = {
 
 			picture = generic_air_south_america_3
 			
@@ -88,7 +98,7 @@ ideas = {
 			}
 		}
 
-		ARG_jose_tamborni = {
+		ARG_bartolo_fallaci = {
 
 			picture = generic_air_south_america_2
 			
@@ -107,7 +117,7 @@ ideas = {
 
 	navy_chief = {
 
-		ARG_pedro_s_casal = {
+		ARG_sofia_shujie_huang = {
 
 			picture = generic_navy_south_america_2
 			
@@ -122,7 +132,7 @@ ideas = {
 			}
 		}
 
-		ARG_heriberto_la_galine = {
+		ARG_domingo_demarco = {
 
 			picture = generic_navy_south_america_1
 			
@@ -140,7 +150,7 @@ ideas = {
 
 	high_command = {
 
-		ARG_francisco_m_velez = {
+		ARG_j_c_figueroa = {
 			
 			picture = generic_army_south_america_1
 			
@@ -155,7 +165,7 @@ ideas = {
 			}
 		}
 		
-		ARG_thomas_martinez = {
+		ARG_vionaika_chen_perez = {
 
 			picture = generic_army_south_america_3
 			
@@ -170,7 +180,7 @@ ideas = {
 			}
 		}
 
-		ARG_uribaldi_diaz_brittenberg = {
+		ARG_atahualpa_mendez_feimann = {
 
 			picture = generic_air_south_america_1
 			
@@ -185,7 +195,7 @@ ideas = {
 			}
 		}
 
-		ARG_eleazar_videla = {
+		ARG_onofre_martinez = {
 
 			picture = generic_navy_south_america_2
 			
@@ -202,7 +212,7 @@ ideas = {
 	}	
 
 	theorist = {
-		ARG_agustin_pedro_justo = {
+		ARG_leon_chen_nunez = {
 			
 			picture = generic_army_south_america_2
 
@@ -217,7 +227,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		ARG_edelmiro_farrell = {
+		ARG_marcos_von_bock = {
 
 			picture = generic_navy_south_america_1
 			
@@ -232,7 +242,7 @@ ideas = {
 			traits = { naval_theorist }
 		}	
 
-		ARG_hortensio_quijano = {
+		ARG_yanamaria_gershkovich = {
 
 			picture = generic_air_south_america_1
 			
