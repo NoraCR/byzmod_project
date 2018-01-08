@@ -627,7 +627,7 @@ ideas = {
 			}
 		}
 		
-		tongyong_dianqi = {
+		shanghai_pudong = {
 			picture = generic_industrial_concern_2
 			
 			allowed = {

@@ -1,0 +1,316 @@
+ideas = {
+
+	political_advisor = {
+
+		HDA_stihlda_tsiij_gitanee = {
+
+			picture = generic_political_advisor_south_america_1
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+			traits = { war_industrialist }
+		}
+
+		HDA_saawhl_gawa_gitanee = {
+
+			picture = generic_political_advisor_south_america_2
+				
+			allowed = {
+				original_tag = HDA
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+
+		HDA_tlaagang_quna_staastas = {
+
+			picture = generic_political_advisor_south_america_1
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+			traits = { popular_figurehead }
+		}
+
+		HDA_daayang_shangukeidi = {
+
+			picture = generic_political_advisor_south_america_3
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+			traits = { backroom_backstabber }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		HDA_soichiro_isayama = {
+
+			picture = generic_political_advisor_south_america_1
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+			traits = { ayn_rand }
+		}
+	}
+
+	theorist = {
+
+		HDA_gannyaa_nia_kun_kii_gaaway = {
+					
+			picture = generic_political_advisor_south_america_3
+
+			allowed = {
+				original_tag = HDA
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+
+		HDA_taahlganaad_kaayahl = {
+					
+			picture = generic_political_advisor_south_america_2
+				
+			allowed = {
+				original_tag = HDA
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+	}
+
+	high_command = {
+
+		HDA_dzalarhons_tsiits_gitanee = {
+
+			picture = generic_army_south_america_2
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		HDA_orsino_annunziato = {
+
+			picture = generic_army_south_america_1
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+			traits = { army_concealment_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		HDA_nang_jingwas_kuna_kiigawaay = {
+
+			picture = generic_army_south_america_3
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		HDA_clarence_hunton_blather = {
+
+			picture = generic_air_south_america_1
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+			traits = { air_air_superiority_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		HDA_guuu_xalchaneidi = {
+
+			picture = generic_air_south_america_2
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+			traits = { air_strategic_bombing_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		HDA_kithlaigaa_maaman_gitanee = {
+
+			picture = generic_navy_south_america_3
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		HDA_thasi_jishkweidi = {
+			
+			picture = generic_army_south_america_2
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		HDA_ihldiini_tsmsyan = {
+			
+			picture = generic_army_south_america_1
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+
+			
+			traits = { army_chief_morale_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		HDA_sdiihldaa_tuulkhaa = {
+			
+			picture = generic_army_south_america_3
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+
+			
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		HDA_yegor_mantorov = {
+			
+			picture = generic_air_south_america_3
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		HDA_hluunagad_yahl_naaw = {
+			
+			picture = generic_air_south_america_2
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+
+			
+			traits = { air_chief_night_operations_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	navy_chief = {
+
+		HDA_soso_jakariadze = {
+			
+			picture = generic_navy_south_america_2
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		HDA_haya_matsushima = {
+			
+			picture = generic_navy_south_america_3
+			
+			allowed = {
+				original_tag = HDA
+			}
+			
+
+			
+			traits = { navy_chief_naval_aviation_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}
