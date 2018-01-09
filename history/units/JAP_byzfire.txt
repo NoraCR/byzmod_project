@@ -375,7 +375,13 @@ units = { #includes army and navy but not air-force
 
 			}
 		}
-		ship = { name = "Ōkina Bosu" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Kyōwakoku" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Kenpō" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Seiza" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Minshu" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Kaigi" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Dōmei" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Gasshūkoku" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
 		ship = { name = "Kotai Hebi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Ekitai Hebi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Furui Hebi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
