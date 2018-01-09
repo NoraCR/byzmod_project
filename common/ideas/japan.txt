@@ -303,7 +303,7 @@ ideas = {
 			
 
 			
-			traits = { army_chief_offensive_1 }
+			traits = { army_chief_offensive_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -391,7 +391,7 @@ ideas = {
 			
 
 			
-			traits = { navy_chief_decisive_battle_2 }
+			traits = { navy_chief_decisive_battle_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -428,7 +428,7 @@ ideas = {
 			
 
 			
-			traits = { air_chief_ground_support_1 }
+			traits = { air_chief_ground_support_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -483,7 +483,7 @@ ideas = {
 			
 
 			
-			traits = { army_infantry_2 }
+			traits = { army_infantry_3 }
 			
 			ai_will_do = {
 				factor = 1
