@@ -563,7 +563,7 @@ ideas = {
 			}
 		}	
 
-		FRA_zivony_peshkov = {
+		FRA_klemens_staszewski = {
 			
 			allowed = {
 				original_tag = "FRA"
@@ -584,7 +584,7 @@ ideas = {
 			}
 		}	
 
-		FRA_felix_gouin = {
+		FRA_edmond_chauforier = {
 			
 			allowed = {
 				original_tag = "FRA"
@@ -605,7 +605,7 @@ ideas = {
 			}
 		}	
 
-		FRA_charles_tillon = {
+		FRA_stephanie_pelissier = {
 			
 			allowed = {
 				original_tag = "FRA"
@@ -626,7 +626,7 @@ ideas = {
 			}
 		}	
 
-		FRA_paul_reynaud = {
+		FRA_clement_reubell = {
 			
 			allowed = {
 				original_tag = "FRA"
@@ -652,8 +652,9 @@ ideas = {
 	army_chief = {
 		
 		
-		maurice_gamelin = {
-			
+		claudia_guilleminot = {
+		
+			picture = generic_army_europe_2
 			
 			allowed = {
 				original_tag = FRA
@@ -671,8 +672,9 @@ ideas = {
 			}
 		}
 		
-		maxime_weygand = {
+		matthieu_lagrange = {
 			
+			picture = generic_army_europe_1
 			
 			allowed = {
 				original_tag = FRA
@@ -724,8 +726,9 @@ ideas = {
 			}
 		}		
 		
-		alphonse_georges = {
+		rebecca_corriveau = {
 			
+			picture = generic_political_advisor_europe_1
 			
 			allowed = {
 				original_tag = FRA
@@ -742,8 +745,9 @@ ideas = {
 	}
 	navy_chief = {
 		
-		francois_darlan = {
+		christophe_de_villiers = {
 			
+			picture = generic_navy_europe_2
 			
 			allowed = {
 				original_tag = FRA
@@ -758,8 +762,9 @@ ideas = {
 			}
 		}
 		
-		marcel_gensoul = {
+		eloise_harispe = {
 			
+			picture = generic_navy_europe_1
 			
 			allowed = {
 				original_tag = FRA
@@ -774,8 +779,9 @@ ideas = {
 			}
 		}
 		
-		jean_marie_abrial = {
+		maurice_de_barbazan = {
 			
+			picture = generic_navy_europe_3
 			
 			allowed = {
 				original_tag = FRA
@@ -792,8 +798,9 @@ ideas = {
 	}
 	air_chief = {
 			
-		joseph_vuillemin = {
+		helene_vergnes = {
 			
+			picture = generic_air_europe_1
 			
 			allowed = {
 				original_tag = FRA
@@ -808,8 +815,9 @@ ideas = {
 			}
 		}
 		
-		robert_odic = {
+		claude_ordonneau = {
 			
+			picture = generic_air_europe_2
 			
 			allowed = {
 				original_tag = FRA
@@ -824,8 +832,9 @@ ideas = {
 			}
 		}
 		
-		philippe_fequant = {
+		charles_ficatier = {
 			
+			picture = generic_political_advisor_europe_1
 			
 			allowed = {
 				original_tag = FRA
@@ -843,8 +852,9 @@ ideas = {
 	
 	high_command = {
 		
-		rene_prioux = {
+		aurelien_cacault = {
 			
+			picture = generic_army_europe_1
 			
 			allowed = {
 				original_tag = FRA
@@ -859,8 +869,9 @@ ideas = {
 			}
 		}
 		
-		charles_huntziger = {
+		jean_brugiere = {
 			
+			picture = generic_army_europe_2
 			
 			allowed = {
 				original_tag = FRA
@@ -875,8 +886,9 @@ ideas = {
 			}
 		}
 		
-		philippe_leclerc = {
+		raymond_cuvier = {
 			
+			picture = generic_army_europe_3
 			
 			allowed = {
 				original_tag = FRA
@@ -891,8 +903,9 @@ ideas = {
 			}
 		}	
 		
-		alfred_heurtaux = {
+		francois_thomieres = {
 			
+			picture = generic_air_europe_1
 			
 			allowed = {
 				original_tag = FRA
@@ -907,8 +920,9 @@ ideas = {
 			}
 		}
 		
-		martial_valin = {
+		marie_helene_boissieu = {
 			
+			picture = generic_air_europe_2
 			
 			allowed = {
 				original_tag = FRA
@@ -923,8 +937,9 @@ ideas = {
 			}
 		}
 		
-		jean_francois_jannekeyn = {
+		victoria_willaumez = {
 			
+			picture = generic_air_europe_3
 			
 			allowed = {
 				original_tag = FRA
@@ -939,8 +954,9 @@ ideas = {
 			}
 		}	
 		
-		jean_de_laborde = {
+		leopold_de_marigny = {
 			
+			picture = generic_navy_europe_1
 			
 			allowed = {
 				original_tag = FRA
@@ -955,8 +971,9 @@ ideas = {
 			}
 		}
 		
-		emile_muselier = {
+		denis_pleimelding = {
 			
+			picture = generic_navy_europe_2
 			
 			allowed = {
 				original_tag = FRA
@@ -971,8 +988,9 @@ ideas = {
 			}
 		}
 		
-		rene_emile_godfroy = {
+		albertine_bourseiller = {
 			
+			picture = generic_navy_europe_3
 			
 			allowed = {
 				original_tag = FRA
@@ -1169,7 +1187,9 @@ ideas = {
 	
 	
 	theorist = {
-		charles_de_gaulle = {
+		jean_ganteume = {
+		
+		picture = generic_army_europe_1
 						
 			allowed = {
 				original_tag = FRA
@@ -1184,7 +1204,9 @@ ideas = {
 			traits = { grand_battle_plan_expert }
 		}
 		
-		henri_giraud = {
+		cyprien_de_kerdaniel = {
+		
+		picture = generic_army_europe_2
 						
 			allowed = {
 				original_tag = FRA
@@ -1197,8 +1219,9 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		louis_kahn = {
+		etienne_de_faultrier= {
 			
+			picture = generic_navy_europe_2
 			
 			allowed = {
 				original_tag = FRA
@@ -1213,8 +1236,9 @@ ideas = {
 			traits = { grand_fleet_proponent }
 		}
 		
-		jean_decoux = {
+		henri_simon_daboville = {
 			
+			picture = generic_navy_europe_1
 			
 			allowed = {
 				original_tag = FRA
@@ -1228,7 +1252,9 @@ ideas = {
 			traits = { naval_theorist }
 		}
 		
-		victor_denain = {
+		anastasie_carpentier = {
+		
+			picture = generic_air_europe_1
 			
 			
 			allowed = {
@@ -1244,8 +1270,10 @@ ideas = {
 			traits = { assault_avaition }
 		}
 		
-		jean_marie_bergeret = {
-						
+		alexandre_rouzet = {
+			
+			picture = generic_navy_europe_1	
+				
 			allowed = {
 				original_tag = FRA
 			}
@@ -1257,8 +1285,9 @@ ideas = {
 			traits = { air_warfare_theorist }
 		}
 		
-		frederic_irene_joliot_curie = {
+		achille_kleber = {
 			
+			picture = generic_political_advisor_europe_1
 			
 			allowed = {
 				original_tag = FRA
