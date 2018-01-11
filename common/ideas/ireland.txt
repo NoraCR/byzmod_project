@@ -60,8 +60,6 @@ ideas = {
 				factor = 0
 			}
 		}
-	}	
-			
 		IRE_kevin_donnelly = {
 			
 			
@@ -88,6 +86,9 @@ ideas = {
 				factor = 0
 			}
 		}
+	}	
+			
+
 	
 
 	army_chief = {

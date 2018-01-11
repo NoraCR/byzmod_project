@@ -352,4 +352,775 @@ ideas = {
 			}
 		}	
 	}
+	tank_manufacturer = {
+		
+		designer = yes
+		
+		moraitis_design_group = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		arvaniti_design_group = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { medium_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		zaimoglu_design_group = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { heavy_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+	naval_manufacturer = { 
+	
+		designer = yes
+		
+		skaramagas_naval_yards = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		taranto_shipbuilding = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { pacific_fleet_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+	aircraft_manufacturer = { 
+		
+		designer = yes
+		
+		tavoulari = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		ataseven = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		delis = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { CAS_manufacturer }
+			
+			modifier = {
+			}
+		}
+
+		
+		menderes_torossian = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		ciabbatoni = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}		
+	}
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		chisinau = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		saa = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+	
+		
+		tuscany_artillery = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+	industrial_concern = {
+	
+		parthenon = {
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+		}
+		
+		
+		ankara_electronics_institute = {
+						
+			allowed = {
+				original_tag = BYZ
+			}
+						
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}
+
+		oil_gas_secretariat = {
+						
+			picture = generic_industrial_concern_2
+			
+			allowed = {
+				original_tag = BYZ
+			}
+						
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.1
+			}
+			
+			traits = { refinery_concern }
+		}
+	}
+	theorist = {
+		konstantinos_klokotronis = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_superior_firepower = 0.10
+			}
+			
+			traits = { superior_firepower_expert }
+		}
+		
+		alexandra_manetas = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_mobile_warfare = 0.10
+			}
+			
+			traits = { mobile_warfare_expert }
+		}
+		
+		jacinda_palamaras = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}
+		
+		giancarlo_sinibaldi = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_base_strike = 0.10
+			}
+			
+			traits = { naval_aviation_pioneer }
+		}
+		
+		arsen_khachaturian = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_strategic_destruction = 0.10
+			}
+			
+			traits = { victory_through_airpower }
+		}
+		
+		melih_muhiddin = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+		
+		maxime_jacquinot_saloman = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				nuclear = 0.10
+			}
+			
+			traits = { nuclear_scientist }
+		}
+		
+		egemen_babacan = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			research_bonus = {
+				rocketry = 0.10
+			}
+			
+			traits = { rocket_scientist }
+		}
+	}
+	army_chief = {
+
+		demetrios_scafidis = {
+
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+			traits = { army_chief_organizational_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		aksungur_yilmaz  = {
+
+			
+			allowed = {
+				original_tag = BYZ
+			}
+						
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		mariam_andrea = {
+
+			
+			allowed = {
+				original_tag = BYZ
+			}
+						
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		guncicegi_mardin = {
+
+			
+			allowed = {
+				original_tag = BYZ
+			}
+					
+			traits = { army_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	navy_chief = {
+		
+		
+		
+		oceanos_pateras = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { navy_chief_naval_aviation_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		zeynel_dalkilic = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		elettra_vettraino = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { navy_chief_decisive_battle_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	air_chief = {
+		
+		
+		matthaios_strakas = {
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { air_chief_night_operations_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		danijela_matosevic = {
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { air_chief_ground_support_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		gannina_casan = {
+					
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { air_chief_all_weather_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	high_command = {
+		tereza_arnand = {
+
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+			traits = { army_armored_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		theodora_papadopoulou = {
+
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+			traits = { army_regrouping_3 }
+			
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+		
+		konstantin_antic = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		ivailo_glavchev = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		marex_demopoulos = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		gioconda_bertone = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { air_strategic_bombing_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		anton_mijatovic = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		maria_artinou = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { air_tactical_bombing_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		inaho_miyazawa = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { navy_naval_air_defense_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		grazio_antignolo = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { navy_carrier_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		emmanuela_stefanin = {
+			
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+
+			
+			traits = { navy_amphibious_assault_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}		
 }
+
