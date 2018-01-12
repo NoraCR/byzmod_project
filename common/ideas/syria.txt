@@ -1,0 +1,255 @@
+ideas = {
+	# MILITARY
+
+
+	political_advisor = {
+
+		SYR_laila_mohamad_karam = {
+
+			picture = generic_political_advisor_arab_2
+
+			allowed = {
+				original_tag = SYR
+			}
+			
+			traits = { backroom_backstabber }
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		SYR_ismail_ibn_jafar_al_dimashqi = {
+
+			picture = generic_political_advisor_arab_1
+				
+			allowed = {
+				original_tag = SYR
+			}
+			
+			traits = { armaments_organizer }
+		}
+
+		SYR_saabiqa_al_hillah = {
+
+			picture = generic_political_advisor_arab_3
+			
+			allowed = {
+				original_tag = SYR
+			}
+			
+			traits = { prince_of_terror }
+		}
+	}
+
+	army_chief = {
+
+		SYR_ahmad_musa_rida = {
+
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = SYR
+			}		
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SYR_zaynab_tumah_al_maliki = {
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = SYR
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		SYR_ma_xuefeng = {
+
+			picture = generic_air_arab_3
+			
+			allowed = {
+				original_tag = SYR
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SYR_karim_ismail_alramadi = {
+
+			picture = generic_air_arab_3
+			
+			allowed = {
+				original_tag = SYR
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		SYR_daleel_al_salamiyah = {
+
+			picture = generic_navy_arab_2
+			
+			allowed = {
+				original_tag = SYR
+			}
+					
+			traits = { navy_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SYR_tawheeda_al_qamsiyah = {
+
+			picture = generic_navy_arab_1
+			
+			allowed = {
+				original_tag = SYR
+			}
+					
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		SYR_falah_akram_shanshal = {
+			
+			picture = generic_navy_arab_1
+			
+			allowed = {
+				original_tag = SYR
+			}
+			
+			traits = { navy_amphibious_assault_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		SYR_ammar_karim_al_kuwaiti = {
+
+			picture = generic_air_arab_3
+			
+			allowed = {
+				original_tag = SYR
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SYR_zuhriyaa_al_salama = {
+
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = SYR
+			}
+			
+			traits = { army_entrenchment_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SYR_neshwan_kine = {
+
+			picture = generic_navy_arab_2
+			
+			allowed = {
+				original_tag = SYR
+			}
+			
+			traits = { navy_naval_air_defense_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}	
+
+	theorist = {
+		SYR_zheng_yi = {
+			
+			picture = generic_army_arab_2
+
+			allowed = {
+				original_tag = SYR
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		SYR_yuchun_al-shami = {
+
+			picture = generic_navy_arab_1
+			
+			allowed = {
+				original_tag = SYR
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}	
+
+		SYR_hussein_ben_malek = {
+
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = SYR
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+	}
+}

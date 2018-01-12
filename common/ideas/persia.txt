@@ -4,7 +4,7 @@ ideas = {
 
 	political_advisor = {
 
-		PER_ali_zohayli = {
+		PER_maryam_derakhshani = {
 
 			picture = generic_political_advisor_arab_3
 
@@ -15,7 +15,7 @@ ideas = {
 			traits = { captain_of_industry }
 		}
 
-		PER_mahmud_jam = {
+		PER_heydar_bahadori = {
 
 			picture = generic_political_advisor_arab_2
 				
@@ -26,7 +26,7 @@ ideas = {
 			traits = { silent_workhorse }
 		}
 
-		PER_ali_khan_mansour = {
+		PER_majid_eghbali = {
 
 			picture = generic_political_advisor_arab_3
 			
@@ -40,7 +40,7 @@ ideas = {
 
 	army_chief = {
 
-		PER_abdolreza_afkhami = {
+		PER_touran_hashempour = {
 
 			picture = generic_army_arab_3
 			
@@ -55,7 +55,7 @@ ideas = {
 			}
 		}
 
-		PER_hassan_majid_firooz = {
+		PER_hashem_majid_nassirian = {
 
 			picture = generic_army_arab_1
 			
@@ -73,7 +73,7 @@ ideas = {
 
 	air_chief = {
 
-		PER_ahmad_khan_nakhjavan = {
+		PER_monir_almasi = {
 
 			picture = generic_air_arab_1
 			
@@ -88,7 +88,7 @@ ideas = {
 			}
 		}
 
-		PER_mohammed_nakhjavani = {
+		PER_mostafa_tarokh = {
 
 			picture = generic_air_arab_3
 			
@@ -107,7 +107,7 @@ ideas = {
 
 	navy_chief = {
 
-		PER_ahmad_khan_nakhjaavan = {
+		PER_mohammad_reza_pakdel = {
 
 			picture = generic_navy_arab_1
 			
@@ -122,7 +122,7 @@ ideas = {
 			}
 		}
 
-		PER_reza_mizani = {
+		PER_anahita_khosravi = {
 
 			picture = generic_navy_arab_3
 			
@@ -140,7 +140,7 @@ ideas = {
 
 	high_command = {
 
-		PER_mir_afkhami = {
+		PER_ahmad_miri = {
 			
 			picture = generic_army_arab_1
 			
@@ -155,7 +155,7 @@ ideas = {
 			}
 		}
 		
-		PER_fazlollah_zahedi = {
+		PER_amir_hossein_haghighi = {
 
 			picture = generic_army_arab_2
 			
@@ -171,7 +171,7 @@ ideas = {
 		}
 
 
-		PER_ali_razmara = {
+		PER_anna_chavoshi = {
 
 			picture = generic_air_arab_3
 			
@@ -186,7 +186,7 @@ ideas = {
 			}
 		}
 
-		PER_ahmad_mira_khosravani = {
+		PER_mohsen_khaledi = {
 
 			picture = generic_navy_arab_1
 			
@@ -203,7 +203,7 @@ ideas = {
 	}	
 
 	theorist = {
-		PER_mohammed_reza_pahlavi = {
+		PER_hengameh_tavakoli = {
 			
 			picture = generic_army_arab_3
 
@@ -218,7 +218,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		PER_hossein_afkhami = {
+		PER_esfandiyar_blourian = {
 
 			picture = generic_navy_arab_1
 			
@@ -233,7 +233,7 @@ ideas = {
 			traits = { naval_theorist }
 		}	
 
-		PER_ali_akbar_deiva = {
+		PER_kooroush_bagherzadeh = {
 
 			picture = generic_air_arab_2
 			

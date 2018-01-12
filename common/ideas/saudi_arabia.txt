@@ -1,7 +1,7 @@
 ideas = {
 	political_advisor = {
 
-		SAU_moukhled_al_asmari = {
+		SAU_jahangir_verdisefat = {
 
 			picture = generic_political_advisor_arab_1
 			
@@ -12,9 +12,9 @@ ideas = {
 			traits = { captain_of_industry }
 		}
 
-		SAU_arthur_dawkins = {
+		SAU_moxamad_xaashi_bacalwaan = {
 
-			picture = generic_political_advisor_europe_2
+			picture = generic_political_advisor_african_2
 				
 			allowed = {
 				original_tag = SAU
@@ -22,8 +22,17 @@ ideas = {
 			
 			traits = { war_industrialist }
 		}
+		SAU_hodan_hussein_iid = {
 
-		SAU_salih_al_rajihi = {
+			picture = generic_political_advisor_african_1
+				
+			allowed = {
+				original_tag = SAU
+			}
+			
+			traits = { ayn_rand }
+		}
+		SAU_arhab_al_wahab = {
 
 			picture = generic_political_advisor_arab_3
 			
@@ -34,7 +43,7 @@ ideas = {
 			traits = { smooth_talking_charmer }
 		}
 
-		SAU_crown_prince_saud = {
+		SAU_crown_prince_kilij_arslan = {
 
 			picture = generic_political_advisor_arab_2
 			
@@ -48,7 +57,7 @@ ideas = {
 
 	theorist = {
 
-		SAU_sa_ad_shaddad_al_outaibi = {
+		SAU_farooq_al_outaibi = {
 					
 			picture = generic_army_arab_1
 
@@ -63,7 +72,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 
-		SAU_hamed_al_sabani = {
+		SAU_malihe_al_srour = {
 					
 			picture = generic_navy_arab_2
 				
@@ -81,9 +90,9 @@ ideas = {
 
 	high_command = {
 
-		SAU_saud_al_saud = {
+		SAU_mesud_seljuk = {
 
-			picture = generic_army_europe_1
+			picture = generic_army_arab_1
 			
 			allowed = {
 				original_tag = SAU
@@ -96,9 +105,9 @@ ideas = {
 			}
 		}
 
-		SAU_youssef_al_bishi = {
+		SAU_mahdi_al_agig = {
 
-			picture = generic_army_europe_2
+			picture = generic_army_african_2
 			
 			allowed = {
 				original_tag = SAU
@@ -126,7 +135,7 @@ ideas = {
 			}
 		}
 
-		SAU_karim_nassar = {
+		SAU_suleimann_el_abood = {
 
 			picture = generic_army_arab_3
 			
@@ -159,9 +168,9 @@ ideas = {
 			}
 		}
 
-		SAU_ismail_ali_al_salhi = {
+		SAU_waajida_al_huwaymi = {
 			
-			picture = generic_army_europe_3
+			picture = generic_air_african_3
 			
 			allowed = {
 				original_tag = SAU
@@ -178,7 +187,7 @@ ideas = {
 	air_chief = {
 		
 
-		SAU_ali_muhammed_khan = {
+		SAU_muhammed_ali_khan = {
 			
 			picture = generic_air_arab_2
 			
@@ -193,7 +202,7 @@ ideas = {
 			}
 		}
 
-		SAU_gholam_wali = {
+		SAU_zahraa_al_aflaj = {
 			
 			picture = generic_air_arab_1
 			
@@ -212,7 +221,7 @@ ideas = {
 
 	navy_chief = {
 
-		SAU_hamadan_al_odha = {
+		SAU_abdul_wahid_al_duwadimi = {
 			
 			picture = generic_navy_europe_2
 			
@@ -227,9 +236,9 @@ ideas = {
 			}
 		}
 
-		SAU_philip_gordon_lee = {
+		SAU_ismail_farxaan = {
 			
-			picture = generic_navy_europe_1
+			picture = generic_navy_african_1
 			
 			allowed = {
 				original_tag = SAU
