@@ -2,7 +2,7 @@ ideas = {
 
 	political_advisor = {
 
-		NZL_a_e_davy = {
+		NZL_ie_winata = {
 
 			picture = generic_political_advisor_europe_1
 			
@@ -13,7 +13,7 @@ ideas = {
 			traits = { ideological_crusader }
 		}
 
-		NZL_w_a_veitch_milne = {
+		NZL_moana_pekama = {
 
 			picture = generic_political_advisor_europe_2
 				
@@ -24,7 +24,7 @@ ideas = {
 			traits = { prince_of_terror }
 		}
 
-		NZL_walter_nash = {
+		NZL_eruera_taimana = {
 
 			picture = generic_political_advisor_europe_3
 			
@@ -38,7 +38,7 @@ ideas = {
 
 	theorist = {
 
-		NZL_keith_j_holyoake = {
+		NZL_tahiwai_edenshaw = {
 					
 			picture = generic_army_europe_1
 
@@ -53,7 +53,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 
-		NZL_r_a_cochrane = {
+		NZL_rongo_akarana = {
 					
 			picture = generic_air_europe_1
 				
@@ -68,7 +68,7 @@ ideas = {
 			traits = { air_warfare_theorist }
 		}
 
-		NZL_arthur_dawes = {
+		NZL_tahupotiki_taera = {
 					
 					
 			allowed = {
@@ -87,7 +87,7 @@ ideas = {
 
 	high_command = {
 
-		NZL_norris_stephen_falla = {
+		NZL_mokihi_akarana = {
 
 			picture = generic_army_europe_1
 			
@@ -102,7 +102,7 @@ ideas = {
 			}
 		}
 
-		NZL_j_c_nichols = {
+		NZL_hangakore_aperahama = {
 
 			picture = generic_army_europe_2
 			
@@ -117,7 +117,7 @@ ideas = {
 			}
 		}
 
-		NZL_h_d_mcgregor = {
+		NZL_h_tlaats_gaa = {
 
 			picture = generic_air_europe_3
 			
@@ -132,7 +132,7 @@ ideas = {
 			}
 		}
 
-		NZL_trevor_handley = {
+		NZL_pahu_wikiriwhi = {
 
 			picture = generic_navy_europe_1
 			
@@ -150,7 +150,7 @@ ideas = {
 	# MILITARY
 	army_chief = {
 
-		NZL_william_sinclair_burgess = {
+		NZL_uru_manau_raharuhi = {
 			
 			picture = generic_army_europe_2
 			
@@ -167,7 +167,7 @@ ideas = {
 			}
 		}
 		
-		NZL_edward_puttick = {
+		NZL_tana_aperahama = {
 			
 			picture = generic_army_europe_1
 			
@@ -184,7 +184,7 @@ ideas = {
 			}
 		}
 
-		NZL_j_e_duigan = {
+		NZL_paki_iwi_eketone = {
 			
 			picture = generic_army_europe_2
 			
@@ -201,7 +201,7 @@ ideas = {
 			}
 		}
 
-		NZL_n_weir = {
+		NZL_n_kaakuns = {
 			
 			picture = generic_army_europe_3
 			
@@ -221,7 +221,7 @@ ideas = {
 
 	air_chief = {
 
-		NZL_a_j_stallworthy = {
+		NZL_te_uru_tonga = {
 			
 			picture = generic_air_europe_1
 			
@@ -238,7 +238,7 @@ ideas = {
 			}
 		}
 
-		NZL_l_p_peterson = {
+		NZL_ataahua_kingi = {
 			
 			picture = generic_air_europe_3
 			
@@ -258,7 +258,7 @@ ideas = {
 
 	navy_chief = {
 
-		NZL_h_e_horan = {
+		NZL_he_herangi_arepata = {
 			
 			picture = generic_navy_europe_2
 			
@@ -275,7 +275,7 @@ ideas = {
 			}
 		}
 
-		NZL_w_h_stratton = {
+		NZL_putikiwaranui  = {
 			
 			picture = generic_navy_europe_1
 			
@@ -292,7 +292,7 @@ ideas = {
 			}
 		}
 
-		NZL_eric_prendergast = {
+		NZL_pukeika_pihere = {
 			
 			picture = generic_navy_europe_3
 			

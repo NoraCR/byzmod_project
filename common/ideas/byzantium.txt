@@ -814,7 +814,7 @@ ideas = {
 				original_tag = BYZ
 			}
 						
-			traits = { army_chief_drill_2 }
+			traits = { army_chief_drill_1 }
 			
 			ai_will_do = {
 				factor = 1

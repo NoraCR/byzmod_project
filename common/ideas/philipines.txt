@@ -2,7 +2,7 @@ ideas = {
 
 	political_advisor = {
 
-		PHI_sergio_osmena = {
+		PHI_kurniawan_liu = {
 
 			picture = generic_political_advisor_asia_2
 			
@@ -13,7 +13,7 @@ ideas = {
 			traits = { silent_workhorse }
 		}
 
-		PHI_emilio_aguinaldo = {
+		PHI_wayan_li_yongzheng = {
 
 			picture = generic_political_advisor_asia_3
 				
@@ -24,7 +24,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 
-		PHI_juan_sumulong = {
+		PHI_adi_bima_gunawan = {
 
 			picture = generic_political_advisor_asia_1
 			
@@ -38,7 +38,7 @@ ideas = {
 
 	army_chief = {
 		
-		PHI_leoncio_s_tan = {
+		PHI_mahmooda_bin_radwa = {
 			
 			picture = generic_army_asia_2
 
@@ -54,7 +54,7 @@ ideas = {
 		}
 		
 
-		PHI_basilio_j_valdez = {
+		PHI_chahaya_binti_biru = {
 
 			picture = generic_army_asia_3
 			
@@ -74,7 +74,7 @@ ideas = {
 	air_chief = {
 		
 
-		PHI_pelagio_cruz = {
+		PHI_purwodarminto = {
 			
 			picture = generic_air_asia_2
 			
@@ -90,7 +90,7 @@ ideas = {
 		}
 
 
-		PHI_edwin_andrews = {
+		PHI_maasi_pinjinga_gorogo = {
 
 			picture = generic_air_asia_3
 			
@@ -109,7 +109,7 @@ ideas = {
 	navy_chief = {
 		
 
-		PHI_santiago_nuval = {
+		PHI_afaaf_bin_sameera = {
 			
 			picture = generic_navy_asia_1
 
@@ -125,7 +125,7 @@ ideas = {
 		}
 
 
-		PHI_eustacio_orobia = {
+		PHI_sajjith_anak_lelaki_mahinth = {
 			
 			picture = generic_navy_asia_3
 
@@ -143,7 +143,7 @@ ideas = {
 
 	high_command = {
 
-		PHI_vicente_p_lim = {
+		PHI_fandi_bingwen = {
 
 			picture = generic_army_asia_3
 			
@@ -158,7 +158,7 @@ ideas = {
 			}
 		}
 		
-		PHI_heraclio_alano = {
+		PHI_khairiya_binti_hamengku = {
 
 			picture = generic_army_asia_1
 			
@@ -173,7 +173,7 @@ ideas = {
 			}
 		}
 
-		PHI_basilio_fernando = {
+		PHI_waheeda_bin_tamanna = {
 
 			picture = generic_air_asia_3
 			
@@ -188,7 +188,7 @@ ideas = {
 			}
 		}
 
-		PHI_jose_v_andrada = {
+		PHI_puteri_bin_masayu = {
 
 			picture = generic_navy_asia_1
 			
@@ -207,7 +207,7 @@ ideas = {
 
 
 	theorist = {
-		PHI_benito_n_ebuen = {
+		PHI_rusli_yang = {
 
 			picture = generic_army_asia_2
 			
@@ -222,7 +222,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		PHI_ramon_a_alcaraz = { 
+		PHI_cahya_irwan_susanto = { 
 
 			picture = generic_air_asia_3
 			
@@ -237,7 +237,7 @@ ideas = {
 			traits = { air_warfare_theorist }
 		}
 
-		PHI_victor_h_dizon = {
+		PHI_kemboja_binti_noh = {
 
 			picture = generic_navy_asia_3
 			

@@ -2,7 +2,7 @@ ideas = {
 
 	political_advisor = {
 
-		POR_augusto_de_vasconcelos = {
+		POR_patricia_teixeira = {
 
 			picture = generic_political_advisor_europe_1
 
@@ -13,7 +13,7 @@ ideas = {
 			traits = { compassionate_gentleman }
 		}
 
-		POR_raul_brandao = {
+		POR_adelmar_cavaco = {
 
 			picture = generic_political_advisor_europe_2
 				
@@ -24,7 +24,7 @@ ideas = {
 			traits = { silent_workhorse }
 		}
 
-		POR_jaime_cortesao = {
+		POR_maria_fonseca_de_alpoim = {
 
 			picture = generic_political_advisor_europe_3
 			
@@ -38,7 +38,7 @@ ideas = {
 
 	theorist = {
 
-		POR_jose_norton_de_matos = {
+		POR_veronica_freire = {
 			
 			picture = generic_army_europe_1
 
@@ -53,7 +53,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		POR_jose_manuel_sarmento_de_beires = {
+		POR_ovidio_mendonca = {
 			
 			picture = generic_air_europe_2
 			
@@ -68,7 +68,7 @@ ideas = {
 			traits = { air_warfare_theorist }
 		}
 
-		POR_ortins_manuel_bettencourt = {
+		POR_cloe_nascimento = {
 
 			picture = generic_navy_europe_3
 			
@@ -90,7 +90,7 @@ ideas = {
 	army_chief = {
 		
 
-		POR_rolao_pretea = {
+		POR_sergio_guimaraes = {
 			
 			picture = generic_army_europe_1
 			
@@ -107,7 +107,7 @@ ideas = {
 			}
 		}
 
-		POR_humberto_carmona = {
+		POR_ester_camara = {
 			
 			picture = generic_army_europe_3
 			
@@ -124,7 +124,7 @@ ideas = {
 			}
 		}
 
-		POR_lobato_guerra = {
+		POR_natanael_cabral = {
 			
 			picture = generic_army_europe_2
 			
@@ -144,7 +144,7 @@ ideas = {
 
 	air_chief = {
 		
-		POR_manuel_gouveia = {
+		POR_rosinha_de_sa = {
 			
 			picture = generic_air_europe_3
 			
@@ -161,7 +161,7 @@ ideas = {
 			}
 		}
 
-		POR_humberto_delgado = {
+		POR_tiburcio_furtado = {
 			
 			picture = generic_air_europe_1
 			
@@ -182,7 +182,7 @@ ideas = {
 	navy_chief = {
 		
 
-		POR_jaime_afreixo = {
+		POR_pilar_seabra = {
 			
 			picture = generic_navy_europe_3
 			
@@ -199,7 +199,7 @@ ideas = {
 			}
 		}
 
-		POR_americo_tomas = {
+		POR_teofilo_rego = {
 			
 			picture = generic_navy_europe_2
 			
@@ -220,7 +220,7 @@ ideas = {
 
 	high_command = {
 
-		POR_manuel_quintao_meireles = {
+		POR_madalena_queiroz_da_silveira = {
 	
 			picture = generic_navy_europe_2
 			
@@ -235,7 +235,7 @@ ideas = {
 			}
 		}
 		
-		POR_jose_adriano_rebelo_pequito = {
+		POR_jose_ambrosio_de_loronha = {
 
 			picture = generic_army_europe_2
 		
@@ -250,7 +250,7 @@ ideas = {
 			}
 		}
 
-		POR_francisco_craveiro_lopes = {
+		POR_christovao_montenegro = {
 
 			picture = generic_air_europe_2
 			
@@ -265,7 +265,7 @@ ideas = {
 			}
 		}
 
-		POR_jose_filipe_rodrigues_de_barros = {
+		POR_julia_corte_real = {
 
 			picture = generic_army_europe_3
 			

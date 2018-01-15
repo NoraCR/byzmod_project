@@ -2,7 +2,7 @@ ideas = {
 
 	political_advisor = {
 
-		MEX_eduardo_hay = {
+		MEX_cozamalotl = {
 
 			picture = generic_political_advisor_south_america_1
 
@@ -13,7 +13,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 
-		MEX_plutarco_e_calles = {
+		MEX_zeltzin = {
 
 			picture = generic_political_advisor_south_america_2
 				
@@ -24,7 +24,7 @@ ideas = {
 			traits = { prince_of_terror }
 		}
 
-		MEX_manuel_avila_camacho = {
+		MEX_quauhtli = {
 
 			picture = generic_political_advisor_south_america_3
 			
@@ -38,7 +38,7 @@ ideas = {
 
 	theorist = {
 
-		MEX_enrique_estrada = {
+		MEX_matlalihuitl = {
 					
 
 			allowed = {
@@ -54,7 +54,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 
-		MEX_agustin_olachea = {
+		MEX_tlalli = {
 					
 			picture = generic_air_europe_3
 
@@ -73,7 +73,7 @@ ideas = {
 	}
 	army_chief = {
 
-		matias_santos_ramos = {
+		MEX_ocelotl = {
 			
 			picture = generic_army_europe_1
 			
@@ -88,7 +88,7 @@ ideas = {
 			}
 		}
 
-		gilberto_lemon = {
+		MEX_yoloxochitl = {
 			
 			picture = generic_army_europe_2
 			
@@ -107,7 +107,7 @@ ideas = {
 
 	air_chief = {
 
-		antonio_cardenas_rodriguez = {
+		MEX_tlacoehua = {
 			
 			picture = generic_air_europe_2
 			
@@ -122,7 +122,7 @@ ideas = {
 			}
 		}
 
-		efrain_rodriguez_berrios = {
+		MEX_tochtli = {
 			
 			picture = generic_air_europe_3
 
@@ -140,7 +140,7 @@ ideas = {
 
 	navy_chief = {
 
-		victor_tapia_briones = {
+		MEX_etalpalli = {
 			
 			picture = generic_navy_europe_2
 			
@@ -157,7 +157,7 @@ ideas = {
 			}
 		}
 
-		heriberto_jara_corona = {
+		MEX_zolin = {
 			
 			picture = generic_army_europe_1
 			
@@ -177,7 +177,7 @@ ideas = {
 
 	high_command = {
 
-		MEX_jesus_garza_siller = {
+		MEX_huitzilihuitl = {
 			
 			picture = generic_air_europe_1
 			
@@ -193,7 +193,7 @@ ideas = {
 			}
 		}
 	
-		MEX_hector_meixueiro = {
+		MEX_xochitl = {
 			
 			picture = generic_navy_europe_1
 
@@ -208,7 +208,7 @@ ideas = {
 			}
 		}
 
-		MEX_pablo_m_valenzuela = {
+		MEX_tlacaelel = {
 			
 			picture = generic_army_europe_3
 			
@@ -224,7 +224,7 @@ ideas = {
 			}
 		}
 
-		MEX_matias_ramos = {
+		MEX_matthias_chaconas = {
 			
 			picture = generic_army_europe_2
 			

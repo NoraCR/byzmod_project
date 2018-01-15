@@ -2,7 +2,7 @@ ideas = {
 
 	political_advisor = {
 
-		NOR_halvdan_koht = {
+		NOR_harald_grondahl = {
 
 			picture = generic_political_advisor_europe_1
 
@@ -13,7 +13,7 @@ ideas = {
 			traits = { smooth_talking_charmer }
 		}
 
-		NOR_adolf_indrebo = {
+		NOR_jesper_dalheim = {
 
 			picture = generic_political_advisor_europe_2
 				
@@ -24,7 +24,7 @@ ideas = {
 			traits = { captain_of_industry }
 		}
 
-		NOR_trygve_halvdan_lie = {
+		NOR_anders_falk = {
 
 			picture = generic_political_advisor_europe_3
 			
@@ -38,7 +38,7 @@ ideas = {
 
 	army_chief = {
 		
-		NOR_otto_ruge = {
+		NOR_ole_frithjof_boge = {
 			
 			picture = generic_army_europe_1
 			
@@ -55,7 +55,7 @@ ideas = {
 			}
 		}
 
-		NOR_willhelm_von_tangen_hansteen = {
+		NOR_erna_lunden = {
 			
 			picture = generic_army_europe_2
 			
@@ -72,7 +72,7 @@ ideas = {
 			}
 		}
 
-		NOR_kristian_laake = {
+		NOR_dagmar_paulsrud = {
 			
 			picture = generic_army_europe_1
 			
@@ -92,7 +92,7 @@ ideas = {
 
 	air_chief = {
 
-		NOR_bjarne_oen = {
+		NOR_viggo_treschow = {
 			
 			picture = generic_air_europe_1
 			
@@ -109,7 +109,7 @@ ideas = {
 			}
 		}
 
-		NOR_ole_reistad = {
+		NOR_hakon_nesset = {
 			
 			picture = generic_air_europe_3
 			
@@ -126,7 +126,7 @@ ideas = {
 			}
 		}
 
-		NOR_hjalmar_riiser_larsen = {
+		NOR_oystein_bakken = {
 			
 			picture = generic_air_europe_3
 			
@@ -146,7 +146,7 @@ ideas = {
 
 	navy_chief = {
 
-		NOR_edgar_otto = {
+		NOR_torbjorn_helberg_five = {
 			
 			picture = generic_navy_europe_1
 			
@@ -163,7 +163,7 @@ ideas = {
 			}
 		}
 
-		NOR_henry_diesen = {
+		NOR_margrethe_clausen = {
 			
 			picture = generic_navy_europe_2
 			
@@ -183,7 +183,7 @@ ideas = {
 
 
 	theorist = {
-		NOR_konrad_sundlo = {
+		NOR_sigbjorn_torgersen_eng = {
 			
 			picture = generic_army_europe_2
 
@@ -198,7 +198,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		NOR_tryggve_gran = {
+		NOR_eirin_bardson = {
 			
 			picture = generic_air_europe_1
 			
@@ -213,7 +213,7 @@ ideas = {
 			traits = { air_warfare_theorist }
 		}
 
-		NOR_skule_storheil = {
+		NOR_rannveig_velten_fjeld = {
 
 			picture = generic_navy_europe_3
 			
@@ -233,7 +233,7 @@ ideas = {
 
 	high_command = {
 
-		NOR_alfred_roscher-lund = {
+		NOR_emilie_langland = {
 
 			picture = generic_army_europe_2
 			
@@ -248,7 +248,7 @@ ideas = {
 			}
 		}
 		
-		NOR_jacob_von_der_lippe = {
+		NOR_sveinung_hauge_halvorson = {
 
 			picture = generic_navy_europe_2
 			
@@ -263,7 +263,7 @@ ideas = {
 			}
 		}
 
-		NOR_birger_ljungberg = {
+		NOR_orjan_skeie = {
 
 			picture = generic_army_europe_1
 			
@@ -278,7 +278,7 @@ ideas = {
 			}
 		}
 
-		NOR_wilhelm_von_tangen-hansteen = {
+		NOR_malfrid_hatlestad = {
 
 			picture = generic_army_europe_3
 			

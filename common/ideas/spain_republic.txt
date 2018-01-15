@@ -2,7 +2,7 @@ ideas = {
 
 	political_advisor = {
 
-		SPR_augusto_barcia_trelles = {
+		SPR_ivan_esteban_lopez = {
 
 			picture = generic_army_europe_1
 			
@@ -14,7 +14,7 @@ ideas = {
 			traits = { ideological_crusader }
 		}
 
-		SPR_francisco_largo_caballero = {
+		SPR_isaias_alguacil_zheng = {
 
 			picture = generic_air_europe_1
 				
@@ -26,9 +26,9 @@ ideas = {
 			traits = { captain_of_industry }
 		}
 
-		SPR_dolores_ibarruri = {
+		SPR_dionis_pratdepadua = {
 
-			picture = dolores_ibarruri
+			picture = generic_army_europe_2
 				
 			allowed = {
 				original_tag = SPR				
@@ -38,7 +38,7 @@ ideas = {
 			traits = { communist_revolutionary }
 		}
 
-		SPR_diego_martinez_barrio = {
+		SPR_juan_sebastian_manzanares = {
 
 			picture = generic_navy_europe_1
 
@@ -56,7 +56,7 @@ ideas = {
 
 	theorist = {
 
-		SPR_nicolas_molero = {
+		SPR_natxitua_gazagaibarra = {
 					
 					
 			allowed = {
@@ -73,7 +73,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 
-		SPR_andres_saborit_colomer = {
+		SPR_antonella_nazarena_covarrubias = {
 					
 					
 			allowed = {
@@ -93,7 +93,7 @@ ideas = {
 	# MILITARY
 	army_chief = {
 
-		SPR_carlos_masquelet_lacaci = {
+		SPR_isaac_alonzo_miralles = {
 			
 			picture = generic_army_europe_2
 			
@@ -112,7 +112,7 @@ ideas = {
 		}
 
 		
-		SPR_vincente_rojo_lluch = {
+		SPR_paulo_adolfo_seoane = {
 			
 			picture = generic_army_europe_3
 			
@@ -130,7 +130,7 @@ ideas = {
 			}
 		}
 
-		SPR_fransisco_franco = {
+		SPR_maria_arrazola = {
 			
 			picture = generic_army_europe_1
 			
@@ -140,7 +140,7 @@ ideas = {
 			
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = spr_franco_unavailable_tooltip
+					tooltip = spr_arrazola_unavailable_tooltip
 					OR = {
 						has_government = fascism
 						AND = {
@@ -170,7 +170,7 @@ ideas = {
 
 	air_chief = {
 
-		SPR_ignacio_hidalgo_cisneros = {
+		SPR_ernesto_salman_campany = {
 			
 			picture = generic_air_europe_1
 			
@@ -188,7 +188,7 @@ ideas = {
 			}
 		}
 			
-		SPR_andres_garcia_calle = {
+		SPR_guiying_guillermo_ma = {
 			
 			picture = generic_air_europe_3
 
@@ -209,14 +209,9 @@ ideas = {
 
 	navy_chief = {
 			
-		SPR_louis_gonzalez_ubieta = {
+		SPR_alonso_ali_graciani = {
 			
 			picture = generic_navy_europe_1
-
-			allowed = {
-				original_tag = SPR
-				NOT = { has_government = fascism }
-			}
 			
 
 			
@@ -227,17 +222,12 @@ ideas = {
 			}
 		}
 
-		SPR_indalecio_prieto_tuero = {
+		SPR_jimena_doria_rasgado = {
 			
 			picture = generic_navy_europe_2
-
-			allowed = {
-				original_tag = SPR
-				NOT = { has_government = fascism }
-			}
 			
 			
-			traits = { navy_chief_decisive_battle_2 }
+			traits = { navy_chief_decisive_battle_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -248,7 +238,7 @@ ideas = {
 	
 	high_command = {
 		
-		SPR_jose_miaja = {
+		SPR_demeter_acorda_goicoechea = {
 			
 			picture = generic_army_europe_2
 
@@ -266,7 +256,7 @@ ideas = {
 			}
 		}
 
-		SPR_diego_hidalgo_duran = {
+		SPR_juan_pablo_carballar = {
 			
 			picture = generic_army_europe_3
 

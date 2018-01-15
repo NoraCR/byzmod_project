@@ -505,7 +505,7 @@ ideas = {
 
 	political_advisor = {
 
-		CZE_vojtech_tuka = {
+		CZE_ambroz_vanek = {
 
 			picture = generic_political_advisor_europe_1
 
@@ -516,7 +516,7 @@ ideas = {
 			traits = { prince_of_terror }
 		}
 
-		CZE_ferdinand_catlos = {
+		CZE_albert_stanek = {
 
 			picture = generic_army_europe_2
 				
@@ -527,7 +527,7 @@ ideas = {
 			traits = { quartermaster_general }
 		}
 
-		CZE_jozef_tiso = {
+		CZE_ivana_horackova = {
 
 			picture = generic_political_advisor_europe_3
 			
@@ -542,78 +542,14 @@ ideas = {
 			}
 		}
 
-		CZE_stefan_osusky = {
 
-			picture = generic_political_advisor_europe_1
-			
-			allowed = {
-				original_tag = CZE
-			}
-			available = {
-				if = { 
-					limit = { has_dlc = "Death or Dishonor" }
-					has_completed_focus = CZE_democratic_bastion
-				}
-			}
-			
-			traits = { democratic_reformer }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		CZE_gustav_husak = {
-
-			picture = generic_political_advisor_europe_2
-			
-			allowed = {
-				original_tag = CZE
-			}
-
-			available = {
-				if = {
-					limit = { has_dlc = "Death or Dishonor" }
-					has_completed_focus = CZE_go_left
-				}
-			}
-			
-			traits = { communist_revolutionary }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		CZE_konrad_henlein = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = CZE
-			}
-
-			available = {
-				if = {
-					limit = { has_dlc = "Death or Dishonor" }
-					has_completed_focus = CZE_go_right
-				}
-			}
-			
-			traits = { fascist_demagogue }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-	}
 
 
 	# MILITARY
 	army_chief = {
 	
 
-		CZE_rudolf_viest = {
+		CZE_erika_vanova = {
 			
 			picture = generic_army_europe_2
 			
@@ -630,7 +566,7 @@ ideas = {
 			}
 		}
 
-		CZE_ludvik_krejci = {
+		CZE_mikulas_zeman = {
 			
 			picture = generic_army_europe_4
 			
@@ -648,7 +584,7 @@ ideas = {
 		}
 
 		
-		CZE_ludvik_svoboda = {
+		CZE_sebastian_michalek = {
 			
 			picture = generic_army_europe_5
 			
@@ -669,7 +605,7 @@ ideas = {
 	air_chief = {
 		
 		
-		CZE_karel_janousek = {
+		CZE_iveta_berankova = {
 			
 			picture = generic_air_europe_3
 			
@@ -686,7 +622,7 @@ ideas = {
 			}
 		}
 
-		CZE_jaroslav_fajfr = {
+		CZE_borivoj_soukup = {
 			
 			picture = generic_air_europe_2
 			
@@ -706,7 +642,7 @@ ideas = {
 	navy_chief = {
 		
 		
-		CZE_antonin_hasal = {
+		CZE_matej_zdrahal = {
 			
 			picture = generic_navy_europe_3
 			
@@ -723,7 +659,7 @@ ideas = {
 			}
 		}
 
-		CZE_klement_gottwald = {
+		CZE_melichar_rypal = {
 			
 			picture = generic_navy_europe_2
 			
@@ -741,7 +677,7 @@ ideas = {
 
 
 	high_command = {
-		CZE_jan_golian = {
+		CZE_vlastimil_belcredi = {
 			
 			picture = generic_army_europe_2
 			
@@ -756,7 +692,7 @@ ideas = {
 			}
 		}
 	
-		CZE_josef_frantisek = {
+		CZE_oliver_dobrentsi = {
 			
 			picture = generic_air_europe_1
 			
@@ -771,7 +707,7 @@ ideas = {
 			}
 		}
 	
-		CZE_karel_kuttelwascher = {
+		CZE_daniela_vavrova = {
 			
 			picture = generic_air_europe_3
 			
@@ -786,7 +722,7 @@ ideas = {
 			}
 		}
 
-		CZE_frantisek_havel = {
+		CZE_karel_zak = {
 						
 			picture = generic_army_europe_1
 
@@ -803,7 +739,7 @@ ideas = {
 	}
 
 	theorist = {
-		CZE_karel_vaclav_petrik = {			
+		CZE_drahoslava_krivankova = {			
 
 			allowed = {
 				original_tag = CZE
@@ -816,7 +752,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		CZE_alois_vicherek = {
+		CZE_nora_brozova = {
 		
 			allowed = {
 				original_tag = CZE

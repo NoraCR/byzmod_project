@@ -201,6 +201,14 @@ units = {
 		start_equipment_factor = 0.75
 
 	}
+	division= {			
+		name = "Byzantion Postal Workers 95"		
+		location = 6675
+		division_template = "Red Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+
+	}	
 	# II Army Corps #
 	division= {			
 		name = "1st Foreign Legion"		
