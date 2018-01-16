@@ -3719,7 +3719,7 @@ news_event = {
 	}
 }
 
-# The Fall of Nanjing
+# The Fall of Shanghai
 news_event = {
 	id = news.121
 	title = news.121.t
@@ -3754,6 +3754,49 @@ news_event = {
 	}
 	option = {
 		name = news.117.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = CHI }
+	}
+}
+
+# The Fall of Beijing
+news_event = {
+	id = news.800
+	title = news.800.t
+	desc = news.800.d
+	picture = GFX_news_event_048
+	
+	major = yes
+	
+	trigger = {
+		608 = { is_controlled_by = JAP }
+		608 = { is_owned_by = CHI }
+		JAP = { has_war_with = CHI }
+		NOT = { has_global_flag = fall_of_beijing }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_beijing
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = news.800.b
 		trigger = { TAG = JAP }
 	}
 	option = {
