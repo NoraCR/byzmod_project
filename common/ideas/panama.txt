@@ -4,7 +4,7 @@ ideas = {
 
 	political_advisor = {
 
-		PAN_nicolas_ardito_barletta = {
+		PAN_nicholas_davidson = {
 
 			picture = generic_political_advisor_south_america_2
 
@@ -15,7 +15,7 @@ ideas = {
 			traits = { compassionate_gentleman }
 		}
 
-		PAN_victor_pareja = {
+		PAN_victor_godfrey = {
 
 			picture = generic_political_advisor_south_america_1
 				
@@ -26,7 +26,7 @@ ideas = {
 			traits = { armaments_organizer }
 		}
 
-		PAN_jose_pezet = {
+		PAN_helene_lovell = {
 
 			picture = generic_political_advisor_south_america_3
 			
@@ -39,7 +39,7 @@ ideas = {
 	}
 
 	theorist = {
-		PAN_enrique_jimenez_brin = {
+		PAN_iacob_macealair = {
 			
 			picture = generic_army_south_america_2
 
@@ -54,7 +54,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		PAN_marcos_a_gelabert = {
+		PAN_phoebe_morris = {
 
 			picture = generic_air_south_america_1
 			
@@ -70,7 +70,7 @@ ideas = {
 		}
 
 
-		PAN_arturo_osborne_irraga = {
+		PAN_winston_bouchard = {
 
 			picture = generic_navy_south_america_1
 			
@@ -88,7 +88,7 @@ ideas = {
 
 	high_command = {
 
-		PAN_omar_torrijos = {
+		PAN_rosa_trevarthen = {
 			
 			picture = generic_army_south_america_1
 			
@@ -103,7 +103,7 @@ ideas = {
 			}
 		}
 		
-		PAN_bolivar_villarino = {
+		PAN_morgan_lewis_brown = {
 
 			picture = generic_army_south_america_3
 			
@@ -118,7 +118,7 @@ ideas = {
 			}
 		}
 
-		PAN_margarita_belloso_jimenez = {
+		PAN_ophelia_linnington = {
 
 			picture = generic_air_south_america_1
 			
@@ -133,7 +133,7 @@ ideas = {
 			}
 		}
 
-		PAN_nestor_urribe_suarez = {
+		PAN_emmanuel_stevens = {
 
 			picture = generic_air_south_america_2
 			
@@ -148,7 +148,7 @@ ideas = {
 			}
 		}
 
-		PAN_juan_jose_parada = {
+		PAN_maude_couchman = {
 
 			picture = generic_air_south_america_3
 			
@@ -166,7 +166,7 @@ ideas = {
 
 	army_chief = {
 
-		PAN_enrico_fabrego_paz = {
+		PAN_jonathan_chenoweth = {
 
 			picture = generic_army_south_america_3
 			
@@ -181,7 +181,7 @@ ideas = {
 			}
 		}
 
-		PAN_manuel_rios_urribe = {
+		PAN_matthew_r_trethewey = {
 
 			picture = generic_army_south_america_2
 			
@@ -199,7 +199,7 @@ ideas = {
 
 	air_chief = {
 
-		PAN_juan_remon = {
+		PAN_tagwen_floyd = {
 
 			picture = generic_air_south_america_3
 			
@@ -214,7 +214,7 @@ ideas = {
 			}
 		}
 
-		PAN_carlos_zavala = {
+		PAN_milread_macanndra = {
 
 			picture = generic_air_south_america_2
 			
@@ -233,7 +233,7 @@ ideas = {
 
 	navy_chief = {
 
-		PAN_juan_a_hernandez = {
+		PAN_niall_macoboy = {
 
 			picture = generic_navy_south_america_2
 			
@@ -248,7 +248,7 @@ ideas = {
 			}
 		}
 
-		PAN_ferdinando_hernandez_ytuarte = {
+		PAN_frances_chambers = {
 
 			picture = generic_navy_south_america_1
 			
