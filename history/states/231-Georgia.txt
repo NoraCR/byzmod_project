@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = AKH
+		add_core_of = GEO
 		victory_points = {
 			1599 5 
 		}

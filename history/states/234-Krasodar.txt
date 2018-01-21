@@ -29,6 +29,7 @@ state={
 			}
 		}
 		add_core_of = AKH
+		add_core_of = GEO
 	}
 
 	provinces={

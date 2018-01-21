@@ -12,8 +12,9 @@ state={
 
 	history={
 		owner = SOM
+		add_core_of = BOT
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 		}
 
 	}
