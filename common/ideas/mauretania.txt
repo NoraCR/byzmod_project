@@ -1,0 +1,261 @@
+ideas = {
+
+	political_advisor = {
+
+		MOR_abdelkarim_benkirane = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = MOR
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		MOR_younes_achaari = {
+
+			picture = generic_political_advisor_arab_2
+				
+			allowed = {
+				original_tag = MOR
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+
+		MOR_azhar_al_harradi = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = MOR
+			}
+			
+			traits = { silent_workhorse }
+		}
+	}
+
+	theorist = {
+
+		MOR_rachid_el_ouadie = {
+					
+			picture = generic_army_arab_1
+
+			allowed = {
+				original_tag = MOR
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+
+		MOR_mohamed_raihani = {
+					
+			picture = generic_air_arab_1
+				
+			allowed = {
+				original_tag = MOR
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+		MOR_salma_bennani = {
+					
+					
+			allowed = {
+				original_tag = MOR
+			}
+			
+			picture = generic_political_advisor_arab_1
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}
+	}
+
+	high_command = {
+
+		MOR_ikrimah_ben_hamed = {
+
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = MOR
+			}
+			
+			traits = { air_air_superiority_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MOR_reshma_salem = {
+
+			picture = generic_air_arab_2
+			
+			allowed = {
+				original_tag = MOR
+			}
+			
+			traits = { air_bomber_interception_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MOR_loubna_nait = {
+
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = MOR
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MOR_abdelaziz_ibn_alhassan = {
+
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = MOR
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		MOR_driss_benmansour = {
+			
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = MOR
+			}
+			
+
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		MOR_mina_alharradi = {
+			
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = MOR
+			}
+			
+
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		MOR_bekathen_mostafa = {
+			
+			picture = generic_air_arab_3
+			
+			allowed = {
+				original_tag = MOR
+			}
+			
+
+			
+			traits = { air_chief_safety_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MOR_agwectim_taheri = {
+			
+			picture = generic_air_arab_2
+			
+			allowed = {
+				original_tag = MOR
+			}
+			
+
+			
+			traits = { air_chief_all_weather_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	navy_chief = {
+
+		MOR_girgis_ben_haddou = {
+			
+			picture = generic_navy_arab_2
+			
+			allowed = {
+				original_tag = MOR
+			}
+			
+
+			
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MOR_fathiyah_maadawi = {
+			
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = MOR
+			}
+			
+
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}

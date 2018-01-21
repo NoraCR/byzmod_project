@@ -1,0 +1,266 @@
+ideas = {
+	# MILITARY
+
+
+	political_advisor = {
+
+		SHO_hamadzipiri_mungoshi = {
+
+			picture = generic_political_advisor_african_2
+
+			allowed = {
+				original_tag = SHO
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		SHO_simukai_croome = {
+
+			picture = generic_political_advisor_african_1
+				
+			allowed = {
+				original_tag = SHO
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		SHO_takaedza_mathema = {
+
+			picture = generic_political_advisor_african_3
+			
+			allowed = {
+				original_tag = SHO
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+	}
+
+	army_chief = {
+
+		SHO_pamhidzai_dumbutshena = {
+
+			picture = generic_army_african_2
+			
+			allowed = {
+				original_tag = SHO
+			}		
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SHO_zivai_mnangagwa = {
+
+			picture = generic_army_african_1
+			
+			allowed = {
+				original_tag = SHO
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		SHO_watinoda_masiyiwa = {
+
+			picture = generic_air_african_3
+			
+			allowed = {
+				original_tag = SHO
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SHO_farai_mhlanga = {
+
+			picture = generic_air_african_3
+			
+			allowed = {
+				original_tag = SHO
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		SHO_ruvimbo_mumbengegwi = {
+
+			picture = generic_navy_african_2
+			
+			allowed = {
+				original_tag = SHO
+			}
+					
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SHO_dunzvi_mbangwa = {
+
+			picture = generic_navy_african_3
+			
+			allowed = {
+				original_tag = SHO
+			}
+					
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		SHO_shungudzemwoyo_chikuhwa = {
+			
+			picture = generic_army_african_1
+			
+			allowed = {
+				original_tag = SHO
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		SHO_kundai_chikerema = {
+
+			picture = generic_army_african_3
+			
+			allowed = {
+				original_tag = SHO
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SHO_uchi_dulini = {
+
+			picture = generic_army_african_2
+			
+			allowed = {
+				original_tag = SHO
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SHO_shingirai_shumba = {
+
+			picture = generic_air_african_2
+			
+			allowed = {
+				original_tag = SHO
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SHO_upenyu_muzorewa = {
+
+			picture = generic_navy_african_2
+			
+			allowed = {
+				original_tag = SHO
+			}
+			
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}	
+
+	theorist = {
+		SHO_jekuche_takawira = {
+			
+			picture = generic_army_african_2
+
+			allowed = {
+				original_tag = SHO
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		SHO_nguvayake_midzi = {
+
+			picture = generic_navy_african_3
+			
+			allowed = {
+				original_tag = SHO
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}	
+
+		SHO_chipinduka_mnkandla = {
+
+			picture = generic_air_african_2
+			
+			allowed = {
+				original_tag = SHO
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+	}
+}

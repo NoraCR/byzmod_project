@@ -1,7 +1,7 @@
 ideas = {
 	political_advisor = {
 
-		BRA_washington_luis_pereira = {
+		BRA_kaue_amanex = {
 
 			picture = generic_political_advisor_south_america_1
 			
@@ -12,7 +12,7 @@ ideas = {
 			traits = { backroom_backstabber }
 		}
 
-		BRA_osvaldo_aranha = {
+		BRA_maiara_guababo = {
 
 			picture = generic_political_advisor_south_america_2
 				
@@ -23,7 +23,7 @@ ideas = {
 			traits = { compassionate_gentleman }
 		}
 
-		BRA_afranio_de_mello_franco = {
+		BRA_ubiraci_quaranto = {
 
 			picture = generic_political_advisor_south_america_3
 			
@@ -37,7 +37,7 @@ ideas = {
 
 	theorist = {
 
-		BRA_newton_cavalcanti = {
+		BRA_ubirata_majubiatbiri = {
 					
 			picture = generic_army_south_america_1
 
@@ -52,7 +52,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 
-		BRA_eduardo_gomes = {
+		BRA_bearnard_o_mordha = {
 					
 			picture = generic_political_advisor_south_america_1
 				
@@ -70,7 +70,7 @@ ideas = {
 
 	high_command = {
 
-		BRA_epaminondas_dos_santos = {
+		BRA_kolina_gabri = {
 
 			picture = generic_air_south_america_1
 			
@@ -85,7 +85,7 @@ ideas = {
 			}
 		}
 
-		BRA_agliberto_vieira = {
+		BRA_bartira_arasibo = {
 
 			picture = generic_navy_south_america_2
 			
@@ -100,7 +100,7 @@ ideas = {
 			}
 		}
 
-		BRA_artur_da_costa_e_silva = {
+		BRA_potira_naboria = {
 
 			picture = generic_army_south_america_3
 			
@@ -115,7 +115,7 @@ ideas = {
 			}
 		}
 
-		BRA_moreira_lima = {
+		BRA_atsidi_daguao = {
 
 			picture = generic_air_south_america_2
 			
@@ -133,7 +133,7 @@ ideas = {
 	# MILITARY
 	army_chief = {
 
-		BRA_joao_neves_da_fontoura = {
+		BRA_tibirica_abendroth = {
 			
 			picture = generic_army_south_america_1
 			
@@ -148,7 +148,7 @@ ideas = {
 			}
 		}
 
-		BRA_nero_fiuza_de_castro = {
+		BRA_kaue_sakimoto = {
 			
 			picture = generic_army_south_america_3
 			
@@ -167,7 +167,7 @@ ideas = {
 	air_chief = {
 		
 
-		BRA_salgado_filho = {
+		BRA_kayke_ayraguay = {
 			
 			picture = generic_air_south_america_1
 			
@@ -182,7 +182,7 @@ ideas = {
 			}
 		}
 
-		BRA_ismael_motta_paes = {
+		BRA_josef_fleischmann = {
 			
 			picture = generic_air_south_america_2
 			
@@ -201,7 +201,7 @@ ideas = {
 
 	navy_chief = {
 
-		BRA_aristides_guilhem = {
+		BRA_rhadamanthus_jandir = {
 			
 			picture = generic_navy_south_america_2
 			
@@ -216,7 +216,7 @@ ideas = {
 			}
 		}
 
-		BRA_jorge_martins = {
+		BRA_tauane_mabo = {
 			
 			picture = generic_navy_south_america_1
 			
@@ -231,7 +231,7 @@ ideas = {
 			}
 		}
 
-		BRA_floriano_peixoto = {
+		BRA_inaie_orocobix = {
 			
 			picture = generic_navy_south_america_3
 			

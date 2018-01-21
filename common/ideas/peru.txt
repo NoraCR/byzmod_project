@@ -2,7 +2,7 @@ ideas = {
 
 	political_advisor = {
 
-		PRU_armando_reveredo_iglesias = {
+		PRU_waqar_gauman_amaru = {
 
 			picture = generic_political_advisor_south_america_1
 			
@@ -13,7 +13,7 @@ ideas = {
 			traits = { war_industrialist }
 		}
 
-		PRU_oscar_miro_quesada = {
+		PRU_kuyuk_chuquipoma_arotinco = {
 
 			picture = generic_political_advisor_south_america_2
 				
@@ -24,7 +24,7 @@ ideas = {
 			traits = { silent_workhorse }
 		}
 
-		PRU_reynaldo_vinatea = {
+		PRU_pariwana_michi_ccahua = {
 
 			picture = generic_political_advisor_south_america_1
 			
@@ -35,7 +35,7 @@ ideas = {
 			traits = { ideological_crusader }
 		}
 
-		PRU_jose_bustamante_y_rivero = {
+		PRU_otoronqo_naccha_pari = {
 
 			picture = generic_political_advisor_south_america_3
 			
@@ -49,7 +49,7 @@ ideas = {
 
 	theorist = {
 
-		PRU_luis_ramirez_ortiz = {
+		PRU_usoqwillka_manco_olaya = {
 					
 			picture = generic_army_south_america_1
 
@@ -64,7 +64,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 
-		PRU_romulo_frias = {
+		PRU_qoriwayra_huamanga_ninahuaman = {
 					
 			picture = generic_air_south_america_1
 				
@@ -79,7 +79,7 @@ ideas = {
 			traits = { air_warfare_theorist }
 		}
 
-		PRU_ernesto_scroth = {
+		PRU_ruqa_qori_allauca = {
 					
 					
 			allowed = {
@@ -98,7 +98,7 @@ ideas = {
 
 	high_command = {
 
-		PRU_eloy_g_ureta = {
+		PRU_qhispisisa_manco_aucapuma = {
 
 			picture = generic_army_south_america_1
 			
@@ -113,7 +113,7 @@ ideas = {
 			}
 		}
 
-		PRU_rafael_escardo = {
+		PRU_anqaspoma_ccahuantico_uchuypoma = {
 
 			picture = generic_army_south_america_2
 			
@@ -128,7 +128,7 @@ ideas = {
 			}
 		}
 
-		PRU_eduardo_montero_rojas = {
+		PRU_koka_pumasupa_nana = {
 
 			picture = generic_army_south_america_3
 			
@@ -143,7 +143,7 @@ ideas = {
 			}
 		}
 
-		PRU_luis_navarrete = {
+		PRU_inkasisa_colquehuanca_condori = {
 
 			picture = generic_navy_south_america_1
 			
@@ -158,7 +158,7 @@ ideas = {
 			}
 		}
 
-		PRU_fernando_m_quesada_blanco = {
+		PRU_waymanuraq_pillihuaman_alca = {
 
 			picture = generic_air_south_america_1
 			
@@ -173,7 +173,7 @@ ideas = {
 			}
 		}
 
-		PRU_alberto_lopez_flores = {
+		PRU_chinpuurma_choque_ccahua = {
 
 			picture = generic_air_south_america_1
 			
@@ -191,7 +191,7 @@ ideas = {
 	# MILITARY
 	army_chief = {
 
-		PRU_oscar_benavides_larrea = {
+		PRU_qura_olaya_huanca = {
 			
 			picture = generic_army_south_america_2
 			
@@ -208,7 +208,7 @@ ideas = {
 			}
 		}
 		
-		PRU_oscar_gilardi = {
+		PRU_panca_quihue_paucarchuco = {
 			
 			picture = generic_army_south_america_1
 			
@@ -225,7 +225,7 @@ ideas = {
 			}
 		}
 
-		PRU_vladimiro_lopez_trigoso = {
+		PRU_yanakilla_quelka_ticahuanca = {
 			
 			picture = generic_army_south_america_3
 			
@@ -242,7 +242,7 @@ ideas = {
 			}
 		}
 
-		PRU_manuel_odria_amoretti = {
+		PRU_kusi_huachalla_sayritupac = {
 			
 			picture = generic_army_south_america_2
 			
@@ -262,7 +262,7 @@ ideas = {
 
 	air_chief = {
 
-		PRU_paul_de_beaudiez = {
+		PRU_okllo_quelka_rimayhuaman = {
 			
 			picture = generic_air_south_america_3
 			
@@ -279,7 +279,7 @@ ideas = {
 			}
 		}
 
-		PRU_eduardo_cantabria_gomez = {
+		PRU_sonjoyoq_quichca_pumacaja = {
 			
 			picture = generic_air_south_america_2
 			
@@ -299,7 +299,7 @@ ideas = {
 
 	navy_chief = {
 
-		PRU_alberto_roque_saldias = {
+		PRU_lliukilla_carihuasari_cacha = {
 			
 			picture = generic_navy_south_america_2
 			
@@ -316,7 +316,7 @@ ideas = {
 			}
 		}
 
-		PRU_felipe_tudela = {
+		PRU_llipiak_guanuna_chaupin = {
 			
 			picture = generic_navy_south_america_3
 			
