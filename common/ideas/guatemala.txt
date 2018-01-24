@@ -3,7 +3,7 @@ ideas = {
 
 	political_advisor = {
 
-		GUA_eduardo_villagran_ariza = {
+		GUA_ah_bolom_dzacab = {
 
 			picture = generic_political_advisor_south_america_1
 
@@ -14,7 +14,7 @@ ideas = {
 			traits = { smooth_talking_charmer }
 		}
 
-		GUA_juan_arevalo_bermejo = {
+		GUA_anna_eleuia = {
 
 			picture = generic_political_advisor_south_america_3
 				
@@ -25,7 +25,7 @@ ideas = {
 			traits = { war_industrialist }
 		}
 
-		GUA_manuel_arroyo = {
+		GUA_cotzbalam = {
 
 			picture = generic_political_advisor_south_america_2
 			
@@ -39,7 +39,7 @@ ideas = {
 
 	army_chief = {
 
-		GUA_federico_ponce_vaides = {
+		GUA_ququmatz = {
 
 			picture = generic_army_south_america_2
 			
@@ -54,7 +54,7 @@ ideas = {
 			}
 		}
 
-		GUA_jacopo_arbenz_guzman = {
+		GUA_kan_u_uayeyab = {
 
 			picture = generic_army_south_america_1
 			
@@ -72,7 +72,7 @@ ideas = {
 
 	air_chief = {
 
-		GUA_r_buenaventure_pineda = {
+		GUA_ixazaluoh = {
 
 			picture = generic_air_south_america_2
 			
@@ -87,7 +87,7 @@ ideas = {
 			}
 		}
 
-		GUA_francisco_javier_arana = {
+		GUA_xamaniqinqu = {
 
 			picture = generic_air_south_america_1
 			
@@ -106,7 +106,7 @@ ideas = {
 
 	navy_chief = {
 
-		GUA_tomas_mendoza_urribe = {
+		GUA_ah_uuc_ticab = {
 
 			picture = generic_navy_south_america_3
 			
@@ -121,7 +121,7 @@ ideas = {
 			}
 		}
 
-		GUA_jorge_torriello_garrido = {
+		GUA_ah_patnar_unicob = {
 
 			picture = generic_navy_south_america_1
 			
@@ -139,7 +139,7 @@ ideas = {
 
 	high_command = {
 
-		GUA_manuel_orellana = {
+		GUA_georgios_kawai = {
 			
 			picture = generic_army_south_america_1
 			
@@ -154,7 +154,7 @@ ideas = {
 			}
 		}
 		
-		GUA_carlos_diaz_de_leon = {
+		GUA_buluc_chabtan = {
 
 			picture = generic_army_south_america_2
 			
@@ -169,7 +169,7 @@ ideas = {
 			}
 		}
 
-		GUA_miguel_garcia_granados = {
+		GUA_colel_xpiayoc = {
 
 			picture = generic_air_south_america_1
 			
@@ -184,7 +184,7 @@ ideas = {
 			}
 		}
 
-		GUA_jose_ezuira_abel = {
+		GUA_vukubcane = {
 
 			picture = generic_navy_south_america_2
 			
@@ -201,7 +201,7 @@ ideas = {
 	}	
 
 	theorist = {
-		GUA_m_ydigaras_fuentes = {
+		GUA_ah_muzencab = {
 			
 			picture = generic_army_south_america_1
 
@@ -216,7 +216,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		GUA_w_tesch_orlando = {
+		GUA_maria_citlali = {
 
 			picture = generic_navy_south_america_1
 			

@@ -85,6 +85,16 @@ create_country_leader = {
 }
 create_country_leader = {
 	
+	name = "Kerapetse Tshephang"
+	picture = "Portrait_Africa_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
 	name = "Itumaleng Dikitso"
 	picture = "Portrait_Africa_Generic_1.dds"
 	expire = "1965.1.1"

@@ -82,11 +82,19 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Juddha Rana"
-	desc = "POLITICS_JUDDHA_RANA_DESC"
+	name = "Manmohan Rana"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	expire = "1965.1.1"
 	ideology = despotism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Shi Jingyi"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = shanghai_school_economics
 	traits = {
 		#
 	}

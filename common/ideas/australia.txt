@@ -1,18 +1,7 @@
 ideas = {
 	political_advisor = {
 
-	AST_alexander_hore_ruthven = {
-
-		picture = generic_political_advisor_europe_1
-		
-		allowed = {
-			original_tag = AST
-		}
-		
-		traits = { quartermaster_general }
-	}
-
-	AST_robert_g_menzies = {
+	AST_chimiayarra = {
 
 		picture = generic_political_advisor_europe_2
 			
@@ -23,7 +12,7 @@ ideas = {
 		traits = { backroom_backstabber }
 	}
 
-	AST_ben_chiffley = {
+	AST_peawallah = {
 
 		picture = generic_political_advisor_europe_3
 		
@@ -34,7 +23,7 @@ ideas = {
 		traits = { smooth_talking_charmer }
 	}
 
-	AST_herbert_v_evatt = {
+	AST_yernilgurrawa = {
 
 		picture = generic_political_advisor_europe_2
 		
@@ -48,7 +37,7 @@ ideas = {
 
 theorist = {
 
-	AST_norman_makin = {
+	AST_bowenboak = {
 				
 		picture = generic_political_advisor_europe_3
 
@@ -63,7 +52,7 @@ theorist = {
 		traits = { naval_theorist }
 	}
 
-	AST_james_fairbairn = {
+	AST_waume = {
 				
 		picture = generic_political_advisor_europe_2
 			
@@ -81,7 +70,7 @@ theorist = {
 
 high_command = {
 
-	AST_arthur_allen = {
+	AST_womering = {
 
 		picture = generic_army_europe_2
 		
@@ -96,7 +85,7 @@ high_command = {
 		}
 	}
 
-	AST_clive_caldwell = {
+	AST_wonnogun = {
 
 		picture = generic_air_europe_1
 		
@@ -111,7 +100,7 @@ high_command = {
 		}
 	}
 
-	AST_john_collins = {
+	AST_capingool = {
 
 		picture = generic_navy_europe_1
 		
@@ -126,7 +115,7 @@ high_command = {
 		}
 	}
 
-	AST_edmund_herring = {
+	AST_gddjup = {
 
 		picture = generic_army_europe_1
 		
@@ -144,7 +133,7 @@ high_command = {
 	# MILITARY
 	army_chief = {
 
-		AST_john_lavarack = {
+		AST_mullelah = {
 			
 			picture = generic_army_europe_1
 			
@@ -159,7 +148,7 @@ high_command = {
 			}
 		}
 
-		AST_sydney_rowell = {
+		AST_wanthergoora = {
 			
 			picture = generic_army_europe_3
 			
@@ -174,7 +163,7 @@ high_command = {
 			}
 		}
 
-		AST_vernon_sturdee = {
+		AST_morangorin = {
 			
 			picture = generic_army_europe_2
 			
@@ -193,7 +182,7 @@ high_command = {
 	air_chief = {
 		
 
-		AST_richard_williams = {
+		AST_nianbung = {
 			
 			picture = generic_air_europe_1
 			
@@ -208,7 +197,7 @@ high_command = {
 			}
 		}
 
-		AST_charles_burnett = {
+		AST_panlijiny = {
 			
 			picture = generic_air_europe_3
 			
@@ -227,7 +216,7 @@ high_command = {
 
 	navy_chief = {
 
-		AST_ragnar_colvin = {
+		AST_munglegarra = {
 			
 			picture = generic_navy_europe_2
 			
@@ -242,7 +231,7 @@ high_command = {
 			}
 		}
 
-		AST_jack_crace = {
+		AST_nubidimer = {
 			
 			picture = generic_navy_europe_1
 			

@@ -132,8 +132,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ernest Béuin"
-	desc = "POLITICS_ERNST_BEGUIN_DESC"
+	name = "Eliane Wölfli"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = centrism
@@ -143,8 +142,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Dr. Max Leo Keller"
-	desc = "POLITICS_MAX_LEO_KELLER_DESC"
+	name = "Maxime Künzle"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" 
 	expire = "1965.1.1"
 	ideology = nazism
@@ -154,8 +152,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Fritz Platten"
-	desc = "POLITICS_FRITZ_PLATTEN_DESC"
+	name = "Oskar Gattiker"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = marxism
@@ -165,7 +162,7 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Henri Guisan"
+	name = "Oliver Steuri"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = {  winter_specialist }
 	skill = 3
