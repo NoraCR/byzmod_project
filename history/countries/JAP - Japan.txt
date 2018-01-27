@@ -116,6 +116,9 @@ create_country_leader = {
 	picture = "jap_masaoka_natsuko.dds"
 	expire = "1989.1.1"
 	ideology = liberalism
+	traits = {
+		indomitable_perseverance
+	}
 }
 
 create_country_leader = {

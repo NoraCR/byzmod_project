@@ -113,7 +113,7 @@ set_national_unity = 0.4
 		expire = "1965.1.1"
 		ideology = shanghai_school_economics
 		traits = {
-			#
+			hedonist
 		}
 	}
 	create_country_leader = {

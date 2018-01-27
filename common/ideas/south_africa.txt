@@ -1,0 +1,266 @@
+ideas = {
+	# MILITARY
+
+
+	political_advisor = {
+
+		SAF_yuquibo_luquillo = {
+
+			picture = generic_political_advisor_african_2
+
+			allowed = {
+				original_tag = SAF
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		SAF_urayoan_yagueca = {
+
+			picture = generic_political_advisor_african_1
+				
+			allowed = {
+				original_tag = SAF
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		SAF_hatuey_baracoa = {
+
+			picture = generic_political_advisor_african_3
+			
+			allowed = {
+				original_tag = SAF
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+	}
+
+	army_chief = {
+
+		SAF_abey_nkosiphendule = {
+
+			picture = generic_army_african_2
+			
+			allowed = {
+				original_tag = SAF
+			}		
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SAF_fumanekile_makinana = {
+
+			picture = generic_army_african_1
+			
+			allowed = {
+				original_tag = SAF
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		SAF_ameyro_celukuthula = {
+
+			picture = generic_air_african_3
+			
+			allowed = {
+				original_tag = SAF
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SAF_xolani_nhlanhla = {
+
+			picture = generic_air_african_3
+			
+			allowed = {
+				original_tag = SAF
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		SAF_cacimar_manqoba = {
+
+			picture = generic_navy_african_2
+			
+			allowed = {
+				original_tag = SAF
+			}
+					
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SAF_coceka_nongxa = {
+
+			picture = generic_navy_african_3
+			
+			allowed = {
+				original_tag = SAF
+			}
+					
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		SAF_mlungisi_nyambose = {
+			
+			picture = generic_army_african_1
+			
+			allowed = {
+				original_tag = SAF
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		SAF_huarea_vusumuzi = {
+
+			picture = generic_army_african_3
+			
+			allowed = {
+				original_tag = SAF
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SAF_lindikhaya_vavi = {
+
+			picture = generic_army_african_2
+			
+			allowed = {
+				original_tag = SAF
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SAF_siyabonga_ntaka = {
+
+			picture = generic_air_african_2
+			
+			allowed = {
+				original_tag = SAF
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SAF_omofay_musawenkosi = {
+
+			picture = generic_navy_african_2
+			
+			allowed = {
+				original_tag = SAF
+			}
+			
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}	
+
+	theorist = {
+		SAF_lulamile_ngcuka = {
+			
+			picture = generic_army_african_2
+
+			allowed = {
+				original_tag = SAF
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		SAF_lunga_zosongo = {
+
+			picture = generic_navy_african_3
+			
+			allowed = {
+				original_tag = SAF
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}	
+
+		SAF_aviwe_malinga = {
+
+			picture = generic_air_african_2
+			
+			allowed = {
+				original_tag = SAF
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+	}
+}
