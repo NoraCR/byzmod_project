@@ -3859,8 +3859,8 @@ news_event = {
 	
 	trigger = {
 		326 = { is_controlled_by = JAP }
-		326 = { is_owned_by = ENG }
-		JAP = { has_war_with = ENG }
+		326 = { is_owned_by = CHI }
+		JAP = { has_war_with = CHI }
 		NOT = { has_global_flag = fall_of_hong_kong }
 	}
 	
@@ -3877,7 +3877,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = JAP
-				TAG = ENG
+				TAG = CHI
 			}
 		}
 	}
@@ -3887,7 +3887,50 @@ news_event = {
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = ENG }
+		trigger = { TAG = CHI }
+	}
+}
+
+# The Fall of Bangkok
+news_event = {
+	id = news.997
+	title = news.997.t
+	desc = news.997.d
+	picture = GFX_news_event_040
+	
+	major = yes
+	
+	trigger = {
+		289 = { is_controlled_by = JAP }
+		289 = { is_owned_by = SIA }
+		JAP = { has_war_with = SIA }
+		NOT = { has_global_flag = fall_of_bangkok_jap }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_bangkok_jap
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = SIA
+			}
+		}
+	}
+	option = {
+		name = news.117.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = SIA }
 	}
 }
 
@@ -4324,8 +4367,8 @@ news_event = {
 	
 	trigger = {
 		2 = { is_controlled_by = FRA }
-		2 = { is_owned_by = ITA }
-		FRA = { has_war_with = ITA }
+		2 = { is_owned_by = BYZ }
+		FRA = { has_war_with = BYZ }
 		NOT = { has_global_flag = fall_of_rome_fra }
 	}
 	
@@ -4342,7 +4385,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = FRA
-				TAG = ITA
+				TAG = BYZ
 			}
 		}
 	}
@@ -4352,7 +4395,93 @@ news_event = {
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = ITA }
+		trigger = { TAG = BYZ }
+	}
+}
+
+# The Fall of Milan (France)
+news_event = {
+	id = news.999
+	title = news.999.t
+	desc = news.999.d
+	picture = GFX_news_event_french_parade
+	
+	major = yes
+	
+	trigger = {
+		159 = { is_controlled_by = FRA }
+		159 = { is_owned_by = BYZ }
+		FRA = { has_war_with = BYZ }
+		NOT = { has_global_flag = fall_of_milan_fra }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_milan_fra
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = FRA
+				TAG = BYZ
+			}
+		}
+	}
+	option = {
+		name = news.999.b
+		trigger = { TAG = FRA }
+	}
+	option = {
+		name = news.999.c
+		trigger = { TAG = BYZ }
+	}
+}
+
+# The Fall of Genoa (Byzantium)
+news_event = {
+	id = news.998
+	title = news.998.t
+	desc = news.998.d
+	picture = GFX_news_event_french_parade
+	
+	major = yes
+	
+	trigger = {
+		158 = { is_controlled_by = BYZ }
+		158 = { is_owned_by = FRA }
+		FRA = { has_war_with = BYZ }
+		NOT = { has_global_flag = fall_of_genoa_byz }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_genoa_byz
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = FRA
+				TAG = BYZ
+			}
+		}
+	}
+	option = {
+		name = news.998.b
+		trigger = { TAG = BYZ }
+	}
+	option = {
+		name = news.998.c
+		trigger = { TAG = FRA }
 	}
 }
 
