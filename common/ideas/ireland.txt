@@ -2,7 +2,7 @@ ideas = {
 
 	political_advisor = {
 
-		IRE_sean_lemass = {
+		IRE_cian_mac_ceile = {
 
 			picture = generic_political_advisor_europe_2
 
@@ -13,7 +13,7 @@ ideas = {
 			traits = { captain_of_industry }
 		}
 
-		IRE_douglas_hyde = {
+		IRE_brighid_ui_deaghaidh = {
 
 			picture = generic_political_advisor_europe_3
 				
@@ -24,7 +24,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 
-		IRE_sean_ceallaigh = {
+		IRE_cyril_mac_somhairle = {
 
 			picture = generic_political_advisor_europe_1
 			
@@ -34,7 +34,16 @@ ideas = {
 			
 			traits = { smooth_talking_charmer }
 		}
-		
+		IRE_eamon_finneran = {
+
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = IRE
+			}
+			
+			traits = { ayn_rand }
+		}
 		IRE_lorcan_o_brogain = {
 			
 			picture = lorcan_o_brogain
@@ -93,7 +102,7 @@ ideas = {
 
 	army_chief = {
 		
-		IRE_liam_archer = {
+		IRE_moira_nic_gafraidh = {
 			picture = generic_army_europe_2
 			
 			allowed = {
@@ -107,7 +116,7 @@ ideas = {
 			}
 		}
 
-		IRE_richard_james_mulcahy = {
+		IRE_iosaf_o_conaill = {
 			picture = generic_army_europe_1
 			
 			allowed = {
@@ -125,7 +134,8 @@ ideas = {
 
 	air_chief = {
 		
-		IRE_h_t_green = {
+		IRE_una_mic_geighannaigh = {
+		
 			picture = generic_air_europe_1
 			
 			allowed = {
@@ -139,7 +149,7 @@ ideas = {
 			}
 		}
 
-		IRE_p_a_mulcahy = {
+		IRE_d_t_o_crabhain = {
 			picture = generic_air_europe_2
 			
 			allowed = {
@@ -156,7 +166,7 @@ ideas = {
 
 	navy_chief = {
 		
-		IRE_john_byrne = {
+		IRE_seamus_o_gadhra = {
 
 			picture = generic_navy_europe_1
 			
@@ -171,7 +181,7 @@ ideas = {
 			}
 		}
 
-		IRE_s_muiris = {
+		IRE_c_mac_giolla_chomhghaill = {
 			picture = generic_navy_europe_3
 			
 			allowed = {
@@ -190,7 +200,7 @@ ideas = {
 
 	high_command = {
 
-		IRE_dan_mckenna = {
+		IRE_airdgal_mac_adaim = {
 			picture = generic_army_europe_1
 			
 			allowed = {
@@ -204,7 +214,7 @@ ideas = {
 			}
 		}
 
-		IRE_frank_fahy = {
+		IRE_earnait_nic_caoimh = {
 
 			picture = generic_army_europe_2
 			
@@ -219,7 +229,7 @@ ideas = {
 			}
 		}
 
-		IRE_michael_brennan = {
+		IRE_ros_o_geargain = {
 
 			picture = generic_air_europe_3
 			
@@ -234,7 +244,7 @@ ideas = {
 			}
 		}
 
-		IRE_a_t_lawlor = {
+		IRE_pol_o_slatara = {
 
 			picture = generic_navy_europe_2
 			
@@ -251,7 +261,7 @@ ideas = {
 	}
 
 	theorist = {
-		IRE_michael_joe_costello = {
+		IRE_anraoi_o_hailigheasa = {
 			
 			picture = generic_army_europe_2
 
@@ -266,7 +276,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		IRE_oscar_traynor = {
+		IRE_aislin_ni_fallamhain = {
 			
 			picture = generic_political_advisor_europe_2
 			

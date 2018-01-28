@@ -301,7 +301,7 @@ ideas = {
 			}
 		}
 
-		ENG_philip_kerr = {
+		ENG_edwyn_bliven = {
 			
 			picture = generic_political_advisor_europe_3
 			
@@ -311,8 +311,19 @@ ideas = {
 			
 			traits = { silent_workhorse }
 		}
-
-		ENG_nevile_henderson = {
+		
+		ENG_jeremiah_sandow = {
+			
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = ENG
+			}
+			
+			traits = { ayn_rand }
+		}
+		
+		ENG_octavia_landon = {
 			
 			picture = generic_political_advisor_europe_2
 			
@@ -323,7 +334,7 @@ ideas = {
 			traits = { backroom_backstabber }
 		}
 
-		ENG_maxwell_aitken = {
+		ENG_cormac_maccorcadail = {
 			
 			picture = generic_political_advisor_europe_1
 			
@@ -334,7 +345,7 @@ ideas = {
 			traits = { war_industrialist }
 		}
 
-		ENG_leslie_hore_belisha = {
+		ENG_mary_uren_cheverton = {
 			
 			picture = generic_political_advisor_europe_2
 			
@@ -345,7 +356,7 @@ ideas = {
 			traits = { armaments_organizer }
 		}
 
-		ENG_ernest_bevin = {
+		ENG_iorath_cadwalader = {
 			
 			picture = generic_political_advisor_europe_3
 			
@@ -359,7 +370,9 @@ ideas = {
 		
 	# MILITARY
 	army_chief = {
-		john_vereker = {
+		ENG_maighread_bochanan = {
+			picture = generic_army_europe_1
+		
 			allowed = {
 				original_tag = ENG
 			}
@@ -373,7 +386,8 @@ ideas = {
 			}
 		}
 		
-		edmund_ironside = {
+		ENG_anthony_gammons = {
+			picture = generic_army_europe_2
 			
 			allowed = {
 				original_tag = ENG
@@ -388,7 +402,8 @@ ideas = {
 			}
 		}
 		
-		alan_brooke = {
+		ENG_violet_carlyle = {
+			picture = generic_army_europe_3
 			
 			allowed = {
 				original_tag = ENG
@@ -405,7 +420,8 @@ ideas = {
 	}
 	navy_chief = {
 
-		ernle_chatfield = {
+		ENG_lucas_macbhiocair = {
+			picture = generic_navy_europe_1
 			
 			allowed = {
 				original_tag = ENG
@@ -420,7 +436,8 @@ ideas = {
 			}
 		}
 		
-		dudley_pound = {
+		ENG_tamhas_catanach = {
+			picture = generic_navy_europe_2
 			
 			allowed = {
 				original_tag = ENG
@@ -436,7 +453,8 @@ ideas = {
 			}
 		}
 		
-		andrew_cunningham = {
+		ENG_morwyn_bethell = {
+			picture = generic_navy_europe_3
 			
 			allowed = {
 				original_tag = ENG
@@ -453,7 +471,8 @@ ideas = {
 	}
 	air_chief = {
 
-		cyril_newall = {
+		ENG_timothy_pembroke = {
+			picture = generic_air_europe_1
 			
 			allowed = {
 				original_tag = ENG
@@ -468,7 +487,8 @@ ideas = {
 			}
 		}
 		
-		charles_portal = {
+		ENG_gwynn_corfield = {
+			picture = generic_air_europe_2
 			
 			allowed = {
 				original_tag = ENG
@@ -484,7 +504,8 @@ ideas = {
 			}
 		}
 		
-		edward_ellington = {
+		ENG_iseabail_boid = {
+			picture = generic_air_europe_3
 			
 			allowed = {
 				original_tag = ENG
@@ -502,8 +523,8 @@ ideas = {
 	
 	high_command = {
 
-		archibald_wavell = {
-			
+		ENG_valentine_sevier = {
+			picture = generic_army_europe_1
 			allowed = {
 				original_tag = ENG
 			}
@@ -517,8 +538,8 @@ ideas = {
 			}
 		}
 		
-		claude_auchinleck = {
-			
+		ENG_cassandra_bradford = {
+			picture = generic_army_europe_2
 			allowed = {
 				original_tag = ENG
 			}
@@ -532,8 +553,8 @@ ideas = {
 			}
 		}
 		
-		kenneth_anderson = {
-			
+		ENG_marc_macphail = {
+			picture = generic_army_europe_3
 			allowed = {
 				original_tag = ENG
 			}
@@ -547,8 +568,8 @@ ideas = {
 			}
 		}
 	
-		sholto_douglas = {
-			
+		ENG_aeronwen_brice = {
+			picture = generic_air_europe_2
 			allowed = {
 				original_tag = ENG
 			}
@@ -562,8 +583,8 @@ ideas = {
 			}
 		}
 		
-		trafford_leigh_mallory = {
-			
+		ENG_nicholas_prothero = {
+			picture = generic_air_europe_1
 			allowed = {
 				original_tag = ENG
 			}
@@ -577,8 +598,8 @@ ideas = {
 			}
 		}
 		
-		frederick_bowhill = {
-			
+		ENG_aaron_maclamraich = {
+			picture = generic_navy_europe_1
 			allowed = {
 				original_tag = ENG
 			}
@@ -592,8 +613,8 @@ ideas = {
 			}
 		}	
 		
-		louis_mountbatten = {
-			
+		ENG_naomi_chesterman = {
+			picture = generic_navy_europe_2
 			allowed = {
 				original_tag = ENG
 			}
@@ -607,8 +628,8 @@ ideas = {
 			}
 		}
 		
-		henry_harwood = {
-			
+		ENG_mabel_greenstreet = {
+			picture = generic_navy_europe_1
 			allowed = {
 				original_tag = ENG
 			}
@@ -622,8 +643,8 @@ ideas = {
 			}
 		}
 		
-		max_horton = {
-			
+		ENG_adda_vaughn = {
+			picture = generic_navy_europe_3
 			allowed = {
 				original_tag = ENG
 			}
@@ -920,7 +941,8 @@ ideas = {
 	
 	theorist = {	
 	
-		bernard_montgomery = {
+		ENG_ailis_macillesheathain = {
+			picture = generic_army_europe_2
 			
 			allowed = {
 				original_tag = ENG
@@ -935,7 +957,8 @@ ideas = {
 			traits = { grand_battle_plan_expert }
 		}
 		
-		harold_alexander = {
+		ENG_merion_broderick = {
+			picture = generic_army_europe_1
 			
 			allowed = {
 				original_tag = ENG
@@ -950,8 +973,8 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		james_somerville = {
-			
+		ENG_felicity_watson = {
+			picture = generic_navy_europe_3
 			allowed = {
 				original_tag = ENG
 			}
@@ -965,8 +988,8 @@ ideas = {
 			traits = { grand_fleet_proponent }
 		}
 		
-		tom_phillips = {
-			
+		ENG_meredydd_humphries = {
+			picture = generic_navy_europe_1
 			allowed = {
 				original_tag = ENG
 			}
@@ -980,8 +1003,8 @@ ideas = {
 			traits = { naval_theorist }
 		}
 		
-		hugh_dowding = {
-			
+		ENG_alexander_wilkinson = {
+			picture = generic_air_europe_2
 			allowed = {
 				original_tag = ENG
 			}
@@ -995,8 +1018,8 @@ ideas = {
 			traits = { air_warfare_theorist }
 		}
 		
-		arthur_harris = {
-			
+		ENG_alasdair_leoideach = {
+			picture = generic_air_europe_1
 			allowed = {
 				original_tag = ENG
 			}
@@ -1010,7 +1033,9 @@ ideas = {
 			traits = { victory_through_airpower }
 		}
 		
-		james_chadwick = {
+		ENG_charles_woodmore = {
+		
+			picture = generic_political_advisor_europe_1
 			
 			allowed = {
 				original_tag = ENG
@@ -1025,7 +1050,9 @@ ideas = {
 			traits = { nuclear_scientist }
 		}
 		
-		frank_whittle = {
+		ENG_lucy_merriweather = {
+			
+			picture = generic_political_advisor_europe_2
 			
 			allowed = {
 				original_tag = ENG
