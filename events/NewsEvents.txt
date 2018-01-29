@@ -2467,6 +2467,36 @@ news_event = {
 	}
 }
 
+# Dog Park!
+news_event = {
+	id = news.990
+	title = news.990.t
+	desc = news.990.d
+	picture = GFX_report_event_communists_cheer
+	
+	major = yes
+	
+	trigger = {
+		date > 1936.12.25
+		NOT = { has_global_flag = dog_park }
+		country_exists = BYZ
+		BYZ = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = dog_park
+	}
+	
+	option = {
+		name = news.990.a
+	}
+}
+
+
 # Kimetto vs Crozier
 news_event = {
 	id = news.900
