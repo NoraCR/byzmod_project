@@ -2469,9 +2469,9 @@ news_event = {
 
 # Dog Park!
 news_event = {
-	id = news.990
-	title = news.990.t
-	desc = news.990.d
+	id = news.991
+	title = news.991.t
+	desc = news.991.d
 	picture = GFX_report_event_communists_cheer
 	
 	major = yes
@@ -2492,7 +2492,7 @@ news_event = {
 	}
 	
 	option = {
-		name = news.990.a
+		name = news.991.a
 	}
 }
 
