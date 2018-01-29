@@ -267,6 +267,8 @@
  dislikes_germany:0 "Dislikes Germany"
  staunch_constitutionalist:0 "Staunch Constitutionalist"
  cornered_fox:0 "Cornered Fox"
+ camarilla_leader:0 "Coalition Builder"
+ camarilla_leader_desc:0 "Well-connected and skilled at forming alliances, this leader excels at getting many different people working for one goal."
  stout_defender:0 "Stout Defender"
  warmonger:0 "Warmonger"
  permanent_revolutionary:0 "Permanent Revolutionary"
