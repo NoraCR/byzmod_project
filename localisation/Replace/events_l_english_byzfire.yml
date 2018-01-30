@@ -1157,7 +1157,7 @@
  news.999.t:0 "The Fall of Milan"
  news.999.d:0 "Milan, long considered Byzantium's first line of defense against France, fell today after vicious fighting. Reprisals have already begun against citizens who resisted the invasion, and [FRA.GetLeader] has personally arrived to oversee a triumph commemorating the victory. Propagandistic plays are already being performed in the Teatro alla Scala, while the old royal palace has been converted into a seat of government for the new administration.\n\nThe loss of Milan is a significant one for the Byzantines, as French troops now have a much easier route through Italy, including to Rome."
  news.999.b:0 "Milan is a fine jewel in our crown, but Rome is the real prize."
- news.990.t:0 "Dog Park Opens"
+ news.991.t:0 "Dog Park Opens"
  news.991.d:0 "In a Christmas address to the nation, [BYZ.GetLeader] announced the grand opening of a fenced, off-leash dog park in Byzantion Common, free to the public and taking up a significant amount of real estate.\n\nReferred to as the Tribune's Christmas present to the whole city, the park has separate areas for large and small dogs, a dedicated staff for maintaining the grounds, and various amenities for both visiting canines and their owners. Although this is not the only such park in Byzantium, it is easily the largest, and is expected to have a significant impact on government approval ratings."
  news.991.a:0 "Good dogs."
  news.999.c:0 "We must rescue our Milanese comrades!"
