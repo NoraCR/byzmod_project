@@ -682,8 +682,11 @@ units = {
 		# 14th Submarine Group
 		ship = { name = "CBS G1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOM } } }
 		ship = { name = "CBS G2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOM } } }
+		ship = { name = "CBS G3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOM } } }
 		ship = { name = "CBS G4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOM } } }
+		ship = { name = "CBS G5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOM } } }
 		ship = { name = "CBS G6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOM } } }
+		ship = { name = "CBS G7" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOM } } }
 		ship = { name = "CBS G8" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOM } } }
 	}					
 				

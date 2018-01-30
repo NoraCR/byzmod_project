@@ -12,8 +12,6 @@ division_template = {
 
 	}
 	support = {
-		#recon = { x = 0 y = 0 } 		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and they seem rather OP. Could revisit if balance changes
-		#engineer = { x = 0 y = 1 } 	# (semi-mot) Engineer bn
 		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
 	}
 }
@@ -47,9 +45,6 @@ division_template = {
 		motorized = { x = 1 y = 2 }
 	}
 	support = {
-		#recon = { x = 0 y = 0 } 		# Recon bn had 16x L tanks, 45 ACs #Eng and recon removed and they seem rather OP. Could revisit if balance changes 
-		#engineer = { x = 0 y = 1 } 	# (mot) Engineer bn
-		#light_armor = { x = 0 y = 3 }	# Tank bn had 51 L tanks, 3 ACs - (removed)
 	}
 }
 
@@ -83,30 +78,7 @@ division_template = {
 	}
 	priority = 0
 }
-division_template = {
-	name = "Mekhanizirovaniy Korpus" 				# Represents regular mechanized corps (4 existed in 1935-38); 
-													# Also represents groups of independent tank, mech brigades of the time, though groups are best represented by tank bge 
-													# (2x M/L tank + 1x mot), and 2x mech bge (2x L tank + 1x mot)
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 1 y = 0 }		
-		light_armor = { x = 1 y = 1 }		
-		light_armor = { x = 1 y = 2 }		
-		motorized = { x = 2 y = 0 }		
-		motorized = { x = 2 y = 1 }	
-		motorized = { x = 2 y = 2 }		
-		motorized = { x = 2 y = 3 }		
-	}
-}
-division_template = {
-	name = "Vozdushno-Desantnaya Brigada"			# Airborne Brigade
 
-	regiments = {
-		paratrooper = { x = 0 y = 0 }
-		paratrooper = { x = 0 y = 1 }
-	}
-}
 
 ### Note: OOB abstracts away the following:
 #	Marine Brigade (3x marine bn), 2 Brigades: Leningrad, Sevastopol
@@ -760,6 +732,14 @@ units = {
 		ship = { name = "Svetlana" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
 		ship = { name = "Varyag" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
 		ship = { name = "Pamiat' Merkuria" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+		# 5ya Flotiliya Esmintsev
+		ship = { name = "Bespokoiny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		ship = { name = "Derzky" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }		
+		ship = { name = "Gnevny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }		
+		ship = { name = "Pylkiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }		
+		ship = { name = "Zharkiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		ship = { name = "Zvonkiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		ship = { name = "Zorkiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
 	}	
 	navy = {	
 		name = "Chernomorskiy Podvodniy Flot"
@@ -780,12 +760,12 @@ air_wings = {
 		# 15ya Istrebitel'nye Aviabrigada
 		fighter_equipment_0 = {
 			owner = "SOV" 
-			amount = 60
+			amount = 30
 		}
 		# 18ya Bombardirovochnye Aviabrigada
 		tac_bomber_equipment_0 =  {
 			owner = "SOV" 
-			amount = 60
+			amount = 30
 		}
 	}
 
@@ -794,7 +774,7 @@ air_wings = {
 		# 2ya Istrebitel'nye Aviabrigada
 		fighter_equipment_0 = {
 			owner = "SOV" 
-			amount = 60
+			amount = 30
 		}
 	}
 
@@ -803,13 +783,13 @@ air_wings = {
 		# 17ya Istrebitel'nye Aviabrigada
 		fighter_equipment_1 = {
 			owner = "SOV" 
-			amount = 48
+			amount = 24
 		}
 		# 1ya Bombardirovochnye Aviabrigada
 		# 10ya Bombardirovochnye Aviabrigada
 		tac_bomber_equipment_0 =  {
 			owner = "SOV" 
-			amount = 60
+			amount = 30
 		}
 	}
 }

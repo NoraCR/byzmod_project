@@ -440,9 +440,17 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
+	division = {
+		name = "Di 4 Qibing Shi"
+		location = 9753 #Voronezh
+		division_template = "Qibing Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
 ########NAVAL UNITS########
 		navy = {				
-		name = "Heihai Jiandui" ##Rather small Black Sea Fleet - mainly here for coastal defense and for BYZ or RUS to trounce
+		name = "Heihai Jiandui" ##Rather small Black Sea Fleet - mainly here for coastal defense and for BYZ or SOV to trounce
 		base = 9417 ##Rostov
 		location = 9417 
 		ship = { name = "ANS Asitelahan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AKH } } }		
