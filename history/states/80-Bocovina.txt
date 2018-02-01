@@ -10,7 +10,6 @@ state={
 		owner = BYZ
 		buildings = {
 			infrastructure = 6
-			arms_factory = 1
 			9548 = {
 				bunker = 2
 			}

@@ -559,7 +559,7 @@ ideas = {
 			
 		designer = yes
 		
-		chisinau = {
+		bucharest_ap = {
 			
 			
 			allowed = {
