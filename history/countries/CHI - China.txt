@@ -53,7 +53,6 @@ add_to_faction = CHI
 add_to_faction = SOM
 add_to_faction = TIB
 add_to_faction = TRX
-add_to_faction = NEN
 add_to_faction = AKH
 add_to_faction = SIA
 
