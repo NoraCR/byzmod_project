@@ -248,7 +248,7 @@ create_corps_commander = {
 	skill = 3
 }
 create_corps_commander = {
-	name = "Sakda Abahai" #Manchu, female
+	name = "Sakda hala-i Abahai" #Manchu, female
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { hill_fighter }
 	skill = 4
@@ -260,7 +260,7 @@ create_corps_commander = {
 	skill = 3
 }
 create_corps_commander = {
-	name = "Olodaghar" #Mongol
+	name = "Otgonbayar Garamjav" #Mongol
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { trickster winter_specialist }
 	skill = 4
@@ -308,7 +308,7 @@ create_navy_leader = {
 	skill = 3
 }
 create_navy_leader = {
-	name = "Chen Songgao" #female
+	name = "Chen Gao" #female
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	traits = { }
 	skill = 1
