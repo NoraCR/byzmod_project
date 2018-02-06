@@ -26,9 +26,9 @@ division_template = {
 
 units = {
 	######## LAND OOB ########
-	##### Royal Iranian Army #####
+	##### Republican Army of Iran #####
 	division = {
-		name = "Persian Cossack Brigade"
+		name = "Persian Cavalry Brigade"
 		location = 5098
 		division_template = "Cavalry Brigade"		
 		start_experience_factor = 0.2
@@ -47,6 +47,14 @@ units = {
 		name = "Khorasan Rifle Brigade"
 		location = 1957
 		division_template = "Infantry Brigade"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Khorasan Ranger Brigade"
+		location = 5098
+		division_template = "Cavalry Brigade"		
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 

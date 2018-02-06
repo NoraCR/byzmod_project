@@ -1527,7 +1527,7 @@ air_wings = {
 		# 6th Composite Group 
 		tac_bomber_equipment_0 = {
 			owner = "BYZ" 
-			amount = 12
+			amount = 60
 		}
 	}
 

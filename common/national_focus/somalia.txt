@@ -1,0 +1,2184 @@
+focus_tree = {
+	id = somalia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOM
+		}
+	}
+	default = no
+	focus = {
+		id = SOM_jamhuuriyadda
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10.00
+		mutually_exclusive = {
+			focus = SOM_hanti_wadaag
+		}		
+		x = 2
+		y = 0
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			CHI = { has_war = no }
+			SOM = { has_war = no }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		add_political_power = 120
+		}
+
+
+	}
+	focus = {
+		id = SOM_hanti_wadaag
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		mutually_exclusive = {
+			focus = SOM_jamhuuriyadda
+		}
+		x = 7
+		y = 0
+		cost = 10
+
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				NOT = { CHI = { has_government = democratic } }
+				factor = 10
+			}
+			modifier = {
+				NOT = { has_government = pangalism }
+				factor = 100
+			}
+			modifier = {	#makes it significantly more likely if player boosts non-democratic
+				pangalism < 0.5
+				factor = 20
+			}
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = SOM_hanti_wadaag 
+		}
+	}
+	focus = {
+		id = SOM_somalian_automotive
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		x = 16
+		y = 0
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 15
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = SOM_somalian_automotive_Inf
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = SOM_somalian_automotive_Inf
+			}
+		}
+
+	}
+	focus = {
+		id = SOM_statistics_bureau
+		icon = GFX_focus_generic_paratrooper
+		cost = 10.00
+		x = 20
+		y = 0
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = SOM_statistics_bureau
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = SOM_air_force
+		icon = GFX_goal_continuous_air_production
+		cost = 10.00
+		x = 24
+		y = 0
+				cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			air_experience = 25
+			random_state = {				
+				limit = {
+					has_state_flag = SOM_air_force_AB
+				}
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = SOM_air_force
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+
+		completion_reward = {
+			air_experience = 25
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOM_air_force_AB
+			}
+			add_tech_bonus = {
+				name = SOM_air_force
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = SOM_naval_buildup
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		x = 28
+		y = 0
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			navy_experience = 25
+			random_state = {
+				limit = {
+					has_state_flag = SOM_naval_buildup_DY
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			random_owned_controlled_state = {
+				prioritize = { 550 268 }
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = SOM_naval_buildup_DY
+			}			
+			add_tech_bonus = {
+				name = SOM_naval_buildup
+				bonus = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+		}
+	}
+	focus = {
+		id = SOM_additional_manpower
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_jamhuuriyadda
+		}
+		x = 0
+		y = 1
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = SOM_additional_manpower
+		}
+	}
+	focus = {
+		id = SOM_pacify_interior
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_additional_manpower
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = SOM_joint_ventures
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_jamhuuriyadda
+		}
+		x = 2
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = SOM_joint_ventures_IC
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 549 }
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = SOM_joint_ventures_IC
+			}
+		}
+
+	}
+	focus = {
+		id = SOM_pilot_training
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_joint_ventures
+		}
+		x = 0
+		y = 3
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = SOM_pilot_training
+		}
+	}
+	focus = {
+		id = SOM_mogadishu
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_jamhuuriyadda
+		}
+		x = 4
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					559 = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+				}
+				559 = {
+					add_extra_state_shared_building_slots = 3
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOM_tropical_equipment
+		icon = GFX_goal_continuous_reduce_training_time
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_joint_ventures
+		}
+		x = 4
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SOM_tropical_equipment
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+	focus = {
+		id = SOM_desert_equipment
+		icon = GFX_focus_secret_rearmament
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_joint_ventures
+		}
+		x = 4
+		y = 3
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = SOM_desert_equipment
+		}
+	}
+	focus = {
+		id = SOM_east_wall
+		icon = GFX_focus_generic_coastal_fort
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_jamhuuriyadda
+		}
+		x = 6
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+			559 = {
+				limit = {
+					is_controlled_by = ROOT
+					is_coastal = yes
+					is_in_home_area = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOM_fortify_egypt
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_east_wall
+		}
+		x = 6
+		y = 2
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 0.5
+				is_in_faction_with = BYZ
+			}
+		}
+
+		available = {
+			SOM = { controls_state = 446 }
+			SOM = { controls_state = 453 }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 5
+			446 = {
+				add_building_construction = { type = bunker province = 12049 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 4073 level = 3 instant_build = yes }
+			}
+			453 = {
+				add_building_construction = { type = bunker province = 1155 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 9947 level = 3 instant_build = yes }
+			}
+		}
+	}
+	focus = {
+		id = SOM_end_conglomerates
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_hanti_wadaag
+		}
+		x = 9
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = SOM_end_conglomerates
+		}
+	}
+	focus = {
+		id = SOM_close_bases
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_hanti_wadaag
+		}
+		x = 11
+		y = 1
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {			
+			is_subject = no
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = SOM_close_bases
+			}
+		}
+		
+	focus = {
+		id = SOM_join_RRP
+		icon = GFX_goal_continuous_increase_nu
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_end_conglomerates
+		}
+		prerequisite = {
+			focus = SOM_close_bases
+		}
+		mutually_exclusive = {
+			focus = SOM_free_africa
+		}
+		x = 9
+		y = 2
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 50
+			modifier = {
+				BYZ = { surrender_progress > 0.75 }
+				factor = 0 # let's not get into that...
+			}
+			modifier = {
+				has_opinion = { target = BYZ value > 50 }
+				factor = 3
+			}
+		}
+
+		available = {
+			NOT = { has_war_with = BYZ }
+			BYZ = { is_puppet = no }
+			is_subject = no
+		}
+		
+		bypass = {
+			is_in_faction_with = BYZ
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			BYZ = { country_event = { id = som.200 } }
+		}
+	}
+	focus = {
+		id = SOM_support_revolution
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_join_RRP
+		}
+		x = 9
+		y = 3
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = SOM_support_revolution
+		}
+
+	}
+	focus = {
+		id = SOM_BYZ_advisors
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_support_revolution
+		}
+		x = 9
+		y = 4
+				cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			BYZ = { exists = yes }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			add_ideas = SOM_BYZ_advisors
+			add_tech_bonus = {
+				name = SOM_BYZ_advisors
+				bonus = 0.25
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = SOM_free_africa
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_end_conglomerates
+		}
+		prerequisite = {
+			focus = SOM_close_bases
+		}
+		mutually_exclusive = {
+			focus = SOM_join_RRP
+		}
+		x = 11
+		y = 2
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 34
+			modifier = {
+				OR = {
+					BYZ = { has_war_with = KOR }
+					BYZ = { has_war_with = SHO }
+					BYZ = { has_war_with = SAF }
+				}
+				factor = 20 #now is the time to strike!
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+			create_faction = SOM_faction_uotap
+			CHI = { 
+					remove_from_faction = SOM
+			 }
+			hidden_effect = {
+				news_event = { hours = 6 id = news.264 }
+			} 
+		}
+	}
+	focus = {
+		id = SOM_demand_mad
+		icon = GFX_goal_anschluss
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_free_africa
+			focus = SOM_join_RRP
+		}
+		x = 11
+		y = 3
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			PHI = {
+				exists = yes
+				NOT = { has_government = communism }
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			PHI = {
+				custom_effect_tooltip = needs_approval
+					country_event = { id = somalia.300 hours = 12 }
+			}
+			hidden_effect = {
+				news_event = { id = news.265 }
+			}
+		}
+	}
+	focus = {
+		id = SOM_liberate_zimbabwe
+		icon = GFX_goal_continuous_suppression
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_free_africa
+		}
+		x = 13
+		y = 3
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				type = take_state_focus
+				target = SHO
+				generator = { 546 545 }
+			}
+		}
+	}
+	focus = {
+		id = SOM_cape_nitaino
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_liberate_zimbabwe
+		}
+		x = 11
+		y = 4
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				SAF = { has_war = yes }
+				factor = 10
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				type = take_state_focus
+				target = SAF
+				generator = { 681 719 }
+			}
+			
+		}
+	}
+	focus = {
+		id = SOM_demand_angola
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_liberate_zimbabwe
+		}
+		x = 13
+		y = 4
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				KOR = { has_war = yes }
+				factor = 10
+			}
+		}
+
+		available = {
+			OR = {
+				ANG = { exists = no }
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				type = take_state_focus
+				target = KOR
+				generator = { 540 297 }
+			}
+			
+		}
+	}
+	focus = {
+		id = SOM_congo
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_demand_angola
+		}
+		x = 13
+		y = 5
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				ENG = { has_war = yes }
+				factor = 10
+			}
+		}
+
+		available = {
+			COG = { exists = no }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				type = take_state_focus
+				target = ENG
+				generator = { 660 538 539 718 295 }
+			}
+			
+		}
+	}
+	focus = {
+		id = SOM_expand_drilling
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10.00
+		x = 15
+		y = 1
+		prerequisite = {
+			focus = SOM_somalian_automotive
+		}
+		available = {
+			SOM = {
+				controls_state = 549
+			}
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 40
+				state = 549
+			}
+		}
+		}
+
+
+	}
+	focus = {
+		id = SOM_civil_engineering
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_somalian_automotive
+		}
+		x = 17
+		y = 1
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {			
+			add_tech_bonus = {
+				name = SOM_civil_engineering
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = SOM_infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_expand_drilling
+			focus = SOM_civil_engineering
+		}
+		x = 16
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = SOM_infrastructure_Inf
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = SOM_infrastructure_Inf
+			}
+		}
+	}
+	
+	focus = {
+		id = SOM_hargeisa
+		icon = GFX_goal_generic_production2
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_infrastructure
+		}
+		x = 15
+		y = 3
+				cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = SOM_hargeisa_AF
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOM_hargeisa_AF
+			}
+		}
+	}
+	focus = {
+		id = SOM_steel
+		icon = GFX_goal_continuous_reduce_training_time
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_infrastructure
+		}
+		x = 17
+		y = 3
+				cost = 10
+
+		ai_will_do = {
+			factor = 15
+		}
+
+		available = {
+			controls_state = 559
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			559 = {
+				add_resource = {
+					type = steel
+					amount = 32
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOM_armament
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_steel
+		}
+		prerequisite = {
+			focus = SOM_hargeisa
+		}
+		x = 16
+		y = 4
+				cost = 10
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = SOM_armament_AF
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOM_armament_AF
+			}
+		}
+	}
+	focus = {
+		id = SOM_university
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_armament
+		}
+		x = 16
+		y = 5
+		cost = 10
+
+		ai_will_do = {
+			factor = 45
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	
+	focus = {
+		id = SOM_military_academy
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_statistics_bureau
+		}
+		x = 20
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = SOM_military_academy
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = SOM_new_firearms
+		icon = GFX_goal_continuous_reduce_training_time
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_military_academy
+		}
+		x = 19
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SOM_new_firearms
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+	focus = {
+		id = SOM_logistics
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_military_academy
+		}
+		x = 21
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SOM_logistics
+				bonus = 0.5
+				uses = 2
+				technology = motorised_infantry
+				technology = tech_logistics_company
+				technology = tech_logistics_company2
+				technology = tech_logistics_company3
+				technology = tech_logistics_company4
+			}
+		}
+	}
+	focus = {
+		id = SOM_artillery
+		icon = GFX_goal_generic_army_artillery
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_new_firearms
+			focus = SOM_logistics
+		}
+		x = 19
+		y = 3
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SOM_artillery
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}
+		}
+	}
+	
+	focus = {
+		id = SOM_corps_of_engineers
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_logistics
+			focus = SOM_new_firearms
+		}
+		x = 21
+		y = 3
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SOM_corps_of_engineers
+				bonus = 0.5
+				uses = 1
+				category = support_tech
+			}
+		}
+	}
+	focus = {
+		id = SOM_armor_effort
+		icon = GFX_goal_generic_army_tanks
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_artillery
+			focus = SOM_corps_of_engineers
+		}
+		x = 20
+		y = 4
+				cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SOM_armor_effort
+				bonus = 0.5
+				uses = 1
+				category = armor
+			}
+		}
+	}
+	focus = {
+		id = SOM_mechanization_effort
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_armor_effort
+		}
+		x = 19
+		y = 5
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {			
+			add_tech_bonus = {
+				name = SOM_mechanization_effort
+				bonus = 0.5
+				uses = 1
+				category = cat_mechanized_equipment
+			}
+		}
+	}
+	focus = {
+		id = SOM_special_forces
+		icon = GFX_goal_generic_special_forces
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_corps_of_engineers
+		}
+		x = 21
+		y = 5
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SOM_special_forces
+				bonus = 0.5
+				uses = 1
+				category = para_tech
+				category = marine_tech
+				category = mountaineers_tech
+			}
+		}
+	}
+	focus = {
+		id = SOM_desert_fighter_effort
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_air_force
+		}
+		x = 23
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SOM_desert_fighter_effort
+				bonus = 0.5
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+	focus = {
+		id = SOM_naval_air_effort
+		icon = GFX_goal_generic_occupy_start_war
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_air_force
+		}
+		x = 25
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 25
+
+			add_tech_bonus = {
+				name = SOM_naval_air_effort
+				bonus = 0.5
+				uses = 1
+				technology = naval_bomber1
+				technology = naval_bomber2
+				technology = naval_bomber3
+			}
+		}
+	}
+	focus = {
+		id = SOM_air_innovation
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_desert_fighter_effort
+			focus = SOM_naval_air_effort
+		}
+		x = 23
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 1
+				technology = early_fighter
+				technology = fighter1
+				technology = fighter2
+				technology = fighter3
+				technology = jet_fighter1
+				technology = jet_fighter2
+			}
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = SOM_jet_engine_focus
+		icon = GFX_focus_rocketry
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_air_innovation
+		}
+		prerequisite = {
+			focus = SOM_corps_of_engineers
+		}
+		x = 23
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SOM_jet_engine_focus
+				bonus = 0.5
+				uses = 1
+				technology = jet_engines
+				technology = jet_fighter1
+			}
+		}
+	}
+	focus = {
+		id = SOM_ace_focus
+		icon = GFX_goal_generic_CAS
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_naval_air_effort
+			focus = SOM_desert_fighter_effort
+		}
+		x = 25
+		y = 3
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			air_experience = 35
+			add_tech_bonus = {
+				name = SOM_ace_focus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = SOM_carrier_effort
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_air_force
+		}
+		prerequisite = {
+			focus = SOM_naval_buildup
+		}
+		x = 26
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = cv_bonus
+				bonus = 0.5
+				uses = 2
+				technology = early_carrier
+				technology = basic_carrier
+				technology = improved_carrier
+				technology = advanced_carrier
+			}
+		}
+	}
+	
+	focus = {
+		id = SOM_trade_interdiction
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_naval_buildup
+		}
+		x = 28
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 0.5
+				uses = 1
+				technology = basic_submarine
+				technology = improved_submarine
+				technology = advanced_submarine
+			}
+			add_tech_bonus = {
+				name = sub_op_bonus
+				bonus = 0.5
+				uses = 2
+				technology = submarine_operations
+				technology = undersea_blockade
+				technology = convoy_interdiction
+				technology = submarine_offensive
+			}
+		}
+	}
+	focus = {
+		id = SOM_wolf_packs
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_trade_interdiction
+		}
+		x = 28
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = SOM_wolf_packs
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+			add_tech_bonus = {
+				name = SOM_wolf_packs
+				bonus = 0.5
+				uses = 2
+				category = submarine_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = SOM_cadhada_illah
+		icon = GFX_focus_wonderweapons
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_university
+		}
+		x = 16
+		y = 6
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SOM_cadhada_illah
+				bonus = 0.5
+				uses = 2
+				category = nuclear
+			}
+		}
+	}
+	focus = {
+		id = SOM_capitalship
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_naval_buildup
+		}
+		x = 30
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = bb_bonus
+				bonus = 0.5
+				uses = 2
+				technology = basic_battleship
+				technology = improved_battleship
+				technology = advanced_battleship
+				technology = heavy_battleship
+				technology = heavy_battleship2
+			}
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 0.5
+				uses = 2
+				technology = improved_light_cruiser
+				technology = advanced_light_cruiser
+				technology = improved_heavy_cruiser
+				technology = advanced_heavy_cruiser
+			}
+		}
+	}
+}

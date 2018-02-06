@@ -32,6 +32,22 @@ units = {
 
 	}
 	division= {	
+		name = "2a División 'Conglin'"
+		location = 8113 # Caracas
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "3a División 'Coronel Alliegro'"
+		location = 8113 # Caracas
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
 		name = "Los Caballeros de Tianhui Catalina"
 		location = 8113 # Caracas
 		division_template = "División de Caballería"

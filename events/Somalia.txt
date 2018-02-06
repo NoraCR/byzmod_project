@@ -47,14 +47,160 @@ country_event = {
 	}
 	}
 }
+country_event = {
+	id = som.200
+	title = som.200.t	# SAF asks SOV for membership in RRP
+	desc = som.200.d	#
+	picture = GFX_news_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = som.200.a # BYZ accepts SOM as a member of RRP
+		
+		ai_chance = {
+			base = 100
+		}
+		
+		effect_tooltip = {
+			add_to_faction = SOM
+		}
+		
+		hidden_effect = {
+			SOM = {
+				country_event = { id = som.201 }
+			}
+		}
+	}
+	
+	option = {
+		name = som.200.b # BYZ denies SOM membership
+		
+		ai_chance = {
+			base = 0
+		}
+		
+		hidden_effect = {
+			SOM = {
+				country_event = { id = som.202 }
+			}
+		}
+	}
+}
+country_event = {
+	id = som.201
+	title = som.201.t	# BYZ accepts SOM as a member of RRP
+	desc = som.201.d	#
+	picture = GFX_news_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = som.201.a
+		
+		BYZ = {
+			add_to_faction = SOM
+		}
+	}
+}
 
+country_event = {
+	id = som.202
+	title = som.202.t	# BYZ denies SOM membership
+	desc = som.202.d	#
+	picture = news_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = som.202.a
+	}
+}
+country_event = {
+	id = som.300
+	title = som.300.t	# SAF demands Madagascar
+	desc = som.300.d	#
+	picture = GFX_report_event_generic_panzer_attack
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = som.300.a # FRA accepts
+		
+		ai_chance = {
+			base = 70
+			modifier = {
+				has_government = fascism 
+				add = -50
+			}
+		}
+		
+		effect_tooltip = {
+			
+		}
+		
+		hidden_effect = {
+			SAF = {
+				country_event = { id = som.301 }
+			}
+		}
+	}
+	
+	option = {
+		name = som.300.b # PHI refuses
+		
+		ai_chance = {
+			base = 30
+		}
+		
+		hidden_effect = {
+			SAF = {
+				country_event = { id = som.302 }
+			}
+		}
+	}
+}
 
+country_event = {
+	id = som.301
+	title = som.301.t	# PHI accepts demands
+	desc = som.301.d	#
+	picture = GFX_report_event_saf_soldiers_2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = som.301.a
+		
+		transfer_state = 543
+	}
+}
 
-
-
-
-
-
-
-
-
+country_event = {
+	id = som.302
+	title = som.302.t	# FRA refuses demands, wargoal offered
+	desc = som.302.d	#
+	picture = GFX_report_event_saf_soldiers_2
+	
+	is_triggered_only = yes
+	
+	option = { # option to go to war
+		name = som.302.a
+		ai_chance = {
+			base = 80
+		}
+		
+		create_wargoal = {
+					type = take_state_focus
+					target = PHI
+					generator = { 543 }
+					}
+	}
+	option = { #back down if you are a coward
+		name = som.302.b
+		ai_chance = {
+			base = 20
+		}
+		
+	}
+}

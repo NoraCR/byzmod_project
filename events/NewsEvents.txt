@@ -10058,7 +10058,86 @@ news_event = {
 		}
 	}
 }
+news_event = {
+	id = news.264
+	title = news.264.t
+	desc = news.264.desc
+	picture = GFX_news_event_stalin_meeting
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.264.a
+		trigger = {
+			Tag = ENG
+			TAG = SHO
+			TAG = KOR
+			TAG = PHI
+		}
+	}
+	option = {
+		name = news.264.b
+		trigger = { TAG = SOM }
+	}
+	option = {
+		name = news.264.c
+		trigger = { 
+			NOT = {
+				Tag = ENG
+				TAG = SHO
+				TAG = KOR
+				TAG = PHI
+				TAG = BYZ
+				TAG = SOM	
+			}
+		}
+	}
+	option = {
+		name = news.264.d
+		trigger = { TAG = BYZ }
+	}
 
+}
+
+#SAF demands Madagascar
+news_event = {
+	id = news.265
+	title = news.265.t
+	desc = news.265.desc
+	picture = GFX_news_event_stalin_meeting
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.265.a
+		trigger = {
+			TAG = PHI
+		}
+	}
+	option = {
+		name = news.265.b
+		trigger = { TAG = SOM }
+	}
+	option = {
+		name = news.265.c
+		trigger = { 
+			NOT = {
+				TAG = PHI
+				TAG = BYZ
+				TAG = SOM	
+			}
+		}
+	}
+	option = {
+		name = news.265.d
+		trigger = { TAG = BYZ }
+	}
+
+}
 # France denounces Communism
 news_event = {
 	id = news.506
