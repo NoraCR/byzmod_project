@@ -1078,7 +1078,7 @@
  lords_of_the_sky:0 "Caelum Domini"
  lords_of_the_sky_desc:0 "None can contest Roman mastery of the skies. Our pilots cannot be outflown, and our factories cannot be outproduced. After all, why shouldn't the heavens themselves be part of our empire?"
  rocketry_effort:0 "Rocketry Effort"
- rocketry_effort:0 "The field of rocketry has many promises. With rockets, we can strike our enemies at any time, from any place, sending death far behind their lines. In time, perhaps we could even explore worlds beyond our own, creating a truly Roman cosmos."
+ rocketry_effort_desc:0 "The field of rocketry has many promises. With rockets, we can strike our enemies at any time, from any place, sending death far behind their lines. In time, perhaps we could even explore worlds beyond our own, creating a truly Roman cosmos."
  mare_nostrum:0 "Mare Nostrum"
  mare_nostrum_desc:0 "The greatest naval powers in the world today are pathetic liberals and leftist hedonists. We will show them the might of true Romans when we take the seas from them."
  cruiser_focus_1:0 "Cruiser Focus"
