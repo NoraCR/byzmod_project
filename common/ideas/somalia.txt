@@ -183,6 +183,44 @@ ideas = {
 				industrial_capacity_dockyard = 0.02
 			}
 		}
+		SOM_cheap_labor = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+
+			modifier = {
+				industrial_capacity_factory = 0.03
+				industrial_capacity_dockyard = 0.03
+				conscription_factor = -0.05
+			}
+
+		}
+		SOM_integrated_production_chains = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+
+		}
 	}
 	
 	political_advisor = {

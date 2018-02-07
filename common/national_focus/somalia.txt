@@ -367,7 +367,32 @@ focus_tree = {
 		}
 		x = 0
 		y = 2
+		cost = 10
 
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = SOM_cheap_labor
+			}
+		}
 	}
 	focus = {
 		id = SOM_joint_ventures
@@ -474,6 +499,153 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = SOM_pilot_training
 		}
+	}
+	focus = {
+		id = SOM_integrated_production_chains
+		icon = GFX_goal_generic_trade
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_joint_ventures
+		}
+		x = 2
+		y = 3
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 15
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = SOM_integrated_production_chains
+		}
+
+	}
+	focus = {
+		id = SOM_maritime_silk_road
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_integrated_production_chains
+		}
+		x = 2
+		y = 4
+				cost = 10
+
+		ai_will_do = {
+			factor = 0.45
+			modifier = {
+				CHI = { has_war = yes }
+				factor = 0
+			}
+		}
+
+		available = {
+			pangalism > 0.50
+			controls_state = 559
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			559 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 5 
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					province = {
+						id = 12991
+					}
+					level = 3
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+	focus = {
+		id = SOM_democratic_backlash
+		icon = GFX_goal_continuous_restrict_freedom
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_maritime_silk_road
+		}
+		mutually_exclusive = {
+			focus = SOM_treaty_of_addis_ababa
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = SOM_treaty_of_addis_ababa
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_maritime_silk_road
+		}
+		mutually_exclusive = {
+			focus = SOM_democratic_backlash
+		}
+		x = 3
+		y = 5
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		add_political_power = 120
+		}
+
 	}
 	focus = {
 		id = SOM_mogadishu
@@ -601,6 +773,51 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = SOM_border_clashes
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_desert_equipment
+		}
+		x = 4
+		y = 4
+		cost = 10
+		bypass = {
+			has_war_with = GHA
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					has_army_manpower = { size < 499999 }
+					any_home_area_neighbor_country = {
+						has_war_with = ROOT
+					}
+				}
+			}
+			modifier = {
+				factor = 0 #AI should not pick this focus if it does not share a border with the Soviets
+				NOT = { 
+					any_home_area_neighbor_country = {
+						tag = GHA
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1942.1.1
+			}
+		}	
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = GHA
+			}
+		}
+	}
+	focus = {
 		id = SOM_east_wall
 		icon = GFX_focus_generic_coastal_fort
 		cost = 10.00
@@ -694,6 +911,87 @@ focus_tree = {
 				add_building_construction = { type = bunker province = 9947 level = 3 instant_build = yes }
 			}
 		}
+	}
+	focus = {
+		id = SOM_libya
+		icon = GFX_goal_generic_cavalry
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_fortify_egypt
+		}
+		x = 6
+		y = 3
+		cost = 10
+
+		bypass = {
+			has_war_with = LBA
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					has_army_manpower = { size < 199999 }
+					any_home_area_neighbor_country = {
+						has_war_with = ROOT
+					}
+				}
+			}
+			modifier = {
+				factor = 0 #AI should not pick this focus if it does not share a border with the Soviets
+				NOT = { 
+					any_home_area_neighbor_country = {
+						tag = LBA
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1939.1.1
+			}
+		}	
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = LBA
+			}
+		}
+	}
+	focus = {
+		id = SOM_zimbabwe_dispute
+		icon = GFX_focus_SAF_colonialist_crusade
+		cost = 10.00
+		prerequisite = {
+			focus = SOM_libya
+		}
+		x = 6
+		y = 4
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SHO
+			}
+		}
+
 	}
 	focus = {
 		id = SOM_end_conglomerates
