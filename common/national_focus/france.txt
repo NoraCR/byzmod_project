@@ -373,9 +373,9 @@ focus_tree = {
 				name = triarii_boost
 				bonus = 0.5 # this is a 50% boost
 				uses = 3 # how many times you can use it
-				technology = para_tech # the tech categories can be found in 00_technology file in the technology_tags folder in \common
-				technology = mountaineers_tech
-				technology = marine_tech
+				category = para_tech # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+				category = mountaineers_tech
+				category = marine_tech
 			}
 			army_experience = 15
 		}
