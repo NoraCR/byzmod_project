@@ -634,11 +634,6 @@ focus_tree = {
 		completion_reward = {
 
 			559 = {
-				limit = {
-					is_controlled_by = ROOT
-					is_coastal = yes
-					is_in_home_area = yes
-				}
 				add_building_construction = {
 					type = coastal_bunker
 					province = {

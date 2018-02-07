@@ -49,7 +49,7 @@ country_event = {
 }
 country_event = {
 	id = som.200
-	title = som.200.t	# SAF asks SOV for membership in RRP
+	title = som.200.t	# SOM asks BYZ for membership in RRP
 	desc = som.200.d	#
 	picture = GFX_news_event_generic_parliament
 	
@@ -118,14 +118,14 @@ country_event = {
 }
 country_event = {
 	id = som.300
-	title = som.300.t	# SAF demands Madagascar
+	title = som.300.t	# SOM demands Madagascar
 	desc = som.300.d	#
 	picture = GFX_report_event_generic_panzer_attack
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = som.300.a # FRA accepts
+		name = som.300.a # PHI accepts
 		
 		ai_chance = {
 			base = 70
@@ -140,7 +140,7 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			SAF = {
+			SOM = {
 				country_event = { id = som.301 }
 			}
 		}
@@ -154,7 +154,7 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			SAF = {
+			SOM = {
 				country_event = { id = som.302 }
 			}
 		}
@@ -178,7 +178,7 @@ country_event = {
 
 country_event = {
 	id = som.302
-	title = som.302.t	# FRA refuses demands, wargoal offered
+	title = som.302.t	# PHI refuses demands, wargoal offered
 	desc = som.302.d	#
 	picture = GFX_report_event_saf_soldiers_2
 	
