@@ -44,7 +44,15 @@ units = {
 		name = "1era División del Ejercito"
 		location = 12364 # Buenos Aires
 		division_template = "División de Infanteria"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "6ta División del Ejercito"
+		location = 12364 # Buenos Aires
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -52,7 +60,7 @@ units = {
 		name = "2da División del Ejercito"
 		location = 10953 # Southern Argentina
 		division_template = "División de Infanteria"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -60,7 +68,7 @@ units = {
 		name = "3era División del Ejercito"
 		location = 7500 # Parana
 		division_template = "División de Infanteria"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -68,7 +76,7 @@ units = {
 		name = "4ta División del Ejercito"
 		location = 12942 # Cordoba
 		division_template = "División de Infanteria"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -76,7 +84,7 @@ units = {
 		name = "5ta División del Ejercito"
 		location = 12942
 		division_template = "División de Infanteria"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -84,7 +92,7 @@ units = {
 		name = "División de Caballería"
 		location = 12364 # Buenos Aires
 		division_template = "División de Caballería"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -92,7 +100,7 @@ units = {
 		name = "Destacamento de Montaña Ku-yao"
 		location = 10992 # Mendoza
 		division_template = "Brigada Montaña"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -100,7 +108,7 @@ units = {
 		name = "Destacamento de Montaña Beiyang"
 		location = 12942 # Salta
 		division_template = "Brigada Montaña"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
@@ -145,11 +153,11 @@ air_wings = {
 	278 = {
 		fighter_equipment_0 =  {
 			owner = "ARG" 
-			amount = 18
+			amount = 36
 		}
 		CAS_equipment_1 =  {
 			owner = "ARG" 
-			amount = 12
+			amount = 24
 		}
 	}
 }
