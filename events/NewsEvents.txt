@@ -3448,7 +3448,7 @@ news_event = {
 	}
 }
 
-# The Fall of Paris (Italy)
+# The Fall of Paris (Byzantium)
 news_event = {
 	id = news.114
 	title = news.101.t
@@ -3458,14 +3458,14 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		16 = { is_controlled_by = ITA }
+		16 = { is_controlled_by = BYZ }
 		16 = { is_owned_by = FRA }
-		ITA = { has_war_with = FRA }
-		NOT = { has_global_flag = fall_of_paris_ita }
+		BYZ = { has_war_with = FRA }
+		NOT = { has_global_flag = fall_of_paris_byz }
 	}
 	
 	immediate = {
-		set_global_flag = fall_of_paris_ita
+		set_global_flag = fall_of_paris_byz
 	}
 	
 	mean_time_to_happen = {
@@ -3476,14 +3476,57 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = ITA
+				TAG = BYZ
 				TAG = FRA
 			}
 		}
 	}
 	option = {
-		name = news.113.b
-		trigger = { TAG = ITA }
+		name = news.114.a
+		trigger = { TAG = BYZ }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = FRA }
+	}
+}
+
+# The Fall of Paris (Ireland)
+news_event = {
+	id = news.995
+	title = news.101.t
+	desc = news.995.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		16 = { is_controlled_by = IRE }
+		16 = { is_owned_by = FRA }
+		IRE = { has_war_with = FRA }
+		NOT = { has_global_flag = fall_of_paris_ire }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_paris_ire
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = BYZ
+				TAG = FRA
+			}
+		}
+	}
+	option = {
+		name = news.995.a
+		trigger = { TAG = IRE }
 	}
 	option = {
 		name = news.100.c
@@ -4420,11 +4463,54 @@ news_event = {
 		}
 	}
 	option = {
-		name = news.130.b
+		name = news.133.a
 		trigger = { TAG = FRA }
 	}
 	option = {
-		name = news.100.c
+		name = news.133.b
+		trigger = { TAG = BYZ }
+	}
+}
+
+# The Fall of Athens (France)
+news_event = {
+	id = news.996
+	title = news.996.t
+	desc = news.996.d
+	picture = GFX_news_event_french_parade
+	
+	major = yes
+	
+	trigger = {
+		47 = { is_controlled_by = FRA }
+		47 = { is_owned_by = BYZ }
+		FRA = { has_war_with = BYZ }
+		NOT = { has_global_flag = fall_of_athens_fra }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_athens_fra
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.996.a
+		trigger = {
+			NOT = {
+				TAG = FRA
+				TAG = BYZ
+			}
+		}
+	}
+	option = {
+		name = news.996.b
+		trigger = { TAG = FRA }
+	}
+	option = {
+		name = news.996.c
 		trigger = { TAG = BYZ }
 	}
 }
