@@ -1040,7 +1040,7 @@
  pantherae:0 "Pantherae"
  pantherae_desc:0 "Bigger tanks are better tanks. If we invest enough in stronger models, with better armour and more powerful guns, we will have nothing to fear from any enemy of Rome."
  school_of_war:0 "School of War"
- school_of_war:0 "Our academies teach students to fight yesterday's wars. This will not do for the heirs of Rome. Our future leaders must be given the best education possible, that they may forge an empire to unite not just Europe, but the world."
+ school_of_war_desc:0 "Our academies teach students to fight yesterday's wars. This will not do for the heirs of Rome. Our future leaders must be given the best education possible, that they may forge an empire to unite not just Europe, but the world."
  industrial_effort_1:0 "Industry Effort"
  industrial_effort_1_desc:0 "It is not enough for Rome to have guns and steel. To make Valeria's vision a reality, we must have industry above all other nations, and a workforce fanatical in its dedication to a strong, united Imperium."
  military_industry_effort:0 "Military Industry Effort"
