@@ -51,42 +51,42 @@ units = {
 	}
 	division = {
 		name = "9. Legionäre Kampfgruppe 'Niederlande'"
-		location = 6286  # Friesland
+		location = 6332  # Friesland
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "10. Legionäre Kampfgruppe 'Eisenzieher'"
-		location = 6286  # Friesland
+		location = 6332  # Friesland
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "11. Legionäre Kampfgruppe 'Valeria'"
-		location = 6286  # Friesland
+		location = 6332  # Friesland
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "12. Legionäre Kampfgruppe 'Europa'"
-		location = 6570  # Essen
+		location = 6282  # Essen
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "13. Legionäre Kampfgruppe 'Deutschherrenorden'"
-		location = 6570  # Essen
+		location = 6282  # Essen
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "14. Legionäre Kampfgruppe 'Henricus'"
-		location = 6570  # Essen
+		location = 6282  # Essen
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "15. Legionäre Kampfgruppe 'Norrland'"
-		location = 6570  # Essen
+		location = 6282  # Essen
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "16. Legionäre Kampfgruppe 'Wiking'"
-		location = 6570  # Essen
+		location = 6282  # Essen
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
