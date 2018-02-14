@@ -312,7 +312,7 @@ create_corps_commander = {
 	id = 20
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Wolfgang Janos"
 	picture = "Portrait_Germany_Friedrich_Schulz.dds"
 	traits = {  }
