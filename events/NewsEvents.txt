@@ -9256,7 +9256,7 @@ news_event = {
 	option = {
 		name = news.222.a
 		trigger = {
-			tag = ENG
+			tag = CHI
 		}
 	}
 
@@ -9264,12 +9264,16 @@ news_event = {
 		name = news.222.b
 		trigger = {
 			OR = {
-				tag = NOR
-				tag = SWE
-				tag = DEN
+				tag = SOV
+				tag = POL
+				tag = HUN
+				tag = GER
+				tag = ENG
+				tag = FRA
+				tag = BYZ
 			}
 			NOT = {
-				is_in_faction_with = ENG
+				is_in_faction_with = CHI
 			}
 		}
 	}
@@ -9277,10 +9281,10 @@ news_event = {
 	option = {
 		name = news.222.c
 		trigger = {
-			is_in_faction_with = ENG
+			is_in_faction_with = CHI
 			NOT = {
 				OR = {
-					tag = ENG
+					tag = CHI
 				}
 			}
 		}
@@ -9295,9 +9299,13 @@ news_event = {
 			}
 			NOT = {
 				OR = {
-					tag = SWE
-					tag = NOR
-					tag = DEN
+				tag = SOV
+				tag = POL
+				tag = HUN
+				tag = GER
+				tag = ENG
+				tag = FRA
+				tag = BYZ
 				}
 			}
 		}
@@ -9308,11 +9316,15 @@ news_event = {
 		trigger = {
 			NOT = {
 				OR = {
+					tag = CHI
+					tag = SOV
+					tag = POL
+					tag = HUN
+					tag = GER
 					tag = ENG
-					tag = DEN
-					tag = NOR
-					tag = SWE
-					is_in_faction_with = ENG
+					tag = FRA
+					tag = BYZ
+					is_in_faction_with = CHI
 					is_in_faction = yes
 				}
 			}

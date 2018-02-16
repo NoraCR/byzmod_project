@@ -1,7 +1,136 @@
 ideas = {
 	country = {
-		german_advisors = {
+		xinshi_haijun_focus = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+			
+			equipment_bonus = {
+
+				capital_ship = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				carrier = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				screen_ship = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				submarine = {
+					build_cost_ic = -0.05 instant = yes
+				}
+			}
+		}
+		kongjun_ju_focus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
 		
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				heavy_fighter_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		escort_effort_focus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				destroyer = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		air_support_focus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				CAS_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				tac_bomber_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		strategic_bombing_focus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				strat_bomber_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		combined_bomber_offensive = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_air_bonus
+			
+			equipment_bonus = {
+				strat_bomber_equipment = {
+					air_range = 0.5 instant = yes
+				}	
+			}
+		}
+		CHI_colonial_elite = {
+			
 			allowed = {
 				always = no
 			}
@@ -12,58 +141,52 @@ ideas = {
 				}
 			}
 
+			picture = generic_research_bonus
+			
 			removal_cost = -1
 			
-			research_bonus = {
-				land_doctrine = 0.07
+			modifier = {
+				research_time_factor = -0.05
 			}
 		}
-
-		CHI_civil_war_deserters = {
-
-			picture = generic_morale_bonus
+		CHI_motorized_focus = {
 		
 			allowed = {
+				original_tag = CHI
 				always = no
 			}
 
 			allowed_civil_war = {
-				NOT = {
-					OR = {
-						has_government = communism
-						has_government = fascism
-					}
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.1 instant = yes
 				}
 			}
-
+		}
+		partisan_suppression_focus = {
+			
 			removal_cost = -1
 			
-			modifier = {
-				army_morale_factor = -0.2
-			}
-
-		}
-
-		# Communist uprisings may cause states to defect to PRC
-		CHI_communist_uprisings = {
-
-			picture = FRA_scw_intervention_republicans_focus
-		
 			allowed = {
-				always = no
+				always = no # Added via focus
 			}
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = democratic
 				}
 			}
 
-			removal_cost = -1
+			picture = generic_intel_bonus
 			
 			modifier = {
+				enemy_partisan_effect = -0.2
 			}
-
 		}
 	}
 
@@ -91,6 +214,9 @@ ideas = {
 			allowed = {
 				original_tag = CHI
 			}
+			available = {
+				has_completed_focus = CHI_a_legal_purge
+			}
 			
 			traits = { armaments_organizer }
 		}
@@ -101,7 +227,9 @@ ideas = {
 			allowed = {
 				original_tag = CHI
 			}
-			
+			available = {
+				has_completed_focus = CHI_a_legal_purge
+			}
 			traits = { silent_workhorse }
 		}
 
@@ -122,7 +250,9 @@ ideas = {
 			allowed = {
 				original_tag = CHI
 			}
-			
+			available = {
+				has_completed_focus = CHI_a_legal_purge
+			}
 			traits = { war_industrialist }
 		}
 		CHI_pang_shoufeng = {

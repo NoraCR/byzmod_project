@@ -1,0 +1,2473 @@
+focus_tree = {
+	id = china
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CHI
+		}
+	}
+	default = no
+	focus = {
+		id = CHI_xinshi_haijun
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		x = 4
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 50
+			add_ideas = xinshi_haijun_focus
+		}
+	}
+	focus = {
+		id = CHI_kongjun_ju
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10.00
+		x = 11
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = air_doctrine
+			} 
+			add_ideas = kongjun_ju_focus
+		}
+
+	}
+	focus = {
+		id = CHI_settling_accounts
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		x = 18
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+		}
+
+	}
+	focus = {
+		id = CHI_army_dominance
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 10.00
+		x = 27
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 2
+		}
+
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = CHI_army_primancy_focus_bypass_tt
+				NOT = {
+					any_owned_state = {
+						is_in_home_area = yes
+						free_building_slots = {
+							building = arms_factory
+							size > 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			army_experience = 5
+			random_state = {
+				limit = { has_state_flag = CHI_army_primancy_focus_2AF_1 }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}	
+			random_state = {
+				limit = { has_state_flag = CHI_army_primancy_focus_2AF_2 }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}			
+		}
+
+		completion_reward = {
+			army_experience = 5
+
+
+			random_owned_controlled_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = CHI_army_primancy_focus_2AF_1
+			}
+	
+			random_owned_controlled_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = CHI_army_primancy_focus_2AF_2
+			}
+
+
+		}
+	}
+
+	}
+	focus = {
+		id = CHI_preserve_the_empire
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		x = 35
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_national_unity = 0.1
+		}
+	}
+	focus = {
+		id = CHI_the_second_xifa
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		x = 48
+		y = 0
+		available_if_capitulated = no
+		available = {
+			OR = {
+				FRA = { 
+					exists = yes
+					OR = { 
+						communism > 0.1
+				 		fascism > 0.1
+				 	} 
+				}
+				BYZ = { 
+					exists = yes
+					OR = { 
+						communism > 0.1
+				 		fascism > 0.1
+				 	} 
+				}			
+			}			
+		}
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			add_named_threat = { threat = 1 name = CHI_the_second_xifa }
+			BYZ = {
+				add_opinion_modifier = { target = CHI modifier = unprovoked_aggression } 
+			}
+			HUN = {
+				add_opinion_modifier = { target = CHI modifier = unprovoked_aggression } 
+			}
+			SOV = {
+				add_opinion_modifier = { target = CHI modifier = unprovoked_aggression } 
+			}
+			FRA = {
+				add_opinion_modifier = { target = CHI modifier = unprovoked_aggression } 
+			}
+			hidden_effect = {
+				news_event = { hours = 6 id = news.222 }
+			}
+		}
+	}
+	focus = {
+		id = CHI_battleship_primacy
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_xinshi_haijun
+		}
+		mutually_exclusive = {
+			focus = CHI_carrier_primacy
+		}
+		x = 0
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = bb_tech
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_hai_quan_theory
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_battleship_primacy
+		}
+		x = 0
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = base_strike_main
+			}
+		}
+	}
+	focus = {
+		id = CHI_carrier_primacy
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_xinshi_haijun
+		}
+		mutually_exclusive = {
+			focus = CHI_battleship_primacy
+		}
+		x = 2
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = cv_tech
+			}
+		}
+	}
+	focus = {
+		id = CHI_establish_hangkongju
+		icon = GFX_goal_continuous_air_production
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_carrier_primacy
+		}
+		x = 2
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CHI_establish_hangkongju
+				bonus = 0.5
+				uses = 1
+				category = naval_bomber
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_submarine_effort
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_xinshi_haijun
+		}
+		x = 4
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 0.5
+				uses = 1
+				technology = basic_submarine
+				technology = improved_submarine
+				technology = advanced_submarine
+			}
+			add_tech_bonus = {
+				name = sub_op_bonus
+				bonus = 0.5
+				uses = 2
+				technology = submarine_operations
+				technology = undersea_blockade
+				technology = convoy_interdiction
+				technology = submarine_offensive
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_lang_qun_tactics
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_submarine_effort
+		}
+		x = 4
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = CHI_lang_qun_tactics
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+			add_tech_bonus = {
+				name = CHI_lang_qun_tactics
+				bonus = 0.5
+				uses = 2
+				category = submarine_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_naval_escorts
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_xinshi_haijun
+		}
+		x = 6
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = escort_effort_focus
+		}
+
+	}
+	focus = {
+		id = CHI_convoy_tactics
+		icon = GFX_goal_generic_radar
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_naval_escorts
+		}
+		x = 6
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = convoy_defense_tree
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_prioritize_the_navy
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_xinshi_haijun
+		}
+		x = 8
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CHI_prioritize_the_navy
+				uses = 3
+				bonus = 0.5
+				category = naval_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_luzhan_dui
+		icon = GFX_goal_generic_special_forces
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_prioritize_the_navy
+		}
+		x = 8
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				technology = marines
+				technology = marines2
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_amphibious_operations
+		icon = GFX_goal_generic_build_navy
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_luzhan_dui
+		}
+		x = 8
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = tp_tech
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_aerial_support_focus
+		icon = GFX_goal_generic_air_bomber
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_kongjun_ju
+		}
+		mutually_exclusive = {
+			focus = CHI_precision_bombing
+		}
+		x = 10
+		y = 1
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 25
+			add_ideas = air_support_focus
+		}
+		
+
+	}
+	focus = {
+		id = CHI_tactical_bombing
+		icon = GFX_goal_poland_goal
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_aerial_support_focus
+		}
+		x = 10
+		y = 3
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = CHI_tactical_bombing
+				uses = 1
+				bonus = 0.5
+				category = tactical_bomber
+			}
+		}
+	}
+	focus = {
+		id = CHI_CAS_focus
+		icon = GFX_goal_generic_CAS
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_aerial_support_focus
+		}
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CHI_CAS_focus
+				uses = 1
+				bonus = 0.5
+				category = cas_bomber
+			}
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = CHI_precision_bombing
+		icon = GFX_goal_generic_build_airforce
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_kongjun_ju
+		}
+		mutually_exclusive = {
+			focus = CHI_aerial_support_focus
+		}
+		x = 12
+		y = 1
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 25
+			add_ideas = strategic_bombing_focus
+		}
+
+	}
+	focus = {
+		id = CHI_target_vital_industries
+		icon = GFX_goal_generic_occupy_start_war
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_precision_bombing
+		}
+		available = {
+			has_war = yes
+		}
+		x = 13
+		y = 2
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = CHI_target_vital_industries
+				bonus = 0.5
+				uses = 1
+				category = heavy_air
+			}
+			add_ideas = combined_bomber_offensive
+		}
+	}
+	focus = {
+		id = CHI_a_legal_purge
+		icon = GFX_focus_rom_parties_end
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_settling_accounts
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = CHI_guided_democracy
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_a_legal_purge
+		}
+		x = 15
+		y = 2
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+
+	}
+	focus = {
+		id = CHI_counterterrorism
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_guided_democracy
+		}
+		x = 15
+		y = 3
+		completion_reward = {
+			add_ideas = partisan_suppression_focus
+		}
+
+	}
+	focus = {
+		id = CHI_engineering_consent
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_settling_accounts
+		}
+		x = 17
+		y = 1
+		completion_reward = {
+			add_political_power = 120
+		}
+		
+	}
+	focus = {
+		id = CHI_happiness_machines
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_engineering_consent
+		}
+		x = 17
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			custom_trigger_tooltip =  {
+				tooltip = construction_effort_tt
+				NOT = {
+					any_owned_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = CHI_happiness_machines_focus_2IC }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = CHI_happiness_machines_focus_2IC
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = CHI_happiness_machines_focus_2IC
+			}
+		}
+	}
+	focus = {
+		id = CHI_technocratic_rule
+		icon = GFX_goal_continuous_research
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_happiness_machines
+		}
+		x = 17
+		y = 3
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CHI_technocratic_rule
+				uses = 3
+				bonus = 0.5
+				category = electronics
+				category = support_tech
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_university_collaboration
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_settling_accounts
+		}
+		x = 19
+		y = 1
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}			
+		}
+
+	}
+	focus = {
+		id = CHI_national_research_foundation
+		icon = GFX_goal_tfv_generic_tech_sharing
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_university_collaboration
+		}
+		x = 19
+		y = 2
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+
+	}
+	focus = {
+		id = CHI_extra_research_slot
+		icon = GFX_goal_tfv_generic_tech_sharing
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_national_research_foundation
+		}
+		x = 20
+		y = 3
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+
+	}
+	focus = {
+		id = CHI_strategic_industries
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_settling_accounts
+		}
+		x = 22
+		y = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = CHI_strategic_industries_IC
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = CHI_strategic_industries_IC
+			}
+			add_tech_bonus = {
+				name = CHI_strategic_industries
+				bonus = 0.5
+				uses = 1
+				technology = excavation1
+				technology = excavation2
+				technology = excavation3
+				technology = excavation4
+				technology = excavation5
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_qiqihar
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_strategic_industries
+		}
+		x = 21
+		y = 2
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 30
+				state = 714
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_rare_earth_elements
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_strategic_industries
+		}
+		x = 22
+		y = 3
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			add_resource = {
+				type = tungsten
+				amount = 12
+				state = 600
+			}
+			add_resource = {
+				type = tungsten
+				amount = 10
+				state = 322
+			}
+			add_resource = {
+				type = chromium
+				amount = 10
+				state = 322
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_operation_east_wind
+		icon = GFX_focus_wonderweapons
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_rare_earth_elements
+		}
+		prerequisite = {
+			focus = CHI_national_research_foundation
+		}
+		prerequisite = {
+			focus = CHI_technocratic_rule
+		}
+		x = 18
+		y = 4
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CHI_operation_east_wind
+				bonus = 0.5
+				uses = 1
+				category = nuclear
+			}
+			add_tech_bonus = {
+				name = CHI_operation_east_wind
+				bonus = 0.5
+				uses = 1
+				category = nuclear
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_rubber
+		icon = GFX_goal_generic_army_motorized
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_strategic_industries
+		}
+		x = 23
+		y = 2
+		available_if_capitulated = yes
+		
+		add_resource = {
+			type = rubber
+			amount = 20
+			state = 724
+			}
+	}
+	focus = {
+		id = CHI_air_focus
+		icon = GFX_goal_continuous_air_production
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_rubber
+		}
+		x = 24
+		y = 3
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 25
+
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 1
+				category = light_fighter
+			}
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 1
+				category = cas_bomber
+			}
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 1
+				category = naval_bomber
+			}
+		}
+	}
+	focus = {
+		id = CHI_army_innovation
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_army_dominance
+		}
+		x = 27
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			army_experience = 10
+
+			
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}	
+		}
+
+	}
+	focus = {
+		id = CHI_motorization
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_rubber
+		}
+		prerequisite = {
+			focus = CHI_army_innovation
+		}
+		x = 26
+		y = 3
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_ideas = CHI_motorized_focus
+		}
+
+	}
+	focus = {
+		id = CHI_armor_innovation
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_motorization
+		}
+		x = 26
+		y = 4
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 1
+				category = armor
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_army_air_innovation
+		icon = GFX_goal_generic_air_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_army_innovation
+		}
+		x = 28
+		y = 2
+		completion_reward = {
+			air_experience = 25
+
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 1
+				category = light_fighter
+			}
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 1
+				category = tactical_bomber
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_air_bases
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_army_air_innovation
+		}
+		x = 28
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = air_focus_bypass_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = air_base
+						size < 2
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = CHI_air_base_expansion_focus_2airbase }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			every_state = {
+				limit = { has_state_flag = CHI_air_base_expansion_focus_1airbase }
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			air_experience = 25
+
+			if = {
+				limit = {
+					597 = {
+						OR = {
+							NOT = { is_owned_and_controlled_by = CHI }
+							AND = {
+								is_owned_and_controlled_by = CHI
+								free_building_slots = {
+									building = air_base
+									size < 2
+								}
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { 
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}							
+					set_state_flag = CHI_air_base_expansion_focus_2airbase
+				}
+			}
+			#Shandong
+			597 = {
+				if = {
+					limit = { 
+						is_owned_and_controlled_by = CHI
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = CHI_air_base_expansion_focus_2airbase
+				}
+			}
+			if = {
+				limit = {
+					591 = {
+						OR = {
+							NOT = { is_owned_and_controlled_by = CHI }
+							AND = {
+								is_owned_and_controlled_by = CHI
+								free_building_slots = {
+									building = air_base
+									size < 1
+								}
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { 
+						free_building_slots = {
+							building = air_base
+							size > 0
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}							
+					set_state_flag = CHI_air_base_expansion_focus_1airbase
+				}
+			}			
+			#Hainan
+			591 = {
+				if = {
+					limit = { 
+						is_owned_and_controlled_by = CHI
+						free_building_slots = {
+							building = air_base
+							size > 0
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = CHI_air_base_expansion_focus_1airbase
+				}
+			}
+			if = {
+				limit = {
+					716 = {
+						OR = {
+							NOT = { is_owned_and_controlled_by = CHI }
+							AND = {
+								is_owned_and_controlled_by = CHI
+								free_building_slots = {
+									building = air_base
+									size < 2
+								}
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { 
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}							
+					set_state_flag = CHI_air_base_expansion_focus_2airbase
+				}
+			}			
+			#Liaodong
+			716 = {
+				if = {
+					limit = { 
+						is_owned_and_controlled_by = CHI
+							free_building_slots = {
+							building = air_base
+						size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = CHI_air_base_expansion_focus_2airbase
+				}
+			}
+
+			if = {
+				limit = {
+					442 = {
+						OR = {
+							NOT = { is_owned_and_controlled_by = CHI }
+							AND = {
+								is_owned_and_controlled_by = CHI
+								free_building_slots = {
+									building = air_base
+									size < 2
+								}
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { 
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}							
+					set_state_flag = CHI_air_base_expansion_focus_2airbase
+				}
+			}
+			#Peshawar
+			442 = {
+				if = {
+					limit = { 
+						is_owned_and_controlled_by = CHI
+							free_building_slots = {
+							building = air_base
+						size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = CHI_air_base_expansion_focus_2airbase
+				}
+			}
+
+			if = {
+				limit = {
+					330 = {
+						OR = {
+							NOT = { is_owned_and_controlled_by = CHI }
+							AND = {
+								is_owned_and_controlled_by = CHI
+								free_building_slots = {
+									building = air_base
+									size < 2
+								}
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { 
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}							
+					set_state_flag = CHI_air_base_expansion_focus_2airbase
+				}
+			}
+			#Mongolia
+			330 = {
+				if = {
+					limit = { 
+						is_owned_and_controlled_by = CHI
+							free_building_slots = {
+							building = air_base
+						size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = CHI_air_base_expansion_focus_2airbase
+				}
+			}
+			
+		}		
+
+	}
+	focus = {
+		id = CHI_step_up_rotations
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_preserve_the_empire
+		}
+		x = 35
+		y = 1
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			navy_experience = 25
+			air_experience = 25
+		}
+
+	}
+	focus = {
+		id = CHI_local_elites
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_step_up_rotations
+		}
+		x = 32
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = { CHI_colonial_elite }
+		}
+
+	}
+	focus = {
+		id = CHI_zhongnan
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_local_elites
+		}
+		x = 30
+		y = 3
+				available_if_capitulated = yes
+
+		bypass = {
+			SIA = {
+				custom_trigger_tooltip = {
+					tooltip = construction_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = naval_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = dockyard
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			SIA = {
+				add_opinion_modifier = { target = CHI modifier = aided_industry }
+				every_state = { limit = { has_state_flag = CHI_chi_zhongnan_focus_1IC }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				every_state = { limit = { has_state_flag = CHI_chi_zhongnan_focus_2dockyards }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+				every_state = { limit = { has_state_flag = CHI_chi_zhongnan_focus_1dockyard }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+				add_autonomy_ratio = {
+					value = -0.05
+					localization = CHI_zhongnan
+				}
+			}
+		}
+
+		completion_reward = {
+			SIA = {
+				add_opinion_modifier = { target = CHI modifier = aided_industry }
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = CHI_chi_zhongnan_focus_1IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = CHI_chi_zhongnan_focus_1IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = CHI_chi_zhongnan_focus_2dockyards
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = CHI_chi_zhongnan_focus_1dockyard
+				}
+				add_autonomy_ratio = {
+					value = -0.05
+					localization = CHI_zhongnan
+				}
+			}
+		}
+	}
+	focus = {
+		id = CHI_revert_to_local_elites
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_zhongnan
+		}
+		mutually_exclusive = {
+			focus = CHI_empower_cao
+		}
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = CHI_empower_cao
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_zhongnan
+		}
+		mutually_exclusive = {
+			focus = CHI_revert_to_local_elites
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = CHI_asitelahan
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_local_elites
+		}
+		available = {
+			is_in_faction_with = AKH
+		}
+
+		bypass = {
+			AKH = { exists = no }
+		}
+		x = 32
+		y = 3
+		available_if_capitulated = yes
+
+		bypass = {
+			AKH = {
+				custom_trigger_tooltip = {
+					tooltip = construction_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = naval_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = dockyard
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			AKH = {
+				add_opinion_modifier = { target = CHI modifier = aided_industry }
+				every_state = { limit = { has_state_flag = CHI_asitelahan_focus_1IC }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				add_autonomy_ratio = {
+					value = -0.05
+					localization = CHI_asitelahan
+				}
+			}
+		}
+
+		completion_reward = {
+			AKH = {
+				add_opinion_modifier = { target = CHI modifier = aided_industry }
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = CHI_asitelahan_focus_1IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = CHI_asitelahan_focus_1IC
+				}
+				}
+				add_autonomy_ratio = {
+					value = -0.05
+					localization = CHI_asitelahan
+				}
+			}
+		}
+	}
+	focus = {
+		id = CHI_transoxiana
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_local_elites
+		}
+		available = {
+			is_in_faction_with = TRX
+		} 
+		x = 34
+		y = 3
+				available_if_capitulated = yes
+
+		bypass = {
+			TRX = {
+				custom_trigger_tooltip = {
+					tooltip = construction_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			TRX = {
+				add_opinion_modifier = { target = CHI modifier = aided_industry }
+				every_state = { limit = { has_state_flag = CHI_transoxiana_focus_2IC }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				every_state = { limit = { has_state_flag = CHI_transoxiana_focus_1IC }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				add_autonomy_ratio = {
+					value = -0.05
+					localization = CHI_transoxiana
+				}
+			}
+		}
+
+		completion_reward = {
+			TRX = {
+				add_opinion_modifier = { target = CHI modifier = aided_industry }
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = CHI_transoxiana_focus_2IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = CHI_transoxiana_focus_2IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = CHI_transoxiana_focus_1IC
+				}
+				add_autonomy_ratio = {
+					value = -0.05
+					localization = CHI_transoxiana
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_east_china_sea
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_step_up_rotations
+		}
+		x = 37
+		y = 2
+
+	}
+	focus = {
+		id = CHI_taiwan
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_east_china_sea
+		}
+		x = 36
+		y = 3
+		available = {
+			524 = {
+				CONTROLLER = {
+					OR = {
+						tag = CHI
+						is_subject_of = CHI
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = { 
+			524 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					province = 12068
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					province = 7186
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						CONTROLLER = {
+							NOT = { tag = CHI }
+						}
+					}
+					CONTROLLER = {
+						add_autonomy_ratio = {
+							value = -0.02
+							localization = singapore_focus
+						}
+					}
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_fortify_yalu
+		icon = GFX_goal_generic_fortify_city
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_east_china_sea
+		}
+		available = {
+			CHI = { controls_state = 717 }
+			CHI = { controls_state = 328 }
+			CHI = { controls_state = 716 }
+			CHI = { controls_state = 408 }
+		}
+		available_if_capitulated = no
+		x = 37
+		y = 4
+		completion_reward = {       
+			army_experience = 5
+			408 = {
+				add_building_construction = { type = bunker province = 11879 level = 2 instant_build = yes }
+			}
+			717 = {
+				add_building_construction = { type = bunker province = 3944 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 9897 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 944 level = 2 instant_build = yes }
+			}
+			328 = {
+				add_building_construction = { type = bunker province = 3929 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 861 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 800 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 11781 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 9803 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 3949 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 9848 level = 2 instant_build = yes }
+			}
+			716 = {
+				add_building_construction = { type = bunker province = 6860 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 6981 level = 2 instant_build = yes }
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_bonin_islands_incident
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_fortify_yalu
+		}
+		x = 37
+		y = 5
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = JAP
+			} 
+		}
+
+	}
+	focus = {
+		id = CHI_coup_phi
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_east_china_sea
+		}
+		available = {
+			NOT = { has_war_with = PHI }
+			PHI = {
+				custom_trigger_tooltip = {
+					is_alone_or_in_faction_at_peace_with_GER = yes
+				}
+			}
+		}
+		x = 38
+		y = 3
+		completion_reward = {
+			PHI = {
+				if = {
+					limit = {
+						CHI = {
+							has_government = pangalism
+						}
+					}
+					add_ideas = pangalist_influence
+				}
+			}
+		}	
+	}
+	focus = {
+		id = CHI_somalia
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_step_up_rotations
+		}
+		x = 40
+		y = 2
+		available_if_capitulated = yes
+
+		bypass = {
+			SOM = {
+				custom_trigger_tooltip = {
+					tooltip = construction_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = naval_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = dockyard
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			SOM = {
+				add_opinion_modifier = { target = CHI modifier = aided_industry }
+				every_state = { limit = { has_state_flag = CHI_chi_somalia_focus_2IC }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				every_state = { limit = { has_state_flag = CHI_chi_somalia_focus_1IC }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				every_state = { limit = { has_state_flag = CHI_chi_somalia_focus_1dockyard }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			SOM = {
+				add_opinion_modifier = { target = CHI modifier = aided_industry }
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = CHI_chi_somalia_focus_2IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = CHI_chi_somalia_focus_1IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = CHI_chi_somalia_focus_1dockyard
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = CHI_chi_somalia_focus_1dockyard
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_treaties_of_friendship
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_somalia
+		}
+		x = 40
+		y = 3
+
+	}
+	focus = {
+		id = CHI_naval_doctrines
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_treaties_of_friendship
+		}
+		x = 40
+		y = 4
+		available = {
+			any_owned_state {
+				is_coastal = yes
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CHI_naval_doctrines
+				bonus = 0.5
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_prepare_indian_war
+		icon = GFX_focus_RAJ_seek_help_from_germany
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_step_up_rotations
+		}
+		x = 43
+		y = 2
+
+	}
+	focus = {
+		id = CHI_railway_supply
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_prepare_indian_war
+		}
+		x = 42
+		y = 3
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = infrastructure
+						size < 3
+					}
+				}
+			}
+		}			
+		completion_reward = {			
+			322 = { # Tibet
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+
+			441 = { #kashmir
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+
+			609 = { #east heibei
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			
+			442 = { # Peshawar
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+
+			415 = { # Herat
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_annex_tibet
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_prepare_indian_war
+		}
+		available = { is_puppet = no }
+		bypass = {
+			NOT = { country_exists = TIB }
+		}
+		x = 44
+		y = 3
+		completion_reward = {
+			TIB = {
+				country_event = { id = china.300 }
+			}
+		}
+
+	}
+	focus = {
+		id = CHI_mountain_infantry
+		icon = GFX_goal_generic_air_doctrine
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_railway_supply
+		}
+		prerequisite = {
+			focus = CHI_annex_tibet
+		}
+		x = 43
+		y = 4
+		completion_reward = {
+			add_tech_bonus = {
+				name = CHI_mountain_infantry
+				bonus = 0.75
+				uses = 1
+				category = mountaineers_tech
+			}
+		}
+	}
+	focus = {
+		id = CHI_antipartisan_order
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_mountain_infantry
+		}
+		available = {
+			OR = {
+				has_war_with = MRT
+				has_war_with = BYZ
+			}
+		}
+		x = 43
+		y = 5
+		completion_reward = {
+			add_ideas = partisan_suppression_focus
+		}
+	}
+	focus = {
+		id = CHI_the_devil_we_know
+		icon = GFX_goal_anti_comintern_pact
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_the_second_xifa
+		}
+		mutually_exclusive = {
+			focus = CHI_the_devil_we_dont
+		}
+		x = 46
+		y = 1
+
+	}
+	focus = {
+		id = CHI_cut_down_byzantium
+		icon = GFX_focus_yug_pan_slavic_congress
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_the_devil_we_know
+		}
+		x = 46
+		y = 2
+
+	}
+	focus = {
+		id = CHI_the_devil_we_dont
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_the_second_xifa
+		}
+		mutually_exclusive = {
+			focus = CHI_the_devil_we_know
+		}
+		x = 50
+		y = 1
+
+	}
+	focus = {
+		id = CHI_asitelahan_line
+		icon = GFX_focus_secret_rearmament
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_the_devil_we_dont
+			focus = CHI_the_devil_we_know
+		}
+		x = 48
+		y = 2
+
+	}
+	focus = {
+		id = CHI_the_frontier
+		icon = GFX_goal_continuous_non_factory_construct
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_develop_local_industry
+		}
+		x = 32
+		y = 6
+
+	}
+	focus = {
+		id = CHI_russian_regime_change
+		icon = GFX_focus_SAF_support_ossewabrandwag
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_the_devil_we_dont
+		}
+		x = 50
+		y = 2
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SOV
+			} 
+		}
+
+	}
+	focus = {
+		id = CHI_polish_claims
+		icon = GFX_focus_generic_polish_deal
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_russian_regime_change
+		}
+		x = 50
+		y = 3
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = POL
+			} 
+		}
+
+	}
+	focus = {
+		id = CHI_france
+		icon = GFX_goal_generic_defence
+		cost = 10.00
+		prerequisite = {
+			focus = CHI_polish_claims
+		}
+		x = 50
+		y = 4
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = FRA
+			} 
+		}
+
+	}
+}

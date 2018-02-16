@@ -1372,3 +1372,61 @@ country_event = {
 		}
 	}
 }
+# Tannu Tuva is asked to join the USSR
+country_event = {
+	id = china.300
+	title = china.300.t
+	desc = china.300.d
+	picture = GFX_report_event_stalin_01
+	
+	is_triggered_only = yes
+	
+	option = { # Accept
+		name = china.300.a
+		ai_chance = { factor = 100 }
+		SOV = {
+			country_event = { id = china.302 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+	option = { # Refuse
+		name = china.300.b
+		SOV = {
+			country_event = { id = china.301 }
+		}
+	}
+}
+
+# Tannu Tuva declines the offer
+country_event = {
+	id = china.301
+	title = china.301.t
+	desc = china.301.d
+	picture = GFX_report_event_stalin_02
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = china.301.a
+	}
+}
+
+# Tannu Tuva accepts the offer
+country_event = {
+	id = china.302
+	title = china.302.t
+	desc = china.302.d
+	picture = GFX_report_event_stalin_propaganda
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = china.302.a
+		annex_country = { target = TAN }
+		hidden_effect = {
+			SOV = {
+				country_event = { days = 1 id = news.14 }
+			}
+		}
+	}
+}
