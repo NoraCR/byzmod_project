@@ -81,9 +81,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kartikeya Ji Sharqi"
+	name = "Rishma Sharqi"
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
-	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
+	picture = "mrt_rishma_sharqi.tga"
 	expire = "1953.3.1"
 	ideology = fascism_ideology
 	traits = {
@@ -92,9 +92,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Yashoda Chinwalla" #female
+	name = "Rishma Sharqi" #female
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
-	picture = "Portrait_Soviet_Generic_1.dds"
+	picture = "mrt_rishma_sharqi.tga"
 	expire = "1953.3.1"
 	ideology = socialism
 	traits = {
@@ -102,9 +102,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Mukhtiar Agarwal"
+	name = "Rishma Sharqi"
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
-	picture = "Portrait_Soviet_Generic_2.dds"
+	picture = "mrt_rishma_sharqi.tga"
 	expire = "1953.3.1"
 	ideology = shanghai_school_economics
 	traits = {
@@ -112,9 +112,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Anand Rao Sharqi"
+	name = "Rishma Sharqi"
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
-	picture = "Portrait_Soviet_Generic_1.dds"
+	picture = "mrt_rishma_sharqi.tga"
 	expire = "1953.3.1"
 	ideology = despotism
 	traits = {
