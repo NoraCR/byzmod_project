@@ -603,3 +603,5 @@
  MODIFIER_ARMY_LEADER_START_LEVEL:1 "Starting level of new army leaders"
  MODIFIER_INDUSTRY_FREE_REPAIR_FACTOR:0 "Free repair"
  MODIFIER_MASTER_BUILD_AUTONOMY_FACTOR:0 "Autonomy from building"
+ som_friendship_som:0 "Somali-Chinese Treaty of Friendship"
+ som_friendship_no:0 "Somali-Chinese Treaty of Friendship"

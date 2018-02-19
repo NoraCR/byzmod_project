@@ -1640,6 +1640,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 4
+		ai_will_do = {
+			factor = 25
+		}
 
 	}
 	focus = {
@@ -1869,6 +1872,176 @@ focus_tree = {
 		}
 		x = 37
 		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+			613 = {
+				controller = { is_in_faction_with = ROOT }
+			}
+			598 = {
+				controller = { is_in_faction_with = ROOT }
+			}
+			596 = {
+				controller = { is_in_faction_with = ROOT }
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			613 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+
+				#Fortify entire coastline
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+
+				#shanghai bunker
+				add_building_construction = {
+					type = bunker
+					province = 7014
+					level = 2
+					instant_build = yes
+				}
+
+				#Extra fort on naval bases
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+
+			}
+
+			596 = {
+				#Fortify entire coastline
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+
+				#Extra fort on naval bases
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+			}
+			598 = {
+				#Fortify entire coastline
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+
+				#Extra fort on naval bases
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -2169,7 +2342,35 @@ focus_tree = {
 		}
 		x = 40
 		y = 3
+		available = {
+			has_equipment = {
+				infantry_equipment > 499
+			}
+		}
+		continue_if_invalid = yes
+		bypass = {
+			SOM = {
+				OR = {
+					exists = no
+					is_puppet = yes
+				}
 
+			}
+		}
+		select_effect = {
+			send_equipment = {
+				target = SOM
+				type = infantry_equipment
+				amount = 500
+			}
+		}
+		completion_reward = {
+			SOM = {
+				add_opinion_modifier = { target = CHI modifier = som_friendship_som }				
+			}
+			BYZ = { add_opinion_modifier = { target = CHI modifier = som_friendship_no } }
+			FRA = { add_opinion_modifier = { target = CHI modifier = som_friendship_no } }
+		}
 	}
 	focus = {
 		id = CHI_naval_doctrines
@@ -2217,6 +2418,10 @@ focus_tree = {
 		}
 		x = 43
 		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+		add_named_threat = { threat = 1 name = CHI_prepare_indian_war }
 
 	}
 	focus = {
@@ -2367,6 +2572,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CHI_the_devil_we_dont
 		}
+		bypass = {
+			has_war_with = BYZ
+		}
 		x = 46
 		y = 1
 
@@ -2380,7 +2588,39 @@ focus_tree = {
 		}
 		x = 46
 		y = 2
+		bypass = {
+			has_war_with = BYZ
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
 
+				OR = {
+					AND = {
+						has_war_with = JAP
+						JAP = { has_capitulated = no }
+					}
+					AND = {
+						has_war_with = FRA
+						FRA = { has_capitulated = no }
+					}
+					has_war = yes
+				}
+				OR = {
+					any_enemy_country = {
+						is_neighbor_of = ROOT
+					}
+					alliance_strength_ratio > 0.9
+				}
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = BYZ
+			} 
+		}
 	}
 	focus = {
 		id = CHI_the_devil_we_dont
@@ -2391,6 +2631,9 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = CHI_the_devil_we_know
+		}
+		bypass = {
+			has_war_with = FRA
 		}
 		x = 50
 		y = 1
@@ -2406,6 +2649,86 @@ focus_tree = {
 		}
 		x = 48
 		y = 2
+		available = {
+			407 = {
+				is_controlled_by = ROOT
+				
+				OR = {
+					any_neighbor_state = {
+						NOT = { is_controlled_by = ROOT }
+					}
+
+					AKH = { surrender_progress > 0.1 }
+				}
+			}
+		}
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}	
+		completion_reward = {
+			army_experience = 5
+			407 = {
+				hidden_effect = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 3487
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 3461
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 6758
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9440
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9378
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 11579
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9735
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 11706
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 4
+						province = 9753
+						instant_build = yes
+					}
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -2417,7 +2740,84 @@ focus_tree = {
 		}
 		x = 32
 		y = 6
-
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			234 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 3734
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 3720
+						instant_build = yes
+					}
+				}
+			}
+			218 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 4
+						province = 9417
+						instant_build = yes
+					}
+				}
+			}
+			227 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 4
+						province = 6474
+						instant_build = yes
+					}
+				}
+			}
+			228 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 4
+						province = 9461
+						instant_build = yes
+					}
+				}
+			}
+			260 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 4
+						province = 413
+						instant_build = yes
+					}
+				}
+			}
+			251 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 7
+						province = 11225
+						instant_build = yes
+					}
+				}
+			}
+		}
 	}
 	focus = {
 		id = CHI_russian_regime_change
@@ -2462,6 +2862,7 @@ focus_tree = {
 		}
 		x = 50
 		y = 4
+		
 		completion_reward = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
