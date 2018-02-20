@@ -130,7 +130,7 @@ create_field_marshal = {
 }
 create_field_marshal = {
 	name = "Rishma Sharqi" 
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "mrt_rishma_sharqi.tga"
 	traits = { }
 	skill = 3
 }
