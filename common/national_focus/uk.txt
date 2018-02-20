@@ -479,7 +479,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = cruiser_effort
+		id = ENG_cruiser_effort
 		icon = GFX_goal_generic_navy_cruiser
 		cost = 10
 		prerequisite = {
@@ -520,7 +520,7 @@ focus_tree = {
 			focus = tommy
 		}
 		prerequisite = {
-			focus = cruiser_effort
+			focus = ENG_cruiser_effort
 		}
 		x = 8
 		y = 2
@@ -550,7 +550,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = naval_planning
+		id = ENG_naval_planning
 		icon = GFX_goal_generic_occypy_states_coastal
 		cost = 10
 		prerequisite = {
@@ -587,7 +587,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_cruiser
 		cost = 10
 		prerequisite = {
-			focus = cruiser_effort
+			focus = ENG_cruiser_effort
 		}
 		x = 10
 		y = 2
@@ -776,7 +776,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = destroyer_effort
+		id = ENG_destroyer_effort
 		icon = GFX_goal_generic_wolf_pack
 		cost = 10
 		prerequisite = {
@@ -810,11 +810,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = battleship_focus
+		id = ENG_battleship_focus
 		icon = GFX_goal_generic_navy_battleship
 		cost = 10
 		prerequisite = {
-			focus = destroyer_effort
+			focus = ENG_destroyer_effort
 		}
 		x = 14
 		y = 2
@@ -848,7 +848,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_battleship
 		cost = 10
 		prerequisite = {
-			focus = battleship_focus
+			focus = ENG_battleship_focus
 		}
 		prerequisite = {
 			focus = naval_construction_effort_ii
@@ -918,7 +918,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = fighter_focus
+		id = ENG_fighter_focus
 		icon = GFX_goal_generic_air_fighter
 		cost = 10
 		prerequisite = {
@@ -957,7 +957,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_fighter2
 		cost = 10
 		prerequisite = {
-			focus = fighter_focus
+			focus = ENG_fighter_focus
 		}
 		x = 18
 		y = 2
@@ -988,11 +988,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = carrier_focus
+		id = ENG_carrier_focus
 		icon = GFX_goal_generic_navy_carrier
 		cost = 10
 		prerequisite = {
-			focus = battleship_focus
+			focus = ENG_battleship_focus
 		}
 		prerequisite = {
 			focus = fighter_focus_2
@@ -1024,7 +1024,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = bomber_focus
+		id = ENG_bomber_focus
 		icon = GFX_goal_generic_air_bomber
 		cost = 10
 		prerequisite = {
@@ -1063,7 +1063,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_bomber
 		cost = 10
 		prerequisite = {
-			focus = bomber_focus
+			focus = ENG_bomber_focus
 		}
 		x = 20
 		y = 2
@@ -2535,7 +2535,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_naval_bomber
 		cost = 10
 		prerequisite = {
-			focus = carrier_focus
+			focus = ENG_carrier_focus
 		}
 		x = 16
 		y = 4

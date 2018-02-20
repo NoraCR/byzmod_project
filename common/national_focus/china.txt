@@ -153,8 +153,6 @@ focus_tree = {
 
 		}
 	}
-
-	}
 	focus = {
 		id = CHI_preserve_the_empire
 		icon = GFX_focus_generic_little_entente
@@ -170,7 +168,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = CHI_the_second_xifa
+		id = CHI_the_second_xizheng
 		icon = GFX_focus_generic_support_the_left_right
 		cost = 10.00
 		x = 48
@@ -198,7 +196,7 @@ focus_tree = {
 			factor = 1
 		}	
 		completion_reward = {
-			add_named_threat = { threat = 1 name = CHI_the_second_xifa }
+			add_named_threat = { threat = 1 name = CHI_the_second_xizheng }
 			BYZ = {
 				add_opinion_modifier = { target = CHI modifier = unprovoked_aggression } 
 			}
@@ -395,7 +393,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = escort_effort_focus
+			add_ideas = CHI_escort_effort_focus
 		}
 
 	}
@@ -513,7 +511,7 @@ focus_tree = {
 
 		completion_reward = {
 			air_experience = 25
-			add_ideas = air_support_focus
+			add_ideas = CHI_air_support_focus
 		}
 		
 
@@ -581,7 +579,7 @@ focus_tree = {
 
 		completion_reward = {
 			air_experience = 25
-			add_ideas = strategic_bombing_focus
+			add_ideas = CHI_strategic_bombing_focus
 		}
 
 	}
@@ -608,7 +606,7 @@ focus_tree = {
 				uses = 1
 				category = heavy_air
 			}
-			add_ideas = combined_bomber_offensive
+			add_ideas = CHI_combined_bomber_offensive
 		}
 	}
 	focus = {
@@ -648,7 +646,7 @@ focus_tree = {
 		x = 15
 		y = 3
 		completion_reward = {
-			add_ideas = partisan_suppression_focus
+			add_ideas = CHI_partisan_suppression_focus
 		}
 
 	}
@@ -979,7 +977,6 @@ focus_tree = {
 				category = nuclear
 			}
 		}
-
 	}
 	focus = {
 		id = CHI_rubber
@@ -991,12 +988,14 @@ focus_tree = {
 		x = 23
 		y = 2
 		available_if_capitulated = yes
-		
-		add_resource = {
-			type = rubber
-			amount = 20
-			state = 724
+		completion_reward = {
+				724 = {
+				add_resource = {
+					type = rubber
+					amount = 20
+				}
 			}
+		}
 	}
 	focus = {
 		id = CHI_air_focus
@@ -1748,7 +1747,6 @@ focus_tree = {
 				}
 			}
 		}
-	}
 	focus = {
 		id = CHI_transoxiana
 		icon = GFX_goal_generic_forceful_treaty
@@ -2141,7 +2139,6 @@ focus_tree = {
 				add_building_construction = { type = bunker province = 6981 level = 2 instant_build = yes }
 			}
 		}
-
 	}
 	focus = {
 		id = CHI_bonin_islands_incident
@@ -2162,7 +2159,6 @@ focus_tree = {
 				target = JAP
 			} 
 		}
-
 	}
 	focus = {
 		id = CHI_coup_phi
@@ -2173,27 +2169,18 @@ focus_tree = {
 		}
 		available = {
 			NOT = { has_war_with = PHI }
-			PHI = {
-				custom_trigger_tooltip = {
-					is_alone_or_in_faction_at_peace_with_GER = yes
-				}
+			CHI = {
+				has_government = pangalism
 			}
 		}
 		x = 38
 		y = 3
 		completion_reward = {
 			PHI = {
-				if = {
-					limit = {
-						CHI = {
-							has_government = pangalism
-						}
-					}
 					add_ideas = pangalist_influence
 				}
 			}
-		}	
-	}
+		}
 	focus = {
 		id = CHI_somalia
 		icon = GFX_goal_generic_navy_battleship
@@ -2331,7 +2318,6 @@ focus_tree = {
 				}
 			}
 		}
-
 	}
 	focus = {
 		id = CHI_treaties_of_friendship
@@ -2567,7 +2553,7 @@ focus_tree = {
 		icon = GFX_goal_anti_comintern_pact
 		cost = 10.00
 		prerequisite = {
-			focus = CHI_the_second_xifa
+			focus = CHI_the_second_xizheng
 		}
 		mutually_exclusive = {
 			focus = CHI_the_devil_we_dont
@@ -2581,7 +2567,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHI_cut_down_byzantium
-		icon = GFX_focus_yug_pan_slavic_congress
+		icon = GFX_goal_anti_comintern_pact
 		cost = 10.00
 		prerequisite = {
 			focus = CHI_the_devil_we_know
@@ -2627,7 +2613,7 @@ focus_tree = {
 		icon = GFX_focus_generic_anti_fascist_diplomacy
 		cost = 10.00
 		prerequisite = {
-			focus = CHI_the_second_xifa
+			focus = CHI_the_second_xizheng
 		}
 		mutually_exclusive = {
 			focus = CHI_the_devil_we_know
@@ -2651,11 +2637,11 @@ focus_tree = {
 		y = 2
 		available = {
 			407 = {
-				is_controlled_by = ROOT
+				is_controlled_by = AKH
 				
 				OR = {
 					any_neighbor_state = {
-						NOT = { is_controlled_by = ROOT }
+						NOT = { is_controlled_by = AKH }
 					}
 
 					AKH = { surrender_progress > 0.1 }
@@ -2736,10 +2722,10 @@ focus_tree = {
 		icon = GFX_goal_continuous_non_factory_construct
 		cost = 10.00
 		prerequisite = {
-			focus = CHI_develop_local_industry
+			focus = CHI_asitelahan_line
 		}
-		x = 32
-		y = 6
+		x = 48
+		y = 4
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -2747,7 +2733,7 @@ focus_tree = {
 		completion_reward = {
 			234 = {
 				if = {
-					limit = { is_controlled_by = ROOT }
+					limit = { is_controlled_by = AKH }
 					add_building_construction = {
 						type = bunker
 						level = 3
@@ -2764,7 +2750,7 @@ focus_tree = {
 			}
 			218 = {
 				if = {
-					limit = { is_controlled_by = ROOT }
+					limit = { is_controlled_by = AKH }
 					add_building_construction = {
 						type = bunker
 						level = 4
@@ -2775,7 +2761,7 @@ focus_tree = {
 			}
 			227 = {
 				if = {
-					limit = { is_controlled_by = ROOT }
+					limit = { is_controlled_by = AKH }
 					add_building_construction = {
 						type = bunker
 						level = 4
@@ -2786,7 +2772,7 @@ focus_tree = {
 			}
 			228 = {
 				if = {
-					limit = { is_controlled_by = ROOT }
+					limit = { is_controlled_by = AKH }
 					add_building_construction = {
 						type = bunker
 						level = 4
@@ -2797,7 +2783,7 @@ focus_tree = {
 			}
 			260 = {
 				if = {
-					limit = { is_controlled_by = ROOT }
+					limit = { is_controlled_by = AKH }
 					add_building_construction = {
 						type = bunker
 						level = 4
@@ -2808,7 +2794,7 @@ focus_tree = {
 			}
 			251 = {
 				if = {
-					limit = { is_controlled_by = ROOT }
+					limit = { is_controlled_by = AKH }
 					add_building_construction = {
 						type = bunker
 						level = 7
@@ -2821,7 +2807,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHI_russian_regime_change
-		icon = GFX_focus_SAF_support_ossewabrandwag
+		icon = GFX_goal_generic_defence
 		cost = 10.00
 		prerequisite = {
 			focus = CHI_the_devil_we_dont

@@ -52,7 +52,7 @@ ideas = {
 				}
 			}
 		}
-		escort_effort_focus = {
+		CHI_escort_effort_focus = {
 			
 			allowed = {
 				always = no
@@ -70,7 +70,7 @@ ideas = {
 				}
 			}
 		}
-		air_support_focus = {
+		CHI_air_support_focus = {
 			
 			allowed = {
 				always = no
@@ -91,7 +91,7 @@ ideas = {
 				}
 			}
 		}
-		strategic_bombing_focus = {
+		CHI_strategic_bombing_focus = {
 			
 			allowed = {
 				always = no
@@ -109,7 +109,7 @@ ideas = {
 				}
 			}
 		}
-		combined_bomber_offensive = {
+		CHI_combined_bomber_offensive = {
 			
 			allowed = {
 				always = no
@@ -168,7 +168,7 @@ ideas = {
 				}
 			}
 		}
-		partisan_suppression_focus = {
+		CHI_partisan_suppression_focus = {
 			
 			removal_cost = -1
 			
@@ -204,7 +204,7 @@ ideas = {
 			traits = { ayn_rand }
 			
 			on_add = {
-				country_event = political.7
+				country_event = political.100
 			}
 		}
 		CHI_chen_xingsun = {
@@ -587,7 +587,7 @@ ideas = {
 			
 			traits = { superior_firepower_expert }
 		}
-		CHI_mei_zuoteng = {
+		CHI_mei_qinglian = {
 		
 			picture = generic_army_asia_1
 			

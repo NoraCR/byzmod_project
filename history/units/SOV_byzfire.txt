@@ -804,16 +804,6 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_1
-			creator = "SOV"
-		}
-		requested_factories = 7
-		progress = 0.1
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
 			type = support_equipment_1
 			creator = "SOV" 
 		}
@@ -844,16 +834,6 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = motorized_equipment_1
-			creator = "SOV" 
-		}
-		requested_factories = 3
-		progress = 0.4
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
 			type = fighter_equipment_1
 			creator = "SOV" 
 		}
@@ -868,7 +848,6 @@ instant_effect = {
 		equipment = {
 			type = destroyer_1
 			creator = "SOV"
-			version_name = "Leningrad & Minsk Class"
 		}
 		requested_factories = 2
 		progress = 0.70
@@ -881,7 +860,6 @@ instant_effect = {
 		equipment = {
 			type = submarine_1
 			creator = "SOV"
-			version_name = "Series IX Srednyaya"
 		}
 		requested_factories = 1
 		progress = 0.80

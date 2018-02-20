@@ -58,21 +58,12 @@ set_convoys = 800
 	add_political_power = 1198
 	
 	#adding ministers
-	add_ideas = {
-		ENG_ernest_bevin
-		bernard_montgomery
-		rsaf_enfield
-		archibald_wavell
-		charles_portal
-		english_electric		
+	add_ideas = {		
 
 		#laws
 		partial_economic_mobilisation
 		limited_conscription
-
-		ENG_george_vi
 	}
-	remove_ideas = george_v #Dead
 
 	complete_national_focus = limited_rearmament_focus
 	complete_national_focus = air_defense_focus
