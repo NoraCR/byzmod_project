@@ -128,6 +128,12 @@ create_field_marshal = {
 	traits = { defensive_doctrine }
 	skill = 4
 }
+create_field_marshal = {
+	name = "Rishma Sharqi" 
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { }
+	skill = 3
+}
 
 create_corps_commander = {
 	name = "Aruna Vrishchika" #female
