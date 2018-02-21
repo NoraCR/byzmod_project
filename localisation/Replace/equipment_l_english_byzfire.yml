@@ -189,7 +189,7 @@
  ITA_light_tank_equipment_2_short:0 "L6"
  FRA_light_tank_equipment_2:0 "Autocurrus Imperialis Scipio"
  FRA_light_tank_equipment_2_short:0 "Scipio"
- FRA_light_tank_equipment_2_desc:0 "Part experiment, part stopgap measure, the Scipio was designed to improve on the power and survivability of its predecessor without sacrificing little speed or versatility. Manufacturer Atelier de Forbin mostly upgraded to a 75mm cannon and added their first attempts at sloped armour to the chassis. Despite its experimental status, it saw extensive combat use."
+ FRA_light_tank_equipment_2_desc:0 "Part experiment, part stopgap measure, the Scipio was designed to improve on the power and survivability of its predecessor without sacrificing speed or versatility. Manufacturer Atelier de Forbin mostly upgraded to a 75mm cannon and added their first attempts at sloped armour to the chassis. Despite its experimental status, it saw extensive combat use."
  CHI_light_tank_equipment_2:0 "Qing Zhanche 1936"
  CHI_light_tank_equipment_2:0 "QZC 1936"
  light_tank_artillery_equipment:0 "Light SP Artillery"
