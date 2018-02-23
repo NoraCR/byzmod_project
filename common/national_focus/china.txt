@@ -74,7 +74,6 @@ focus_tree = {
 
 		bypass = {
 			custom_trigger_tooltip = {
-				tooltip = CHI_army_primancy_focus_bypass_tt
 				NOT = {
 					any_owned_state = {
 						is_in_home_area = yes
