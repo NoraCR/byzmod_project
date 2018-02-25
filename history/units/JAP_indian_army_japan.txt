@@ -1,0 +1,9 @@
+﻿units = {
+	##### Special forces spawned from JAP tree #####
+	division= {
+		name = "Higashi Indo Ensei-gun"
+		location = 4188 # Japan
+		division_template = "Higashi Indo Ensei-gun"
+		start_experience_factor = 0.3
+	}
+}

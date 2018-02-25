@@ -4,7 +4,7 @@
 
 add_namespace = news
 
-# Marco Polo Bridge I
+# Bonin I
 news_event = {
 	id = news.1
 	title = news.1.t
@@ -26,15 +26,15 @@ news_event = {
 	}
 	option = {
 		name = news.1.b
-		trigger = { TAG = JAP }
+		trigger = { TAG = CHI }
 	}
 	option = {
 		name = news.1.c
-		trigger = { TAG = CHI }
+		trigger = { TAG = JAP }
 	}
 }
 
-# Marco Polo Bridge II
+# Bonin II
 news_event = {
 	id = news.2
 	title = news.1.t
@@ -56,11 +56,11 @@ news_event = {
 	}
 	option = {
 		name = news.2.b
-		trigger = { TAG = JAP }
+		trigger = { TAG = CHI }
 	}
 	option = {
 		name = news.2.c
-		trigger = { TAG = CHI }
+		trigger = { TAG = JAP }
 	}
 }
 

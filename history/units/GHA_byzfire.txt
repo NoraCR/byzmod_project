@@ -265,8 +265,8 @@ units = {
 		ship = { name = "GNS Ologbo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GHA } } }	
 		ship = { name = "GNS Nwamba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GHA } } }
 		ship = { name = "GNS Obula" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GHA } } }	
+	}
 }
-
 air_wings = {
 	### ###
 	272 = {	#Senegal														

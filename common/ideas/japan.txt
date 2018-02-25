@@ -1,28 +1,237 @@
 ideas = {
 
 	country = {
-	
-	
-		state_shintoism = {
+		JAP_zhongnan_nationalists = {
+
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				NOT = {
-					has_government = democratic
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_democracy_drift_bonus
+
+			modifier = {
+				autonomy_gain = 1
+				democratic_drift = 0.2
+				pangalism_drift = -0.1
+			}
+		}
+		JAP_volunteer_defense_corps = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				drift_defence_factor = 0.25
+				foreign_subversive_activites = -0.50
+			}
+		}
+		JAP_arms_production = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				conversion_cost_civ_to_mil_factor= -0.2			
+			}
+		}
+		JAP_haida_technology = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_air_bonus
+
+			equipment_bonus = {
+				fighter_equipment = {
+					air_range = 0.1
+					air_attack = 0.05
+					instant = yes
 				}
+				cv_fighter_equipment = {
+					air_range = 0.1
+					air_attack = 0.05
+					instant = yes
+				}
+				CAS_equipment = {
+					air_range = 0.1
+					air_ground_attack = 0.05
+					instant = yes
+				}
+				cv_CAS_equipment = {
+					air_range = 0.1
+					air_ground_attack = 0.05
+					instant = yes
+				}
+				cv_nav_bomber_equipment = {
+					air_range = 0.1
+					naval_strike_attack = 0.05
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					air_range = 0.1
+					naval_strike_attack = 0.05
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					air_range = 0.1
+					air_ground_attack = 0.05
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					air_range = 0.1
+					air_attack = 0.05
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_range = 0.1
+					air_bombing = 0.05
+					instant = yes
+				}
+				transport_plane_equipment = {
+					air_range = 0.1
+					instant = yes
+				}
+			}
+
+			modifier = {
+				air_ace_generation_chance_factor = 0.10
+			}
+		}
+		JAP_naval_arms_race_idea = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+			
+			equipment_bonus = {
+
+				capital_ship = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				carrier = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				screen_ship = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				submarine = {
+					build_cost_ic = -0.05 instant = yes
+				}
+			}
+		}
+		JAP_onward_to_victory = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.07
+				industrial_capacity_dockyard = 0.07
+			}
+		}
+		JAP_shihobu_program = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				industrial_capacity_factory = 0.03
+				industrial_capacity_dockyard = 0.03
+			}
+		}
+		JAP_war_bonds_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		JAP_aikoku_idea = {
+			allowed = {
+				always = no
 			}
 			
 			removal_cost = -1
-	
+
+			picture = generic_morale_bonus
+			
 			modifier = {
-				industry_air_damage_factor = -0.1
+				army_org = 5
 				army_morale_factor = 0.1
 			}
 		}
-	
-	
 		# POLITICAL
 		student_mobilization_idea = {
 			
@@ -300,10 +509,12 @@ ideas = {
 			allowed = {
 				original_tag = JAP
 			}
-			
+			available = {
+				has_completed_focus = JAP_defensive_focus
+			}
 
 			
-			traits = { army_chief_offensive_3 }
+			traits = { army_chief_defensive_3 }
 			
 			ai_will_do = {
 				factor = 1

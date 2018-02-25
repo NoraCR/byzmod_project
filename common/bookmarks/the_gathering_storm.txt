@@ -11,58 +11,49 @@ bookmarks = {
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
+
 			}
 		}
 		"BYZ"={
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-				home_of_the_free
-				great_depression
-				undisturbed_isolation
+
 			}
 		}
 		"MRT"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				george_v
+
 			}
 		}
 		"AYI"={
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-				sour_loser
-				general_staff
+
 			}
 		}
 		"CHI"={
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = pangalism
 			ideas={
-				vittoria_mutilata
-				victor_emmanuel
+
 			}			
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas={
-				state_shintoism
+
 			}			
 		}
 		"SOM"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = pangalism
 			ideas = {
-				trotskyite_plot
-				home_of_revolution
+
 			}
 		}
 

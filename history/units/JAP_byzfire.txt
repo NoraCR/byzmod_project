@@ -245,16 +245,34 @@ units = { #includes army and navy but not air-force
 		name = "1st Hohei Shidan"
 		location = 11960
 		division_template = "Hohei Shidan"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	division = {
 		name = "2nd Hohei Shidan"
 		location = 11960
 		division_template = "Hohei Shidan"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	division = {
 		name = "3rd Hohei Shidan"
+		location = 11960
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "10th Hohei Shidan"
+		location = 11960
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "11th Hohei Shidan"
+		location = 11960
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+		division = {
+		name = "12th Hohei Shidan"
 		location = 11960
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.2
@@ -287,8 +305,26 @@ units = { #includes army and navy but not air-force
 	division = {
 		name = "11th Dendo Ryodan"
 		location = 7110
-		division_template = "Hohei Shidan"
+		division_template = "Dendo Ryodan"
 		start_experience_factor = 0.3
+	}
+	division = {
+		name = "13th Hohei Shidan"
+		location = 7110
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "14th Hohei Shidan"
+		location = 7110
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "15th Hohei Shidan"
+		location = 7110
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
 	}
 	# Kanto Army #
 	division = {
@@ -312,8 +348,26 @@ units = { #includes army and navy but not air-force
 	division = {
 		name = "12th Dendo Ryodan"
 		location = 1182
-		division_template = "Hohei Shidan"
+		division_template = "Dendo Ryodan"
 		start_experience_factor = 0.3
+	}
+	division = {
+		name = "16th Hohei Shidan"
+		location = 1182
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+		division = {
+		name = "17th Hohei Shidan"
+		location = 1182
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+		division = {
+		name = "18th Hohei Shidan"
+		location = 1182
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
 	}
 	# Marine Corps # based in Osaka - 5 divisions
 	division = {
@@ -350,7 +404,7 @@ units = { #includes army and navy but not air-force
 		### Navy ###
 #Osaka - Republican Grand Battlefleet
 	navy = {
-		name = "Kyōwakoku Sōdaina Sentōki"
+		name = "Kyouwakoku Daiichi Koukuu Kantai"
 		base = 7072
 		location = 7072
 		

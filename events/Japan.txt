@@ -4,12 +4,12 @@
 
 add_namespace = japan
 
-# Chinese Refuse Concessions
+# Japanese Refuse Concessions
 country_event = {
 	id = japan.1
 	title = china.1.t
 	desc = japan.1.d
-	picture = GFX_report_event_chinese_soldiers_01
+	picture = GFX_news_event_destroyers
 
 	is_triggered_only = yes
 	
@@ -36,10 +36,8 @@ country_event = {
 		hidden_effect = {
 			country_event = { days = 5 id = news.2 }
 		}
-		JAP = {
-			transfer_state = 608
-			transfer_state = 597 
-			transfer_state = 614
+		CHI = {
+			transfer_state = 526
 		}
 	}
 }
@@ -481,4 +479,20 @@ country_event = {
 			generator = owned_states
 		}
 	}
+}
+country_event = {
+	id = japan.19
+	title = japan.19.t	
+	desc = japan.19.desc	#
+	picture = GFX_report_event_merchant_ship_01
+	
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = japan.19.a
+		
+	}
+
 }

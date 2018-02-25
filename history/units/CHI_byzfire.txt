@@ -127,7 +127,7 @@ units = {
 		name = "2 Lujun Shi"
 		location = 11913
 		division_template = "Bubingshi"
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -290,7 +290,7 @@ units = {
 		location = 4114
 		division_template = "Zhuangjia Qibing"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -403,21 +403,21 @@ units = {
 		name = "Di 1 Fujian Jingbei"
 		location = 9974
 		division_template = "Bubingshi"	
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 
 	}
 	division = {
 		name = "Di 2 Fujian Jingbei"
 		location = 4169
 		division_template = "Bubingshi"	
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 
 	}
 	division = {
 		name = "Di 3 Fujian Jingbei"
 		location = 4196
 		division_template = "Bubingshi"	
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 
 	}
 ##Hubei
@@ -426,7 +426,7 @@ units = {
 		location = 4619
 		division_template = "Bubingshi"	
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 401 Bubing Shi"
@@ -448,7 +448,7 @@ units = {
 		location = 7186 #Taipei
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.7		
 	}
 
 	division = {
@@ -730,21 +730,21 @@ units = {
 		location = 3900
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 119 Bubing Shi"
 		location = 3900
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 120 Bubing Shi"
 		location = 3900
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 ##Mongolia/Manchuria/Amur
 	division = {
@@ -752,35 +752,35 @@ units = {
 		location = 11771
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 126 Bubing Shi"
 		location = 11771
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 127 Bubing Shi"
 		location = 11771
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 128 Bubing Shi"
 		location = 11771
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 129 Bubing Shi"
 		location = 11771
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}	
 	division = {
 		name = "Di 1 Menggu Qibing Shi" 
@@ -819,7 +819,7 @@ units = {
 		location = 1150 #Dalian
 		division_template = "Bubingshi"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.7		
 	}
 	division = {
 		name = "Di 9 Dongbei Shi"
@@ -876,14 +876,14 @@ units = {
 		location = 10433
 		division_template = "Qibing Shi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 2 Manzu Qibing Shi" #Manchu cavalry
 		location = 10433
 		division_template = "Qibing Shi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {			
 		name = "Di 181 A'ertai Dishan Pai"		

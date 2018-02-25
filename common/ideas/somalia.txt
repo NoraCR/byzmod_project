@@ -221,7 +221,7 @@ ideas = {
 			}
 
 		}
-		SOM_BYZ_advisers = {
+		SOM_BYZ_advisors = {
 			allowed = {
 				always = no
 			}

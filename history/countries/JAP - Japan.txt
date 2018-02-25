@@ -2,7 +2,7 @@
 
 oob = "JAP_byzfire"
 
-set_national_unity = 0.95
+set_national_unity = 0.80
 
 set_research_slots = 4
 

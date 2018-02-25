@@ -593,6 +593,8 @@
  minor_sanctions_relations:0 "Minor trade sanctions"
  burma_road_good:0 "The Burma road"
  burma_road_bad:0 "The Burma road"
+ siberia_road_good:0 "Dai-Shiberia Tetsudou"
+ siberia_road_bad:0 "Kua Shiboliya Tielu"
  unholy_alliance_opinion:0 "Unholy Alliance"
  unholy_alliance_trade:0 "Unholy Alliance"
  DIPLOMACY_BOOST_PARTY_POPULARITY_TITLE:0 "Boost party popularity"

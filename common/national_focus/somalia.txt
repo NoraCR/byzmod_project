@@ -789,7 +789,7 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_army_manpower = { size < 499999 }
+					has_army_manpower = { size < 699999 }
 					any_home_area_neighbor_country = {
 						has_war_with = ROOT
 					}
@@ -1462,18 +1462,17 @@ focus_tree = {
 		cost = 10.00
 		x = 15
 		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
 		prerequisite = {
 			focus = SOM_somalian_automotive
 		}
 		available = {
 			SOM = {
 				controls_state = 549
-			}
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 1
-		}	
+			}	
 		completion_reward = {
 			add_resource = {
 				type = oil

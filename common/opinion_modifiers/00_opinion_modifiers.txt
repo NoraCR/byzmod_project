@@ -384,6 +384,12 @@ opinion_modifiers = {
 	burma_road_bad = {
 		value = -30
 	}
+	siberia_road_good = {
+		value = 30
+	}
+	siberia_road_bad = {
+		value = -30
+	}
 	axis_leanings_focus = {
 		value = 50
 	}
