@@ -1341,14 +1341,14 @@ country_event = {
 	option = { # Accept
 		name = china.300.a
 		ai_chance = { factor = 100 }
-		SOV = {
+		CHI = {
 			country_event = { id = china.302 }
 		}
 		custom_effect_tooltip = GAME_OVER_TT
 	}
 	option = { # Refuse
 		name = china.300.b
-		SOV = {
+		CHI = {
 			country_event = { id = china.301 }
 		}
 	}
@@ -1379,11 +1379,28 @@ country_event = {
 	
 	option = {
 		name = china.302.a
-		annex_country = { target = TAN }
+		annex_country = { target = TIB }
 		hidden_effect = {
 			SOV = {
 				country_event = { days = 1 id = news.14 }
 			}
 		}
 	}
+}
+#UPR coup attempt
+country_event = {
+	id = china.500
+	title = china.500.t	
+	desc = china.500.desc	#
+	picture = GFX_report_event_merchant_ship_01
+	
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = china.500.a
+		
+	}
+
 }

@@ -1,5 +1,25 @@
 ideas = {
 	country = {
+		CHI_upr_nationalists = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_democracy_drift_bonus
+
+			modifier = {
+				autonomy_gain = 1
+				democratic_drift = -0.1
+				pangalism_drift = 0.2
+			}
+		}
 		xinshi_haijun_focus = {
 			
 			

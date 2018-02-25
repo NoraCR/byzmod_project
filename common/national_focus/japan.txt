@@ -1465,8 +1465,8 @@ focus_tree = {
 				add_timed_idea = { days = 730 idea = JAP_zhongnan_nationalists } 
 			}
 			hidden_effect = {
-				SIA = { country_event = { id = tfv_australia.95 } }
-				CHI = { country_event = { id = tfv_australia.95 } }
+				SIA = { country_event = { id = japan.19 } }
+				CHI = { country_event = { id = japan.19 } }
 			}
 		}
 	}

@@ -2175,9 +2175,15 @@ focus_tree = {
 		x = 38
 		y = 3
 		completion_reward = {
+			#boost pangalism in PHI
 			PHI = {
-					add_ideas = pangalist_influence
-				}
+				add_timed_idea = { days = 730 idea = CHI_upr_nationalists } 
+			}
+			hidden_effect = {
+				SIA = { country_event = { id = china.500 } }
+				CHI = { country_event = { id = china.500 } }
+				CHI = { country_event = { id = china.500 } }
+			}
 			}
 		}
 	focus = {
