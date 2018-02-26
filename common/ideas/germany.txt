@@ -585,8 +585,8 @@ ideas = {
 			traits = { mobile_warfare_expert }
 		}
 		
-		wolfram_von_richthofen = {
-
+		volkhardt_von_frentz = {
+			picture = generic_army_europe_1
 			
 			allowed = {
 				original_tag = GER
@@ -630,8 +630,8 @@ ideas = {
 			traits = { dive_bomber }
 		}
 		
-		alfred_saalwachter = {
-			
+		marina_holtzmann = {
+			picture = generic_navy_europe_1
 			
 			allowed = {
 				original_tag = GER
@@ -646,7 +646,7 @@ ideas = {
 			traits = { submarine_specialist }
 		}
 		
-		otto_ciliax = {
+		michael_radnitzer = {
 
 			
 			allowed = {
@@ -694,7 +694,7 @@ ideas = {
 	air_chief = {
 		
 		elmar_ochs = {
-
+			picture = generic_air_europe_2
 			
 			allowed = {
 				original_tag = GER
@@ -797,8 +797,8 @@ ideas = {
 			}
 		}	
 		
-		erich_bey = {
-
+		wolfgang_henisch = {
+			picture = generic_navy_europe_2	
 			
 			allowed = {
 				original_tag = GER
@@ -811,8 +811,8 @@ ideas = {
 			}
 		}
 		
-		gunther_lutjens = {
-
+		ilse_tiedemann = {
+			picture = generic_navy_europe_1
 			
 			allowed = {
 				original_tag = GER
@@ -825,8 +825,8 @@ ideas = {
 			}
 		}
 		 
-		viktor_schutze = {
-
+		matthias_gottlieb = {
+			picture = generic_navy_europe_3
 			
 			allowed = {
 				original_tag = GER

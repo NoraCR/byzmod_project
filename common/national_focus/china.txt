@@ -174,6 +174,7 @@ focus_tree = {
 		y = 0
 		available_if_capitulated = no
 		available = {
+			JAP = { has_capitulated = yes }
 			OR = {
 				FRA = { 
 					exists = yes
