@@ -400,7 +400,7 @@ units = {
 
 	}			
 	division= {			
-		name = "Amalgamated Union of Philosophers, Sages, Luminaries and Other Professional Thinking Persons"		
+		name = "AUPSLPTP Local 42"		
 		location = 9548
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.2

@@ -89,7 +89,7 @@ units = {
 	### 1. Armee (Wehrmacht-Gruppenkommando) ###
 	# II. Armeekorps
 	division= {	
-		name = "2. Infanterie-Division"
+		name = "2. Infanterie-Division 'Pommern'"
 		location = 6334
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
@@ -279,7 +279,7 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division= {	
-		name = "17. Infanterie-Division"
+		name = "17. Infanterie-Division 'Alsass'"
 		location = 6488
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
@@ -336,7 +336,7 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division= {	
-		name = "2. Motorisierte Division" 
+		name = "2. Motorisierte Division 'Leonberger'" 
 		location = 587
 		division_template = "Motorisierte Division"
 		start_experience_factor = 0.3
