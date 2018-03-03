@@ -161,12 +161,9 @@ units = {
 		base = 11293
 		location = 11293 # Dublin
 		ship = { name = "LE Tuatha De Danann" definition = battleship equipment = { battleship_1 = { amount = 1 owner = IRE } } }				
-		ship = { name = "LE Nuada" definition = battleship equipment = { battleship_1 = { amount = 1 owner = IRE } } }	
-		ship = { name = "LE Lugh" definition = battleship equipment = { battleship_1 = { amount = 1 owner = IRE  } } }				
-		ship = { name = "LE Ogma" definition = battleship equipment = { battleship_1 = { amount = 1 owner = IRE  } } }	
+		ship = { name = "LE Nuada" definition = battleship equipment = { battleship_1 = { amount = 1 owner = IRE } } }=
 		ship = { name = "LE Ard-Ri" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = IRE  } } }				
-		ship = { name = "LE Brian Boru" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = IRE  } } }	
-		ship = { name = "LE Donnchad Donn" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = IRE  } } }									
+		ship = { name = "LE Brian Boru" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = IRE  } } }=								
 		ship = { name = "LE Cosantoir" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = IRE  } } }				
 		ship = { name = "LE Echtra" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE  } } }	
 		ship = { name = "LE Niamh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE  } } }									
@@ -218,7 +215,7 @@ air_wings = {
 		# 3rd Grupa Bombardu 
 		tac_bomber_equipment_0 = {
 			owner = "IRE" 
-			amount = 150
+			amount = 100
 		}
 		# 1st Grupa Tacaiocht Aeir 
 		CAS_equipment_1 = {
@@ -237,7 +234,7 @@ air_wings = {
 		# 2nd Grupa Trodaire 'an Clairseach Fuilteach'
 		fighter_equipment_1 =  {
 			owner = "IRE" 
-			amount = 150
+			amount = 100
 		}
 		# 1st Farraige Patroil 
 		nav_bomber_equipment_1 =  {
