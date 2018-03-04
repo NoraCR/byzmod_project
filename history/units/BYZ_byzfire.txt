@@ -1075,10 +1075,12 @@ units = {
 		ship = { name = "RNS Demosthenes" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
 	}					
 	navy = {					
-		name = "Destroyer Flotilla  1"				
+		name = "Destroyer Flotilla 1"				
 		base = 819
 		location = 819 # Ostia
-		ship = { name = "RNS Sofia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }				
+		ship = { name = "RNS Sofia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }
+		ship = { name = "RNS Dublin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }
+		ship = { name = "RNS Galway" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BYZ } } }
 		# 1st Destroyer Division				
 		ship = { name = "RNS Argosy" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
 		ship = { name = "RNS Trireme" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }

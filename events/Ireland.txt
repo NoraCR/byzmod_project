@@ -47,4 +47,65 @@ country_event = {
 	}
 	
 }
+#IRE joins WPO
+country_event = {
+	id = ir.10
+	title = ir.10.t	
+	desc = ir.10.desc	#
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = { #CHI agrees
+		name = ir.10.a
+		ai_chance = {
+			base = 90
+			modifier = { 
+				IRE = { NOT = { has_government = communism } } 
+				factor = 0
+				}
+		}
+		add_to_faction = IRE
+		IRE = { country_event = { id = ir.12 hours = 6 } }
+	}
 
+
+	option = { # CHI refuses
+		name = ir.10.b
+		ai_chance = {
+			base = 0
+			modifier = { 
+				IRE = { NOT = { has_government = communism } } 
+				add = 100
+				}
+		}
+		IRE = { country_event = { id = ir.13 hours = 6 } }	
+	}
+}
+
+#SOV agrees
+country_event = {
+	id = ir.12
+	title = ir.12.t		# 
+	desc = ir.12.desc	#
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ir.2.a
+	}
+}
+#SOV refuses :(
+country_event = {
+	id = ir.13
+	title = ir.13.t		# 
+	desc = ir.13.desc	#
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ir.3.a
+	}
+}

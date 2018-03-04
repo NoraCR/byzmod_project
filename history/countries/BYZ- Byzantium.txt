@@ -95,7 +95,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-
 add_ideas = {
 	BYZ_byzantine_abundance
 	BYZ_incompetant_officers

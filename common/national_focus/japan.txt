@@ -47,7 +47,7 @@ focus_tree = {
 					add_opinion_modifier = { target = JAP modifier = democratic_leanings_good }
 				}
 			}
-			PHI = {
+			"PHI" = {
 				if = {
 					limit = { is_in_faction_with = JAP }
 					add_opinion_modifier = { target = JAP modifier = democratic_leanings_good }
@@ -624,10 +624,10 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-				available_if_capitulated = yes
+		available_if_capitulated = yes
 
 		bypass = {
-			PHI = {
+			"PHI" = {
 				custom_trigger_tooltip = {
 					tooltip = construction_effort_tt
 					all_owned_state = {
@@ -652,7 +652,7 @@ focus_tree = {
 		}
 
 		complete_tooltip = {
-			PHI = {
+			"PHI" = {
 				add_opinion_modifier = { target = JAP modifier = aided_industry }
 				every_state = { limit = { has_state_flag = JAP_upr_focus_1IC }
 					add_extra_state_shared_building_slots = 1
@@ -662,11 +662,27 @@ focus_tree = {
 						instant_build = yes
 					}
 				}
+				every_state = { limit = { has_state_flag = JAP_upr_focus_2dockyards }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+				every_state = { limit = { has_state_flag = JAP_upr_focus_1dockyard }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
 			}
 		}
 
 		completion_reward = {
-			PHI = {
+			"PHI" = {
 				add_opinion_modifier = { target = JAP modifier = aided_industry }
 				random_owned_controlled_state = {
 					limit = {
@@ -705,6 +721,23 @@ focus_tree = {
 						is_coastal = yes
 						free_building_slots = {
 							building = dockyard
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = JAP_upr_focus_2dockyards
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
 							size > 0
 							include_locked = yes
 						}
@@ -715,7 +748,7 @@ focus_tree = {
 						level = 1
 						instant_build = yes
 					}
-					set_state_flag = JAP_upr_focus_1infra
+					set_state_flag = JAP_upr_focus_1dockyard
 				}
 			}
 		}
@@ -828,7 +861,7 @@ focus_tree = {
 		available = {
 			any_state = {
 				is_coastal = yes
-				is_controlled_by = PHI
+				is_controlled_by = "PHI"
 			}
 		}
 		cancel_if_invalid = yes
@@ -836,7 +869,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		bypass = {
-			PHI = {
+			"PHI" = {
 				custom_trigger_tooltip = {
 					tooltip = naval_effort_tt
 					all_owned_state = {
@@ -850,7 +883,7 @@ focus_tree = {
 			}
 		}
 		complete_tooltip = {
-			PHI = {
+			"PHI" = {
 				add_opinion_modifier = { target = JAP modifier = aided_industry }
 				every_state = { limit = { has_state_flag = JAP_phi_dockyard_1 }
 					add_extra_state_shared_building_slots = 3
@@ -864,12 +897,12 @@ focus_tree = {
 		}
 		completion_reward = {
 			navy_experience = 25
-			PHI = {
+			"PHI" = {
 				add_opinion_modifier = { target = JAP modifier = aided_industry }
 			}
 			623 = {
 				if = {
-					limit = { is_controlled_by = PHI }
+					limit = { is_controlled_by = "PHI" }
 					add_building_construction = {
 						type = dockyard
 						level = 3
@@ -880,7 +913,7 @@ focus_tree = {
 			}
 			335 = {
 				if = {
-					limit = { is_controlled_by = PHI }
+					limit = { is_controlled_by = "PHI" }
 					add_building_construction = {
 						type = dockyard
 						level = 2
@@ -2831,6 +2864,24 @@ focus_tree = {
 		}
 		x = 19
 		y = 6
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 15
+			add_tech_bonus = {
+				name = special_bonus
+				bonus = 0.5
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+			}
+			add_tech_bonus = {
+				name = special_bonus
+				ahead_reduction = 1
+				uses = 1
+				technology = tech_mountaineers2
+			}
+		}
 
 	}
 	focus = {

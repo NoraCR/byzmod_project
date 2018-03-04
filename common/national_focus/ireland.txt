@@ -1,0 +1,2154 @@
+focus_tree = {
+	id = ireland
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IRE
+		}
+	}
+	default = no
+	focus = {
+		id = IRE_the_first_oconnor_govt
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		x = 4
+		y = 0
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = IRE_oconnor_government
+		}
+
+	}
+	focus = {
+		id = IRE_repairs_and_transfers
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10.00
+		x = 13
+		y = 0
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = IRE_transfer_ships_tt
+			BYZ = {
+			    transfer_ship = {
+			        prefer_name = "RNS Dublin"
+			        type = light_cruiser
+			        target = IRE
+			    }
+			    transfer_ship = {
+			        prefer_name = "RNS Galway"
+			        type = light_cruiser
+			        target = IRE
+			    }
+			}
+		}
+	}
+	focus = {
+		id = IRE_refurbish_airframes
+		icon = GFX_goal_generic_build_airforce
+		cost = 10.00
+		x = 19
+		y = 0
+		ai_will_do = {
+			factor = 2
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = nav_bomber_equipment_1
+				amount = 24
+				producer = BYZ
+			}
+			if = {
+				limit = {
+					BYZ = { has_tech = tactical_bomber1 }
+				}
+				add_equipment_to_stockpile = {
+					type = tac_bomber_equipment_1
+					amount = 30
+					producer = BYZ
+				}
+				else = {
+					add_equipment_to_stockpile = {
+						type = tac_bomber_equipment_0
+						amount = 30
+						producer = BYZ
+					}	
+				}
+			}
+		}
+	}
+	focus = {
+		id = IRE_trunk_road_system
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		x = 24
+		y = 0
+		ai_will_do = {
+			factor = 8
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = IRE_trunk_road_Inf1
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			random_state = {
+				limit = {
+					has_state_flag = IRE_trunk_road_Inf2
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 113 }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = IRE_trunk_road_Inf1
+			}
+
+			random_owned_controlled_state = {
+				prioritize = { 119 }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = IRE_trunk_road_Inf2
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_army_restructuring
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		x = 29
+		y = 0
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 25
+			add_tech_bonus = {
+				name = IRE_army_restructuring
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = IRE_the_first_coalition
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_the_first_oconnor_govt
+		}
+		x = 1
+		y = 1
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = IRE_first_coalition
+		}
+	}
+	focus = {
+		id = IRE_social_protection
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_the_first_coalition
+		}
+		x = 0
+		y = 2
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = IRE_social_protection_act
+		}
+
+	}
+	focus = {
+		id = IRE_immigration_act
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_the_first_coalition
+		}
+		x = 2
+		y = 2
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					113 = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+				}
+				113 = {
+					add_extra_state_shared_building_slots = 3
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_mobilization_act
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_immigration_act
+			focus = IRE_social_protection
+		}
+		x = 1
+		y = 3
+		ai_will_do = {
+			factor = 25
+		}
+
+		available {
+
+		}
+
+		bypass = 1
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no		
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = IRE_indmob_AF
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 134 135 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = IRE_indmob_AF
+			}
+		}
+	}
+	focus = {
+		id = IRE_antifascist_suppression
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_mobilization_act
+		}
+		mutually_exclusive = {
+			focus = IRE_truth_recon_comm
+		}
+		x = 0
+		y = 4
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = IRE_antifascist_suppression
+		}
+	}
+	focus = {
+		id = IRE_truth_recon_comm
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_mobilization_act
+		}
+		mutually_exclusive = {
+			focus = IRE_antifascist_suppression
+		}
+		x = 2
+		y = 4
+		ai_will_do = {
+			factor = 8
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = IRE_truth_recon_comm
+		}
+
+	}
+	focus = {
+		id = IRE_RRP
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_the_first_oconnor_govt
+		}
+		mutually_exclusive = {
+			focus = IRE_abrogate_dublin
+		}
+		x = 4
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 30
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			modify_tech_sharing_bonus = {
+			  	id = rrp_research
+			   	bonus = 0.05
+			}
+			add_political_power = 100
+			add_opinion_modifier = { target = BYZ modifier = large_increase } 
+			BYZ = { add_opinion_modifier = { target = IRE modifier = large_increase } }
+		}
+
+	}
+	focus = {
+		id = IRE_irish_expeditionary_force
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_RRP
+		}
+		x = 4
+		y = 2
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = IRE_ief
+		}
+
+	}
+	focus = {
+		id = IRE_abrogate_dublin
+		icon = GFX_goal_anti_comintern_pact
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_the_first_oconnor_govt
+		}
+		mutually_exclusive = {
+			focus = IRE_RRP
+		}
+		x = 6
+		y = 1
+		ai_will_do = {
+			factor = 0
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = pangalism 
+				popularity = 0.10
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_look_whos_back
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_abrogate_dublin
+		}
+		mutually_exclusive = {
+			focus = IRE_isolationism
+		}
+		x = 6
+		y = 2
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = IRE_oconnor_government
+				add_idea = IRE_BLE_resurgence
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_isolationism
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_abrogate_dublin
+		}
+		mutually_exclusive = {
+			focus = IRE_look_whos_back
+		}
+		x = 8
+		y = 2
+		available = {
+			NOT = { has_government = communism }
+			NOT = { has_war_together_with = BYZ }
+		}
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			BYZ = { remove_from_faction = ROOT }
+			add_political_power = 100
+			remove_idea = IRE_oconnor_government
+		}
+	}
+	focus = {
+		id = IRE_the_tiger_wakes
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_isolationism
+		}
+		x = 8
+		y = 3
+		completion_reward = {
+			add_ideas = pangalist_influence
+		}
+
+	}
+	focus = {
+		id = IRE_approach_china
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_the_tiger_wakes
+		}
+		x = 8
+		y = 4
+		available = {
+			is_subject = no
+			has_government = pangalism
+			CHI = {
+				has_capitulated = no
+				is_subject = no
+			}
+		}
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			CHI = { country_event = { id = ir.10 } }
+		}
+	}
+	focus = {
+		id = IRE_irish_naval_reforms
+		icon = GFX_goal_generic_build_navy
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_repairs_and_transfers
+		}
+		x = 13
+		y = 1
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = IRE_irish_naval_reforms
+				bonus = 0.5
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_inis_sionnach_base
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_irish_naval_reforms
+		}
+		x = 12
+		y = 2
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = IRE_expand_inis_sionnach_naval_base_DY
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 135 }
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = IRE_expand_inis_sionnach_naval_base_DY
+			}
+			135 = {
+				add_building_construction = {
+					type = naval_base
+					province = 7394
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_destroyer_effort
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_inis_sionnach_base
+		}
+		mutually_exclusive = {
+			focus = IRE_submarine_effort
+		}
+		x = 11
+		y = 3
+		ai_will_do = {
+			factor = 20
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRE_destroyer_effort
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = dd_tech
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_submarine_effort
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_inis_sionnach_base
+		}
+		mutually_exclusive = {
+			focus = IRE_destroyer_effort
+		}
+		x = 13
+		y = 3
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRE_submarine_effort
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = ss_tech
+			}
+		}
+	}
+	focus = {
+		id = IRE_capital_ship_effort
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_submarine_effort
+			focus = IRE_destroyer_effort
+		}
+		x = 13
+		y = 4
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRE_capital_ship_effort
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = bb_tech
+				category = cv_tech
+			}
+		}
+	}
+	focus = {
+		id = IRE_coastal_forts
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_irish_naval_reforms
+		}
+		x = 14
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+			NOT = {
+				controls_state = 113
+			}
+			NOT = {
+				controls_state = 119
+			}
+			NOT = {
+				controls_state = 134
+			}
+			NOT = {
+				controls_state = 135
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					OR = {
+						state = 113
+						state = 119
+						state = 134
+						state = 135
+					}
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+
+				#Extra fort on naval bases
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = IRE_expand_the_air_corps
+		icon = GFX_goal_generic_air_doctrine
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_refurbish_airframes
+		}
+		x = 19
+		y = 1
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			air_experience = 25
+			random_state = {				
+				limit = {
+					has_state_flag = IRE_expandaf_AB
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = IRE_expand_the_air_corps
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+
+		completion_reward = {
+			air_experience = 25
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = IRE_expandaf_AB
+			}
+			add_tech_bonus = {
+				name = IRE_expand_the_air_corps
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_naval_bombers
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_coastal_forts
+			focus = IRE_expand_the_air_corps
+		}
+		x = 16
+		y = 3
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRE_naval_bombers
+				bonus = 0.50
+				uses = 2
+				category = naval_air
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_fighter_effort
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_expand_the_air_corps
+		}
+		mutually_exclusive = {
+			focus = IRE_bomber_effort
+		}
+		x = 18
+		y = 3
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRE_fighter_effort
+				bonus = 0.5
+				uses = 1
+				category = light_fighter
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_bomber_effort
+		icon = GFX_goal_generic_air_bomber
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_expand_the_air_corps
+		}
+		mutually_exclusive = {
+			focus = IRE_fighter_effort
+		}
+		x = 20
+		y = 3
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRE_bomber_effort
+				bonus = 0.50
+				uses = 1
+				category = cat_strategic_bomber
+				category = tactical_bomber
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_modern_fighters
+		icon = GFX_goal_generic_air_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_fighter_effort
+			focus = IRE_bomber_effort
+		}
+		x = 18
+		y = 4
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRE_modern_fighters
+				bonus = 0.5
+				uses = 2
+				technology = early_fighter
+				technology = fighter1
+				technology = fighter2
+				technology = fighter3
+				category = cat_heavy_fighter
+			}
+		}
+	}
+	focus = {
+		id = IRE_heavy_bombers
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_bomber_effort
+			focus = IRE_fighter_effort
+		}
+		x = 20
+		y = 4
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRE_heavy_bombers
+				bonus = 0.5
+				uses = 2
+				category = cat_strategic_bomber
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_bord_na_mona
+		icon = GFX_goal_continuous_research
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_trunk_road_system
+		}
+		x = 22
+		y = 1
+		ai_will_do = {
+			factor = 40
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = IRE_bord_na_mona_IC
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = IRE_bord_na_mona_IC
+			}
+		}
+	}
+	focus = {
+		id = IRE_ardnacrusha_dam
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_trunk_road_system
+		}
+		x = 24
+		y = 1
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					135 = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+				}
+				135 = {
+					add_extra_state_shared_building_slots = 2
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_eire_steel
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_trunk_road_system
+		}
+		x = 26
+		y = 1
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			controls_state = 113 
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			113 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+	}
+	focus = {
+		id = IRE_board_of_economic_dvlp
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_bord_na_mona
+		}
+		prerequisite = {
+			focus = IRE_ardnacrusha_dam
+		}
+		prerequisite = {
+			focus = IRE_eire_steel
+		}
+		x = 24
+		y = 2
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = IRE_bed_IC1
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 113 119 }
+				limit = {				
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = IRE_bed_IC1
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_FEE
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_board_of_economic_dvlp
+		}
+		x = 23
+		y = 3
+		cost = 10
+
+		ai_will_do = {
+			factor = 40
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRE_FEE
+				bonus = 0.75
+				uses = 1
+				category = synth_resources
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_workforce_mobilization
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_board_of_economic_dvlp
+		}
+		x = 25
+		y = 3
+		ai_will_do = {
+			factor = 25
+		}
+
+		available {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no		
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = IRE_workforce_mobilization_AF
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 113 119 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = IRE_workforce_mobilization_AF
+			}
+		}
+	}
+	focus = {
+		id = IRE_automatic_rifle
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_army_restructuring
+		}
+		x = 28
+		y = 1
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRE_automatic_rifle
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_armaments_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_automatic_rifle
+		}
+		x = 28
+		y = 2
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 2
+				has_completed_focus = IRE_workforce_mobilization
+			}
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = IRE_armaments_industry_AF
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 113 119 134 135 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = IRE_armaments_industry_AF
+			}
+		}
+	}
+	focus = {
+		id = IRE_a_fhionnuisce_cheilteach
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_armaments_industry
+		}
+		x = 27
+		y = 3
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 2
+				has_completed_focus = IRE_FEE
+			}
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = IRE_phoenix_IC1
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = IRE_phoenix_AF
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 113 119 134 135 }
+				limit = {				
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = IRE_phoenix_IC1
+			}
+			random_owned_controlled_state = {
+				prioritize = { 113 119 134 135 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = IRE_phoenix_AF
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_fianoglach
+		icon = GFX_goal_generic_special_forces
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_armaments_industry
+		}
+		x = 29
+		y = 3
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRE_fianoglach
+				bonus = 0.50
+				uses = 2
+				category = marine_tech
+			}
+		}
+	}
+	focus = {
+		id = IRE_volunteer_army
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_truth_recon_comm
+		}
+		x = 2
+		y = 5
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = IRE_volunteer_army
+		}
+
+	}
+	focus = {
+		id = IRE_conscription
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_antifascist_suppression
+		}
+		x = 0
+		y = 5
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = IRE_conscription
+		}
+
+	}
+	focus = {
+		id = IRE_cruiser_effort
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_destroyer_effort
+			focus = IRE_submarine_effort
+		}
+		x = 11
+		y = 4
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRE_cruiser_effort
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cl_tech
+			}
+		}
+	}
+	focus = {
+		id = IRE_war_studies_center
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_FEE
+			focus = IRE_workforce_mobilization
+		}
+		x = 23
+		y = 4
+		ai_will_do = {
+			factor = 35
+		}
+
+		available = {
+			is_subject = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+
+	}
+	focus = {
+		id = IRE_university_dublin
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_war_studies_center
+		}
+		x = 23
+		y = 5
+		ai_will_do = {
+			factor = 35
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = IRE_native_landships
+		icon = GFX_focus_NZL_bob_semple_tank
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_army_restructuring
+		}
+		x = 30
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = IRE_native_landships
+			add_tech_bonus = {
+				name = IRE_native_landships
+				bonus = 0.5
+				uses = 1
+				technology = basic_light_tank
+			}
+		}
+	}
+	focus = {
+		id = IRE_advanced_landships
+		icon = GFX_goal_generic_army_tanks
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_native_landships
+		}
+		x = 30
+		y = 2
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRE_advanced_landships
+				bonus = 0.5
+				uses = 2
+				category = cat_light_armor
+			}
+		}
+
+	}
+	focus = {
+		id = IRE_artillery_focus
+		icon = GFX_goal_generic_army_artillery
+		cost = 10.00
+		prerequisite = {
+			focus = IRE_advanced_landships
+		}
+		x = 30
+		y = 4
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRE_artillery_focus
+				bonus = 0.50
+				uses = 1
+				category = artillery
+			}
+		}
+	}
+}

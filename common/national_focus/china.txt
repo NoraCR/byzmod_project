@@ -2168,7 +2168,7 @@ focus_tree = {
 			focus = CHI_east_china_sea
 		}
 		available = {
-			NOT = { has_war_with = PHI }
+			NOT = { has_war_with = "PHI" }
 			CHI = {
 				has_government = pangalism
 			}
@@ -2176,8 +2176,8 @@ focus_tree = {
 		x = 38
 		y = 3
 		completion_reward = {
-			#boost pangalism in PHI
-			PHI = {
+			#boost pangalism in "PHI"
+			"PHI" = {
 				add_timed_idea = { days = 730 idea = CHI_upr_nationalists } 
 			}
 			hidden_effect = {

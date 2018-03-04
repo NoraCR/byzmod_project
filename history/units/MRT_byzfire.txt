@@ -621,6 +621,24 @@ units = {
 		ship = { name = "Dipavati" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
 	}
 	navy = {
+		name = "2 Maratha Vegavana" 
+		base = 1273
+		location = 1273 # Goa
+		ship = { name = "Rajakota" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Surata" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } } 
+		ship = { name = "Mumba'i" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } } 
+		# 6 Nasa karanara Phadaphada
+		ship = { name = "Nishank" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Vibhuti" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Vipul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		# 7 Nasa karanara Phadaphada
+		ship = { name = "Vinash" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Vidyut" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Nashak" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Prabal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Pralaya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		}
+	navy = {
 		name = "Panabudi Vegavana" 
 		base = 3456
 		location = 3456 # Karachi

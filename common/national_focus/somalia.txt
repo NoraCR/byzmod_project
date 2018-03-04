@@ -1267,7 +1267,7 @@ focus_tree = {
 		}
 
 		available = {
-			PHI = {
+			"PHI" = {
 				exists = yes
 				NOT = { has_government = communism }
 			}
@@ -1282,9 +1282,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			PHI = {
+			"PHI" = {
 				custom_effect_tooltip = needs_approval
-					country_event = { id = somalia.300 hours = 12 }
+					country_event = { id = som.300 hours = 12 }
 			}
 			hidden_effect = {
 				news_event = { id = news.265 }

@@ -270,7 +270,7 @@ units = {
 air_wings = {
 	### ###
 	272 = {	#Senegal														
-		fighter_equipment_1 =  { owner = "GHA" amount = 32 }		
+		fighter_equipment_0 =  { owner = "GHA" amount = 60 }		
 		CAS_equipment_1 =  { owner = "GHA" amount = 48 }			
 		nav_bomber_equipment_1 =  { owner = "GHA" amount = 72 }		
 	}
