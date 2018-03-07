@@ -1,4 +1,4 @@
-division_template = {
+Ôªødivision_template = {
 	name = "Infanterie Division"
 
 	regiments = {
@@ -18,7 +18,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Alpenj‰ger Division"
+	name = "Alpenj√§ger Division"
 
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
@@ -48,7 +48,7 @@ division_template = {
 }
 
 units = {
-	##### ÷sterreichisches Bundesheer #####
+	##### √ñsterreichisches Bundesheer #####
 	# I Korps
 	division= {	
 		name = "Schnelle Division"
@@ -95,7 +95,7 @@ units = {
 	division= {	
 		name = "5. Division"			# Used to form 3. Gebirgs-division post-Anschluss
 		location = 9648  # Graz
-		division_template = "Alpenj‰ger Division"
+		division_template = "Alpenj√§ger Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
@@ -103,7 +103,7 @@ units = {
 	division= {	
 		name = "6. Division"			# Used to form 2. Gebirgs-division post-Anschluss
 		location = 9692  # Bratislava
-		division_template = "Alpenj‰ger Division"
+		division_template = "Alpenj√§ger Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
@@ -111,7 +111,7 @@ units = {
 	division= {	
 		name = "7. Division"			# Used to form 3. Gebirgs-division post-Anschluss
 		location = 688  # Salzburg
-		division_template = "Alpenj‰ger Division"
+		division_template = "Alpenj√§ger Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
@@ -120,7 +120,7 @@ units = {
 	division= {	
 		name = "8. Division"				# Used to form 2. Gebirgs-division post-Anschluss
 		location = 11666  # Vienna
-		division_template = "Alpenj‰ger Division"
+		division_template = "Alpenj√§ger Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
@@ -137,7 +137,7 @@ units = {
 	division= {	
 		name = "10. Division"			# Used to form 3. Gebirgs-division post-Anschluss
 		location = 11610  # Pecs
-		division_template = "Alpenj‰ger Division"
+		division_template = "Infanterie Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
@@ -145,7 +145,7 @@ units = {
 	division= {	
 		name = "11. Division"			# Used to form 2. Gebirgs-division post-Anschluss
 		location = 11663  # Budapest
-		division_template = "Alpenj‰ger Division"
+		division_template = "Infanterie Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
@@ -153,7 +153,7 @@ units = {
 	division= {	
 		name = "12. Division"			# Used to form 3. Gebirgs-division post-Anschluss
 		location = 9692  # Bratislava
-		division_template = "Alpenj‰ger Division"
+		division_template = "Alpenj√§ger Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
@@ -162,7 +162,7 @@ units = {
 	division= {	
 		name = "13. Division"				# Used to form 2. Gebirgs-division post-Anschluss
 		location = 6573  # Kosice
-		division_template = "Alpenj‰ger Division"
+		division_template = "Alpenj√§ger Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
@@ -170,7 +170,7 @@ units = {
 }
 
 air_wings = {
-	### Luftstreitkr‰fte -- Vienna (full air force, consolidated), CR.32 aircraft
+	### Luftstreitkr√§fte -- Vienna (full air force, consolidated), CR.32 aircraft
 	4 = {
 		fighter_equipment_1 =  {
 			owner = "AUS" 

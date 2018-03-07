@@ -1625,6 +1625,36 @@ focus_tree = {
 		}
 		x = 29
 		y = 4
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			SIA = { is_subject = yes }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			SIA = {
+					add_political_power = 100
+					add_idea = SIA_local_elites
+					add_autonomy_ratio = {
+					value = -0.05
+					localization = CHI_revert_to_local_elites
+					}
+			}
+		}
 
 	}
 	focus = {
@@ -1642,7 +1672,99 @@ focus_tree = {
 		ai_will_do = {
 			factor = 25
 		}
+		available = {
+			SIA = { is_subject = yes }
+		}
 
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			SIA = {
+				add_political_power = 100
+				add_idea = SIA_empower_cao
+				add_autonomy_ratio = {
+					value = 0.05
+					localization = CHI_empower_cao
+				}
+				add_opinion_modifier = { target = CHI modifier = aided_industry }
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = CHI_cao_focus_2IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = CHI_cao_focus_1IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = CHI_cao_focus_1dockyard
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = CHI_cao_focus_1dockyard
+				}
+			}
+		}
 	}
 	focus = {
 		id = CHI_asitelahan

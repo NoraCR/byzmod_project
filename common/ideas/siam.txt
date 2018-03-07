@@ -1,4 +1,52 @@
 ideas = {
+	country = {
+	
+		SIA_local_elites = {
+
+			picture = generic_production_bonus
+
+			allowed = {
+				original_tag = SIA
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					OR = {
+						has_government = communism
+						has_government = fascism
+					}
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				autonomy_gain = -0.4
+				consumer_goods_factor = -0.03
+			}
+		}
+		SIA_marginalized_locals = {
+		
+			picture = generic_morale_bonus
+
+			allowed = {
+				original_tag = SIA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				unity_factor = -0.1
+				conscription_factor = -0.2
+				autonomy_gain = -0.4
+			}
+		}
+	
+	}
 
 	political_advisor = {
 
