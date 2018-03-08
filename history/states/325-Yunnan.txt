@@ -13,13 +13,10 @@ state={
 	}
 
 	history={
-		owner = SIA
-		add_core_of = SIA
+		owner = CHI
+		add_core_of = CHI
 		victory_points = {
 			1319 10 
-		}
-		victory_points = {
-			7965 3 
 		}
 		buildings = {
 			infrastructure = 5
@@ -33,6 +30,6 @@ state={
 	}
 
 	provinces={
-		1114 1172 1196 1319 1383 1522 1653 4501 4559 4937 5009 7446 7606 7965 7976 8023 8126 10346 10413 10776 10863 12262 12282 12789 12898 
+		1114 1172 1196 1319 1383 1522 1653 4501 7446 7606 8023 10346 10776 12262 12282 
 	}
 }

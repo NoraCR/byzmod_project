@@ -2878,6 +2878,6 @@
  ir.12.desc:0 "After careful consideration, the Central Committee of the Comintern has approved our request for an alliance."
  ir.12.a:1 "[ROOT.GetNameDef] and [From.GetFactionName] will march side by side!"
  ir.13.t:0 "WPO Membership denied"
- ir.13.desc:0 "Our delegation had to endure a long lecture from the Chinese, explaining that a coutry as small as ours can not possibly be the kind of developed industrial nation that could produce a true market capitalist state. We are, apparently, something else. In any event, we can not be part of the WPO."
+ ir.13.desc:0 "Our delegation had to endure a long lecture from the Chinese, explaining that a country as small as ours can not possibly be the kind of developed industrial nation that could produce a true market capitalist state. We are, apparently, something else. In any event, we can not be part of the WPO."
  ir.13.a:0 "Perhaps they are the ones mistaken?"
  GAME_OVER_TT:0 "§RThe game will end for you.§!"
