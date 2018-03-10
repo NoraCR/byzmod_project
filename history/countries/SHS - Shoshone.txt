@@ -101,7 +101,11 @@ create_corps_commander = {
 	name = "Tsoangkaaya'a"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_9.dds"
 	traits = { trait_mountaineer }
-	skill = 4
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 

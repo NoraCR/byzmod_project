@@ -254,8 +254,12 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Ludwyk Weyher"
 	picture = "pol_ludwyk_weyher.dds"
-	traits = { offensive_doctrine logistics_wizard }
+	traits = { offensive_doctrine logistics_wizard harsh_leader }
 	skill = 5
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -263,6 +267,10 @@ create_corps_commander = {
 	picture = "pol_sebastian_furck.dds"
 	traits = { panzer_leader trait_engineer }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -270,11 +278,19 @@ create_corps_commander = {
 	picture= "pol_aleksander_karski.dds"
 	traits = {  trait_mountaineer }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander= {
 	name = "Czcibor Umiastowski"
 	picture = "pol_czcibor_umiastowski.dds"
 	traits = { urban_assault_specialist }
-	skill = 5
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }

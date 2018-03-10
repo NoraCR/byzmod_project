@@ -4,7 +4,7 @@ oob = "GHA_byzfire"
 
 set_research_slots = 3
 
-set_national_unity = 0.9
+set_stability = 0.8
 
 # Starting tech
 set_technology = {
@@ -151,18 +151,30 @@ create_field_marshal = {
 	picture = "Portrait_Britain_Alan_Brooke.dds"
 	traits = { offensive_doctrine defensive_doctrine }
 	skill = 5
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
 }
 create_corps_commander = {
 	name = "Kwasí Omenaa"
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-	traits = {  }
+	traits = { career_officer infantry_officer }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
 }
 create_corps_commander = {
 	name = "Amacheah Ozoemena" #female
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
-	traits = {  }
-	skill = 2
+	traits = { desert_fox }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 1
 }
 create_navy_leader = {
 	name = "Ajwoba Owoahene" #female

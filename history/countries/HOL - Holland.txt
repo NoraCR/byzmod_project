@@ -109,7 +109,8 @@ set_politics = {
 }
 
 set_convoys = 500
-set_national_unity = 0.75
+set_stability = 0.75
+set_war_support = 0.3
 
 create_country_leader = {
 	name = "Corneel Wolters Knipen Maatmans"
@@ -168,8 +169,12 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Annalies den Ouden" #female
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	traits = { panzer_leader fortress_buster }
+	traits = { armor_officer fortress_buster }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
 }
 
 create_navy_leader = {

@@ -126,14 +126,22 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Zuva Mutambara" #female
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
-	traits = {  }
+	traits = { infantry_officer }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
 }
 create_corps_commander = {
 	name = "Dakarai Mathema" #female
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
-	traits = {  }
+	traits = { cavalry_officer }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 create_navy_leader = {
 	name = "Zvionere Chikerema"

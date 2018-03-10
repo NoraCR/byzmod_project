@@ -3,6 +3,8 @@
 set_research_slots = 4
 
 oob = "AYI_byzfire"
+set_stability = 0.45
+set_war_support = 0 
 
 # Starting tech
 set_technology = {
@@ -37,7 +39,6 @@ set_technology = {
 }
 
 set_convoys = 400
-set_national_unity = 0.6
 
 set_politics = {
 
@@ -117,6 +118,10 @@ create_field_marshal = {
 		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	traits = {  defensive_doctrine }
 	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Imotonex Daguao"
@@ -127,50 +132,82 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Macuya Cueba"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
-	traits = {   }
+	traits = { organizer offensive_doctrine trait_cautious }
 	skill = 5
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 5
 }
 create_corps_commander = {
 	name = "Attakullakulla Echoy"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = {   }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Sugmuk Mesheketeno"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { }
+	traits = { trait_cautious brilliant_strategist harsh_leader }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 4
 }
 create_corps_commander = {
 	name = "Wambli-Waste Mdewakanton"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = {  }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Unaduti Watauga"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { trickster  }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Seiichi Sasahara"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { trickster }
 	skill = 4
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Seán Galligan"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	traits = { fortress_buster }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Kathrin Möhring"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = { }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
 }
 create_navy_leader = {
 	name = "Iftiin Khalif Abdi Dhala"

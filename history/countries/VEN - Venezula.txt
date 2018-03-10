@@ -161,8 +161,12 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Cristóbal Moya-Zhen" 
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	traits = { }
+	traits = { infantry_officer }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
 }
 
 create_navy_leader = {

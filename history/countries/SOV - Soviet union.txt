@@ -158,7 +158,8 @@ set_technology = {
 
 
 set_convoys = 50
-set_national_unity = 0.55
+set_stability = 0.35
+set_war_support = 0.3
 
 set_politics = {
 
@@ -253,16 +254,23 @@ create_field_marshal = {
 	name = "Yeremey Kalyagin"
 	id = 405
 		picture = "Portrait_Soviet_Kliment_Voroshilov.dds"
-	traits = { old_guard  }
-	skill = 1	
+	traits = { old_guard infantry_officer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1	
 }
 
 create_field_marshal = {
 	name = "Konstantin Mukhomorov"
 		picture = "Portrait_Soviet_Semyon_Budyonny.dds"
-	traits = { old_guard }
+	traits = { old_guard politically_connected }
 	skill = 1
-
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
 	
 }
 create_corps_commander = {
@@ -270,6 +278,10 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Ivan_Chernyakhovsky.dds"
 	traits = {  }
 	skill = 1 
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -277,13 +289,21 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Issa_Pliyev.dds"
 	traits = {  }
 	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Karina Derzhavina"
 		picture = "Portrait_Soviet_Leonid_Govorov.dds"
-	traits = {   }
+	traits = { infantry_officer }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
 }
 
 create_field_marshal = {
@@ -291,54 +311,76 @@ create_field_marshal = {
 		picture = "Portrait_Soviet_Grigory_Kulik.dds"
 	traits = { old_guard }
 	skill = 1	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Mikhail Ponchikov"
 		picture = "Portrait_Soviet_Filipp_Golikov.dds"
-	traits = {  }
-	skill = 3	
+	traits = { politically_connected cavalry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Daria Shcherbina"
 		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
 	traits = {  }
-	skill = 1 	
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1 	
 }
 create_corps_commander = {
 	name = "Arseni Krupin"
 		picture = "Portrait_Soviet_Georgiy_Zakharov.dds"
 	traits = {  }
-	skill = 1 
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1	
 }
 
 create_corps_commander = {
 	name = "Panteley Meshcheryakov"
 		picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
-	traits = {  }
-	skill = 3	
+	traits = { career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1	
 }
 
 create_corps_commander = {
 	name = "Osip Pomelov"
 		picture = "Portrait_Soviet_Max_Andreyevich.dds"
-	traits = {  }
+	traits = { inflexible_strategist }
 	skill = 1	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 create_corps_commander = {
 	name = "Yuliya Laskutina"
 		picture = "Portrait_Soviet_Andrey_Vlasov.dds"
-	traits = { winter_specialist }
-	skill = 3	
+	traits = { infantry_officer winter_specialist }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1	
 }
 
-create_corps_commander = {
-	name = "Alexander Tarnovetsky"
-		picture = "Portrait_Soviet_Alexander_Gorbatov.dds"
-	traits = {  }
-	skill = 3
-}
 create_navy_leader = {
 	name = "Ekaterina Zubova"
 	id = 409

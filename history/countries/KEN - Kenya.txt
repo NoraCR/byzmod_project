@@ -144,8 +144,12 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Mũngania Gathongo" 
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
-	traits = {  }
-	skill = 2
+	traits = { trait_cautious }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
 }
 create_navy_leader = {
 	name = "Pantoleon Kereenyaga" 

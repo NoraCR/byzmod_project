@@ -110,6 +110,10 @@ create_field_marshal = {
 	portrait_path = "gfx/leaders/CZE/cze_vladan_zukal.dds"
 	traits = { defensive_doctrine }
 	skill = 3
+	attack_skill = 2
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -117,4 +121,8 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = { trait_mountaineer }
 	skill = 3
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
 }

@@ -205,12 +205,20 @@ create_field_marshal = {
 	portrait_path = "gfx/leaders/IRE/ire_eoin_aiken.dds"
 	traits = { defensive_doctrine }
 	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
 }
 create_corps_commander = {
 	name = "Deirdre O'Mahony" #female
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	traits = { fortress_buster }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
 }
 
 create_navy_leader = {

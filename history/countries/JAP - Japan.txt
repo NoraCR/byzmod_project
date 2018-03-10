@@ -3,6 +3,7 @@
 oob = "JAP_byzfire"
 
 set_national_unity = 0.80
+set_war_support = 0.35
 
 set_research_slots = 4
 
@@ -140,15 +141,23 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Moriyama Gennosuke"
 		picture = "jpn_general_gennosuke_moriyama.tga"
-	traits = { }
+	traits = { trickster trait_engineer }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_field_marshal = {
 	name = "Matsudaira Tsukasa" #female
 	picture = "jpn_marshal_tsuka_matsudaira.tga"
-	traits = { offensive_doctrine }
+	traits = { offensive_doctrine politically_connected }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_field_marshal = {
@@ -156,26 +165,42 @@ create_field_marshal = {
 		picture = "jpn_marshal_otojiro_ogasawara.tga"
 	traits = { offensive_doctrine }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Hayashi Misao"
 		picture = "jpn_general_misao_hayashi.tga"
-	traits = { trickster }
+	traits = { trickster career_officer infantry_officer }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
 }
 create_corps_commander = {
 	name = "Tanegashima Enko" #female
 		picture = "jpn_general_enko_tanegashima.tga"
 	traits = {  }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Utsunomiya Reisa" #female
 		picture = "jpn_general_reisa_utsunomiya.tga"
-	traits = {  }
+	traits = { brilliant_strategist infantry_officer }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -183,13 +208,21 @@ create_corps_commander = {
 		picture = "jpn_general_isono_nitta.tga"
 	traits = {  }
 	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Imagawa Seinosuke"
 		picture = "jpn_general_seinosuke_imagawa.tga"
 	traits = {  }
-	skill = 3
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -197,38 +230,62 @@ create_corps_commander = {
 		picture = "jpn_general_hirohisa_kinunui.tga"
 	traits = {  }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Kagawa Yaeko" #female
 		picture = "jpn_general_yaeko_kagawa.tga"
-	traits = { trickster }
+	traits = { trickster trait_reckless infantry_officer }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
 }
 create_corps_commander = {
 	name = "Liu Guanting"
 		picture = "jpn_general_liu_guanting.tga"
 	traits = {  }
-	skill = 4
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Isonash Niputay"
 		picture = "jpn_general_isonash_niputay.tga"
-	traits = {  }
+	traits = { cavalry_officer career_officer }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Park Tae-yeon" #female
 		picture = "jpn_general_park_tae-yeon.tga"
 	traits = { trickster }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Shimabuku Tomi" #female
 		picture = "jpn_general_tomi_shimabuku.tga"
-	traits = {  }
+	traits = { fortress_buster career_officer politically_connected }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -236,12 +293,20 @@ create_corps_commander = {
 		picture = "jpn_general_hideyori_mitsuwa.tga"
 	traits = { trickster }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Lau Akemi" #female
 		picture = "jpn_general_akemi_lau.tga"
 	traits = { trickster trait_engineer }
 	skill = 5
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
 }
 
 create_navy_leader = {

@@ -3,6 +3,8 @@
 oob = "FRA_byzfire"
 
 set_research_slots = 4
+set_stability = 0.75
+set_war_support = 0.5
 
 # Starting tech
 set_technology = {
@@ -60,7 +62,6 @@ add_to_faction = POL
 add_to_faction = POR
 
 set_convoys = 300
-set_national_unity = 0.75
 
 if = {
 	limit = {
@@ -184,15 +185,23 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Alexandrine Chapuis Invicta"
 	picture = "fra_general_alexandrine_chapuis_invicta.tga"
-	traits = { trickster }
+	traits = { trickster trait_reckless }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Andreas Jacquemond Fortunatus"
 	picture = "fra_general_andreas_jacquemoud_fortunatus.tga"
-	traits = { panzer_leader  }
+	traits = { panzer_leader trickster brilliant_strategist }
 	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
 }
 
 create_field_marshal = {
@@ -200,13 +209,21 @@ create_field_marshal = {
 	picture = "fra_valeria_postuma.dds"
 	traits = { defensive_doctrine offensive_doctrine }
 	skill = 5
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
 }
 
 create_corps_commander = {
 	name = "Aubertus Brosseau Berolinicus"
 	picture = "fra_general_aubertus_brosseau_berolinicus.tga"
 	traits = { panzer_leader fortress_buster trait_engineer }
-	skill =4
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
 }
 
 create_field_marshal = {
@@ -214,13 +231,21 @@ create_field_marshal = {
 	picture = "fra_marshal_augustine_guilbert_germanica.tga"
 	traits = { offensive_doctrine }
 	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 3
 }
 
 create_field_marshal = {
 	name = "Laurentin Vannier Rhenanicus"
 	picture = "fra_marshal_laurentin_vannier_rhenanicus.tga"
-	traits = { offensive_doctrine }
+	traits = { offensive_doctrine harsh_leader politically_connected }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -228,48 +253,76 @@ create_corps_commander = {
 	picture = "fra_general_claude_charbonnier_pomeranicus.tga"
 	traits = {  panzer_leader }
 	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Constantin Bruix Lupus"
 	picture = "fra_general_constantin_bruix_lupus.tga"
-	traits = {  panzer_leader }
+	traits = {  panzer_leader trait_reckless }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Cornélie Lemaire Mogontica"
 	picture = "fra_general_cornelie_lemaire_mogontica.tga"
-	traits = {  panzer_leader fortress_buster }
+	traits = {  panzer_leader fortress_buster harsh_leader }
 	skill = 5
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Élise Hardouineau Holsatica"
 	picture = "fra_general_elisa_hardouineau_holsatica.tga"
-	traits = {  panzer_leader }
+	traits = {  infantry_leader }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Eulalie Parmentier Saxonica"
 	picture = "fra_general_eulalie_parmentier_saxonica.tga"
-	traits = {  panzer_leader }
+	traits = {  infantry_leader trait_reckless }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Isolda Dieudonné Vestfalica"
 	picture = "fra_general_isolda_dieudonne_vestfalica.tga"
-	traits = {  panzer_leader }
+	traits = {  panzer_leader trait_reckless career_officer }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Jérôme Caillat Urbicus"
 	picture = "fra_general_jerome_caillat_urbicus.tga"
-	traits = {  fortress_buster }
+	traits = {  fortress_buster trait_reckless }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -277,6 +330,10 @@ create_corps_commander = {
 	picture = "fra_general_julien_ceska_lipa_tremonicus.tga"
 	traits = {  trickster }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -284,6 +341,10 @@ create_corps_commander = {
 	picture = "fra_general_marc_antoine_rossignol_celer.tga"
 	traits = {  panzer_leader }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -291,6 +352,10 @@ create_corps_commander = {
 	picture = "fra_general_marie-jeanne_binot_fortissima.tga"
 	traits = { trait_engineer fortress_buster }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -298,20 +363,32 @@ create_corps_commander = {
 	picture = "fra_general_mathieu_philippon_corvus.tga"
 	traits = {  trickster }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Thérèse Blondeau Vormatia"
 	picture = "fra_general_therese_blondeau_vormatica.tga"
-	traits = {  panzer_leader }
+	traits = {  panzer_leader trait_reckless }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Victoire Lefort Hanseatica"
 	picture = "fra_general_victoire_lefort_hanseatica.tga"
-	traits = { trickster }
+	traits = { trickster  harsh_leader }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_navy_leader = {

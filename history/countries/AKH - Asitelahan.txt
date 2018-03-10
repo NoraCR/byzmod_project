@@ -39,8 +39,6 @@ set_technology = {
 
 set_convoys = 200
 
-set_national_unity = 0.5
-
 set_politics = {
 
 	parties = {
@@ -163,6 +161,10 @@ create_field_marshal = {
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { defensive_doctrine }
 	skill = 4
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
 }
 
 create_field_marshal = {
@@ -170,6 +172,10 @@ create_field_marshal = {
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
 	traits = { offensive_doctrine }
 	skill = 3
+	attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -177,6 +183,10 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	traits = {  ranger }
 	skill = 3
+	attack_skill = 3
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -184,6 +194,10 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	traits = { trait_mountaineer }
 	skill = 2
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -191,6 +205,10 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	traits = { desert_fox panzer_leader }
 	skill = 5
+	attack_skill = 5
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
 }
 
 create_navy_leader = {

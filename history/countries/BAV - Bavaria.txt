@@ -45,7 +45,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_national_unity = 0.50
+set_stability = 0.40
 
 create_country_leader = {
 	name = "Wolfgang von Adelshausen"
@@ -106,10 +106,18 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { trait_mountaineer trickster }
 	skill = 2
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
 }
 create_corps_commander = {
 	name = "Apollonia Perghauser zu Weichs" #female
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = {  }
 	skill = 1
+	attack_skill = 1
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 1
 }

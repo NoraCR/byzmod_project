@@ -62,7 +62,8 @@ set_technology = {
 
 
 set_convoys = 400
-set_national_unity = 0.8
+set_stability = 0.8
+set_war_support = 0.3
 
 set_politics = {
 
@@ -175,8 +176,12 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Anteros Cyrahzax"
 	picture = "byz_general_anteros_cyrahzax.tga"
-	traits = { old_guard trait_mountaineer }
+	traits = { old_guard trait_mountaineer career_officer }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_field_marshal = {
@@ -184,20 +189,32 @@ create_field_marshal = {
 	picture = "byz_marshal_louis_barthas.tga"
 	traits = { defensive_doctrine inspirational_leader }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
 }
 
 create_field_marshal = {
 	name = "Theodora Papadopolou"
 	picture = "byz_marshal_theodora_padapolous.tga"
-	traits = { offensive_doctrine defensive_doctrine old_guard }
+	traits = { brilliant_strategist defensive_doctrine old_guard war_hero career_officer }
 	skill = 5
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 4
+	logistics_skill = 4
 }
 
 create_field_marshal = {
 	name = "Unver Hayrettin"
 	picture = "byz_marshal_unver_hayrettin.tga"
-	traits = { defensive_doctrine logistics_wizard }
+	traits = { defensive_doctrine logistics_wizard trait_cautious politically_connected }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -205,20 +222,32 @@ create_corps_commander = {
 	picture = "bzy_general_isidora_straikopoula.tga"
 	traits = { old_guard trait_engineer }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Zdravko Savic"
 	picture = "byz_general_zdravko_savic.tga"
-	traits = { trait_engineer naval_invader }
+	traits = { trait_engineer naval_invader trait_reckless }
 	skill = 2
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Adrian Katselis-Kurya"
 	picture = "byz_general_adrian_katselis-kurya.tga"
-	traits = {  }
+	traits = { armor_officer career_officer trait_cautious }
 	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -226,6 +255,10 @@ create_corps_commander = {
 	picture = "byz_general_antigone_tassi.tga"
 	traits = { trickster old_guard }
 	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -233,6 +266,10 @@ create_corps_commander = {
 	picture = "byz_general_atanas_mladenov.tga"
 	traits = { old_guard }
 	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -240,6 +277,10 @@ create_corps_commander = {
 	picture = "byz_general_dajad_malkhassian.tga"
 	traits = { ranger }
 	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -247,13 +288,21 @@ create_corps_commander = {
 	picture = "byz_general_valentina_ha.tga"
 	traits = { trait_mountaineer winter_specialist hill_fighter }
 	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Serhan Cavdarli"
 	picture = "byz_general_serhan_cavdarli.tga"
-	traits = { hill_fighter old_guard }
+	traits = { hill_fighter trait_cautious old_guard }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -261,6 +310,10 @@ create_corps_commander = {
 	picture = "byz_general_salvatore_marchegiano.tga"
 	traits = { old_guard }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -268,35 +321,54 @@ create_corps_commander = {
 	picture = "byz_general_safiye_uygun.tga"
 	traits = { old_guard }
 	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Gavriel Halevi"
 	picture = "byz_general_gavriel_halevi.tga"
-	traits = { desert_fox }
-	skill = 2
+	traits = { desert_fox trait_reckless media_personality }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Palatino Badalementi"
 	picture = "byz_general_palatino_badalementi.tga"
-	traits = {  }
+	traits = { politically_connected inflexible_strategist }
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Flaminia Montemarano"
 	picture = "byz_general_flaminia_montemarano.tga"
-	traits = {  }
+	traits = { brilliant_strategist infantry_officer }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
-
 
 create_corps_commander = {
 	name = "Evangeline Hira"
 	picture = "byz_general_evangeline_hira.tga"
 	traits = {  }
 	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -304,13 +376,21 @@ create_corps_commander = {
 	picture = "byz_general_eudokia_akinyi.tga"
 	traits = { hill_fighter trickster }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Esra Cevdet"
 	picture = "byz_general_esra_cevdet.tga"
 	traits = {  }
-	skill = 2
+	skill = 
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_navy_leader = {

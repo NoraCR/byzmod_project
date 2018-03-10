@@ -45,7 +45,8 @@ set_technology = {
 
 
 set_convoys = 400
-set_national_unity = 0.6
+set_stability = 0.6
+set_war_support = 0.4
 
 set_politics = {
 
@@ -140,8 +141,12 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Cumar Cabdullahi Ugas"
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
-	traits = { defensive_doctrine old_guard }
+	traits = { defensive_doctrine old_guard trait_cautious }
 	skill = 2
+	attack_skill = 1
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -154,34 +159,54 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Berehanu Gedeyon" #Ethiopian
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
-	traits = {  panzer_leader }
+	traits = { armor_officer war_hero }
 	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Hufane Huruuse Mursal"
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
-	traits = {  }
+	traits = { career_officer }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Caaqil Maxamuud Naaleeye"
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-	traits = {  }
+	traits = { politically_connected trait_cautious }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
 }
 create_corps_commander = {
 	name = "Abdirashid Moalim Idiris"
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-	traits = {  }
+	traits = { politically_connected }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Fadumma Farah Haid" #female
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-	traits = {  }
+	traits = { politically_connected }
 	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
 }
 
 create_navy_leader = {

@@ -130,6 +130,10 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	traits = {  }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
 }
 create_navy_leader = {
 	name = "Melinda Nomandla"

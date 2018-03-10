@@ -165,12 +165,20 @@ create_field_marshal = {
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	traits = { defensive_doctrine logistics_wizard }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 4
 }
 create_corps_commander = {
 	name = "Zahir Al-Muhaya"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { desert_fox trait_engineer panzer_leader }
 	skill = 5
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_navy_leader = {

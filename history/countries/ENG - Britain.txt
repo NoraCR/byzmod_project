@@ -4,7 +4,8 @@ oob = "ENG_byzfire"
 
 set_research_slots = 4
 
-set_national_unity = 0.6
+set_stability = 0.6
+set_war_support = 0.1
 
 # Starting tech
 set_technology = {
@@ -78,7 +79,6 @@ set_convoys = 800
 
 	give_guarantee = POL
 	
-	set_national_unity = 0.8
 	oob = "ENG_1939"
 	set_technology = {
 		fighter1 = 1

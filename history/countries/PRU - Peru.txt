@@ -145,14 +145,22 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Sumak Guañuna Soncco"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { trickster  }
+	traits = { trickster infantry_officer  }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Qhapaqyupanki Jaillita Chamba" #female
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 1939.1.1 = {
 	set_politics = {

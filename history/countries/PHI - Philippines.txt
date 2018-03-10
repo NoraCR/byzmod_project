@@ -171,15 +171,23 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Megawati" #Javanese, female
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-	traits = { }
+	traits = { infantry_officer }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Ade Utari Sasmita"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-	traits = { desert_fox }
+	traits = { desert_fox trait_reckless }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_navy_leader = {

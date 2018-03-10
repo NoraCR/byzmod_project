@@ -195,9 +195,13 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Maphikelela Dumisane"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { desert_fox  }
+	portrait_path = "gfx/leaders/Afrika/Portrait_Africa_Generic_land_3.dds"
+	traits = { desert_fox infantry_officer }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
 }
 
 create_navy_leader = {

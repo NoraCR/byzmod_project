@@ -74,7 +74,7 @@ if = {
 }
 
 set_convoys = 400
-set_national_unity = 0.6
+set_stability = 0.6
 
 set_politics = {
 
@@ -198,90 +198,150 @@ create_field_marshal = {
 	picture = "chi_marshal_mei_zuoteng.png"
 	traits = { offensive_doctrine logistics_wizard }
 	skill = 5
+	attack_skill = 5 
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 4
 }
 create_field_marshal = {
 	name = "Feng Dalei"
 	picture = "chi_marshal_feng_dalei.png"
 	traits = { offensive_doctrine }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
 }
 create_field_marshal = {
 	name = "Yin Mengyu" #female
 	picture = "chi_marshal_yin_mengyu.png"
-	traits = { }
+	traits = { brilliant_strategist harsh_leader }
 	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 5
 }
 create_field_marshal = {
 	name = "Wang Chengdong"
 	picture = "chi_marshal_wang_chengdong.png"
 	traits = { defensive_doctrine }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Ma Xiaobin"
 	picture = "chi_general_ma_xiaobin.png"
 	traits = { }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Zheng Jitian"
 	picture = "chi_general_zheng_jitian.png"
-	traits = { }
+	traits = { infantry_officer inflexible_strategist }
 	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }
 create_corps_commander = {
 	name = "Jia Tiansheng"
 	picture = "chi_general_jia_tiansheng.png"
-	traits = { }
+	traits = { career_officer infantry_officer }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
 }
 create_corps_commander = {
 	name = "Ha Rongzhao" #female
 	picture = "chi_general_hong_rongzhao.png"
-	traits = { panzer_leader }
+	traits = { armor_officer politically_connected brilliant_strategist trait_reckless }
 	skill = 5
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
 }
 create_corps_commander = {
 	name = "Cai Wenli" #female
 	picture = "chi_general_cai_wenli.png"
-	traits = { }
+	traits = { trait_engineer commando }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Sakda hala-i Abahai" #Manchu, female
 	picture = "chi_general_sakda_hala-i_abahai.png"
 	traits = { hill_fighter }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Ma Yahui"
 	picture = "chi_general_ma_yahui.png"
-	traits = { trait_engineer }
+	traits = { trait_engineer trickster }
 	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Otgonbayar Garamjav" #Mongol
 	picture = "chi_general_otgonbayar_garamjav.png"
 	traits = { trickster winter_specialist }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Gul Agha Bakhwal" #Pashtun
 	picture = "chi_general_gul_agha_bakhwal.png"
 	traits = { commando }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
 }
 create_corps_commander = {
 	name = "Ma Baogui"
 	picture = "chi_general_ma_baogui.png"
 	traits = { }
 	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Maxamad Cabdulle Jilicow"
 	picture = "chi_general_maxamad_cabdulle_jilicow.png"
-	traits = { }
+	traits = { commando infantry_officer }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_navy_leader = {
 	name = "Ma Weiming"

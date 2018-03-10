@@ -92,7 +92,7 @@ set_politics = {
 	elections_allowed = yes
 }
 
-set_national_unity = 0.8
+set_stability = 0.8
 
 create_country_leader = {
 	name = "Ilhicamina Tonatiuh"
@@ -192,6 +192,10 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	traits = { }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -199,6 +203,10 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 	traits = { desert_fox }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
 }
 
 create_navy_leader = {

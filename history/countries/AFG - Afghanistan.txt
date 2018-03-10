@@ -161,6 +161,11 @@ create_field_marshal = {
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_9.dds"
 	traits = { defensive_doctrine inspirational_leader }
 	skill = 4
+	attack_skill = 2
+    defense_skill = 5
+    planning_skill = 3
+    logistics_skill = 2
+	
 }
 
 create_corps_commander = {
@@ -168,6 +173,10 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = { desert_fox trait_mountaineer hill_fighter }
 	skill = 4
+	attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
 }
 
 1939.1.1 = {

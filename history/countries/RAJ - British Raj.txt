@@ -220,14 +220,22 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Nithushayan Aranarivan"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	traits = { logistics_wizard  }
+	traits = { logistics_wizard defensive_doctrine }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
 }
 create_corps_commander = {
 	name = "Bankimchandra Vidyasagar"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	traits = { trickster  }
 	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 
 }
 create_corps_commander = {
@@ -235,12 +243,20 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	traits = { urban_assault_specialist }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
 	
 }
 create_corps_commander = {
 	name = "Udhayathara Visvaamithan" #female
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	traits = {  }
+	traits = { hill_fighter }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 1
 
 }

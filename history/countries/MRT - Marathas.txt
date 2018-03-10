@@ -3,6 +3,8 @@
 oob = "MRT_byzfire"
 
 set_research_slots = 3
+set_stability = 0.65
+set_war_support = 0.3
 
 # Starting tech
 set_technology = {
@@ -39,7 +41,6 @@ set_technology = {
 
 
 set_convoys = 75
-set_national_unity = 0.65
 
 set_politics = {
 
@@ -127,49 +128,81 @@ create_field_marshal = {
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { defensive_doctrine }
 	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
 }
 create_field_marshal = {
 	name = "Rishma Sharqi" 
 	portrait_path = "mrt_rishma_sharqi.tga"
-	traits = { }
+	traits = { politically_connected media_personality }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Aruna Vrishchika" #female
 	picture = "Portrait_Soviet_Gregory_Zhukov.dds"
-	traits = { desert_fox }
+	traits = { desert_fox armor_officer }
 	skill = 5
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
 }
 create_corps_commander = {
 	name = "Amrit Barvadekar"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
-	traits = { }
+	traits = { trait_cautious career_officer }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Chandavarman Visaria"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
-	traits = { }
+	traits = { infantry_officer trait_reckless }
 	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
 }
 create_corps_commander = {
 	name = "Takshak Acharya"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	traits = { old_guard }
 	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Narasimha Sharqi"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { old_guard }
+	traits = { old_guard infantry_officer }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Gul Warin Chamkanni"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	traits = { trait_engineer }
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_navy_leader = {
