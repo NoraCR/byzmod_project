@@ -40,7 +40,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				unity_factor = -0.1
+				stability_factor = -0.1
 				conscription_factor = -0.2
 				autonomy_gain = -0.4
 			}

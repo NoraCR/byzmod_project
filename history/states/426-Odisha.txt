@@ -4,7 +4,7 @@ state={
 	name="STATE_426" # Orissa
 	manpower = 14520100
 	
-	state_category = megalopolis
+	state_category = metropolis
 	
 	resources={
 		steel=44
@@ -16,6 +16,9 @@ state={
 		owner = RAJ
 		add_core_of = RAJ
 		add_core_of = MRT
+		victory_points = {
+			1059 30 
+		}
 		buildings = {
 			infrastructure = 8
 			arms_factory = 5
@@ -26,9 +29,7 @@ state={
 		}
 
 	}
-		victory_points = {
-			1059 30 
-		}
+
 	provinces={
 		1059 1101 1538 1579 1622 4104 4237 4513 7090 7372 7428 7465 9946 10001 10060 10088 10116 10171 10255 10428 10469 11924 11978 12063 12241 12462 12490 
 	}

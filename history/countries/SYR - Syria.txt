@@ -15,7 +15,7 @@ set_technology = {
 	gw_artillery = 1
 	interwar_artillery = 1
 	synth_oil_experiments = 1
-	oil_plant = 1
+	oil_processing = 1
 	early_fighter = 1
 }
 
@@ -62,8 +62,8 @@ set_convoys = 5
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
+		oil_processing = 1
+		improved_oil_processing = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1

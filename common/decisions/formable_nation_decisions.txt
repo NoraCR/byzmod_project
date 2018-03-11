@@ -2512,6 +2512,7 @@ form_rattanakosin_kingdom_category = {
 
 		visible = {
 			original_tag = SIA
+			has_government = fascism
 			NOT = { has_global_flag = form_rattanakosin_kingdom_flag }
 		}
 

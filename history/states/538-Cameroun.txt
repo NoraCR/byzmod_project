@@ -4,12 +4,12 @@ state={
 	name="STATE_538" # Central Congo
 	manpower = 1693974
 	
-	state_category = wasteland
+	state_category = rural
 
 	history={
 		owner = ENG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 		}
 	add_core_of = COG
 	}

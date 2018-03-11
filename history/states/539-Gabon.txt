@@ -15,7 +15,7 @@ state={
 		}
 		add_core_of = COG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 1
 			air_base = 1
 			5139 = {

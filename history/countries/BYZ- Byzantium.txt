@@ -53,6 +53,7 @@ set_technology = {
 	fleet_in_being = 1
 	basic_machine_tools = 1
 	electronic_mechanical_engineering = 1
+	oil_processing = 1
 	synth_oil_experiments = 1
 
 }
@@ -200,10 +201,10 @@ create_field_marshal = {
 	picture = "byz_marshal_theodora_padapolous.tga"
 	traits = { brilliant_strategist defensive_doctrine old_guard war_hero career_officer }
 	skill = 5
-	attack_skill = 4
+	attack_skill = 5
 	defense_skill = 7
 	planning_skill = 4
-	logistics_skill = 4
+	logistics_skill = 5
 }
 
 create_field_marshal = {
@@ -386,7 +387,7 @@ create_corps_commander = {
 	name = "Esra Cevdet"
 	picture = "byz_general_esra_cevdet.tga"
 	traits = {  }
-	skill = 
+	skill = 1
 	attack_skill = 1
 	defense_skill = 3
 	planning_skill = 2
