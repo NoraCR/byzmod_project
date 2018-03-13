@@ -202,6 +202,7 @@ create_field_marshal = {
 	defense_skill = 4
 	planning_skill = 5
 	logistics_skill = 4
+	female = yes
 }
 create_field_marshal = {
 	name = "Feng Dalei"
@@ -222,6 +223,7 @@ create_field_marshal = {
 	defense_skill = 3
 	planning_skill = 5
 	logistics_skill = 5
+	female = yes
 }
 create_field_marshal = {
 	name = "Wang Chengdong"
@@ -272,6 +274,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 5
+	female = yes
 }
 create_corps_commander = {
 	name = "Cai Wenli" #female
@@ -282,6 +285,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
+	female = yes
 }
 create_corps_commander = {
 	name = "Sakda hala-i Abahai" #Manchu, female
@@ -292,6 +296,7 @@ create_corps_commander = {
 	defense_skill = 4
 	planning_skill = 4
 	logistics_skill = 2
+	female = yes
 }
 create_corps_commander = {
 	name = "Ma Yahui"
@@ -353,6 +358,7 @@ create_navy_leader = {
 	name = "Hu Ping" #female
 	picture = "chi_admiral_hu_ping.png"
 	traits = { old_guard_navy }
+	female = yes
 	skill = 1
 }
 create_navy_leader = {
@@ -371,6 +377,7 @@ create_navy_leader = {
 	name = "Chen Gao" #female
 	picture = "chi_admiral_chen_gao.png"
 	traits = { }
+	female = yes
 	skill = 1
 }
 create_navy_leader = {
@@ -383,5 +390,6 @@ create_navy_leader = {
 	name = "Lu Jianmei" #female
 	picture = "chi_admiral_lu_jianmei.png"
 	traits = { blockade_runner }
+	female = yes
 	skill = 2
 }

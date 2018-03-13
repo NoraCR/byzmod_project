@@ -191,6 +191,7 @@ create_corps_commander = {
 	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 3
+	female = yes
 }
 
 create_corps_commander = {
@@ -213,6 +214,7 @@ create_field_marshal = {
 	defense_skill = 5
 	planning_skill = 5
 	logistics_skill = 5
+	female = yes
 }
 
 create_corps_commander = {
@@ -279,6 +281,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 5
 	logistics_skill = 3
+	female = yes
 }
 
 create_corps_commander = {
@@ -290,6 +293,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 3
+	female = yes
 }
 
 create_corps_commander = {
@@ -301,6 +305,7 @@ create_corps_commander = {
 	defense_skill = 4
 	planning_skill = 3
 	logistics_skill = 2
+	female = yes
 }
 
 create_corps_commander = {
@@ -312,6 +317,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 4
+	female = yes
 }
 
 create_corps_commander = {
@@ -356,6 +362,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 3
+	female = yes
 }
 
 create_corps_commander = {
@@ -378,6 +385,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 3
+	female = yes
 }
 
 create_corps_commander = {
@@ -389,6 +397,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 3
+	female = yes
 }
 
 create_navy_leader = {
@@ -396,6 +405,7 @@ create_navy_leader = {
 		picture = "fra_admiral_adele_de_lacour.tga"
 	traits = { superior_tactician old_guard_navy }
 	skill = 3
+	female = yes
 }
 
 create_navy_leader = {
@@ -417,6 +427,7 @@ create_navy_leader = {
 		picture = "fra_adm_jeanne-marie_de_beauharnais.tga"
 	traits = { old_guard_navy spotter }
 	skill = 1
+	female = yes
 }
 
 

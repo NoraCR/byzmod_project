@@ -205,6 +205,7 @@ create_field_marshal = {
 	defense_skill = 7
 	planning_skill = 4
 	logistics_skill = 5
+	female = yes
 }
 
 create_field_marshal = {
@@ -216,6 +217,7 @@ create_field_marshal = {
 	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 2
+	female = yes
 }
 
 create_corps_commander = {
@@ -227,6 +229,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 2
+	female = yes
 }
 
 create_corps_commander = {
@@ -260,6 +263,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 2
+	female = yes
 }
 
 create_corps_commander = {
@@ -293,6 +297,7 @@ create_corps_commander = {
 	defense_skill = 4
 	planning_skill = 3
 	logistics_skill = 4
+	female = yes
 }
 
 create_corps_commander = {
@@ -326,6 +331,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
+	female = yes
 }
 
 create_corps_commander = {
@@ -359,6 +365,7 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
+	female = yes
 }
 
 create_corps_commander = {
@@ -370,6 +377,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 3
+	female = yes
 }
 
 create_corps_commander = {
@@ -381,6 +389,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 3
+	female = yes
 }
 
 create_corps_commander = {
@@ -392,6 +401,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 3
+	female = yes
 }
 
 create_navy_leader = {
@@ -406,6 +416,7 @@ create_navy_leader = {
 		picture = "byz_admiral_ariadne_rodinou.tga"
 	traits = { superior_tactician spotter }
 	skill = 5
+	female = yes
 }
 
 create_navy_leader = {
@@ -420,6 +431,7 @@ create_navy_leader = {
 		picture = "byz_admiral_benevenuta_pasqualigo.tga"
 	traits = { spotter }
 	skill = 4
+	female = yes
 }
 
 create_navy_leader = {
@@ -427,6 +439,7 @@ create_navy_leader = {
 	picture = "byz_admiral_callidora_mars.tga"
 	traits = { seawolf }
 	skill = 4
+	female = yes
 }
 
 create_navy_leader = {
@@ -441,6 +454,7 @@ create_navy_leader = {
 		picture = "byz_admiral_hypatia_kiyohara.tga"
 	traits = { spotter ironside }
 	skill = 4
+	female = yes
 }
 
 create_navy_leader = {
@@ -448,6 +462,7 @@ create_navy_leader = {
 		picture = "byz_admiral_rivkah_avinbruch.tga"
 	traits = { old_guard_navy ironside }
 	skill = 5
+	female = yes
 }
 
 create_navy_leader = {
