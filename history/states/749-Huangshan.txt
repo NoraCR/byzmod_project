@@ -6,12 +6,12 @@ state={
 	}
 	manpower=5000000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
 	history={
 		owner = CHI
 		add_core_of = CHI
 		buildings = {
-			infrastructure = 4
+			infrastructure = 7
 		}
 		
 		1938.10.25 = {

@@ -4,21 +4,14 @@ CHI_warlord_alternate_plan_nationalist = {
 
 	enable = {
 		is_chinese_warlord = yes
-		has_completed_focus = CHI_cooperation_with_the_nationalists
 	}
 	abort = {
 		not = {
-			has_focus_tree = china_warlord_focus
 		}
 	}
 
 	focus_factors = {
-		CHI_technological_cooperation = 5
-		CHI_new_model_province = 5
-		CHI_industrial_investment = 10
-		CHI_local_arms_production = 10
-		CHI_anti_opposition_campaigns = 5
-		CHI_public_education_reform = 10
+
 	}
 
 	research = {
@@ -53,7 +46,6 @@ CHI_warlord_alternate_plan_communist = {
 
 	enable = {
 		is_chinese_warlord = yes
-		has_completed_focus = CHI_cooperation_with_the_communists
 	}
 	abort = {
 		not = {
@@ -62,12 +54,7 @@ CHI_warlord_alternate_plan_communist = {
 	}
 
 	focus_factors = {
-		CHI_land_redistribution = 5
-		CHI_land_value_tax = 10
-		CHI_industrial_investment = 10
-		CHI_public_education_reform = 10
-		CHI_public_works = 5
-		CHI_rural_militias = 5
+
 	}
 
 	research = {

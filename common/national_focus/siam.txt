@@ -1,0 +1,690 @@
+focus_tree = {
+	id = zhongnan
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SIA
+		}
+	}
+	default = no
+	focus = {
+		id = SIA_state_of_emergency
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		x = 2
+		y = 0
+
+	}
+	focus = {
+		id = SIA_stay_with_shanghai
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		mutually_exclusive = {
+			focus = SIA_abandon_ming
+		}
+		x = 6
+		y = 0
+
+	}
+	focus = {
+		id = SIA_abandon_ming
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		mutually_exclusive = {
+			focus = SIA_stay_with_shanghai
+		}
+		x = 8
+		y = 0
+
+	}
+	focus = {
+		id = SIA_zhongnan_railways
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		x = 15
+		y = 0
+
+	}
+	focus = {
+		id = SIA_guns_for_hire
+		icon = GFX_goal_generic_special_forces
+		cost = 10.00
+		x = 19
+		y = 0
+
+	}
+	focus = {
+		id = SIA_aerial_investments
+		icon = GFX_goal_poland_goal
+		cost = 10.00
+		x = 23
+		y = 0
+
+	}
+	focus = {
+		id = SIA_gulf_defense_force
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		x = 27
+		y = 0
+
+	}
+	focus = {
+		id = SIA_emergency_workforce
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_state_of_emergency
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = SIA_mangu_garrison
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_emergency_workforce
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = SIA_police_yuenan
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_stay_with_shanghai
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = SIA_strike_break
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_police_yuenan
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = SIA_military_conversion
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_mangu_garrison
+		}
+		prerequisite = {
+			focus = SIA_strike_break
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = SIA_jungle_equipment
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_strike_break
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = SIA_rubber_production
+		icon = GFX_goal_generic_army_motorized
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_strike_break
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = SIA_reach_out_to_japan
+		icon = GFX_goal_tripartite_pact
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_abandon_ming
+		}
+		mutually_exclusive = {
+			focus = SIA_combat_liberalism
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = SIA_suppress_extremists
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_reach_out_to_japan
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = SIA_joint_training_scheme
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_suppress_extremists
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = SIA_guard_dali
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_joint_training_scheme
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = SIA_combat_liberalism
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_abandon_ming
+		}
+		mutually_exclusive = {
+			focus = SIA_reach_out_to_japan
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = SIA_a_fascist_nation
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_combat_liberalism
+		}
+		mutually_exclusive = {
+			focus = SIA_indochinese_commune
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = SIA_military_junta
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_a_fascist_nation
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = SIA_confiscate_property
+		icon = GFX_focus_SAF_colonialist_crusade
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_military_junta
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = SIA_suppress_colonial_establishment
+		icon = GFX_goal_generic_CAS
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_confiscate_property
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = SIA_indochinese_commune
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_combat_liberalism
+		}
+		mutually_exclusive = {
+			focus = SIA_a_fascist_nation
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = SIA_repeal_discriminatory_laws
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_indochinese_commune
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = SIA_land_reform
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_repeal_discriminatory_laws
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = SIA_join_marathas
+		icon = GFX_focus_RAJ_seek_help_from_soviet
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_land_reform
+		}
+		mutually_exclusive = {
+			focus = SIA_join_byzantium
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = SIA_join_byzantium
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_land_reform
+		}
+		mutually_exclusive = {
+			focus = SIA_join_marathas
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = SIA_expand_mines
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_zhongnan_railways
+		}
+		x = 14
+		y = 1
+
+	}
+	focus = {
+		id = SIA_engineering_projects
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_zhongnan_railways
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = SIA_infrastructure_effort
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_engineering_projects
+		}
+		prerequisite = {
+			focus = SIA_expand_mines
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = SIA_steel_mills
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_infrastructure_effort
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = SIA_armament_effort
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_infrastructure_effort
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = SIA_expand_the_mines_further
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_steel_mills
+			focus = SIA_armament_effort
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = SIA_service_rifles
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_guns_for_hire
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = SIA_logistics_bureau
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_guns_for_hire
+		}
+		x = 20
+		y = 1
+
+	}
+	focus = {
+		id = SIA_military_academy
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_logistics_bureau
+			focus = SIA_service_rifles
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = SIA_engineers
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_service_rifles
+			focus = SIA_military_academy
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = SIA_artillery
+		icon = GFX_goal_generic_army_artillery2
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_military_academy
+			focus = SIA_logistics_bureau
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = SIA_equipment_effort
+		icon = GFX_goal_generic_army_motorized
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_artillery
+			focus = SIA_engineers
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = SIA_mechanization_effort
+		icon = GFX_goal_generic_army_artillery
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_equipment_effort
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = SIA_fighters
+		icon = GFX_goal_generic_air_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_aerial_investments
+		}
+		mutually_exclusive = {
+			focus = SIA_bombers
+		}
+		x = 22
+		y = 1
+
+	}
+	focus = {
+		id = SIA_bombers
+		icon = GFX_goal_generic_air_bomber
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_aerial_investments
+		}
+		mutually_exclusive = {
+			focus = SIA_fighters
+		}
+		x = 24
+		y = 1
+
+	}
+	focus = {
+		id = SIA_close_air_support
+		icon = GFX_goal_poland_goal
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_fighters
+			focus = SIA_bombers
+		}
+		x = 23
+		y = 2
+
+	}
+	focus = {
+		id = SIA_naval_air_force
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_close_air_support
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = SIA_guard_malacca
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_close_air_support
+			focus = SIA_bombers
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = SIA_elite_pilots
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_naval_air_force
+			focus = SIA_guard_malacca
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = SIA_disrupt_trade
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_gulf_defense_force
+		}
+		mutually_exclusive = {
+			focus = SIA_protect_trade
+		}
+		x = 26
+		y = 1
+
+	}
+	focus = {
+		id = SIA_protect_trade
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_gulf_defense_force
+		}
+		mutually_exclusive = {
+			focus = SIA_disrupt_trade
+		}
+		x = 28
+		y = 1
+
+	}
+	focus = {
+		id = SIA_suotaoyi_base
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_protect_trade
+			focus = SIA_disrupt_trade
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = SIA_antisubmarine_warfare
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_suotaoyi_base
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = SIA_jilongpo_arms
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_armament_effort
+			focus = SIA_steel_mills
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = SIA_fund_jiading_university
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_expand_the_mines_further
+			focus = SIA_jilongpo_arms
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = SIA_submarine_warfare
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_suotaoyi_base
+		}
+		x = 28
+		y = 3
+
+	}
+	focus = {
+		id = SIA_port_fortress
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_submarine_warfare
+		}
+		mutually_exclusive = {
+			focus = SIA_amphibious_offensive
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = SIA_amphibious_offensive
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_antisubmarine_warfare
+		}
+		mutually_exclusive = {
+			focus = SIA_port_fortress
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = SIA_special_forces
+		icon = GFX_goal_generic_special_forces
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_equipment_effort
+		}
+		prerequisite = {
+			focus = SIA_engineers
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = SIA_armor_effort
+		icon = GFX_goal_generic_army_tanks
+		cost = 10.00
+		prerequisite = {
+			focus = SIA_mechanization_effort
+		}
+		x = 19
+		y = 6
+
+	}
+}

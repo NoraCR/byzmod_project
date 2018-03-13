@@ -12,7 +12,7 @@ communist_infiltration = {
 		if = {
 			limit = { original_tag = JAP }
 			OR = {
-				MAN = { is_subject_of = ROOT }
+				"MAN" = { is_subject_of = ROOT }
 				MEN = { is_subject_of = ROOT }
 			}
 		}

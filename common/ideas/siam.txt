@@ -1,6 +1,25 @@
 ideas = {
 	country = {
 	
+		SIA_chinese_domination = { 
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = saf_history_of_segregation
+
+			modifier = {
+				conscription_factor = -0.60
+			}
+
+		}
+	
 		SIA_local_elites = {
 
 			picture = generic_production_bonus

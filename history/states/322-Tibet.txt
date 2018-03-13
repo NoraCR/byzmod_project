@@ -4,7 +4,7 @@ state={
 	name="STATE_322"
 	manpower = 3722000
 	
-	state_category = city
+	state_category = town
 	
 	resources={
 		tungsten=2

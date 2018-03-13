@@ -104,6 +104,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	SIA_chinese_domination
+}
+
 set_stability = 0.4
 set_war_support = 0.1
 
@@ -138,7 +142,7 @@ set_war_support = 0.1
 		}
 }
 	create_country_leader = {
-		name = "Phitchaya Chirathivat" #female
+		name = "U Thet Phyoe" #Burmese male
 		desc = "POLITICS_EARL_BROWDER_DESC"
 		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 		expire = "1965.1.1"

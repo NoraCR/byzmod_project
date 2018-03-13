@@ -15,6 +15,7 @@ ideas = {
 
 			modifier = {
 				pangalism_drift = -0.03
+				communism_drift = 0.02
 			}
 
 		}
@@ -285,6 +286,22 @@ ideas = {
 			
 			traits = { ayn_rand }
 		}
+		SOM_sadik_hassan_hosh = {
+			
+			picture = generic_political_advisor_african_2
+			
+			allowed = {
+				original_tag = "SOM"
+			}
+			
+			traits = { communist_revolutionary }
+
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+		}	
 	}
 	tank_manufacturer = {
 	
