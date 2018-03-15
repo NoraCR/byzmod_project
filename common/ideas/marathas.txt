@@ -242,4 +242,252 @@ ideas = {
 			}
 		}
 	}
+	naval_manufacturer = {
+		
+		designer = yes
+		
+		MRT_navi_mumbai_shipyards = {
+			
+			allowed = {
+				original_TAG = MRT
+			}
+
+			picture = generic_naval_manufacturer_1
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { convoy_escort_naval_manufacturer }
+
+		}
+		
+		MRT_vishwa_dixit_company = {
+			
+			allowed = {
+				original_TAG = MRT
+			}
+			
+			picture = generic_naval_manufacturer_2
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { coastal_defence_naval_manufacturer }
+		}	
+	}
+	
+	aircraft_manufacturer = {
+			
+		designer = yes
+		
+		MRT_vimana_air = {
+			
+			allowed = {
+				original_TAG = MRT
+			}
+			
+			picture = generic_air_manufacturer_1
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		MRT_bahiri_sasana = {
+			
+			allowed = {
+				original_TAG = MRT
+			}
+			
+			picture = generic_air_manufacturer_1
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { CAS_manufacturer } 
+			
+			modifier = {
+			}
+		}	
+		MRT_kurlekar_airframes = {
+			
+			allowed = {
+				original_TAG = MRT
+			}
+			
+			picture = generic_air_manufacturer_3
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		MRT_vamore = {
+			
+			allowed = {
+				original_TAG = MRT
+			}
+			
+			picture = generic_air_manufacturer_2
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		MRT_balphatak_aviation = {
+			
+			allowed = {
+				original_TAG = MRT
+			}
+			
+			picture = generic_naval_manufacturer_2
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}			
+	}
+	
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		MRT_nadkarni_navghar = {
+			
+			allowed = {
+				original_TAG = MRT
+			}
+			
+			picture = generic_infantry_equipment_manufacturer_2
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		MRT_naupada_automotive = {
+			
+			allowed = {
+				original_TAG = MRT
+			}
+			
+			picture = generic_motorized_equipment_manufacturer_3
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		MRT_all_commune_arsenal = {
+			
+			allowed = {
+				original_TAG = MRT
+			}
+			
+			picture = generic_artillery_manufacturer_1
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+	industrial_concern = {
+				
+		MRT_zarekar_group = {
+			
+			allowed = {
+				original_TAG = MRT
+			}
+			
+			picture = generic_industrial_concern_1
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+			
+			modifier = {
+			}
+		}
+		
+		MRT_all_india_electric = {
+			
+			allowed = {
+				original_TAG = MRT
+			}
+			
+			picture = generic_electronics_concern_1
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+			
+			modifier = {
+			}
+		}
+		
+	}	
+
+	
+	tank_manufacturer = {
+		MRT_patkar_limaye = {
+			
+			allowed = {
+				original_TAG = MRT
+			}
+			
+			picture = generic_tank_manufacturer_1
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { medium_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
 }
