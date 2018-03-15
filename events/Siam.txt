@@ -1,0 +1,120 @@
+add_namespace = zhongnan
+
+# Join Byzantium
+country_event = {
+	id = zhongnan.10
+	title = zhongnan.10.t	
+	desc = zhongnan.10.desc	#
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = { #BYZ agrees
+		name = zhongnan.10.a
+		ai_chance = {
+			base = 90
+			modifier = { 
+				SIA = { NOT = { has_government = communism } } 
+				factor = 0
+				}
+		}
+		add_to_faction = SIA
+		SIA = { country_event = { id = zhongnan.12 hours = 6 } }
+	}
+
+
+	option = { # BYZ refuses
+		name = zhongnan.10.b
+		ai_chance = {
+			base = 0
+			modifier = { 
+				BYZ = { NOT = { has_government = communism } } 
+				add = 100
+				}
+		}
+		BYZ = { country_event = { id = zhongnan.13 hours = 6 } }	
+	}
+}
+
+#BYZ agrees
+country_event = {
+	id = zhongnan.12
+	title = zhongnan.12.t		# 
+	desc = zhongnan.12.desc	#
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = zhongnan.2.a
+	}
+}
+#BYZ refuses :(
+country_event = {
+	id = zhongnan.13
+	title = zhongnan.13.t		# 
+	desc = zhongnan.13.desc	#
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = zhongnan.3.a
+	}
+}
+country_event = {
+	id = zhongnan.400
+	title = zhongnan.400.t
+	desc = zhongnan.400.d
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = zhongnan.400.a
+		#start_civil_war = {
+		#		ideology = neutrality
+		#		size = 0.45
+		#		capital = 70
+		#		states = { 70 71 664 73 }
+		#	}
+
+		VIE = {
+			transfer_state = 286
+			transfer_state = 671
+			transfer_state = 741
+			
+		}
+		declare_war_on = {
+			target = VIE
+			type = annex_everything
+		}
+		every_state = {
+			limit = { is_owned_by = VIE }
+			add_core_of = VIE
+		}
+		
+		hidden_effect = {
+			VIE = {
+				load_oob = "VIE_independence"
+			}
+		}
+	}
+}
+country_event = {
+	id = zhongnan.401
+	title = zhongnan.400.t
+	desc = zhongnan.401.d
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = zhongnan.401.a		
+		#everything is ok
+		
+		hidden_effect = {
+			
+		}
+	}
+}

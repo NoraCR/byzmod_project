@@ -14,6 +14,32 @@ focus_tree = {
 		cost = 10.00
 		x = 2
 		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			OR = {
+				threat > 0.2
+				NOT = { has_government = pangalism }
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
 
 	}
 	focus = {
@@ -25,7 +51,30 @@ focus_tree = {
 		}
 		x = 6
 		y = 0
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+			CHI = { has_war = no }
+			CHI = { has_completed_focus = CHI_settling_accounts }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		add_political_power = 120
+		}
 	}
 	focus = {
 		id = SIA_abandon_ming
@@ -36,7 +85,42 @@ focus_tree = {
 		}
 		x = 8
 		y = 0
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				NOT = { CHI = { has_government = pangalism } }
+				factor = 10
+			}
+			modifier = {
+				NOT = { has_government = pangalist }
+				factor = 100
+			}
+			modifier = {	#makes it significantly more likely if player boosts non-pangalist
+				pangalism < 0.5
+				factor = 20
+			}
+		}
 
+		available = {
+			CHI = { has_completed_focus = CHI_settling_accounts }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+			add_ideas = SIA_abandon_ming 
+		}
 	}
 	focus = {
 		id = SIA_zhongnan_railways
@@ -44,7 +128,51 @@ focus_tree = {
 		cost = 10.00
 		x = 15
 		y = 0
+		ai_will_do = {
+			factor = 15
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = SIA_zhongnan_railways_Inf
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = SIA_zhongnan_railways_Inf
+			}
+		}
 	}
 	focus = {
 		id = SIA_guns_for_hire
@@ -52,7 +180,35 @@ focus_tree = {
 		cost = 10.00
 		x = 19
 		y = 0
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = SIA_guns_for_hire
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
 	}
 	focus = {
 		id = SIA_aerial_investments
@@ -60,7 +216,65 @@ focus_tree = {
 		cost = 10.00
 		x = 23
 		y = 0
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			air_experience = 25
+			random_state = {				
+				limit = {
+					has_state_flag = SIA_air_invest_plan_AB
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = SIA_air_invest_plan
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+
+		completion_reward = {
+			air_experience = 25
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SIA_air_invest_plan_AB
+			}
+			add_tech_bonus = {
+				name = SIA_aerial_investments
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
 	}
 	focus = {
 		id = SIA_gulf_defense_force
@@ -68,6 +282,64 @@ focus_tree = {
 		cost = 10.00
 		x = 27
 		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			navy_experience = 25
+			random_state = {
+				limit = {
+					has_state_flag = SIA_gulf_defense_force_DY
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			random_owned_controlled_state = {
+				prioritize = { 336 286 }
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = SIA_gulf_defense_force_DY
+			}			
+			add_tech_bonus = {
+				name = SIA_gulf_defense_force
+				bonus = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+		}
 
 	}
 	focus = {
@@ -79,6 +351,29 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = SIA_emergency_workforce
+		}
 
 	}
 	focus = {
@@ -90,7 +385,43 @@ focus_tree = {
 		}
 		x = 2
 		y = 2
-
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			289 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 1427
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 7225
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 4433
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 10250
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 7367
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = SIA_police_yuenan
@@ -126,7 +457,29 @@ focus_tree = {
 		}
 		x = 2
 		y = 3
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = SIA_military_conversion_idea
+		}
 	}
 	focus = {
 		id = SIA_jungle_equipment
@@ -137,6 +490,29 @@ focus_tree = {
 		}
 		x = 4
 		y = 3
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			hidden_effect = { set_technology = { jungle_warfare = 1 } }
+		}
 
 	}
 	focus = {
@@ -148,7 +524,22 @@ focus_tree = {
 		}
 		x = 6
 		y = 3
-
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_resource = {
+				type = rubber
+				amount = 35
+				state = 724 #North Malaya
+			}
+			add_resource = {
+				type = rubber
+				amount = 40
+				state = 336 #Singapore
+			}
+		}
 	}
 	focus = {
 		id = SIA_reach_out_to_japan
@@ -162,6 +553,42 @@ focus_tree = {
 		}
 		x = 8
 		y = 1
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+			JAP = {
+				add_opinion_modifier = { 
+						target = ROOT 
+						modifier = democratic_leanings_good
+				}
+			}
+			KOR = {
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier =  democratic_leanings_good
+				}
+			
+			}
+		}
 
 	}
 	focus = {
@@ -173,6 +600,31 @@ focus_tree = {
 		}
 		x = 8
 		y = 2
+		
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 200
+			add_ideas = SIA_suppress_extremists_idea
+		}
 
 	}
 	focus = {
@@ -184,7 +636,34 @@ focus_tree = {
 		}
 		x = 8
 		y = 3
+		ai_will_do = {
+			factor = 100
+		}
 
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_joint_training_scheme
+				bonus = 0.75
+				uses = 2
+				category = land_doctrine
+			}
+		}
 	}
 	focus = {
 		id = SIA_guard_dali
@@ -195,7 +674,44 @@ focus_tree = {
 		}
 		x = 8
 		y = 4
+		cost = 10
 
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 0.5
+				is_in_faction_with = CHI
+			}
+		}
+
+		available = {
+			SIA = { controls_state = 747 }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 5
+			747 = {
+				add_building_construction = { type = bunker province = 12789 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 8126 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 4937 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 7965 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 7976 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 5009 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 10413 level = 3 instant_build = yes }
+			}
+		}
 	}
 	focus = {
 		id = SIA_combat_liberalism
@@ -209,7 +725,35 @@ focus_tree = {
 		}
 		x = 10
 		y = 1
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+			communism > 0.30
+			OR = {
+			fascism > 0.30
+			}
+		}
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+			add_popularity = {	
+						ideology = democratic
+						popularity = -0.2
+					}
+		}
 	}
 	focus = {
 		id = SIA_a_fascist_nation
@@ -223,7 +767,67 @@ focus_tree = {
 		}
 		x = 10
 		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
 
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			every_other_country = {
+				limit = { 
+					has_government = fascism
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier =  FRA_right_wing_rhetoric_fascism
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = democratic
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_right_wing_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = pangalism
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_right_wing_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = communism
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier = FRA_right_wing_rhetoric_communism
+				}
+			}
+		}
 	}
 	focus = {
 		id = SIA_military_junta
@@ -234,6 +838,29 @@ focus_tree = {
 		}
 		x = 10
 		y = 3
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+			fascism > 0.4
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = SIA_military_junta_idea
+		}
 
 	}
 	focus = {
@@ -256,7 +883,42 @@ focus_tree = {
 		}
 		x = 9
 		y = 5
+		ai_will_do = {
+			factor = 40
+			}
+		}
 
+		available = {
+			fascism > 0.5
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = SIA_chinese_domination
+				}
+				swap_ideas = { remove_idea = SIA_chinese_domination add_idea = SIA_thai_fascism_idea  }	
+			}
+			if = {
+				limit = {
+					NOT = { has_idea = SIA_chinese_domination }
+				}
+				add_ideas = SIA_thai_fascism_idea
+			}
+			country_event = { days = 6 random = 120 id = zhongnan.400 }			
+		}
 	}
 	focus = {
 		id = SIA_indochinese_commune
@@ -270,7 +932,80 @@ focus_tree = {
 		}
 		x = 12
 		y = 2
+		ai_will_do = {
+			factor = 0.5
+			modifier = {	#will make country more likely to go down this path if player boosts communism support
+				communism > 0.1
+				factor = 10
+			}
+			modifier = {
+				communism > 0.2
+				factor = 10
+			}
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SIA_abandon_ming
+				add_idea = SIA_abandon_ming_communism
+			}
+			every_other_country = {
+				limit = { 
+					has_government = communism
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier =  FRA_leftist_rhetoric_communism
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = democratic
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_leftist_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = fascism
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier = FRA_leftist_rhetoric_fascism
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = pangalism
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier = FRA_leftist_rhetoric_fascism
+				}
+			}
+		}
 	}
 	focus = {
 		id = SIA_repeal_discriminatory_laws
@@ -281,7 +1016,30 @@ focus_tree = {
 		}
 		x = 12
 		y = 3
+		ai_will_do = {
+			factor = 2
+		}
 
+		available = {
+		communism > 0.1
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		add_political_power = 120
+		add_ideas =  SIA_minority_volunteers
+		}
 	}
 	focus = {
 		id = SIA_land_reform
@@ -293,6 +1051,42 @@ focus_tree = {
 		x = 12
 		y = 4
 
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = SIA_chinese_domination }
+				remove_ideas = SIA_chinese_domination
+			}
+			if = {
+				limit = { has_idea = SIA_local_elites }
+				remove_ideas = SIA_local_elites
+			}
+			if = {
+				limit = { has_idea = SIA_marginalized_locals }
+				remove_ideas = SIA_marginalized_locals
+			}
+			add_ideas = SIA_federative_socialism
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = SIA_join_marathas
@@ -306,7 +1100,7 @@ focus_tree = {
 		}
 		x = 11
 		y = 5
-
+		
 	}
 	focus = {
 		id = SIA_join_byzantium
@@ -320,6 +1114,39 @@ focus_tree = {
 		}
 		x = 13
 		y = 5
+		ai_will_do = {
+			factor = 50
+			modifier = {
+				BYZ = { surrender_progress > 0.75 }
+				factor = 0 # let's not get into that...
+			}
+			modifier = {
+				has_opinion = { target = BYZ value > 50 }
+				factor = 3
+			}
+		}
+
+		available = {
+			NOT = { has_war_with = BYZ }
+			BYZ = { is_puppet = no }
+			is_subject = no
+		}
+		
+		bypass = {
+			is_in_faction_with = BYZ
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			BYZ = { country_event = { id = zhongnan.10 } }
+		}
 
 	}
 	focus = {
@@ -331,7 +1158,64 @@ focus_tree = {
 		}
 		x = 14
 		y = 1
+		ai_will_do = {
+			factor = 20
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = SIA_expand_the_mining_industry_IC
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SIA_expand_the_mining_industry_IC
+			}
+			add_tech_bonus = {
+				name = SIA_expand_the_mining_industry
+				bonus = 0.5
+				uses = 1
+				technology = excavation1
+				technology = excavation2
+				technology = excavation3
+				technology = excavation4
+				technology = excavation5
+			}
+		}
 	}
 	focus = {
 		id = SIA_engineering_projects
@@ -342,6 +1226,34 @@ focus_tree = {
 		}
 		x = 16
 		y = 1
+		ai_will_do = {
+			factor = 20
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {			
+			add_tech_bonus = {
+				name = SIA_engineering_projects
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
 
 	}
 	focus = {
@@ -356,6 +1268,51 @@ focus_tree = {
 		}
 		x = 15
 		y = 2
+		ai_will_do = {
+			factor = 20
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = SIA_infrastructure_effort_Inf
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = SIA_infrastructure_effort_Inf
+			}
+		}
 
 	}
 	focus = {
@@ -367,6 +1324,34 @@ focus_tree = {
 		}
 		x = 14
 		y = 3
+		ai_will_do = {
+			factor = 15
+		}
+
+		available = {
+			controls_state = 671
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			671 = {
+				add_resource = {
+					type = steel
+					amount = 20
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -378,7 +1363,54 @@ focus_tree = {
 		}
 		x = 16
 		y = 3
+		ai_will_do = {
+			factor = 20
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = SIA_armament_effort_AF
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SIA_armament_effort_AF
+			}
+		}
 	}
 	focus = {
 		id = SIA_expand_the_mines_further
@@ -390,6 +1422,29 @@ focus_tree = {
 		}
 		x = 16
 		y = 4
+		ai_will_do = {
+			factor = 15
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = SIA_gem_exports
+		}
 
 	}
 	focus = {
@@ -401,6 +1456,34 @@ focus_tree = {
 		}
 		x = 18
 		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_service_rifles
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+		}
 
 	}
 	focus = {
@@ -412,7 +1495,38 @@ focus_tree = {
 		}
 		x = 20
 		y = 1
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_logistics_bureau
+				bonus = 0.5
+				uses = 2
+				technology = motorised_infantry
+				technology = tech_logistics_company
+				technology = tech_logistics_company2
+				technology = tech_logistics_company3
+				technology = tech_logistics_company4
+			}
+		}
 	}
 	focus = {
 		id = SIA_military_academy
@@ -424,7 +1538,35 @@ focus_tree = {
 		}
 		x = 19
 		y = 2
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = SIA_military_academy
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
 	}
 	focus = {
 		id = SIA_engineers
@@ -436,6 +1578,34 @@ focus_tree = {
 		}
 		x = 18
 		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_engineers
+				bonus = 0.5
+				uses = 1
+				category = support_tech
+			}
+		}
 
 	}
 	focus = {
@@ -448,6 +1618,34 @@ focus_tree = {
 		}
 		x = 20
 		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_artillery
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}
+		}
 
 	}
 	focus = {
@@ -460,6 +1658,35 @@ focus_tree = {
 		}
 		x = 19
 		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {			
+			add_tech_bonus = {
+				name = SIA_equipment_effort
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
 
 	}
 	focus = {
@@ -471,6 +1698,34 @@ focus_tree = {
 		}
 		x = 20
 		y = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {			
+			add_tech_bonus = {
+				name = SIA_mechanization_effort
+				bonus = 0.5
+				uses = 1
+				category = cat_mechanized_equipment
+			}
+		}
 
 	}
 	focus = {
@@ -485,6 +1740,37 @@ focus_tree = {
 		}
 		x = 22
 		y = 1
+		ai_will_do = {
+			factor = 0.4
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_fighters
+				bonus = 0.5
+				uses = 1
+				technology = early_fighter
+				technology = fighter1
+				technology = fighter2
+				technology = fighter3
+			}
+		}
 
 	}
 	focus = {
@@ -499,6 +1785,36 @@ focus_tree = {
 		}
 		x = 24
 		y = 1
+		ai_will_do = {
+			factor = 0.6
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_bombers
+				bonus = 0.5
+				uses = 1
+				category = tactical_bomber
+				category = cas_bomber
+				category = naval_bomber
+			}
+		}
 
 	}
 	focus = {
@@ -511,6 +1827,35 @@ focus_tree = {
 		}
 		x = 23
 		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = SIA_close_air_support
+				bonus = 0.5
+				uses = 1
+				category = cat_battlefield_support
+			}
+		}
 
 	}
 	focus = {
@@ -522,6 +1867,34 @@ focus_tree = {
 		}
 		x = 22
 		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_naval_air_force
+				bonus = 0.5
+				uses = 1
+				category = naval_bomber
+			}
+		}
 
 	}
 	focus = {
@@ -534,7 +1907,34 @@ focus_tree = {
 		}
 		x = 24
 		y = 3
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_guard_malacca
+				bonus = 0.5
+				uses = 1
+				category = naval_bomber
+			}
+		}
 	}
 	focus = {
 		id = SIA_elite_pilots
@@ -546,7 +1946,35 @@ focus_tree = {
 		}
 		x = 23
 		y = 4
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			air_experience = 35
+			add_tech_bonus = {
+				name = SIA_elite_pilots
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
 	}
 	focus = {
 		id = SIA_disrupt_trade
@@ -560,7 +1988,38 @@ focus_tree = {
 		}
 		x = 26
 		y = 1
+		ai_will_do = {
+			factor = 0.2
+			modifier = {
+				has_war_with = JAP
+				factor = 10
+			}
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_disrupt_trade
+				bonus = 0.5
+				uses = 1
+				category = cat_trade_interdiction
+			}
+		}
 	}
 	focus = {
 		id = SIA_protect_trade
@@ -574,7 +2033,34 @@ focus_tree = {
 		}
 		x = 28
 		y = 1
+		ai_will_do = {
+			factor = 0.8
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_protect_trade
+				bonus = 0.5
+				uses = 1
+				category = convoy_defense_tree
+			}
+		}		
 	}
 	focus = {
 		id = SIA_suotaoyi_base
@@ -586,7 +2072,80 @@ focus_tree = {
 		}
 		x = 27
 		y = 2
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = SIA_suotaoyi_DY
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = SIA_suotaoyi_NB
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = coastal_bunker
+					province = 4433
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 289 }
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SIA_suotaoyi_DY
+			}
+			if = {
+				limit = { 289 = { is_controlled_by = ROOT } }
+				289 = {
+					add_building_construction = {
+						type = coastal_bunker
+						province = 4433
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = SIA_suotaoyi_NB
+				}
+			}
+		}
 	}
 	focus = {
 		id = SIA_antisubmarine_warfare
@@ -597,7 +2156,35 @@ focus_tree = {
 		}
 		x = 26
 		y = 3
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_antisubmarine_warfare
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = dd_tech
+			}
+		}
 	}
 	focus = {
 		id = SIA_jilongpo_arms
@@ -609,7 +2196,53 @@ focus_tree = {
 		}
 		x = 14
 		y = 4
+		ai_will_do = {
+			factor = 10
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = SIA_jilongpo_arms_AF
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SIA_jilongpo_arms_AF
+			}
+		}
 	}
 	focus = {
 		id = SIA_fund_jiading_university
@@ -621,6 +2254,30 @@ focus_tree = {
 		}
 		x = 15
 		y = 5
+		
+		ai_will_do = {
+			factor = 45
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_research_slot = 1
+		}
 
 	}
 	focus = {
@@ -633,6 +2290,39 @@ focus_tree = {
 		x = 28
 		y = 3
 
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war_with = JAP
+				factor = 3
+			}
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_submarine_warfare
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = ss_tech
+			}
+		}
 	}
 	focus = {
 		id = SIA_port_fortress
@@ -660,7 +2350,41 @@ focus_tree = {
 		}
 		x = 26
 		y = 4
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_amphibious_offensive
+				bonus = 0.5
+				uses = 1
+				category = convoy_defense_tree
+			}
+			add_tech_bonus = {
+				name = SIA_amphibious_offensive
+				bonus = 0.5
+				uses = 1
+				category = marine_tech
+				category = tp_tech
+			}
+		}
 	}
 	focus = {
 		id = SIA_special_forces
@@ -674,7 +2398,36 @@ focus_tree = {
 		}
 		x = 18
 		y = 5
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_special_forces
+				bonus = 0.5
+				uses = 1
+				category = para_tech
+				category = marine_tech
+				category = mountaineers_tech
+			}
+		}
 	}
 	focus = {
 		id = SIA_armor_effort
@@ -685,6 +2438,33 @@ focus_tree = {
 		}
 		x = 19
 		y = 6
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SIA_armor_effort
+				bonus = 0.5
+				uses = 1
+				category = armor
+			}
+		}
 	}
 }

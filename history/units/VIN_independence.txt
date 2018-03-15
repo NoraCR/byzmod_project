@@ -1,0 +1,164 @@
+##### Division Templates #####
+division_template = {
+	name = "Su Doan Bo Binh"					# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Nhom Trinh Sat" 				# Mobile Group
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }   
+	}
+}
+
+division_template = {
+	name = "Lu Doan Bo Binh"					# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+
+units = {
+	##### Quan Doi Giai Phong Viet Nam #####
+	division = {
+		name = "1. Su Doan Bo Binh 'Ly Nam De'"
+		location = 1185
+		division_template = "Su Doan Bo Binh"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2. Su Doan Bo Binh 'Ngo Quyen'"
+		location = 12297
+		division_template = "Su Doan Bo Binh"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3. Su Doan Bo Binh 'Le Loi'"
+		location = 1302
+		division_template = "Su Doan Bo Binh"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1. Lu Doan Bo Binh"
+		location = 7229
+		division_template = "Lu Doan Bo Binh"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2. Lu Doan Bo Binh"
+		location = 12204
+		division_template = "Lu Doan Bo Binh"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2. Su Doan Bo Binh 'Ngo Quyen'"
+		location = 1423
+		division_template = "Su Doan Bo Binh"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3. Lu Doan Bo Binh"
+		location = 10180
+		division_template = "Lu Doan Bo Binh"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4. Lu Doan Bo Binh"
+		location = 10016
+		division_template = "Lu Doan Bo Binh"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3. Su Doan Bo Binh 'Le Loi'"
+		location = 4119
+		division_template = "Su Doan Bo Binh"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5. Lu Doan Bo Binh"
+		location = 4529
+		division_template = "Lu Doan Bo Binh"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6. Lu Doan Bo Binh"
+		location = 4529
+		division_template = "Lu Doan Bo Binh"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Rychle Vojská Skupina 'Hai Ba Trung'"
+		location = 1605
+		division_template = "Nhom Trinh Sat" 
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "7. Lu Doan Bo Binh"
+		location = 1605
+		division_template = "Lu Doan Bo Binh"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "8. Lu Doan Bo Binh"
+		location = 1300
+		division_template = "Lu Doan Bo Binh"
+		start_experience_factor = 0.2
+	}
+}
+
+air_wings = {
+	### Không quân Việt Nam (KVN) ###
+	671 = {
+		fighter_equipment_0 =  { owner = "VIN" amount = 30 }				# Slovenské Vzdušné Zbrane -- Avia B.534 Dogan
+		}
+}
+
+### Starting Production ###	
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "VIN"
+		}
+		requested_factories = 1
+		progress = 0.37
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "VIN"
+		}
+		requested_factories = 1
+		progress = 0.69
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "VIN" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 100
+	}
+}

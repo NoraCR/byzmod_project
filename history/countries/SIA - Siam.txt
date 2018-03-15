@@ -77,20 +77,20 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 25
+			popularity = 10
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 15
 		}
 		
 		communism = {
-			popularity = 0
-			#banned = yes #default is no
+			popularity = 20
+			#default is no
 		}
 		
 		pangalism = { 
-			popularity = 75
+			popularity = 55
 		}
 		
 		neutrality = { 

@@ -135,13 +135,12 @@ set_technology = {
 		concentrated_industry3 = 1
 	}
 	
-	set_national_unity = 0.8
-	GER = { add_to_faction = ITA }
+	set_stability = 0.8
 }
 
 
 set_convoys = 200
-set_national_unity = 0.6
+set_stability = 0.6
 
 set_politics = {
 

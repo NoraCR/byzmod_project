@@ -1646,12 +1646,12 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			SIA = {
+			"SIA" = {
 					add_political_power = 100
-					add_idea = SIA_local_elites
+					add_ideas = SIA_local_elites
 					add_autonomy_ratio = {
-					value = -0.05
-					localization = CHI_revert_to_local_elites
+						value = -0.05
+						localization = CHI_revert_to_local_elites
 					}
 			}
 		}
@@ -1691,7 +1691,7 @@ focus_tree = {
 		completion_reward = {
 			SIA = {
 				add_political_power = 100
-				add_idea = SIA_empower_cao
+				add_ideas = SIA_empower_cao
 				add_autonomy_ratio = {
 					value = 0.05
 					localization = CHI_empower_cao

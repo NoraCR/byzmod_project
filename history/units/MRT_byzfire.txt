@@ -119,7 +119,7 @@ units = {
 		location = 12247 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -127,7 +127,7 @@ units = {
 		location = 12247 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -135,7 +135,7 @@ units = {
 		location = 12247 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -143,7 +143,7 @@ units = {
 		location = 10278 ##Madurai
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -151,7 +151,7 @@ units = {
 		location = 10278 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -159,7 +159,7 @@ units = {
 		location = 10278 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -167,7 +167,7 @@ units = {
 		location = 10278 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -175,7 +175,7 @@ units = {
 		location = 10278 
 		division_template = "AVM Sain'ya Polisa Divhijana"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.9
 
 	}
 	division= {			
@@ -183,7 +183,7 @@ units = {
 		location = 10278 
 		division_template = "Ghodadala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -191,7 +191,7 @@ units = {
 		location = 10278 
 		division_template = "Motarasayakala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 #####Mysore#####
@@ -200,7 +200,7 @@ units = {
 		location = 1273 #Goa
 		division_template = "AVM Sain'ya Polisa Divhijana"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.9
 
 	}
 	division= {			
@@ -208,7 +208,7 @@ units = {
 		location = 8011 #Bangalore
 		division_template = "AVM Sain'ya Polisa Divhijana"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.9
 
 	}
 	division= {			
@@ -216,7 +216,7 @@ units = {
 		location = 8011 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -224,7 +224,7 @@ units = {
 		location = 8011 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -232,7 +232,7 @@ units = {
 		location = 8011 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -240,7 +240,7 @@ units = {
 		location = 8011 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -248,7 +248,7 @@ units = {
 		location = 8011 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -256,7 +256,7 @@ units = {
 		location = 1349
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -264,7 +264,7 @@ units = {
 		location = 1349
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -272,7 +272,7 @@ units = {
 		location = 1349 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -280,7 +280,7 @@ units = {
 		location = 1349 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -288,7 +288,7 @@ units = {
 		location = 1349 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 #####Bombay#####
@@ -297,7 +297,7 @@ units = {
 		location = 1349 #Mumbai
 		division_template = "AVM Sain'ya Polisa Divhijana"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1.0
 
 	}
 	division= {			
@@ -305,7 +305,7 @@ units = {
 		location = 10259 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -313,7 +313,7 @@ units = {
 		location = 10259 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -321,7 +321,7 @@ units = {
 		location = 10259
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -329,7 +329,7 @@ units = {
 		location = 10259 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -337,7 +337,7 @@ units = {
 		location = 10259 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -345,7 +345,7 @@ units = {
 		location = 10259
 		division_template = "Mashinikrrta Korpasa"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 ######Jabalpur######
@@ -354,7 +354,7 @@ units = {
 		location = 10872 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -362,7 +362,7 @@ units = {
 		location = 10872 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -370,7 +370,7 @@ units = {
 		location = 10872 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -378,7 +378,7 @@ units = {
 		location = 4557 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -386,7 +386,7 @@ units = {
 		location = 4557 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -394,7 +394,7 @@ units = {
 		location = 4557 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -402,7 +402,7 @@ units = {
 		location = 1510 
 		division_template = "Parvata Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -410,7 +410,7 @@ units = {
 		location = 1510 
 		division_template = "Parvata Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -418,7 +418,7 @@ units = {
 		location = 4557 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 #####Lucknow#####
@@ -427,7 +427,7 @@ units = {
 		location = 10332 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -435,7 +435,7 @@ units = {
 		location = 10332 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -443,7 +443,7 @@ units = {
 		location = 10332 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -451,7 +451,7 @@ units = {
 		location = 12786 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -459,7 +459,7 @@ units = {
 		location = 12786 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -467,7 +467,7 @@ units = {
 		location = 12786 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -475,7 +475,7 @@ units = {
 		location = 7064 
 		division_template = "Parvata Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -483,7 +483,7 @@ units = {
 		location = 7064 
 		division_template = "Parvata Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -491,7 +491,7 @@ units = {
 		location = 7064 
 		division_template = "Parvata Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -499,7 +499,7 @@ units = {
 		location = 12137 #Lucknow
 		division_template = "AVM Sain'ya Polisa Divhijana"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.9
 
 	}
 	division= {			
@@ -507,7 +507,7 @@ units = {
 		location = 12137 
 		division_template = "Motarasayakala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 #####Delhi#####
@@ -516,7 +516,7 @@ units = {
 		location = 2086 #Delhi 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -524,7 +524,7 @@ units = {
 		location = 2086 #Delhi 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -532,7 +532,7 @@ units = {
 		location = 2086 #Delhi 
 		division_template = "Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -540,7 +540,7 @@ units = {
 		location = 5157 
 		division_template = "Parvata Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -548,7 +548,7 @@ units = {
 		location = 5157 
 		division_template = "Parvata Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -556,7 +556,7 @@ units = {
 		location = 2086 #Delhi
 		division_template = "AVM Sain'ya Polisa Divhijana"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.9
 
 	}
 #####Gujarat#####
@@ -565,7 +565,7 @@ units = {
 		location = 9975 #Ahmadabad
 		division_template = "AVM Sain'ya Polisa Divhijana"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.9
 
 	}
 #####Quetta#####
@@ -574,7 +574,7 @@ units = {
 		location = 7903 
 		division_template = "Parvata Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -582,7 +582,7 @@ units = {
 		location = 7903 
 		division_template = "Parvata Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -590,7 +590,7 @@ units = {
 		location = 7903 
 		division_template = "Parvata Rayaphala Divhijana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 #######Maratha Navy#######

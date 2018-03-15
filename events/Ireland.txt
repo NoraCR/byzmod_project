@@ -61,7 +61,7 @@ country_event = {
 		ai_chance = {
 			base = 90
 			modifier = { 
-				IRE = { NOT = { has_government = communism } } 
+				IRE = { NOT = { has_government = pangalism } } 
 				factor = 0
 				}
 		}
@@ -75,7 +75,7 @@ country_event = {
 		ai_chance = {
 			base = 0
 			modifier = { 
-				IRE = { NOT = { has_government = communism } } 
+				IRE = { NOT = { has_government = pangalism } } 
 				add = 100
 				}
 		}
@@ -83,7 +83,7 @@ country_event = {
 	}
 }
 
-#SOV agrees
+#CHI agrees
 country_event = {
 	id = ir.12
 	title = ir.12.t		# 
@@ -96,7 +96,7 @@ country_event = {
 		name = ir.2.a
 	}
 }
-#SOV refuses :(
+#CHI refuses :(
 country_event = {
 	id = ir.13
 	title = ir.13.t		# 
