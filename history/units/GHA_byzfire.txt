@@ -167,6 +167,12 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
+	division= {	
+		name = "2nd Armored Division"					
+		location = 4948 # Dakar
+		division_template = "Armored-Division"	
+		start_experience_factor = 0.5
+	}
 	##East Nigeria/Somalian Border##
 	division= {	
 		name = "13th Infantry Division"
@@ -224,6 +230,12 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
+	division= {	
+		name = "3rd Armored Division"					
+		location = 4889 
+		division_template = "Armored-Division"	
+		start_experience_factor = 0.5
+	}
 	##### Naval OOB #####
 	navy = {				
 		name = "Ghanian Navy"			
@@ -248,6 +260,8 @@ units = {
 		name = "Coastal Defense Squadron"			
 		base = 2050
 		location = 2050 # Nigeria
+		ship = { name = "GNS Amariya" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GHA } } }
+		ship = { name = "GNS Lana" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GHA } } }
 		ship = { name = "GNS Andoni" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GHA } } }
 		ship = { name = "GNS Karaduwa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GHA } } }
 		ship = { name = "GNS Ohue" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GHA } } }

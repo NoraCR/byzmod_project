@@ -29,7 +29,7 @@
 		prefix = "CNS"
 		generic = { "Zhong Xunyangjian" }
 		unique = {
-			"Shanghai" "Beijing" "Nanjing" "Fuzhou" "Guangzhou" "Guilin" "Guiyang" "Kaifeng" "Wuchang" "Nanchang" "Xian" "Jinan" "Taiyuan" "Chengdu" "Yunnan" "Hangzhou" "Kunming" "Mangu" "Henei" "Chaigun" "Mandelei" "Kabuer" "Asitelahan" "Tashengan" "Bishenkaike" "Wanxiang" "Wuer" "Huangheshi"
+			"Shanghai" "Beijing" "Nanjing" "Fuzhou" "Guangzhou" "Guilin" "Guiyang" "Kaifeng" "Wuchang" "Nanchang" "Xian" "Jinan" "Taiyuan" "Chengdu" "Hangzhou" "Kunming" "Mangu" "Henei" "Chaigun" "Mandelei" "Kabuer" "Asitelahan" "Tashengan" "Bishenkaike" "Wanxiang" "Wuer" "Huangheshi"
 		}
 	}
 	battle_cruiser = {

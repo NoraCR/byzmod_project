@@ -336,7 +336,7 @@ ideas = {
 				original_tag = SOM
 			}
 			
-
+			picture = generic_infantry_equipment_manufacturer_1
 			
 			research_bonus = {
 				infantry_weapons = 0.10
@@ -352,6 +352,7 @@ ideas = {
 				original_tag = SOM
 			}
 			
+			picture = generic_motorized_equipment_manufacturer_2
 			
 			research_bonus = {
 				motorized_equipment = 0.10
@@ -367,7 +368,7 @@ ideas = {
 				original_tag = SOM
 			}
 			
-
+			picture = generic_artillery_manufacturer_1
 			
 			research_bonus = {
 				artillery = 0.10
@@ -384,7 +385,8 @@ ideas = {
 		
 		afgoye = {
 			
-			
+			picture = generic_air_manufacturer_1
+		
 			allowed = {
 				original_tag = SOM
 			}
@@ -398,6 +400,7 @@ ideas = {
 		
 		hargeisa_aircraft = {
 			
+			picture = generic_air_manufacturer_2
 			
 			allowed = {
 				original_tag = SOM
@@ -412,6 +415,9 @@ ideas = {
 		
 		dhabolaq = {
 						
+			
+			picture = generic_air_manufacturer_1
+			
 			allowed = {
 				original_tag = SOM
 			}
@@ -424,7 +430,9 @@ ideas = {
 		}
 		
 		gaayte = {
-						
+			
+			picture = generic_air_manufacturer_2
+			
 			allowed = {
 				original_tag = SOM
 			}
@@ -440,6 +448,8 @@ ideas = {
 	industrial_concern = {
 	
 		qandala = {
+			
+			picture = generic_industrial_concern_1
 			
 			allowed = {
 				original_tag = SOM
@@ -460,6 +470,8 @@ ideas = {
 		designer = yes
 		
 		mogadishu_yards = {
+		
+			picture = generic_naval_manufacturer_2
 						
 			allowed = {
 				original_tag = SOM
