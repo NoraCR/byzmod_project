@@ -1,6 +1,5 @@
 ﻿division_template = {
 	name = "Pestininku Divizija"			# Infantry Division
-	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -22,8 +21,8 @@ units = {
 		location = 6296
 		division_template = "Pestininku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -31,8 +30,8 @@ units = {
 		location = 6296
 		division_template = "Pestininku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -40,8 +39,17 @@ units = {
 		location = 6296
 		division_template = "Pestininku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "IV. Divizija"
+		location = 6296
+		division_template = "Pestininku Divizija"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 
@@ -52,7 +60,7 @@ air_wings = {
 	11 = {
 		fighter_equipment_0 =  {
 			owner = "LIT" 
-			amount = 48
+			amount = 60
 		}
 	}
 }

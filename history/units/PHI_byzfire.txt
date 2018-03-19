@@ -72,42 +72,42 @@ units = {
 		location = 10265 # Manila
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "2nd Infantry Division"
 		location = 10265 # Manila
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "1st Armored Brigade"
 		location = 10265 # Manila
 		division_template = "Bahagian Perisai"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "3rd Infantry Division"
 		location = 12118 # Cebu
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "4th Infantry Division"
 		location = 4241 # Mindanao
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "5th Infantry Division"
 		location = 12213 # Aparri
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	###Borneo###
 	division= {	
@@ -115,14 +115,14 @@ units = {
 		location = 7371 # Kuching
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "7th Infantry Division"
 		location = 10237 # Balikpapan
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	###Makassar###
 	division= {	
@@ -130,7 +130,7 @@ units = {
 		location = 10263 # Makassar
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	###Timor###
 	division= {	
@@ -138,7 +138,7 @@ units = {
 		location = 1355
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	###Papua###
 	division= {	
@@ -146,7 +146,7 @@ units = {
 		location = 12371 #Jayapura
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	###Sumatra###
 	division= {	
@@ -154,35 +154,35 @@ units = {
 		location = 12268 #Palembang
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "11th Infantry Division"
 		location = 12268 #Palembang
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "12th Infantry Division"
 		location = 12268 #Palembang
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "2nd Armored Brigade"
 		location = 12268 #Palembang
 		division_template = "Bahagian Perisai"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "1st Mountain Brigade"
 		location = 1648
 		division_template = "Bahagian Infanteri Gunung"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	###Madagascar###
 	division= {	
@@ -190,21 +190,28 @@ units = {
 		location = 5222 
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "14th Infantry Division"
 		location = 5222 
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "15th Infantry Division"
 		location = 5222 
 		division_template = "Bahagian Infantri"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		name = "16th Infantry Division"
+		location = 5222 
+		division_template = "Bahagian Infantri"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
 	}
 
 	##### NAVAL UNITS #####

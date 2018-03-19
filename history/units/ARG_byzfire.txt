@@ -45,7 +45,7 @@ units = {
 		location = 12364 # Buenos Aires
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -53,7 +53,7 @@ units = {
 		location = 12364 # Buenos Aires
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -61,7 +61,7 @@ units = {
 		location = 10953 # Southern Argentina
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -69,7 +69,7 @@ units = {
 		location = 7500 # Parana
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -77,7 +77,7 @@ units = {
 		location = 12942 # Cordoba
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -85,15 +85,23 @@ units = {
 		location = 12942
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
-		name = "División de Caballería"
+		name = "1a División de Caballería"
 		location = 12364 # Buenos Aires
 		division_template = "División de Caballería"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "2a División de Caballería"
+		location = 12364 # Buenos Aires
+		division_template = "División de Caballería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -101,7 +109,7 @@ units = {
 		location = 10992 # Mendoza
 		division_template = "Brigada Montaña"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -109,7 +117,7 @@ units = {
 		location = 12942 # Salta
 		division_template = "Brigada Montaña"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 
