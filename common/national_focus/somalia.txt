@@ -1472,7 +1472,8 @@ focus_tree = {
 		available = {
 			SOM = {
 				controls_state = 549
-			}	
+			}
+		}
 		completion_reward = {
 			add_resource = {
 				type = oil
@@ -1480,7 +1481,7 @@ focus_tree = {
 				state = 549
 			}
 		}
-		}
+	}
 
 
 	}

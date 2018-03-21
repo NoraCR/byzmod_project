@@ -92,8 +92,6 @@ create_country_leader = {
 	}
 }
 
-set_national_unity = 0.6
-
 create_country_leader = {
 	name = "Chang Zi-Ping"
 	desc = "POLITICS_MAO_ZEDONG_DESC"

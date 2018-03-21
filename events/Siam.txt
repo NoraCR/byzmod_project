@@ -79,24 +79,24 @@ country_event = {
 		#		states = { 70 71 664 73 }
 		#	}
 
-		VIE = {
+		VIN = {
 			transfer_state = 286
 			transfer_state = 671
 			transfer_state = 741
 			
 		}
 		declare_war_on = {
-			target = VIE
+			target = VIN
 			type = annex_everything
 		}
 		every_state = {
-			limit = { is_owned_by = VIE }
-			add_core_of = VIE
+			limit = { is_owned_by = VIN }
+			add_core_of = VIN
 		}
 		
 		hidden_effect = {
-			VIE = {
-				load_oob = "VIE_independence"
+			VIN = {
+				load_oob = "VIN_independence"
 			}
 		}
 	}

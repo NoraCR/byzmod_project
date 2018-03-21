@@ -886,7 +886,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 40
 			}
-		}
 
 		available = {
 			fascism > 0.5
