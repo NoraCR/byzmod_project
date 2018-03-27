@@ -1,7 +1,92 @@
 ideas = {
 	# MILITARY
 
+country = {
+	SYR_revenge_focus = {
+	
+		allowed = {
+			original_tag = SYR
+			always = no
+		}
 
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		picture = generic_intel_bonus
+		
+		modifier = {		
+			justify_war_goal_time = -0.25
+			generate_wargoal_tension = -0.4
+			war_support_factor = 0.05
+		}
+	}
+	SYR_strike_back_focus = {
+			
+		allowed = {
+			original_tag = SYR
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+			
+		removal_cost = -1
+
+		picture = generic_manpower_bonus
+		
+		modifier = {
+			conscription = 0.025
+			war_support_factor = 0.05
+			enemy_partisan_effect = -0.1
+		}
+	}
+	SYR_authoritarianism_focus = {
+			
+		allowed = {
+			original_tag = SYR
+			always = no
+		}
+
+		allowed_civil_war = {
+			NOT = {
+				has_government = democratic
+			}
+		}
+			
+		removal_cost = -1
+
+		picture = generic_intel_bonus
+		
+		modifier = {
+			democratic_drift = -0.1
+			democratic_acceptance = -100
+		}
+	}
+	SYR_internationalism_focus = {
+	
+		allowed = {
+			original_tag = SYR
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		picture = generic_goods_red_bonus
+		
+		modifier = {		
+			trade_opinion_factor = 0.2
+		}
+	}		
+
+}
 	political_advisor = {
 
 		SYR_laila_mohamad_karam = {

@@ -62,6 +62,47 @@ country_event = {
 		name = zhongnan.3.a
 	}
 }
+#The Zhongnan Civil War
+news_event = {
+	id = zhongnan.262
+	title = news.262.t
+	desc = news.262.desc
+	picture = GFX_news_event_saf_civil_war
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.262.a
+		trigger = {
+			NOT = {
+				tag = SIA
+			}
+			NOT = {
+				tag = CHI
+			}
+			NOT = {
+				is_in_faction_with = CHI
+			}
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.262.b
+		trigger = { TAG = SIA }
+	}
+	option = {
+		name = news.262.c
+		trigger = { 
+			OR = {
+				tag = CHI
+				is_in_faction_with = CHI
+			}
+			NOT = { TAG = SIA }
+		}
+	}
+}
 country_event = {
 	id = zhongnan.400
 	title = zhongnan.400.t

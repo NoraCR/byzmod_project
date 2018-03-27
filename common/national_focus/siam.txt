@@ -443,7 +443,59 @@ focus_tree = {
 		}
 		x = 5
 		y = 2
+		ai_will_do = {
+			factor = 100
+		}
 
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			hidden_effect = {
+				set_capital = 289
+				start_civil_war = {
+					ruling_party = communism
+					ideology = pangalism
+					size = 0.55
+					capital = 681
+					states = { 747 640 288 670 671 286 724 }
+				}
+				random_other_country = {
+					limit = {
+						original_tag = SIA
+						has_government = pangalism
+					}
+					load_oob = "SIA_P_civil_war"
+					set_equipment_fraction = 0.5
+					add_popularity = {
+						ideology = pangalism
+						popularity = 0.35
+					}
+				}
+				news_event = { hours = 6 id = zhongnan.262 }
+				
+				load_oob = "SAF_C_civil_war"
+				set_equipment_fraction = 0.8
+				
+				add_popularity = {
+					ideology = communism
+					popularity = 1
+				}
+			}
+		}
 	}
 	focus = {
 		id = SIA_military_conversion
@@ -1099,7 +1151,39 @@ focus_tree = {
 		}
 		x = 11
 		y = 5
+		ai_will_do = {
+			factor = 50
+			modifier = {
+				MRT = { surrender_progress > 0.75 }
+				factor = 0 # let's not get into that...
+			}
+			modifier = {
+				has_opinion = { target = MRT value > 50 }
+				factor = 3
+			}
+		}
+
+		available = {
+			NOT = { has_war_with = MRT }
+			MRT = { is_puppet = no }
+			is_subject = no
+		}
 		
+		bypass = {
+			is_in_faction_with = MRT
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			MRT = { country_event = { id = zhongnan.10 } }
+		}
 	}
 	focus = {
 		id = SIA_join_byzantium

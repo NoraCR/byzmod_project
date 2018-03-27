@@ -8821,12 +8821,12 @@ news_event = {
 	}
 }
 
-#Poland Seeks Baltic Cooperation
+#Da Qin Seeks Arab Union
 news_event = {
 	id = news.214
 	title = news.214.t
 	desc = {
-		text = news.214.d_baltic
+		text = news.214.d_arab
 		trigger = {
 			OR = {
 				tag = EST
@@ -8836,7 +8836,7 @@ news_event = {
 		}
 	}
 	desc = {
-		text = news.214.d_not_baltic
+		text = news.214.d_not_arab
 		trigger = {
 			NOT = {
 				OR = {
@@ -8860,11 +8860,11 @@ news_event = {
 		trigger = {
 			NOT = {
 				OR = {
-					tag = EST
-					tag = LAT
-					tag = LIT
-					tag = GER
-					tag = SOV
+					tag = SOM
+					tag = BYZ
+					tag = AZB
+					tag = SAU
+					tag = LBA
 				}
 			}
 		}
@@ -8873,14 +8873,14 @@ news_event = {
 	option = {
 		name = news.214.b
 		trigger = {
-			tag = SOV
+			tag = SOM
 		}
 	}
 
 	option = {
 		name = news.214.c
 		trigger = {
-			tag = GER
+			tag = BYZ
 		}
 	}
 
@@ -8888,9 +8888,9 @@ news_event = {
 		name = news.214.e
 		trigger = {
 			OR = {
-				tag = EST
-				tag = LAT
-				tag = LIT
+				tag = AZB
+				tag = SAU
+				tag = LBA
 			}
 		}
 	}

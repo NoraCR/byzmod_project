@@ -1,0 +1,1769 @@
+focus_tree = {
+	id = syria
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SYR
+		}
+	}
+	default = no
+	focus = {
+		id = SYR_fertile_crescent_strategy
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		x = 1
+		y = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_fertile_crescent_strategy
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = SYR_alkhutat_alkhamsia
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10.00
+		x = 5
+		y = 0
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_alkhutat_alkhamsia
+				bonus = 0.5
+				uses = 1
+				category = construction_tech
+			}
+		}
+	}
+	focus = {
+		id = SYR_prepare_for_war
+		icon = GFX_goal_generic_build_tank
+		cost = 10.00
+		x = 10
+		y = 0
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_prepare_for_war
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_expand_air_force_bases
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		x = 15
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			random_state = {
+				limit = { has_state_flag = SYR_expand_air_force_bases_1 }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 677 }
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SYR_expand_air_force_bases
+			}
+			
+		}
+
+	}
+	focus = {
+		id = SYR_develop_shipbuilding
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		x = 20
+		y = 0
+		ai_will_do = {
+			factor = 2
+		}
+
+		available_if_capitulated = yes
+		
+		complete_tooltip = {
+			random_state = {
+				limit = { has_state_flag = SYR_develop_shipbuilding_1 }
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 553 }
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = SYR_develop_shipbuilding_1
+			}
+			#Add 3 Dockyards at Lebanon			
+		}
+	}
+	focus = {
+		id = SYR_da_qin_resurgent
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		x = 27
+		y = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+
+	}
+	focus = {
+		id = SYR_urban_expansion
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_fertile_crescent_strategy
+		}
+		x = 1
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			random_state = {
+				limit = { has_state_flag = SYR_urban_expansion_1 }
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			#	Adds a civilian Factory (Aleppo)
+			random_owned_controlled_state = {
+				prioritize = { 677 }
+				limit = {									
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = SYR_urban_expansion_1
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_industrial_regions
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_urban_expansion
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = SYR_hub_and_spoke_railways
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_urban_expansion
+		}
+		x = 2
+		y = 2
+				ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			random_state = {
+				limit = { has_state_flag = SYR_hub_and_spoke_railways_1 }
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}	
+			}
+			random_state = {
+				limit = { has_state_flag = SYR_hub_and_spoke_railways_2 }
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}	
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = SYR_hub_and_spoke_railways_1
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = SYR_hub_and_spoke_railways_2
+			}
+		}
+	}
+	focus = {
+		id = SYR_syrian_industrial_region
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_hub_and_spoke_railways
+		}
+		prerequisite = {
+			focus = SYR_industrial_regions
+		}
+		x = 1
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+		complete_tooltip = {
+			random_state = {
+				limit = { has_state_flag = SYR_syrian_industrial_region_1 }
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 554 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = SYR_syrian_industrial_region_1
+			}
+		}
+	}
+	focus = {
+		id = SYR_national_funds
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_alkhutat_alkhamsia
+		}
+		x = 4
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+		
+		complete_tooltip = {
+			random_state = {
+				limit = { has_state_flag = SYR_national_funds_1 }
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = SYR_national_funds_1
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_damascus_baghdad_rails
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_alkhutat_alkhamsia
+		}
+		x = 6
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+
+		complete_tooltip = {
+			random_state = {
+				limit = { has_state_flag = SYR_damascus_baghdad_rails_1 }
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 291 }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SYR_damascus_baghdad_rails_1
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_mesopotamia_investments
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_damascus_baghdad_rails
+		}
+		prerequisite = {
+			focus = SYR_national_funds
+		}
+		x = 5
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+		complete_tooltip = {
+			random_state = {
+				limit = { has_state_flag = SYR_mesopotamia_investments_1 }
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 291 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = SYR_mesopotamia_investments_1
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_additional_research_slot
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_mesopotamia_investments
+		}
+		x = 4
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+
+	}
+	focus = {
+		id = SYR_develop_kurdistan
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_mesopotamia_investments
+		}
+		x = 6
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		complete_tooltip = {
+			random_state = {
+				limit = { has_state_flag = SYR_develop_kurdistan_1 }
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 352 676 }
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = SYR_develop_kurdistan_1
+			}
+		}		
+	}
+	focus = {
+		id = SYR_expand_oil_fields
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_develop_kurdistan
+		}
+		x = 6
+		y = 4
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+			has_full_control_of_state = 291
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_full_control_of_state = 291
+				}
+				291 = {
+					add_resource = {
+						type = oil
+						amount = 32
+					}
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_modernize_equipment
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_prepare_for_war
+		}
+		x = 9
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_modernize_equipment
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_alfarsan
+		icon = GFX_goal_generic_cavalry
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_modernize_equipment
+		}
+		x = 8
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_alfarsan
+				bonus = 0.75
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_foreign_landship_designers
+		icon = GFX_focus_NZL_bob_semple_tank
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_alfarsan
+		}
+		x = 8
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_foreign_landship_designers
+				bonus = 0.5
+				uses = 1
+				category = armor
+			}
+			#50% armor research
+		}
+
+	}
+	focus = {
+		id = SYR_landship_experiments
+		icon = GFX_focus_generic_license_production
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_foreign_landship_designers
+		}
+		x = 8
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_landship_experiments
+				bonus = 0.5
+				uses = 1
+				technology = basic_medium_tank
+			}
+		}
+	}
+	focus = {
+		id = SYR_defend_the_homeland
+		icon = GFX_goal_generic_defence
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_prepare_for_war
+		}
+		x = 11
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_defend_the_homeland
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_zagros_bridgehead
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_defend_the_homeland
+		}
+		x = 11
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_zagros_bridgehead
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_byzantine_threat
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_zagros_bridgehead
+		}
+		x = 10
+		y = 3
+		bypass = {
+			344 = { NOT = { is_owned_by = ROOT } }
+			344 = { NOT = { is_controlled_by = ROOT } }
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			344 = {
+				add_building_construction = {
+					type = bunker
+					province = 11746
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9893
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_sinai_fortifications
+		icon = GFX_goal_generic_fortify_city
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_zagros_bridgehead
+		}
+		x = 12
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+		bypass = {
+			454 = { NOT = { is_owned_by = ROOT } }
+			454 = { NOT = { is_controlled_by = ROOT } }
+		}
+		completion_reward = {
+			454 = {
+
+				add_building_construction = {
+					type = coastal_bunker
+					province = 4088
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 1015
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 4088
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11970
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 1015
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 4115
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_artillery
+		icon = GFX_goal_generic_army_artillery
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_sinai_fortifications
+			focus = SYR_byzantine_threat
+		}
+		x = 12
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_artillery
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_modern_fighters
+		icon = GFX_goal_generic_air_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_expand_air_force_bases
+		}
+		x = 14
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_modern_fighters
+				bonus = 0.5
+				uses = 1
+				category = light_fighter
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_research_doctrines
+		icon = GFX_goal_generic_build_airforce
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_expand_air_force_bases
+		}
+		x = 16
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_research_doctrines
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_heavy_fighters
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_research_doctrines
+			focus = SYR_modern_fighters
+		}
+		x = 14
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_heavy_fighters
+				bonus = 0.5
+				uses = 1				
+				category = cat_heavy_fighter
+			}
+		}
+	}
+	focus = {
+		id = SYR_seaplanes
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_research_doctrines
+		}
+		x = 16
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_seaplanes
+				bonus = 0.5
+				uses = 1				
+				category = naval_bomber
+			}
+		}
+	}
+	focus = {
+		id = SYR_medium_bombers
+		icon = GFX_goal_generic_air_bomber
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_heavy_fighters
+			focus = SYR_seaplanes
+		}
+		mutually_exclusive = {
+			focus = SYR_light_bombers
+		}
+		x = 14
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_medium_bombers
+				bonus = 0.5
+				uses = 1				
+				category = tactical_bomber
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_light_bombers
+		icon = GFX_goal_generic_CAS
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_seaplanes
+			focus = SYR_heavy_fighters
+		}
+		mutually_exclusive = {
+			focus = SYR_medium_bombers
+		}
+		x = 16
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_light_bombers
+				bonus = 0.5
+				uses = 1				
+				category = cas_bomber
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_a_modern_air_force
+		icon = GFX_focus_generic_air_defense
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_light_bombers
+			focus = SYR_medium_bombers
+		}
+		x = 15
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_a_modern_air_force
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_licensed_submarines
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_develop_shipbuilding
+		}
+		x = 19
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_licensed_submarines
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_trade_interdiction
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_licensed_submarines
+		}
+		x = 18
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_trade_interdiction
+				bonus = 0.5
+				uses = 1
+				category = submarine_doctrine
+			}
+		}
+	}
+	focus = {
+		id = SYR_foreign_ship_designs
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_develop_shipbuilding
+		}
+		x = 21
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_foreign_ship_designs
+				bonus = 0.5
+				uses = 1
+				category = dd_tech
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_between_hammer_and_anvil
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_foreign_ship_designs
+			focus = SYR_licensed_submarines
+		}
+		x = 20
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_between_hammer_and_anvil
+				bonus = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+		}
+	}
+	focus = {
+		id = SYR_naval_strikes
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_between_hammer_and_anvil
+		}
+		mutually_exclusive = {
+			focus = SYR_defend_coasts
+		}
+		x = 19
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_naval_strikes
+				bonus = 0.5
+				uses = 1
+				category = cl_tech
+			}
+			add_tech_bonus = {
+				name = SYR_naval_strikes
+				bonus = 0.5
+				uses = 1
+				category = ca_tech
+			}
+		}
+	}
+	focus = {
+		id = SYR_defend_coasts
+		icon = GFX_goal_generic_fortify_city
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_between_hammer_and_anvil
+		}
+		mutually_exclusive = {
+			focus = SYR_naval_strikes
+		}
+		x = 21
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_defend_coasts
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+			add_tech_bonus = {
+				name = SYR_defend_coasts
+				bonus = 0.5
+				uses = 1
+				category = dd_tech
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_bluewater_navy
+		icon = GFX_goal_generic_build_navy
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_defend_coasts
+			focus = SYR_naval_strikes
+		}
+		x = 20
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_bluewater_navy
+				bonus = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+			#1x50% bonus to Naval Doctrine research
+		}
+
+	}
+	focus = {
+		id = SYR_cruisers
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_foreign_ship_designs
+		}
+		x = 22
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_cruisers
+				bonus = 0.5
+				uses = 1
+				category = cl_tech
+			}
+		}
+
+	}
+	focus = {
+		id = SYR_strike_back
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_da_qin_resurgent
+		}
+		x = 26
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 20
+			add_ideas = SYR_strike_back_focus
+		}
+
+	}
+	focus = {
+		id = SYR_revenge
+		icon = GFX_focus_ger_bulwark_against_bolshevism
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_strike_back
+		}
+		x = 24
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = SYR_revenge_focus
+			#grants a -10% PP cost to war goal justification
+		}
+	}
+	focus = {
+		id = SYR_on_the_defense
+		icon = GFX_goal_generic_military_sphere
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_da_qin_resurgent
+		}
+		x = 30
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = deterrence
+		}
+	}
+	focus = {
+		id = SYR_go_it_alone
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_strike_back
+			focus = SYR_on_the_defense
+		}
+		mutually_exclusive = {
+			focus = SYR_internationalism
+		}
+		x = 26
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = indoctrination_focus
+		}
+	}
+	focus = {
+		id = SYR_pan_arabism
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_go_it_alone
+		}
+		x = 23
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+			create_faction = arab_league_faction
+			hidden_effect = {
+				news_event = { hours = 6 id = news.214 }
+			}
+		}
+	}
+	focus = {
+		id = SYR_elan
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_go_it_alone
+		}
+		x = 25
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = ideological_fanaticism
+		}
+
+	}
+	focus = {
+		id = SYR_internationalism
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_strike_back
+			focus = SYR_on_the_defense
+		}
+		mutually_exclusive = {
+			focus = SYR_go_it_alone
+		}
+		x = 28
+		y = 2
+		ai_will_do = {
+			factor = 2.5
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = SYR_internationalism_focus
+			#Some sort of Relations boost modifier
+		}
+
+	}
+	focus = {
+		id = SYR_dissolve_parliament
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_internationalism
+		}
+		mutually_exclusive = {
+			focus = SYR_liberalism
+		}
+		x = 29
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = SYR_authoritarianism_focus
+		}
+
+	}
+	focus = {
+		id = SYR_the_right_wing
+		icon = GFX_goal_support_fascism
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_dissolve_parliament
+		}
+		mutually_exclusive = {
+			focus = SYR_socialism
+			focus = SYR_pangalism
+		}
+		x = 28
+		y = 5
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = fascist_influence
+		}
+	}
+	focus = {
+		id = SYR_pangalism
+		icon = GFX_goal_tripartite_pact
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_dissolve_parliament
+		}
+		mutually_exclusive = {
+			focus = SYR_the_right_wing
+			focus = SYR_socialism
+		}
+		x = 26
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = pangalist_influence
+		}
+
+	}
+	focus = {
+		id = SYR_liberalism
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_on_the_defense
+		}
+		prerequisite = {
+			focus = SYR_internationalism
+		}
+		mutually_exclusive = {
+			focus = SYR_dissolve_parliament
+		}
+		x = 31
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = democratic_influence
+		}
+	}
+	focus = {
+		id = SYR_socialism
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_liberalism
+			focus = SYR_dissolve_parliament
+		}
+		mutually_exclusive = {
+			focus = SYR_the_right_wing
+			focus = SYR_pangalism
+		}
+		x = 30
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = communist_influence
+		}
+	}
+	focus = {
+		id = SYR_join_byzantium
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_socialism
+		}
+		x = 30
+		y = 5
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = BYZ modifier = took_stand_for_us }
+			BYZ = { add_opinion_modifier = { target = ROOT modifier = took_stand_for_us } }
+		}
+
+	}
+	focus = {
+		id = SYR_intervention
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_liberalism
+		}
+		x = 32
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			set_rule = { can_send_volunteers = yes }
+			add_political_power = 150
+			#As per generic
+		}
+
+	}
+	focus = {
+		id = SYR_da_qin_expeditionary_force
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_intervention
+		}
+		x = 32
+		y = 5
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = volunteer_corps_focus
+			#As Per Generic Tree
+		}
+
+	}
+	focus = {
+		id = SYR_antitank_weapons
+		icon = GFX_goal_generic_fortify_city
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_byzantine_threat
+			focus = SYR_sinai_fortifications
+		}
+		x = 10
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_antitank_weapons
+				bonus = 0.5
+				uses = 1
+				category = cat_anti_tank
+			}
+		}
+	}
+	focus = {
+		id = SYR_modern_army
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_artillery
+			focus = SYR_antitank_weapons
+		}
+		x = 11
+		y = 5
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SYR_modern_army
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+			#1 x 50% for Infantry Equipment
+		}
+
+	}
+	focus = {
+		id = SYR_align_seljuks
+		icon = GFX_goal_tripartite_pact
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_pan_arabism
+		}
+		x = 23
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = SAU modifier = took_stand_for_us }
+			SAU = { add_opinion_modifier = { target = ROOT modifier = took_stand_for_us } }
+		}
+	}
+	focus = {
+		id = SYR_ties_with_japan
+		icon = GFX_focus_jap_pacific_guardian
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_liberalism
+		}
+		x = 34
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = JAP modifier = democratic_leanings_good }
+			JAP = { add_opinion_modifier = { target = ROOT modifier = democratic_leanings_good } }
+			#Relation Boost With Japan
+		}
+
+	}
+	focus = {
+		id = SYR_align_gaul
+		icon = GFX_goal_support_fascism
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_the_right_wing
+		}
+		x = 28
+		y = 6
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = FRA modifier = fascism_leanings_good }
+			FRA = { add_opinion_modifier = { target = ROOT modifier = fascism_leanings_good } }
+			#Relation Boost With Gaul
+		}
+
+	}
+	focus = {
+		id = SYR_align_china
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = SYR_pangalism
+		}
+		x = 26
+		y = 5
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = CHI modifier = backed_our_cause }
+			CHI = { add_opinion_modifier = { target = ROOT modifier = backed_our_cause } }
+			#Relation Boost With Ming
+		}
+	}
+}

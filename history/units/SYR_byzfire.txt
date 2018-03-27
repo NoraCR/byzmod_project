@@ -107,7 +107,28 @@ units = {
 
 	}
 }
-
+	######## NAVAL OOB ########
+	navy = {
+		name = "Da Qin Destroyer Fleet"
+		base = 792 
+		location = 792 # Lebanon
+		ship = { name = "Easifa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SYR } } }	
+		ship = { name = "Sakhab" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SYR } } }		
+		ship = { name = "Bariq" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SYR } } }
+		ship = { name = "Hadir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SYR } } }
+		ship = { name = "Sayf" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SYR } } }
+		ship = { name = "Khanajr" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SYR } } }
+	}	
+	navy = {
+		name = "Da Qin Submarine Fleet"
+		base = 4206 
+		location = 4206 # Jerusalem
+		ship = { name = "Washq" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SYR } } }					
+		ship = { name = "Dhiyb" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SYR } } }					
+		ship = { name = "Asada" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SYR } } }
+		ship = { name = "Nasir" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SYR } } }
+		ship = { name = "Saqr" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SYR } } }				
+	}
 
 air_wings = {
 	### Da Qin Air Force (DQAF)

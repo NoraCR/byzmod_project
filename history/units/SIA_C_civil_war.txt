@@ -1,0 +1,50 @@
+﻿division_template = {
+	name = "Red Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Red Brigade I"
+		location = 12232 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade VII"
+		location = 7075 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade VII"
+		location = 10103 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade VII"
+		location = 1185
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade VIII"
+		location = 7400 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade IX"
+		location = 4424 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade X"
+		location = 1330 
+		division_template = "Red Brigade"
+	}
+}

@@ -1,0 +1,30 @@
+﻿division_template = {
+	name = "Domestic Security"			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Civil Security I"
+		location = 5154 
+		division_template = "Domestic Security"
+	}
+	division = {
+		name = "Civil Security II"
+		location = 5189 
+		division_template = "Domestic Security"
+	}
+	division = {
+		name = "Civil Security III"
+		location = 7605 
+		division_template = "Domestic Security"
+	}
+}
