@@ -1482,9 +1482,6 @@ focus_tree = {
 			}
 		}
 	}
-
-
-	}
 	focus = {
 		id = SOM_civil_engineering
 		icon = GFX_goal_generic_construct_civ_factory

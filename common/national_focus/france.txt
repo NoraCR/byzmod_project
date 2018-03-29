@@ -1,5 +1,5 @@
 focus_tree = {
-	id = New_file
+	id = france
 	country = {
 		factor = 0
 		modifier = {

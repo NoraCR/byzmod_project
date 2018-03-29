@@ -467,10 +467,10 @@ focus_tree = {
 			hidden_effect = {
 				set_capital = 289
 				start_civil_war = {
-					ruling_party = communism
-					ideology = pangalism
+					ruling_party = pangalism
+					ideology = communism
 					size = 0.55
-					capital = 681
+					capital = 670
 					states = { 747 640 288 670 671 286 724 }
 				}
 				random_other_country = {
@@ -478,8 +478,8 @@ focus_tree = {
 						original_tag = SIA
 						has_government = pangalism
 					}
-					load_oob = "SIA_P_civil_war"
-					set_equipment_fraction = 0.5
+					load_oob = "SIA_C_civil_war"
+					set_equipment_fraction = 0.8
 					add_popularity = {
 						ideology = pangalism
 						popularity = 0.35
@@ -487,8 +487,8 @@ focus_tree = {
 				}
 				news_event = { hours = 6 id = zhongnan.262 }
 				
-				load_oob = "SAF_C_civil_war"
-				set_equipment_fraction = 0.8
+				load_oob = "SIA_P_civil_war"
+				set_equipment_fraction = 0.5
 				
 				add_popularity = {
 					ideology = communism

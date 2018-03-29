@@ -1,6 +1,6 @@
 technology_sharing_group = {
 	id = tctp_tech_sharing_group
-	name = tctp_tech_sharing_group
+	name = tctp_tech_sharing_group_name
 	desc = tctp_tech_sharing_group_desc
 	picture = GFX_technology_sharing_default
     
@@ -17,7 +17,7 @@ technology_sharing_group = {
 
 technology_sharing_group = {
 	id = wre_tech_sharing_group
-	name = wre_tech_sharing_group
+	name = wre_tech_sharing_group_name
 	desc = wre_tech_sharing_group_desc
 	picture = GFX_technology_sharing_default
     
@@ -34,7 +34,7 @@ technology_sharing_group = {
 
 technology_sharing_group = {
 	id = rrp_tech_sharing_group
-	name = rrp_tech_sharing_group
+	name = rrp_tech_sharing_group_name
 	desc = rrp_tech_sharing_group_desc
 	picture = GFX_technology_sharing_default
     
@@ -51,7 +51,7 @@ technology_sharing_group = {
 
 technology_sharing_group = {
 	id = allies_tech_sharing_group
-	name = allies_tech_sharing_group
+	name = allies_tech_sharing_group_name
 	desc = allies_tech_sharing_group_desc
 	picture = GFX_technology_sharing_default
     
@@ -68,7 +68,7 @@ technology_sharing_group = {
 
 technology_sharing_group = {
 	id = northern_tech_pact_tech_group
-	name = northern_tech_pact_tech_group
+	name = northern_tech_pact_tech_group_name
 	desc = northern_tech_pact_tech_group_desc
 	picture = GFX_technology_sharing_default
     

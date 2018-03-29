@@ -65,8 +65,8 @@ country_event = {
 #The Zhongnan Civil War
 news_event = {
 	id = zhongnan.262
-	title = news.262.t
-	desc = news.262.desc
+	title = zhongnan.262.t
+	desc = zhongnan.262.desc
 	picture = GFX_news_event_saf_civil_war
 	
 	major = yes
@@ -74,7 +74,7 @@ news_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = news.262.a
+		name = zhongnan.262.a
 		trigger = {
 			NOT = {
 				tag = SIA
@@ -89,11 +89,11 @@ news_event = {
 		}
 	}
 	option = {
-		name = news.262.b
+		name = zhongnan.262.b
 		trigger = { TAG = SIA }
 	}
 	option = {
-		name = news.262.c
+		name = zhongnan.262.c
 		trigger = { 
 			OR = {
 				tag = CHI
