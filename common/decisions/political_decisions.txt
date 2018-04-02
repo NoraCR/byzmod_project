@@ -368,7 +368,7 @@ fascism_on_the_rise = {
 			NOT = { has_government = fascism }
 		}
 		
-		remove = {
+		remove_trigger = {
 			has_government = fascism
 		}
 		
@@ -422,7 +422,7 @@ fascism_on_the_rise = {
 			check_has_focus_tree_to_switch_to_fascism = yes
 		}
 		
-		remove = {
+		remove_trigger = {
 			has_government = fascism
 		}
 		
@@ -868,7 +868,7 @@ democratic_on_the_rise = {
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
 		
-		remove = {
+		remove_trigger = {
 			has_government = democratic
 		}
 		
@@ -1225,7 +1225,7 @@ communism_on_the_rise = {
 			NOT = { has_government = communism }
 		}
 		
-		remove = {
+		remove_trigger = {
 			has_government = communism
 		}
 		
@@ -1260,7 +1260,7 @@ communism_on_the_rise = {
 			NOT = { has_government = communism }
 		}
 		
-		remove = {
+		remove_trigger = {
 			has_government = communism
 		}
 		
@@ -1314,7 +1314,7 @@ communism_on_the_rise = {
 			check_has_focus_tree_to_switch_to_communism = yes
 		}
 		
-		remove = {
+		remove_trigger = {
 			has_government = communism
 		}
 		
@@ -1365,7 +1365,7 @@ political_actions = {
             stability_factor = -0.05
         }
 
-        remove = {
+        remove_trigger = {
             OR = {
                 GER = { has_government = ROOT }
                 AND = {
@@ -1545,7 +1545,7 @@ political_actions = {
 			fascism > 0
 		}
 
-		remove = {
+		remove_trigger = {
 			hidden_trigger = {
 				has_government = fascism
 			}
@@ -1595,7 +1595,7 @@ political_actions = {
 			democratic > 0
 		}
 
-		remove = {
+		remove_trigger = {
 			hidden_trigger = {
 				has_government = democratic
 			}
@@ -1645,7 +1645,7 @@ political_actions = {
 			communism > 0
 		}
 
-		remove = {
+		remove_trigger = {
 			hidden_trigger = {
 				has_government = communism
 			}

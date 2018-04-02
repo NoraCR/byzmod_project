@@ -1,0 +1,29 @@
+
+}
+
+#    ##   ##   ##  #        ## #  # ###  ###   ##  ###  ###     #   #  ##  ###  ### ### ### ### ###   ## 
+#   #  # #  # #  # #       #   #  # #  # #  # #  # #  #  #      ## ## #  # #  #  #  #    #  #   #  # #   
+#   #  # #    #### #        #  #  # ###  ###  #  # ###   #      # # # #  # #  #  #  ##   #  ##  ###   #  
+#   #  # #  # #  # #         # #  # #    #    #  # #  #  #      #   # #  # #  #  #  #    #  #   #  #   # 
+###  ##   ##  #  # ###     ##   ##  #    #     ##  #  #  #      #   #  ##  ###  ### #   ### ### #  # ##  
+
+defined_text = { #Country
+	name =  GetBackRoomBackstabberLoc
+	text = {
+		localization_key = backroom_backstabber
+	}
+}
+
+defined_text = { #Country
+	name =  GetPrinceOfTerrorLoc
+	text = {
+		localization_key = prince_of_terror
+	}
+}
+
+defined_text = { #Country
+	name =  GetLiberationRule
+	text = {
+		localization_key = liberating_states_will_gain_you_state_majority
+	}
+}

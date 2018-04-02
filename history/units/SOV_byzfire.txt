@@ -127,15 +127,7 @@ units = {
 
 	##### Zapadnye TVD (Western Theatre Military District) #####
 	#### Leningradskii Voennyii Okrug (Leningrad Military District) -- Leningrad ####
-	# 19ya Strelkoviy Korpus		
-	division= {			
-		name = "16ya 'Ul'yanovskaya' Strelk. Div."		
-		location = 149
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
+	# 19ya Strelkoviy Korpus					
 	division= {			
 		name = "56ya 'Moskva' Strelk. Div."		
 		location = 149
@@ -356,15 +348,7 @@ units = {
 
 	##### Yugo-Zapadnaya Teatr VD (South West TVD) -- Kyiv, Dnipropetrovsk #####				
 	#### Kiev Voennyii Okrug (Kiev Military District) -- Kiev ####
-	# 8ya Strelkoviy Korpus		
-	division= {			
-		name = "24ya 'Samaro-Ulyanovsk' Strelk. Div."		
-		location = 215
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
+	# 8ya Strelkoviy Korpus					
 	division= {			
 		name = "46ya Strelkovaya Diviziya"		
 		location = 6380
@@ -569,15 +553,7 @@ units = {
 
 	}
 
-	# Subordinate to AG
-	division= {			
-		name = "9ya 'Kavkazskaya' Gornostrelk. Div."		
-		location = 6380
-		division_template = "Gornostrelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}						
+	# Subordinate to AG					
 	division= {			
 		name = "47ya 'Gruzinskaya' Gornostrelk. Div."		
 		location = 6380
@@ -762,11 +738,6 @@ air_wings = {
 			owner = "SOV" 
 			amount = 30
 		}
-		# 18ya Bombardirovochnye Aviabrigada
-		tac_bomber_equipment_0 =  {
-			owner = "SOV" 
-			amount = 30
-		}
 	}
 
 	# MVO Aviatsya Komandovaniya
@@ -784,12 +755,6 @@ air_wings = {
 		fighter_equipment_1 = {
 			owner = "SOV" 
 			amount = 24
-		}
-		# 1ya Bombardirovochnye Aviabrigada
-		# 10ya Bombardirovochnye Aviabrigada
-		tac_bomber_equipment_0 =  {
-			owner = "SOV" 
-			amount = 30
 		}
 	}
 }
