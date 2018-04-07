@@ -118,8 +118,6 @@ add_ideas = {
 	limited_conscription
 }
 
-set_national_unity = 0.85
-
 create_country_leader = {
 	name = "Federal Council"
 	desc = "POLITICS_FEDERAL_COUNCIL_DESC"

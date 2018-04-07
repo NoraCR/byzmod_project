@@ -184,12 +184,6 @@ air_wings = {
 			amount = 24
 		}
 	}
-	# Aeronáutica Naval -- Murcia
-	168 = {
-			owner = "SPR" 
-			amount = 27
-		}
-	}
 }
 
 

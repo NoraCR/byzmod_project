@@ -155,7 +155,6 @@ units = {
 		location = 7617
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
 
 	}			
 	division = {			
@@ -163,7 +162,6 @@ units = {
 		location = 7617
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
 
 	}
 	division = {			
@@ -171,7 +169,6 @@ units = {
 		location = 12003
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
 
 	}
 	division = {			
@@ -179,7 +176,6 @@ units = {
 		location = 4135
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.95
 
 	}
 

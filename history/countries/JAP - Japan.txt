@@ -2,8 +2,8 @@
 
 oob = "JAP_byzfire"
 
-set_national_unity = 0.80
-set_war_support = 0.35
+set_stability = 0.80
+set_war_support = 0.35 #goddammit china
 
 set_research_slots = 4
 

@@ -133,7 +133,7 @@ BYZ = {
 		}
 	}
 	surnames = { 
-Akropolites Angelos Aoinos Apokaukos Argyros Batatzes Botaneiates Boumbalis
+	Akropolites Angelos Aoinos Apokaukos Argyros Batatzes Botaneiates Boumbalis
 	Choniates Choumnos
 	Diasorenos Diogenes Doukas
 	Gabras

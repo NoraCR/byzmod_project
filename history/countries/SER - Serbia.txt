@@ -5,7 +5,6 @@ oob = "YUG_1936"
 set_research_slots = 3
 
 add_ideas = {
-	anti_german_military
 }
 
 set_technology = {
@@ -138,7 +137,6 @@ set_politics = {
 		elections_allowed = yes
 	}
 }
-set_national_unity = 0.6
 
 create_country_leader = {
 	name = "Draza Mihailovic"

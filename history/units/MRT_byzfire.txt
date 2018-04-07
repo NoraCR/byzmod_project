@@ -12,6 +12,9 @@ division_template = {
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
 	}
 	support = {
 		#recon = { x = 0 y = 0 } 		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and they seem rather OP. Could revisit if balance changes
@@ -196,7 +199,7 @@ units = {
 	}
 #####Mysore#####
 	division= {			
-		name = "Goa AVM Polisa Jil'ha"		
+		name = "Gova AVM Polisa Jil'ha"		
 		location = 1273 #Goa
 		division_template = "AVM Sain'ya Polisa Divhijana"
 		start_experience_factor = 0.3
@@ -204,7 +207,7 @@ units = {
 
 	}
 	division= {			
-		name = "Bangalore AVM Polisa Jil'ha"		
+		name = "Bengalora AVM Polisa Jil'ha"		
 		location = 8011 #Bangalore
 		division_template = "AVM Sain'ya Polisa Divhijana"
 		start_experience_factor = 0.3
@@ -495,7 +498,7 @@ units = {
 
 	}
 	division= {			
-		name = "Lucknow AVM Polisa Jil'ha"		
+		name = "Lakhanau AVM Polisa Jil'ha"		
 		location = 12137 #Lucknow
 		division_template = "AVM Sain'ya Polisa Divhijana"
 		start_experience_factor = 0.3
@@ -552,7 +555,7 @@ units = {
 
 	}
 	division= {			
-		name = "Delhi AVM Polisa Jil'ha"		
+		name = "Dilli AVM Polisa Jil'ha"		
 		location = 2086 #Delhi
 		division_template = "AVM Sain'ya Polisa Divhijana"
 		start_experience_factor = 0.3
@@ -561,7 +564,7 @@ units = {
 	}
 #####Gujarat#####
 	division= {			
-		name = "Ahmadabad AVM Polisa Jil'ha"		
+		name = "Ahmadabada AVM Polisa Jil'ha"		
 		location = 9975 #Ahmadabad
 		division_template = "AVM Sain'ya Polisa Divhijana"
 		start_experience_factor = 0.3
@@ -593,6 +596,80 @@ units = {
 		start_equipment_factor = 0.8
 
 	}
+#####Punjab#####
+	division= {			
+		name = "39 Rayaphala Divhijana"		
+		location = 10066 
+		division_template = "Rayaphala Divhijana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {			
+		name = "40 Rayaphala Divhijana"		
+		location = 10066 
+		division_template = "Rayaphala Divhijana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {			
+		name = "41 Rayaphala Divhijana"		
+		location = 10066 
+		division_template = "Rayaphala Divhijana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {			
+		name = "11 Parvata Rayaphala Divhijana"		
+		location = 10066 
+		division_template = "Parvata Rayaphala Divhijana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+#####Baloch#####
+	division= {			
+		name = "42 Rayaphala Divhijana"		
+		location = 1179 
+		division_template = "Rayaphala Divhijana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {			
+		name = "43 Rayaphala Divhijana"		
+		location = 1179 
+		division_template = "Rayaphala Divhijana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {			
+		name = "44 Rayaphala Divhijana"		
+		location = 1179 
+		division_template = "Rayaphala Divhijana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {			
+		name = "45 Rayaphala Divhijana"		
+		location = 1179 
+		division_template = "Rayaphala Divhijana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {			
+		name = "Karachi AVM Polisa Jil'ha"		
+		location = 1179 #Karachi
+		division_template = "AVM Sain'ya Polisa Divhijana"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}	
 #######Maratha Navy#######
 	navy = {
 		name = "1 Maratha Vegavana" 
@@ -639,15 +716,31 @@ units = {
 		ship = { name = "Pralaya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
 		}
 	navy = {
-		name = "Panabudi Vegavana" 
+		name = "1 Panabudi Vegavana" 
 		base = 3456
 		location = 3456 # Karachi
 		ship = { name = "P1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "P2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "P3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "P4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }	
-		ship = { name = "P5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }			
-	}			
+		ship = { name = "P5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "P6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }	
+		ship = { name = "P7" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }	
+		ship = { name = "P8" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }	
+		ship = { name = "P9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }	
+		ship = { name = "P10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }	
+	}
+	navy = {
+		name = "2 Panabudi Vegavana" 
+		base = 10278
+		location = 10278 # Madras
+		ship = { name = "P11" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "P12" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "P13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "P14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }	
+		ship = { name = "P15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "P16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }	
+	}		
 }
 air_wings = {
 	429 = {

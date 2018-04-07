@@ -40,13 +40,6 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-# DIPLOMACY / WAR 36
-	declare_war_on = {
-		target = ETH
-		type = annex_everything
-	}
-	give_guarantee = ALB
-
 1939.1.1 = {
 
 	add_political_power = 1198
