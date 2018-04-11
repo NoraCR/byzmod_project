@@ -2686,13 +2686,13 @@ news_event = {
 	option = {
 		name = wtt_news.64.a
 		trigger = {
-			original_tag = ITA
+			original_tag = FRA
 		}
 	}
 	option = {
 		name = wtt_news.64.b
 		trigger = {
-			NOT = { original_tag = ITA }
+			NOT = { original_tag = FRA }
 			NOT = { has_war_with = FROM }
 		}
 	}

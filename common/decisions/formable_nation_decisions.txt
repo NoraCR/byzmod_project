@@ -1235,7 +1235,7 @@ form_roman_empire_category = {
 		icon = generic_form_nation
 
 		allowed = {
-			original_tag = ITA
+			original_tag = FRA
 			has_dlc = "Waking the Tiger"
 		}
 
@@ -1456,7 +1456,7 @@ form_roman_empire_category = {
 		}
 
 		visible = {
-			original_tag = ITA
+			original_tag = FRA
 			NOT = { has_global_flag = form_roman_empire_flag }
 		}
 
@@ -1658,25 +1658,18 @@ form_roman_empire_category = {
 				set_global_flag = form_roman_empire_flag
 				if = {
 					limit = {
-						has_country_leader = { ruling_only = yes name = "Benito Mussolini" }
+						has_country_leader = { ruling_only = yes name = "Valeria Postuma" }
 					}
 					kill_country_leader = yes
 					create_country_leader = {
-						name = "Augustus Mussolini"
-						desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-						picture = "GFX_portrait_italy_emperor_mussolini"
+						name = "Valeria Augusta"
+						picture = "fra_valeria_postuma.dds"
 						expire = "1965.1.1"
 						ideology = fascism_ideology
 						traits = {
-							
+							warmonger
 						}
 					}
-				}
-				if = {
-					limit = {
-						has_idea = victor_emmanuel
-					}
-					remove_ideas = victor_emmanuel
 				}
 			}
 		}

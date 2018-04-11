@@ -108,7 +108,7 @@ units = {
 		location = 4641 
 		division_template = "National Guard Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -116,7 +116,7 @@ units = {
 		location = 4641 
 		division_template = "National Guard Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -124,7 +124,7 @@ units = {
 		location = 4641 
 		division_template = "National Guard Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -132,7 +132,7 @@ units = {
 		location = 1440 
 		division_template = "National Guard Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 #####Cuba#####
@@ -141,7 +141,7 @@ units = {
 		location = 7622 
 		division_template = "National Guard Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -149,7 +149,7 @@ units = {
 		location = 7622 
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -157,7 +157,7 @@ units = {
 		location = 1550 
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.6
 
 	}
 #####Caribbean/Venezuela######
@@ -223,7 +223,7 @@ units = {
 		location = 12489 #Little Rock 
 		division_template = "Mechanized Cavalry"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -271,7 +271,7 @@ units = {
 		location = 7138 #Catawba 
 		division_template = "Mechanized Cavalry"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -379,11 +379,27 @@ units = {
 
 	}
 	division= {			
+		name = "24th Infantry Division"		
+		location = 12357 #Milioke
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+
+	}
+	division= {			
+		name = "25th Infantry Division"		
+		location = 12357 #Milioke
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+
+	}
+	division= {			
 		name = "1st Mountain Infantry Division"		
 		location = 1827 
 		division_template = "Mountain Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.6
 
 	}
 	division= {			
@@ -391,7 +407,7 @@ units = {
 		location = 1747 
 		division_template = "Mountain Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.6
 
 	}
 	division= {			
@@ -399,7 +415,7 @@ units = {
 		location = 10711 
 		division_template = "Mountain Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.6
 
 	}
 ########NAVAL OOB########
@@ -462,11 +478,17 @@ units = {
 		name = "Northern Command"			
 		base = 788
 		location = 788 # Roanoke
+		ship = { name = "ANS Etowah" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Quinipissa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }		
-		ship = { name = "ANS Biloxi" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ANS Biloxi" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Malbanchia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }			
 		ship = { name = "ANS Chickamauga" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Karankawa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Millioke" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Kichai" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Tawakoni" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Taovaya" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ANS Hueco" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Tjisondari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }	
 		ship = { name = "ANS Kajeruna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ANS Montauk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }

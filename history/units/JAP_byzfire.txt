@@ -1,19 +1,19 @@
 ﻿division_template = {
 	name = "Kokka Anchisukiru" #National Guard (Garrison)
-	
+	division_names_group = JAP_GAR_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-	}
-	support = {
-		#artillery = { x = 0 y = 0}
+		infantry = { x = 1 y = 2 }
 	}
 	priority = 0
 }
 division_template = {
-	name = "Hohei Shidan" #Infantry Division			
+	name = "Hohei Shidan" #Infantry Division
+	division_names_group = JAP_INF_01
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -34,7 +34,7 @@ division_template = {
 }
 division_template = {
 	name = "Kaigai Hohei" #Marines Division
-	
+	division_names_group = JAP_MAR_01
 	regiments = {
 		marine = { x = 0 y = 0 }
 		marine = { x = 0 y = 1 }
@@ -50,6 +50,7 @@ division_template = {
 }
 division_template = {
 	name = "Dendo Ryodan" #Motorized Brigade
+	division_names_group = JAP_MOT_01
 	
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -58,12 +59,17 @@ division_template = {
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
-		light_armor = { x = 2 y = 0 }
-		light_armor = { x = 2 y = 0 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
 	}
 }
 
@@ -375,15 +381,57 @@ units = { #includes army and navy but not air-force
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.2
 	}
-		division = {
+	division = {
 		name = "17th Hohei Shidan"
 		location = 1182
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.2
 	}
-		division = {
+	division = {
 		name = "18th Hohei Shidan"
 		location = 1182
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "19th Hohei Shidan"
+		location = 1182
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "20th Hohei Shidan"
+		location = 1182
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "21st Hohei Shidan"
+		location = 1092
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "22nd Hohei Shidan"
+		location = 1092
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "23rd Hohei Shidan"
+		location = 1092
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "24th Hohei Shidan"
+		location = 1092
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "25th Hohei Shidan"
+		location = 1025
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.2
 	}
@@ -672,7 +720,7 @@ air_wings = {
 		}
 		tac_bomber_equipment_0 =  {
 			owner = "JAP" 
-			amount = 36
+			amount = 54
 		}
 	}
 	

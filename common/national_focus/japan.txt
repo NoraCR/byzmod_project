@@ -1156,7 +1156,7 @@ focus_tree = {
 		y = 1
 		available = {
 			PER = {
-				controls_state = 662
+				controls_state = 412
 			}
 		}
 		cost = 10
@@ -1466,7 +1466,7 @@ focus_tree = {
 
 		available = {
 			ROOT = {
-				democracy > 0.15
+				democratic > 0.15
 			}
 			has_equipment = {
 				infantry_equipment > 199

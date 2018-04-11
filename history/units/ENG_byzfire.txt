@@ -201,8 +201,6 @@ units = {
 
 	}
 	
-	### Middle East Command ###
-	
 	###Africa
 	division= {	
 		name = "Congo Force"
@@ -228,10 +226,25 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
+	division= {	  
+		name = "Kivu Garrison"
+		location = 1181
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	  
+		name = "Tshuapa Force"
+		location = 988
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
 	division= {	
 		name = "Katanga Groups"
 		location = 4515
-		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
+		division_template = "Colonial Garrison"	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 		start_equipment_factor = 0.3
 
