@@ -55,7 +55,9 @@ focus_tree = {
 			}
 			CHI = {
 				if = {
-					NOT = { is_in_faction_with = JAP }
+					limit = { 
+						NOT = { is_in_faction_with = JAP }
+					}
 					add_opinion_modifier = { target = JAP modifier = democratic_leanings_bad }
 				}
 			}
@@ -906,7 +908,6 @@ focus_tree = {
 					add_building_construction = {
 						type = dockyard
 						level = 3
-						province = 1415
 						instant_build = yes
 					}
 				}
@@ -917,7 +918,6 @@ focus_tree = {
 					add_building_construction = {
 						type = dockyard
 						level = 2
-						province = 7381
 						instant_build = yes
 					}
 				}

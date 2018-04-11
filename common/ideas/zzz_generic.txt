@@ -1022,22 +1022,9 @@ ideas = {
 			picture = generic_tank_manufacturer_1
 			
 			allowed = {
-				NOT = { OR { tag = tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM  } }
+				NOT = { OR { tag = ENG tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM  } }
 				NOT = {
 					has_available_idea_with_traits = { idea = tank_manufacturer limit = 1 }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = AST tag = SAF tag = NZL tag = CAN }
-						has_dlc = "Together for Victory"
-					}
-				}
-				NOT = {
-					OR = {
-						is_literally_china = yes
-						tag = MAN
-					}
-					has_dlc = "Waking the Tiger"
 				}
 			}
 			
@@ -1065,12 +1052,6 @@ ideas = {
 				NOT = {
 					has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
 				}
-				NOT = {
-					AND = {
-						OR = { tag = AST tag = CAN tag = NZL tag = RAJ }
-						has_dlc = "Together for Victory"
-					}
-				}
 			}
 			
 			cost = 150
@@ -1096,12 +1077,6 @@ ideas = {
 				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM  } }
 				NOT = {
 					has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
-				}
-				if = {
-					limit = {
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { tag = ROM } NOT = { tag = YUG }
 				}
 			}
 			
@@ -1277,12 +1252,6 @@ ideas = {
 				NOT = {
 					has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
 				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
 			}
 			
 			cost = 150
@@ -1346,7 +1315,7 @@ ideas = {
 		generic_war_industrialist = {
 
 			allowed = {
-				OR = { original_tag = SERoriginal_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				OR = { original_tag = SER original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { war_industrialist }
