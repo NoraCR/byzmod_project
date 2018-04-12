@@ -960,13 +960,13 @@ focus_tree = {
 				limit = {
 					has_idea = SIA_chinese_domination
 				}
-				swap_ideas = { remove_idea = SIA_chinese_domination add_idea = SIA_thai_fascism_idea  }	
+				swap_ideas = { remove_idea = SIA_chinese_domination add_idea = SIA_thai_fascism  }	
 			}
 			if = {
 				limit = {
 					NOT = { has_idea = SIA_chinese_domination }
 				}
-				add_ideas = SIA_thai_fascism_idea
+				add_ideas = SIA_thai_fascism
 			}
 			country_event = { days = 6 random = 120 id = zhongnan.400 }			
 		}

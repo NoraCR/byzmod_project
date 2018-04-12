@@ -2545,7 +2545,7 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		date = 1937.6.22
+		date > 1937.6.22
 		country_exists = FRA
 		country_exists = DEN
 		NOT = { has_global_flag = news.901_fired }
@@ -2583,7 +2583,7 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		date = 1938.6.22
+		date > 1938.6.22
 		country_exists = FRA
 		country_exists = BYZ
 		NOT = { has_global_flag = news.902_fired }
@@ -2621,7 +2621,7 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		date = 1936.1.19
+		date > 1936.1.19
 		country_exists = IRE
 		country_exists = HDA 
 		NOT = { has_global_flag = news.903_fired }
@@ -2659,7 +2659,7 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		date = 1936.8.8
+		date > 1936.8.8
 		country_exists = CHI
 		NOT = { has_global_flag = news.904_fired }
 		CHI = { has_war = no }

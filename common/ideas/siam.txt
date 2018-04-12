@@ -92,7 +92,7 @@ ideas = {
 				pangalism_drift = -0.03
 			}
 		}
-		SAF_abandon_ming_communism = {
+		SIA_abandon_ming_communism = {
 			allowed = {
 				always = no
 			}

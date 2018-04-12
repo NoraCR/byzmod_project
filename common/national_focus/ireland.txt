@@ -673,7 +673,7 @@ focus_tree = {
 		completion_reward = {
 			BYZ = { remove_from_faction = ROOT }
 			add_political_power = 100
-			remove_idea = IRE_oconnor_government
+			remove_ideas = IRE_oconnor_government
 		}
 	}
 	focus = {

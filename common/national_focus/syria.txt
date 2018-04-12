@@ -1418,7 +1418,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = ideological_fanaticism
+			add_ideas = SYR_ideological_fanaticism
 		}
 
 	}
