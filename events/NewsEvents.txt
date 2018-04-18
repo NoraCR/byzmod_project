@@ -2654,7 +2654,6 @@ news_event = {
 	id = news.904
 	title = news.904.t
 	desc = news.904.d
-	picture = GFX_report_event_chinese_japanese_handshake
 	
 	major = yes
 	

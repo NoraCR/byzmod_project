@@ -736,21 +736,6 @@ air_wings = {
 			amount = 64
 		}
 	}
-
-	}
-
-	### RAF Gibraltar
-	118 = { 
-		### RAF Gibraltar
-		nav_bomber_equipment_1 = {
-			owner = "ENG" 
-			amount = 24
-		}
-		CAS_equipment_1 = {
-			owner = "ENG" 
-			amount = 64
-		}
-	}
 }
 
 	#########################

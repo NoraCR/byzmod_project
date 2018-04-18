@@ -129,6 +129,14 @@ units = {
 		ship = { name = "Nasir" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SYR } } }
 		ship = { name = "Saqr" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SYR } } }				
 	}
+	navy = {
+		name = "Persian Gulf Destroyer Detachment"
+		base = 2089 
+		location = 2089 # Basra
+		ship = { name = "Umm Qasr" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SYR } } }	
+		ship = { name = "Al Basra" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SYR } } }		
+		ship = { name = "Ahvaz" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SYR } } }
+	}
 }
 air_wings = {
 	### Da Qin Air Force (DQAF)

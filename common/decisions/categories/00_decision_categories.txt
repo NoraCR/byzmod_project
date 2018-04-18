@@ -71,6 +71,19 @@ democratic_on_the_rise = {
 	#}
 }
 
+pangalism_on_the_rise = {
+	icon = generic_communism
+
+	allowed = {
+		always = yes
+	}
+	
+	#visible = {
+	#	NOT = { has_government = pangalism }
+	#	has_idea_with_trait = ayn_rand
+	#}
+}
+
 communism_on_the_rise = {
 	icon = generic_communism
 

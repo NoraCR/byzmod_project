@@ -4,6 +4,55 @@
 
 add_namespace = byz
 
+#Prague Telegram
+country_event = {
+	id = byz.1
+	title = byz.1.t
+	desc = byz.1.d
+	picture = GFX_report_event_generic_panzer_attack
+	fire_only_once = yes
+	trigger = {
+		date > 1936.6.1
+		has_government = communism 
+		country_exists = BYZ
+		NOT = { country_exists = CZE }
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = byz.1_fired 
+	}
+	option = {
+		name = byz.1.a
+	}
+}
+
+# Army Doctrine Memo
+country_event = {
+	id = byz.2
+	title = byz.2.t
+	desc = byz.2.d
+	picture = GFX_report_event_generic_panzer_attack
+	fire_only_once = yes
+	trigger = {
+		date > 1936.8.1
+		has_government = communism 
+		country_exists = BYZ
+		NOT = { country_exists = CZE }
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = byz.2_fired 
+	}
+	option = {
+		name = byz.2.a
+		army_experience = 5
+	}
+}
+
 # Completing the Bosporus Bridge
 
 country_event = {
@@ -30,6 +79,9 @@ country_event = {
 				type = infrastructure
 				level = 1
 			}
+		}
+		trigger = {
+			TAG = BYZ
 		}
 	}
 }

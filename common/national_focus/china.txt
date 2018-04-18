@@ -196,7 +196,7 @@ focus_tree = {
 			factor = 1
 		}	
 		completion_reward = {
-			add_named_threat = { threat = 1 name = CHI_the_second_xizheng }
+			add_named_threat = { threat = 10 name = CHI_the_second_xizheng }
 			BYZ = {
 				add_opinion_modifier = { target = CHI modifier = unprovoked_aggression } 
 			}
@@ -209,9 +209,16 @@ focus_tree = {
 			FRA = {
 				add_opinion_modifier = { target = CHI modifier = unprovoked_aggression } 
 			}
+			GER = {
+				add_opinion_modifier = { target = CHI modifier = unprovoked_aggression } 
+			}
+			ENG = {
+				add_opinion_modifier = { target = CHI modifier = unprovoked_aggression } 
+			}
 			hidden_effect = {
 				news_event = { hours = 6 id = news.222 }
 			}
+			
 		}
 	}
 	focus = {
@@ -2535,8 +2542,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		add_named_threat = { threat = 1 name = CHI_prepare_indian_war }
-
+		completion_reward = {
+			add_named_threat = { threat = 5 name = CHI_prepare_indian_war }
+		}
 	}
 	focus = {
 		id = CHI_railway_supply

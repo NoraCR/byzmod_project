@@ -60,69 +60,6 @@ defined_text = { # Country
 	}
 }
 
-defined_text = { # for PRC tree
-	name = GetManchuriaPuppet
-	text = {
-		trigger = {
-			MAN = {
-				OR = {
-					is_subject_of = JAP
-					has_cosmetic_tag = MAN_kwantung_army 
-				}
-			}
-		}
-		localization_key = PRC_provoke_japan_manchuria
-	}
-	text = {
-		localization_key = PRC_provoke_japan_korea
-	}
-}
-
-defined_text = { # for shared tree
-	name = GetVietnamOwner
-	text = {
-		trigger = {
-			671 = {
-				is_controlled_by = JAP
-			}
-		}
-		localization_key = CHI_vietnam_JAP
-	}
-	text = {
-		localization_key = CHI_vietnam_FRA
-	}
-}
-
-defined_text = { # Country
-	name = GetGermanTechnologyName
-	text = {
-		trigger = {
-			original_tag = RAJ
-			is_in_faction_with = JAP
-			NOT = { is_in_faction_with = GER }
-		}
-		localization_key = RAJ_german_technology_japan
-	}
-	text = {
-		localization_key = RAJ_german_technology_german
-	}
-}
-
-defined_text = { # Country
-	name = GetJAAFAName
-	text = {
-		trigger = {
-			original_tag = RAJ
-			is_in_faction_with = GER
-			NOT = { is_in_faction_with = JAP }
-		}
-		localization_key = RAJ_japanese_army_air_force_academy_german
-	}
-	text = {
-		localization_key = RAJ_japanese_army_air_force_academy_japan
-	}
-}
-
 defined_text = { #
 	name = GetWehrmachtAngerLevel
 	text = {
