@@ -437,7 +437,7 @@ focus_tree = {
 	focus = {
 		id = SIA_strike_break
 		icon = GFX_goal_generic_neutrality_focus
-		cost = 10.00
+		cost = 2.00
 		prerequisite = {
 			focus = SIA_police_yuenan
 		}
