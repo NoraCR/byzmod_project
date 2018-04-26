@@ -1,0 +1,2019 @@
+focus_tree = {
+	id = marathas
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MRT
+		}
+	}
+	default = no
+	focus = {
+		id = MRT_marxism_mullerism_sharqiism
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		x = 9
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 160
+		}
+	}
+	focus = {
+		id = MRT_aerial_feats
+		icon = GFX_goal_generic_air_fighter
+		cost = 10.00
+		x = 15
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = MRT_climb_sagarmatha
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		x = 19
+		y = 0
+		completion_reward = {
+			add_tech_bonus = {
+				army_experience = 20
+				name = MRT_climb_sagarmatha
+				bonus = 0.50
+				uses = 1
+				category = mountaineers_tech
+			}
+		}
+	}
+	focus = {
+		id = MRT_international_communism
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		x = 25
+		y = 0
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				date < 1939.1.1
+			}
+		}
+		completion_reward = {
+			add_named_threat = { threat = 5 name = GER_our_place_in_the_sun }
+			add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = MRT_crash_industrialization
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		x = 3
+		y = 0
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip =  {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 2
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = MRT_crash_industrialization_2IC }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MRT_crash_industrialization_2IC
+			}
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MRT_crash_industrialization_2IC
+			}
+		}
+	}
+	focus = {
+		id = MRT_all_india_railways
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_crash_industrialization
+		}
+		x = 1
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = MRT_all_india_railways_3Inf }
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = { 
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+					}
+					state_population > 1000000
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = MRT_all_india_railways_3Inf
+			}
+			random_owned_controlled_state = {
+				limit = { 
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+					}
+					state_population > 1000000
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = MRT_all_india_railways_3Inf
+			}
+			random_owned_controlled_state = {
+				limit = { 
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+					}
+					state_population > 1000000
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = MRT_all_india_railways_3Inf
+			}
+		}
+	}
+	focus = {
+		id = MRT_infrastructure_effort
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_all_india_railways
+		}
+		x = 1
+		y = 2
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {			
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = MRT_rare_earth_elements
+		icon = GFX_focus_generic_tungsten
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_infrastructure_effort
+		}
+		x = 1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_resource = {
+				type = tungsten
+				amount = 10
+				state = 433 #Rajasthan
+			}
+			add_resource = {
+				type = chromium
+				amount = 10
+				state = 436 #Jabalpur
+			}
+			add_resource = {
+				type = aluminium
+				amount = 6
+				state = 437 #Indore
+			}
+		}
+	}
+	focus = {
+		id = MRT_import_substitution
+		icon = GFX_focus_RAJ_all_india_forward_bloc
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_rare_earth_elements
+		}
+		x = 1
+		y = 4
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = MRT_import_substitution
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = MRT_extensive_nationalization
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_crash_industrialization
+		}
+		x = 3
+		y = 1
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no		
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = MRT_extensive_nationalization_AF
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MRT_extensive_nationalization_AF
+			}
+		}
+	}
+	focus = {
+		id = MRT_shock_workers
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_extensive_nationalization
+		}
+		x = 3
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = MRT_shock_workers
+		}
+	}
+	focus = {
+		id = MRT_overcome_nature
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_shock_workers
+		}
+		x = 3
+		y = 3
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+			controls_state = 423
+		}
+
+		completion_reward = {
+			add_political_power = 120
+			add_resource = {
+				type = rubber
+				amount = 10
+				state = 423
+			}
+		}
+	}
+	focus = {
+		id = MRT_extra_research_slot
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_overcome_nature
+		}
+		x = 3
+		y = 4
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = MRT_armament_effort
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_crash_industrialization
+		}
+		x = 5
+		y = 1
+		ai_will_do = {
+			factor = 2
+		}
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}		
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = MRT_sharqi_constitution
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_marxism_mullerism_sharqiism
+		}
+		x = 8
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = MRT_army_supremacy
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_armament_effort
+		}
+		prerequisite = {
+			focus = MRT_sharqi_constitution
+		}
+		mutually_exclusive = {
+			focus = MRT_AVM_supremacy
+		}
+		x = 6
+		y = 2
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				any_claim = yes
+				has_war = yes
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = MRT_army_supremacy_focus
+		}
+	}
+	focus = {
+		id = MRT_military_reorganization
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_army_supremacy
+		}
+		x = 6
+		y = 3
+		ai_will_do = {
+			factor = 0.25
+			modifier = {
+				factor = 1000
+				any_claim = yes
+				has_war = yes
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+			army_experience = 20
+		}
+	}
+	focus = {
+		id = MRT_new_heroes
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_military_reorganization
+		}
+		x = 6
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			hidden_effect = {
+				set_rule = {
+					can_use_kamikaze_pilots = yes
+				}
+			}
+			custom_effect_tooltip = kamikaze_focus_tooltip
+		}
+	}
+	focus = {
+		id = MRT_personality_cult
+		icon = GFX_focus_generic_home_defense
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_marxism_mullerism_sharqiism
+		}
+		x = 10
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = MRT_AVM_supremacy
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_sharqi_constitution
+		}
+		prerequisite = {
+			focus = MRT_personality_cult
+		}
+		mutually_exclusive = {
+			focus = MRT_army_supremacy
+		}
+		x = 8
+		y = 2
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1000
+				any_claim = yes
+				has_war = yes
+			}
+		}	
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = avm
+		}
+
+	}
+	focus = {
+		id = MRT_AVM_divisions
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_AVM_supremacy
+		}
+		x = 8
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 1000
+				any_claim = yes
+				has_war = yes
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = avm
+				add_idea = avm_2
+			}
+		}
+	}
+	focus = {
+		id = MRT_anti_partisan_orders
+		icon = GFX_goal_continuous_suppression
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_AVM_divisions
+		}
+		x = 8
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_ideas = MRT_partisan_suppression_focus
+		}
+	}
+	focus = {
+		id = MRT_mass_mobilization
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_personality_cult
+		}
+		x = 10
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = MRT_film_and_radio_propaganda
+		icon = GFX_goal_generic_propaganda
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_mass_mobilization
+		}
+		x = 10
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = MRT_model_workers
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_film_and_radio_propaganda
+		}
+		x = 10
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = MRT_model_workers
+		}
+	}
+	focus = {
+		id = MRT_schooling_reform
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_personality_cult
+		}
+		x = 12
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = MRT_militarized_schools
+		}
+	}
+	focus = {
+		id = MRT_research_cities
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_schooling_reform
+		}
+		x = 12
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = MRT_internal_security
+		icon = GFX_goal_generic_fortify_city
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_research_cities
+		}
+		x = 12
+		y = 4
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = MRT_internal_security
+		}
+	}
+	focus = {
+		id = MRT_promote_aviation
+		icon = GFX_goal_generic_air_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_aerial_feats
+		}
+		x = 14
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = MRT_CAS_focus
+		icon = GFX_goal_poland_goal
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_promote_aviation
+		}
+		x = 14
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = MRT_CAS_focus
+				uses = 1
+				bonus = 0.5
+				category = cas_bomber
+			}
+		}
+	}
+	focus = {
+		id = MRT_heavy_bombers
+		icon = GFX_goal_generic_air_bomber
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_CAS_focus
+		}
+		x = 14
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = MRT_heavy_bombers
+				uses = 1
+				bonus = 0.5
+				category = tactical_bomber
+			}
+			add_tech_bonus = {
+				name = MRT_heavy_bombers
+				bonus = 0.5
+				uses = 1
+				category = heavy_air
+			}
+		}
+	}
+	focus = {
+		id = MRT_fighter_focus
+		icon = GFX_goal_generic_air_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_promote_aviation
+		}
+		x = 16
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 5
+			add_tech_bonus = {
+				name = MRT_fighter_focus
+				bonus = 0.5
+				uses = 2
+				category = light_fighter
+			}
+		}
+	}
+	focus = {
+		id = MRT_air_doctrine
+		icon = GFX_goal_generic_air_doctrine
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_fighter_focus
+			focus = MRT_heavy_bombers
+		}
+		x = 15
+		y = 4
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = MRT_paratroopers
+		icon = GFX_focus_generic_paratrooper
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_aerial_feats
+		}
+		prerequisite = {
+			focus = MRT_climb_sagarmatha
+		}
+		x = 16
+		y = 1
+		completion_reward = {
+			add_tech_bonus = {
+				name = MRT_paratroopers
+				bonus = 0.75
+				uses = 1
+				category = para_tech
+			}
+		}
+	}
+	focus = {
+		id = MRT_infantry_training
+		icon = GFX_goal_generic_military_sphere
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_climb_sagarmatha
+		}
+		x = 19
+		y = 1
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = MRT_infantry_training
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = MRT_the_sharqi_line
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_infantry_training
+		}
+		x = 18
+		y = 2
+		ai_will_do = {
+			factor = 6
+		}
+
+		available = {
+			MRT = { controls_state = 438 }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 5
+			438 = {
+				add_building_construction = { type = bunker province = 7064 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 1983 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 8082 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 8114 level = 3 instant_build = yes }
+			}
+			439 = {
+				add_building_construction = { type = bunker province = 10021 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 1898 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 1129 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 7106 level = 3 instant_build = yes }
+			}
+			440 = {
+				add_building_construction = { type = bunker province = 12822 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 12005 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 10887 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 4979 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 8022 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 10173 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 8106 level = 3 instant_build = yes }
+			}
+		}
+	}
+	focus = {
+		id = MRT_artillery
+		icon = GFX_goal_generic_army_artillery2
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_the_sharqi_line
+		}
+		x = 18
+		y = 3
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = MRT_artillery
+				uses = 3
+				bonus = 0.5
+				category = artillery
+				category = support_tech
+			}
+		}
+	}
+	focus = {
+		id = MRT_capital_fortress
+		icon = GFX_goal_generic_construct_military
+		cost = 5.00
+		prerequisite = {
+			focus = MRT_artillery
+		}
+		available = {
+			429 = {
+				is_controlled_by = ROOT
+				
+				OR = {
+					any_neighbor_state = {
+						NOT = { is_controlled_by = ROOT }
+					}
+
+					MRT = { surrender_progress > 0.1 }
+				}
+			}
+		}
+		x = 18
+		y = 4
+		ai_will_do = {
+			factor = 100
+		}	
+		completion_reward = {
+			army_experience = 5
+			429 = {
+				hidden_effect = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 4353
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 7060
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 4072
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 1405
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 12269
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 10270
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 7119
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 7013
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 4
+						province = 1349
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = MRT_army_motorization
+		icon = GFX_goal_generic_army_motorized
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_infantry_training
+		}
+		x = 20
+		y = 2
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = MRT_army_motorization
+				bonus = 0.5
+				uses = 2
+				category = motorized_equipment
+				technology = tech_field_hospital
+				technology = tech_field_hospital2
+				technology = tech_field_hospital3
+				technology = tech_field_hospital4
+				technology = tech_logistics_company
+				technology = tech_logistics_company2
+				technology = tech_logistics_company3
+				technology = tech_logistics_company4
+				technology = tech_signal_company
+				technology = tech_signal_company2
+				technology = tech_signal_company3
+				technology = tech_signal_company4
+			}
+		}
+	}
+	focus = {
+		id = MRT_landships
+		icon = GFX_goal_generic_army_tanks
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_army_motorization
+		}
+		x = 20
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+					name = MRT_landships
+					bonus = 0.5
+					uses = 1
+					category = armor
+				}
+		}
+	}
+	focus = {
+		id = MRT_land_doctrines
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_landships
+		}
+		x = 20
+		y = 4
+		completion_reward = {			
+			army_experience = 10			
+			add_tech_bonus = {
+				name = MRT_land_doctrines
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}		
+		}
+	}
+	focus = {
+		id = MRT_against_fascism
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_international_communism
+		}
+		x = 22
+		y = 1
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 0
+				has_completed_focus = MRT_against_liberalism
+			}
+			modifier = {
+				factor = 0
+				has_completed_focus = MRT_against_capitalism
+			}
+		}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			every_other_country = {
+				limit = { 
+					has_government = fascism
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier = FRA_leftist_rhetoric_fascism
+				}
+			}
+		}
+	}
+	focus = {
+		id = MRT_expeditionary_forces
+		icon = GFX_focus_generic_license_production
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_against_fascism
+		}
+		x = 22
+		y = 2
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = MRT_mef
+		}
+	}
+	focus = {
+		id = MRT_join_the_rrp
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_expeditionary_forces
+		}
+		x = 22
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			BYZ = { has_government = ROOT }
+			NOT = {
+				has_war_with = BYZ
+			}
+			OR = {
+				is_subject = no
+				is_subject_of = BYZ
+			}
+			is_in_faction = no
+		}
+
+		bypass = {
+			is_in_faction_with = BYZ
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			BYZ = { country_event = generic.2 }
+		}
+	}
+	focus = {
+		id = MRT_against_capitalism
+		icon = GFX_focus_SAF_colonialist_crusade
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_international_communism
+		}
+		x = 25
+		y = 1
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 0
+				has_completed_focus = MRT_against_liberalism
+			}
+			modifier = {
+				factor = 0
+				has_completed_focus = MRT_against_fascism
+			}
+		}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			every_other_country = {
+				limit = { 
+					has_government = pangalism
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier = FRA_leftist_rhetoric_fascism
+				}
+			}
+		}
+	}
+	focus = {
+		id = MRT_expand_the_sharqi_line
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_against_capitalism
+		}
+		x = 24
+		y = 2
+		ai_will_do = {
+			factor = 6
+		}
+
+		available = {
+			MRT = { controls_state = 445 }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 5
+			445 = {
+				add_building_construction = { type = bunker province = 1107 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 7975 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 8044 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 5105 level = 2 instant_build = yes }
+			}
+			444 = {
+				add_building_construction = { type = bunker province = 8013 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 5075 level = 2 instant_build = yes }
+			}
+		}
+	}
+	focus = {
+		id = MRT_army_buildup
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_expand_the_sharqi_line
+		}
+		x = 24
+		y = 3
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_ideas = MRT_army_buildup
+		}
+	}
+	focus = {
+		id = MRT_demand_kashmir
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_army_buildup
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = MRT_against_liberalism
+		icon = GFX_focus_RAJ_indian_gurkhas
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_international_communism
+		}
+		x = 28
+		y = 1
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 0
+				has_completed_focus = MRT_against_fascism
+			}
+			modifier = {
+				factor = 0
+				has_completed_focus = MRT_against_capitalism
+			}
+		}
+				available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			every_other_country = {
+				limit = { 
+					has_government = democratic
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier = FRA_leftist_rhetoric_fascism
+				}
+			}
+		}
+	}
+	focus = {
+		id = MRT_expand_the_fleet
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_against_liberalism
+			focus = MRT_against_capitalism
+		}
+		x = 26
+		y = 2
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			navy_experience = 25
+			random_state = {
+				limit = {
+					has_state_flag = MRT_expand_the_fleet_DY
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = MRT_expand_the_fleet_DY
+			}
+		}
+	}
+	focus = {
+		id = MRT_capital_ships
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_expand_the_fleet
+		}
+		x = 26
+		y = 4
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = basic_battlecruiser
+				technology = basic_battleship
+				technology = improved_battleship
+				technology = advanced_battleship
+				technology = heavy_battleship
+				technology = heavy_battleship2
+				technology = early_carrier
+				technology = basic_carrier
+				technology = improved_carrier
+				technology = advanced_carrier
+			}
+		}
+	}
+	focus = {
+		id = MRT_submarine_arm
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_expand_the_fleet
+		}
+		x = 27
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			navy_experience = 25
+			every_state = {
+				limit = { has_state_flag = MRT_submarine_arm_2dockyards }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = MRT_submarine_arm
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+		}
+		
+		completion_reward = {
+			navy_experience = 25
+			random_owned_controlled_state = {
+				limit = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MRT_submarine_arm_2dockyards
+			}
+			add_tech_bonus = {
+				name = MRT_submarine_arm
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+		}
+	}
+	focus = {
+		id = MRT_the_long_war
+		icon = GFX_focus_secret_rearmament
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_against_liberalism
+		}
+		x = 29
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = MRT_press_iran
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_the_long_war
+		}
+		x = 29
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+			OR = {
+				NOT = { country_exists = PER }
+				AND = {
+					OR = { 
+						owns_state = 412
+						412 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 414
+						414 = { is_claimed_by = ROOT }
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_state_claim = 412
+			add_state_claim = 414
+		}
+	}
+	focus = {
+		id = MRT_press_hindustan
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_press_iran
+		}
+		x = 29
+		y = 4
+		bypass = {
+			OR = {
+				has_war_with = RAJ
+				NOT = { country_exists = RAJ }
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = RAJ
+			}
+		}
+	}
+	focus = {
+		id = MRT_operation_jagannatha
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_extra_research_slot
+		}
+		x = 3
+		y = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = MRT_operation_jagannatha
+				bonus = 0.5
+				category = nuclear
+			}
+		}
+	}
+	focus = {
+		id = MRT_modern_way_of_war
+		icon = GFX_focus_generic_combined_arms
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_anti_partisan_orders
+			focus = MRT_new_heroes
+		}
+		x = 7
+		y = 5
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 1000
+				any_claim = yes
+				has_war = yes
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 20
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 1
+				category = armor
+			}
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				category = land_doctrine
+			}		
+		}
+	}
+	focus = {
+		id = MRT_officer_corps
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_model_workers
+		}
+		x = 10
+		y = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}	
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = MRT_officer_corps
+		}
+	}
+	focus = {
+		id = MRT_weapons_experiments
+		icon = GFX_focus_rocketry
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_air_doctrine
+		}
+		x = 15
+		y = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 1
+				category = nuclear
+				category = rocketry
+			}
+		}
+
+	}
+	focus = {
+		id = MRT_carriers
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10.00
+		prerequisite = {
+			focus = MRT_capital_ships
+		}
+		x = 26
+		y = 5
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = MRT_carriers
+				bonus = 0.5
+				uses = 2
+				category = cv_tech
+			}
+		}
+	}
+}

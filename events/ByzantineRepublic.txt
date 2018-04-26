@@ -53,6 +53,29 @@ country_event = {
 	}
 }
 
+# 55th Anniversary of the October Revolution
+country_event = {
+	id = byz.3
+	title = byz.3.t
+	desc = byz.3.d
+	picture = GFX_report_event_generic_panzer_attack
+	fire_only_once = yes
+	trigger = {
+		date > 1939.10.27
+		has_government = communism 
+		country_exists = BYZ
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = byz.3_fired 
+	}
+	option = {
+		name = byz.3.a
+	}
+}
+
 # Completing the Bosporus Bridge
 
 country_event = {

@@ -1,6 +1,6 @@
 ﻿##### Division Templates #####
 division_template = {
-	name = "Rayaphala Divhijana"			# Rifle Division
+	name = "Rayaphala Vibhaga"			# Rifle Division
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -24,7 +24,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Parvata Rayaphala Divhijana"		
+	name = "Parvata Rayaphala Vibhaga"		
 
 	regiments = {
 		mountaineers = { x = 0 y = 0 }	
@@ -47,7 +47,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Motarasayakala Divhijana"		# Motor Rifle Division
+	name = "Motarasayakala Vibhaga"		# Motor Rifle Division
 											
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -65,7 +65,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Ghodadala Divhijana" 	
+	name = "Ghodadala Vibhaga" 	
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -75,7 +75,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "AVM Sain'ya Polisa Divhijana"			# Antargata vyavahara mantralaya - Commissariat of Internal Affairs - Military Police - Garrison units (lolder experience, older equipment)
+	name = "AVM Sain'ya Polisa Vibhaga"			# Antargata vyavahara mantralaya - Commissariat of Internal Affairs - Military Police - Garrison units (lolder experience, older equipment)
 
 	regiments = {
 		infantry = { x = 0 y = 0 }	
@@ -118,57 +118,57 @@ division_template = {
 units = {
 #####Madurai#####
 	division= {			
-		name = "1 Rayaphala Divhijana"		
+		name = "1 Rayaphala Vibhaga"		
 		location = 12247 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "2 Rayaphala Divhijana"		
+		name = "2 Rayaphala Vibhaga"		
 		location = 12247 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "3 Rayaphala Divhijana"		
+		name = "3 Rayaphala Vibhaga"		
 		location = 12247 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "4 Rayaphala Divhijana"		
+		name = "4 Rayaphala Vibhaga"		
 		location = 10278 ##Madurai
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "5 Rayaphala Divhijana"		
+		name = "5 Rayaphala Vibhaga"		
 		location = 10278 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "6 Rayaphala Divhijana"		
+		name = "6 Rayaphala Vibhaga"		
 		location = 10278 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "7 Rayaphala Divhijana"		
+		name = "7 Rayaphala Vibhaga"		
 		location = 10278 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -176,23 +176,23 @@ units = {
 	division= {			
 		name = "Madurai AVM Polisa Jil'ha"		
 		location = 10278 
-		division_template = "AVM Sain'ya Polisa Divhijana"
+		division_template = "AVM Sain'ya Polisa Vibhaga"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9
 
 	}
 	division= {			
-		name = "1 Ghodadala Divhijana"		
+		name = "1 Ghodadala Vibhaga"		
 		location = 10278 
-		division_template = "Ghodadala Divhijana"
+		division_template = "Ghodadala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "1 Motarasayakala Divhijana"		
+		name = "1 Motarasayakala Vibhaga"		
 		location = 10278 
-		division_template = "Motarasayakala Divhijana"
+		division_template = "Motarasayakala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -201,7 +201,7 @@ units = {
 	division= {			
 		name = "Gova AVM Polisa Jil'ha"		
 		location = 1273 #Goa
-		division_template = "AVM Sain'ya Polisa Divhijana"
+		division_template = "AVM Sain'ya Polisa Vibhaga"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9
 
@@ -209,87 +209,87 @@ units = {
 	division= {			
 		name = "Bengalora AVM Polisa Jil'ha"		
 		location = 8011 #Bangalore
-		division_template = "AVM Sain'ya Polisa Divhijana"
+		division_template = "AVM Sain'ya Polisa Vibhaga"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9
 
 	}
 	division= {			
-		name = "8 Rayaphala Divhijana"		
+		name = "8 Rayaphala Vibhaga"		
 		location = 8011 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "9 Rayaphala Divhijana"		
+		name = "9 Rayaphala Vibhaga"		
 		location = 8011 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "10 Rayaphala Divhijana"		
+		name = "10 Rayaphala Vibhaga"		
 		location = 8011 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "11 Rayaphala Divhijana"		
+		name = "11 Rayaphala Vibhaga"		
 		location = 8011 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "12 Rayaphala Divhijana"		
+		name = "12 Rayaphala Vibhaga"		
 		location = 8011 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "13 Rayaphala Divhijana"		
+		name = "13 Rayaphala Vibhaga"		
 		location = 1349
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "14 Rayaphala Divhijana"		
+		name = "14 Rayaphala Vibhaga"		
 		location = 1349
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "15 Rayaphala Divhijana"		
+		name = "15 Rayaphala Vibhaga"		
 		location = 1349 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "16 Rayaphala Divhijana"		
+		name = "16 Rayaphala Vibhaga"		
 		location = 1349 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "17 Rayaphala Divhijana"		
+		name = "17 Rayaphala Vibhaga"		
 		location = 1349 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -298,47 +298,47 @@ units = {
 	division= {			
 		name = "AVM Polisa Mukhyalaya" #Police HQ	
 		location = 1349 #Mumbai
-		division_template = "AVM Sain'ya Polisa Divhijana"
+		division_template = "AVM Sain'ya Polisa Vibhaga"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 
 	}
 	division= {			
-		name = "18 Rayaphala Divhijana"		
+		name = "18 Rayaphala Vibhaga"		
 		location = 10259 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "19 Rayaphala Divhijana"		
+		name = "19 Rayaphala Vibhaga"		
 		location = 10259 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "20 Rayaphala Divhijana"		
+		name = "20 Rayaphala Vibhaga"		
 		location = 10259
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "21 Rayaphala Divhijana"		
+		name = "21 Rayaphala Vibhaga"		
 		location = 10259 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "22 Rayaphala Divhijana"		
+		name = "22 Rayaphala Vibhaga"		
 		location = 10259 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -353,146 +353,146 @@ units = {
 	}
 ######Jabalpur######
 	division= {			
-		name = "23 Rayaphala Divhijana"		
+		name = "23 Rayaphala Vibhaga"		
 		location = 10872 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "24 Rayaphala Divhijana"		
+		name = "24 Rayaphala Vibhaga"		
 		location = 10872 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "25 Rayaphala Divhijana"		
+		name = "25 Rayaphala Vibhaga"		
 		location = 10872 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "26 Rayaphala Divhijana"		
+		name = "26 Rayaphala Vibhaga"		
 		location = 4557 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "27 Rayaphala Divhijana"		
+		name = "27 Rayaphala Vibhaga"		
 		location = 4557 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "28 Rayaphala Divhijana"		
+		name = "28 Rayaphala Vibhaga"		
 		location = 4557 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "1 Parvata Rayaphala Divhijana"		
+		name = "1 Parvata Rayaphala Vibhaga"		
 		location = 1510 
-		division_template = "Parvata Rayaphala Divhijana"
+		division_template = "Parvata Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "2 Parvata Rayaphala Divhijana"		
+		name = "2 Parvata Rayaphala Vibhaga"		
 		location = 1510 
-		division_template = "Parvata Rayaphala Divhijana"
+		division_template = "Parvata Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "29 Rayaphala Divhijana"		
+		name = "29 Rayaphala Vibhaga"		
 		location = 4557 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 #####Lucknow#####
 	division= {			
-		name = "30 Rayaphala Divhijana"		
+		name = "30 Rayaphala Vibhaga"		
 		location = 10332 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "31 Rayaphala Divhijana"		
+		name = "31 Rayaphala Vibhaga"		
 		location = 10332 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "32 Rayaphala Divhijana"		
+		name = "32 Rayaphala Vibhaga"		
 		location = 10332 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "33 Rayaphala Divhijana"		
+		name = "33 Rayaphala Vibhaga"		
 		location = 12786 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "34 Rayaphala Divhijana"		
+		name = "34 Rayaphala Vibhaga"		
 		location = 12786 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "35 Rayaphala Divhijana"		
+		name = "35 Rayaphala Vibhaga"		
 		location = 12786 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "3 Parvata Rayaphala Divhijana"		
+		name = "3 Parvata Rayaphala Vibhaga"		
 		location = 7064 
-		division_template = "Parvata Rayaphala Divhijana"
+		division_template = "Parvata Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "4 Parvata Rayaphala Divhijana"		
+		name = "4 Parvata Rayaphala Vibhaga"		
 		location = 7064 
-		division_template = "Parvata Rayaphala Divhijana"
+		division_template = "Parvata Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "5 Parvata Rayaphala Divhijana"		
+		name = "5 Parvata Rayaphala Vibhaga"		
 		location = 7064 
-		division_template = "Parvata Rayaphala Divhijana"
+		division_template = "Parvata Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -500,56 +500,56 @@ units = {
 	division= {			
 		name = "Lakhanau AVM Polisa Jil'ha"		
 		location = 12137 #Lucknow
-		division_template = "AVM Sain'ya Polisa Divhijana"
+		division_template = "AVM Sain'ya Polisa Vibhaga"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9
 
 	}
 	division= {			
-		name = "2 Motarasayakala Divhijana"		
+		name = "2 Motarasayakala Vibhaga"		
 		location = 12137 
-		division_template = "Motarasayakala Divhijana"
+		division_template = "Motarasayakala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 #####Delhi#####
 	division= {			
-		name = "36 Rayaphala Divhijana"		
+		name = "36 Rayaphala Vibhaga"		
 		location = 2086 #Delhi 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "37 Rayaphala Divhijana"		
+		name = "37 Rayaphala Vibhaga"		
 		location = 2086 #Delhi 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "38 Rayaphala Divhijana"		
+		name = "38 Rayaphala Vibhaga"		
 		location = 2086 #Delhi 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "6 Parvata Rayaphala Divhijana"		
+		name = "6 Parvata Rayaphala Vibhaga"		
 		location = 5157 
-		division_template = "Parvata Rayaphala Divhijana"
+		division_template = "Parvata Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "7 Parvata Rayaphala Divhijana"		
+		name = "7 Parvata Rayaphala Vibhaga"		
 		location = 5157 
-		division_template = "Parvata Rayaphala Divhijana"
+		division_template = "Parvata Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -557,7 +557,7 @@ units = {
 	division= {			
 		name = "Dilli AVM Polisa Jil'ha"		
 		location = 2086 #Delhi
-		division_template = "AVM Sain'ya Polisa Divhijana"
+		division_template = "AVM Sain'ya Polisa Vibhaga"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9
 
@@ -566,98 +566,98 @@ units = {
 	division= {			
 		name = "Ahmadabada AVM Polisa Jil'ha"		
 		location = 9975 #Ahmadabad
-		division_template = "AVM Sain'ya Polisa Divhijana"
+		division_template = "AVM Sain'ya Polisa Vibhaga"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9
 
 	}
 #####Quetta#####
 	division= {			
-		name = "8 Parvata Rayaphala Divhijana"		
+		name = "8 Parvata Rayaphala Vibhaga"		
 		location = 7903 
-		division_template = "Parvata Rayaphala Divhijana"
+		division_template = "Parvata Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "9 Parvata Rayaphala Divhijana"		
+		name = "9 Parvata Rayaphala Vibhaga"		
 		location = 7903 
-		division_template = "Parvata Rayaphala Divhijana"
+		division_template = "Parvata Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "10 Parvata Rayaphala Divhijana"		
+		name = "10 Parvata Rayaphala Vibhaga"		
 		location = 7903 
-		division_template = "Parvata Rayaphala Divhijana"
+		division_template = "Parvata Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 #####Punjab#####
 	division= {			
-		name = "39 Rayaphala Divhijana"		
+		name = "39 Rayaphala Vibhaga"		
 		location = 10066 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "40 Rayaphala Divhijana"		
+		name = "40 Rayaphala Vibhaga"		
 		location = 10066 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "41 Rayaphala Divhijana"		
+		name = "41 Rayaphala Vibhaga"		
 		location = 10066 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "11 Parvata Rayaphala Divhijana"		
+		name = "11 Parvata Rayaphala Vibhaga"		
 		location = 10066 
-		division_template = "Parvata Rayaphala Divhijana"
+		division_template = "Parvata Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 #####Baloch#####
 	division= {			
-		name = "42 Rayaphala Divhijana"		
+		name = "42 Rayaphala Vibhaga"		
 		location = 1179 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "43 Rayaphala Divhijana"		
+		name = "43 Rayaphala Vibhaga"		
 		location = 1179 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "44 Rayaphala Divhijana"		
+		name = "44 Rayaphala Vibhaga"		
 		location = 1179 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
 	}
 	division= {			
-		name = "45 Rayaphala Divhijana"		
+		name = "45 Rayaphala Vibhaga"		
 		location = 1179 
-		division_template = "Rayaphala Divhijana"
+		division_template = "Rayaphala Vibhaga"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -665,7 +665,7 @@ units = {
 	division= {			
 		name = "Karachi AVM Polisa Jil'ha"		
 		location = 1179 #Karachi
-		division_template = "AVM Sain'ya Polisa Divhijana"
+		division_template = "AVM Sain'ya Polisa Vibhaga"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9
 
@@ -677,6 +677,9 @@ units = {
 		location = 1349 # Mumbai
 		ship = { name = "Samyavada" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "Hivali Kranti" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Khanderi" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Kalvari" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Kursura" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "Ahamadabada" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "Gova" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } } 
 		ship = { name = "Madrasa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } } 
@@ -701,6 +704,9 @@ units = {
 		name = "2 Maratha Vegavana" 
 		base = 1273
 		location = 1273 # Goa
+		ship = { name = "Etskevhariya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Kamyuna" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Proletarice" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "Rajakota" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "Surata" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } } 
 		ship = { name = "Mumba'i" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } } 
@@ -754,6 +760,10 @@ air_wings = {
 		}
 	}
 	423 = {
+		fighter_equipment_0 = {
+			owner = "MRT" 
+			amount = 60
+		}
 		nav_bomber_equipment_1 = {
 			owner = "MRT" 
 			amount = 54

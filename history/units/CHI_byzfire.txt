@@ -949,6 +949,7 @@ units = {
 		ship = { name = "CNS Shandong" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Liaoning" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Jilin" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Guangxi" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
 	}
 	navy = {
 		name = "Di 1 Haifang Jiandui" 

@@ -54,15 +54,6 @@ units = {
 
 	}
 
-	# 3e Legerkorps
-	division= {	
-		name = "5e Divisie"
-		location = 391
-		division_template = "Infanterie Divisie"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-}
-
 	##### NAVAL UNITS #####
 	navy = {				
 		name = "Nederlandse Marine"			

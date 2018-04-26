@@ -67,7 +67,7 @@ units = {
 		location = 10862 # Accra
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -75,7 +75,7 @@ units = {
 		location = 10862 # Accra
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -83,7 +83,7 @@ units = {
 		location = 2050 # Eko
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -91,7 +91,7 @@ units = {
 		location = 2050
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -99,7 +99,7 @@ units = {
 		location = 2050
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -107,7 +107,7 @@ units = {
 		location = 2050
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -115,7 +115,7 @@ units = {
 		location = 2038 # Freetown
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -123,7 +123,7 @@ units = {
 		location = 2038
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -131,7 +131,7 @@ units = {
 		location = 2038
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -139,7 +139,7 @@ units = {
 		location = 4989 # Gambia
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 
@@ -148,7 +148,7 @@ units = {
 		location = 4948 # Dakar
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -156,7 +156,7 @@ units = {
 		location = 4948 # Dakar
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -164,7 +164,7 @@ units = {
 		location = 4948 # Dakar
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -173,65 +173,78 @@ units = {
 		division_template = "Armored-Division"	
 		start_experience_factor = 0.5
 	}
+	division= {	
+		name = "21st Infantry Division"
+		location = 4948
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
 	##East Nigeria/Somalian Border##
 	division= {	
 		name = "13th Infantry Division"
 		location = 10831
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}	
 	division= {	
 		name = "14th Infantry Division"
 		location = 4889
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division= {	
 		name = "15th Infantry Division"
 		location = 4889
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division= {	
 		name = "16th Infantry Division"
 		location = 4889
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division= {	
 		name = "17th Infantry Division"
 		location = 4889
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division= {	
 		name = "18th Infantry Division"
 		location = 4889
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division= {	
 		name = "19th Infantry Division"
 		location = 4889
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division= {	
 		name = "20th Infantry Division"
 		location = 4889
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division= {	
 		name = "3rd Armored Division"					
+		location = 4889 
+		division_template = "Armored-Division"	
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "4rd Armored Division"					
 		location = 4889 
 		division_template = "Armored-Division"	
 		start_experience_factor = 0.5

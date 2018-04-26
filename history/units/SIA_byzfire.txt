@@ -177,6 +177,27 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
+	division = {
+		name = "Di 6 Zhongnan Bubing Shi"
+		location = 10438
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 7 Zhongnan Bubing Shi"
+		location = 10438
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 8 Zhongnan Bubing Shi"
+		location = 10438
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
 	##### Mountain Infantry #####
 	division = {
 		name = "Di 1 Zhongnan Dishan Pai 'Miaozu Jun'"
@@ -199,10 +220,17 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
-}
+####### NAVY #######
+	navy = {				
+		name = "Gongheguo Haijun"			
+		base = 7408
+		location = 7408 # Bangkok
+		ship = { name = "Guangming" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+	}
+}	
 #####AIR FORCE######
 air_wings = {
 	289 = {  #Thailand
-		fighter_equipment_0 = { owner = "SIA" amount = 24 }				
+		fighter_equipment_0 = { owner = "SIA" amount = 48 }				
 	}
 }
