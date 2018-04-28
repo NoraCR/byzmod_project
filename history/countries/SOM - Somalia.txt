@@ -41,12 +41,9 @@ set_technology = {
 
 }
 
-
-
-
 set_convoys = 400
 set_stability = 0.6
-set_war_support = 0.4
+set_war_support = 0.2
 
 set_politics = {
 
@@ -81,6 +78,7 @@ set_politics = {
 
 add_ideas = {
 	free_trade
+	SOM_ruling_conglomerates
 }
 
 
@@ -88,7 +86,7 @@ create_country_leader = {
 	name = "Xuseen Mohamed"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
-	expire = "1947.1.1"
+	expire = "1959.1.1"
 	ideology = liberalism
 	traits = {
 		

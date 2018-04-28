@@ -2654,6 +2654,7 @@ news_event = {
 	id = news.904
 	title = news.904.t
 	desc = news.904.d
+	picture = GFX_news_event_generic_rally
 	
 	major = yes
 	

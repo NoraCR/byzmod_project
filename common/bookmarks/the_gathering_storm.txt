@@ -11,21 +11,23 @@ bookmarks = {
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-
+				IG_cult_of_valeria
 			}
 		}
 		"BYZ"={
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-
+				BYZ_byzantine_abundance
+				BYZ_incompetant_officers
+				BYZ_home_of_the_revolution
 			}
 		}
 		"MRT"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-
+				MRT_the_marathan_tiger
 			}
 		}
 		"AYI"={
@@ -39,21 +41,22 @@ bookmarks = {
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = pangalism
 			ideas={
-
+				CHI_complacent_hegemon
+				CHI_government_corruption
 			}			
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas={
-
+				JAP_dai_ichi_kyouwakoku
 			}			
 		}
 		"SOM"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = pangalism
 			ideas = {
-
+				SOM_ruling_conglomerates
 			}
 		}
 

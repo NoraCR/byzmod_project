@@ -1,5 +1,31 @@
 ideas = {
 	country = {
+		theodore_iii = {
+			
+			allowed = {
+				original_tag = "IRE"
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+				NOT = {
+					any_other_country = {
+						original_tag = IRE
+						has_government = communism
+					}
+				}
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_pp_unity_bonus
+			
+			modifier = {
+				stability_factor = 0.05				
+			}
+		}
 		IRE_oconnor_government = {
 
 			allowed = {

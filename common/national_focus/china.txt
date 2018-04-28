@@ -158,12 +158,13 @@ focus_tree = {
 		cost = 10.00
 		x = 35
 		y = 0
-		cost = 10
+		cost = 15
 
 		available_if_capitulated = yes
 
 		completion_reward = {
 			add_stability = 0.1
+			remove_ideas = CHI_complacent_hegemon
 		}
 	}
 	focus = {
@@ -625,7 +626,7 @@ focus_tree = {
 		}
 		x = 15
 		y = 1
-
+		remove_ideas = CHI_government_corruption
 	}
 	focus = {
 		id = CHI_guided_democracy

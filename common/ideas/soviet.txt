@@ -206,7 +206,7 @@ ideas = {
 			}
 		}
 
-		trotskyite_plot = {
+		communist_plot = {
 			removal_cost = -1
 			
 			allowed = {

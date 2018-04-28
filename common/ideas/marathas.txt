@@ -1,5 +1,24 @@
 ideas = {
 	country = {
+		MRT_the_marathan_tiger = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			picture = generic_spy_intel
+			
+			modifier = {
+				drift_defence_factor = 0.1
+				enemy_justify_war_goal_time = 0.1
+			}
+		}
 		MRT_militarized_schools = {
 		
 			removal_cost = -1
@@ -90,7 +109,7 @@ ideas = {
 			
 			modifier = {
 				send_volunteers_tension = -0.5
-				send_volunteer_size = 1.5
+				send_volunteer_size = 8
 			}
 
 		}

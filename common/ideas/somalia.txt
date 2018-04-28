@@ -1,6 +1,30 @@
 ideas = {
 	country = {
-	SOM_hanti_wadaag = {
+		SOM_ruling_conglomerates = {
+
+			allowed = {
+				NOT = { has_government = communism }
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+			
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				political_power_cost = 0.25
+				trade_laws_cost_factor = 0.25
+				economy_cost_factor = 0.25
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		SOM_hanti_wadaag = {
 			allowed = {
 				always = no
 			}

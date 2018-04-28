@@ -96,7 +96,7 @@ focus_tree = {
 				factor = 100
 			}
 			modifier = {	#makes it significantly more likely if player boosts non-pangalist
-				pangalism < 0.5
+				pangalism < 0.3
 				factor = 20
 			}
 		}

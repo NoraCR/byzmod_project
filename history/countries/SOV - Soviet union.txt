@@ -42,8 +42,7 @@ set_technology = {
 
 	#purge stuff
 	unlock_national_focus = SOV_great_purge
-	remove_ideas = trotskyite_plot
-	add_ideas = trotskyite_plot_purged
+
 	add_timed_idea = {
 		idea = officers_purged_6
 		days = 730
@@ -76,17 +75,6 @@ set_technology = {
 	add_state_claim = 97
 	#MR pact stuff end
 
-	#Germany soviet treaty
-	GER = {
-		add_opinion_modifier = {
-			target = SOV
-			modifier = sov_ger_treaty
-		}
-		add_opinion_modifier = {
-			target = SOV
-			modifier = sov_ger_treaty_trade
-		}
-	}
 	add_tech_bonus = {
 		name = med_armor_bonus
 		ahead_reduction = 1
@@ -186,7 +174,7 @@ set_politics = {
 
 
 add_ideas = {
-	trotskyite_plot
+	communist_plot
 }
 
 create_country_leader = {

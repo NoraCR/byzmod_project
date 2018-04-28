@@ -1,5 +1,41 @@
 ideas = {
 	country = {
+		CHI_complacent_hegemon = {
+			
+			allowed = {
+				original_tag = CHI
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+			
+			research_bonus = {
+				land_doctrine = -0.75
+			}
+			modifier = {
+				conscription = -0.008
+				war_support_factor = -0.05
+			}
+		}
+		CHI_government_corruption = { 
+
+			picture = anti_soviet_pact
+
+			allowed = { original_tag = CHI }
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.1
+			}
+		}
 		CHI_upr_nationalists = {
 
 			allowed = {

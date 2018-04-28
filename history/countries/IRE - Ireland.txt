@@ -48,6 +48,7 @@ set_convoys = 100
 
 add_ideas = {
 	limited_conscription
+	theodore_iii
 }
 
 1939.1.1 = {

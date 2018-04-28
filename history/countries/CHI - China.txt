@@ -107,6 +107,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	CHI_complacent_hegemon
+	CHI_government_corruption
+}
+
 create_country_leader = {
 	name = "Zhang Zhulin"
 	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"

@@ -57,9 +57,9 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 0.5
+			factor = 1
 			modifier = {
-				NOT = { CHI = { has_government = democratic } }
+				NOT = { CHI = { has_government = pangalism } }
 				factor = 10
 			}
 			modifier = {
@@ -67,7 +67,7 @@ focus_tree = {
 				factor = 100
 			}
 			modifier = {	#makes it significantly more likely if player boosts non-democratic
-				pangalism < 0.5
+				pangalism < 0.4
 				factor = 20
 			}
 		}
@@ -1024,7 +1024,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = SOM_end_conglomerates
+			swap_ideas = {
+			add_idea = SOM_end_conglomerates
+			remove_idea = SOM_ruling_conglomerates
+			}
 		}
 	}
 	focus = {
