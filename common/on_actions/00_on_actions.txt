@@ -470,29 +470,6 @@ on_actions = {
 				}
 			}
 
-			#Remove MEFO bills if Germany goes to war
-			if = {
-				limit = {
-					ROOT = { tag = GER }
-					ROOT = { GER_has_mefo_bills = yes }
-				}
-				ROOT = {
-					country_event = { id = wtt_germany.61 }
-				}
-			}
-
-			#Remove MEFO bills if Germany is declared war on
-			if = {
-				limit = {
-					FROM = { tag = GER }
-					FROM = { GER_has_mefo_bills = yes } #TODO_WTT_CD_MEFO_REWORK
-					NOT = { ROOT = { original_tag = GER } }
-				}
-				FROM = {
-					country_event = { id = wtt_germany.61 }
-				}
-			}
-
 			#Remove previous ideology civil war faction from Democratic Germany faction and add Democratic civil war faction to Germany's faction
 			if = {
 				limit = {
@@ -894,7 +871,6 @@ on_actions = {
 							set_state_flag = nazi_state_withdrawn5
 						}
 					}
-					state_event = { id = wtt_germany.49 trigger_for = controller }
 				}
 			}
 			if = {
@@ -910,7 +886,6 @@ on_actions = {
 					NOT = { has_global_flag = fall_of_berlin_civil_war }
 				}
 				set_global_flag = fall_of_berlin_civil_war
-				country_event = { id = wtt_germany.50 days = 1 random = 3 }
 			}
 		}
 	}

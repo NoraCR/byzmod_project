@@ -626,7 +626,9 @@ focus_tree = {
 		}
 		x = 15
 		y = 1
+		completion_reward = {
 		remove_ideas = CHI_government_corruption
+		}
 	}
 	focus = {
 		id = CHI_guided_democracy
@@ -1699,10 +1701,10 @@ focus_tree = {
 		completion_reward = {
 			SIA = {
 				add_political_power = 100
-				add_ideas = SIA_empower_cao
+				add_ideas = SIA_marginalized_locals
 				add_autonomy_ratio = {
 					value = 0.05
-					localization = CHI_empower_cao
+					localization = SIA_marginalized_locals
 				}
 				add_opinion_modifier = { target = CHI modifier = aided_industry }
 				random_owned_controlled_state = {

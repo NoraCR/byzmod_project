@@ -39,12 +39,12 @@ country_event = {
 		trigger = {
 			TAG = SOM
 		}
+	}
 	option = {
 		name = som.1.c
 		trigger = {
 			TAG = SYR
 		}	
-	}
 	}
 }
 country_event = {

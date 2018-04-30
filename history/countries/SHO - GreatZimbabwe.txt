@@ -30,6 +30,9 @@ set_technology = {
 
 set_convoys = 45
 
+add_ideas = {
+	neutrality_idea	
+}
 
 set_politics = {
 

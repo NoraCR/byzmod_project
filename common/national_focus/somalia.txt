@@ -19,7 +19,7 @@ focus_tree = {
 		y = 0
 		
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 
 		available = {
@@ -57,18 +57,18 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
 			modifier = {
 				NOT = { CHI = { has_government = pangalism } }
-				factor = 10
+				factor = 5
 			}
 			modifier = {
 				NOT = { has_government = pangalism }
-				factor = 100
+				factor = 50
 			}
 			modifier = {	#makes it significantly more likely if player boosts non-democratic
 				pangalism < 0.4
-				factor = 20
+				factor = 10
 			}
 		}
 

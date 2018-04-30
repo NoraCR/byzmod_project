@@ -1,4 +1,4 @@
-add_namespace = can
+﻿add_namespace = can
 
 # Britain extends the hand
 

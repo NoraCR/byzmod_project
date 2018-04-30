@@ -148,7 +148,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Ioannes Oluwaremilekun"
-	picture = "Portrait_Britain_Alan_Brooke.dds"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
 	traits = { offensive_doctrine defensive_doctrine }
 	skill = 5
 	attack_skill = 5
