@@ -267,6 +267,16 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 4
 }
+create_corps_commander = {
+	name = "Daus Ntxaij Vwj" #Hmong male
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	traits = { hill_fighter }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
 create_navy_leader = {
 	name = "Pai Hualong" #Chinese male
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"

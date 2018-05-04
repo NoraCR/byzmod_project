@@ -180,7 +180,7 @@ units = {
 		location = 10598 # Okhotsk
 		division_template = "Gunsa Jiyeog"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -188,7 +188,7 @@ units = {
 		location = 4719 # Chita
 		division_template = "Gunsa Jiyeog"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -196,7 +196,7 @@ units = {
 		location = 4797 # Irkutsk
 		division_template = "Gunsa Jiyeog"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -204,10 +204,41 @@ units = {
 		location = 12446 # Sakhalin
 		division_template = "Gunsa Jiyeog"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
-	
+	division = {
+		name = "Ullan-Ude Gunsa Jiyeog"
+		location = 1696 # Ulan Ude
+		division_template = "Gunsa Jiyeog"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "Bilo-baijan Gunsa Jiyeog"
+		location = 10722 # Birobidzhan
+		division_template = "Gunsa Jiyeog"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "Omgang Gunsa Jiyeog"
+		location = 1800 # Omsk
+		division_template = "Gunsa Jiyeog"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "Kijil Gunsa Jiyeog"
+		location = 10627 # Kyzyl
+		division_template = "Gunsa Jiyeog"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}	
 ##### Central Siberia #####
 	division = {
 		name = "7. Bobyeong Sadan 'Gom'"
@@ -304,7 +335,7 @@ units = {
 		location = 7566 
 		division_template = "Gunsa Jiyeog"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -312,7 +343,7 @@ units = {
 		location = 4329 ## Port Moresby 
 		division_template = "Gunsa Jiyeog"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 ##### Africa #####
@@ -321,7 +352,7 @@ units = {
 		location = 8248 ## Luanda
 		division_template = "Gunsa Jiyeog"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 ##### NAVAL UNITS #####

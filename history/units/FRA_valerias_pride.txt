@@ -16,7 +16,7 @@ units = {
 					creator = FRA 
 				} 
 			} 
-		}			# USS Twiggs
+		}			
 		ship = {
 			name = "HIM Julius" 
 			definition = battleship 
@@ -28,6 +28,6 @@ units = {
 				} 
 			} 
 		}
-	}	# USS Twiggs			
+	}			
 }					
 					

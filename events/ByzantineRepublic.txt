@@ -58,7 +58,7 @@ country_event = {
 	id = byz.3
 	title = byz.3.t
 	desc = byz.3.d
-	picture = GFX_report_event_generic_panzer_attack
+	picture = GFX_report_event_generic_rally2
 	fire_only_once = yes
 	trigger = {
 		date > 1939.10.27
@@ -147,6 +147,7 @@ country_event = {
 	desc = byz.201.d
 	picture = GFX_report_event_generic_rally2
 	fire_only_once = yes
+	major = yes
 	trigger = {
 		date > 1944.2.15
 		has_government = communism 
@@ -171,6 +172,7 @@ country_event = {
 		trigger = {
 			TAG = BYZ
 		}
+		add_country_leader_trait = assassination_survivor
 	}
 	option = {
 		name = byz.201.c
@@ -179,11 +181,3 @@ country_event = {
 		}
 	}
 }
-
-
-
-
-
-
-
-

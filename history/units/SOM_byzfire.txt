@@ -141,36 +141,42 @@ units = {
 		location = 5010 #Addis Ababa
 		division_template = "Qeybta Buurta"			
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "12th Mountain Brigade"
 		location = 5010
 		division_template = "Qeybta Buurta"			
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "13th Mountain Brigade"
 		location = 5010
 		division_template = "Qeybta Buurta"			
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "31st Infantry Division"
 		location = 7980 #Harar
 		division_template = "Qeybta Lugta"	
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "32nd Infantry 'Boqor Sulaymaan' Division"
 		location = 7980 #Harar
 		division_template = "Qeybta Lugta"	
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "33rd Infantry Division"
 		location = 7980 #Harar
 		division_template = "Qeybta Lugta"	
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 #Eritrea
 	division= {	
@@ -178,30 +184,35 @@ units = {
 		location = 12766
 		division_template = "Qeybta Lugta"	
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "30th Infantry Division"
 		location = 12766
 		division_template = "Qeybta Lugta"	
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "5th Mountain Division"
 		location = 12766
 		division_template = "Qeybta Buurta"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "27th Infantry Division"
 		location = 8043
 		division_template = "Qeybta Lugta"	
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "5th Infantry Division"
 		location = 8043
 		division_template = "Qeybta Lugta"	
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "4th Cavalry Brigade"
@@ -390,6 +401,7 @@ units = {
 		location = 2046
 		division_template = "Qeybta Baabuurita" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
+		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
 	}
@@ -408,6 +420,7 @@ units = {
 		location = 11954
 		division_template = "Qeybta Ilaaliye" 	# Miltia unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
+		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
 	}
@@ -416,6 +429,7 @@ units = {
 		location = 1130
 		division_template = "Qeybta Ilaaliye" 	# Miltia unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
+		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
 	}
@@ -424,6 +438,7 @@ units = {
 		location = 1130
 		division_template = "Qeybta Baabuurita" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}

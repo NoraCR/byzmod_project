@@ -47,6 +47,34 @@ country_event = {
 		}	
 	}
 }
+
+### Novel Published
+country_event = {
+	id = som.2
+	title = som.2.t
+	desc = som.2.d
+	picture = GFX_news_event_generic_read_write
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.6.10
+		country_exists = SOM
+		NOT = { has_global_flag = som.2_fired }
+		SOM = { has_war = no }
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = som.2_fired 
+	}
+	option = {
+		name = som.2.a
+		trigger = {
+			TAG = SOM
+		}
+	}
+}
 country_event = {
 	id = som.200
 	title = som.200.t	# SOM asks BYZ for membership in RRP

@@ -217,6 +217,8 @@ ideas = {
 				has_government = communism
 			}
 			
+			picture = trotskyite_plot
+			
 			modifier = {
 				stability_factor = -0.2
 			}

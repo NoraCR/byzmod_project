@@ -47,10 +47,13 @@ focus_tree = {
 	focus = {
 		id = CHI_settling_accounts
 		icon = GFX_goal_generic_intelligence_exchange
-		cost = 10.00
+		cost = 15.00
 		x = 18
 		y = 0
 		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
 
 		available_if_capitulated = yes
 
@@ -164,7 +167,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.1
-			remove_ideas = CHI_complacent_hegemon
 		}
 	}
 	focus = {
@@ -198,6 +200,7 @@ focus_tree = {
 		}	
 		completion_reward = {
 			add_named_threat = { threat = 10 name = CHI_the_second_xizheng }
+			remove_ideas = CHI_complacent_hegemon
 			BYZ = {
 				add_opinion_modifier = { target = CHI modifier = unprovoked_aggression } 
 			}
@@ -620,7 +623,7 @@ focus_tree = {
 	focus = {
 		id = CHI_a_legal_purge
 		icon = GFX_focus_rom_parties_end
-		cost = 10.00
+		cost = 15.00
 		prerequisite = {
 			focus = CHI_settling_accounts
 		}
@@ -2003,7 +2006,7 @@ focus_tree = {
 		x = 37
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2195,7 +2198,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available_if_capitulated = yes
@@ -2237,6 +2240,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = CHI_east_china_sea
+		}
+		ai_will_do = {
+			factor = 55
 		}
 		available = {
 			CHI = { controls_state = 717 }

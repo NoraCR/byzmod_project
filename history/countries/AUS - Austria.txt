@@ -51,6 +51,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	
+}
+
 set_stability = 0.50
 set_war_support = 0.3
 
@@ -83,7 +87,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		#
+		warrior_code
 	}
 }
 

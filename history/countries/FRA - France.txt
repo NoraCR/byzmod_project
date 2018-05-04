@@ -53,7 +53,6 @@ set_technology = {
 create_faction = Axis
 add_to_faction = FRA
 add_to_faction = BAV
-add_to_faction = AUS
 add_to_faction = SPR
 add_to_faction = SWI
 add_to_faction = ICE
