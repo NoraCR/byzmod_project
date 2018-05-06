@@ -76,6 +76,52 @@ country_event = {
 	}
 }
 
+# 60th Anniversary of the October Revolution
+country_event = {
+	id = byz.4
+	title = byz.4.t
+	desc = byz.4.d
+	picture = GFX_report_event_generic_rally2
+	fire_only_once = yes
+	trigger = {
+		date > 1944.10.27
+		has_government = communism 
+		country_exists = BYZ
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = byz.4_fired 
+	}
+	option = {
+		name = byz.4.a
+	}
+}
+
+# FRA capitulates
+country_event = {
+	id = byz.5
+	title = byz.5.t
+	desc = byz.5.d
+	picture = GFX_report_event_generic_rally2
+	fire_only_once = yes
+	trigger = {
+		has_government = communism 
+		country_exists = BYZ
+		FRA = { has_capitulated = yes }
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = byz.5_fired 
+	}
+	option = {
+		name = byz.5.a
+	}
+}
+
 # Completing the Bosporus Bridge
 
 country_event = {

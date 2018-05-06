@@ -47,4 +47,39 @@ units = {
 		location = 1330 
 		division_template = "Red Brigade"
 	}
+	division = {
+		name = "Red Brigade XI"
+		location = 1330 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade XII"
+		location = 1330 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade XIII"
+		location = 1330 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade XIV"
+		location = 1330 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade XV"
+		location = 4424 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade XV"
+		location = 4424 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade XVI"
+		location = 4424 
+		division_template = "Red Brigade"
+	}
 }

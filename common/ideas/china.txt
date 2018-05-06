@@ -97,6 +97,8 @@ ideas = {
 				always = yes
 			}
 			
+			picture = generic_air_bonus
+			
 			removal_cost = -1
 		
 			equipment_bonus = {
@@ -118,6 +120,8 @@ ideas = {
 				always = yes
 			}
 			
+			picture = generic_navy_bonus
+			
 			removal_cost = -1
 			
 			equipment_bonus = {
@@ -135,6 +139,8 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
+			
+			picture = generic_air_bonus
 			
 			removal_cost = -1
 			
@@ -156,6 +162,8 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
+			
+			picture = generic_air_bonus
 			
 			removal_cost = -1
 			
@@ -215,6 +223,8 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
+			
+			picture = generic_production_bonus
 			
 			removal_cost = -1
 

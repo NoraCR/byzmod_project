@@ -128,7 +128,7 @@ units = {
 air_wings = {
 	### Không quân Việt Nam (KVN) ###
 	671 = {
-		fighter_equipment_0 =  { owner = "VIN" amount = 30 }				# Slovenské Vzdušné Zbrane -- Avia B.534 Dogan
+		fighter_equipment_0 =  { owner = "VIN" amount = 30 }				
 		}
 }
 
