@@ -474,31 +474,30 @@ focus_tree = {
 				start_civil_war = {
 					ruling_party = pangalism
 					ideology = communism
-					size = 0.55
+					size = 0.50
 					capital = 670
 					states = { 747 640 288 670 671 286 724 }
 				}
 				random_other_country = {
 					limit = {
 						original_tag = SIA
-						has_government = pangalism
+						has_government = communism
 					}
 					load_oob = "SIA_C_civil_war"
 					set_equipment_fraction = 0.8
+					set_stability = 1.0
+					set_war_support = 0.8
 					add_popularity = {
-						ideology = pangalism
-						popularity = 0.35
+						ideology = democratic
+						popularity = 0.25
 					}
 				}
 				news_event = { hours = 6 id = zhongnan.262 }
 				
 				load_oob = "SIA_P_civil_war"
 				set_equipment_fraction = 0.5
-				
-				add_popularity = {
-					ideology = communism
-					popularity = 1
-				}
+				set_stability = 0.5
+				set_war_support = 0.5
 			}
 		}
 	}
