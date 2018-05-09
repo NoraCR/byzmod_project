@@ -507,7 +507,7 @@ focus_tree = {
 	focus = {
 		id = MRT_armament_effort
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = MRT_crash_industrialization
 		}

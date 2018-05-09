@@ -707,6 +707,7 @@ units = {
 		ship = { name = "Etskevhariya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "Kamyuna" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "Proletarice" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Mulara" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "Rajakota" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "Surata" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } } 
 		ship = { name = "Mumba'i" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MRT } } } 
