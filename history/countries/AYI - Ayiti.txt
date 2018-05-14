@@ -67,7 +67,11 @@ set_politics = {
 }
 
 add_ideas = {
-
+	disarmed_nation
+	AYI_cherokee_opposition
+	AYI_immigrant_prejudice
+	AYI_mafia_rampage
+	AYI_disjointed_government
 }
 
 
@@ -113,6 +117,16 @@ create_country_leader = {
 		
 	}
 }
+create_country_leader = {
+	name = "Wamada Yunruguou"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "Portrait_USA_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
 create_field_marshal = {
 	name = "Yahima Camaguey" #female
 		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
@@ -128,6 +142,10 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = {  old_guard }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Macuya Cueba"

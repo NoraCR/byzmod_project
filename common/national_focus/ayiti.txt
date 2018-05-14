@@ -1,0 +1,3120 @@
+focus_tree = {
+	id = Ayiti
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AYI
+		}
+	}
+	default = no
+	focus = {
+		id = AYI_wounds_of_war
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 4
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_wounds_of_war
+				bonus = 0.5 # this is a 50% boost
+				uses = 1 # how many times you can use it
+				category = land_doctrine # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+			army_experience = 10
+		}
+	}
+	focus = {
+		id = AYI_industrial_reform
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10
+		x = 12
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = AYI_IR_1
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = AYI_IR_2
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 366 }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_IR_1
+			}
+			random_owned_controlled_state = {
+				prioritize = { 371 }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_IR_2
+			}
+		}
+	}
+	focus = {
+		id = AYI_sailors_union
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 10
+		x = 20
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_sailors_union
+				bonus = 0.5 # this is a 50% boost
+				uses = 2 # how many times you can use it
+				category = naval_doctrine # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+			navy_experience = 25
+		}
+	}
+	focus = {
+		id = AYI_union_air_force
+		icon = GFX_goal_generic_air_doctrine
+		cost = 10
+		x = 28
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_union_air_force
+				bonus = 0.5 # this is a 50% boost
+				uses = 2 # how many times you can use it
+				category = air_doctrine # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+			air_experience = 25
+		}
+	}
+	focus = {
+		id = AYI_the_colossus
+		icon = GFX_goal_generic_propaganda
+		cost = 10
+		x = 38
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = AYI_veteran_societies
+		icon = GFX_focus_generic_military_mission
+		cost = 10
+		prerequisite = {
+			focus = AYI_wounds_of_war
+		}
+		x = 2
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_veteran_societies
+				bonus = 0.75 # this is a 50% boost
+				uses = 1 # how many times you can use it
+				category = land_doctrine # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+			army_experience = 10
+		}
+	}
+	focus = {
+		id = AYI_training_new_generation
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10
+		prerequisite = {
+			focus = AYI_veteran_societies
+		}
+		x = 2
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_training_the_new_generation
+			army_experience = 10
+		}
+	}
+	focus = {
+		id = AYI_superior_firepower_doctrine
+		icon = GFX_goal_generic_army_artillery2
+		cost = 10
+		prerequisite = {
+			focus = AYI_wounds_of_war
+		}
+		x = 4
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_superior_firepower_doctrine
+				bonus = 0.5
+				uses = 1
+				category = cat_superior_firepower
+			}
+			add_tech_bonus = {
+				name = AYI_superior_firepower_doctrine
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}
+			army_experience = 5
+		}		
+	}
+	focus = {
+		id = AYI_motorized_effort
+		icon = GFX_goal_generic_army_motorized
+		cost = 10
+		prerequisite = {
+			focus = AYI_superior_firepower_doctrine
+		}
+		x = 4
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_motorized_effort
+				bonus = 0.85 # this is a 50% boost
+				uses = 1 # how many times you can use it
+				category = motorized_equipment # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+		}
+	}
+	focus = {
+		id = AYI_reconcile_cherokee
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10
+		prerequisite = {
+			focus = AYI_motorized_effort
+			focus = AYI_training_new_generation
+		}
+		x = 3
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = AYI_cherokee_opposition
+				add_idea = AYI_cherokee_allies
+			}
+			army_experience = 20
+		}
+	}
+	focus = {
+		id = AYI_paratrooper_effort
+		icon = GFX_focus_generic_paratrooper
+		cost = 10
+		prerequisite = {
+			focus = AYI_reconcile_cherokee
+		}
+		x = 1
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_paratrooper_effort
+				bonus = 0.5 # this is a 50% boost
+				uses = 2 # how many times you can use it
+				category = para_tech # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+			army_experience = 10
+		}
+	}
+	focus = {
+		id = AYI_arms_effort
+		icon = GFX_goal_generic_military_sphere
+		cost = 10
+		prerequisite = {
+			focus = AYI_reconcile_cherokee
+		}
+		x = 5
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_arms_effort
+				bonus = 0.5 # this is a 50% boost
+				uses = 2 # how many times you can use it
+				category = para_tech # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+		}
+	}
+	focus = {
+		id = AYI_reach_out_to_immigrants
+		icon = GFX_focus_generic_concessions
+		cost = 10
+		prerequisite = {
+			focus = AYI_wounds_of_war
+		}
+		x = 6
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			remove_ideas = AYI_immigrant_prejudice
+		}
+	}
+	focus = {
+		id = AYI_soldier_refugees
+		icon = GFX_focus_generic_little_entente
+		cost = 10
+		prerequisite = {
+			focus = AYI_reach_out_to_immigrants
+		}
+		x = 6
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_soldier_refugees
+		}
+	}
+	focus = {
+		id = AYI_civilian_factories_effort
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10
+		prerequisite = {
+			focus = AYI_industrial_reform
+		}
+		x = 10
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = AYI_CIV_1IC_1
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = AYI_CIV_1IC_2
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 371 }
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_CIV_1IC_1
+			}
+			random_owned_controlled_state = {
+				prioritize = { 370 }
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_CIV_1IC_2
+			}
+		}
+	}
+	focus = {
+		id = AYI_work_for_citizenship
+		icon = GFX_focus_yug_pan_slavic_congress
+		cost = 10
+		prerequisite = {
+			focus = AYI_reach_out_to_immigrants
+		}
+		prerequisite = {
+			focus = AYI_civilian_factories_effort
+		}
+		x = 8
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_work_for_citizenship
+		}
+	}
+	focus = {
+		id = AYI_not_by_blood
+		icon = GFX_goal_generic_national_unity
+		cost = 10
+		prerequisite = {
+			focus = AYI_work_for_citizenship
+		}
+		prerequisite = {
+			focus = AYI_soldier_refugees
+		}
+		x = 7
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_not_by_blood
+		}
+	}
+	focus = {
+		id = AYI_civilian_industry_effort_2
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10
+		prerequisite = {
+			focus = AYI_civilian_factories_effort
+		}
+		x = 10
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = AYI_CIV_2IC_1
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = AYI_CIV_2IC_2
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 368 }
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_CIV_2IC_1
+			}
+			random_owned_controlled_state = {
+				prioritize = { 369 }
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_CIV_2IC_2
+			}
+		}
+	}
+	focus = {
+		id = AYI_civilian_industry_effort_3
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10
+		prerequisite = {
+			focus = AYI_civilian_industry_effort_2
+		}
+		x = 10
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = AYI_CIV_3IC_1
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = AYI_CIV_3IC_2
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 394 }
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_CIV_3IC_1
+			}
+			random_owned_controlled_state = {
+				prioritize = { 396 }
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = AYI_CIV_3IC_2
+			}
+		}
+	}
+	focus = {
+		id = AYI_infrastructure_effort
+		icon = GFX_goal_generic_construction2
+		cost = 10
+		prerequisite = {
+			focus = AYI_industrial_reform
+		}
+		x = 12
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = AYI_inf_effort_Inf1
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			random_state = {
+				limit = {
+					has_state_flag = AYI_inf_effort_Inf2
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 532 }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					free_building_slots = { # avoid islands
+						building = industrial_complex
+						size > 0
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_inf_effort_Inf1
+			}
+
+			random_owned_controlled_state = {
+				prioritize = { 282 }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					free_building_slots = { # avoid islands
+						building = industrial_complex
+						size > 0
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_inf_effort_Inf2
+			}
+		}
+	}
+	focus = {
+		id = AYI_jaragua_university
+		icon = GFX_focus_research
+		cost = 10
+		prerequisite = {
+			focus = AYI_infrastructure_effort
+		}
+		x = 12
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = AYI_the_mississippi_road
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10
+		prerequisite = {
+			focus = AYI_jaragua_university
+		}
+		x = 12
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			custom_effect_tooltip = AYI_megaroad
+			hidden_effect = {
+				371 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+				392 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+				373 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+				372 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+				391 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+			}		
+		}
+	}
+	focus = {
+		id = AYI_military_industry_effort
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = AYI_industrial_reform
+		}
+		x = 14
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = AYI_MIL_1IC_1
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = AYI_MIL_1IC_2
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 365 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_MIL_1IC_1
+			}
+			random_owned_controlled_state = {
+				prioritize = { 367 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_MIL_1IC_2
+			}
+		}
+	}
+	focus = {
+		id = AYI_military_industry_effort_2
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = AYI_military_industry_effort
+		}
+		x = 14
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = AYI_MIL_2IC_1
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = AYI_MIL_2IC_2
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 368 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_MIL_2IC_1
+			}
+			random_owned_controlled_state = {
+				prioritize = { 369 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_MIL_2IC_2
+			}
+		}
+	}
+	focus = {
+		id = AYI_military_industry_effort_3
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = AYI_military_industry_effort_2
+		}
+		x = 14
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = AYI_MIL_3IC_1
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = AYI_MIL_3IC_2
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 373 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_MIL_3IC_1
+			}
+			random_owned_controlled_state = {
+				prioritize = { 395 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AYI_MIL_3IC_2
+			}
+		}
+	}
+	focus = {
+		id = AYI_crush_mafia
+		icon = GFX_focus_AST_squander_bug
+		cost = 10
+		prerequisite = {
+			focus = AYI_military_industry_effort_3
+			focus = AYI_the_mississippi_road
+			focus = AYI_civilian_industry_effort_3
+		}
+		x = 12
+		y = 4	
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			remove_ideas = AYI_mafia_rampage
+		}
+	}
+	focus = {
+		id = AYI_expand_oil_operations
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10
+		prerequisite = {
+			focus = AYI_crush_mafia
+		}
+		x = 10
+		y = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 40
+				state = 489
+			}
+		}
+	}
+	focus = {
+		id = AYI_austerity_effort
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10
+		prerequisite = {
+			focus = AYI_crush_mafia
+		}
+		x = 14
+		y = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_austerity_effort
+		}
+	}
+	focus = {
+		id = AYI_heavy_cruisers
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		prerequisite = {
+			focus = AYI_sailors_union
+		}
+		x = 19
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_heavy_cruisers
+				bonus = 0.5 # this is a 50% boost
+				uses = 2 # how many times you can use it
+				category = ca_tech # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+		}
+	}
+	focus = {
+		id = AYI_jaragua_shipyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10
+		prerequisite = {
+			focus = AYI_heavy_cruisers
+		}
+		x = 17
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = jaragua_shipyards_flag
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 315 }
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = jaragua_shipyards_flag
+			}
+		}
+	}
+	focus = {
+		id = AYI_mississippi_shipyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10
+		prerequisite = {
+			focus = AYI_jaragua_shipyards
+		}
+		x = 17
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = mississippi_shipyards_flag
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 371 }
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = mississippi_shipyards_flag
+			}
+		}
+	}
+	focus = {
+		id = AYI_capital_ship_effort
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10
+		prerequisite = {
+			focus = AYI_heavy_cruisers
+		}
+		x = 19
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_capital_ship_effort
+				bonus = 0.5
+				uses = 1
+				category = bb_tech
+			}
+			add_tech_bonus = {
+				name = AYI_capital_ship_effort
+				bonus = 0.5
+				uses = 1
+				category = cv_tech
+			}
+		}	
+	}
+	focus = {
+		id = AYI_battleship_syndicate
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10
+		prerequisite = {
+			focus = AYI_capital_ship_effort
+		}
+		prerequisite = {
+			focus = AYI_military_industry_effort_3
+		}
+		prerequisite = {
+			focus = AYI_mississippi_shipyards
+		}
+		x = 17
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_battleship_syndicate
+		}
+	}
+	focus = {
+		id = AYI_cruiser_effort
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		prerequisite = {
+			focus = AYI_sailors_union
+		}
+		x = 21
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_cruiser_effort
+				bonus = 0.5 # this is a 50% boost
+				uses = 2 # how many times you can use it
+				category = cl_tech # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+			navy_experience = 25
+		}
+	}
+	focus = {
+		id = AYI_submarine_effort
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10
+		prerequisite = {
+			focus = AYI_cruiser_effort
+		}
+		x = 21
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_cruiser_effort
+				bonus = 0.5 # this is a 50% boost
+				uses = 2 # how many times you can use it
+				category = ss_tech # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+			navy_experience = 25
+		}
+	}
+	focus = {
+		id = AYI_ayiti_shipbuilders_union
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 10
+		prerequisite = {
+			focus = AYI_capital_ship_effort
+		}
+		prerequisite = {
+			focus = AYI_submarine_effort
+		}
+		x = 20
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_ship_building_union
+		}
+	}
+	focus = {
+		id = AYI_destroyer_effort
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 10
+		prerequisite = {
+			focus = AYI_cruiser_effort
+		}
+		x = 23
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_cruiser_effort_boost
+				bonus = 0.5 # this is a 50% boost
+				uses = 2 # how many times you can use it
+				category = dd_tech # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+			navy_experience = 25
+		}
+	}
+	focus = {
+		id = AYI_wolf_pack_doctrine
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10
+		prerequisite = {
+			focus = AYI_destroyer_effort
+		}
+		prerequisite = {
+			focus = AYI_submarine_effort
+		}
+		x = 22
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_wolf_pack_doctrine
+				bonus = 0.95 # this is a 50% boost
+				uses = 1 # how many times you can use it
+				category = dd_tech # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+			navy_experience = 25
+		}
+	}
+	focus = {
+		id = AYI_bomber_focus
+		icon = GFX_goal_generic_air_bomber
+		cost = 10
+		prerequisite = {
+			focus = AYI_union_air_force
+		}
+		x = 26
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_bomber_focus
+				bonus = 0.5 # this is a 50% boost
+				uses = 1 # how many times you can use it
+				category = tactical_bomber # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+				category = cat_strategic_bomber
+				category = naval_bomber
+				category = cas_bomber
+			}
+			air_experience = 25
+		}
+	}
+	focus = {
+		id = AYI_bomber_focus_2
+		icon = GFX_goal_generic_air_bomber
+		cost = 10
+		prerequisite = {
+			focus = AYI_bomber_focus
+		}
+		x = 26
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_bomber_focus_2
+				bonus = 0.5 # this is a 50% boost
+				uses = 1 # how many times you can use it
+				category = tactical_bomber # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+				category = cat_strategic_bomber
+				category = naval_bomber
+				category = cas_bomber
+			}
+			air_experience = 25
+		}
+	}
+	focus = {
+		id = AYI_carrier_focus
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10
+		prerequisite = {
+			focus = AYI_capital_ship_effort
+		}
+		prerequisite = {
+			focus = AYI_bomber_focus_2
+		}
+		x = 24
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_carrier_focus
+				bonus = 0.5 # this is a 50% boost
+				uses = 2 # how many times you can use it
+				category = cv_tech # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+			air_experience = 25
+		}
+	}
+	focus = {
+		id = AYI_jaragua_airport
+		icon = GFX_goal_generic_build_airforce
+		cost = 10
+		prerequisite = {
+			focus = AYI_union_air_force
+		}
+		x = 28
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		complete_tooltip = {
+			random_state = {
+				limit = { has_state_flag = jaragua_base_flag }
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 315 }
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = jaragua_base_flag
+			}
+			air_experience = 25
+		}
+	}
+	focus = {
+		id = AYI_taino_union_airport
+		icon = GFX_goal_generic_build_airforce
+		cost = 10
+		prerequisite = {
+			focus = AYI_jaragua_airport
+		}
+		x = 28
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		complete_tooltip = {
+			random_state = {
+				limit = { has_state_flag = taino_base_flag }
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 261 }
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = taino_base_flag
+			}
+			#Add 2 Airbases in Warsaw
+			air_experience = 25
+		}
+	}
+	focus = {
+		id = AYI_plane_builders_union
+		icon = GFX_goal_generic_air_production
+		cost = 10
+		prerequisite = {
+			focus = AYI_taino_union_airport
+		}
+		x = 28
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_plane_builders_union
+		}
+	}
+	focus = {
+		id = AYI_fighter_focus
+		icon = GFX_goal_generic_air_fighter
+		cost = 10
+		prerequisite = {
+			focus = AYI_union_air_force
+		}
+		x = 30
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_fighter_focus
+				bonus = 0.5 # this is a 50% boost
+				uses = 2 # how many times you can use it
+				category = light_fighter # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+				category = cat_heavy_fighter # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+			air_experience = 25
+		}
+	}
+	focus = {
+		id = AYI_fighter_focus_2
+		icon = GFX_goal_generic_air_fighter
+		cost = 10
+		prerequisite = {
+			focus = AYI_fighter_focus
+		}
+		x = 30
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_fighter_focus_2
+				bonus = 0.5 # this is a 50% boost
+				uses = 2 # how many times you can use it
+				category = light_fighter # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+				category = cat_heavy_fighter # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+			air_experience = 25
+		}
+	}
+	focus = {
+		id = AYI_pilots_union
+		icon = GFX_focus_yug_ikarus
+		cost = 10
+		prerequisite = {
+			focus = AYI_bomber_focus_2
+		}
+		prerequisite = {
+			focus = AYI_fighter_focus_2
+		}
+		x = 27
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_pilots_union
+		}
+	}
+	focus = {
+		id = AYI_aerial_breakthrough
+		icon = GFX_goal_generic_air_doctrine
+		cost = 10
+		prerequisite = {
+			focus = AYI_bomber_focus_2
+		}
+		prerequisite = {
+			focus = fighter_focus_2
+		}
+		x = 29
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_aerial_breakthrough
+				bonus = 0.66 # this is a 50% boost
+				uses = 4 # how many times you can use it
+				category = air_doctrine # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+			air_experience = 100
+		}
+	}
+	focus = {
+		id = AYI_stregthen_social_programs
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10
+		prerequisite = {
+			focus = AYI_the_colossus
+		}
+		mutually_exclusive = {
+			focus = AYI_rally_the_old_guard
+		}
+		x = 34
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_socialist_programs #boost communist support
+		}
+	}
+	focus = {
+		id = AYI_socialist_education
+		icon = GFX_focus_generic_socialist_science
+		cost = 10
+		prerequisite = {
+			focus = AYI_stregthen_social_programs
+		}
+		x = 33
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_socialist_education
+		}
+	}
+	focus = {
+		id = AYI_socialist_work_programs
+		icon = GFX_goal_generic_construction2
+		cost = 10
+		prerequisite = {
+			focus = AYI_stregthen_social_programs
+		}
+		x = 35
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_socialist_work_programs
+		}
+	}
+	focus = {
+		id = AYI_fortress_ayiti
+		icon = GFX_goal_generic_fortify_city
+		cost = 10
+		prerequisite = {
+			focus = AYI_the_colossus
+		}
+		x = 38
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { controls_state = 315 }
+				315 = {
+					set_building_level = {
+						type = bunker
+						level = 8
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+							level < 8
+						}
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = AYI_expand_police_corps
+		icon = GFX_goal_generic_defence
+		cost = 10
+		prerequisite = {
+			focus = AYI_fortress_ayiti
+		}
+		x = 37
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_expanded_police_corps
+		}
+	}
+	focus = {
+		id = AYI_fortify_against_mannahatta
+		icon = GFX_goal_generic_construct_military
+		cost = 10
+		prerequisite = {
+			focus = AYI_fortress_ayiti
+		}
+		x = 39
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = { 
+			if = {
+				limit = { controls_state = 361 }
+				361 = {
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+							level < 3
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = { controls_state = 362 }
+				362 = {
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+							level < 3
+						}
+					}
+				}
+			}
+			if = {
+				limit = { controls_state = 261 }
+				261 = {
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+							level < 3
+						}
+					}
+				}
+			}
+			
+			if = {
+				limit = { controls_state = 374 }
+				374 = {
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+							level < 3
+						}
+					}
+				}
+			}
+			
+			if = {
+				limit = { controls_state = 371 }
+				371 = {
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+							level < 3
+						}
+					}
+				}
+			}
+			
+			if = {
+				limit = { controls_state = 372 }
+				372 = {
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+							level < 3
+						}
+					}
+				}
+			}			
+		}
+	}
+	focus = {
+		id = AYI_crush_separatists
+		icon = GFX_goal_generic_political_pressure
+		cost = 10
+		prerequisite = { # perhaps add a requirement that the civil war is averted or defeated?
+			focus = AYI_expand_police_corps
+			focus = AYI_fortify_against_mannahatta
+		}
+		available = {
+			OR = {
+				has_global_flag = acw_ends_flag
+				has_global_flag = ayiti_coup_flag
+				has_global_flag = ayiti_protests_flag
+			}
+		}
+		x = 38
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = AYI_support_socialists
+		icon = GFX_goal_generic_support_communism
+		cost = 10
+		prerequisite = {
+			focus = AYI_socialist_education
+		}
+		prerequisite = {
+			focus = AYI_socialist_work_programs
+		}
+		prerequisite = {
+			focus = AYI_crush_separatists
+		}
+		x = 34
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			country_event = { id = ayiti.21 } #creates event for supporting socialism
+		}
+	}
+	focus = {
+		id = AYI_renew_byz_science_ties
+		icon = GFX_goal_tfv_generic_tech_sharing
+		cost = 10
+		prerequisite = {
+			focus = AYI_support_socialists
+		}
+		x = 33
+		y = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_to_tech_sharing_group = rrp_tech_sharing_group
+			BYZ = { add_to_tech_sharing_group = rrp_tech_sharing_group } # you need to be in the group with at least one person
+		}
+	}
+	focus = {
+		id = AYI_embargo_lenape
+		icon = GFX_goal_generic_trade
+		cost = 10
+		prerequisite = {
+			focus = AYI_support_socialists
+		}
+		x = 35
+		y = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			custom_effect_tooltip = embargo_lenape_tt
+			hidden_effect = {
+				NEN = { add_opinion_modifier =  { target = AYI modifier = embargo } }
+			}
+		}
+	}
+	focus = {
+		id = AYI_rally_the_old_guard
+		icon = GFX_goal_generic_support_democracy
+		cost = 10
+		prerequisite = {
+			focus = AYI_the_colossus
+		}
+		mutually_exclusive = {
+			focus = AYI_stregthen_social_programs
+		}
+		x = 42
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_rally_old_guard # boost democracy
+		}
+	}
+	focus = {
+		id = AYI_liberal_officers
+		icon = GFX_focus_generic_military_mission
+		cost = 10
+		prerequisite = {
+			focus = AYI_rally_the_old_guard
+		}
+		x = 41
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_liberal_officers
+		}
+	}
+	focus = {
+		id = AYI_liberty_builders
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10
+		prerequisite = {
+			focus = AYI_rally_the_old_guard
+		}
+		x = 43
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_liberty_builders
+				bonus = 0.5 # this is a 50% boost
+				uses = 2 # how many times you can use it
+				category = construction_tech # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+		}
+	}
+	focus = {
+		id = AYI_down_with_the_socialists
+		icon = GFX_goal_anti_comintern_pact
+		cost = 10
+		prerequisite = {
+			focus = AYI_liberty_builders
+		}
+		prerequisite = {
+			focus = AYI_liberal_officers
+		}
+		prerequisite = {
+			focus = AYI_crush_separatists
+		}
+		x = 42
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			country_event = { id = ayiti.20 } #creates event for supporting democracy
+		}
+	}
+	focus = {
+		id = AYI_the_new_era
+		icon = GFX_goal_generic_national_unity
+		cost = 10
+		prerequisite = {
+			focus = AYI_down_with_the_socialists
+			focus = AYI_support_socialists
+		}
+		x = 38
+		y = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			remove_ideas = AYI_disjointed_government
+		}
+	}
+	focus = {
+		id = AYI_rehabilitate_buccaneers
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10
+		prerequisite = {
+			focus = AYI_the_new_era
+		}
+		x = 37
+		y = 6
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = AYI_rehabilitated_buccaneers
+		}
+	}
+	focus = {
+		id = AYI_puppet_tianhui
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10
+		prerequisite = {
+			focus = AYI_the_new_era
+		}
+		x = 39
+		y = 6
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			is_puppet = no
+			has_army_manpower = { size > 549999 }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			set_autonomy = {
+				target = VEN
+				autonomy_state = puppet
+			}
+			hidden_effect = {
+				news_event = { id = news.700 hours = 6}
+			}
+		}
+	}
+	focus = {
+		id = AYI_reconcile_haida
+		icon = GFX_goal_generic_improve_relations
+		cost = 10
+		prerequisite = {
+			focus = AYI_down_with_the_socialists
+		}
+		mutually_exclusive = {
+			focus = AYI_avalon_first
+		}
+		x = 42
+		y = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			HDA = {
+					add_opinion_modifier = { target = AYI modifier = democratic_leanings_good }
+			}
+		}
+	}
+	focus = {
+		id = AYI_join_allies
+		icon = GFX_goal_generic_major_alliance
+		cost = 10
+		prerequisite = {
+			focus = AYI_reconcile_haida
+		}
+		x = 42
+		y = 6
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			JAP = {
+				country_event = { id = ayiti.2  }
+			}
+		}
+	}
+	focus = {
+		id = AYI_avalon_first
+		icon = GFX_goal_tfv_can_compromise_with_quebec
+		cost = 10
+		prerequisite = {
+			focus = AYI_down_with_the_socialists
+		}
+		mutually_exclusive = {
+			focus = AYI_reconcile_haida
+		}
+		x = 44
+		y = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			country_event = { id = ayiti.3 } #create faction and invite the Iroquois
+		}
+	}
+	focus = {
+		id = AYI_draw_lenape_from_china
+		icon = GFX_goal_generic_improve_relations
+		cost = 10
+		prerequisite = {
+			focus = AYI_avalon_first
+		}
+		x = 44
+		y = 6
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			country_event = { id = ayiti.4 } #add lenape
+		}
+	}
+	focus = {
+		id = AYI_mississippi_university
+		icon = GFX_focus_research
+		cost = 10
+		prerequisite = {
+			focus = AYI_crush_mafia
+		}
+		x = 12
+		y = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = AYI_tank_effort
+		icon = GFX_goal_generic_army_tanks
+		cost = 10
+		prerequisite = {
+			focus = AYI_reconcile_cherokee
+		}
+		x = 3
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_tank_effort
+				bonus = 0.5 # this is a 50% boost
+				uses = 3 # how many times you can use it
+				category = armor # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+			army_experience = 20
+		}
+	}
+	focus = {
+		id = AYI_crush_mannahatta
+		icon = GFX_focus_renounce_the_treaty_of_triannon
+		cost = 10
+		prerequisite = {
+			focus = AYI_embargo_lenape
+		}
+		x = 35
+		y = 6
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			NEN = { has_government = fascism } 
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = NEN
+			}
+		}
+	}
+	focus = {
+		id = AYI_war_with_lenape
+		icon = GFX_focus_renounce_the_treaty_of_triannon
+		cost = 10
+		prerequisite = {
+			focus = AYI_join_allies
+		}
+		x = 42
+		y = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			NEN = { has_government = pangalism } 
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = NEN
+			}
+		}
+	}
+	focus = {
+		id = AYI_finishing_the_job
+		icon = GFX_focus_generic_strike_at_democracy2
+		cost = 10
+		prerequisite = {
+			focus = AYI_draw_lenape_from_china
+		}
+		x = 44
+		y = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = HDA
+			}
+		}
+	}
+	focus = {
+		id = AYI_red_army
+		icon = GFX_focus_generic_join_comintern
+		cost = 10
+		prerequisite = {
+			focus = AYI_renew_byz_science_ties
+		}
+		x = 33
+		y = 6
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = AYI_red_army
+				bonus = 0.5 # this is a 50% boost
+				uses = 2 # how many times you can use it
+				category = support_tech # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
+		}
+	}
+	focus = {
+		id = AYI_expand_south_avalon_ops
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10
+		prerequisite = {
+			focus = AYI_puppet_tianhui
+		}
+		prerequisite = {
+			focus = AYI_rehabilitate_buccaneers
+		}
+		x = 38
+		y = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 75
+				state = 489
+			}
+		}
+	}
+	focus = {
+		id = AYI_develop_iroquois
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10
+		prerequisite = {
+			focus = AYI_avalon_first
+		}
+		x = 46
+		y = 6
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			IRO = {
+				country_event = { id = iro.1  }
+			}
+		}
+	}
+}
