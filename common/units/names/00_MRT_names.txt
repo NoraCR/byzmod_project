@@ -1,0 +1,103 @@
+﻿MRT = {
+	fleet_names_template = FLEET_NAME_MRT
+	submarine = {
+		prefix = ""
+		generic = { "Panabudi" }
+		unique = {
+			"P-201" "P-202" "P-203" "P-204" "P-205" "P-206" "P-207" 
+			"P-306" "P-307" "P-309" "P-310" "P-311" "P-312" "P-1" "P-2" "P-3" "P-126" "P-127" "P-128" "P-129" "P-130" 
+			"P-131" "P-132" "P-133" "P-134" "P-208" "P-209" "P-210" "P-211" "P-212" "P-213" "P-214" "P-215" 
+			"P-313" "P-314" "P-315" "P-316" "P-317" "P-318" "P-319" "P-320" "P-321" "P-322" "P-323" "P-324" 
+			"P-401" "P-402" "P-403" "P-404" "P-421" "P-422" "P-423" 
+			"P-4" "P-5" "P-6" "P-7" "P-8" "P-9" "P-10" "P-11" "P-12" "P-13" "P-14" "P-15" "P-16" "P-17" "P-18" "P-19" "P-20" "P-21" "P-22" "P-23" "P-24" "P-25" "P-26" "P-27" "P-28" 
+			"P-29" "P-30" "P-31" "P-32" "P-33" "P-34" "P-35" "P-36" "P-37" "P-38" "P-51" "P-52" "P-53" "P-54" "P-55" "P-56" "P-101" "P-102" "P-103" "P-104" 
+			"P-1" "P-2" "P-3" "P-21" "P-22" "P-23" "P-51" "P-52" "P-53" "P-54" "P-55" "P-56" 
+			"P-135" "P-136" "P-137" "P-138" "P-216" "P-405" "P-406" "P-407" "P-408" "P-411" "P-412" "P-413" "P-414" 
+			"P-47" "P-48" "P-49" "P-58" "P-59" "P-60" 
+		}
+	}
+	destroyer = {
+		prefix = ""
+		generic = { "Vinasika" }
+		unique = {
+			"Kalvari" "Kozhikode" "Kukri" "Kamorta" "Kadmatt" "Kiltan" "Kavaratti" "Katchall" "Amindivi"
+			"Sindhughosh" "Sindhudhvaj" "Sindhuraj" "Sindhuvir" "Sukhanya" "Subhadra" "Suvarta" "Savitri" "Sharada" "Sujata"
+			"Vikramaditya" "Hosdurg" "Vijaydurg" "Sindhudurg" "Shivalik" "Satpura" "Sahyadri" "Shamsher" 
+			"Talwar" "Trishul" "Tabar" "Teg" "Tarkash" "Trikand" "Trinkat" "Tamar"
+			"Brahmaputra" "Betwa" "Beas" "Gomati" "Jalashwa"
+			"Shardul" "Kesari" "Airavat" "Aditya" "Magar" "Gharial" "Cheetah" "Gulbar" "Kumbhir" "Godavari"
+			"Nishank" "Vibhuti" "Vipul" "Vinash" "Vidyut" "Nashak" "Prabal" "Pralaya" "Neza"
+			"Dhanush" 
+		}
+	}
+	light_cruiser = {
+		prefix = ""
+		generic = { "Lahana Krujhara" }
+		unique = {
+			"Komintern" "Lala Gujarata" "Lala Maharashthra" "Lala Jabalapura" "Lala Ganga" "Lala Himalaya" "Lala Panjaba" 
+		}
+	}
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Mothe Krujhara" }
+		unique = {
+			"Sharqi" "Chennubhotla" "Bhadare" "Singh Ogal" "Sanghavi" "Nandanavanam" "Pavagi" "Vrishchika" "Arondekar"
+		}
+	}
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Yud'dha Krujhara" }
+		unique = {
+			"Berikada" "Sri Shivaji" 
+			"Balboa" "Mumba'i" "Oktobara Kranti" 		
+			"Aedmirala Karvanda" "Aedmirala Lokhande" "Aedmirala Nerurkar"
+		}
+	}
+	battleship = {
+		prefix = ""
+		generic = { "Yud'dhanauka" }
+		unique = {
+			"Adyadevaduta" "Navina Maratha" "Merethona Kamyuna" "Gujarata Kamyuna" "Madura'i Kamyuna" "Indaura Kamyuna"
+			"Oktobara Kranti" "Bayajhamta'ina Kamyuna" 				
+			"Kandla" "Nhava Sheva" "Karla Marksa" "Yujeniya Echetevariya" "Rishma Sharqi" "Phredarika Engelsa" "Aedmirala Di Mobraya" "Thi'odora Papadopolu"
+		}
+	}
+	carrier = {
+		prefix = ""
+		generic = { "Vimanavahu Naukā" }
+		unique = {
+			"Mumba'i" "Delhi" "Bengalora" "Ahamadabada" "Cenna'i" "Surata" "Vishakhapattanama" "Nagapura" "Bhopala" "Patana" "Aurangabada" "Rishma Sharqi"
+		}
+	}
+
+	infantry = {
+		prefix = ""
+		generic = { "Rayaphala Vibhaga" }
+		generic_pattern = "UNIT_GENERIC_NAME_MRT"
+		unique = {}
+	}
+	motorized = {
+		prefix = ""
+		generic = { "Motarasayakala Vibhaga" }
+		generic_pattern = "UNIT_GENERIC_NAME_MRT"
+		unique = {}
+	}
+	mountaineers = {
+		prefix = ""
+		generic = { "Parvata Rayaphala Vibhaga" }
+		generic_pattern = "UNIT_GENERIC_NAME_MRT"
+		unique = {}
+	}
+	cavalry = {
+		prefix = ""
+		generic = { "Ghodadala Vibhaga" }
+		generic_pattern = "UNIT_GENERIC_NAME_MRT"
+		unique = {}
+	}
+	light_armor = {
+		prefix = ""
+		generic = { "Mashinikrrta Korpasa" }
+		generic_pattern = "UNIT_GENERIC_NAME_MRT"
+		unique = {}
+	}
+}

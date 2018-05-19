@@ -15,7 +15,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				democracy_drift = 0.10
+				democratic_drift = 0.10
 			}
 		}
 		AYI_cherokee_opposition = {
@@ -72,7 +72,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.05 
-				production_speed_industrial_complex_factor = 0.1 
+				production_speed_industrial_complex_factor = -0.1 
 			}
 		}
 		
@@ -93,7 +93,7 @@ ideas = {
 			
 			modifier = {
 				political_power_cost = 0.5
-				unity_factor = -0.10
+				stability_factor = -0.10
 			}
 		}
 		
@@ -124,6 +124,8 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
+			
+			picture = idea_generic_army_war_college
 			
 			removal_cost = -1
 			
@@ -162,7 +164,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = idea_tot_economic_mobilisation
+			picture = generic_production_bonus
 			
 			removal_cost = -1
 			
@@ -280,31 +282,31 @@ ideas = {
 			
 			equipment_bonus = {
 
-				fighter = {
+				fighter_equipment = {
 					build_cost_ic = -0.05 instant = yes
 				}
-				cv_fighter = {
+				cv_fighter_equipment = {
 					build_cost_ic = -0.05 instant = yes
 				}
-				transport_plane = {
+				transport_plane_equipment = {
 					build_cost_ic = -0.05 instant = yes
 				}
-				cas = {
+				cas_equipment = {
 					build_cost_ic = -0.05 instant = yes
 				}
-				cv_cas = {
+				cv_cas_equipment = {
 					build_cost_ic = -0.05 instant = yes
 				}
-				cv_nav_bomber = {
+				cv_nav_bomber_equipment = {
 					build_cost_ic = -0.05 instant = yes
 				}
-				nav_bomber = {
+				nav_bomber_equipment = {
 					build_cost_ic = -0.05 instant = yes
 				}
-				heavy_fighter = {
+				heavy_fighter_equipment = {
 					build_cost_ic = -0.05 instant = yes
 				}
-				strat_bomber = {
+				strat_bomber_equipment = {
 					build_cost_ic = -0.05 instant = yes
 				}
 			}
@@ -402,7 +404,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				 democracy_drift = 0.10 
+				 democratic_drift = 0.10 
 			}
 		}
 		

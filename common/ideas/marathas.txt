@@ -50,6 +50,8 @@ ideas = {
 				has_government = communism
 			}
 			
+			picture = nkvd
+			
 			modifier = {
 				subversive_activites_upkeep = -0.5
 			}
@@ -65,6 +67,8 @@ ideas = {
 			allowed_civil_war = {
 				has_government = communism
 			}
+			
+			picture = nkvd
 			
 			modifier = {
 				subversive_activites_upkeep = -0.5

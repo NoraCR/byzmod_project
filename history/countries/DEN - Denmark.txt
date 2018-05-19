@@ -33,6 +33,10 @@ set_technology = {
 	basic_machine_tools = 1
 }
 
+add_ideas = {
+	neutrality_idea	
+}
+
 
 1939.1.1 = {
 

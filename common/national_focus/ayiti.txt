@@ -2403,11 +2403,7 @@ focus_tree = {
 			focus = AYI_fortify_against_mannahatta
 		}
 		available = {
-			OR = {
-				has_global_flag = acw_ends_flag
-				has_global_flag = ayiti_coup_flag
-				has_global_flag = ayiti_protests_flag
-			}
+		
 		}
 		x = 38
 		y = 3
@@ -2428,6 +2424,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_political_power = 120
+			add_war_support = 0.1
 		}
 	}
 	focus = {
@@ -2917,6 +2914,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
+			add_war_support = 0.05
 			add_tech_bonus = {
 				name = AYI_tank_effort
 				bonus = 0.5 # this is a 50% boost
@@ -3017,6 +3015,7 @@ focus_tree = {
 				type = annex_everything
 				target = HDA
 			}
+			add_war_support = 0.1
 		}
 	}
 	focus = {
@@ -3044,6 +3043,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
+			add_war_support = 0.1
 			add_tech_bonus = {
 				name = AYI_red_army
 				bonus = 0.5 # this is a 50% boost

@@ -17,6 +17,21 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
+			7455 = {
+				bunker = 3
+			}
+			1525 = {
+				bunker = 3
+			}
+			1553 = {
+				bunker = 3
+			}
+			1581 = {
+				bunker = 3
+			}
+			10090 = {
+				bunker = 3
+			}
 		}
 
 	}

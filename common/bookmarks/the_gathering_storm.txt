@@ -34,7 +34,9 @@ bookmarks = {
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-
+				AYI_cherokee_opposition
+				AYI_immigrant_prejudice
+				AYI_mafia_rampage
 			}
 		}
 		"CHI"={

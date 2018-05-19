@@ -19,9 +19,16 @@ state={
 			arms_factory = 3
 			11968 = {
 				naval_base = 4
-
 			}
-
+						7334 = {
+				bunker = 3
+			}
+			997 = {
+				bunker = 3
+			}
+			9991 = {
+				bunker = 3
+			}
 		}
 
 	}
