@@ -10,12 +10,12 @@ state={
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
-			industrial_complex = 11
+			industrial_complex = 7
 			air_base = 3
 		}
 		add_core_of = AYI
 		victory_points = {
-			9450 30.0
+			9450 10.0
 		}
 
 	}

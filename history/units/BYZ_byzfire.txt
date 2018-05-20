@@ -1529,7 +1529,6 @@ air_wings = {
 		}
 	}
 
-	### Philippines Composite Group -- Manilla
 #	160 = { 
 #		# 4th Composite Group 
 #		fighter_equipment_0 =  {
@@ -1538,7 +1537,6 @@ air_wings = {
 #		}
 #	}
 
-	### USN Atlantic Naval Patrol Division -- Norfolk
 	162 = { 
 		# Naval Patrol Wing 3 
 		nav_bomber_equipment_1 =  {
@@ -1546,13 +1544,12 @@ air_wings = {
 			amount = 72
 		}
 	}
-	### USN Pacific Naval Patrol Division -- Ostia
 	2 = { 
 		# Naval Patrol Wing 1 
 		# Naval Patrol Wing 2 
 		nav_bomber_equipment_1 =  {
 			owner = "BYZ" 
-			amount = 72
+			amount = 96
 		}
 	}
 }

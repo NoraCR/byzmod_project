@@ -1,0 +1,67 @@
+﻿############
+# Ayiti Commune Events
+############
+
+add_namespace = ayiti
+
+#AYI joins Allies
+country_event = {
+	id = ayiti.2
+	title = ayiti.2.t	
+	desc = ayiti.2.desc	#
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = { #JAP agrees
+		name = ayiti.2.a
+		ai_chance = {
+			base = 90
+			modifier = { 
+				AYI = { NOT = { has_government = democratic } } 
+				factor = 0
+				}
+		}
+		add_to_faction = AYI
+		AYI = { country_event = { id = ayiti.12 hours = 6 } }
+	}
+	option = { # JAP refuses
+		name = ayiti.2.b
+		ai_chance = {
+			base = 0
+			modifier = { 
+				AYI = { NOT = { has_government = democratic } } 
+				add = 100
+				}
+		}
+		AYI = { country_event = { id = ayiti.13 hours = 6 } }	
+	}
+}
+
+#JAP agrees
+country_event = {
+	id = ayiti.12
+	title = ayiti.12.t		# 
+	desc = ayiti.12.desc	#
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ayiti.12.a
+	}
+}
+#JAP refuses :(
+country_event = {
+	id = ayiti.13
+	title = ayiti.13.t		# 
+	desc = ayiti.13.desc	#
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ayiti.13.a
+	}
+}
+

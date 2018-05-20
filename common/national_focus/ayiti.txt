@@ -2458,7 +2458,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-			country_event = { id = ayiti.21 } #creates event for supporting socialism
+			add_timed_idea = { idea = internationalism days = 360 }
 		}
 	}
 	focus = {
@@ -2644,7 +2644,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-			country_event = { id = ayiti.20 } #creates event for supporting democracy
+			add_timed_idea = { idea = democratic_influence days = 360 }
 		}
 	}
 	focus = {
@@ -2735,7 +2735,7 @@ focus_tree = {
 				autonomy_state = puppet
 			}
 			hidden_effect = {
-				news_event = { id = news.700 hours = 6}
+				news_event = { id = news.904 hours = 6}
 			}
 		}
 	}
@@ -2830,8 +2830,12 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-			country_event = { id = ayiti.3 } #create faction and invite the Iroquois
-		}
+			set_rule = { can_create_factions = yes }
+			create_faction = avalon_first_faction
+			IRO = {
+				country_event = { id = generic.3 } #create faction and invite the Iroquois
+			}
+		}	
 	}
 	focus = {
 		id = AYI_draw_lenape_from_china
@@ -2847,7 +2851,8 @@ focus_tree = {
 		}
 
 		available = {
-
+			is_puppet = no
+			has_army_manpower = { size > 749999 }
 		}
 		
 		bypass = {
@@ -2858,7 +2863,13 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-			country_event = { id = ayiti.4 } #add lenape
+			set_autonomy = {
+				target = NEN
+				autonomy_state = puppet
+			}
+			hidden_effect = {
+				news_event = { id = news.905 hours = 6}
+			}
 		}
 	}
 	focus = {
