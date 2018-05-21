@@ -1628,8 +1628,12 @@ focus_tree = {
 				factor = 0
 				has_completed_focus = MRT_against_capitalism
 			}
+			modifier = {
+				factor = 0
+				is_in_faction_with = BYZ
+			}
 		}
-				available = {
+		available = {
 
 		}
 
@@ -1834,6 +1838,10 @@ focus_tree = {
 		y = 2
 		ai_will_do = {
 			factor = 1
+			 modifier = {
+				factor = 0.5
+				is_in_faction_with = BYZ
+			}
 		}
 		completion_reward = {
 			add_war_support = 0.05

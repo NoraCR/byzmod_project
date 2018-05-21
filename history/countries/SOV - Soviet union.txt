@@ -32,60 +32,7 @@ set_technology = {
 
 	add_political_power = 1198
 	
-	#adding ministers, already have 2 set
-	add_ideas = {
 
-		#laws
-		war_economy
-		extensive_conscription
-	}
-
-	#purge stuff
-	unlock_national_focus = SOV_great_purge
-
-	add_timed_idea = {
-		idea = officers_purged_6
-		days = 730
-	}
-	country_event = { id = soviet.42 days = 146 }
-	set_country_flag = purged_party_members
-	set_country_flag = purge_1_group_a
-	#purge stuff end
-
-	#MR pact stuff
-	add_opinion_modifier = { target = GER modifier = MR_pact }# pact 
-	set_global_flag = sov_yes_pact
-	add_state_claim = 96
-	add_state_claim = 11
-	add_state_claim = 12
-	add_state_claim = 13
-	add_state_claim = 190
-	add_state_claim = 191
-	add_state_claim = 146
-	add_state_claim = 147
-	add_state_claim = 722
-	add_state_claim = 189
-	add_state_claim = 78
-	add_state_claim = 89
-	add_state_claim = 91
-	add_state_claim = 93
-	add_state_claim = 94
-	add_state_claim = 95
-	add_state_claim = 96
-	add_state_claim = 97
-	#MR pact stuff end
-
-	add_tech_bonus = {
-		name = med_armor_bonus
-		ahead_reduction = 1
-		technology = basic_medium_tank
-	}
-	add_tech_bonus = {
-		name = armor_bonus
-		bonus = 0.5
-		uses = 2
-		category = armor
-	}
 	#Germany soviet treaty end
 	
 	#Soviet starts with 1 less focus, too many branches
@@ -175,6 +122,8 @@ set_politics = {
 
 add_ideas = {
 	communist_plot
+	SOV_dismal_morale
+	SOV_hyper_inflation
 }
 
 create_country_leader = {
@@ -213,7 +162,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
 	picture = "Portrait_Soviet_Generic_1.dds"
 	expire = "1953.3.1"
-	ideology = socialism
+	ideology = leninism
 	traits = {
 		
 	}

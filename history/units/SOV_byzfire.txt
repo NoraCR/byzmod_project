@@ -302,35 +302,6 @@ units = {
 		start_equipment_factor = 0.3
 
 	}					
-	#### Volga Voennyii Okrug (Volga Military District) -- Hoymel (Gomel) ####
-	# 12ya Strelkoviy Korpus				
-	division= {			
-		name = "70ya Strelkovaya Diviziya"		
-		location = 9288
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-			
-	# 13ya Strelkoviy Korpus		
-	division= {			
-		name = "53ya Strelkovaya Diviziya"		
-		location = 3335
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		name = "86ya 'Kazanskaya' Strelk. Div."		
-		location = 3335
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-
 	# Subordinate to VO		
 	division= {			
 		name = "12ya Okhrana Pogranichnaya Diviziya"		
@@ -341,7 +312,6 @@ units = {
 		start_equipment_factor = 0.3
 
 	}			
-
 
 	##### Yugo-Zapadnaya Teatr VD (South West TVD) -- Kyiv, Dnipropetrovsk #####				
 	#### Kiev Voennyii Okrug (Kiev Military District) -- Kiev ####
@@ -358,14 +328,6 @@ units = {
 		name = "58ya Gornostrelkovaya Diviziya"		
 		location = 6380
 		division_template = "Gornostrelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-	division= {			
-		name = "99ya Strelkovaya Diviziya"		
-		location = 6380
-		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
