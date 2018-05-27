@@ -1,3 +1,102 @@
+AYI_align_RRP = {
+	enable = {
+		tag = AYI
+		has_completed_focus = AYI_support_socialists
+		country_exists = BYZ
+	}
+	abort = {
+		NOT = { country_exists = BYZ }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "BYZ"			
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BYZ"			
+		value = 100
+	}	
+}
+
+AYI_align_allies = {
+	enable = {
+		tag = AYI
+		has_completed_focus = AYI_down_with_the_socialists
+		country_exists = JAP
+	}
+	abort = {
+		NOT = { country_exists = JAP }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "JAP"			
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "JAP"			
+		value = 100
+	}	
+}
+AYI_destroy_lenape = {
+	enable = {
+		tag = AYI
+		has_completed_focus = AYI_crush_mannahatta
+		country_exists = NEN
+	}
+	abort = {
+		NOT = {
+			country_exists = NEN
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "NEN"			
+		value = 300
+	}		
+}
+AYI_destroy_lenape_but_as_liberals = {
+	enable = {
+		tag = AYI
+		has_completed_focus = AYI_war_with_lenape
+		country_exists = NEN
+	}
+	abort = {
+		NOT = {
+			country_exists = NEN
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "NEN"			
+		value = 300
+	}		
+}
+
+AYI_well_get_you_this_time = {
+	enable = {
+		tag = AYI
+		has_completed_focus = AYI_finishing_the_job
+		country_exists = HDA
+	}
+	abort = {
+		NOT = {
+			country_exists = HDA
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "HDA"			
+		value = 300
+	}	
+}
+
 AYI_template_design_1 = {
 	enable = {
 		original_tag = AYI

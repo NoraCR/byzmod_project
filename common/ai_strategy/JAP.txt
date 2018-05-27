@@ -10,175 +10,10 @@
 # protect
 # influence
 
-less_trucks_4_u_JAP = {
+kicking_the_giants_shins = {
 	enable = {
 		tag = JAP
-		date < 1939.1.1				
-	}
-	abort = { 
-		date > 1939.1.1
-	}
-
-	ai_strategy = { 
-		type = role_ratio
-		id = infantry
-		value = 80
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = motorized
-		value = -80
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = cavalry
-		value = -80
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = mountaineers
-		value = -80
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = infantry
-		value = 100
-	}
-	
-	ai_strategy = {
-		type = equipment_production_factor
-		id = fighter
-		value = 20
-	}
-	
-	ai_strategy = {
-		type = equipment_production_factor
-		id = infantry
-		value = 10 #20 to 10
-	}
-	
-	ai_strategy = {
-		type = equipment_production_factor
-		id = artillery
-		value = 20 #10 to 20
-	}
-}
-
-JAP_template_design = {
-	enable = {
-		original_tag = JAP
-		date > 1940.1.1				
-	}
-	
-	ai_strategy = {
-		type = template_prio
-		id = infantry
-		value = -10
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = motorized
-		value = 10
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = cavalry
-		value = -100
-	}
-	
-	ai_strategy = {
-		type = template_prio
-		id = light_armor
-		value = -10
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = medium_armor
-		value = 40
-	}
-	
-	ai_strategy = {
-		type = template_prio
-		id = modern_armor
-		value = 50
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = heavy_armor
-		value = -100
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = paratroopers
-		value = -10
-	}
-	
-	ai_strategy = {
-		type = template_prio
-		id = mechanized
-		value = 10
-	}
-}
-southern_expansion = {
-	enable = {
-		tag = JAP
-		has_completed_focus = southern_expansion_focus
-		OR = {
-			country_exists = HOL
-			country_exists = ENG	
-		}
-	}
-	abort = {
-		NOT = {
-			country_exists = HOL
-			country_exists = ENG	
-		}
-	}
-	
-	ai_strategy = {
-		type = antagonize
-		id = "HOL"			
-		value = 200
-	}		
-	ai_strategy = {
-		type = antagonize
-		id = "ENG"			
-		value = 100
-	}
-}
-
-northern_expansion = {
-	enable = {
-		tag = JAP
-		has_completed_focus = northern_expansion_focus
-		country_exists = SOV
-	}
-	abort = {
-		NOT = {
-			country_exists = SOV
-		}
-	}
-	
-	ai_strategy = {
-		type = antagonize
-		id = "SOV"			
-		value = 200
-	}		
-}
-
-chinese_war = {
-	enable = {
-		tag = JAP
-		has_completed_focus = chinese_war_focus
+		has_completed_focus = JAP_defend_territorial_claims
 		country_exists = CHI
 	}
 	abort = {
@@ -190,47 +25,149 @@ chinese_war = {
 	ai_strategy = {
 		type = antagonize
 		id = "CHI"			
-		value = 200
+		value = 300
 	}		
 }
 
-strike_usa = {
+JAP_unit_production = {
 	enable = {
-		tag = JAP
-		has_completed_focus = strike_usa_focus
-		country_exists = USA
+		original_tag = JAP
 	}
 	abort = {
-		NOT = {
-			country_exists = USA
-		}
+		always = no
 	}
 	
 	ai_strategy = {
-		type = antagonize
-		id = "USA"			
-		value = 200
-	}		
-}
+		type = role_ratio
+		id = garrison
+		value = 4
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 1
+	}
 
-germany_ally = {
-	enable = {
-		tag = JAP
-		has_completed_focus = axis_leanings_focus
-		country_exists = GER
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
 	}
-	abort = {
-		NOT = { country_exists = GER }
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 15
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 80 
+	}
+	
+	#Air unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = fighter
+		value = 60
 	}
 	
 	ai_strategy = {
-		type = befriend
-		id = "GER"			
-		value = 200
+		type = unit_ratio
+		id = cas
+		value = 3
 	}
+	
 	ai_strategy = {
-		type = alliance
-		id = "GER"			
-		value = 200
-	}	
-}
+		type = unit_ratio
+		id = tactical_bomber
+		value = 5
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = strategic_bomber
+		value = 15
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = naval_bomber
+		value = 5
+	}
+	
+	
+	# Naval unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 45
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 10
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 20
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 30
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 30
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 30
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 10
+	}
+}	
+
+
+
+

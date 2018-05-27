@@ -1381,7 +1381,7 @@ focus_tree = {
 		x = 22
 		y = 1
 		ai_will_do = {
-			factor = 30
+			factor = 50
 			modifier = {
 				factor = 0
 				has_completed_focus = MRT_against_liberalism
@@ -1456,14 +1456,14 @@ focus_tree = {
 	focus = {
 		id = MRT_join_the_rrp
 		icon = GFX_focus_generic_soviet_politics
-		cost = 10.00
+		cost = 2.00
 		prerequisite = {
 			focus = MRT_expeditionary_forces
 		}
 		x = 22
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available = {
