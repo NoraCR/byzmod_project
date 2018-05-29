@@ -10,6 +10,25 @@
 # protect
 # influence
 
+kashmir = {
+	enable = {
+		tag = MRT
+		has_completed_focus = MRT_demand_kashmir
+		country_exists = CHI
+	}
+	abort = {
+		NOT = {
+			country_exists = CHI
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"			
+		value = 300
+	}		
+}
+
 MRT_unit_production = {
 	enable = {
 		original_tag = MRT

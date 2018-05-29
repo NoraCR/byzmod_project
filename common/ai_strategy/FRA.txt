@@ -10,6 +10,62 @@
 # protect
 # influence
 
+mare_leones = {
+	enable = {
+		tag = FRA
+		has_completed_focus = operation_mare_leones
+		country_exists = ENG
+	}
+	abort = {
+		NOT = {
+			country_exists = ENG
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"			
+		value = 300
+	}		
+}
+
+valeria_hates_gyros = {
+	enable = {
+		tag = FRA
+		has_completed_focus = one_rome
+		country_exists = BYZ
+	}
+	abort = {
+		NOT = {
+			country_exists = BYZ
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "BYZ"			
+		value = 300
+	}	
+}
+valeria_hates_wurst = {
+	enable = {
+		tag = FRA
+		has_completed_focus = revenge_for_teutonoburg
+		country_exists = GER
+	}
+	abort = {
+		NOT = {
+			country_exists = GER
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "GER"			
+		value = 300
+	}	
+}
+
 FRA_unit_production = {
 	enable = {
 		original_tag = FRA

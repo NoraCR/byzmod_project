@@ -649,20 +649,7 @@ focus_tree = {
 		}
 
 	}
-	focus = {
-		id = CHI_counterterrorism
-		icon = GFX_focus_generic_support_the_left_right
-		cost = 10.00
-		prerequisite = {
-			focus = CHI_guided_democracy
-		}
-		x = 15
-		y = 3
-		completion_reward = {
-			add_ideas = CHI_partisan_suppression_focus
-		}
 
-	}
 	focus = {
 		id = CHI_engineering_consent
 		icon = GFX_focus_generic_self_management
@@ -2690,7 +2677,7 @@ focus_tree = {
 		x = 43
 		y = 5
 		completion_reward = {
-			add_ideas = partisan_suppression_focus
+			add_ideas = CHI_partisan_suppression_focus
 		}
 	}
 	focus = {

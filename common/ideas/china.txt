@@ -52,8 +52,8 @@ ideas = {
 
 			modifier = {
 				autonomy_gain = 1
-				democratic_drift = -0.1
-				pangalism_drift = 0.2
+				democratic_drift = -0.2
+				pangalism_drift = 0.4
 			}
 		}
 		xinshi_haijun_focus = {

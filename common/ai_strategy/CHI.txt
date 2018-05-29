@@ -10,6 +10,79 @@
 # protect
 # influence
 
+CHI_bonin_incident = {
+	enable = {
+		tag = CHI
+		has_completed_focus = CHI_bonin_islands_incident
+		country_exists = JAP
+	}
+	abort = {
+		NOT = {
+			country_exists = JAP
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "JAP"			
+		value = 300
+	}		
+}
+
+CHI_capitalisms_revenge = {
+	enable = {
+		tag = CHI
+		has_completed_focus = CHI_cut_down_byzantium
+		country_exists = BYZ
+	}
+	abort = {
+		NOT = {
+			country_exists = BYZ
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "BYZ"			
+		value = 300
+	}		
+}
+CHI_destroy_russia = {
+	enable = {
+		tag = CHI
+		has_completed_focus = CHI_russian_regime_change
+		country_exists = SOV
+	}
+	abort = {
+		NOT = {
+			country_exists = SOV
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"			
+		value = 300
+	}
+}
+CHI_cut_the_cheese = {
+	enable = {
+		tag = CHI
+		has_completed_focus = CHI_france
+		country_exists = FRA
+	}
+	abort = {
+		NOT = {
+			country_exists = FRA
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"			
+		value = 300
+	}
+}
 CHI_template_design_1 = {
 	enable = {
 		original_tag = CHI

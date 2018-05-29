@@ -15,7 +15,7 @@ bookmarks = {
 			}
 		}
 		"BYZ"={
-			history = "USA_GATHERING_STORM_DESC"
+			history = "BYZ_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 				BYZ_byzantine_abundance
@@ -24,14 +24,14 @@ bookmarks = {
 			}
 		}
 		"MRT"={
-			history = "ENG_GATHERING_STORM_DESC"
+			history = "MRT_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 				MRT_the_marathan_tiger
 			}
 		}
 		"AYI"={
-			history = "GER_GATHERING_STORM_DESC"
+			history = "AYI_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 				AYI_cherokee_opposition
@@ -40,7 +40,7 @@ bookmarks = {
 			}
 		}
 		"CHI"={
-			history = "ITA_GATHERING_STORM_DESC"
+			history = "CHI_GATHERING_STORM_DESC"
 			ideology = pangalism
 			ideas={
 				CHI_complacent_hegemon
@@ -55,17 +55,16 @@ bookmarks = {
 			}			
 		}
 		"SOM"={
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "SOM_GATHERING_STORM_DESC"
 			ideology = pangalism
 			ideas = {
 				SOM_ruling_conglomerates
 			}
 		}
-
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
-
+		# minors from DLC ####
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
