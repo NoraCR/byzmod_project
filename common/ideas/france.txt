@@ -24,6 +24,45 @@ ideas = {
 				can_create_factions = yes
 			}
 		}
+		IG_centurions = { #added by the Centurions Focus
+            allowed = {
+                original_tag = FRA
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+			
+			picture = generic_infantry_bonus
+
+            removal_cost = -1
+            
+            modifier = {
+                army_org_factor = 0.1
+                army_morale_factor = 0.1
+            }
+        }
+        
+        IG_mare_leones_prep = { # added by the Operation Sealion focus, helps with the invasion
+            allowed = {
+                original_tag = FRA
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+			
+			picture = generic_infantry_bonus
+
+            removal_cost = -1
+            
+            modifier = {
+                invasion_preparation = -0.3 
+                amphibious_invasion = 0.10 
+            }
+        }
 		IG_hastati = {
 			allowed = {
 				original_tag = FRA
@@ -81,50 +120,6 @@ ideas = {
 				}
 			}
 		}
-		FRA_victors_of_wwi = {
-			
-			allowed = {
-				original_tag = FRA
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = generic_victors_of_ww1
-			
-			research_bonus = {
-				land_doctrine = -0.75
-			}
-			modifier = {
-				conscription = -0.003
-			}
-		}
-
-		FRA_disjointed_government = {
-			
-			allowed = {
-				original_tag = FRA
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = democratic
-			}
-
-			removal_cost = -1
-
-			picture = generic_disjointed_gov
-			
-			modifier = {
-				political_power_cost = 0.8
-				stability_factor = -0.10
-			}
-		}
-
 		FRA_protected_by_the_maginot_line = {
 			
 			allowed = {

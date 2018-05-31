@@ -23,7 +23,26 @@ ideas = {
 			
 			traits = { smooth_talking_charmer }
 		}
+		HDA_sofia_kandartzis = {
 
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = HDA
+			}
+			
+			traits = { communist_revolutionary }
+		}
+		HDA_kealohilani_aikau = {
+
+			picture = generic_political_advisor_asia_3
+				
+			allowed = {
+				original_tag = HDA
+			}
+			
+			traits = { armaments_organizer }
+		}
 		HDA_tlaagang_quna_staastas = {
 
 			picture = generic_political_advisor_south_america_1
@@ -44,9 +63,7 @@ ideas = {
 			}
 			
 			traits = { backroom_backstabber }
-			ai_will_do = {
-				factor = 0
-			}
+
 		}
 		HDA_soichiro_isayama = {
 
@@ -55,7 +72,9 @@ ideas = {
 			allowed = {
 				original_tag = HDA
 			}
-			
+			ai_will_do = {
+				factor = 0
+			}
 			traits = { ayn_rand }
 		}
 	}

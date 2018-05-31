@@ -3,14 +3,13 @@ state={
 	id=395
 	name="STATE_395"
 	manpower = 7630651
-	state_category = megalopolis
+	state_category = large_city
 
 	history={
 		owner = AYI
 		buildings = {
 			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 7
+			industrial_complex = 6
 			air_base = 3
 		}
 		add_core_of = AYI

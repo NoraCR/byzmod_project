@@ -20,9 +20,10 @@ state={
 			air_base = 8
 			2196 = {
 				naval_base = 2
-
 			}
-
+			4171 = {
+				bunker = 4
+			}
 		}
 
 	}

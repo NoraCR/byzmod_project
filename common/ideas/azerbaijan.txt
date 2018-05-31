@@ -23,7 +23,16 @@ ideas = {
 			
 			traits = { ayn_rand }
 		}
+		AZB_serxan_topchubash = {
 
+			picture = generic_political_advisor_asia_1
+				
+			allowed = {
+				original_tag = AZB
+			}
+			
+			traits = { financial_expert }
+		}
 		AZB_fatma_adilsoy = {
 
 			picture = generic_political_advisor_arab_3
@@ -33,6 +42,16 @@ ideas = {
 			}
 			
 			traits = { war_industrialist }
+		}
+		AZB_nilufer_basaran = {
+
+			picture = generic_political_advisor_arab_2
+			
+			allowed = {
+				original_tag = AZB
+			}
+			
+			traits = { communist_revolutionary }
 		}
 	}
 

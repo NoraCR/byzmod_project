@@ -1375,6 +1375,8 @@
  SYR_prepare_for_war_desc:0 "The third Great War is coming soon. We must prepare for a new kind of warfare."
  SYR_expand_air_force_bases:0 "Expand Air Forces Bases"
  SYR_expand_air_force_bases_desc:0 "Airbases are essential, as is air support."
+ SYR_expand_oil_fields:0 "Expand Oil Fields"
+ SYR_expand_oil_fields_desc:0 "We should increase our efforts in exploration, drilling, and refining to meet with increased demand."
  SYR_develop_shipbuilding:0 "Develop Shipbuilding"
  SYR_develop_shipbuilding_desc:0 "Our location between Byzantium and Somalia is no reason to neglect our naval industries. On the contrary."
  SYR_da_qin_resurgent:0 "Da Qin Resurgent"

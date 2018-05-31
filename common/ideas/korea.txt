@@ -23,7 +23,16 @@ ideas = {
 			
 			traits = { captain_of_industry }
 		}
-		
+		KOR_yi_kukchan_jaehyung = {
+
+			picture = generic_political_advisor_asia_2
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { fortification_engineer }
+		}		
 		KOR_jin_yuseon = {
 
 			picture = generic_political_advisor_asia_1
@@ -37,6 +46,26 @@ ideas = {
 			}
 			
 			traits = { ayn_rand }
+		}
+		KOR_man_sunmi = {
+
+			picture = generic_army_asia_2
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+		KOR_chong_namil = {
+
+			picture = generic_army_asia_2
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			traits = { backroom_backstabber }
 		}
 	}	
 

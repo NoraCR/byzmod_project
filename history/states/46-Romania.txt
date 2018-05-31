@@ -25,7 +25,6 @@ state={
 			687 = {
 				naval_base = 1
 			}
-			dockyard = 1
 		}
 		add_core_of = BYZ
 	}
