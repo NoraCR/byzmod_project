@@ -75,6 +75,11 @@ set_politics = {
 	elections_allowed = yes
 }
 
+add_ideas = {
+	KOR_economic_crisis_1
+	KOR_conscription_crisis
+}
+
 create_country_leader = {
 	name = "Han Kyongsu"
 	desc = ""
@@ -102,9 +107,9 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = leninism
 	traits = {
-		#
+		cornered_fox
 	}
 }
 
@@ -115,7 +120,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		#
+		warmonger
 	}
 }
 create_country_leader = {

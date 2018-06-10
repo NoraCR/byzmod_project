@@ -1,5 +1,482 @@
 ideas = {
+	country = {
+		KOR_economic_crisis_1 = {
 
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.20
+				industrial_capacity_dockyard = -0.20
+			}
+		}
+
+		KOR_economic_crisis_2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+			}
+		}
+		KOR_conscription_crisis = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = tfv_can_conscription_crisis
+			
+			modifier = {
+				conscription_factor = -0.30
+			}
+		}
+		KOR_conscription_crisis_resolved = {
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = tfv_can_conscription_crisis
+			
+			modifier = {
+				conscription_factor = -0.10
+			}
+		}
+		KOR_hunter_killer_tactics = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_goal_generic_amphibious_assault
+
+			equipment_bonus = {
+				destroyer = {
+					sub_detection = 0.1
+				}
+				light_cruiser = {
+					sub_detection = 0.1
+				}
+				heavy_cruiser = {
+					sub_detection = 0.1
+				}
+			}
+		}
+		KOR_confucian_democracy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			picture = generic_democratic_drift_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.1
+				drift_defence_factor = 0.3
+				war_support_factor = 0.1
+				army_core_defence_factor = 0.1
+				research_time_factor = -0.05
+			}
+		}
+		KOR_to_the_old_ways = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				 has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+
+			modifier = {
+				democratic_drift = -0.1
+				fascism_drift = 0.2
+			}
+		}
+		KOR_to_the_old_ways_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				 has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+
+			modifier = {
+				democratic_drift = -0.1
+				fascism_drift = 0.2
+				war_support_factor = 0.05
+				conscription = 0.02
+			}
+		}
+		KOR_korean_socialism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+
+			modifier = {
+				democratic_drift = -0.1
+				communism_drift = 0.2
+			}
+		}
+		KOR_korean_socialism_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+
+			modifier = {
+				democratic_drift = -0.1
+				communism_drift = 0.2
+				industrial_capacity_factory = 0.02
+				industrial_capacity_dockyard = 0.02
+			}
+		}
+		KOR_korean_socialism_3 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+
+			rule = { can_send_volunteers = yes }
+
+			modifier = {
+				democratic_drift = -0.1
+				communism_drift = 0.2
+				industrial_capacity_factory = 0.04
+				industrial_capacity_dockyard = 0.04
+				subversive_activites_upkeep = -0.5
+			}
+		}
+		KOR_aircraft_development = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				is_in_faction_with = JAP
+			}
+
+			removal_cost = -1
+
+			picture = generic_air_bonus
+			
+
+			equipment_bonus = {
+				fighter_equipment = {
+					air_range = 0.1
+					air_attack = 0.05
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					air_range = 0.1
+					air_attack = 0.05
+					instant = yes
+				}
+				CAS_equipment = {
+					air_range = 0.1
+					air_ground_attack = 0.05
+					instant = yes
+				}
+				cv_CAS_equipment = {
+					air_range = 0.1
+					air_ground_attack = 0.05
+					instant = yes
+				}
+				cv_nav_bomber_equipment = {
+					air_range = 0.1
+					naval_strike_attack = 0.05
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					air_range = 0.1
+					naval_strike_attack = 0.05
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					air_range = 0.1
+					air_ground_attack = 0.05
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					air_range = 0.1
+					air_attack = 0.05
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_range = 0.1
+					air_bombing = 0.05
+					instant = yes
+				}
+				transport_plane_equipment = {
+					air_range = 0.1
+					instant = yes
+				}
+			}
+
+			modifier = {
+				air_ace_generation_chance_factor = 0.10
+			}
+		}
+		KOR_mass_mobilization = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription_factor = 0.15
+				conscription = 0.01
+			}
+		}
+		KOR_going_all_in = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription_factor = 0.05
+			}
+
+		}
+		KOR_war_bonds_1 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.03
+			}
+		}
+		KOR_gukga_boanbeop_democratic = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				 has_government = democratic 
+			}
+
+			removal_cost = -1
+
+			picture = idea_generic_fortify_the_borders
+			
+			modifier = {
+				communism_drift = -0.01
+				fascism_drift = -0.01
+				pangalism_drift = -0.01
+				foreign_subversive_activites = -0.50
+			}
+		}
+
+		KOR_gukga_boanbeop_fascism = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = idea_generic_fortify_the_borders
+			
+			modifier = {
+				democratic_drift = -0.01
+				communism_drift = -0.01
+				pangalism_drift = -0.01
+				foreign_subversive_activites = -0.50
+			}
+		}
+
+		KOR_gukga_boanbeop_communism = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = idea_generic_fortify_the_borders
+			
+			modifier = {
+				democratic_drift = -0.01
+				fascism_drift = -0.01
+				pangalism_drift = -0.01
+				foreign_subversive_activites = -0.50
+			}
+		}
+		KOR_gukga_boanbeop_pangalism = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = idea_generic_fortify_the_borders
+			
+			modifier = {
+				democratic_drift = -0.01
+				fascism_drift = -0.01
+				communism_drift = -0.01
+				foreign_subversive_activites = -0.50
+			}
+		}
+		KOR_recycling_program = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				industrial_capacity_factory = 0.03
+				industrial_capacity_dockyard = 0.03
+			}
+		}
+		KOR_office_of_temporary_price_controls = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = can_wartime_prices_and_trade_board
+			
+			modifier = {
+				min_export = -0.05
+				global_building_slots_factor = 0.10
+			}
+		}
+	}
 	political_advisor = {
 
 		KOR_bae_hyeongnam = {
@@ -19,6 +496,10 @@ ideas = {
 			
 			allowed = {
 				original_tag = KOR
+			}
+			
+			available = {
+				has_completed_focus = KOR_state_owned_enterprises
 			}
 			
 			traits = { captain_of_industry }

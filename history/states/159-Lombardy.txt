@@ -14,11 +14,20 @@ state={
 			infrastructure = 8
 			arms_factory = 3
 			607 = {
-				bunker = 1
+				bunker = 5
 			}
 			3780 = {
-				bunker = 1
-			}			
+				bunker = 4
+			}
+			9584 = {
+				bunker = 4
+			}
+			6661 = {
+				bunker = 5
+			}
+			11587 = {
+				bunker = 4
+			}
 			industrial_complex = 3
 			air_base = 10
 

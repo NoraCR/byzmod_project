@@ -20,9 +20,6 @@ state={
 			11968 = {
 				naval_base = 4
 			}
-						7334 = {
-				bunker = 3
-			}
 			997 = {
 				bunker = 3
 			}

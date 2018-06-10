@@ -11,6 +11,24 @@ state=
 		owner = BYZ
 		buildings = {
 			infrastructure = 6
+			3631 = {
+				bunker = 4
+			}
+			11612 = {
+				bunker = 4
+			}
+			9596 = {
+				bunker = 4
+			}
+			596 = {
+				bunker = 4
+			}
+			665 = {
+				bunker = 4
+			}
+			6672 = {
+				bunker = 5
+			}
 		}
 		victory_points = {
 			9627 3 

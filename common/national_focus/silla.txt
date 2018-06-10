@@ -1,0 +1,4210 @@
+focus_tree = {
+	id = silla
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOR
+		}
+	}
+	default = no
+	focus = {
+		id = KOR_bogeon_sahoe_bu
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10.00
+		x = 1
+		y = 0
+		cost = 10
+
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+				has_completed_focus = KOR_state_owned_enterprises
+			}
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = KOR_state_owned_enterprises
+		icon = GFX_focus_generic_industry_2
+		cost = 10.00
+		x = 4
+		y = 0
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 3
+				has_completed_focus = KOR_bogeon_sahoe_bu
+			}
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = KOR_song_hongyeol
+		}
+	}
+	focus = {
+		id = KOR_jeonjaeng_chaegwon
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		x = 8
+		y = 0
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+			has_war = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KOR_war_bonds_1
+		}
+
+	}
+	focus = {
+		id = KOR_gukga_boanbeop
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		x = 11
+		y = 0
+		cost = 10
+
+		ai_will_do = {
+			factor = 30
+		}
+
+		available = {
+			threat > 0.2
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			if = {
+				limit = { has_government = democratic }
+				add_ideas = KOR_gukga_boanbeop_democratic
+			}
+			if = {
+				limit = { has_government = communism }
+				add_ideas = KOR_gukga_boanbeop_communism
+			}
+			if = {
+				limit = { has_government = fascism }
+				add_ideas = KOR_gukga_boanbeop_fascism
+			}
+			if = {
+				limit = { has_government = pangalism }
+				add_ideas = KOR_gukga_boanbeop_pangalism
+			}
+		}
+	}
+	focus = {
+		id = KOR_army_reform
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		cost = 10.00
+		x = 16
+		y = 0
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 5 
+			add_tech_bonus = {
+				name = KOR_army_reform
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = KOR_stay_with_allies
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		mutually_exclusive = {
+			focus = KOR_our_own_path
+		}
+		x = 22
+		y = 0
+		ai_will_do = {
+			factor = 9
+			modifier = {
+				democratic < 0.5
+				factor = 0.5
+			}
+		}
+
+		available = {
+			JAP = { has_government = ROOT }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			JAP = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = democratic_leanings_good
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_our_own_path
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10.00
+		mutually_exclusive = {
+			focus = KOR_stay_with_allies
+		}
+		x = 24
+		y = 0
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				OR = {
+					communism > 0.15
+					fascism > 0.15
+					pangalism > 0.15
+					}
+				factor = 2.5
+			}
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {			
+			add_political_power = 120
+			JAP = {
+				add_opinion_modifier = { target = KOR modifier = HUN_refused_alliance }
+			}
+		}
+	}
+	focus = {
+		id = KOR_osan_base
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10.00
+		x = 35
+		y = 0
+		cost = 10
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+
+		complete_tooltip = {
+			air_experience = 25
+			random_state = {				
+				limit = {
+					has_state_flag = KOR_osan_AB
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = KOR_osan_base
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+
+		completion_reward = {
+			air_experience = 25
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				prioritize = { 525 }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = KOR_osan_AB
+			}
+			add_tech_bonus = {
+				name = KOR_osan_base
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = KOR_shipyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		x = 39
+		y = 0
+		cost = 10
+
+		ai_will_do = {
+			factor = 9
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			navy_experience = 25
+			random_state = {
+				limit = {
+					has_state_flag = KOR_shipyards_DY
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			random_owned_controlled_state = {
+				prioritize = { 521 }
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = KOR_shipyards_DY
+			}
+		}
+	}
+	focus = {
+		id = KOR_siberian_railway
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_bogeon_sahoe_bu
+		}
+		x = 1
+		y = 2
+		ai_will_do = {
+			factor = 75
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {			
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = KOR_siberian_railway_Inf
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 564 566 }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = KOR_siberian_railway
+			}
+		}
+	}
+	focus = {
+		id = KOR_eastern_railway
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_siberian_railway
+		}
+		x = 1
+		y = 3
+		ai_will_do = {
+			factor = 75
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {			
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = KOR_eastern_railway_Inf
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = KOR_eastern_railway_Inf
+			}
+		}
+	}
+	focus = {
+		id = KOR_jeonse_reform
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_state_owned_enterprises
+		}
+		prerequisite = {
+			focus = KOR_bogeon_sahoe_bu
+		}
+		x = 3
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 75
+		}
+
+		available = {
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = KOR_jeonse_reform_IC
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KOR_jeonse_reform_IC
+			}
+		}
+	}
+	focus = {
+		id = KOR_captains_of_industry
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_jeonse_reform
+		}
+		x = 3
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 75
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_captains_of_industry
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
+
+	}
+	focus = {
+		id = KOR_coordinate_domestic_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_jeonjaeng_chaegwon
+		}
+		prerequisite = {
+			focus = KOR_state_owned_enterprises
+		}
+		x = 6
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = KOR_coordinate_domestic_industry_AF1
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = KOR_coordinate_domestic_industry_AF2
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KOR_coordinate_domestic_industry_AF1
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KOR_coordinate_domestic_industry_AF2
+			}
+		}
+	}
+	focus = {
+		id = KOR_recycling_laws
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_coordinate_domestic_industry
+		}
+		x = 5
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KOR_recycling_program
+		}
+	}
+	focus = {
+		id = KOR_retool_factories
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_siberian_railway
+		}
+		prerequisite = {
+			focus = KOR_recycling_laws
+		}
+		x = 3
+		y = 3
+		cost = 10
+
+		ai_will_do = {
+			factor = 75
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = KOR_retool_factories_AF
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 653 566 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KOR_retool_factories_AF
+			}
+		}
+	}
+	focus = {
+		id = KOR_gang_jitae_company
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_recycling_laws
+		}
+		x = 5
+		y = 4
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 2
+				has_completed_focus = KOR_samjok_o_aircraft
+			}
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = KOR_gang_jitae_company_AF1
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = KOR_gang_jitae_company_AF2
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 522 537 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = KOR_gang_jitae_company_AF1
+			}
+			random_owned_controlled_state = {
+				prioritize = { 522 537 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KOR_gang_jitae_company_AF2
+			}
+		}
+	}
+	focus = {
+		id = KOR_samjok_o_aircraft
+		icon = GFX_goal_generic_air_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_coordinate_domestic_industry
+		}
+		x = 7
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 2
+				has_completed_focus = KOR_gang_jitae_company
+			}
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = KOR_samjok_o_aircraft_AF1
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = KOR_samjok_o_aircraft_AF2
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 564 527 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = KOR_samjok_o_aircraft_AF1
+			}
+			random_owned_controlled_state = {
+				prioritize = { 564 527 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KOR_samjok_o_aircraft_AF2
+			}
+		}
+	}
+	focus = {
+		id = KOR_emergency_powers_act
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_gukga_boanbeop
+		}
+		prerequisite = {
+			focus = KOR_jeonjaeng_chaegwon
+		}
+		x = 9
+		y = 1
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						controller = { NOT = { is_in_faction_with = KOR } }
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+					level = 3
+					instant_build = yes
+				}
+			}
+			every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_coastal = yes
+					is_in_home_area = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_KIST
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_emergency_powers_act
+			focus = KOR_coordinate_domestic_industry
+		}
+		x = 9
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 75
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = KOR_junghabche_corporation
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_KIST
+			focus = KOR_samjok_o_aircraft
+		}
+		x = 8
+		y = 4
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = synth_oil_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = synthetic_refinery
+						size < 0
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+
+		complete_tooltip = {
+			if = {
+				limit = { has_country_flag = KOR_junghabche_unlock }
+				set_technology = { synth_oil_experiments = 1 }
+				else = {					
+					add_tech_bonus = {
+						name = KOR_junghabche_corporation
+						ahead_reduction = 1
+						bonus = 0.5
+						uses = 1
+						category = synth_resources
+					}
+				}				
+			}
+			random_state = {
+				limit = {
+					has_state_flag = KOR_junghabche_1
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = KOR_junghabche_2
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = { has_tech = synth_oil_experiments }
+				}
+				set_technology = { synth_oil_experiments = 1 }
+				set_country_flag = KOR_junghabche_unlock
+				effect_tooltip = {
+					random_owned_controlled_state = {
+						prioritize = { 682 }
+						limit = {
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = synthetic_refinery
+							level = 1
+							instant_build = yes
+						}
+						set_state_flag = KOR_junghabche_1
+					}
+					random_owned_controlled_state = {
+						prioritize = { 276 }
+						limit = {
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = synthetic_refinery
+							level = 1
+							instant_build = yes
+						}
+						set_state_flag = KOR_junghabche_2
+					}
+				}
+				else = {
+					add_tech_bonus = {
+						name = KOR_junghabche_corporation
+						ahead_reduction = 1
+						bonus = 0.5
+						uses = 1
+						category = synth_resources
+					}
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 560 }
+				limit = {
+					free_building_slots = {
+						building = synthetic_refinery
+						size > 0
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KOR_junghabche_1
+			}
+			random_owned_controlled_state = {
+				prioritize = { 657 }
+				limit = {
+					free_building_slots = {
+						building = synthetic_refinery
+						size > 0
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KOR_junghabche_2
+			}
+		}
+	}
+	focus = {
+		id = KOR_price_controls
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_gukga_boanbeop
+		}
+		x = 12
+		y = 1
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KOR_office_of_temporary_price_controls
+		}
+	}
+	focus = {
+		id = KOR_expand_siberian_mining
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_price_controls
+		}
+		x = 11
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 2
+				has_completed_focus = KOR_rice_production_council
+			}
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 560 }
+				add_resource = {
+					type = steel
+					amount = 6
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 563 565 }
+				add_resource = {
+					type = steel
+					amount = 4
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 563 565 }
+				add_resource = {
+					type = chromium
+					amount = 5
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_coal_mining
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_expand_siberian_mining
+		}
+		x = 11
+		y = 3
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = KOR_coal_mining_IC
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 573 }
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = KOR_coal_mining_IC
+			}
+		}
+	}
+	focus = {
+		id = KOR_focus_on_production
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_coal_mining
+		}
+		mutually_exclusive = {
+			focus = KOR_focus_on_mobilization
+		}
+		x = 11
+		y = 4
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = KOR_focus_on_production_IC1
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = KOR_focus_on_production_IC2
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = KOR_focus_on_production_IC1
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = KOR_focus_on_production_IC2
+			}
+		}
+	}
+	focus = {
+		id = KOR_uranium_mines
+		icon = GFX_focus_wonderweapons
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_junghabche_corporation
+			focus = KOR_focus_on_production
+		}
+		x = 9
+		y = 5
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_uranium_mines
+				bonus = 0.5
+				uses = 2
+				category = nuclear
+			}	
+		}
+	}
+	focus = {
+		id = KOR_rice_production_council
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_price_controls
+		}
+		x = 13
+		y = 2
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 2
+				has_completed_focus = KOR_expand_siberian_mining
+			}
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = KOR_economic_crisis_1
+				add_idea = KOR_economic_crisis_2		
+			}
+		}
+	}
+	focus = {
+		id = KOR_going_all_in
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_rice_production_council
+		}
+		x = 13
+		y = 3
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			has_war = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KOR_going_all_in
+		}
+	}
+	focus = {
+		id = KOR_focus_on_mobilization
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_going_all_in
+		}
+		mutually_exclusive = {
+			focus = KOR_focus_on_production
+		}
+		x = 13
+		y = 4
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KOR_mass_mobilization
+		}
+	}
+	focus = {
+		id = KOR_daeyun_arsenal
+		icon = GFX_goal_generic_military_sphere
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_focus_on_mobilization
+		}
+		x = 12
+		y = 5
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_daeyun_arsenal
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+	focus = {
+		id = KOR_silla_army
+		icon = GFX_focus_secret_rearmament
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_army_reform
+		}
+		x = 15
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_silla_army
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+	focus = {
+		id = KOR_royal_guard
+		icon = GFX_goal_generic_army_artillery
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_silla_army
+		}
+		x = 15
+		y = 3
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_royal_guard
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}
+		}
+	}
+	focus = {
+		id = KOR_motorization
+		icon = GFX_focus_generic_rubber
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_army_reform
+		}
+		x = 17
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_motorization
+				ahead_reduction = 1
+				bonus = 0.75
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+	}
+	focus = {
+		id = KOR_radio_tech
+		icon = GFX_focus_generic_cryptologic_bomb
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_motorization
+			focus = KOR_silla_army
+		}
+		x = 16
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_radio_tech
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+			add_tech_bonus = {
+				name = KOR_radio_tech
+				bonus = 0.5
+				uses = 1
+				technology = tech_signal_company
+				technology = tech_signal_company2
+				technology = tech_signal_company3
+				technology = tech_signal_company4
+			}
+		}
+	}
+	focus = {
+		id = KOR_tanks
+		icon = GFX_goal_continuous_armor_production
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_motorization
+		}
+		x = 17
+		y = 3
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_tanks
+				bonus = 0.5
+				uses = 3
+				category = motorized_equipment
+				technology = tech_field_hospital
+				technology = tech_field_hospital2
+				technology = tech_field_hospital3
+				technology = tech_field_hospital4
+				technology = tech_logistics_company
+				technology = tech_logistics_company2
+				technology = tech_logistics_company3
+				technology = tech_logistics_company4
+				technology = tech_signal_company
+				technology = tech_signal_company2
+				technology = tech_signal_company3
+				technology = tech_signal_company4
+			}
+		}
+	}
+	focus = {
+		id = KOR_reformed_general_staff
+		icon = GFX_goal_generic_special_forces
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_tanks
+			focus = KOR_royal_guard
+		}
+		x = 15
+		y = 4
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = KOR_reformed_general_staff
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = KOR_independent_milcom
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_reformed_general_staff
+		}
+		prerequisite = {
+			focus = KOR_focus_on_mobilization
+		}
+		x = 14
+		y = 5
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 20
+			add_tech_bonus = {
+				name = KOR_independent_milcom
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = KOR_808th_batallion
+		icon = GFX_focus_generic_paratrooper
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_reformed_general_staff
+		}
+		x = 16
+		y = 5
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_808th_batallion
+				bonus = 0.50
+				uses = 2
+				category = marine_tech
+				category = para_tech
+			}
+		}
+	}
+	focus = {
+		id = KOR_foreign_investment
+		icon = GFX_focus_generic_industry_1
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_stay_with_allies
+		}
+		x = 20
+		y = 1
+		ai_will_do = {
+			factor = 35
+		}
+
+		available = {
+			threat > 0.05
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = KOR_allied_factories_AF1
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = KOR_allied_factories_AF2
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = KOR_allied_factories_AF3
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KOR_allied_factories_AF1
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KOR_allied_factories_AF2
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KOR_allied_factories_AF3
+			}
+		}
+	}
+	focus = {
+		id = KOR_aircraft_development
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_foreign_investment
+		}
+		x = 20
+		y = 2
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 2
+				has_completed_focus = KOR_arsenal_of_democracy
+			}
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KOR_aircraft_development
+		}
+	}
+	focus = {
+		id = KOR_1st_paratroopers
+		icon = GFX_goal_generic_special_forces
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_tanks
+			focus = KOR_royal_guard
+			focus = KOR_aircraft_development
+		}
+		x = 18
+		y = 4
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_1st_paratroopers
+				bonus = 0.75
+				uses = 1
+				category = para_tech
+			}
+		}
+	}
+	focus = {
+		id = KOR_japan_treaty
+		icon = GFX_focus_jap_spiritual_mobilization
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_stay_with_allies
+		}
+		x = 22
+		y = 1
+		ai_will_do = {
+			factor = 70
+		}
+
+		available = {
+			democratic > 0.7
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = { KOR_confucian_democracy }
+		}
+	}
+	focus = {
+		id = KOR_signals_intelligence
+		icon = GFX_focus_generic_cryptologic_bomb
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_japan_treaty
+		}
+		x = 22
+		y = 2
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 2
+				has_completed_focus = KOR_aircraft_development
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_signals_intelligence
+				bonus = 0.5
+				uses = 1
+				category = encryption_tech
+				category = decryption_tech
+			}
+		}
+	}
+	focus = {
+		id = KOR_arsenal_of_democracy
+		icon = GFX_goal_generic_trade
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_signals_intelligence
+			focus = KOR_aircraft_development
+		}
+		x = 21
+		y = 3
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_arsenal_of_democracy
+				bonus = 0.5
+				uses = 3
+				technology = excavation1
+				technology = excavation2
+				technology = excavation3
+				technology = excavation4
+				technology = excavation5
+			}
+		}
+	}
+	focus = {
+		id = KOR_east_siberian_oil
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_arsenal_of_democracy
+		}
+		x = 20
+		y = 4
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			controls_state = 655
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			655 = {
+				add_resource = {
+					type = oil
+					amount = 12
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_bauxite_company
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_arsenal_of_democracy
+		}
+		x = 22
+		y = 4
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			controls_state = 522
+			controls_state = 564
+			controls_state = 566
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			522 = {
+				add_resource = {
+					type = aluminium
+					amount = 14
+				}
+			}
+			564 = {
+				add_resource = {
+					type = aluminium
+					amount = 4
+				}
+			}
+			566 = {
+				add_resource = {
+					type = aluminium
+					amount = 4
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_return_to_the_great_ming
+		icon = GFX_focus_chi_one_china_policy
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_our_own_path
+		}
+		mutually_exclusive = {
+			focus = KOR_to_the_old_ways
+		}
+		x = 24
+		y = 1
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				democratic > 0.6
+				factor = 25
+			}
+			modifier = {
+				democratic < 0.4
+				factor = 50
+			}
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+				has_war_with = CHI
+				is_justifying_wargoal_against = CHI
+				has_wargoal_against = CHI
+				has_war_together_with = JAP
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			JAP = { remove_from_faction = ROOT }
+			CHI = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = backed_our_cause
+				}
+			}
+			add_opinion_modifier = {
+				target = CHI
+				modifier = backed_our_cause
+			}
+			give_guarantee = CHI
+		}
+	}
+	focus = {
+		id = KOR_join_ming_alliance
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_return_to_the_great_ming
+		}
+		x = 24
+		y = 2
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				CHI = { surrender_progress > 0.5 }
+				factor = 0 #silla doesnt like losers
+			}
+		}
+
+		available = {
+			has_government = pangalism
+			CHI = { has_government = pangalism }
+
+			NOT = {
+				has_war_with = CHI
+				is_justifying_wargoal_against = CHI
+				has_wargoal_against = CHI
+			}
+		}
+		
+		bypass = {
+			is_in_faction_with = CHI
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			CHI = { 
+				country_event = { id = generic.2 }
+			}
+		}
+	}
+	focus = {
+		id = KOR_incheon_yards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_join_ming_alliance
+		}
+		x = 23
+		y = 3
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_incheon_yards
+				bonus = 0.5
+				uses = 3
+				category = cv_tech
+				category = bb_tech
+				category = bc_tech
+			}
+		}
+	}
+	focus = {
+		id = KOR_west_siberian_oil
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_join_ming_alliance
+		} 
+		x = 25
+		y = 3
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			controls_state = 577
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			577 = {
+				add_resource = {
+					type = oil
+					amount = 24
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_to_the_old_ways
+		icon = GFX_goal_support_fascism
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_our_own_path
+		}
+		mutually_exclusive = {
+			focus = KOR_return_to_the_great_ming
+			focus = KOR_korean_socialism
+		}
+		x = 28
+		y = 1
+		ai_will_do = {
+			factor = 1.5
+			modifier = {
+				fascism > 0.25
+				factor = 2
+			}
+			modifier = {
+				fascism > 0.35
+				factor = 4
+			}
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KOR_to_the_old_ways
+		}
+	}
+	focus = {
+		id = KOR_a_new_dynasty
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_to_the_old_ways
+		}
+		x = 28
+		y = 2
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			is_subject = no
+			has_government = fascism
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = KOR_to_the_old_ways
+				add_idea = KOR_to_the_old_ways_2
+			}
+		}
+	}
+	focus = {
+		id = KOR_join_gaul
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_a_new_dynasty
+		}
+		mutually_exclusive = {
+			focus = KOR_neo_confucian_morality
+		}
+		x = 27
+		y = 3
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				FRA = { surrender_progress > 0.5 }
+				factor = 0 #silla doesnt like losers
+			}
+		}
+
+		available = {
+			has_government = fascism
+			FRA = { has_government = fascism }
+
+			NOT = {
+				has_war_with = FRA
+				is_justifying_wargoal_against = FRA
+				has_wargoal_against = FRA
+			}
+		}
+		
+		bypass = {
+			is_in_faction_with = FRA
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			FRA = { 
+				country_event = { id = generic.2 }
+			}
+		}
+	}
+	focus = {
+		id = KOR_neo_confucian_morality
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_a_new_dynasty
+		}
+		mutually_exclusive = {
+			focus = KOR_join_gaul
+		}
+		x = 29
+		y = 3
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			is_subject = no
+			CHI = {
+				NOT = { is_subject_of = KOR }
+			}
+			NOT = { is_in_faction_with = CHI }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+			create_faction = "KOR_daedonga_gongyeonggwon"
+		}
+	}
+	focus = {
+		id = KOR_defend_the_homeland
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_neo_confucian_morality
+			focus = KOR_join_gaul
+		}
+		x = 28
+		y = 4
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						controller = { NOT = { is_in_faction_with = CAN } }
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+					level = 3
+					instant_build = yes
+				}
+			}
+			every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_coastal = yes
+					is_in_home_area = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_demand_manchuria
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_defend_the_homeland
+		}
+		x = 28
+		y = 5
+		cost = 10
+		bypass = {
+			716 = { is_owned_by = KOR }
+			745 = { is_owned_by = KOR }
+			328 = { is_owned_by = KOR }
+			717 = { is_owned_by = KOR }
+			408 = { is_owned_by = KOR }
+			409 = { is_owned_by = KOR }
+			714 = { is_owned_by = KOR }
+			715 = { is_owned_by = KOR }
+			761 = { is_owned_by = KOR }
+		}
+		ai_will_do = {
+			factor = 10	
+			modifier = {
+				factor = 0
+				date < 1939.1.1
+			}
+		}	
+		completion_reward = {
+			716 = { add_claim_by = KOR }
+			745 = { add_claim_by = KOR }
+			328 = { add_claim_by = KOR }
+			717 = { add_claim_by = KOR }
+			408 = { add_claim_by = KOR }
+			409 = { add_claim_by = KOR }
+			714 = { add_claim_by = KOR }
+			715 = { add_claim_by = KOR }
+			761 = { add_claim_by = KOR }
+		}
+	}
+	focus = {
+		id = KOR_korean_socialism
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_our_own_path
+		}
+		mutually_exclusive = {
+			focus = KOR_to_the_old_ways
+		}
+		x = 32
+		y = 1
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				communism > 0.2
+				factor = 20
+			}
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KOR_korean_socialism
+		}
+	}
+	focus = {
+		id = KOR_dismantle_the_monarchy
+		icon = GFX_goal_tfv_burn_the_royal_portraits
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_korean_socialism
+		}
+		x = 32
+		y = 2
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {			
+			is_subject = no
+			has_government = communism
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = KOR_korean_socialism
+				add_idea = KOR_korean_socialism_2
+			}
+		}
+	}
+	focus = {
+		id = KOR_militias_and_belts
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_dismantle_the_monarchy
+		}
+		x = 32
+		y = 3
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						controller = { NOT = { is_in_faction_with = CAN } }
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+					level = 3
+					instant_build = yes
+				}
+			}
+			every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_coastal = yes
+					is_in_home_area = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_join_the_RRP
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_militias_and_belts
+		}
+		x = 32
+		y = 4
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {			
+			has_government = communism
+			BYZ = { has_government = communism }
+
+			NOT = {
+				has_war_with = BYZ
+				is_justifying_wargoal_against = BYZ
+				has_wargoal_against = BYZ
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			BYZ = { 
+				country_event = { id = generic.2 }
+			}
+		}
+	}
+	focus = {
+		id = KOR_join_the_global_struggle
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_join_the_RRP
+		}
+		x = 32
+		y = 5
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = KOR_korean_socialism_2
+				add_idea = KOR_korean_socialism_3
+			}
+		}
+	}
+	focus = {
+		id = KOR_taepung_bombers
+		icon = GFX_goal_generic_air_bomber
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_osan_base
+		}
+		x = 34
+		y = 1
+				cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_taepung_bombers
+				bonus = 0.5
+				uses = 1
+				category = tactical_bomber
+				category = cas_bomber
+			}
+		}
+	}
+	focus = {
+		id = KOR_radar_system
+		icon = GFX_goal_generic_radar
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_osan_base
+		}
+		x = 36
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			has_tech = radio
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			add_tech_bonus = {
+				name = KOR_radar_system
+				bonus = 0.5
+				uses = 1
+				category = radar_tech
+			}
+			random_state = {
+				limit = {
+					has_state_flag = KOR_radar_radar1
+				}
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = KOR_radar_radar2
+				}
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = KOR_radar_radar3
+				}
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_radar_system
+				bonus = 0.5
+				uses = 1
+				category = radar_tech
+			}
+
+			if = {
+				limit = { has_tech = radio_detection }
+				random_owned_controlled_state = {
+					prioritize = { 527 }
+					limit = {
+						is_in_home_area = yes
+						free_building_slots = {
+							building = radar_station
+							size > 0
+						}
+					}
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = KOR_radar_radar1
+				}
+
+				random_owned_controlled_state = {
+					limit = {
+						NOT = { has_state_flag = KOR_radar_radar1 }
+						is_in_home_area = yes
+						free_building_slots = {
+							building = radar_station
+							size > 0
+						}
+					}
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = KOR_radar_radar2
+				}
+
+				random_owned_controlled_state = {
+					limit = {
+						NOT = { has_state_flag = KOR_radar_radar1 }
+						NOT = { has_state_flag = KOR_radar_radar2 }
+						is_in_home_area = yes
+						free_building_slots = {
+							building = radar_station
+							size > 0
+						}
+					}
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = KOR_radar_radar3
+				}
+				else = {
+					set_technology = {
+						radio_detection = 1
+					}
+					effect_tooltip = {
+						random_owned_controlled_state = {
+							prioritize = { 527 }
+							limit = {
+								is_in_home_area = yes
+							}
+							add_building_construction = {
+								type = radar_station
+								level = 1
+								instant_build = yes
+							}
+						}
+
+						random_owned_controlled_state = {
+							limit = {
+								NOT = { state = 527 }
+								NOT = { has_state_flag = KOR_radar_radar1 }
+								is_in_home_area = yes
+							}
+							add_building_construction = {
+								type = radar_station
+								level = 1
+								instant_build = yes
+							}
+						}
+					}
+					random_owned_controlled_state = {
+						prioritize = { 527 }
+						limit = {
+							is_in_home_area = yes
+							free_building_slots = {
+								building = radar_station
+								size > 0
+							}
+						}
+						add_building_construction = {
+							type = radar_station
+							level = 1
+							instant_build = yes
+						}
+						set_state_flag = KOR_radar_radar1
+					}
+
+					random_owned_controlled_state = {
+						limit = {
+							NOT = { has_state_flag = KOR_radar_radar1 }
+							is_in_home_area = yes
+							free_building_slots = {
+								building = radar_station
+								size > 0
+							}
+						}
+						add_building_construction = {
+							type = radar_station
+							level = 1
+							instant_build = yes
+						}
+						set_state_flag = KOR_radar_radar2
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_joint_air_training
+		icon = GFX_goal_generic_air_doctrine
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_taepung_bombers
+			focus = KOR_radar_system
+		}
+		x = 35
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			air_experience = 25
+			random_state = {
+				limit = {
+					has_state_flag = KOR_joint_air_training_AB
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = KOR_joint_air_training
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+
+		completion_reward = {
+			air_experience = 25
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = KOR_joint_air_training_AB
+			}
+			add_tech_bonus = {
+				name = KOR_joint_air_training
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = KOR_kaesong_factory
+		icon = GFX_goal_poland_goal
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_joint_air_training
+		}
+		x = 34
+		y = 3
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 2
+				has_completed_focus = KOR_four_engine_bombers
+			}
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_kaesong_factory
+				bonus = 0.5
+				uses = 2
+				category = tactical_bomber
+				category = cas_bomber
+			}
+		}
+	}
+	focus = {
+		id = KOR_four_engine_bombers
+		icon = GFX_goal_generic_build_airforce
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_joint_air_training
+		}
+		x = 36
+		y = 3
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 2
+				has_completed_focus = KOR_kaesong_factory
+			}
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_four_engine_bombers
+				bonus = 0.5
+				uses = 1
+				category = cat_strategic_bomber
+			}
+		}
+	}
+	focus = {
+		id = KOR_project_venus
+		icon = GFX_focus_rocketry
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_four_engine_bombers
+		}
+		prerequisite = {
+			focus = KOR_kaesong_factory
+		}
+		x = 35
+		y = 4
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_project_venus
+				ahead_reduction = 0.5
+				uses = 2
+				category = rocketry
+				category = jet_technology
+			}
+		}
+	}
+	focus = {
+		id = KOR_destroyers
+		icon = GFX_focus_generic_destroyer
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_shipyards
+		}
+		x = 39
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_destroyers
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = dd_tech
+			}
+		}
+	}
+	focus = {
+		id = KOR_cruiser_focus
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_destroyers
+		}
+		x = 39
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_cruiser_focus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 2
+				category = cl_tech
+				category = ca_tech
+			}
+		}
+	}
+	focus = {
+		id = KOR_fleet_in_being
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_cruiser_focus
+		}
+		mutually_exclusive = {
+			focus = KOR_escorts_screens
+		}
+		x = 38
+		y = 3
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = KOR_fleet_in_being
+				bonus = 0.5
+				uses = 2
+				category = cat_fleet_in_being
+			}			
+		}
+	}
+	focus = {
+		id = KOR_siberian_oil
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_retool_factories
+		}
+		x = 3
+		y = 4
+		ai_will_do = {
+			factor = 75
+		}
+
+		available = {
+			controls_state = 403
+			controls_state = 578
+			controls_state = 580
+			controls_state = 653
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			580 = {
+				add_resource = {
+					type = oil
+					amount = 2
+				}
+			}
+			653 = {
+				add_resource = {
+					type = oil
+					amount = 4
+				}
+			}
+			403 = {
+				add_resource = {
+					type = oil
+					amount = 4
+				}
+			}
+			578 = {
+				add_resource = {
+					type = oil
+					amount = 4
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_colonial_troops
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_daeyun_arsenal
+			focus = KOR_independent_milcom
+		}
+		mutually_exclusive = {
+			focus = KOR_deal_with_colonial_governors
+		}
+		x = 12
+		y = 6
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			remove_ideas = KOR_conscription_crisis
+			add_stability = -0.05
+			add_war_support = -0.05
+		}
+	}
+	focus = {
+		id = KOR_deal_with_colonial_governors
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_independent_milcom
+			focus = KOR_daeyun_arsenal
+		}
+		mutually_exclusive = {
+			focus = KOR_colonial_troops
+		}
+		x = 14
+		y = 6
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = KOR_conscription_crisis
+				add_idea = KOR_conscription_crisis_resolved
+			}
+		}
+	}
+	focus = {
+		id = KOR_mountaineering
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_reformed_general_staff
+		}
+		x = 18
+		y = 5
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_mountaineering
+				bonus = 0.50
+				uses = 1
+				category = mountaineers_tech
+			}
+		}
+	}
+	focus = {
+		id = KOR_tank_licenses
+		icon = GFX_goal_generic_army_tanks
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_reformed_general_staff
+		}
+		x = 16
+		y = 6
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_tank_licenses
+				bonus = 0.5
+				uses = 1
+				category = armor
+			}
+			add_tech_bonus = {
+				name = KOR_tank_licenses
+				ahead_reduction = 1
+				bonus = 0.5
+				uses = 1
+				category = cat_light_armor
+			}
+		}
+	}
+	focus = {
+		id = KOR_escorts_screens
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_cruiser_focus
+		}
+		mutually_exclusive = {
+			focus = KOR_fleet_in_being
+		}
+		x = 40
+		y = 3
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				has_war_with = CHI
+				factor = 2
+			}
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = KOR_escorts_screens
+				bonus = 0.5
+				uses = 2
+				category = convoy_defense_tree
+			}
+		}
+	}
+	focus = {
+		id = KOR_capital_ships
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_fleet_in_being
+		}
+		x = 38
+		y = 4
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_capital_ships
+				bonus = 0.5
+				uses = 1
+				category = bb_tech
+				category = cv_tech
+			}
+		}
+	}
+	focus = {
+		id = KOR_camouflage_and_deception
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_escorts_screens
+		}
+		x = 40
+		y = 4
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KOR_hunter_killer_tactics
+		}
+	}
+	focus = {
+		id = KOR_war_economy
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_focus_on_production
+		}
+		x = 11
+		y = 7
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			remove_ideas = KOR_economic_crisis_2
+			random_state = {
+				limit = {
+					has_state_flag = KOR_war_economy_AF1
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = KOR_war_economy_AF2
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = KOR_war_economy_AF3
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			remove_ideas = KOR_economic_crisis_2
+			random_owned_controlled_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KOR_war_economy_AF1
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KOR_war_economy_AF2
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KOR_war_economy_AF3
+			}
+		}
+	}
+}
