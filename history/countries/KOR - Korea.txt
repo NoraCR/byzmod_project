@@ -1,5 +1,6 @@
 ﻿capital = 525 #South Korea - Seoul or Busan
 
+set_research_slots = 3
 oob = "KOR_byzfire"
 
 # Starting tech
@@ -135,7 +136,7 @@ create_country_leader = {
 }
 create_field_marshal = {
 	name = "Lee Seok"
-	portrait_path = "gfx/leaders/Europe/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { politically_connected }
 	skill = 3
 	attack_skill = 4
@@ -145,7 +146,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Chelgiyeene" #female, Yakut
-	portrait_path = "gfx/leaders/Europe/Portrait_Asia_Generic_land_3.dds"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	traits = { trickster trait_engineer brilliant_strategist }
 	skill = 4
 	attack_skill = 4
@@ -156,7 +157,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Zhou Gang" #chinese, male
-	portrait_path = "gfx/leaders/Europe/Portrait_Asia_Generic_land_1.dds"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	traits = { }
 	skill = 3
 	attack_skill = 3
@@ -167,7 +168,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Kim Hyun-Jung"
-	portrait_path = "gfx/leaders/Europe/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { }
 	skill = 2
 	attack_skill = 2
@@ -178,14 +179,14 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Seo Hyeon-tae"
-	portrait_path = "gfx/leaders/Europe/Portrait_Asia_Generic_navy_1.dds"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
 	traits = { air_controller }
 	skill = 4
 }
 
 create_navy_leader = {
 	name = "Choi Gu-sam"
-	portrait_path = "gfx/leaders/Europe/Portrait_Asia_Generic_navy_2.dds"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
 	traits = { }
 	skill = 3
 }
