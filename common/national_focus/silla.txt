@@ -207,7 +207,7 @@ focus_tree = {
 		x = 22
 		y = 0
 		ai_will_do = {
-			factor = 9
+			factor = 40
 			modifier = {
 				democratic < 0.5
 				factor = 0.5
@@ -249,7 +249,7 @@ focus_tree = {
 		x = 24
 		y = 0
 		ai_will_do = {
-			factor = 5
+			factor = 1
 			modifier = {
 				OR = {
 					communism > 0.15
@@ -2990,6 +2990,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = KOR_to_the_old_ways
+			focus = KOR_return_to_the_great_ming
 		}
 		x = 32
 		y = 1

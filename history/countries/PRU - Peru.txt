@@ -86,16 +86,16 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1931.10.11"
 	election_frequency = 96
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Viracocha II Quingallumba" #nora portrait here
+	name = "Viracocha II Quingallumbo" 
 	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+	picture = "pru_neu_viracocha_ii_quingallumbo.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {

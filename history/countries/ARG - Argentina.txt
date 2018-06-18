@@ -185,9 +185,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Xiaoping Murad" ##nora's portrait goes here
+	name = "Xiaoping Murad" #
 	desc = "POLITICS_FANNY_JABCOVSKY_DESC"
-	picture = "Portrait_Argentina_Fanny_Jabcovsky.dds"
+	picture = "arg_com_xiaoping_murad.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {

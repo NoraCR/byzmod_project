@@ -129,7 +129,7 @@ create_country_leader = {
 	desc = "POLITICS_ADRIEN_ARCAND_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
@@ -138,7 +138,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Duncan McDougall"
 	desc = "POLITICS_TIM_BUCK_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	picture = "can_com_duncan_macdougall.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
