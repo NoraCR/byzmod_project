@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Infantry Brigade"			# Infantry Brigade
+	name = "Infantry Division"			# Infantry Division
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -8,6 +8,9 @@
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 }
 division_template = {
@@ -36,17 +39,65 @@ units = {
 
 	}
 	division = {
-		name = "South Persia Rifle Brigade"
-		location = 10913
-		division_template = "Infantry Brigade"		
+		name = "Mongolian Cavalry Brigade"
+		location = 5098
+		division_template = "Cavalry Brigade"		
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
 	}
 	division = {
-		name = "Khorasan Rifle Brigade"
+		name = "South Persia Rifle Division"
+		location = 10913
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "1st Esfahan Rifle Division"
+		location = 2026
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "2nd Esfahan Rifle Division"
+		location = 2026
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "1st Mazandaran Rifle Division"
+		location = 10385
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "1st Fars Rifle Division"
+		location = 8117
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Khorasan 1st Rifle Division"
 		location = 1957
-		division_template = "Infantry Brigade"		
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Khorasan 2nd Rifle Division"
+		location = 1957
+		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -62,7 +113,7 @@ units = {
 	division = {
 		name = "Republican Military Police"
 		location = 10837
-		division_template = "Infantry Brigade"		
+		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 

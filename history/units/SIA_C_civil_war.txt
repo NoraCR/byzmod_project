@@ -18,6 +18,31 @@ units = {
 		division_template = "Red Brigade"
 	}
 	division = {
+		name = "Red Brigade II"
+		location = 12232 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade III"
+		location = 12232 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade IV"
+		location = 7976 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade V"
+		location = 7976 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade VI"
+		location = 10920 
+		division_template = "Red Brigade"
+	}
+	division = {
 		name = "Red Brigade VII"
 		location = 7075 
 		division_template = "Red Brigade"
@@ -80,6 +105,21 @@ units = {
 	division = {
 		name = "Red Brigade XVI"
 		location = 4424 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade XVII"
+		location = 4613 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade XVIII"
+		location = 4401 
+		division_template = "Red Brigade"
+	}
+	division = {
+		name = "Red Brigade XIX"
+		location = 4310 
 		division_template = "Red Brigade"
 	}
 }

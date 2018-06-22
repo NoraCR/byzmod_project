@@ -42,7 +42,7 @@ units = {
 		location = 10470
 		division_template = "Xalq Lashkari"
 		start_equipment_factor = 0.3
-
+		start_experience_factor = 0.1
 	}
 	#Turkmen Army
 	division = {
@@ -50,21 +50,7 @@ units = {
 		location = 12333
 		division_template = "Xalq Lashkari"
 		start_equipment_factor = 0.3
-
-	}
-	division = {
-		name = "Chardzhou Xalq Lashkari"
-		location = 7924
-		division_template = "Xalq Lashkari"
-		start_equipment_factor = 0.3
-
-	}
-	division = {
-		name = "Tashauz Xalq Lashkari"
-		location = 1493
-		division_template = "Xalq Lashkari"
-		start_equipment_factor = 0.3
-
+		start_experience_factor = 0.1
 	}
 }
 

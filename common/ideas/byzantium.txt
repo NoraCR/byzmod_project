@@ -363,7 +363,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = morozov_design_bureau
 			
 			research_bonus = {
 				armor = 0.10
@@ -382,7 +382,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_tank_manufacturer_2
 			
 			research_bonus = {
 				armor = 0.10
@@ -401,7 +401,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_tank_manufacturer_3
 			
 			research_bonus = {
 				armor = 0.10
@@ -424,7 +424,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_naval_manufacturer_3
 			
 			research_bonus = {
 				naval_equipment = 0.10
@@ -443,7 +443,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = brooklyn_naval_yard
 			
 			research_bonus = {
 				naval_equipment = 0.10
@@ -466,7 +466,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = tula_arms_plant
 			
 			research_bonus = {
 				air_equipment = 0.10
@@ -485,7 +485,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = amiot
 			
 			research_bonus = {
 				air_equipment = 0.10
@@ -504,7 +504,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = dornier
 			
 			research_bonus = {
 				air_equipment = 0.10
@@ -524,7 +524,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_air_manufacturer_2
 			
 			research_bonus = {
 				air_equipment = 0.10
@@ -543,7 +543,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_air_manufacturer_3
 			
 			research_bonus = {
 				air_equipment = 0.10
@@ -566,7 +566,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_infantry_equipment_manufacturer_1
 			
 			research_bonus = {
 				infantry_weapons = 0.10
@@ -585,7 +585,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_motorized_equipment_manufacturer_1
 			
 			research_bonus = {
 				motorized_equipment = 0.10
@@ -606,7 +606,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_artillery_manufacturer_3
 			
 			research_bonus = {
 				artillery = 0.10
@@ -626,6 +626,8 @@ ideas = {
 				original_tag = BYZ
 			}
 			
+			picture = generic_industrial_concern_1
+			
 			research_bonus = {
 				industry = 0.10
 			}
@@ -639,6 +641,8 @@ ideas = {
 			allowed = {
 				original_tag = BYZ
 			}
+			
+			picture = generic_industrial_concern_2
 						
 			research_bonus = {
 				electronics = 0.10
@@ -649,7 +653,7 @@ ideas = {
 
 		oil_gas_secretariat = {
 						
-			picture = generic_industrial_concern_2
+			picture = generic_refining_concern_1
 			
 			allowed = {
 				original_tag = BYZ

@@ -2,7 +2,7 @@ state=
 {
 	id=298
 	name="STATE_298"
-	manpower = 745000
+	manpower = 1345000
 	
 	state_category = megalopolis
 	
@@ -18,7 +18,7 @@ state=
 			arms_factory = 2
 			industrial_complex = 8
 			7959 = {
-				naval_base = 2
+				naval_base = 4
 			}
 		}
 		victory_points = {
@@ -27,6 +27,6 @@ state=
 		add_core_of = GHA
 	}
 	provinces={
-		7959 8006
+		5013 5039 5045 5070 7959 7983 8006 8008 8065 8122 10762 10803 12794 
 	}
 }

@@ -34,13 +34,15 @@ division_template = {
 
 
 division_template = {
-	name = "Armored-Division"
+	name = "Armored Division"
 
 	regiments = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
 	}
 }
 
@@ -57,10 +59,39 @@ units = {
 	division= {	
 		name = "1st Armored Division"					
 		location = 7959 # Mesurado
-		division_template = "Armored-Division"	
+		division_template = "Armored Division"	
 		start_experience_factor = 0.5
 	}
-	
+	division= {	
+		name = "22nd Infantry Division"					
+		location = 7959 # Mesurado
+		division_template = "Infantry Division"	
+		start_experience_factor = 0.2
+	}
+		division= {	
+		name = "23rd Infantry Division"					
+		location = 7959 # Mesurado
+		division_template = "Infantry Division"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "24th Infantry Division"					
+		location = 7959 # Mesurado
+		division_template = "Infantry Division"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "25th Infantry Division"					
+		location = 7959 # Mesurado
+		division_template = "Infantry Division"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "26th Infantry Division"					
+		location = 7959 # Mesurado
+		division_template = "Infantry Division"	
+		start_experience_factor = 0.2
+	}
 	### Home Defense ###
 	division= {	
 		name = "5th Infantry Division"
@@ -170,7 +201,7 @@ units = {
 	division= {	
 		name = "2nd Armored Division"					
 		location = 4948 # Dakar
-		division_template = "Armored-Division"	
+		division_template = "Armored Division"	
 		start_experience_factor = 0.5
 	}
 	division= {	
@@ -240,13 +271,13 @@ units = {
 	division= {	
 		name = "3rd Armored Division"					
 		location = 4889 
-		division_template = "Armored-Division"	
+		division_template = "Armored Division"	
 		start_experience_factor = 0.5
 	}
 	division= {	
 		name = "4rd Armored Division"					
 		location = 4889 
-		division_template = "Armored-Division"	
+		division_template = "Armored Division"	
 		start_experience_factor = 0.5
 	}
 	##### Naval OOB #####

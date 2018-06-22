@@ -357,9 +357,9 @@ focus_tree = {
 
 		available = {
 			GER = { controls_state = 64 }
-			CZE = { controls_state = 58 }
-			CZE = { controls_state = 56 }
-			CZE = { controls_state = 65 }
+			GER = { controls_state = 58 }
+			GER = { controls_state = 56 }
+			GER = { controls_state = 65 }
 		}
 
 		bypass = {
@@ -433,7 +433,7 @@ focus_tree = {
 	focus = {
 		id = GER_liberate
 		icon = GFX_goal_generic_national_unity
-		cost = 10.00
+		cost = 2.00
 		prerequisite = {
 			focus = GER_resist
 		}

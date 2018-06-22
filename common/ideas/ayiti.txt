@@ -127,7 +127,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = idea_generic_army_war_college
+			picture = generic_manpower_bonus
 			
 			removal_cost = -1
 			
@@ -147,12 +147,12 @@ ideas = {
 				always = yes
 			}
 			
-			picture = idea_tot_economic_mobilisation
+			picture = generic_manpower_bonus
 			
 			removal_cost = -1
 			
 			modifier = {
-				conscription = 0.05
+				conscription = 0.015
 			}
 		}
 		

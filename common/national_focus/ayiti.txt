@@ -15,7 +15,7 @@ focus_tree = {
 		x = 4
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available = {
@@ -42,7 +42,7 @@ focus_tree = {
 	focus = {
 		id = AYI_industrial_reform
 		icon = GFX_goal_generic_construct_civilian
-		cost = 10
+		cost = 80
 		x = 12
 		y = 0
 		ai_will_do = {
@@ -130,7 +130,7 @@ focus_tree = {
 		x = 20
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 30
 		}
 
 		available = {
@@ -161,7 +161,7 @@ focus_tree = {
 		x = 28
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -192,7 +192,7 @@ focus_tree = {
 		x = 38
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 45
 		}
 
 		available = {
@@ -220,7 +220,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 80
 		}
 
 		available = {
@@ -254,7 +254,7 @@ focus_tree = {
 		x = 2
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 50
 		}
 
 		available = {
@@ -357,7 +357,7 @@ focus_tree = {
 		x = 3
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available = {
@@ -456,7 +456,7 @@ focus_tree = {
 		x = 6
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 75
 		}
 
 		available = {
@@ -591,7 +591,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AYI_work_for_citizenship
-		icon = GFX_focus_yug_pan_slavic_congress
+		icon = GFX_goal_generic_construction2
 		cost = 10
 		prerequisite = {
 			focus = AYI_reach_out_to_immigrants
@@ -633,7 +633,7 @@ focus_tree = {
 		x = 7
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available = {
@@ -835,7 +835,7 @@ focus_tree = {
 		x = 12
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 50
 		}
 
 		available = {
@@ -1277,7 +1277,7 @@ focus_tree = {
 		x = 12
 		y = 4	
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available = {
@@ -2057,7 +2057,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AYI_pilots_union
-		icon = GFX_focus_yug_ikarus
+		icon = GFX_goal_generic_air_production
 		cost = 10
 		prerequisite = {
 			focus = AYI_bomber_focus_2
@@ -2136,7 +2136,7 @@ focus_tree = {
 		x = 34
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available = {
@@ -2429,7 +2429,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AYI_support_socialists
-		icon = GFX_goal_generic_support_communism
+		icon = GFX_focus_generic_join_comintern
 		cost = 10
 		prerequisite = {
 			focus = AYI_socialist_education
@@ -2523,7 +2523,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AYI_rally_the_old_guard
-		icon = GFX_goal_generic_support_democracy
+		icon = GFX_focus_generic_the_giant_wakes
 		cost = 10
 		prerequisite = {
 			focus = AYI_the_colossus
@@ -2937,7 +2937,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AYI_crush_mannahatta
-		icon = GFX_focus_renounce_the_treaty_of_triannon
+		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
 			focus = AYI_embargo_lenape
@@ -2968,7 +2968,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AYI_war_with_lenape
-		icon = GFX_focus_renounce_the_treaty_of_triannon
+		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
 			focus = AYI_join_allies

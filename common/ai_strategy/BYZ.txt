@@ -9,22 +9,13 @@
 # garrison
 # protect
 # influence
+# contain
+# area_priority
 
-# befriend
-# conquer
-# antagonize
-# build_ship
-# build_army
-# unit_ratio
-# build_building
-# research_tech
-# garrison
-# protect
-# influence
 
-GER_unit_production = {
+BYZ_unit_production = {
 	enable = {
-		original_tag = GER
+		original_tag = BYZ
 	}
 	abort = {
 		always = no
@@ -33,10 +24,15 @@ GER_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = garrison
-		value = 10
+		value = 4
 	}
 
-
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 4
+	}
+	
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
@@ -46,7 +42,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
-		value = 30 
+		value = 2
 	}
 
 	ai_strategy = {
@@ -63,27 +59,39 @@ GER_unit_production = {
 
 	ai_strategy = {
 		type = role_ratio
+		id = motorized
+		value = -3 #because doctrine this = 2
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mechanized
+		value = -5 #because doctrine this = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
 		id = armor
-		value = 5
+		value = 0 #because doctrine this = 10
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 80 
+		value = 70 #88 to 70
 	}
 	
 	#Air unit factors
 	ai_strategy = {
 		type = unit_ratio
 		id = fighter
-		value = 75 # From 70 to 75
+		value = 80
 	}
 	
 	ai_strategy = {
 		type = unit_ratio
 		id = cas
-		value = 10 # 15 to 10
+		value = -35 #because doctrine this = 15
 	}
 	
 	ai_strategy = {
@@ -95,7 +103,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = strategic_bomber
-		value = 5
+		value = -10
 	}
 	
 	ai_strategy = {
@@ -109,13 +117,13 @@ GER_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
-		value = 25 # from 15 to 25
+		value = 35
 	}
 
 	ai_strategy = {
 		type = unit_ratio
 		id = submarine
-		value = 40 #from 50 to 40
+		value = -150 #because doctrine this = 50
 	}
 
 	ai_strategy = {
@@ -133,40 +141,45 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = fighter
-		value = 20
+		value = 40
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = strategic_bomber
+		value = -10
 	}
 	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 35
+		value = 50 #30 to 50
 	}
 	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
-		value = 25
+		value = 40 #20 to 40
 	}
 	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = armor
-		value = 20
+		value = 10
 	}
-}
-
-GER_armored_production = {
-	enable = {
-		original_tag = GER
-		ai_wants_divisions > 12 #Decreasing the amount of tanks the AI wants
-	}
-	abort = {
-		ai_wants_divisions < 13 #Decreasing the amount of tanks the AI wants
-	}
-
 	ai_strategy = {
-		type = role_ratio
-		id = armor
-		value = 2
+		type = equipment_production_min_factories
+		id = artillery
+		value = 5
 	}
-}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = fighter
+		value = 3
+	}
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = strat_bomber_equipment
+		value = 3
+	}
+}	
