@@ -37,7 +37,7 @@ units = {
 		location = 10929 # Harare
 		division_template = "Musungwa Boka"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -45,7 +45,7 @@ units = {
 		location = 10929 
 		division_template = "Musungwa Boka"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -53,7 +53,7 @@ units = {
 		location = 1874 
 		division_template = "Musungwa Boka"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -61,7 +61,7 @@ units = {
 		location = 5199 # Zambia
 		division_template = "Musungwa Boka"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -69,7 +69,7 @@ units = {
 		location = 12986 # Malawi
 		division_template = "Musungwa Boka"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -77,7 +77,7 @@ units = {
 		location = 2196 # Dar es Salaam
 		division_template = "Musungwa Boka"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -85,16 +85,39 @@ units = {
 		location = 4171 # Lake Victoria 
 		division_template = "Musungwa Boka"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
+	division= {	
+		name = "Che8 Musungwa Boka"
+		location = 10929 # Harare 
+		division_template = "Musungwa Boka"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 
+	}
+	division= {	
+		name = "Che9 Musungwa Boka"
+		location = 10929 # Harare
+		division_template = "Musungwa Boka"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Che10 Musungwa Boka"
+		location = 10929 # Harare
+		division_template = "Musungwa Boka"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
 	division= {	
 		name = "Che1 Vatasvi Vemabhiza"
 		location = 10929 
 		division_template = "Vatasvi Vemabhiza"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 	division= {	
@@ -102,7 +125,7 @@ units = {
 		location = 10929 
 		division_template = "Vatasvi Vemabhiza"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 
 	}
 

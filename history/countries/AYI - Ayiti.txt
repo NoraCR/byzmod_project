@@ -158,7 +158,7 @@ create_corps_commander = {
 	logistics_skill = 5
 }
 create_corps_commander = {
-	name = "Attakullakulla Echoy"
+	name = "Attakullakulla Echoy" #Cherokee
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = {   }
 	skill = 3
@@ -171,6 +171,16 @@ create_corps_commander = {
 	name = "Sugmuk Mesheketeno"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { trait_cautious brilliant_strategist harsh_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Wahnenauhi Itseyi" #Cherokee
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { fortress_buster trait_engineer }
 	skill = 4
 	attack_skill = 3
 	defense_skill = 5
@@ -241,7 +251,19 @@ create_navy_leader = {
 }
 create_navy_leader = {
 	name = "Agasga Hiwassee" #female
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	traits = { }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Bohechio Kiskeya"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
+	traits = {  }
+	skill = 4
+}
+create_navy_leader = {
+	name = "Guaora Yaquimel"
+	portrait_path = "gfx/leaders/South_America/Portrait_South_America_Generic_navy_1.dds"
 	traits = { }
 	skill = 3
 }

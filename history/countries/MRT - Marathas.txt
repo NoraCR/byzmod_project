@@ -135,7 +135,7 @@ create_field_marshal = {
 }
 create_field_marshal = {
 	name = "Rishma Sharqi" 
-	portrait_path = "mrt_rishma_sharqi.tga"
+	portrait_path = "gfx/leaders/MRT/mrt_rishma_sharqi.tga"
 	traits = { politically_connected media_personality }
 	skill = 3
 	attack_skill = 3
@@ -146,7 +146,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Aruna Vrishchika" #female
-	picture = "Portrait_Soviet_Gregory_Zhukov.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	traits = { desert_fox armor_officer }
 	skill = 5
 	attack_skill = 5
@@ -204,16 +204,43 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 1
 }
+create_corps_commander = {
+	name = "Shyrjaan Laghari"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	traits = { desert_fox }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Surendra Kshirsagar"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { politically_connected }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
 
 create_navy_leader = {
 	name = "Chandravadan Ganatra"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
 	traits = { }
 	skill = 2
 }
 create_navy_leader = {
 	name = "Pratik Kshirsagar"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
 	traits = { }
 	skill = 2
 }
+create_navy_leader = {
+	name = "Prayag Ghadge"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	traits = { }
+	skill = 3
+}
+

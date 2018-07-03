@@ -709,6 +709,8 @@
  CHI_cv_fighter_equipment_2_short:0 "F4F Yemao"
  CHI_cv_fighter_equipment_3:0 "Zhejiang F6F Diyumao"
  CHI_cv_fighter_equipment_3_short:0 "F6F Diyumao"
+ 
+ # Byzantine #
  BYZ_fighter_equipment_0:0 "Bakirtzis I-15"
  BYZ_fighter_equipment_0_short:0 "I-15"
  BYZ_fighter_equipment_1:0 "Bakirtzis I-16"
@@ -719,10 +721,10 @@
  BYZ_fighter_equipment_3_short:0 "C-3"
  BYZ_heavy_fighter_equipment_1:0 "Pappas P-2"
  BYZ_heavy_fighter_equipment_1_short:0 "P-2"
- BYZ_heavy_fighter_equipment_2:0 "Pappas Pe-3"
- BYZ_heavy_fighter_equipment_2_short:0 "Pe-3"
+ BYZ_heavy_fighter_equipment_2:0 "Pappas P-3"
+ BYZ_heavy_fighter_equipment_2_short:0 "P-3"
  BYZ_heavy_fighter_equipment_3:0 "Menderes-Torossian MeT-2"
- BYZ_heavy_fighter_equipment_3_short:0 "MT-2"
+ BYZ_heavy_fighter_equipment_3_short:0 "MeT-2"
  BYZ_strat_bomber_equipment_1:0 "Bakirtzis B-8"
  BYZ_strat_bomber_equipment_1_short:0 "B-8"
  BYZ_strat_bomber_equipment_2:0 "Bakirtzis B-10"
@@ -779,6 +781,8 @@
  BYZ_cv_fighter_equipment_2_short:0 "Gök-1M"
  BYZ_cv_fighter_equipment_3:0 "Gökçek Gök-9T"
  BYZ_cv_fighter_equipment_3_short:0 "Gök-9T"
+ 
+ # Marathas #
  MRT_CAS_equipment_1:0 "Vimana V.5"
  MRT_CAS_equipment_1_short:0 "V.5"
  MRT_CAS_equipment_2:0 "Vimana V.8"
@@ -813,8 +817,8 @@
  MRT_strat_bomber_equipment_1_short:0 "K.50"
  MRT_strat_bomber_equipment_2:0 "Karkhanis K.58"
  MRT_strat_bomber_equipment_2_short:0 "K.58"
- MRT_strat_bomber_equipment_3:0 "Karkhanis K.63"
- MRT_strat_bomber_equipment_3_short:0 "K.63"
+ MRT_strat_bomber_equipment_3:0 "Karkhanis K.63 'Rishma Sharqi'"
+ MRT_strat_bomber_equipment_3_short:0 "K.63-RS"
  MRT_tac_bomber_equipment_0:0 "Kurlekar Ku.23"
  MRT_tac_bomber_equipment_0_short:0 "Ku.23"
  MRT_tac_bomber_equipment_1:0 "Fule F.20"
@@ -843,6 +847,8 @@
  MRT_cv_fighter_equipment_2_short:0 "M.202"
  MRT_cv_fighter_equipment_3:0 "Fule F.55S Ratha"
  MRT_cv_fighter_equipment_3_short:0 "F.55S Ratha"
+ 
+ # Ayiti #
  AYI_fighter_equipment_0:0 "Yahíma Ya-51"
  AYI_fighter_equipment_0_short:0 "Ya-51"
  AYI_fighter_equipment_1:0 "Majúbiatibirí Maj-4/5"
@@ -961,9 +967,9 @@
  SOM_nav_bomber_equipment_2:0 "Hargeisa H-XIX-V"
  SOM_nav_bomber_equipment_2_short:0 "H-XIX-V"
  SOM_nav_bomber_equipment_3:0 "Afgoye AF-19"
- SOM_nav_bomber_equipment_3_short:0 "AF-19"
+ SOM_nav_bomber_equipment_3_short:0 "AF-19
  
-  #Silla 
+ #Silla 
  KOR_CAS_equipment_1:0 "Hang-gong Wonsan A.101"
  KOR_CAS_equipment_1_short:0 "Wonsan A.101"
  KOR_CAS_equipment_2:0 "Kaechon S-528"
@@ -989,8 +995,8 @@
 
  KOR_tac_bomber_equipment_0:0 "Hang-gong Wonsan A.11"
  KOR_tac_bomber_equipment_0_short:0 "Wonsan A.11"
- KOR_tac_bomber_equipment_1:0 "Hang-gong Wonsan A.35"
- KOR_tac_bomber_equipment_1_short:0 "Wonsan A.35"
+ KOR_tac_bomber_equipment_1:0 "Hang-gong Wonsan A.35 'Taefung'"
+ KOR_tac_bomber_equipment_1_short:0 "Wonsan A.35 'Taefung'"
  KOR_tac_bomber_equipment_2:0 "Kaechon K-50"
  KOR_tac_bomber_equipment_2_short:0 "Kaechon K-50"
  KOR_tac_bomber_equipment_3:0 "Hang-gong Wonsan A.300"
