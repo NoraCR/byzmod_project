@@ -1,0 +1,33 @@
+﻿############
+# Marathan Events
+############
+
+add_namespace = marathas
+
+# Marathan Purge
+country_event = {
+	id = marathas.1
+	title = marathas.1.t
+	desc = marathas.1.d
+	picture = GFX_report_event_generic_communist_congress
+	fire_only_once = yes
+	trigger = {
+		country_exists = MRT
+		has_completed_focus = MRT_sharqi_constitution
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = marathas.1_fired 
+	}
+	option = {
+		name = marathas.1.a
+		army_experience = -5
+		navy_experience = -5
+		add_political_power = -25
+		add_stability = -0.10
+		add_popularity = { ideology = communism popularity = 0.1 }
+		news_event = { id = news.704 days = 14 }
+	}
+}

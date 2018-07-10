@@ -1479,8 +1479,14 @@ air_wings = {
 			owner = "BYZ" 
 			amount = 144
 		}
-		# 2nd Bombardment Group 
-		# 9th Bombardment Group 
+		ace={ # Order is important. Ace will be assigned to the wing above.
+				modifier="fighter_genius"
+				name="Carmela"
+				surname="Mirra"
+				callsign="Witch"
+				is_female = yes
+				portrait=1 # 
+		}
 		tac_bomber_equipment_0 = {
 			owner = "BYZ" 
 			amount = 96

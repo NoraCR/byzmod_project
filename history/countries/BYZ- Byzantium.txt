@@ -248,9 +248,9 @@ create_corps_commander = {
 	picture = "byz_general_stephanos_katselis-kurya.tga"
 	traits = { armor_officer career_officer trait_cautious }
 	skill = 3
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
 	logistics_skill = 3
 }
 

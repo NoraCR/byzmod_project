@@ -1,0 +1,50 @@
+﻿############
+# Korean Events
+############
+
+add_namespace = silla
+
+# Great Train Robbery
+country_event = {
+	id = silla.1
+	title = silla.1.t
+	desc = silla.1.d
+	picture = GFX_report_event_generic_train
+	fire_only_once = yes
+	trigger = {
+		date > 1938.2.14
+		tag = KOR
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = silla.1_fired 
+	}
+	option = {
+		name = silla.1.a
+		add_political_power = -10
+	}
+}
+
+# Go Tournament
+country_event = {
+	id = silla.2
+	title = silla.2.t
+	desc = silla.2.d
+	picture = GFX_report_event_generic_train
+	fire_only_once = yes
+	trigger = {
+		date > 1936.1.30
+		tag = KOR
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = silla.1_fired 
+	}
+	option = {
+		name = silla.2.a
+	}
+}

@@ -1,4 +1,4 @@
-############
+﻿############
 # Byzantine Events
 ############
 
@@ -33,7 +33,7 @@ country_event = {
 	id = byz.2
 	title = byz.2.t
 	desc = byz.2.d
-	picture = GFX_report_event_generic_panzer_attack
+	picture = GFX_report_event_military_planning
 	fire_only_once = yes
 	trigger = {
 		date > 1936.8.1
@@ -122,6 +122,54 @@ country_event = {
 	}
 }
 
+# First Aerial Solo Circumnavigation of the Earth
+country_event = {
+	id = byz.6
+	title = byz.6.t
+	desc = byz.6.d
+	picture = GFX_report_event_usa_amelia_earhart_airplane
+	fire_only_once = yes
+	trigger = {
+		date > 1936.9.1
+		country_exists = BYZ
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = byz.6_fired 
+	}
+	option = {
+		name = byz.6.a
+	}
+}
+
+# Death of a Militiaman
+country_event = {
+	id = byz.7
+	title = byz.7.t
+	desc = byz.7.d
+	picture = GFX_report_event_military_planning
+	fire_only_once = yes
+	trigger = {
+		date > 1939.9.1
+		has_government = communism 
+		tag = BYZ
+		BYZ = { has_war = no }
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = byz.7_fired 
+	}
+	option = {
+		name = byz.7.a
+		add_war_support = 0.05
+	}
+}
+
+
 # Completing the Bosporus Bridge
 
 country_event = {
@@ -132,7 +180,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		date = 1937.5.27
-		country_exists = BYZ
+		tag = BYZ
 		NOT = { has_global_flag = byz.199_fired }
 		BYZ = { has_war = no }
 	}
@@ -148,9 +196,6 @@ country_event = {
 				type = infrastructure
 				level = 1
 			}
-		}
-		trigger = {
-			TAG = BYZ
 		}
 	}
 }
@@ -197,7 +242,7 @@ country_event = {
 	trigger = {
 		date > 1944.2.15
 		has_government = communism 
-		country_exists = BYZ
+		tag = BYZ
 		NOT = { has_global_flag = byz.201_fired }
 	}
 	mean_time_to_happen = {

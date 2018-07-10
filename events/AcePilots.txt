@@ -15,26 +15,26 @@ country_event = {
 	desc = {
 		text = ace_promoted.1.d
 		trigger = {
-			NOT = { tag = GER }
-			NOT = { tag = ITA }
 			NOT = { tag = FRA }
+			NOT = { tag = BYZ }
+			NOT = { tag = CHI }
 			NOT = { tag = JAP }
-			NOT = { tag = USA }
-			NOT = { tag = ENG }
-			NOT = { tag = SOV }
+			NOT = { tag = MRT }
+			NOT = { tag = SOM }
+			NOT = { tag = AYI }
 		}
 	}
 	desc = {
 		text = ace_promoted.1.d_major
 		trigger = {
 			OR = {
-				tag = GER
-				tag = ITA
 				tag = FRA
+				tag = BYZ
+				tag = CHI
 				tag = JAP
-				tag = USA
-				tag = ENG
-				tag = SOV
+				tag = MRT
+				tag = SOM
+				tag = AYI
 			}
 		}
 	}
@@ -54,26 +54,26 @@ country_event = {
 	desc = {
 		text = ace_promoted.1.d
 		trigger = {
-			NOT = { tag = GER }
-			NOT = { tag = ITA }
 			NOT = { tag = FRA }
+			NOT = { tag = BYZ }
+			NOT = { tag = CHI }
 			NOT = { tag = JAP }
-			NOT = { tag = USA }
-			NOT = { tag = ENG }
-			NOT = { tag = SOV }
+			NOT = { tag = MRT }
+			NOT = { tag = SOM }
+			NOT = { tag = AYI }
 		}
 	}
 	desc = {
 		text = ace_promoted.1.d_major
 		trigger = {
 			OR = {
-				tag = GER
-				tag = ITA
 				tag = FRA
+				tag = BYZ
+				tag = CHI
 				tag = JAP
-				tag = USA
-				tag = ENG
-				tag = SOV
+				tag = MRT
+				tag = SOM
+				tag = AYI
 			}
 		}
 	}
@@ -94,26 +94,26 @@ country_event = {
 	desc = {
 		text = ace_died.1.d
 		trigger = {
-			NOT = { tag = GER }
-			NOT = { tag = ITA }
 			NOT = { tag = FRA }
+			NOT = { tag = BYZ }
+			NOT = { tag = CHI }
 			NOT = { tag = JAP }
-			NOT = { tag = USA }
-			NOT = { tag = ENG }
-			NOT = { tag = SOV }
+			NOT = { tag = MRT }
+			NOT = { tag = SOM }
+			NOT = { tag = AYI }
 		}
 	}
 	desc = {
 		text = ace_died.1.d_major
 		trigger = {
 			OR = {
-				tag = GER 
-				tag = ITA 
-				tag = FRA 
-				tag = JAP 
-				tag = USA 
-				tag = ENG
-				tag = SOV
+				tag = FRA
+				tag = BYZ
+				tag = CHI
+				tag = JAP
+				tag = MRT
+				tag = SOM
+				tag = AYI
 			} 
 		}
 	}
@@ -140,13 +140,13 @@ country_event = {
 					PREV = { 
 						OWNER = {
 							OR = {
-								tag = GER 
-								tag = ITA 
-								tag = FRA 
-								tag = JAP 
-								tag = USA 
-								tag = ENG
-								tag = SOV
+								tag = FRA
+								tag = BYZ
+								tag = CHI
+								tag = JAP
+								tag = MRT
+								tag = SOM
+								tag = AYI
 							} 
 						} 
 					}
@@ -155,13 +155,13 @@ country_event = {
 					FROM = { 
 						OWNER = {
 							OR = {
-								tag = GER 
-								tag = ITA 
-								tag = FRA 
-								tag = JAP 
-								tag = USA 
-								tag = ENG
-								tag = SOV
+								tag = FRA
+								tag = BYZ
+								tag = CHI
+								tag = JAP
+								tag = MRT
+								tag = SOM
+								tag = AYI
 							} 
 						}
 					}
@@ -176,26 +176,26 @@ country_event = {
 			PREV = { 
 				OWNER = {
 					OR = {
-						tag = GER 
-						tag = ITA 
-						tag = FRA 
-						tag = JAP 
-						tag = USA 
-						tag = ENG
-						tag = SOV
+						tag = FRA
+						tag = BYZ
+						tag = CHI
+						tag = JAP
+						tag = MRT
+						tag = SOM
+						tag = AYI
 					} 
 				}
 			}
 			FROM = { 
 				OWNER = {
 					OR = {
-						tag = GER 
-						tag = ITA 
-						tag = FRA 
-						tag = JAP 
-						tag = USA 
-						tag = ENG
-						tag = SOV
+						tag = FRA
+						tag = BYZ
+						tag = CHI
+						tag = JAP
+						tag = MRT
+						tag = SOM
+						tag = AYI
 					} 
 				}
 			}
@@ -224,13 +224,13 @@ country_event = {
 					PREV = { 
 						OWNER = {
 							OR = {
-								tag = GER 
-								tag = ITA 
-								tag = FRA 
-								tag = JAP 
-								tag = USA 
-								tag = ENG
-								tag = SOV
+								tag = FRA
+								tag = BYZ
+								tag = CHI
+								tag = JAP
+								tag = MRT
+								tag = SOM
+								tag = AYI
 							} 
 						} 
 					}
@@ -239,13 +239,13 @@ country_event = {
 					FROM = { 
 						OWNER = {
 							OR = {
-								tag = GER 
-								tag = ITA 
-								tag = FRA 
-								tag = JAP 
-								tag = USA 
-								tag = ENG
-								tag = SOV
+								tag = FRA
+								tag = BYZ
+								tag = CHI
+								tag = JAP
+								tag = MRT
+								tag = SOM
+								tag = AYI
 							} 
 						}
 					}
@@ -260,26 +260,26 @@ country_event = {
 			PREV = { 
 				OWNER = {
 					OR = {
-						tag = GER 
-						tag = ITA 
-						tag = FRA 
-						tag = JAP 
-						tag = USA 
-						tag = ENG
-						tag = SOV
+						tag = FRA
+						tag = BYZ
+						tag = CHI
+						tag = JAP
+						tag = MRT
+						tag = SOM
+						tag = AYI
 					} 
 				}
 			}
 			FROM = { 
 				OWNER = {
 					OR = {
-						tag = GER 
-						tag = ITA 
-						tag = FRA 
-						tag = JAP 
-						tag = USA 
-						tag = ENG
-						tag = SOV
+						tag = FRA
+						tag = BYZ
+						tag = CHI
+						tag = JAP
+						tag = MRT
+						tag = SOM
+						tag = AYI
 					} 
 				}
 			}
@@ -308,13 +308,13 @@ country_event = {
 					PREV = { 
 						OWNER = {
 							OR = {
-								tag = GER 
-								tag = ITA 
-								tag = FRA 
-								tag = JAP 
-								tag = USA 
-								tag = ENG
-								tag = SOV
+								tag = FRA
+								tag = BYZ
+								tag = CHI
+								tag = JAP
+								tag = MRT
+								tag = SOM
+								tag = AYI
 							} 
 						} 
 					}
@@ -323,13 +323,13 @@ country_event = {
 					FROM = { 
 						OWNER = {
 							OR = {
-								tag = GER 
-								tag = ITA 
-								tag = FRA 
-								tag = JAP 
-								tag = USA 
-								tag = ENG
-								tag = SOV
+								tag = FRA
+								tag = BYZ
+								tag = CHI
+								tag = JAP
+								tag = MRT
+								tag = SOM
+								tag = AYI
 							} 
 						}
 					} 
@@ -344,26 +344,26 @@ country_event = {
 			PREV = { 
 				OWNER = {
 					OR = {
-						tag = GER 
-						tag = ITA 
-						tag = FRA 
-						tag = JAP 
-						tag = USA 
-						tag = ENG
-						tag = SOV
+						tag = FRA
+						tag = BYZ
+						tag = CHI
+						tag = JAP
+						tag = MRT
+						tag = SOM
+						tag = AYI
 					} 
 				}
 			}
 			FROM = { 
 				OWNER = {
 					OR = {
-						tag = GER 
-						tag = ITA 
-						tag = FRA 
-						tag = JAP 
-						tag = USA 
-						tag = ENG
-						tag = SOV
+						tag = FRA
+						tag = BYZ
+						tag = CHI
+						tag = JAP
+						tag = MRT
+						tag = SOM
+						tag = AYI
 					} 
 				}
 			}

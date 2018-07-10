@@ -13,7 +13,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		has_government = fascism 
-		country_exists = FRA
+		tag = FRA
 		NOT = { country_exists = BYZ }
 	}
 	mean_time_to_happen = {
@@ -24,5 +24,28 @@ country_event = {
 	}
 	option = {
 		name = ig.1.a
+	}
+}
+
+# 
+country_event = {
+	id = ig.101
+	title = ig.101.t
+	desc = ig.101.d
+	picture = GFX_report_event_generic_read_write
+	fire_only_once = yes
+	trigger = {
+		has_government = fascism 
+		tag = FRA
+		date > 1936.2.15
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = ig.101_fired 
+	}
+	option = {
+		name = ig.101.a
 	}
 }

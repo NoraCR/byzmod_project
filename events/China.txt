@@ -269,14 +269,12 @@ country_event = {
 	}
 }
 
-
-
-# Tibet is asked to join the USSR
+# Tibet is asked to join Ming
 country_event = {
 	id = china.300
 	title = china.300.t
 	desc = china.300.d
-	picture = GFX_report_event_stalin_01
+	picture = GFX_report_event_generic_sign_treaty2
 	
 	is_triggered_only = yes
 	
@@ -301,7 +299,7 @@ country_event = {
 	id = china.301
 	title = china.301.t
 	desc = china.301.d
-	picture = GFX_report_event_stalin_02
+	picture = GFX_report_event_generic_sign_treaty2
 	
 	is_triggered_only = yes
 	
@@ -315,7 +313,7 @@ country_event = {
 	id = china.302
 	title = china.302.t
 	desc = china.302.d
-	picture = GFX_report_event_stalin_propaganda
+	picture = GFX_report_event_generic_sign_treaty2
 	
 	is_triggered_only = yes
 	
@@ -323,20 +321,113 @@ country_event = {
 		name = china.302.a
 		annex_country = { target = TIB }
 		hidden_effect = {
-			SOV = {
+			CHI = {
 				country_event = { days = 1 id = news.14 }
 			}
 		}
+	}
+}
+
+#Afghan Partisans I
+country_event = {
+	id = china.303
+	title = china.303.t
+	desc = china.303.d
+	picture = GFX_report_event_dead_soldiers
+	fire_only_once = yes
+	trigger = {
+		date > 1937.9.9
+		tag = CHI
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = china.303_fired 
+	}
+	option = {
+		name = china.303.a
+		add_political_power = -25
+		add_manpower = -250
+	}
+}
+#Afghan Partisans II
+country_event = {
+	id = china.304
+	title = china.304.t
+	desc = china.304.d
+	picture = GFX_report_event_generic_riot
+	fire_only_once = yes
+	trigger = {
+		date > 1939.5.1
+		tag = CHI
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = china.304_fired 
+	}
+	option = {
+		name = china.304.a
+		add_political_power = -100
+		add_manpower = -12000
+		remove_state_core = 267
+		remove_state_core = 415
+		remove_state_core = 442
+	}
+}
+
+# Hupaomeng Society
+country_event = {
+	id = china.305
+	title = china.305.t
+	desc = china.305.d
+	picture = GFX_report_event_china_politicians_captured
+	fire_only_once = yes
+	trigger = {
+		tag = CHI
+		has_completed_focus = CHI_engineering_consent
+	}
+	mean_time_to_happen = {
+		days = 30
+	}
+	immediate = {
+		set_global_flag = china.305_fired 
+	}
+	option = {
+		name = china.305.a
+		add_political_power = 30
+		add_popularity = { ideology = pangalism popularity = 0.05 }
+	}
+}
+# The Generals Report
+country_event = {
+	id = china.306
+	title = china.306.t
+	desc = china.306.d
+	picture = GFX_report_event_china_infiltration
+	fire_only_once = yes
+	trigger = {
+		tag = CHI
+		date > 1936.10.25
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = china.306_fired 
+	}
+	option = {
+		name = china.306.a
 	}
 }
 #UPR coup attempt
 country_event = {
 	id = china.500
 	title = china.500.t	
-	desc = china.500.desc	#
+	desc = china.500.d	#
 	picture = GFX_report_event_merchant_ship_01
-	
-	
 
 	is_triggered_only = yes
 	

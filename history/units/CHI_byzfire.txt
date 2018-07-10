@@ -1075,7 +1075,14 @@ air_wings = {
 	#Shanghai
 	613 = {
 		fighter_equipment_0 = { owner = "CHI" amount = 72 } 		
-		tac_bomber_equipment_0 =  { owner = "CHI" amount = 100 }		
+		tac_bomber_equipment_0 =  { owner = "CHI" amount = 100 }
+		ace={ # Order is important. Ace will be assigned to the wing above.
+				modifier="bomber_unique"
+				name="Xing"
+				surname="Lin"
+				callsign="North Star"
+				portrait=2 # 
+		}		
 	}
 	#Chongqing
 	605 = { 

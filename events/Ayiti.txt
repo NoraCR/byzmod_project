@@ -65,3 +65,26 @@ country_event = {
 	}
 }
 
+#Ayitian Mob Boss Captured
+country_event = {
+	id = ayiti.101
+	title = ayiti.101.t
+	desc = ayiti.101.d
+	picture = GFX_report_event_generic_train
+	fire_only_once = yes
+	trigger = {
+		has_completed_focus = AYI_crush_mafia
+		tag = AYI
+	}
+	mean_time_to_happen = {
+		days = 60
+	}
+	immediate = {
+		set_global_flag = ayiti.101_fired 
+	}
+	option = {
+		name = ayiti.101.a
+		add_political_power = 50
+		add_stability = 0.05
+	}
+}
