@@ -83,3 +83,86 @@ country_event = {
 	}
 }
 
+#Congolese Independence
+country_event = {
+	id = eng.6
+	title = eng.6.t
+	desc = eng.6.d
+	picture = GFX_report_event_generic_sign_treaty1
+	fire_only_once = yes
+		trigger = {
+		date > 1936.12.24
+		has_government = communism 
+		country_exists = ENG
+		NOT = { country_exists = COG }
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = eng.6.a
+		ai_chance = { factor = 95 }
+		add_stability = 0.05
+		if = {
+			limit = {
+				295 = {
+					is_owned_by = ENG
+				}
+			}
+			COG = { transfer_state = 295 }
+		}
+		if = {
+			limit = {
+				538 = {
+					is_owned_by = ENG
+					}
+				}
+			COG = { transfer_state = 538 }
+		}
+		if = {
+			limit = {
+				539 = {
+					is_owned_by = ENG
+					}
+				}
+			COG = { transfer_state = 539 }
+		}
+		if = {
+			limit = {
+				660 = {
+					is_owned_by = ENG
+					}
+				}
+			COG = { transfer_state = 660 }
+		}
+		if = {
+			limit = {
+				718 = {
+					is_owned_by = ENG
+					}
+				}
+			COG = { transfer_state = 718 }
+		}
+		ENG = { puppet = COG }
+		BYZ = { add_to_faction = COG }
+		hidden_effect = {
+			country_event = { hours = 12 id = news.705 }
+			every_state = {
+				limit = {
+					is_owned_by = COG
+				}
+				add_core_of = COG
+			}
+			ENG = { puppet = COG }
+			COG = {
+				load_oob = COG_byzfire
+				add_manpower = 152344
+			}
+		}
+	}
+	option = {
+		name = eng.6.b
+		ai_chance = { factor = 5 }
+		add_stability = -0.05 #because fuck you
+	}
+}

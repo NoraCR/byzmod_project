@@ -58,6 +58,9 @@ focus_tree = {
 				uses = 1
 				category = mountaineers_tech
 			}
+			hidden_effect = {
+				news_event = { hours = 12 id = news.707 }
+			}
 		}
 	}
 	focus = {

@@ -88,3 +88,43 @@ country_event = {
 		add_stability = 0.05
 	}
 }
+#Dust Bowl
+country_event = {
+	id = ayiti.102
+	title = ayiti.102.t
+	desc = ayiti.102.d
+	picture = GFX_report_event_generic_truck
+	fire_only_once = yes
+	trigger = {
+		tag = AYI
+		date > 1936.8.20
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = ayiti.102_fired 
+	}
+	option = {
+		name = ayiti.102.a
+		383 = {
+			if = {
+        limit = { is_controlled_by = ROOT }
+        add_building_construction = {
+            type = infrastructure
+            level = -1
+            instant_build = yes
+        }
+		384 = {
+			if = {
+        limit = { is_controlled_by = ROOT }
+        add_building_construction = {
+            type = infrastructure
+            level = -1
+            instant_build = yes
+        }
+    }
+}
+	}
+}
+

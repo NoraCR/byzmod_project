@@ -11246,7 +11246,6 @@ news_event = {
 			has_government = fascism
 			}
 		}
-	}
 	option = {
 		name = news.704.c
 		trigger = {
@@ -11264,5 +11263,62 @@ news_event = {
 		trigger = {
 			has_government = neutrality
 		}
+	}
+}
+news_event = {
+	id = news.705
+	title = news.705.t
+	picture = GFX_news_event_generic_communist_congress
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.705.d
+	}
+	
+	option = {
+		name = news.705.a
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.705.b
+		trigger = {
+			has_government = fascism
+			}
+		}
+	option = {
+		name = news.705.c
+		trigger = {
+			has_government = democratic
+		}
+	}
+	option = {
+		name = news.705.d
+		trigger = {
+			has_government = pangalism
+		}
+	}
+	option = {
+		name = news.705.e
+		trigger = {
+			has_government = neutrality
+		}
+	}
+}
+news_event = {
+	id = news.706
+	title = news.706.t
+	picture = GFX_news_event_journalists_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.706.d
+	}
+	
+	option = {
+		name = news.706.a
 	}
 }

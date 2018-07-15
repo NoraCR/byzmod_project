@@ -23,3 +23,23 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = tr.101
+	title = tr.101
+	desc = tr.101.d
+	fire_only_once = yes
+	trigger = {
+		date > 1937.2.14
+		tag = SOV
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = tr.101_fired 
+	}
+	option = {
+		name = tr.101.a
+		add_political_power = -10
+	}
+}

@@ -16,6 +16,7 @@ country_event = {
 	option = { # Breaking point!
 		name = china.1.a
 		ai_chance = { factor = 85 }
+		add_stability = 0.05
 		effect_tooltip = {
 			CHI = {
 				add_stability = 0.05
@@ -30,6 +31,7 @@ country_event = {
 		name = china.1.b
 		ai_chance = { factor = 15 }
 		CHI = {
+			transfer_state = 526
 			effect_tooltip = {
 				transfer_state = 526
 			}

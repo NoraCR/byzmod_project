@@ -42,7 +42,7 @@ country_event = {
 		days = 2
 	}
 	immediate = {
-		set_global_flag = silla.1_fired 
+		set_global_flag = silla.2_fired 
 	}
 	option = {
 		name = silla.2.a

@@ -1,0 +1,109 @@
+### Congo OOB ###
+
+division_template = {
+	name = "Infantry Division"		
+	# Note: Represents both regular infantry and militia units
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+
+
+units = {
+	division = {
+		name = "1st Infantry Division"
+		location = 12925
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Infantry Division 'Katanga'"
+		location = 12925
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Infantry Division 'Kivu'"
+		location = 12925
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Infantry Division 'Ubangi-Sari'"
+		location = 12925
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Infantry Division 'Kwango'"
+		location = 12925
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6th Infantry Division 'Kwilu'"
+		location = 12925
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "7th Infantry Division 'Kasai'"
+		location = 12925
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "8th Infantry Division 'Uele'"
+		location = 12925
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "9th Infantry Division 'Tshuapa'"
+		location = 12925
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "10th Infantry Division 'Mbandaka'"
+		location = 12925
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+}
+
+air_wings = {
+	### Congolese Air Force (CAF) ###
+	70 = {
+		fighter_equipment_0 =  { owner = "COG" amount = 30 }				
+		}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "COG"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+}
+
+#################################
