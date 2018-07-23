@@ -78,7 +78,7 @@ country_event = {
 		create_faction = "central_european_defense_pact"
 		add_to_faction = DEN
 		hidden_effect = {
-				news_event = { id = news.720 hours = 6}
+				news_event = { id = news.720 hours = 6 }
 		}
 	}
 }
@@ -164,5 +164,26 @@ country_event = {
 		name = eng.6.b
 		ai_chance = { factor = 5 }
 		add_stability = -0.05 #because fuck you
+	}
+}
+# Hart Publishes 'The Long Crisis'
+country_event = {
+	id = eng.101
+	title = eng.101.t
+	desc = eng.101.d
+	picture = GFX_report_event_generic_train
+	fire_only_once = yes
+	trigger = {
+		date > 1937.10.11
+		tag = ENG
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		set_global_flag = eng.101_fired 
+	}
+	option = {
+		name = eng.101.a
 	}
 }

@@ -25,9 +25,31 @@ country_event = {
 		name = marathas.1.a
 		army_experience = -5
 		navy_experience = -5
-		add_political_power = -25
+		add_political_power = -50
 		add_stability = -0.10
 		add_popularity = { ideology = communism popularity = 0.1 }
 		news_event = { id = news.704 days = 14 }
+	}
+}
+
+# Going to the Movies
+country_event = {
+	id = marathas.2
+	title = marathas..t
+	desc = marathas.2.d
+	picture = GFX_report_event_generic_communist_congress
+	fire_only_once = yes
+	trigger = {
+		country_exists = MRT
+		has_completed_focus = MRT_film_and_radio_propaganda
+	}
+	mean_time_to_happen = {
+		days = 30
+	}
+	immediate = {
+		set_global_flag = marathas.2_fired 
+	}
+	option = {
+		name = marathas.2.a
 	}
 }

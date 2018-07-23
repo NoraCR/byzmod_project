@@ -2972,7 +2972,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			country_event = { id = france.52 }
-			load_oob = "FRA_SPR_navy"
 			hidden_effect = {
 				news_event = { id = news.566 hours = 6}
 			}	

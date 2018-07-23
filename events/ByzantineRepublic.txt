@@ -169,14 +169,13 @@ country_event = {
 	}
 }
 
-
 # Completing the Bosporus Bridge
 
 country_event = {
 	id = byz.199
 	title = byz.199.t
 	desc = byz.199.d
-	picture = GFX_news_event_generic_rally
+	picture = GFX_report_event_generic_truck
 	fire_only_once = yes
 	trigger = {
 		date = 1937.5.27

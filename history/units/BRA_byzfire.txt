@@ -113,6 +113,30 @@ units = {
 
 	}
 	division= {	
+		name = "16a Infantry Division"
+		location = 8242 # Belo Horizonte
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "17a Infantry Division"
+		location = 8242 # Belo Horizonte
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "18a Infantry Division"
+		location = 8242 # Belo Horizonte
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
 		name = "1a Cavalry Division"
 		location = 12853 # Belem
 		division_template = "Cavalry Division"
@@ -144,6 +168,14 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
+	division= {	
+		name = "5a Cavalry Division"
+		location = 10513 # Sao Paulo
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
 
 
 	##### Naval OOB #####
@@ -153,6 +185,8 @@ units = {
 		location = 10980 # Rio de Janiero
 		ship = { name = "NRA Guiana" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRA } } }
 		ship = { name = "NRA Tupiniqium" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRA } } }
+		ship = { name = "NRA Sabiá-Laranjeira" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
+		ship = { name = "NRA Ipê-Amarelo" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
 		ship = { name = "NRA Sergipe" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
 		ship = { name = "NRA Guarani" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
 		# 1a Flotilla de Contratorpedeiros
@@ -162,7 +196,6 @@ units = {
 		ship = { name = "NRA Alagoas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
 		# 2a Flotilla de Contratorpedeiros
 		ship = { name = "NRA Caxias" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }	
-		ship = { name = "NRA Sergipe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
 		ship = { name = "NRA Uruguaia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
 		ship = { name = "NRA Cuiabá" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
 	}				
@@ -176,11 +209,11 @@ units = {
 
 
 air_wings = {
-	### Aviação Militar -- Rio de Janiero
+	### Military Aviation -- Rio de Janiero
 	500 = {
 		fighter_equipment_0 =  {
 			owner = "BRA" 
-			amount = 48
+			amount = 60
 		}
 	}
 }
