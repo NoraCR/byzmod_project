@@ -369,6 +369,18 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Nadine Hau-Fang"
+	picture = "byz_general_nadine_hau-fang.png"
+	traits = { brilliant_strategist trait_engineer }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+	female = yes
+}
+
+create_corps_commander = {
 	name = "Evangeline Hira"
 	picture = "byz_general_evangeline_hira.tga"
 	traits = {  }
