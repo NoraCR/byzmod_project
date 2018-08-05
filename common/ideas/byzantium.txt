@@ -65,6 +65,333 @@ ideas = {
 				can_create_factions = yes
 			}
 		}
+		BYZ_rocketry_idea = {
+			removal_cost = -1
+			allowed = {
+				always = no # Unlocked via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			research_bonus = {
+				rocketry = 0.10
+			}
+
+			picture = generic_research_bonus
+	
+			modifier = {
+				production_speed_rocket_site_factor = 0.10
+			}
+	
+		}
+		BYZ_railroad_expansion_idea = {
+			allowed = {
+				original_tag = BYZ
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+		BYZ_submarine_lines_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			equipment_bonus = {
+				submarine = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		
+		BYZ_expanded_logistics_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = liberty_ships_focus 
+			
+			modifier = {
+				amphibious_invasion = 0.10
+			}
+		}
+		BYZ_fortifications_idea = {
+		
+			allowed = {
+				original_tag = BYZ
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_wall_line
+
+			modifier = {
+				production_speed_bunker_factor = 0.2
+			}
+		}
+		BYZ_coastal_forts_idea = {
+		
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_fortify_the_borders
+
+			modifier = {
+				production_speed_coastal_bunker_factor = 0.2
+			}
+		}
+		BYZ_intelligence_secretariat_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+			
+			research_bonus = {
+				decryption_tech = 0.05
+				encryption_tech = 0.05
+			}	
+
+			picture = office_of_strategic_services
+
+			modifier = {
+				decryption_factor = 0.2
+			}
+		}
+		monarchist_rebels = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = generic_neutrality_drift_bonus
+
+			modifier = {
+				neutrality_drift = 0.1
+			}
+		}
+		BYZ_war_production_committee_idea = {
+
+			allowed = {
+				original_tag = BYZ
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_exploit_mines
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		BYZ_union_negotiations_idea = {
+			allowed = { always = no }
+
+			picture = generic_goods_red_bonus
+
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+		BYZ_new_red_army_idea = {
+			
+			allowed = {
+				original_tag = BYZ
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = general_staff
+
+			removal_cost = -1
+			
+			modifier = {
+				army_org_Factor = 0.05
+				planning_speed = 0.25
+			}
+		}
+		BYZ_all_state_unions_idea = {
+			allowed = { always = no }
+
+			picture =  ast_all_in
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.005
+				industrial_capacity_factory = 0.05
+			}
+		}
+		BYZ_state_planning_secretariat_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = jap_zaibatsu_control
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+		BYZ_state_political_secretariat = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			picture = nkvd
+			
+			modifier = {
+				subversive_activites_upkeep = -0.5
+			}
+		}
+		BYZ_mass_mobilization_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			removal_cost = -1
+
+			picture = generic_communist_army
+			
+			modifier = {
+				conscription = 0.02
+			}
+		}
+		BYZ_organic_intelligentsia_focus = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_research_bonus
+			
+			modifier = {
+				research_time_factor = -0.05
+			}
+		}
+		BYZ_revolutionary_vanguard_focus = {
+			picture = FRA_army_of_aggression_focus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			modifier = {
+				army_org = 5
+				justify_war_goal_time = -0.25
+			}
+		}
+		BYZ_desperate_defense_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			picture = generic_victors_of_ww1
+
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.25
+				attrition = -0.1
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+			}
+		}
 	}
 	
 	political_advisor = {
@@ -929,7 +1256,9 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			available = {
+				has_completed_focus = BYZ_red_air_force
+			}
 			
 			traits = { air_chief_ground_support_3 }
 			

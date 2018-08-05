@@ -739,6 +739,22 @@ focus_tree = {
 				}
 				set_state_flag = CHI_happiness_machines_focus_2IC
 			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = CHI_happiness_machines_focus_2IC
+			}
 		}
 	}
 	focus = {
@@ -861,6 +877,22 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = CHI_strategic_industries_IC
+			}
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {

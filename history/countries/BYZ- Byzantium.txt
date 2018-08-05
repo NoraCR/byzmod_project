@@ -64,7 +64,7 @@ set_technology = {
 
 set_convoys = 400
 set_stability = 0.8
-set_war_support = 0.3
+set_war_support = 0.25
 
 set_politics = {
 
@@ -195,7 +195,6 @@ create_field_marshal = {
 	planning_skill = 4
 	logistics_skill = 2
 }
-
 create_field_marshal = {
 	name = "Theodora Papadopoulou"
 	picture = "byz_marshal_theodora_padapolous.tga"
@@ -207,7 +206,6 @@ create_field_marshal = {
 	logistics_skill = 5
 	female = yes
 }
-
 create_field_marshal = {
 	name = "Unver Hayrettin"
 	picture = "byz_marshal_unver_hayrettin.tga"
@@ -230,28 +228,6 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 2
 	female = yes
-}
-
-create_corps_commander = {
-	name = "Zdravko Savic"
-	picture = "byz_general_zdravko_savic.tga"
-	traits = { trait_engineer naval_invader trait_reckless }
-	skill = 2
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Stephanos Katselis-Kurya"
-	picture = "byz_general_stephanos_katselis-kurya.tga"
-	traits = { armor_officer career_officer trait_cautious }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -289,18 +265,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Valentina Ha"
-	picture = "byz_general_valentina_ha.tga"
-	traits = { trait_mountaineer winter_specialist hill_fighter }
-	skill = 4
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 4
-	female = yes
-}
-
-create_corps_commander = {
 	name = "Serhan Cavdarli"
 	picture = "byz_general_serhan_cavdarli.tga"
 	traits = { hill_fighter trait_cautious old_guard }
@@ -335,17 +299,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Gavriel Halevi"
-	picture = "byz_general_gavriel_halevi.tga"
-	traits = { desert_fox trait_reckless media_personality }
-	skill = 3
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
 	name = "Palatino Badalementi"
 	picture = "byz_general_palatino_badalementi.tga"
 	traits = { politically_connected inflexible_strategist }
@@ -365,18 +318,6 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
-	female = yes
-}
-
-create_corps_commander = {
-	name = "Nadine Hau-Fang"
-	picture = "byz_general_nadine_hau-fang.png"
-	traits = { brilliant_strategist trait_engineer }
-	skill = 4
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 4
 	female = yes
 }
 

@@ -1,0 +1,4019 @@
+focus_tree = {
+	id = byzantine_republic
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BYZ
+		}
+	}
+	default = no
+	focus = {
+		id = BYZ_war_industry_white_paper
+		icon = GFX_goal_generic_consumer_goods
+		cost = 8.00
+		x = 5
+		y = 0
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip =  {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 2
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = BYZ_white_paper_2IC }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_white_paper_2IC
+			}
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_white_paper_2IC
+			}
+		}
+	}
+	focus = {
+		id = BYZ_prelude_to_war
+		icon = GFX_goal_generic_soviet_construction
+		cost = 8.00
+		x = 18
+		y = 0
+		available = { is_puppet = no }
+		bypass = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 120
+			army_experience = 5
+			add_named_threat = { threat = 5 name = BYZ_prelude_to_war }
+		}	
+	}
+	focus = {
+		id = BYZ_postwar_political_sentiments
+		icon = GFX_focus_generic_soviet_politics
+		cost = 8.00
+		x = 22
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = BYZ_foreign_policy
+		icon = GFX_goal_support_communism
+		cost = 8.00
+		x = 37
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = BYZ_three_seas_two_oceans_navy
+		icon = GFX_goal_generic_navy_battleship
+		cost = 8.00
+		x = 47
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip =  {
+				tooltip = naval_effort_tt
+				NOT = {
+					any_owned_state = {
+						free_building_slots = {
+							building = dockyard
+							size > 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			every_state = {
+				limit = {	has_state_flag = BYZ_3s2o_DY2 }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			every_state = {
+				limit = {	has_state_flag = BYZ_3s2o_DY1 }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_3s2o_DY1
+			}
+			random_owned_controlled_state = {
+				limit = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_3s2o_DY2
+			}
+		}
+	}
+	focus = {
+		id = BYZ_red_air_force
+		icon = GFX_goal_generic_air_fighter2
+		cost = 8.00
+		x = 52
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = air_sup_bonus
+				bonus = 0.5
+				uses = 2
+				category = battlefield_support_tree
+			}
+			every_state = {
+				limit = { has_state_flag = BYZ_raf_2air }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			every_state = {
+				limit = { has_state_flag = BYZ_raf_6air }
+				add_building_construction = {
+					type = air_base
+					level = 6
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = available_chief_of_airforce
+			show_ideas_tooltip = danijela_matosevic
+		}
+		
+		completion_reward = {
+			
+			air_experience = 25
+
+			add_tech_bonus = {
+				name = air_sup_bonus
+				bonus = 0.5
+				uses = 2
+				category = battlefield_support_tree
+			}
+
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							air_base > 3
+							air_base < 9
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 5
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 6
+						instant_build = yes
+					}
+					set_state_flag = BYZ_raf_6air
+				}				
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					air_base > 3
+					air_base < 9
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_raf_2air
+			}
+			random_owned_controlled_state = {
+				limit = {
+					air_base > 3
+					air_base < 9
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_raf_2air
+			}
+			random_owned_controlled_state = {
+				limit = {
+					air_base > 2
+					air_base < 9
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BY_raf_2air
+			}
+			custom_effect_tooltip = available_chief_of_airforce
+			show_ideas_tooltip = danijela_matosevic
+		}
+	}
+	focus = {
+		id = BYZ_domestic_coordination
+		icon = GFX_focus_generic_self_management
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_war_industry_white_paper
+		}
+		x = 1
+		y = 1
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+			
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = BYZ_railroad_expansions
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_domestic_coordination
+		}
+		x = 0
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_ideas = BYZ_railroad_expansion_idea
+		}
+	}
+	focus = {
+		id = BYZ_optimizing_production
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_domestic_coordination
+		}
+		available = {
+			has_war_support > 0.49
+		}
+		x = 2
+		y = 2
+		available_if_capitulated = yes
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = BYZ_byzantine_abundance }
+				remove_ideas = BYZ_byzantine_abundance
+			}
+		}
+	}
+	focus = {
+		id = BYZ_war_production_committee
+		icon = GFX_goal_generic_production
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_optimizing_production
+		}
+		x = 1
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_war_support > 0.54
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = BYZ_war_production_committee
+				bonus = 0.5
+				uses = 2
+				technology = excavation1
+				technology = excavation2
+				technology = excavation3
+				technology = excavation4
+				technology = excavation5
+			}
+			add_ideas = BYZ_war_production_committee_idea
+		}
+	}
+	focus = {
+		id = BYZ_synthetic_rubber
+		icon = GFX_goal_generic_army_motorized
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_war_production_committee
+		}
+		x = 0
+		y = 4
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			has_full_control_of_state = 340
+		}
+		
+		completion_reward = {
+			modify_building_resources = {
+        	   building = synthetic_refinery
+        	   resource = rubber
+        	   amount = 2
+        	}
+			add_tech_bonus = {
+				name = BYZ_synthetic_rubber
+				bonus = 0.75
+				uses = 1
+				category = synth_resources
+			}
+			if = {
+				limit = {
+					has_full_control_of_state = 340
+				}
+				340 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = synthetic_refinery
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = BYZ_eniac
+		icon = GFX_focus_generic_socialist_science
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_optimizing_production
+		}
+		x = 3
+		y = 3
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = BYZ_eniac
+				uses = 3
+				bonus = 0.5
+				category = electronics
+				category = support_tech
+			}
+		}
+	}
+	focus = {
+		id = BYZ_extra_research_slot
+		icon = GFX_focus_research
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_eniac
+		}
+		x = 3
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = BYZ_fortifications
+		icon = GFX_goal_generic_fortify_city
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_war_industry_white_paper
+		}
+		x = 5
+		y = 1
+		available = {
+			any_country = {
+				OR = {
+					tag = BYZ
+					is_in_faction_with = BYZ
+				}
+				OR = {
+					has_full_control_of_state = 159
+					has_full_control_of_state = 160
+					has_full_control_of_state = 2
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_ideas = BYZ_fortifications_idea
+		}
+	}
+	focus = {
+		id = BYZ_coastal_forts
+		icon = GFX_goal_generic_construct_military
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_fortifications
+		}
+		x = 4
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_ideas = BYZ_coastal_forts_idea
+			custom_effect_tooltip = BYZ_coastal_forts_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						has_full_control_of_state = 162
+					}
+					162 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+				if = {
+					limit = {
+						has_full_control_of_state = 2
+					}
+					2 = { #Rome gets extra
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 3
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 2
+            	    	    instant_build = yes
+            	    	}
+						#Biggest fortifications on Rome itself
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_victory_point = yes
+            	    	    }
+            	    	    level = 3
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+				if = {
+					limit = {
+						has_full_control_of_state = 117
+					}
+					117 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+				if = {
+					limit = {
+						has_full_control_of_state = 156
+					}
+					156 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+				if = {
+					limit = {
+						has_full_control_of_state = 115
+					}
+					115 = { #Sicily gets priority
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 3
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+				if = {
+					limit = {
+						has_full_control_of_state = 116
+					}
+					116 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 2
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+				if = {
+					limit = {
+						has_full_control_of_state = 185
+					}
+					185 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+				if = {
+					limit = {
+						has_full_control_of_state = 186
+					}
+					186 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+            	    	}
+					}
+				}					
+				if = {
+					limit = {
+						has_full_control_of_state = 47
+					}
+					47 = {
+						#Athens gets extra
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 3
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+            	    	}
+					}
+				}	
+				if = {
+					limit = {
+						has_full_control_of_state = 341
+					}	
+					341 = { #Thrace gets extra
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 3
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+				if = {
+					limit = {
+						has_full_control_of_state = 342
+					}		
+					342 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+				if = {
+					limit = {
+						has_full_control_of_state = 345
+					}		
+					345 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+				if = {
+					limit = {
+						has_full_control_of_state = 183
+					}		
+					183 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+				if = {
+					limit = {
+						has_full_control_of_state = 339
+					}		
+					339 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+				if = {
+					limit = {
+						has_full_control_of_state = 187
+					}		
+					187 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+				if = {
+					limit = {
+						has_full_control_of_state = 44
+					}		
+					44 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = BYZ_italian_lines
+		icon = GFX_goal_generic_fortify_city
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_fortifications
+		}
+		x = 5
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}	
+		available = {
+			BYZ = { controls_state = 2 }
+			BYZ = { controls_state = 117 }
+			BYZ = { controls_state = 161 }
+			BYZ = { controls_state = 162 }
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 5
+			2 = {
+				add_building_construction = { type = bunker province = 923 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 9794 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 11751 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 11882 level = 2 instant_build = yes }
+			}
+			117 = {
+				add_building_construction = { type = bunker province = 883 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 955 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 11803 level = 2 instant_build = yes }
+			}
+			157 = {
+				add_building_construction = { type = bunker province = 11861 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 967 level = 2 instant_build = yes }
+			}
+			159 = {
+				add_building_construction = { type = bunker province = 607 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 9584 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 3780 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 969 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 773 level = 2 instant_build = yes }
+			}
+			161 = {
+				add_building_construction = { type = bunker province = 3773 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 6606 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 6790 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 6793 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 9752 level = 2 instant_build = yes }
+			}
+			162 = {
+				add_building_construction = { type = bunker province = 3885 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 6875 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 9750 level = 2 instant_build = yes }
+			}
+		}
+	}
+	focus = {
+		id = BYZ_desperate_defense
+		icon = GFX_goal_generic_fortify_city
+		cost = 5.00
+		prerequisite = {
+			focus = BYZ_italian_lines
+		}
+		x = 5
+		y = 4
+		ai_will_do = {
+			factor = 100
+		}	
+		available = {
+			341 = {
+				is_controlled_by = ROOT
+				
+				OR = {
+					any_neighbor_state = {
+						NOT = { is_controlled_by = ROOT }
+					}
+
+					BYZ = { surrender_progress > 0.25 }
+				}
+			}
+		}
+		completion_reward = {
+			add_ideas = BYZ_desperate_defense_idea
+		}
+	}
+	focus = {
+		id = BYZ_the_alpine_wall
+		icon = GFX_goal_generic_fortify_city
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_fortifications
+		}
+		x = 6
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}	
+		available = {
+			BYZ = { controls_state = 2 }
+			BYZ = { controls_state = 39 }
+			BYZ = { controls_state = 102 }
+			BYZ = { controls_state = 159 }
+			BYZ = { controls_state = 160 }
+			BYZ = { controls_state = 736 }
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
+			army_experience = 5
+			159 = {
+				add_building_construction = { type = bunker province = 607 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 9584 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 6661 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 11587 level = 3 instant_build = yes }
+			}
+			39 = {
+				add_building_construction = { type = bunker province = 6675 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 9630 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 11615 level = 3 instant_build = yes }
+			}
+			160 = {
+				add_building_construction = { type = bunker province = 628 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 3657 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 9613 level = 3 instant_build = yes }
+			}
+			736 = {
+				add_building_construction = { type = bunker province = 599 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 11595 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 11735 level = 3 instant_build = yes }
+			}
+		}
+	}
+	focus = {
+		id = BYZ_regional_economic_integration
+		icon = GFX_focus_generic_join_comintern
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_war_industry_white_paper
+		}
+		x = 10
+		y = 1
+		available_if_capitulated = no
+		available = {
+			has_war_support > 0.49
+		}
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = BYZ_regions }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = { has_idea = war_economy }
+					NOT = { has_idea = tot_economic_mobilisation }
+					NOT = { has_idea = partial_economic_mobilisation}
+				}
+				add_ideas = partial_economic_mobilisation
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_regions
+			}
+		}
+	}
+	focus = {
+		id = BYZ_assist_hungary
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_regional_economic_integration
+		}
+		available = {
+			is_in_faction_with = HUN
+		} 
+		x = 8
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			HUN = {
+				custom_trigger_tooltip = {
+					tooltip = construction_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			HUN = {
+				add_opinion_modifier = { target = BYZ modifier = aided_industry }
+				every_state = { limit = { has_state_flag = BYZ_aid_hungary_2IC }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				every_state = { limit = { has_state_flag = BYZ_aid_hungary_1IC }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			HUN = {
+				add_opinion_modifier = { target = BYZ modifier = aided_industry }
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = BYZ_aid_hungary_2IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = BYZ_aid_hungary_1IC
+				}
+			}
+		}
+	}
+	focus = {
+		id = BYZ_the_carpathia_danube_line
+		icon = GFX_goal_generic_fortify_city
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_the_alpine_wall
+			focus = BYZ_assist_hungary
+		}
+		available = {
+			is_in_faction_with = HUN
+		}		
+		x = 7
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}	
+		available = {
+			HUN = { controls_state = 43 }
+			HUN = { controls_state = 154 }
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			army_experience = 5
+			102 = {
+				add_building_construction = { type = bunker province = 3631 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 11612 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 9596 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 596 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 665 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 6672 level = 3 instant_build = yes }
+			}
+			109 = {
+				add_building_construction = { type = bunker province = 9611 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 11594 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 3627 level = 2 instant_build = yes }
+			}
+			45 = {
+				add_building_construction = { type = bunker province = 9608 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 3623 level = 2 instant_build = yes }
+			}
+			154 = {
+				add_building_construction = { type = bunker province = 6670 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 11625 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 9706 level = 2 instant_build = yes }
+			}
+			43 = {
+				add_building_construction = { type = bunker province = 9660 level = 5 instant_build = yes }
+				add_building_construction = { type = bunker province = 9690 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 3731 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 6751 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 11520 level = 3 instant_build = yes }
+			}
+			76 = {
+				add_building_construction = { type = bunker province = 746 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 9704 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 727 level = 2 instant_build = yes }
+			}
+		}
+	}
+	focus = {
+		id = BYZ_align_azerbaijan
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_regional_economic_integration
+		}
+		x = 10
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			AZB = {
+				custom_trigger_tooltip = {
+					tooltip = construction_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			AZB = {
+				add_opinion_modifier = { target = BYZ modifier = aided_industry }
+				every_state = { limit = { has_state_flag = BYZ_aid_azb_2IC }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				every_state = { limit = { has_state_flag = BYZ_aid_azb_1IC }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			AZB = {
+				add_opinion_modifier = { target = BYZ modifier = aided_industry }
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = BYZ_aid_azb_2IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = BYZ_aid_azb_1IC
+				}
+			}
+		}
+	}
+	focus = {
+		id = BYZ_refining_techniques
+		icon = GFX_goal_generic_oil_refinery
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_align_azerbaijan
+		}
+		x = 10
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 10
+				state = 341 #Thrace
+			}
+		}
+	}
+	focus = {
+		id = BYZ_align_da_qin
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_regional_economic_integration
+		}
+		x = 12
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			SYR = {
+				custom_trigger_tooltip = {
+					tooltip = construction_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = naval_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = dockyard
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			SYR = {
+				add_opinion_modifier = { target = BYZ modifier = aided_industry }
+				every_state = { limit = { has_state_flag = BYZ_aid_daqin_2IC }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				every_state = { limit = { has_state_flag = BYZ_aid_daqin_1IC }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				every_state = { limit = { has_state_flag = BYZ_aid_daqin_1dockyard }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			SYR = {
+				add_opinion_modifier = { target = BYZ modifier = aided_industry }
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = BYZ_aid_daqin_2IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = BYZ_aid_daqin_1IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = BYZ_aid_daqin_1dockyard
+				}
+			}
+		}
+	}
+	focus = {
+		id = BYZ_prospects
+		icon = GFX_goal_generic_oil_refinery
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_align_da_qin
+		}
+		x = 12
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 4
+				state = 353 #Erzurum
+			}
+			add_resource = {
+				type = oil
+				amount = 6
+				state = 350 #Malatya
+			}
+		}
+	}
+	focus = {
+		id = BYZ_armaments_buildup
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_prelude_to_war
+		}
+		x = 15
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		available = {
+			has_war_support > 0.33
+		}
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = BYZ_arms_buildup }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_arms_buildup
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_arms_buildup
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_arms_buildup
+			}
+		}
+	}
+	focus = {
+		id = BYZ_infantry_equipment
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_armaments_buildup
+		}
+		x = 15
+		y = 2
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = BYZ_infantry_equipment
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons	
+			}
+		}
+	}
+	focus = {
+		id = BYZ_mechanized_innovations
+		icon = GFX_goal_generic_army_motorized
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_infantry_equipment
+		}
+		x = 14
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				name = mech_army_bonus
+				technology = basic_medium_tank
+				technology = improved_medium_tank
+				technology = advanced_medium_tank
+				technology = mechanised_infantry
+			}	
+		}
+	}
+	focus = {
+		id = BYZ_artillery_buildup
+		icon = GFX_goal_generic_army_artillery2
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_infantry_equipment
+		}
+		x = 16
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = BYZ_artillery_buildup
+				bonus = 0.50
+				uses = 1
+				category = artillery
+			}
+			add_tech_bonus = {
+				name = BYZ_artillery_buildup
+				bonus = 0.75
+				uses = 1
+				category = cat_anti_tank
+			}
+		}
+	}
+	focus = {
+		id = BYZ_doctrinal_reforms
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_prelude_to_war
+		}
+		x = 18
+		y = 1
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.33
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = BYZ_a_new_generation
+		icon = GFX_focus_generic_military_mission
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_doctrinal_reforms
+		}
+		x = 18
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = BYZ_a_new_generation_tt 
+			hidden_effect = {
+				create_corps_commander = {
+					name = "Nadine Hau-Fang"
+					picture = "byz_general_nadine_hau-fang.png"
+					traits = { brilliant_strategist trait_engineer }
+					skill = 4
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 4
+					logistics_skill = 4
+					female = yes
+				}
+				create_corps_commander = {
+					name = "Gavriel Halevi"
+					picture = "byz_general_gavriel_halevi.tga"
+					traits = { desert_fox trait_reckless media_personality }
+					skill = 3
+					attack_skill = 4
+					defense_skill = 4
+					planning_skill = 2
+					logistics_skill = 3
+				}
+				create_corps_commander = {
+					name = "Valentina Ha"
+					picture = "byz_general_valentina_ha.tga"
+					traits = { trait_mountaineer winter_specialist hill_fighter }
+					skill = 4
+					attack_skill = 2
+					defense_skill = 4
+					planning_skill = 3
+					logistics_skill = 4
+					female = yes
+				}
+				create_corps_commander = {
+					name = "Zdravko Savic"
+					picture = "byz_general_zdravko_savic.tga"
+					traits = { trait_engineer naval_invader trait_reckless }
+					skill = 4
+					attack_skill = 4
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 3
+				}
+				create_corps_commander = {
+					name = "Stephanos Katselis-Kurya"
+					picture = "byz_general_stephanos_katselis-kurya.tga"
+					traits = { armor_officer career_officer trait_cautious }
+					skill = 3
+					attack_skill = 3
+					defense_skill = 2
+					planning_skill = 4
+					logistics_skill = 3
+				}
+			}
+		}
+	}
+	focus = {
+		id = BYZ_general_staff_overhaul
+		icon = GFX_focus_generic_military_academy
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_a_new_generation
+		}
+		x = 18
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = BYZ_incompetant_officers }
+				remove_ideas = BYZ_incompetant_officers
+			}
+		}
+	}
+	focus = {
+		id = BYZ_cavalry_doctrines
+		icon = GFX_goal_generic_army_tanks
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_mechanized_innovations
+			focus = BYZ_artillery_buildup
+			focus = BYZ_general_staff_overhaul
+		}
+		x = 16
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 20
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = BYZ_antifascist_rhetoric
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_postwar_political_sentiments
+		}
+		x = 20
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {			
+			add_war_support = 0.1
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = BYZ_recruitment_drive
+		icon = GFX_focus_generic_military_academy
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_antifascist_rhetoric
+		}
+		x = 20
+		y = 2
+		available = {
+			OR = {
+				threat > 0.25
+				has_war = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		bypass = {
+			has_idea = limited_conscription
+		}
+
+		completion_reward = {
+			if = {
+				limit = { 
+					OR = { 
+						has_idea = disarmed_nation
+						has_idea = volunteer_only
+					}
+				}
+				add_ideas = limited_conscription
+			}
+		}
+	}
+	focus = {
+		id = BYZ_public_works
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_recruitment_drive
+		}
+		available = {
+			OR = {
+				threat > 0.3
+				has_war = yes
+			}
+		}
+		x = 20
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = BYZ_pw_2IC }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}			
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_pw_2IC
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_pw_2IC
+			}
+		}
+	}
+	focus = {
+		id = BYZ_military_engineering_projects
+		icon = GFX_focus_generic_license_production
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_public_works
+		}
+		x = 19
+		y = 4
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = BYZ_mileng_3AF }
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+			every_state = {
+				limit = { has_state_flag = BYZ_mileng_3Inf }
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_ideas = extensive_conscription
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					arms_factory > 0
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = BYZ_mileng_3AF
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+						include_locked = yes
+					}
+					state_population > 1000000
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = BYZ_mileng_3Inf
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+						include_locked = yes
+					}
+					state_population > 1000000
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = BYZ_mileng_3Inf
+			}
+			air_experience = 50
+			navy_experience = 50
+			army_experience = 10			
+		}
+	}
+	focus = {
+		id = BYZ_army_research_group
+		icon = GFX_focus_research
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_public_works
+		}
+		x = 21
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = BYZ_marxism_extebarrianism
+		icon = GFX_focus_ger_great_red_menace
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_postwar_political_sentiments
+		}
+		mutually_exclusive = {
+			focus = BYZ_a_shot_of_mullerism
+		}
+		x = 24
+		y = 1
+		available = {
+			is_puppet = no
+			has_government = communism
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			add_political_power = 150
+			country_event = { id = byz.501 }
+		}
+	}
+	focus = {
+		id = BYZ_union_negotiations
+		icon = GFX_focus_generic_treaty
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_marxism_extebarrianism
+		}
+		x = 23
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = BYZ_union_negotiations_idea
+		}
+	}
+	focus = {
+		id = BYZ_mass_mobilization
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_union_negotiations
+		}
+		x = 23
+		y = 3
+		ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = BYZ_mass_mobilization_idea
+			add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = BYZ_political_pragmatism
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_marxism_extebarrianism
+		}
+		x = 25
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = BYZ_organic_intelligentsia
+		icon = GFX_goal_generic_soviet_construction
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_political_pragmatism
+		}
+		x = 25
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = BYZ_organic_intelligentsia_focus
+		}
+	}
+	focus = {
+		id = BYZ_the_arsenal_of_labor
+		icon = GFX_goal_generic_demand_territory
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_mass_mobilization
+		}
+		prerequisite = {
+			focus = BYZ_organic_intelligentsia
+		}
+		x = 24
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			AND = {
+				custom_trigger_tooltip =  {
+					tooltip = production_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size < 3
+							include_locked = yes
+						}
+					}
+				}
+				custom_trigger_tooltip =  {
+					tooltip = naval_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = dockyard
+							size < 3
+							include_locked = yes
+						}
+					}
+				}			
+			}
+		}
+		complete_tooltip = {
+			air_experience = 50
+			navy_experience = 50
+			army_experience = 10
+			every_state = {
+				limit = { has_state_flag = BYZ_arsenal_of_labor_3AF }
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			navy_experience = 50
+			army_experience = 50
+			air_experience = 10
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = BYZ_arsenal_of_labor_3AF
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = BYZ_arsenal_of_labor_3AF
+			}
+			random_owned_controlled_state = {
+				limit = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = BYZ_arsenal_of_labor_3AF
+			}
+			random_owned_controlled_state = {
+				limit = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = BYZ_arsenal_of_labor_3AF
+			}
+		}
+	}
+	focus = {
+		id = BYZ_a_shot_of_mullerism
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_postwar_political_sentiments
+		}
+		mutually_exclusive = {
+			focus = BYZ_marxism_extebarrianism
+		}
+		x = 28
+		y = 1
+		available = {
+			is_puppet = no
+			has_government = communism
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+		
+		completion_reward = {
+			add_political_power = 120
+			add_named_threat = { threat = 5 name = BYZ_a_shot_of_mullerism }
+			country_event = { id = byz.500 }
+			custom_effect_tooltip = BYZ_a_shot_of_mullerism_coup
+		}
+	}
+	focus = {
+		id = BYZ_all_state_unions
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_a_shot_of_mullerism
+		}
+		x = 27
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = BYZ_all_state_unions_idea
+		}
+	}
+	focus = {
+		id = BYZ_state_planning_secretariat
+		icon = GFX_focus_generic_self_management
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_all_state_unions
+		}
+		x = 27
+		y = 3
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = BYZ_state_planning_secretariat_idea
+		}
+	}
+	focus = {
+		id = BYZ_democratic_centralism
+		icon = GFX_focus_generic_soviet_politics
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_a_shot_of_mullerism
+		}
+		x = 29
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_named_threat = { threat = 2 name = BYZ_democratic_centralism }
+			add_popularity = { ideology = communism popularity = 0.1 }
+			set_politics = { ruling_party = communism elections_allowed = no }
+			add_stability = 0.05
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = BYZ_iconoclasm
+		icon = GFX_goal_support_communism
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_democratic_centralism
+		}
+		x = 29
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}	
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = BYZ_state_political_secretariat
+		}
+	}
+	focus = {
+		id = BYZ_the_revolutionary_vanguard
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_iconoclasm
+		}
+		prerequisite = {
+			focus = BYZ_state_planning_secretariat
+		}
+		x = 28
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = BYZ_revolutionary_vanguard_focus
+		}
+	}
+	focus = {
+		id = BYZ_intelligence_secretariat
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_postwar_political_sentiments
+		}
+		x = 31
+		y = 1
+		available = {
+			OR = {
+				has_war_with = FRA
+				has_war_with = CHI
+				has_war_with = SOM
+				has_war_with = SYR
+				has_war_with = AKH
+				has_war_with = JAP
+				has_war_with = AYI
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = BYZ_intelligence_secretariat_idea
+		}
+	}
+	focus = {
+		id = BYZ_signals_intelligence
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_intelligence_secretariat
+		}
+		x = 31
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = BYZ_signals_intelligence
+				bonus = 0.5
+				uses = 3
+				category = decryption_tech
+				category = computing_tech
+			}
+		}
+	}
+	focus = {
+		id = BYZ_transatlantic_policy
+		icon = GFX_goal_generic_build_navy
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_foreign_policy
+		}
+		x = 35
+		y = 1
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+			FRA = {
+				add_opinion_modifier = { target = BYZ modifier = fascism_leanings_bad }
+			}
+		}
+	}
+	focus = {
+		id = BYZ_our_first_and_oldest_friend
+		icon = GFX_goal_support_communism
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_transatlantic_policy
+		}
+		x = 33
+		y = 2
+		available_if_capitulated = yes
+
+		bypass = {
+			ENG = {
+				custom_trigger_tooltip = {
+					tooltip = construction_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = naval_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = dockyard
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			ENG = {
+				add_opinion_modifier = { target = BYZ modifier = aided_industry }
+				every_state = { limit = { has_state_flag = BYZ_aid_brits_2IC }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				every_state = { limit = { has_state_flag = BYZ_aid_brits_1IC }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				every_state = { limit = { has_state_flag = BYZ_aid_brits_2DY }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = { target = BYZ modifier = aided_industry }
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = BYZ_aid_brits_2IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = BYZ_aid_brits_1IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = BYZ_aid_brits_2DY
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = BYZ_aid_brits_2DY
+				}
+			}
+		}
+	}
+	focus = {
+		id = BYZ_continental_allies
+		icon = GFX_focus_generic_join_comintern
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_transatlantic_policy
+		}
+		x = 35
+		y = 2
+		available = {
+			FRA = {
+				exists = yes
+				NOT = { has_government = ROOT }
+				OR = { 
+					has_offensive_war = yes 
+					has_added_tension_amount > 10
+				}
+			}
+			NOT = { has_government = fascism }
+		}
+
+	}
+	focus = {
+		id = BYZ_hungarian_support
+		icon = GFX_goal_generic_soviet_construction
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_continental_allies
+		}
+		x = 34
+		y = 3
+		available = { 
+			HUN = { is_in_faction_with = BYZ }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			HUN = {
+				add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = BYZ }
+				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1500 producer = BYZ }
+				add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 100 producer = BYZ }
+			}
+		}
+	}
+	focus = {
+		id = BYZ_lithuania
+		icon = GFX_goal_generic_construct_military
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_continental_allies
+		}
+		x = 32
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = BYZ_lithuania_tt
+			LIT = {
+				every_owned_state = {
+					limit = {
+						is_controlled_by = LIT
+						any_neighbor_state = {
+							controller = { NOT = { is_in_faction_with = LIT } }
+						}
+					}
+					add_building_construction = {
+						type = bunker
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+						}
+						level = 3
+						instant_build = yes
+					}
+				}
+				every_owned_state = {
+					limit = {
+						is_controlled_by = LIT
+						is_coastal = yes
+						is_in_home_area = yes
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						province = {
+							all_provinces = yes
+							limit_to_coastal = yes
+						}
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = BYZ_coup_austria
+		icon = GFX_goal_demand_sudetenland
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_hungarian_support
+		}
+		mutually_exclusive = {
+			focus = BYZ_neutralize_austria
+		}
+		x = 35
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = BYZ_coup_austria_tt
+			effect_tooltip = {
+				AUS = {
+					add_ideas = monarchist_rebels
+				}
+			}
+		}
+	}
+	focus = {
+		id = BYZ_approach_germany
+		icon = GFX_goal_generic_national_unity
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_continental_allies
+		}
+		x = 36
+		y = 3
+		available = { 
+			is_puppet = no 
+			NOT = { has_war_with = GER }
+			GER = {
+				exists = yes
+				is_puppet = no
+			}
+		}
+		bypass = {
+			OR = {
+				GER = { is_in_faction_with = BYZ }
+				NOT = { country_exists = GER }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}	
+
+		available_if_capitulated = no
+		complete_tooltip = {
+			GER = {
+				if = {
+					limit = {
+						GER = {
+							is_ai = yes
+							NOT = {
+								is_in_faction = yes
+							}
+							NOT = {
+								is_puppet = yes
+							}
+							has_government = ROOT
+						}
+						BYZ = { is_faction_leader = yes }
+					}
+					GER = {
+						country_event = generic.5
+					}
+					add_ai_strategy = {
+						type = alliance
+						id = "BYZ"
+						value = 200
+					}
+				}
+			}
+		}
+		completion_reward = {
+			GER = {
+				if = {
+					limit = {
+						GER = {
+							is_ai = yes
+							NOT = {
+								is_in_faction = yes
+							}
+							NOT = {
+								is_puppet = yes
+							}
+							has_government = ROOT
+						}
+						BYZ = { is_faction_leader = yes }
+					}
+					GER = {
+						country_event = generic.5
+					}
+					add_ai_strategy = {
+						type = alliance
+						id = "BYZ"
+						value = 200
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = BYZ_the_western_colossus
+		icon = GFX_focus_generic_little_entente
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_transatlantic_policy
+		}
+		x = 37
+		y = 2
+		available = { 
+			is_puppet = no 
+			NOT = { has_war_with = AYI }
+			AYI = {
+				exists = yes
+				is_puppet = no
+			}
+		}
+		bypass = {
+			OR = {
+				AYI = { is_in_faction_with = BYZ }
+				NOT = { country_exists = AYI }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}	
+
+		available_if_capitulated = no
+		completion_reward = {
+			AYI = {
+				add_opinion_modifier = { target = BYZ modifier = CZE_trust_in_the_west }
+				if = {
+					limit = {
+						AYI = {
+							is_ai = yes
+							NOT = {
+								is_in_faction = yes
+							}
+							NOT = {
+								is_puppet = yes
+							}
+							has_government = ROOT
+						}
+						BYZ = { is_faction_leader = yes }
+					}
+					AYI = {
+						country_event = generic.5
+					}
+					add_ai_strategy = {
+						type = alliance
+						id = "BYZ"
+						value = 200
+					}
+				}
+				if = {
+					limit = {
+						BYZ = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
+				if = {
+					limit = {
+						BYZ = {
+							has_government = communism
+						}
+					}
+					add_ideas = communist_influence
+				}
+				if = {
+					limit = {
+						BYZ = {
+							has_government = democratic
+						}
+					}
+					add_ideas = democratic_influence
+				}
+				country_event = { id = generic.1 }
+			}
+		}
+	}
+	focus = {
+		id = BYZ_neutralize_austria
+		icon = GFX_goal_demand_sudetenland
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_hungarian_support
+		}
+		mutually_exclusive = {
+			focus = BYZ_coup_austria
+		}
+		x = 37
+		y = 4
+		completion_reward = {
+			create_wargoal = {
+				target = AUS
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = BYZ_eurasian_policy
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_foreign_policy
+		}
+		x = 41
+		y = 1
+		available = {
+			country_exists = CHI
+			OR = {
+				CHI = { has_offensive_war = yes }
+				communism > 0.3
+			}
+			NOT = { has_government = pangalism }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			CHI = {
+				add_opinion_modifier = { target = BYZ modifier = anti_capitalist_diplomacy_capitalists }
+			}
+		}
+	}
+	focus = {
+		id = BYZ_annex_da_qin
+		icon = GFX_goal_support_communism
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_eurasian_policy
+		}
+		mutually_exclusive = {
+			focus = BYZ_damascus_pact
+		}
+		x = 39
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			create_wargoal = {
+				target = SYR
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = BYZ_shake_hands_with_the_devil
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_eurasian_policy
+		}
+		x = 43
+		y = 2
+		available = {
+			country_exists = CHI
+			NOT = { has_government = pangalism }
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			CHI = {
+				add_opinion_modifier = { target = BYZ modifier = pact_against_us }
+			}
+		}
+	}
+	focus = {
+		id = BYZ_invite_marathas
+		icon = GFX_focus_RAJ_seek_help_from_soviet
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_shake_hands_with_the_devil
+		}
+		x = 40
+		y = 3
+		available = { 
+			is_puppet = no 
+			NOT = { has_war_with = MRT }
+			MRT = {
+				exists = yes
+				is_puppet = no
+			}
+		}
+		bypass = {
+			OR = {
+				MRT = { is_in_faction_with = BYZ }
+				NOT = { country_exists = MRT }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}	
+
+		available_if_capitulated = no
+		completion_reward = {
+			MRT = {
+				add_opinion_modifier = { target = BYZ modifier = unholy_alliance_opinion }
+				if = {
+					limit = {
+						MRT = {
+							is_ai = yes
+							NOT = {
+								is_in_faction = yes
+							}
+							NOT = {
+								is_puppet = yes
+							}
+							has_government = ROOT
+						}
+						BYZ = { is_faction_leader = yes }
+					}
+					MRT = {
+						country_event = generic.5
+					}
+					add_ai_strategy = {
+						type = alliance
+						id = "BYZ"
+						value = 200
+					}
+				}
+				if = {
+					limit = {
+						BYZ = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
+				if = {
+					limit = {
+						BYZ = {
+							has_government = communism
+						}
+					}
+					add_ideas = communist_influence
+				}
+				if = {
+					limit = {
+						BYZ = {
+							has_government = democratic
+						}
+					}
+					add_ideas = democratic_influence
+				}
+				country_event = { id = generic.1 }
+			}
+		}
+	}
+	focus = {
+		id = BYZ_military_aid
+		icon = GFX_focus_generic_industry_2
+		cost = 4.00
+		prerequisite = {
+			focus = BYZ_invite_marathas
+		}
+		x = 40
+		y = 4
+		available = { 
+			MRT = { is_in_faction_with = BYZ }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			MRT = {
+				add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = BYZ }
+				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1500 producer = BYZ }
+				add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 100 producer = BYZ }
+			}
+		}
+	}
+	focus = {
+		id = BYZ_damascus_pact
+		icon = GFX_goal_generic_national_unity
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_eurasian_policy
+		}
+		mutually_exclusive = {
+			focus = BYZ_annex_da_qin
+		}
+		x = 41
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			SYR = {
+				add_opinion_modifier = { target = BYZ modifier = damascus_pact_for }
+			}
+			AZB = {
+				add_opinion_modifier = { target = BYZ modifier = damascus_pact_for }
+			}
+			LBA = {
+				add_opinion_modifier = { target = BYZ modifier = damascus_pact_for }
+			}
+			MOR = {
+				add_opinion_modifier = { target = BYZ modifier = damascus_pact_for }
+			}
+			SOM = {
+				add_opinion_modifier = { target = BYZ modifier = damascus_pact_against }
+			}
+		}
+	}
+	focus = {
+		id = BYZ_east_asia_pact
+		icon = GFX_focus_jap_spiritual_mobilization
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_shake_hands_with_the_devil
+		}
+		x = 42
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			"PHI" = {
+				add_opinion_modifier = { target = BYZ modifier = anti_ming_pact_opinion }
+			}
+			KOR = {
+				add_opinion_modifier = { target = BYZ modifier = anti_ming_pact_opinion }
+			}
+			RAJ = {
+				add_opinion_modifier = { target = BYZ modifier = anti_ming_pact_opinion }
+			}
+			JAP = {
+				add_opinion_modifier = { target = BYZ modifier = anti_ming_pact_opinion }
+			}
+			CHI = {
+				add_opinion_modifier = { target = BYZ modifier = anti_ming_pact_against }
+			}
+		}
+	}
+	focus = {
+		id = BYZ_expand_taranto_docks
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_three_seas_two_oceans_navy
+		}
+		x = 47
+		y = 1
+		available = {
+			156 = { is_owned_and_controlled_by = BYZ }
+		} 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			156 = {
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = BYZ_submarine_lines
+		icon = GFX_goal_generic_navy_submarine
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_expand_taranto_docks
+		}
+		x = 45
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			navy_experience = 25
+			add_ideas = BYZ_submarine_lines_idea
+			add_tech_bonus = {
+				name = BYZ_submarine_lines
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+		}
+		
+		completion_reward = {
+			navy_experience = 25
+			add_ideas = BYZ_submarine_lines_idea
+			add_tech_bonus = {
+				name = BYZ_submarine_lines
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+		}
+	}
+	focus = {
+		id = BYZ_naval_effort
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_expand_taranto_docks
+		}
+		x = 47
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			navy_experience = 25
+			every_state = {
+				limit = { has_state_flag = BYZ_ne_2dy }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 0.5
+				uses = 1
+				category = dd_tech
+			}
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 0.5
+				uses = 1
+				category = cl_tech
+				category = ca_tech
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			random_owned_controlled_state = {
+				limit = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_ne_2dy
+			}
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 0.5
+				uses = 1
+				category = dd_tech
+			}
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 0.5
+				uses = 1
+				category = cl_tech
+				category = ca_tech
+			}
+		}
+	}
+	focus = {
+		id = BYZ_expanded_logistics
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_naval_effort
+		}
+		x = 46
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = BYZ_expanded_logistics_idea
+		}
+	}
+	focus = {
+		id = BYZ_marine_infantry
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_naval_effort
+		}
+		x = 48
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_expand_the_USMC
+				bonus = 0.5
+				uses = 1
+				technology = marines
+				technology = marines2
+			}
+		}
+	}
+	focus = {
+		id = BYZ_fortify_gibraltar
+		icon = GFX_goal_generic_construct_military
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_three_seas_two_oceans_navy
+		}
+		available = {
+			118 = { is_owned_and_controlled_by = BYZ }
+		} 
+		x = 49
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			118 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 4135
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = BYZ_capital_ships
+		icon = GFX_goal_generic_navy_carrier
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_expand_taranto_docks
+		}
+		x = 49
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}	
+
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			navy_experience = 50
+			every_state = {
+				limit = { has_state_flag = BYZ_cap_dockyards }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = bc_bonus
+				bonus = 0.5
+				uses = 1
+				category = bc_tech
+			}
+			add_tech_bonus = {
+				name = bb_bonus
+				bonus = 0.5
+				uses = 1
+				category = bb_tech
+				category = shbb_tech
+			}
+			add_tech_bonus = {
+				name = cv_bonus
+				bonus = 0.5
+				uses = 1
+				category = cv_tech
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 50
+			random_owned_controlled_state = {
+				limit = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_cap_dockyards
+			}
+			add_tech_bonus = {
+				name = bc_bonus
+				bonus = 0.5
+				uses = 1
+				category = bc_tech
+			}
+			add_tech_bonus = {
+				name = bb_bonus
+				bonus = 0.5
+				uses = 1
+				category = bb_tech
+				category = shbb_tech
+			}
+			add_tech_bonus = {
+				name = cv_bonus
+				bonus = 0.5
+				uses = 1
+				category = cv_tech
+			}
+		}
+	}
+	focus = {
+		id = BYZ_strategic_bombing_school
+		icon = GFX_goal_generic_air_bomber
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_red_air_force
+		}
+		x = 51
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = strat_dest_bonus
+				bonus = 0.5
+				uses = 2
+				category = strategic_destruction_tree
+			}
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 1
+				category = cat_strategic_bomber
+			}
+		}
+	}
+	focus = {
+		id = BYZ_tactical_operational_school
+		icon = GFX_goal_generic_air_doctrine
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_red_air_force
+		}
+		x = 53
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = op_dest_bonus
+				bonus = 0.5
+				uses = 2
+				category = battlefield_support_tree
+			}
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 2
+				category = tactical_bomber
+				category = cas_bomber			
+			}
+		}
+	}
+	focus = {
+		id = BYZ_upgraded_fighters
+		icon = GFX_goal_generic_air_fighter
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_strategic_bombing_school
+			focus = BYZ_tactical_operational_school
+		}
+		x = 52
+		y = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = BYZ_upgraded_fighters
+				bonus = 0.5
+				uses = 1
+				category = light_fighter		
+			}
+			add_tech_bonus = {
+				name = BYZ_upgraded_fighters
+				bonus = 0.5
+				uses = 1
+				category = cat_heavy_fighter	
+			}
+		}
+	}
+	focus = {
+		id = BYZ_advanced_air_doctrines
+		icon = GFX_goal_generic_air_doctrine
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_upgraded_fighters
+		}
+		prerequisite = {
+			focus = BYZ_strategic_bombing_school
+		}
+		x = 51
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = { 
+			air_experience = 50
+			add_tech_bonus = {
+				name = radar_tech_bonus
+				bonus = 0.5
+				uses = 1
+				category = radar_tech
+			}
+		}
+	}
+	focus = {
+		id = BYZ_operation_persephone
+		icon = GFX_focus_wonderweapons
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_war_production_committee
+		}
+		x = 1
+		y = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = BYZ_operation_persephone
+				bonus = 0.5
+				uses = 1
+				category = nuclear
+			}
+			add_tech_bonus = {
+				name = BYZ_operation_persephone
+				bonus = 0.5
+				uses = 1
+				category = nuclear
+			}
+		}
+	}
+	focus = {
+		id = BYZ_naval_air_force
+		icon = GFX_goal_generic_navy_carrier
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_tactical_operational_school
+		}
+		x = 53
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = BYZ_naval_air_force
+				bonus = 0.5
+				uses = 1
+				category = naval_bomber
+			}
+		}
+	}
+	focus = {
+		id = BYZ_rocketry
+		icon = GFX_focus_rocketry
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_advanced_air_doctrines
+		}
+		x = 51
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}	
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = BYZ_rocketry_idea
+			add_tech_bonus = {
+				name = BYZ_rocketry
+				bonus = 0.5
+				uses = 2
+				category = rocketry
+			}
+			add_tech_bonus = {
+				name = BYZ_rocketry
+				bonus = 0.5
+				uses = 2
+				category = jet_technology
+			}
+		}
+	}
+	focus = {
+		id = BYZ_special_forces_teams
+		icon = GFX_goal_generic_special_forces
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_mechanized_innovations
+			focus = BYZ_artillery_buildup
+		}
+		x = 14
+		y = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = special_bonus
+				bonus = 0.5
+				uses = 2
+				technology = paratroopers
+				technology = paratroopers2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+				technology = tech_engineers
+				technology = tech_engineers2
+				technology = tech_engineers3
+				technology = tech_recon
+				technology = tech_recon2
+				technology = tech_recon3
+			}
+		}
+	}
+	focus = {
+		id = BYZ_the_new_red_army
+		icon = GFX_focus_generic_combined_arms
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_military_engineering_projects
+		}
+		prerequisite = {
+			focus = BYZ_cavalry_doctrines
+		}
+		prerequisite = {
+			focus = BYZ_general_staff_overhaul
+		}
+		x = 17
+		y = 5
+		available = {
+
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+			add_ideas = BYZ_new_red_army_idea
+		}
+	}
+	focus = {
+		id = BYZ_war_with_gaul
+		icon = GFX_focus_ger_oppose_hitler
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_hungarian_support
+		}
+		will_lead_to_war_with = FRA
+		available = {
+			FRA = { 
+				exists = yes
+				has_war = yes
+			}
+			NOT = { is_in_faction_with = FRA }
+		}
+		x = 34
+		y = 5
+		ai_will_do = {
+			factor = 10
+		}	
+		completion_reward = {
+			create_wargoal = {
+				target = FRA
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = BYZ_war_with_china
+		icon = GFX_focus_chi_one_china_policy
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_east_asia_pact
+			focus = BYZ_invite_marathas
+		}
+		x = 41
+		y = 5
+		will_lead_to_war_with = CHI
+		available = {
+			CHI = { 
+				exists = yes
+			}
+			NOT = { is_in_faction_with = CHI }
+		}
+		ai_will_do = {
+			factor = 5
+		}	
+		completion_reward = {
+			create_wargoal = {
+				target = CHI
+				type = annex_everything
+			}
+		}
+	}
+}

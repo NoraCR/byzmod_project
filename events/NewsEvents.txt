@@ -11253,13 +11253,13 @@ news_event = {
 		}
 	}
 	option = {
-		name = news.704.d
+		name = news.704.e
 		trigger = {
 			has_government = pangalism
 		}
 	}
 	option = {
-		name = news.704.e
+		name = news.704.f
 		trigger = {
 			has_government = neutrality
 		}
@@ -11295,13 +11295,13 @@ news_event = {
 		}
 	}
 	option = {
-		name = news.705.d
+		name = news.705.e
 		trigger = {
 			has_government = pangalism
 		}
 	}
 	option = {
-		name = news.705.e
+		name = news.705.f
 		trigger = {
 			has_government = neutrality
 		}
@@ -11320,5 +11320,90 @@ news_event = {
 	
 	option = {
 		name = news.706.a
+	}
+}
+
+news_event = {
+	id = news.1001
+	title = news.1001.t
+	picture = GFX_news_event_ger_civil_war
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.1001.desc
+	}
+	
+	option = {
+		name = news.1001.a
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.1001.b
+		trigger = {
+			has_government = fascism
+			}
+		}
+	option = {
+		name = news.1001.c
+		trigger = {
+			has_government = democratic
+		}
+	}
+	option = {
+		name = news.1001.d
+		trigger = {
+			has_government = pangalism
+		}
+	}
+	option = {
+		name = news.1001.e
+		trigger = {
+			has_government = neutrality
+		}
+	}
+}
+news_event = {
+	id = news.1002
+	title = news.1002.t
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.1002.desc
+	}
+	
+	option = {
+		name = news.1002.a
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.1002.b
+		trigger = {
+			has_government = fascism
+			}
+		}
+	option = {
+		name = news.1002.c
+		trigger = {
+			has_government = democratic
+		}
+	}
+	option = {
+		name = news.1002.d
+		trigger = {
+			has_government = pangalism
+		}
+	}
+	option = {
+		name = news.1002.e
+		trigger = {
+			has_government = neutrality
+		}
 	}
 }

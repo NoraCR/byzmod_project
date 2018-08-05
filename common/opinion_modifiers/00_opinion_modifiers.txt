@@ -725,7 +725,24 @@ opinion_modifiers = {
 	refused_alliance = { value = -50 months = 48 decay = 1}
 
 	#Yugoslavian focus
-	YUG_sold_planes = { value = 50 months = 36 decay = 1}
+	YUG_sold_planes = { value = 50 months = 36 decay = 1 }
+	
+	#byzmod added
+	
+	damascus_pact_for = {
+		value = 30
+	}
+	
+	damascus_pact_against = {
+		value = -30
+	}
+	
+	anti_ming_pact_opinion = {
+		value = 50
+	}
+	anti_ming_pact_against = {
+		value = -50
+	}
 	
 	som_friendship_som = {
 		value = 20

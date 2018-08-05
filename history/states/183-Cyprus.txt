@@ -12,8 +12,8 @@ state= {
 	{
 		owner = BYZ
 		buildings = {
-			infrastructure = 4
-			air_base = 1
+			infrastructure = 5
+			air_base = 2
 			11984 = {
 				naval_base = 2
 			}

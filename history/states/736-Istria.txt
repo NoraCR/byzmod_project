@@ -9,15 +9,8 @@ state={
 		add_core_of = BYZ
 		buildings = {
 			infrastructure = 6
-			11595 = {
-				bunker = 5
-			}
-			599 = {
-				bunker = 5
-			}
 			11735 = {
 				naval_base = 5
-				bunker = 5
 			}
 
 		}
