@@ -2205,7 +2205,11 @@ focus_tree = {
 		x = 36
 		y = 2
 		ai_will_do = {
-			factor = 10
+			factor = 5
+			modifier = {
+				factor = 0.25
+				has_global_flag = byz_mullerist_coup
+			}
 		}
 
 		available = {
@@ -2354,6 +2358,10 @@ focus_tree = {
 		y = 2
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 5
+				has_global_flag = byz_mullerist_coup
+			}
 		}
 
 		available = {

@@ -283,7 +283,7 @@ country_event = {
 	
 	option = {
 		name = byz.500.a
-		set_country_flag = byz_mullerist_coup
+		set_global_flag = byz_mullerist_coup
 		ai_chance = {
 			factor = 100
 		}
