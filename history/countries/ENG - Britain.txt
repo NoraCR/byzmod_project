@@ -172,23 +172,9 @@ set_politics = {
 
 
 
-#give_guarantee = CZE
-
-# Order matters - here Chamberlain becomes starting leader
 
 create_country_leader = {
-	name = "Winston Churchill"
-	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_Winston_Churchill.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Neville Chamberlain"
+	name = "Wallace Minear"
 	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
 	picture = "Portrait_Britain_Neville_Chamberlain.dds"
 	expire = "1965.1.1"
@@ -199,7 +185,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Oswald Mosley"
+	name = "Valeria Pendragon"
 	desc = "POLITICS_OSWALD_MOSLEY_DESC"
 	picture = "Portrait_Britain_Oswald_Mosley.dds"
 	expire = "1965.1.1"

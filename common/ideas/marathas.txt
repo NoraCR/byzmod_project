@@ -279,6 +279,26 @@ ideas = {
 			
 			traits = { prince_of_terror }
 		}
+		MRT_vivek_sahasrabudhe = {
+
+			picture = generic_political_advisor_asia_2
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { captain_of_industry }
+		}
+		MRT_priyanka_kulkarni = {
+
+			picture = generic_political_advisor_asia_1
+			
+			allowed = {
+				original_tag = MRT
+			}
+			
+			traits = { war_industrialist }
+		}
 	}
 
 	theorist = {

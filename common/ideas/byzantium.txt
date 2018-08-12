@@ -1004,6 +1004,8 @@ ideas = {
 			
 			cost = 250
 			
+			picture = generic_army_europe_3
+			
 			research_bonus = {
 				cat_superior_firepower = 0.10
 			}
@@ -1020,6 +1022,8 @@ ideas = {
 			
 			cost = 250
 			
+			picture = generic_army_europe_1
+			
 			research_bonus = {
 				cat_mobile_warfare = 0.10
 			}
@@ -1034,7 +1038,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_navy_europe_1
 			
 			research_bonus = {
 				naval_doctrine = 0.07
@@ -1049,6 +1053,8 @@ ideas = {
 			allowed = {
 				original_tag = BYZ
 			}
+			
+			picture = generic_air_europe_2
 			
 			cost = 250
 			
@@ -1068,6 +1074,8 @@ ideas = {
 			
 			cost = 250
 			
+			picture = generic_air_europe_1
+			
 			research_bonus = {
 				cat_strategic_destruction = 0.10
 			}
@@ -1082,7 +1090,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_air_arab_3
 			
 			research_bonus = {
 				air_doctrine = 0.07
@@ -1098,7 +1106,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_political_advisor_europe_1
 			
 			research_bonus = {
 				nuclear = 0.10
@@ -1114,7 +1122,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_air_europe_2
 			
 			research_bonus = {
 				rocketry = 0.10
@@ -1127,6 +1135,7 @@ ideas = {
 
 		demetrios_scafidis = {
 
+			picture = generic_army_europe_3
 			
 			allowed = {
 				original_tag = BYZ
@@ -1140,6 +1149,7 @@ ideas = {
 
 		aksungur_yilmaz  = {
 
+			picture = generic_army_arab_1
 			
 			allowed = {
 				original_tag = BYZ
@@ -1153,6 +1163,8 @@ ideas = {
 		}
 	
 		mariam_andrea = {
+		
+			picture = generic_army_europe_1
 
 			
 			allowed = {
@@ -1168,6 +1180,7 @@ ideas = {
 	
 		guncicegi_mardin = {
 
+			picture = generic_army_arab_2
 			
 			allowed = {
 				original_tag = BYZ
@@ -1191,7 +1204,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_navy_europe_1
 			
 			traits = { navy_chief_naval_aviation_2 }
 			
@@ -1207,7 +1220,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_navy_europe_2
 			
 			traits = { navy_chief_commerce_raiding_2 }
 			
@@ -1223,7 +1236,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_navy_europe_3
 			
 			traits = { navy_chief_decisive_battle_3 }
 			
@@ -1241,7 +1254,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_army_europe_1
 			
 			traits = { air_chief_night_operations_2 }
 			
@@ -1255,6 +1268,8 @@ ideas = {
 			allowed = {
 				original_tag = BYZ
 			}
+			
+			picture = generic_air_europe_1
 			
 			available = {
 				has_completed_focus = BYZ_red_air_force
@@ -1273,7 +1288,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_air_europe_2
 			
 			traits = { air_chief_all_weather_2 }
 			
@@ -1290,6 +1305,8 @@ ideas = {
 				original_tag = BYZ
 			}
 			
+			picture = generic_army_europe_1
+			
 			traits = { army_armored_3 }
 			
 			ai_will_do = {
@@ -1303,6 +1320,8 @@ ideas = {
 			allowed = {
 				original_tag = BYZ
 			}
+			
+			picture = generic_army_europe_2
 			
 			traits = { army_regrouping_3 }
 			
@@ -1318,7 +1337,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_army_europe_1
 			
 			traits = { army_commando_2 }
 			
@@ -1334,7 +1353,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_army_europe_3
 			
 			traits = { army_logistics_2 }
 			
@@ -1350,7 +1369,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_army_europe_1
 			
 			traits = { army_infantry_2 }
 			
@@ -1366,7 +1385,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_air_europe_1
 			
 			traits = { air_strategic_bombing_2 }
 			
@@ -1382,7 +1401,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_army_europe_2
 			
 			traits = { air_close_air_support_2 }
 			
@@ -1398,7 +1417,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_air_europe_2
 			
 			traits = { air_tactical_bombing_2 }
 			
@@ -1414,7 +1433,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_navy_asia_3
 			
 			traits = { navy_naval_air_defense_2 }
 			
@@ -1430,7 +1449,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_air_europe_1
 			
 			traits = { navy_carrier_2 }
 			
@@ -1446,7 +1465,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-
+			picture = generic_navy_europe_1
 			
 			traits = { navy_amphibious_assault_2 }
 			

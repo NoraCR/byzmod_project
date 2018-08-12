@@ -224,7 +224,7 @@ ideas = {
 			modifier = {
 				industrial_capacity_factory = 0.03
 				industrial_capacity_dockyard = 0.03
-				conscription_factor = -0.05
+				conscription_factor = -0.02
 			}
 
 		}
@@ -325,7 +325,17 @@ ideas = {
 					has_government = communism
 				}
 			}
-		}	
+		}
+		SOM_deng_yun = {
+
+			picture = generic_political_advisor_asia_1
+			
+			allowed = {
+				original_tag = SOM
+			}
+			
+			traits = { war_industrialist }
+		}		
 	}
 	tank_manufacturer = {
 	

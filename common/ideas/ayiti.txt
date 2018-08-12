@@ -485,7 +485,42 @@ ideas = {
 		}
 	}
 	political_advisor = {
+	
+		AYI_horst_dustermann = {
+			
+			
+			allowed = {
+				original_tag = "AYI"
+			}
+			
+			picture = generic_political_advisor_europe_1
+			
+			traits = { ayn_rand }
+	
+			on_add = {
+				country_event = political.100
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = pangalism
+				}
+			}
 
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		AYI_petrizio_grassi = {
+
+			picture = generic_political_advisor_south_america_2
+
+			allowed = {
+				original_tag = ARG
+			}
+			
+			traits = { quartermaster_general }
+		}
 		AYI_adhamh_o_lideadha = {
 
 			picture = generic_political_advisor_south_america_1
