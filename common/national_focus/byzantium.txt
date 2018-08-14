@@ -3000,7 +3000,6 @@ focus_tree = {
 							NOT = {
 								is_puppet = yes
 							}
-							has_government = ROOT
 						}
 						BYZ = { is_faction_leader = yes }
 					}
@@ -3027,7 +3026,6 @@ focus_tree = {
 							NOT = {
 								is_puppet = yes
 							}
-							has_government = ROOT
 						}
 						BYZ = { is_faction_leader = yes }
 					}

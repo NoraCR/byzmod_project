@@ -50,7 +50,7 @@
 		unique = {
 			"Berikada" "Sri Shivaji" 
 			"Balboa" "Mumba'i" "Oktobara Kranti" 		
-			"Aedmirala Karvanda" "Aedmirala Lokhande" "Aedmirala Nerurkar"
+			"Admiral Karvanda" "Admiral Lokhande" "Admiral Nerurkar"
 		}
 	}
 	battleship = {
@@ -58,8 +58,8 @@
 		generic = { "Yud'dhanauka" }
 		unique = {
 			"Adyadevaduta" "Navina Maratha" "Merethona Kamyuna" "Gujarata Kamyuna" "Madura'i Kamyuna" "Indaura Kamyuna"
-			"Oktobara Kranti" "Bayajhamta'ina Kamyuna" 				
-			"Kandla" "Nhava Sheva" "Karla Marksa" "Yujeniya Echetevariya" "Rishma Sharqi" "Phredarika Engelsa" "Aedmirala Di Mobraya" "Thi'odora Papadopolu"
+			"Oktobara Kranti" "Bayajhamta'ina Kamyuna" "Ayiti Kamyuna"				
+			"Kandla" "Nhava Sheva" "Karla Marksa" "Yujeniya Echetevariya" "Rishma Sharqi" "Phredarika Engelsa" "Kvi Jichou" "Karta Mulara" "Miriyama Teraji'oglu" "Admiral Di Mobraya" "Thi'odora Papadopolu"
 		}
 	}
 	carrier = {

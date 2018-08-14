@@ -1,0 +1,56 @@
+difficulty_settings = {
+	difficulty_setting = {
+		key = "custom_diff_strong_fra"
+		modifier = diff_strong_ai_generic
+		countries = { FRA }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_byz"
+		modifier = diff_strong_ai_generic
+		countries = { BYZ }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_mrt"
+		modifier = diff_strong_ai_generic
+		countries = { MRT }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_ayi"
+		modifier = diff_strong_ai_generic
+		countries = { AYI }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_chi"
+		modifier = diff_strong_ai_generic
+		countries = { CHI }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_jap"
+		modifier = diff_strong_ai_generic
+		countries = { JAP }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_som"
+		modifier = diff_strong_ai_generic
+		countries = { SOM }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_eng"
+		modifier = diff_strong_ai_generic
+		countries = { ENG }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_hda"
+		modifier = diff_strong_ai_generic
+		countries = { HDA }
+		multiplier = 2.0
+	}
+}

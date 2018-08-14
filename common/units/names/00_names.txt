@@ -2616,14 +2616,14 @@ SPR = {
 
 SIA = {
 	submarine = {
-		prefix = "HTMS"
+		prefix = "ZNS"
 		generic = { "Reux da na" }
 		unique = {
 			"Matchanu" "Wirun" "Sinsamut" "Phlai-chumphon" 
 		}
 	}
 	destroyer = {
-		prefix = "HTMS"
+		prefix = "ZNS"
 		generic = { "Reux phikhat" }
 		unique = {
 			"Phra Ruang" "Maeklong" "Tachin" "Chonbori" "Trat" "Songkhla" "Phuke" "Pattani" "Surat Thani" "Chanthaburi" "Rayong" "Chumphon" 
@@ -2631,35 +2631,35 @@ SIA = {
 		}
 	}
 	light_cruiser = {
-		prefix = "HTMS"
+		prefix = "ZNS"
 		generic = { "Fi Reuxrb" }
 		unique = {
 			"Taksin" "Naresuan" "Chon Buri" "Samut Phrakan" "Si Racha" "Rayong" "Chanthaburi" "Khao Saming" "Ratanakosin" "Sukhothai" 
 		}
 	}
 	heavy_cruiser = {
-		prefix = "HTMS"
+		prefix = "ZNS"
 		generic = { "Reux Ladtrawen Hnak" }
 		unique = {
 			"Sri Ayuthia" "Dhonburi" "Chon Buri" "Samut Phrakan" "Si Racha" "Rayong" "Chanthaburi" "Khao Saming" "Ratanakosin" "Sukhothai" 
 		}
 	}
 	battle_cruiser = {
-		prefix = "HTMS"
+		prefix = "ZNS"
 		generic = { "Rb Khruy Sexr" }
 		unique = {
 			"Krung Thep" "Thale Luang" "Ko Samui" "Ratanakosin" "Sukhothai" 
 		}
 	}
 	battleship = {
-		prefix = "HTMS"
+		prefix = "ZNS"
 		generic = { "Reuxrb" }
 		unique = {
 			"Krung Thep" "Thale Luang" "Ko Samui" "Ratanakosin" "Sukhothai" 
 		}
 	}
 	carrier = {
-		prefix = "HTMS"
+		prefix = "ZNS"
 		generic = { "Reux Brrthuk Kheruxngbin" }
 		unique = {
 			"Muang Thai" "Ao Thai" "Chakri Nareubet"

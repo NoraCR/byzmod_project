@@ -1,0 +1,112 @@
+﻿SOM = { 
+	submarine = { 
+		prefix = "SR" 
+		generic = { "Gujis" } 
+		unique = { 
+			"G-1" "G-2" "G-3" "G-4" "G-5" "G-6" "G-7" "G-8" "G-9" "G-10" "G-11" "G-12" "G-13" "G-14" "G-15" "G-16" "G-17" "G-18" "G-19" "G-20" "G-21" "G-22" "G-23" "G-24" "G-25" "G-26" 
+			"G-27" "G-28" "G-29" "G-30" "G-31" "G-32" "G-33" "G-34" "G-35" "G-36" "G-37" "G-38" "G-39" "G-40" "G-41" "G-42" "G-43" "G-44" "G-45" "G-46" "G-47" "G-48" "G-49" "G-50" "G-51" "G-52" 
+		} 
+	} 
+	destroyer = { 
+		prefix = "SR" 
+		generic = { "Burburay" } 
+		unique = { 
+			#big cats
+			"Libaax" "Goyso" "Tuug"
+			#fictional navigators
+			"Axmed Beyle" "Ali Sharmarke" "Hasan Biixi Shire" "Diiriye Deeq Saruur" "Abdullahi Bulxan Caraale"
+			#storms and winds
+			"Tafaariiqda" "Dabayl" "Duufaan" "Dabaysha Bariga" "Dabaysha Galbeedka" "Dabaysha Koonfurta" "Dabaysha Woqooyi"
+			#constellations/astrologic signs/planets
+			"Laxo" "Naaf" "Mataanaha" "Afaggaal" "Dameerajoogeen" "Urur" "Qorraxda" "Dayax" "Dusaa" "Sugra ama Bakool" "Farraare" "Cirjeex" "Raage" "Uraano" "Docay" "Jibin"
+		} 
+	} 
+	light_cruiser = { 
+		prefix = "SR" 
+		generic = { "Light Cruiser" } 
+		unique = { 
+			#northern cities
+			"Jabuuti" "Khartuum"
+			#fictional heroes
+			"Maxamad Muruxo" "Maxamad Guure Kaafi" "Ali Ayax Dhiid" "Abdiwahid Abdi Adan" "Abdiaziz Quulle"
+			"Saluugla Nagan" "Said Hassan Calas" "Zahra Yusuf Amal" "Abdullahi Iidle Deer" "Ali Wardi Ubaxle"
+		} 
+	} 
+	heavy_cruiser = { 
+		prefix = "SR" 
+		generic = { "Heavy Cruiser" } 
+		unique = { 
+			#historic sites
+			"Mosylon" "Opone" "Malao" "Sarapion" "Mundus" "Essina" "Tabae" "Adal" "Warsangali" "Bari" "Sanaag" "Maakhir"
+		} 
+	} 
+	battle_cruiser = { 
+		prefix = "SR" 
+		generic = { "Battlecruiser" } 
+		unique = { 
+			#historic conquests, generals
+			"Yuugandha" "Juba" "Benghasi" "General Mukhtaar" "General Naaleeye" "General Fariido" "Admiral Jamiila"
+		} 
+	} 
+	battleship = { 
+		prefix = "SR" 
+		generic = { "Markab Dagaal" } 
+		unique = { 
+			#battles, major regions/cities, dictators
+			"Maxamed Muzaffar" "Somaliland" "Guuleysiga Byzantion" "Muqdisho"
+		} 
+	} 
+	carrier = { 
+		prefix = "SR" 
+		generic = { "Xambaara Dayuuradaha" } 
+		unique = { 
+			#grand symbolic names, heroes
+			"Jamhuuriyadda Soomaaliya" "Xorriyad" 
+			"Afrika" "Admiral Maxamed Abdel Hasan" 
+		} 
+	} 
+
+
+	infantry = { 
+		prefix = "" 
+		generic = { "Infantry Division" } 
+		generic_pattern = "UNIT_GENERIC_NAME_SOM" 
+		unique = {} 
+	} 
+	marine = { 
+		prefix = "" 
+		generic = { "Marine Division" } 
+		generic_pattern = "UNIT_GENERIC_NAME_SOM" 
+		unique = {} 
+	} 
+	mountaineers = { 
+		prefix = "" 
+		generic = { "Mountain Division" } 
+		generic_pattern = "UNIT_GENERIC_NAME_SOM" 
+		unique = {} 
+	} 
+	cavalry = { 
+		prefix = "" 
+		generic = { "Cavalry Division" } 
+		generic_pattern = "UNIT_GENERIC_NAME_SOM" 
+		unique = {} 
+	} 
+	motorized = { 
+		prefix = "" 
+		generic = { "Motorized Division" } 
+		generic_pattern = "UNIT_GENERIC_NAME_SOM" 
+		unique = {} 
+	} 
+	light_armor = { 
+		prefix = "" 
+		generic = { "Armored Division" } 
+		generic_pattern = "UNIT_GENERIC_NAME_SOM" 
+		unique = {} 
+	} 
+	medium_armor = { 
+		prefix = "" 
+		generic = { "Armored Division" } 
+		generic_pattern = "UNIT_GENERIC_NAME_SOM" 
+		unique = {} 
+	} 
+}

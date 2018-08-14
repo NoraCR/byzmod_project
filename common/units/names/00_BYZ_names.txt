@@ -56,7 +56,7 @@
 		generic = { "Carrier" }
 		unique = { 
 		# names celebrating revolution, communism, etc.
-			"Qiu Zhichao" "Noor Sallajer" "Athens Commune" "Evgenia Exteberria" "Ten Thousand Martyrs" "First International" "Reyhan Hamzaoglu" "Red Guard" "Combined Syndicates" "Kurt Muller" "Grand Secretariat" "Madame Hiratine" "Peasant's War" "Proletarian" "Krakatoa Sunset" "Owl of Athena" "Ziyi Demetriou" "Ryuzoji Nagahito" "Red Star" "Regicide" "Simeon Djordjic" "Julia Radziwill" "Liraz Tavori" "Minna Cyrahzax" "Mathias Sniperid" "Yuchun He" "Eskander Ansari"
+			"Qiu Zhichao" "Noor Sallajer" "Athens Commune" "Evgenia Exteberria" "Ten Thousand Martyrs" "First International" "Reyhan Hamzaoglu" "Red Guard" "Combined Syndicates" "Kurt Muller" "Grand Secretariat" "Madame Hiratine" "Peasant's War" "Proletarian" "Krakatoa Sunset" "Owl of Athena" "Ziyi Demetriou" "Ryuzoji Nagahito" "Red Star" "Regicide" "Simeon Djordjic" "Julia Radziwill" "Liraz Tavori" "Minna Cyrahzax" "Mathias Sniperid" "Yuchun He" "Eskander Ansari" "Balboa" 
 			}
 	}
 
@@ -73,7 +73,7 @@ infantry = {
 		generic = { "Motorized Infantry" }
 		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
 		unique = {
-		"Athens Motoring Club" "Teamsters Local 701" "Red Ball Express" "Teamster Local 702" "Athens Commune Coach Drivers 2112"
+		"Athens Motoring Club" "Teamsters Local 701" "Red Ball Express" "Teamster Local 702" "Athens Commune Coach Drivers 2112" 
 		}
 	}
 	mountaineers = {
@@ -81,7 +81,7 @@ infantry = {
 		generic = { "Alpine Infantry" }
 		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
 		unique = {
-		"Gorz Mountaineering Society" "Red Alps Division" "Asiago Alpine Club"
+		"Gorz Mountaineering Society" "Red Alps Division" "Asiago Alpine Club" "1st Ski Division" "2nd Ski Division" "3rd Ski Divison" "28th Mountain Infantry Division" "47th Mountain Infantry Division" "54th Mountain Rifle Division"
 		}
 	}
 	cavalry = {
@@ -103,7 +103,7 @@ infantry = {
 		generic = { "Landships" }
 		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
 		unique = {
-		"Fourth Treaty Army Cataphracts" "Fifth Treaty Army Cataphracts" "First Foreign Legion Cataphracts" "Second Foreign Legion Cataphracts" "Third Foreign Legion Cataphracts" "Fourth Foreing Legion Cataphracts" "1st New Red Army Landship Divison" "2nd New Red Army Landship Divison" "3rd New Red Army Landship Divison"
+		"Fourth Treaty Army Cataphracts" "Fifth Treaty Army Cataphracts" "First Foreign Legion Cataphracts" "Second Foreign Legion Cataphracts" "Third Foreign Legion Cataphracts" "Fourth Foreing Legion Cataphracts" "1st New Red Army Landship Divison" "2nd New Red Army Landship Divison" "3rd New Red Army Landship Divison" "4th New Red Army Landship Divison" "5th New Red Army Landship Divison" "6th New Red Army Landship Divison" "7th New Red Army Landship Divison" "8th New Red Army Landship Divison" "9th New Red Army Landship Divison" "10th New Red Army Landship Divison"
 		}
 	}
 }
