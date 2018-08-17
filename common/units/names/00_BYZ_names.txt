@@ -31,7 +31,7 @@
 		generic = { "Heavy Cruiser" }
 		unique = { 
 		# wonders, landmarks, etc
-			"Colossus of Rhodes" "Revolution Square" "Union Tower" "Theodosian Greenbelt" "Bosphorus Chain" "Rosehouse Park" "Hagia Sophia" "Flavian Ampitheatre" "Sapountzakis Central Station" "Radziwill Palace" "Vatican Hill" "Pantheon" "House of the Golden Horn" "Parthenon" "Appian Way" "Temple of Artemis" "Athens Cement Factory" "Halicarnassus"
+			"Colossus of Rhodes" "Revolution Square" "Union Tower" "Theodosian Greenbelt" "Bosphorus Chain" "Rosehouse Park" "Hagia Sophia" "Flavian Ampitheatre" "Sapountzakis Central Station" "Radziwill Palace" "Vatican Hill" "Pantheon" "House of the Golden Horn" "Parthenon" "Appian Way" "Temple of Artemis" "Athens Cement Factory" "Halicarnassus" "Hagia Irene" "Great Mosque of Ankara"
 			}
 	}
 	battle_cruiser = {
@@ -73,7 +73,7 @@ infantry = {
 		generic = { "Motorized Infantry" }
 		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
 		unique = {
-		"Athens Motoring Club" "Teamsters Local 701" "Red Ball Express" "Teamster Local 702" "Athens Commune Coach Drivers 2112" 
+		"Athens Motoring Club" "Teamsters Local 701" "Red Ball Express" "Teamster Local 702" "Athens Commune Coach Drivers 2112" "1st Motorized Infantry Division" "2nd Motorized Infantry Division" "3rd Motorized Infantry Division" "4th Motorized Infantry Division"
 		}
 	}
 	mountaineers = {
@@ -81,7 +81,7 @@ infantry = {
 		generic = { "Alpine Infantry" }
 		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
 		unique = {
-		"Gorz Mountaineering Society" "Red Alps Division" "Asiago Alpine Club" "1st Ski Division" "2nd Ski Division" "3rd Ski Divison" "28th Mountain Infantry Division" "47th Mountain Infantry Division" "54th Mountain Rifle Division"
+		"Gorz Mountaineering Society" "Red Alps Division" "Asiago Alpine Club" "1st Ski Division" "2nd Ski Division" "3rd Ski Divison" "28th Mountain Infantry Division" "47th Mountain Infantry Division" "54th Mountain Rifle Division" "1st Caucasus Mountain Division"
 		}
 	}
 	cavalry = {
@@ -89,14 +89,14 @@ infantry = {
 		generic = { "Cavalry" }
 		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
 		unique = {
-		"Knights of Calatrava" "Knights of St. Kaisarios" "Artemis' Own Cavalry"
+		"Knights of Calatrava" "Knights of St. Kaisarios" "Artemis' Own Cavalry" "1st Volunteer Cavalry Division" "1st Mountain Cavalry Division"
 		}
 	}
 	light_armor = {
 		prefix = ""
 		generic = { "Armored Cavalry" }
 		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
-		unique = {}
+		unique = { "1st Armored Cavalry Division" "2nd Armored Cavalry Division" "3rd Armored Cavalry Division" "4th Armored Cavalry Division" }
 	}
 	medium_armor = {
 		prefix = ""
