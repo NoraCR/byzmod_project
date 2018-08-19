@@ -182,4 +182,47 @@ BYZ_unit_production = {
 		id = strat_bomber_equipment
 		value = 3
 	}
+}
+protect_germany_against_gauls = {
+	enable = {
+		tag = BYZ
+		FRA = { has_completed_focus = all_europa_under_rome }
+		FRA = { NOT = { has_war_with = GER } }
+		country_exists = GER
+	}
+	abort = {
+		NOT = { country_exists = GER }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "GER"			
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"			
+		value = 200
+	}	
+}
+defend_germany_against_gauls = {
+	enable = {
+		tag = BYZ
+		FRA = { has_war_with = GER }
+		country_exists = GER
+	}
+	abort = {
+		NOT = { country_exists = GER }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "GER"			
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"			
+		value = 200
+	}	
 }	

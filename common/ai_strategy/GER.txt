@@ -30,6 +30,8 @@ GER_unit_production = {
 		always = no
 	}
 	
+	date > 1939.1.1
+	
 	ai_strategy = {
 		type = role_ratio
 		id = garrison

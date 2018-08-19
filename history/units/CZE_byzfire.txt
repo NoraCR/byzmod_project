@@ -64,7 +64,7 @@ units = {
 		location = 11542  # Prague
 		division_template = "Jezdecká Brigáda"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	division = {
@@ -72,7 +72,7 @@ units = {
 		location = 11542  # Prague
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	division = {
@@ -80,7 +80,7 @@ units = {
 		location = 11542  # Prague
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	division = {
@@ -88,7 +88,7 @@ units = {
 		location = 11556 
 		division_template = "Rychlá Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	# VIII Sbor
@@ -97,7 +97,7 @@ units = {
 		location = 11556
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	division = {
@@ -105,7 +105,7 @@ units = {
 		location = 557  
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	division = {
@@ -113,7 +113,7 @@ units = {
 		location = 557  
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 
@@ -123,7 +123,7 @@ units = {
 		location = 11401
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	# I Sbor
@@ -132,32 +132,32 @@ units = {
 		location = 469
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	division = {
 		name = "15. Divize"
-		location = 3418
+		location = 11414
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	# II Sbor
 	division = {
 		name = "3. Divize"
-		location = 6470
+		location = 11414
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	division = {
 		name = "17. Divize"
-		location = 9555
+		location = 494
 		division_template = "Horská Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 
@@ -167,7 +167,7 @@ units = {
 		location = 445
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	# IV Sbor
@@ -176,7 +176,7 @@ units = {
 		location = 445
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 
@@ -187,7 +187,7 @@ units = {
 		location = 445
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	division = {
@@ -195,7 +195,7 @@ units = {
 		location = 445
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	division = {
@@ -203,26 +203,26 @@ units = {
 		location = 583
 		division_template = "Jezdecká Brigáda"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 
 	### IV Armády ###
 	division = {
 		name = "2. Jezdecká Brigáda"
-		location = 6418
+		location = 583
 		division_template = "Jezdecká Brigáda"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	# III Sbor
 	division = {
 		name = "19. Divize"
-		location = 5283
+		location = 11525
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	# V Sbor
@@ -231,7 +231,7 @@ units = {
 		location = 11525
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	division = {
@@ -239,7 +239,7 @@ units = {
 		location = 557
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 	# VI Sbor
@@ -248,7 +248,7 @@ units = {
 		location = 557
 		division_template = "Jezdecká Brigáda"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.85
 
 	}
 }

@@ -67,7 +67,7 @@ units = {
 
 	}
 	division= {	
-		name = "2. Division"			# Used to form 44. Infanterie-division post-Anschluss
+		name = "2. Division"			
 		location = 11666  # Vienna
 		division_template = "Infanterie Division"
 		start_experience_factor = 0.4
@@ -75,7 +75,7 @@ units = {
 
 	}
 	division= {	
-		name = "3. Division"			# Used to form 44. Infanterie--division post-Anschluss
+		name = "3. Division"			
 		location = 11651 # St Poelten
 		division_template = "Infanterie Division"
 		start_experience_factor = 0.3
@@ -85,7 +85,7 @@ units = {
 
 	# II Korps
 	division= {	
-		name = "4. Division"			# Used to form 45. Infanterie--division post-Anschluss
+		name = "4. Division"			
 		location = 9665 # Linz
 		division_template = "Infanterie Division"
 		start_experience_factor = 0.3
@@ -93,7 +93,7 @@ units = {
 
 	}
 	division= {	
-		name = "5. Division"			# Used to form 3. Gebirgs-division post-Anschluss
+		name = "5. Division"			
 		location = 9648  # Graz
 		division_template = "Alpenjäger Division"
 		start_experience_factor = 0.3
@@ -101,7 +101,7 @@ units = {
 
 	}
 	division= {	
-		name = "6. Division"			# Used to form 2. Gebirgs-division post-Anschluss
+		name = "6. Division"			
 		location = 9692  # Bratislava
 		division_template = "Alpenjäger Division"
 		start_experience_factor = 0.3
@@ -109,7 +109,7 @@ units = {
 
 	}
 	division= {	
-		name = "7. Division"			# Used to form 3. Gebirgs-division post-Anschluss
+		name = "7. Division"			
 		location = 688  # Salzburg
 		division_template = "Alpenjäger Division"
 		start_experience_factor = 0.3
@@ -118,7 +118,7 @@ units = {
 	}
 
 	division= {	
-		name = "8. Division"				# Used to form 2. Gebirgs-division post-Anschluss
+		name = "8. Division"				
 		location = 11666  # Vienna
 		division_template = "Alpenjäger Division"
 		start_experience_factor = 0.3
@@ -127,7 +127,7 @@ units = {
 	}
 	# III Korps
 	division= {	
-		name = "9. Division"			# Used to form 45. Infanterie--division post-Anschluss
+		name = "9. Division"			
 		location = 11610 # Pecs
 		division_template = "Infanterie Division"
 		start_experience_factor = 0.3
@@ -135,7 +135,7 @@ units = {
 
 	}
 	division= {	
-		name = "10. Division"			# Used to form 3. Gebirgs-division post-Anschluss
+		name = "10. Division"			
 		location = 11610  # Pecs
 		division_template = "Infanterie Division"
 		start_experience_factor = 0.3
@@ -143,7 +143,7 @@ units = {
 
 	}
 	division= {	
-		name = "11. Division"			# Used to form 2. Gebirgs-division post-Anschluss
+		name = "11. Division"			
 		location = 11663  # Budapest
 		division_template = "Infanterie Division"
 		start_experience_factor = 0.3
@@ -151,7 +151,7 @@ units = {
 
 	}
 	division= {	
-		name = "12. Division"			# Used to form 3. Gebirgs-division post-Anschluss
+		name = "12. Division"			
 		location = 9692  # Bratislava
 		division_template = "Alpenjäger Division"
 		start_experience_factor = 0.3
@@ -160,7 +160,7 @@ units = {
 	}
 
 	division= {	
-		name = "13. Division"				# Used to form 2. Gebirgs-division post-Anschluss
+		name = "13. Division"				
 		location = 6573  # Kosice
 		division_template = "Alpenjäger Division"
 		start_experience_factor = 0.3
@@ -174,7 +174,7 @@ air_wings = {
 	4 = {
 		fighter_equipment_1 =  {
 			owner = "AUS" 
-			amount = 48
+			amount = 60
 		}
 	}
 }

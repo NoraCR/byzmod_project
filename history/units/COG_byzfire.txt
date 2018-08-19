@@ -79,12 +79,24 @@ units = {
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 	}
+	division = {
+		name = "11th Infantry Division 'Ogowe'"
+		location = 8207
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "12th Infantry Division 'Dualla'"
+		location = 2080
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
 }
 
 air_wings = {
 	### Congolese Air Force (CAF) ###
 	70 = {
-		fighter_equipment_0 =  { owner = "COG" amount = 30 }				
+		fighter_equipment_0 =  { owner = "COG" amount = 60 }				
 		}
 }
 
