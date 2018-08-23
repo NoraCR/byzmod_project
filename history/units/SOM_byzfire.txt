@@ -1,6 +1,6 @@
 ﻿##### Division Templates #####
 division_template = {
-	name = "Qeybta Lugta"	#Standard infantry division	
+	name = "Infantry Division"	#Standard infantry division	
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -17,7 +17,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Qeybta Buurta" #mountain infantry				
+	name = "Mountain Infantry Division" #mountain infantry				
 	regiments = {
 		mountaineers = { x = 0 y = 0 }			
 		mountaineers = { x = 0 y = 1 }
@@ -32,7 +32,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Qeybta Iyo Awr" #Cavalry Brigade 		
+	name = "Cavalry Brigade" #Cavalry Brigade 		
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -45,7 +45,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Qeybta Baabuurita" #motorized infantry brigade, they have some of these because of their automotive industry				
+	name = "Motorized Infantry Division" #motorized infantry brigade, they have some of these because of their automotive industry				
 	regiments = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
@@ -59,7 +59,7 @@ division_template = {
 	priority = 2
 }
 division_template = {
-	name = "Qeybta Ilaaliye" ##Colonial garrisons, mainly for SW Africa			
+	name = "Colonial Garrison" ##Colonial garrisons, mainly for SW Africa			
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -80,7 +80,7 @@ units = {
 	division= {	
 		name = "1st Infantry Division"
 		location = 12991 #Mogadishu
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -89,7 +89,7 @@ units = {
 	division= {	
 		name = "2nd Infantry Division"
 		location = 12991 #Mogadishu
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -98,7 +98,7 @@ units = {
 	division= {	
 		name = "3rd Infantry Division"
 		location = 12991 #Mogadishu
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -107,7 +107,7 @@ units = {
 	division= {	
 		name = "1st Cavalry Brigade"
 		location = 12991
-		division_template = "Qeybta Iyo Awr" 	
+		division_template = "Cavalry Brigade" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -116,7 +116,7 @@ units = {
 	division= {	
 		name = "1st Armored Brigade"
 		location = 1130
-		division_template = "Qeybta Baabuurita" 	
+		division_template = "Motorized Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -124,14 +124,14 @@ units = {
 	division= {	
 		name = "2nd Cavalry Brigade"
 		location = 8094
-		division_template = "Qeybta Iyo Awr"	
+		division_template = "Cavalry Brigade"	
 		start_experience_factor = 0.3
 
 	}
 	division= {	
 		name = "5th Cavalry Brigade"
 		location = 8094
-		division_template = "Qeybta Iyo Awr"
+		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.3
 
 	}
@@ -139,42 +139,42 @@ units = {
 	division = {
 		name = "11th 'Itoobiya' Mountain Brigade"
 		location = 5010 #Addis Ababa
-		division_template = "Qeybta Buurta"			
+		division_template = "Mountain Infantry Division"			
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "12th Mountain Brigade"
 		location = 5010
-		division_template = "Qeybta Buurta"			
+		division_template = "Mountain Infantry Division"			
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "13th Mountain Brigade"
 		location = 5010
-		division_template = "Qeybta Buurta"			
+		division_template = "Mountain Infantry Division"			
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "31st Infantry Division"
 		location = 7980 #Harar
-		division_template = "Qeybta Lugta"	
+		division_template = "Infantry Division"	
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "32nd Infantry 'Boqor Sulaymaan' Division"
 		location = 7980 #Harar
-		division_template = "Qeybta Lugta"	
+		division_template = "Infantry Division"	
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "33rd Infantry Division"
 		location = 7980 #Harar
-		division_template = "Qeybta Lugta"	
+		division_template = "Infantry Division"	
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
@@ -182,42 +182,42 @@ units = {
 	division= {	
 		name = "26th Infantry Division"
 		location = 12766
-		division_template = "Qeybta Lugta"	
+		division_template = "Infantry Division"	
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "30th Infantry Division"
 		location = 12766
-		division_template = "Qeybta Lugta"	
+		division_template = "Infantry Division"	
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "5th Mountain Division"
 		location = 12766
-		division_template = "Qeybta Buurta"
+		division_template = "Mountain Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "27th Infantry Division"
 		location = 8043
-		division_template = "Qeybta Lugta"	
+		division_template = "Infantry Division"	
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "5th Infantry Division"
 		location = 8043
-		division_template = "Qeybta Lugta"	
+		division_template = "Infantry Division"	
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "4th Cavalry Brigade"
 		location = 8043
-		division_template = "Qeybta Iyo Awr" 	
+		division_template = "Cavalry Brigade" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -227,7 +227,7 @@ units = {
 	division= {	
 		name = "10th Infantry Division"
 		location = 4985 #Djibouti
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -236,7 +236,7 @@ units = {
 	division= {	
 		name = "12th Infantry Division"
 		location = 4985 
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -245,7 +245,7 @@ units = {
 	division= {	
 		name = "7th Cavalry Brigade"
 		location = 8124
-		division_template = "Qeybta Iyo Awr" 	
+		division_template = "Cavalry Brigade" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -255,7 +255,7 @@ units = {
 	division= {	
 		name = "13th Infantry Division"
 		location = 4076 #Alexandria
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -264,7 +264,7 @@ units = {
 	division= {	
 		name = "15th 'Marsa' Infantry Division"
 		location = 4076
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -273,7 +273,7 @@ units = {
 	division= {	
 		name = "22nd Cavalry Brigade"
 		location = 4076
-		division_template = "Qeybta Iyo Awr" 	
+		division_template = "Cavalry Brigade" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -282,7 +282,7 @@ units = {
 	division= {	
 		name = "19th Infantry Division"
 		location = 7011 #Cairo
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -291,7 +291,7 @@ units = {
 	division= {	
 		name = "22nd Infantry Division"
 		location = 7011
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -300,7 +300,7 @@ units = {
 	division= {	
 		name = "23rd Infantry Division"
 		location = 10073
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -309,7 +309,7 @@ units = {
 	division= {	
 		name = "24th Infantry Division"
 		location = 7011
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -318,7 +318,7 @@ units = {
 	division= {	
 		name = "23rd Armored Brigade"
 		location = 7011
-		division_template = "Qeybta Baabuurita" 	
+		division_template = "Motorized Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_equipment_factor = 0.5
 
@@ -326,7 +326,7 @@ units = {
 	division= {	
 		name = "9th 'Badda Cas' Infantry Division"
 		location = 1155 #Suez Canal
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -335,7 +335,7 @@ units = {
 	division= {	
 		name = "14th 'Nile' Infantry Division"
 		location = 12044 #Aswan
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -344,7 +344,7 @@ units = {
 	division= {	
 		name = "13th Infantry Division"
 		location = 12044 #Aswan
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -353,7 +353,7 @@ units = {
 	division= {	
 		name = "27th 'Baadiyaha' Cavalry Brigade"
 		location = 12044
-		division_template = "Qeybta Iyo Awr" 	
+		division_template = "Cavalry Brigade" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -363,7 +363,7 @@ units = {
 	division= {	
 		name = "35th Infantry Division"
 		location = 12806 #Khartoum
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -372,7 +372,7 @@ units = {
 	division= {	
 		name = "36th 'Sudan' Infantry Division"
 		location = 12806 #Khartoum
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -381,7 +381,7 @@ units = {
 	division= {	
 		name = "37th Infantry Division"
 		location = 12806 #Khartoum
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -390,7 +390,7 @@ units = {
 	division= {	
 		name = "39th 'Bur Sudan' Infantry Division"
 		location = 12725 #Port Sudan
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -399,7 +399,7 @@ units = {
 	division= {	
 		name = "99th Armored Brigade"
 		location = 2046
-		division_template = "Qeybta Baabuurita" 	
+		division_template = "Motorized Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -408,7 +408,7 @@ units = {
 	division= {	
 		name = "Juba Colonial Garrison"	
 		location = 1953 #South Sudan
-		division_template = "Qeybta Ilaaliye" 	# Colonial unit, reserve equipment
+		division_template = "Colonial Garrison" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -418,7 +418,7 @@ units = {
 	division= {	
 		name = "Benghasi Garrison"
 		location = 11954
-		division_template = "Qeybta Ilaaliye" 	# Miltia unit, reserve equipment
+		division_template = "Colonial Garrison" 	# Miltia unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -427,7 +427,7 @@ units = {
 	division= {	
 		name = "Tobruk Militia"
 		location = 1130
-		division_template = "Qeybta Ilaaliye" 	# Miltia unit, reserve equipment
+		division_template = "Colonial Garrison" 	# Miltia unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -436,7 +436,7 @@ units = {
 	division= {	
 		name = "33rd Armored Brigade"
 		location = 1130
-		division_template = "Qeybta Baabuurita" 	
+		division_template = "Motorized Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -446,7 +446,7 @@ units = {
 	division= {	
 		name = "Buganda Brigade"
 		location = 7088
-		division_template = "Qeybta Ilaaliye" 	# Colonial unit, reserve equipment
+		division_template = "Colonial Garrison" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -455,7 +455,7 @@ units = {
 	division= {	
 		name = "Bunyoro-Kitara Brigade"
 		location = 12989
-		division_template = "Qeybta Ilaaliye" 	# Colonial unit, reserve equipment
+		division_template = "Colonial Garrison" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -464,7 +464,7 @@ units = {
 	division= {	
 		name = "8th Infantry Division"
 		location = 12989
-		division_template = "Qeybta Lugta" 	
+		division_template = "Infantry Division" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -474,7 +474,7 @@ units = {
 	division= {	
 		name = "Namib Brigade"
 		location = 10978
-		division_template = "Qeybta Ilaaliye" 	# Colonial unit, reserve equipment
+		division_template = "Colonial Garrison" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -483,7 +483,7 @@ units = {
 	division= {	
 		name = "Zambezi Brigade"
 		location = 1580
-		division_template = "Qeybta Ilaaliye" 	# Colonial unit, reserve equipment
+		division_template = "Colonial Garrison" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -492,7 +492,7 @@ units = {
 	division= {	
 		name = "Gauteng Brigade"	
 		location = 10400
-		division_template = "Qeybta Ilaaliye" 	# Colonial unit, reserve equipment
+		division_template = "Colonial Garrison" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -501,7 +501,7 @@ units = {
 	division= {	
 		name = "Sotho Colonial Garrison"	
 		location = 10400
-		division_template = "Qeybta Ilaaliye" 	# Colonial unit, reserve equipment
+		division_template = "Colonial Garrison" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOM" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3

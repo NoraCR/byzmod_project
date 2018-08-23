@@ -139,7 +139,7 @@ units = {
 
 	}
 	division = {
-		name = "1 Nanking Jingbei"
+		name = "1 Nanking Zhujun"
 		location = 11913
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3		
@@ -147,29 +147,37 @@ units = {
 
 	}
 	division = {
-		name = "2 Nanking Jingbei"
+		name = "2 Nanking Zhujun"
 		location = 11913
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3		
 		start_equipment_factor = 0.7
 	}
 	division = {
-		name = "3 Nanking Jingbei"
+		name = "3 Nanking Zhujun"
 		location = 11913
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3		
 		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "4 Nanking Jingbei"
+		name = "4 Nanking Zhujun"
 		location = 11913
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3		
 		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "Qingdao Jingbei"
+		name = "Qingdao Zhujun"
 		location = 10000
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3	
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Yantai-Weihai Zhujun"
+		location = 4205
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3	
 		start_equipment_factor = 0.5
@@ -200,7 +208,7 @@ units = {
 
 	}	
 	division = {
-		name = "Di 117 Jingbei"
+		name = "Di 117 Zhujun"
 		location = 4091
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3		
@@ -208,7 +216,7 @@ units = {
 
 	}
 	division = {
-		name = "Di 118 Jingbei"
+		name = "Di 118 Zhujun"
 		location = 4091
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3		
@@ -216,7 +224,7 @@ units = {
 
 	}
 	division = {
-		name = "Di 119 Jingbei"
+		name = "Di 119 Zhujun"
 		location = 4091
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3		
@@ -398,23 +406,73 @@ units = {
 
 	}
 
-##Fujian Coastal Garrisons
+##Coastal Garrisons
 	division = {
-		name = "Di 1 Fujian Jingbei"
+		name = "Di 1 Zhejiang Zhujun"
 		location = 9974
 		division_template = "Bubingshi"	
 		start_equipment_factor = 0.7
 
 	}
 	division = {
-		name = "Di 2 Fujian Jingbei"
+		name = "Di 2 Zhejiang Zhujun"
+		location = 1055
+		division_template = "Bubingshi"	
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 3 Zhejiang Zhujun"
+		location = 7191
+		division_template = "Bubingshi"	
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 1 Fujian Zhujun"
 		location = 4169
 		division_template = "Bubingshi"	
 		start_equipment_factor = 0.7
 
 	}
 	division = {
-		name = "Di 3 Fujian Jingbei"
+		name = "Di 2 Fujian Zhujun"
+		location = 4196
+		division_template = "Bubingshi"	
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 3 Fujian Zhujun"
+		location = 7071
+		division_template = "Bubingshi"	
+		start_equipment_factor = 0.7
+
+	}
+##Pearl River Garrisons
+	division = {
+		name = "Di 1 Guangzhou Zhujun"
+		location = 1047
+		division_template = "Bubingshi"	
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 2 Guangzhou Zhujun 'Xianggang'"
+		location = 10062
+		division_template = "Bubingshi"	
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 3 Guangzhou Zhujun 'Aomen'"
+		location = 4189
+		division_template = "Bubingshi"	
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Di 5 Guangzhou Zhujun"
 		location = 4196
 		division_template = "Bubingshi"	
 		start_equipment_factor = 0.7
@@ -1062,8 +1120,17 @@ units = {
 		ship = { name = "CNS Q13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Q14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Q15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
-		ship = { name = "CNS Q16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }	
+		ship = { name = "CNS Q16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Q25" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }	
+		ship = { name = "CNS Q26" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }	
+		ship = { name = "CNS Q27" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }	
+		ship = { name = "CNS Q28" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }	
+		ship = { name = "CNS Q29" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }	
+		ship = { name = "CNS Q30" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }	
+		ship = { name = "CNS Q31" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }	
+		ship = { name = "CNS Q32" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }			
 	}
+	
 }
 ### Air Forces ###
 air_wings = {
@@ -1075,7 +1142,7 @@ air_wings = {
 	#Shanghai
 	613 = {
 		fighter_equipment_0 = { owner = "CHI" amount = 72 } 		
-		tac_bomber_equipment_0 =  { owner = "CHI" amount = 100 }
+		tac_bomber_equipment_0 =  { owner = "CHI" amount = 60 }
 		ace={ # Order is important. Ace will be assigned to the wing above.
 				modifier="bomber_unique"
 				name="Xing"
@@ -1084,6 +1151,11 @@ air_wings = {
 				portrait=2 # 
 		}		
 	}
+	#Shandong
+	597 = { 
+		fighter_equipment_0 = { owner = "CHI" amount = 100 }
+		nav_bomber_equipment_1 =  { owner = "CHI" amount = 100 }
+	}
 	#Chongqing
 	605 = { 
 		fighter_equipment_0 = { owner = "CHI" amount = 100 }				
@@ -1091,11 +1163,20 @@ air_wings = {
 	#Liaodong
 	745 = {
 		fighter_equipment_0 = { owner = "CHI" amount = 72 } 		
+		tac_bomber_equipment_0 =  { owner = "CHI" amount = 60 }
+	}
+	#Guangzhou
+	593 = {
+		fighter_equipment_0 = { owner = "CHI" amount = 100 } 		
 		tac_bomber_equipment_0 =  { owner = "CHI" amount = 100 }
 	}
 	#Singapore
 	336 = {
 		fighter_equipment_0 = { owner = "CHI" amount = 100 }
+	}
+	#Mongolia
+	336 = {
+		fighter_equipment_0 = { owner = "CHI" amount = 24 }
 	}
 }
 

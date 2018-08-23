@@ -2572,6 +2572,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			country_event = { id = byz.502 }
 			add_ideas = BYZ_state_political_secretariat
 		}
 	}
