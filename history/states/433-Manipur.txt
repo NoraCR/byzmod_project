@@ -16,6 +16,9 @@ state={
 		owner = MRT
 		add_core_of = MRT
 		add_core_of = RAJ
+		victory_points = {
+			1908 1 
+		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2

@@ -130,7 +130,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Louis VIII de Valois-Vexin"
-	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
+	desc = "POLITICS_LOUIS_VIII_DESC"
 	picture = "fra_louis_de_valois_vexin.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
@@ -141,7 +141,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Lucienne Marais"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	desc = "POLITICS_LUCIENNE_MARAIS_DESC"
 	picture = "fra_lucienne_marais.dds"
 	expire = "1965.1.1"
 	ideology = objectivism
@@ -151,8 +151,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kevin Vaugrenard"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	name = "Kévin Vaugrenard"
+	desc = "POLITICS_KEVIN_VAUGRENARD"
 	picture = "fra_kevin_vaugrenard.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -163,7 +163,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Jocelyne Rodier"
-	desc = "POLITICS_MAURICE_THOREZ_DESC"
+	desc = "POLITICS_JOCELYNE_RODIER_DESC"
 	picture = "fra_jocelyne_rodier.dds"
 	expire = "1965.1.1"
 	ideology = 	leninism
@@ -174,7 +174,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Valeria Postuma"
-	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
+	desc = "POLITICS_VALERIA_POSTUMA_DESC"
 	picture = "fra_valeria_postuma.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

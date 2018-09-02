@@ -10,6 +10,7 @@ state= {
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
+			air_base = 5
 			dockyard = 3
 			7071 = {
 				naval_base = 1
@@ -23,10 +24,13 @@ state= {
 			}
 		}
 		victory_points = { 
-			4196 3 
+			4196 5 
 		}
 		victory_points = { 
 			7071 1 
+		}
+		victory_points = {
+			7027 1
 		}
 
 		1938.10.25 = {		

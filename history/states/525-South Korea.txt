@@ -22,6 +22,9 @@ state=
 			4056 10 
 		}
 		victory_points = {
+			12089 1 
+		}
+		victory_points = {
 			7125 30 
 		}
 

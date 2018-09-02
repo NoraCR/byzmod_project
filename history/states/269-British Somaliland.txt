@@ -19,6 +19,12 @@ state=
 				naval_base = 10
 			}
 		}
+		victory_points = {
+			10921 1
+		}
+		victory_points = {
+			10833 1
+		}
 	}
 	provinces={
 		1905 5068 8094 10777 10833 10921 12759 12814

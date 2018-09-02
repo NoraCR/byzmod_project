@@ -11237,13 +11237,13 @@ news_event = {
 	option = {
 		name = news.704.a
 		trigger = {
-			has_government = communism
+			has_government = fascism
 		}
 	}
 	option = {
 		name = news.704.b
 		trigger = {
-			has_government = fascism
+			has_government = communism
 			}
 		}
 	option = {

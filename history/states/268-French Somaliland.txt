@@ -9,6 +9,9 @@ state={
 	history={
 		owner = SOM
 		add_core_of = SOM
+		victory_points = {
+			8124 5
+		}
 		buildings = {
 			infrastructure = 8
 			arms_factory = 4

@@ -88,7 +88,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Kunigunde I von Starschedel"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
+	desc = "POLITICS_KUNIGUNDE_VON_STARSCHEDEL_DESC"
 	picture = "ger_kunigunde_von_starschedel.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -99,7 +99,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Paul Meier"
-	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	desc = "POLITICS_PAUL_MEIER_DESC"
 	picture = "ger_paul_meier.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -110,7 +110,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Niklaus I von Kotzau"
-	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	desc = "POLITICS_NIKLAUS_VON_KOTZAU_DESC"
 	picture = "ger_paul_meier.dds"
 	expire = "1965.1.1"
 	ideology = moderatism
@@ -120,7 +120,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Maria Hoffman"
-	desc = "POLITICS_WILHELM_PIECK_DESC"
+	desc = "POLITICS_MARIA_HOFFMAN_DESC"
 	picture = "ger_maria_hoffman.dds"
 	expire = "1965.1.1"
 	ideology = leninism

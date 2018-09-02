@@ -2519,10 +2519,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-			custom_effect_tooltip = embargo_lenape_tt
-			hidden_effect = {
 				NEN = { add_opinion_modifier =  { target = AYI modifier = embargo } }
-			}
 		}
 	}
 	focus = {

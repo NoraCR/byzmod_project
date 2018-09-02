@@ -44,7 +44,24 @@ ideas = {
 				planning_speed = -0.25
 			}
 		}
-		
+		BYZ_electoral_supermajority = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 1
+			}
+		}
 		BYZ_home_of_the_revolution = {
 			allowed = {
 				always = no

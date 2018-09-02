@@ -72,7 +72,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Liu Kesan"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+	desc = "POLITICS_LIU_KESAN_DESC"
 	picture = "akh_liu_kesan.dds"
 	expire = "1965.1.1"
 	ideology = shanghai_school_economics
@@ -82,8 +82,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hu Anliang I"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+	name = "Hu Anliang"
+	desc = "POLITICS_HU_ANLIANG_DESC"
 	picture = "Portrait_China_Chiang_Kai_Shek.dds"
 	expire = "1965.1.1"
 	ideology = moderatism
@@ -93,11 +93,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Chang Zi-Ping"
-	desc = "POLITICS_MAO_ZEDONG_DESC"
+	name = "Chang Ziping"
+	desc = "POLITICS_CHANG_ZIPING_DESC"
 	picture = "Portrait_China_Mao_Zedong.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = leninism
 	traits = {
 		cornered_fox
 	}
@@ -105,7 +105,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Hu Fuxiang IV"
-	desc = "POLITICS_WANG_JINGWEI_DESC"
+	desc = "POLITICS_HU_FUXIANG_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1965.1.1"
 	ideology = rexism
@@ -116,7 +116,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Enver Chagaev"
-	desc = "POLITICS_ZHANG_LAN_DESC"
+	desc = "POLITICS_ENVER_CHAGAEV_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

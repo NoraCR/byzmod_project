@@ -266,6 +266,7 @@ units = {
 
 	}			
 	# VI Army Corps #
+	# Ireland
 	division= {			
 		name = "Graduate Student Union 3001"		
 		location = 11293
@@ -273,7 +274,16 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
 
-	}			
+	}
+	# Hungary
+	division= {			
+		name = "IWM Local 18"		
+		location = 9660
+		division_template = "Red Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+
+	}
 	division= {			
 		name = "Ecclesiastic Union Local 42"		
 		location = 819

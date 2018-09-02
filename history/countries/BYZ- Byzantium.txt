@@ -93,7 +93,7 @@ set_politics = {
 	
 	ruling_party = communism
 	last_election = "1934.11.8"
-	election_frequency = 48
+	election_frequency = 60
 	elections_allowed = yes
 }
 
@@ -120,18 +120,18 @@ add_to_faction = PAN
 
 create_country_leader = {
 	name = "Iouliana Erdemir"
-	desc = ""
+	desc = "POLITICS_IOULIANA_ERDEMIR_DESC"
 	picture = "byz_iouliana_erdebir.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-		camarilla_leader
+		coalition_builder
 	}
 }
 
 create_country_leader = {
 	name = "Alexius VI Valerianus"
-	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	desc = "POLITICS_ALEXIUS_VI_VALERIANUS_DESC"
 	picture = "byz_fascism.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -142,7 +142,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Artemis Milenova"
-	desc = "POLITICS_EARL_BROWDER_DESC"
+	desc = "POLITICS_ARTEMIS_MILENOVA_DESC"
 	picture = "byz_leader_democracy.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -153,7 +153,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Stephanos I Altuntekin"
-	desc = "POLITICS_EARL_BROWDER_DESC"
+	desc = "POLITICS_STEPHANOS_I_ALTUNTEKIN_DESC"
 	picture = "byz_leader_neutral.dds"
 	expire = "1965.1.1"
 	ideology = centrism
@@ -164,7 +164,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Nicola Morosini"
-	desc = "POLITICS_EARL_BROWDER_DESC"
+	desc = "POLITICS_NICOLA_MOROSINI_DESC"
 	picture = "byz_nicola_morosini.dds"
 	expire = "1965.1.1"
 	ideology = shanghai_school_economics
@@ -219,7 +219,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Zenobia Stanotas"
+	name = "Zenobia Stanota"
 	picture = "bzy_general_isidora_straikopoula.tga"
 	traits = { old_guard trait_engineer }
 	skill = 4

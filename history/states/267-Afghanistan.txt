@@ -20,6 +20,7 @@ state={
 		}
 		add_core_of = CHI
 		add_core_of = AFG
+		add_core_of = MRT
 	}
 
 	provinces={

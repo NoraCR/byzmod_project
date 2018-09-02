@@ -82,7 +82,7 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-		division = {
+	division = {
 		name = "8 Alfurqat"
 		location = 2097 #Baghdad
 		division_template = "Alfurqat Almasha"	
@@ -90,7 +90,7 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-		division = {
+	division = {
 		name = "9 Alfurqat"
 		location = 10106 #Mosul
 		division_template = "Alfurqat Almasha"	
@@ -98,9 +98,33 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-		division = {
+	division = {
 		name = "10 Alfurqat"
 		location = 4111 #Damascus
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "11 Alfurqat"
+		location = 2089 #Basrah
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "12 Alfurqat"
+		location = 2089 #Basrah
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "13 Alfurqat"
+		location = 7151 #Amman
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7

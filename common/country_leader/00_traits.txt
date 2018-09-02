@@ -297,7 +297,7 @@ leader_traits = {
 		}
 	}
 
-	camarilla_leader = {
+	coalition_builder = {
 		random = no
 		political_advisor_cost_factor = -0.25
 		trade_laws_cost_factor = -0.25

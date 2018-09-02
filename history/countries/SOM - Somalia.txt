@@ -84,7 +84,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Xuseen Mohamed"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	desc = "POLITICS_XUSHEEN_MOHAMED_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
 	expire = "1959.1.1"
 	ideology = liberalism
@@ -95,7 +95,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Kulane Muzzafar"
-	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	desc = "POLITICS_KULANE_KAZZAFAR_DESC"
 	picture = "Portrait_USA_William_Dudley_Pelley.dds"
 	expire = "1965.1.1"
 	ideology = falangism
@@ -106,7 +106,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Gerad Ahmed"
-	desc = "POLITICS_EARL_BROWDER_DESC"
+	desc = "POLITICS_GERAD_AHMED_DESC"
 	picture = "som_gerad_ahmed.dds"
 	expire = "1965.1.1"
 	ideology = marxism
@@ -117,7 +117,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Adey Walashma"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+	desc = "POLITICS_ADEY_WALASHMA_DESC"
 	picture = "som_pan_adey_walashma.dds"
 	expire = "1965.1.1"
 	ideology = corpocracy

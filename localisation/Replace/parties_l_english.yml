@@ -510,6 +510,8 @@ l_english:
  ISR_neutrality_party:0 "Central Council"
  BYZ_communism_party_long:0 "Athens Commune, Irenic Tendency"
  BYZ_communism_party:0 "Athens Commune"
+ BYZ_labour_party:0 "Labour Party"
+ BYZ_labour_party_long:0 "Labour Party"
  BYZ_mullerist_party:0 "CPB"
  BYZ_mullerist_party_long:0 "Communist Party of Byzantium"
  BYZ_democratic_party:0 "ARTEMIS"

@@ -41,7 +41,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 100
+			popularity = 60
 		}
 
 		fascism = {
@@ -50,7 +50,7 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 40
 		}
 		
 		neutrality = { 
@@ -73,7 +73,7 @@ set_convoys = 100
 
 create_country_leader = {
 	name = "Azim Derya"
-	desc = "POLITICS_ISMET_INÖNÜ_DESC"
+	desc = "POLITICS_AZIM_DERYA_DESC"
 	picture = "azb_azim_derya.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -84,7 +84,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Eldar Zeynallu Reis"
-	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
+	desc = "POLITICS_ELDAR_ZEYNALLU_REIS_DESC"
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
 	expire = "1968.11.10"
 	ideology = despotism
@@ -95,7 +95,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Atabala Urxanoğlu"
-	desc = "POLITICS_SEFIK_HUSNU_DESC"
+	desc = "POLITICS_ATABALA_URXANOGLU_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = marxism
@@ -106,7 +106,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Tamara Teymurçinqizi" #female
-	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
+	desc = "POLITICS_TAMARA_TEYMURCINQIZI_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -116,7 +116,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Muxtar Abulheseinli"
-	desc = "POLITICS_SEFIK_HUSNU_DESC"
+	desc = "POLITICS_MUXTAR_ABULHESEINLI_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = shanghai_school_economics

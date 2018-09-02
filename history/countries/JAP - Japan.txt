@@ -104,7 +104,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Kujo Nariaki"
-	desc = "POLITICS_Hirohito_DESC"
+	desc = "POLITICS_KUJO_NARIAKI_DESC"
 	picture = "jap_kujo_nariaki.dds"
 	expire = "1989.1.1"
 	ideology = fascism_ideology
@@ -115,7 +115,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Masaoka Natsuko"
-	desc = ""
+	desc = "POLITICS_MASAOKA_NATSUKO_DESC"
 	picture = "jap_masaoka_natsuko.dds"
 	expire = "1989.1.1"
 	ideology = liberalism
@@ -126,7 +126,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Murakami Emiko"
-	desc = ""
+	desc = "POLITICS_MURAKAMI_EMIKO_DESC"
 	picture = "jap_murakami_emiko.dds"
 	expire = "1989.1.1"
 	ideology = marxism
@@ -134,7 +134,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Aozora Norio"
-	desc = ""
+	desc = "POLITICS_AOZORA_NORIO_DESC"
 	picture = "jap_norio_aozora.dds"
 	expire = "1989.1.1"
 	ideology = shanghai_school_economics

@@ -23,17 +23,15 @@ state=
 			5010 5 
 		}
 		victory_points = { 
-			1984 1.0 
+			1984 1
 		}
 		victory_points = { 
-			7980 1.0 
+			7980 1
+		}
+		victory_points = {
+			12812 1
 		}
 		add_core_of = SOM
-
-		1936.6.1 = {
-			owner = ITA
-			controller = ITA
-		}
 	}
 
 	provinces=

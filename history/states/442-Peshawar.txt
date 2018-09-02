@@ -12,8 +12,12 @@ state={
 			infrastructure = 3
 			air_base = 3
 		}
+		victory_points = {
+			12717 1
+		}
 		add_core_of = AFG
 		add_core_of = CHI
+		add_core_of = MRT
 
 	}
 

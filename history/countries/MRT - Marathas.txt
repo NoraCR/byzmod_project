@@ -72,18 +72,18 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Rishma Sharqi" #female
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	desc = "POLITICS_RISHMA_SHARQI_COM_DESC"
 	picture = "mrt_rishma_sharqi.tga"
 	expire = "1953.3.1"
 	ideology = stalinism
-	traits = {
+	traits = 
 		cornered_fox
 	}
 }
 
 create_country_leader = {
 	name = "Rishma Sharqi"
-	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
+	desc = "POLITICS_RISHMA_SHARQI_FAS_DESC"
 	picture = "mrt_rishma_sharqi.tga"
 	expire = "1953.3.1"
 	ideology = fascism_ideology
@@ -94,7 +94,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Rishma Sharqi" #female
-	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	desc = "POLITICS_RISHMA_SHARQI_DEM_DESC"
 	picture = "mrt_rishma_sharqi.tga"
 	expire = "1953.3.1"
 	ideology = socialism
@@ -104,7 +104,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Rishma Sharqi"
-	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	desc = "POLITICS_RISHMA_SHARQI_PAN_DESC"
 	picture = "mrt_rishma_sharqi.tga"
 	expire = "1953.3.1"
 	ideology = shanghai_school_economics
@@ -114,7 +114,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Rishma Sharqi"
-	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	desc = "POLITICS_RISHMA_SHARQI_NEU_DESC"
 	picture = "mrt_rishma_sharqi.tga"
 	expire = "1953.3.1"
 	ideology = despotism

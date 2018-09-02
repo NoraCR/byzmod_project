@@ -80,7 +80,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Ese'he Ohnesesestse"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	desc = "POLITICS_ESEHE_OHNESESESTSE_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
 	expire = "1967.1.1"
 	ideology = liberalism
@@ -88,7 +88,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Tamanaco Jatibonu"
-	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	desc = "POLITICS_TAMANACO_JATIBONU_DESC"
 	picture = "Portrait_USA_William_Dudley_Pelley.dds"
 	expire = "1965.1.1"
 	ideology = falangism
@@ -99,7 +99,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Mayneri Nitaino"
-	desc = "POLITICS_EARL_BROWDER_DESC"
+	desc = "POLITICS_MAYNERI_NITAINO_DESC"
 	picture = "ayi_mayneri_nitaino.dds"
 	expire = "1965.1.1"
 	ideology = marxism
@@ -109,7 +109,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Matho Wathakpe Sihasapa"
-	desc = "POLITICS_EARL_BROWDER_DESC"
+	desc = "POLITICS_MATHO_WATHAKPE_SIHASAPA_DESC"
 	picture = "Portrait_USA_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = cacicazgo
@@ -119,7 +119,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Wamada Yunruguou"
-	desc = "POLITICS_EARL_BROWDER_DESC"
+	desc = "POLITICS_WAMADA_YUNRUGUOU_DESC"
 	picture = "Portrait_USA_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = despotism

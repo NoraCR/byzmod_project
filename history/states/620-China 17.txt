@@ -11,11 +11,14 @@ state=
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 8
-			arms_factory = 1
-			industrial_complex = 1
+			arms_factory = 2
+			industrial_complex = 3
 		}
 		victory_points = { 
 			4619 5
+		}
+		victory_points = { 
+			1612 1
 		}
 
 		1938.10.25 = {		
