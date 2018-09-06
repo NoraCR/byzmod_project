@@ -25,12 +25,11 @@
 GER_unit_production = {
 	enable = {
 		original_tag = GER
+		date > 1936.1.1
 	}
 	abort = {
 		always = no
 	}
-	
-	date > 1939.1.1
 	
 	ai_strategy = {
 		type = role_ratio

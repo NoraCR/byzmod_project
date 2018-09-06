@@ -20,6 +20,10 @@ set_technology = {
 
 set_research_slots = 3
 
+add_ideas = {
+	extensive_conscription
+}
+
 set_politics = {
 
 	parties = {

@@ -1170,7 +1170,7 @@ air_wings = {
 		tac_bomber_equipment_0 =  { owner = "CHI" amount = 60 }
 	}
 	#Guangzhou
-	593 = {
+	592 = {
 		fighter_equipment_0 = { owner = "CHI" amount = 100 } 		
 		tac_bomber_equipment_0 =  { owner = "CHI" amount = 100 }
 	}
