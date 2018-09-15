@@ -1,5 +1,25 @@
 ideas = {
 	country = {
+		CHI_the_empress_in_her_palace = {
+			
+			allowed = {
+				original_tag = CHI
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_king_handled
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+
+		}
 		CHI_complacent_hegemon = {
 			
 			allowed = {

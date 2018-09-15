@@ -39,7 +39,218 @@ country_event = {
 		}
 	}
 }
+# First response to Marathan border incident
+country_event = {
+	id = china.2
+	title = china.2.t
+	desc = china.2.d
+	picture = GFX_report_event_nra_march
+	
+	is_triggered_only = yes
+	
+	option = { # Demand modest compensation
+		name = china.2.a
+		ai_chance = { 
+			factor = 85 
+			modifier = {
+				factor = 0.25
+				has_war = yes
+			}		
+		}
+		add_stability = 0.02
+		add_war_support = 0.02
+		MRT = {
+			country_event = { id = marathas.4 hours = 12 }
+		}
+	}
+	option = { # Let it go, we're too busy
+		name = china.2.b
+		ai_chance = { 
+		factor = 15
+		modifier = {
+			factor = 20
+				has_war = yes
+			}		
+		}
+		add_war_support = -0.01
+	}
+}
+# Marathans pay compensation
+country_event = {
+	id = china.3
+	title = china.3.t
+	desc = china.3.d
+	picture = GFX_report_event_nra_march
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = china.3.a
+		add_stability = 0.04
+		add_political_power = 50
+	}
+}
+# Marathans refuse
+country_event = {
+	id = china.4
+	title = china.4.t
+	desc = china.4.d
+	picture = GFX_report_event_nra_march
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = china.4.a
+		ai_chance = { factor = 25 }
+		MRT = {
+			effect_tooltip = {
+				add_stability = 0.05
+			}
+			country_event = { days = 1 id = marathas.5 }
+		}
+		add_political_power = -50
+	}
+	option = {
+		name = china.4.b
+		ai_chance = { factor = 75 }
+		add_political_power = -25
+		hidden_effect = {
+			random_list = {
+				55 = {
+					MRT = {
+						country_event = { days = 1 id = marathas.6 }
+					}
+				}
+				45 = {
+					MRT = {
+						country_event = { days = 1 id = marathas.7 }
+					}
+				}
+			}
+		}
+		effect_tooltip = {
+			random_list = {
+				60 = {
+					country_event = china.5
+				}
+				40 = {
+					country_event = china.6
+				}
+			}
+		}
+	}
+}
+#Marathas Push, Win
+country_event = {
+	id = china.5
+	title = china.5.t
+	desc = china.5.d
+	picture = GFX_report_event_soviet_soldiers_tank
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = { 
+			415 = { 
+				OR = {
+					is_owned_by = CHI
+				} 
+				any_neighbor_state = { is_owned_by = MRT } }
+			} 
+			415 = { add_manpower = -30000 }
+		}		
+		if = {
+			limit = {
+				NOT = {
+					415 = {
+						OR = {
+							is_owned_by = CHI
+						}
+						any_neighbor_state = { is_owned_by = MRT } 
+					}
+				}
+			}
+			random_owned_state = {
+				limit = { any_neighbor_state = { is_owned_by = MRT } }
+				add_manpower = -30000
+			}
+		}
 
+		army_experience = 5
+		add_tech_bonus = {
+			name = china.5.t 
+			bonus = 0.5
+			uses = 1
+			category = cat_anti_tank
+		}
+		name = china.5.a
+		MRT = {
+			country_event = { id = marathas.6 }
+		}
+	}
+}
+# Marathans Fight Back, Lose
+country_event = {
+	id = china.6
+	title = china.6.t
+	desc = china.6.d
+	picture = GFX_report_event_japanese_soldiers_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = china.6.a
+		if = {
+			limit = { 
+			415 = { 
+				OR = {
+					is_owned_by = CHI						
+				}
+				any_neighbor_state = { is_owned_by = MRT } }
+			} 
+			415 = { add_manpower = -20000 }
+		}		
+		if = {
+			limit = {
+				NOT = {
+					415 = {
+						OR = {
+							is_owned_by = CHI						
+						}
+						any_neighbor_state = { is_owned_by = MRT } 
+					}
+				}
+			}
+			random_owned_state = {
+				limit = { any_neighbor_state = { is_owned_by = MRT } }
+				add_manpower = -20000
+			}
+		}
+		army_experience = 15	
+		MRT = {
+			country_event = { id = marathas.7 }
+		}
+	}
+}
+country_event = {
+	id = china.7
+	title = china.7.t
+	desc = china.7.d
+	picture = GFX_report_event_japanese_soldiers_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = china.7.a
+		create_wargoal = {
+			type = take_state
+			generator = { 445 }
+			target = MRT
+		}
+		add_state_core = 445
+	}
+}
 # Tibet is asked to join Ming
 country_event = {
 	id = china.300
@@ -191,28 +402,6 @@ country_event = {
 	}
 	option = {
 		name = china.306.a
-	}
-}
-#Afghan Partisans III - Qixi Rising
-country_event = {
-	id = china.307
-	title = china.307.t
-	desc = china.307.d
-	picture = GFX_report_event_generic_riot
-	fire_only_once = yes
-	trigger = {
-		date > 1941.8.29
-		tag = CHI
-		has_war = yes
-	}
-	mean_time_to_happen = {
-		days = 2
-	}
-	immediate = {
-		set_global_flag = china.307_fired 
-	}
-	option = {
-		name = china.307.a
 	}
 }
 #UPR coup attempt

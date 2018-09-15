@@ -146,7 +146,7 @@ news_event = {
 	}
 }
 
-# Soviet - Japanese Border Conflict (Soviets Win)
+# Sino-Marathi Border Conflict (Raid Successful)
 news_event = {
 	id = news.7
 	title = news.7.t
@@ -161,22 +161,22 @@ news_event = {
 		name = news.7.a
 		trigger = {
 			NOT = {
-				TAG = JAP
-				TAG = SOV
+				TAG = MRT
+				TAG = CHI
 			}
 		}
 	}
 	option = {
 		name = news.7.b
-		trigger = { TAG = JAP }
+		trigger = { TAG = MRT }
 	}
 	option = {
 		name = news.7.c
-		trigger = { TAG = SOV }
+		trigger = { TAG = CHI }
 	}
 }
 
-# Soviet - Japanese Border Conflict (Japanese Win)
+# Sino-Marathi Border Conflict (Chinese Victory)
 news_event = {
 	id = news.8
 	title = news.7.t
@@ -191,22 +191,22 @@ news_event = {
 		name = news.7.a
 		trigger = {
 			NOT = {
-				TAG = JAP
-				TAG = SOV
+				TAG = MRT
+				TAG = CHI
 			}
 		}
 	}
 	option = {
 		name = news.8.b
-		trigger = { TAG = JAP }
+		trigger = { TAG = MRT }
 	}
 	option = {
 		name = news.8.c
-		trigger = { TAG = SOV }
+		trigger = { TAG = CHI }
 	}
 }
 
-# Soviet - Japanese Border Conflict (Soviet Withdrawal)
+# Chinese - Marathi Border Conflict (Chinese Withdrawal)
 news_event = {
 	id = news.9
 	title = news.9.t
@@ -221,18 +221,18 @@ news_event = {
 		name = news.9.a
 		trigger = {
 			NOT = {
-				TAG = JAP
-				TAG = SOV
+				TAG = CHI
+				TAG = MRT
 			}
 		}
 	}
 	option = {
 		name = news.9.b
-		trigger = { TAG = JAP }
+		trigger = { TAG = MRT }
 	}
 	option = {
 		name = news.9.c
-		trigger = { TAG = SOV }
+		trigger = { TAG = CHI }
 	}
 }
 

@@ -53,3 +53,182 @@ country_event = {
 		name = marathas.2.a
 	}
 }
+# Afghan Border
+country_event = {
+	id = marathas.3
+	title = marathas.3.t
+	desc = marathas.3.d
+	picture = GFX_report_event_nra_march
+	fire_only_once = yes
+	trigger = {
+		country_exists = MRT
+		has_completed_focus = MRT_expand_the_sharqi_line
+	}
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = {
+		name = marathas.3.a
+		CHI = {
+			country_event = { id = china.2 hours = 72 }
+		}
+	}
+}
+#Chinese Demand Compensation
+country_event = {
+	id = marathas.4
+	title = marathas.4.t
+	desc = marathas.4.d
+	picture = GFX_report_event_nra_march
+	fire_only_once = yes
+	option = {
+		name = marathas.4.a
+		ai_chance = { factor = 45 }
+		CHI = {
+			country_event = { id = china.3 hours = 12 }
+		}
+	}
+	option = {
+		name = marathas.4.b
+		ai_chance = { factor = 45 }
+		CHI = {
+			country_event = { id = china.4 hours = 12 }
+		}
+	}
+	option = {
+		name = marathas.4.c
+		ai_chance = { factor = 10 }
+		CHI = {
+			country_event = { id = china.7 hours = 12 }
+		}
+	}
+}
+#Chinese Back Down
+country_event = {
+	id = marathas.5
+	title = marathas.5.t
+	desc = marathas.5.d
+	picture = GFX_report_event_soviet_soldiers_tank
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = marathas.5.a
+		add_war_support = 0.05
+		hidden_effect = {
+			country_event = { days = 5 id = news.9 }
+		}
+	}
+}
+# Successful Raid
+country_event = {
+	id = marathas.6
+	title = marathas.6.t
+	desc = marathas.6.d
+	picture = GFX_report_event_dead_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = marathas.6.a
+		if = {
+			limit = {
+				445 = { 
+					is_owned_by = MRT 
+					any_neighbor_state = { 
+						OR = {
+							is_owned_by = CHI									
+						}
+					} 
+				}
+			}
+			445 = { add_manpower = -30000 }
+		}		
+		if = {
+			limit = { 
+				NOT = { 
+					445 = { 
+						is_owned_by = MRT 
+						any_neighbor_state = { 
+							OR = {
+								is_owned_by = CHI
+							} 	
+						}
+					}
+				}
+			}
+			random_owned_state = {
+				limit = { 
+					any_neighbor_state = { 
+						OR = {
+							is_owned_by = CHI
+						}
+					} 
+				} 
+				add_manpower = -30000
+			}
+		}
+
+		army_experience = 10
+		hidden_effect = {
+			country_event = { days = 5 id = news.7 }
+		}
+	}
+}
+# Failed Raid
+country_event = {
+	id = marathas.7
+	title = marathas.7.t
+	desc = marathas.7.d
+	picture = GFX_report_event_dead_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				445 = { 
+					is_owned_by = MRT 
+					any_neighbor_state = { 
+						OR = {
+							is_owned_by = CHI						
+						} 
+					} 
+				}
+			}
+			445 = { add_manpower = -20000 }
+		}		
+		if = {
+			limit = { 
+				NOT = { 
+					561 = { 
+						is_owned_by = SOV 
+						any_neighbor_state = { 
+							OR = {
+								is_owned_by = CHI
+							}
+						}
+					}
+				}
+			}
+			random_owned_state = {
+				limit = { 
+					any_neighbor_state = { 
+						OR = {
+							is_owned_by = CHI
+						}
+					} 
+				}
+				add_manpower = -20000
+			}
+		}
+
+		add_political_power = -25
+		army_experience = 5
+		name = marathas.7.a
+		hidden_effect = {
+			country_event = { days = 5 id = news.8 }
+		}
+	}
+}

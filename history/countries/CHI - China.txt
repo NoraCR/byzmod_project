@@ -109,6 +109,7 @@ set_politics = {
 add_ideas = {
 	CHI_complacent_hegemon
 	CHI_government_corruption
+	CHI_the_empress_in_her_palace
 }
 
 create_country_leader = {

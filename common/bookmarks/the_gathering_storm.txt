@@ -45,6 +45,7 @@ bookmarks = {
 			ideas={
 				CHI_complacent_hegemon
 				CHI_government_corruption
+				CHI_the_empress_in_her_palace
 			}			
 		}
 		"JAP"={
