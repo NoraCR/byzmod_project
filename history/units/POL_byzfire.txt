@@ -156,7 +156,7 @@ units = {
 		location = 3485
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	division= {	
@@ -164,7 +164,7 @@ units = {
 		location = 3485
 		division_template = "Krolewski Dywizja Pancernej" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	division= {	
@@ -172,7 +172,7 @@ units = {
 		location = 3485
 		division_template = "Krolewski Dywizja Pancernej" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 
@@ -206,7 +206,7 @@ units = {
 		location = 6534
 		division_template = "Krolewski Husaria" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	division= {	
@@ -215,7 +215,7 @@ units = {
 		division_template = "Brygada Kawalerii" 
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 
@@ -241,7 +241,7 @@ units = {
 		location = 3553
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	division= {	
@@ -249,7 +249,7 @@ units = {
 		location = 3553
 		division_template = "Krolewski Artyleria" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 
@@ -267,7 +267,7 @@ units = {
 		location = 569
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	division= {	
@@ -275,7 +275,7 @@ units = {
 		location = 569
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	division= {	
@@ -283,7 +283,7 @@ units = {
 		location = 11511
 		division_template = "Brygada Kawalerii" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	division= {	
@@ -291,7 +291,7 @@ units = {
 		location = 11511
 		division_template = "Brygada Kawalerii" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 
@@ -326,7 +326,7 @@ units = {
 		division_template = "Brygada Kawalerii" 
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 
@@ -360,7 +360,7 @@ units = {
 		location = 3569
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 
@@ -378,7 +378,7 @@ units = {
 		location = 3569
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 
@@ -396,7 +396,7 @@ units = {
 		location = 11517
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	division= {	
@@ -405,7 +405,7 @@ units = {
 		division_template = "Brygada Kawalerii" 
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	division= {	
@@ -413,7 +413,7 @@ units = {
 		location = 6534
 		division_template = "Krolewski Artyleria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 
@@ -431,7 +431,7 @@ units = {
 		location = 421
 		division_template = "Krolewski Polska Piechota"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 

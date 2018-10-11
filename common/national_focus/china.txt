@@ -162,6 +162,9 @@ focus_tree = {
 		x = 35
 		y = 0
 		cost = 15
+		ai_will_do = {
+			factor = 10
+		}
 
 		available_if_capitulated = yes
 

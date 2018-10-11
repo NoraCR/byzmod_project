@@ -139,7 +139,7 @@ set_stability = 0.5
 
 create_country_leader = {
 	name = "Juan Sebastián Puig-Gaona"
-	desc = "POLITICS_MANUEL_AZANA_DESC"
+	desc = "POLITICS_JUAN_SEBASTIAN_PUIG_GAONA_DESC"
 	picture = "Portrait_Spain_Manuel_Azana.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -150,7 +150,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "José María de la Cruz"
-	desc = "POLITICS_JOSE_DIAZ_DESC"
+	desc = "POLITICS_JOSE_MARIA_DE_LA_CRUZ_DESC"
 	picture = "Portrait_Spain_Jose_Diaz.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
@@ -161,7 +161,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Gabriela Fatima Hu"
-	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+	desc = "POLITICS_GABRIELA_FATIMA_HU_DESC"
 	picture = "spr_gabriela_fatima_hu.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -172,7 +172,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Rafaela Santizo-Bellón"
-	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
+	desc = "POLITICS_RAFAELA_SANTIZO_BELLON_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = centrism
@@ -182,7 +182,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Antonio Chen Zhicheng"
-	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
+	desc = "POLITICS_ANTONIO_CHEN_ZHICHENG_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = objectivism

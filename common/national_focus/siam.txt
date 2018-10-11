@@ -475,7 +475,7 @@ focus_tree = {
 					ruling_party = pangalism
 					ideology = communism
 					size = 0.50
-					capital = 670
+					capital = 286
 					states = { 747 640 288 670 671 286 724 }
 				}
 				random_other_country = {

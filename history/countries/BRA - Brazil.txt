@@ -103,7 +103,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Manica Magua"
-	desc = "POLITICS_GETULIO_VARGAS_DESC"
+	desc = "POLITICS_MANICA_MAGUA_DESC"
 	picture = "bra_dem_manica_magua.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -114,7 +114,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Cauã Saraiva"
-	desc = "POLITICS_PLINIO_SALGADO_DESC"
+	desc = "POLITICS_CAUA_SARAIVA_DESC"
 	picture = "Portrait_Brazil_Plinio_Salgado.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -124,7 +124,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Caio Higashi-Altmann"
-	desc = "POLITICS_LUIS_CARLOS_PRESTES_DESC"
+	desc = "POLITICS_CAIO_HIGASHI_ALTMANN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
 	ideology = marxism
@@ -135,7 +135,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Marlene Takeda-Montovani" #female
-	desc = "POLITICS_ARMANDO_SALES_DESC"
+	desc = "POLITICS_MARLENE_TAKEDA_MONTOVANI_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = shanghai_school_economics
@@ -146,7 +146,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Janaína Warawao" #female
-	desc = "POLITICS_ARMANDO_SALES_DESC"
+	desc = "POLITICS_JANAINA_WARAWAO_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = rexism

@@ -1020,7 +1020,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-
+			custom_effect_tooltip = BYZ_italian_lines_tt
 		}
 
 		completion_reward = {
@@ -1115,7 +1115,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-
+			BYZ_the_alpine_wall_tt
 		}
 		completion_reward = {
 			army_experience = 5
@@ -1307,6 +1307,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
+		custom_effect_tooltip = {
+			BYZ_the_carpathia_danube_line_tt
+		}
 		completion_reward = {
 			army_experience = 5
 			102 = {

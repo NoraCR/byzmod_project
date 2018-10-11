@@ -122,7 +122,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = corpocracy
 	traits = {
-		#
+		oil_baron
 	}
 }
 create_country_leader = {

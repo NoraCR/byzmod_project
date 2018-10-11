@@ -119,6 +119,7 @@ set_war_support = 0.1
 		ideology = shanghai_school_economics
 		traits = {
 			hedonist
+			local_tyrant
 		}
 	}
 	create_country_leader = {

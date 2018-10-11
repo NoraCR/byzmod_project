@@ -152,7 +152,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Kévin Vaugrenard"
-	desc = "POLITICS_KEVIN_VAUGRENARD"
+	desc = "POLITICS_KEVIN_VAUGRENARD_DESC"
 	picture = "fra_kevin_vaugrenard.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -179,7 +179,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		warmonger
+		valeria_aeterna
 	}
 }
 

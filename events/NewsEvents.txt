@@ -5336,276 +5336,6 @@ news_event = {
 	}
 }
 
-# Yugoslav Coup
-news_event = {
-	id = news.150
-	title = news.150.t
-	desc = news.150.d
-	picture = GFX_news_event_yugoslav_coup
-	
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = news.145.a
-		trigger = { NOT = { tag = GER } }
-	}
-
-	option = {
-		name = news.150.b
-		trigger = { tag = GER }
-		create_wargoal = {
-			type = take_state_focus
-			target = YUG
-			generator = { 107 }
-		}
-	}
-}
-
-# Remilitarization of the Rhineland (Germany Backs Down, Allied Pressure)
-news_event = {
-	id = news.151
-	title = news.151.t
-	desc = news.151.d
-	picture = GFX_news_event_hitler_speech
-	
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = news.151.a
-		trigger = {
-			NOT = {
-				TAG = GER
-				TAG = FRA
-				TAG = ENG
-				is_in_faction_with = GER
-			}
-		}
-	}
-	option = {
-		name = news.151.b
-		trigger = { 
-			OR = {
-				TAG = GER 
-				is_in_faction_with = GER
-			}
-		}
-	}
-	option = {
-		name = news.151.c
-		trigger = {
-			OR = { 
-				TAG = FRA
-				TAG = ENG
-			}
-		}
-	}
-}
-
-# Remilitarization of the Rhineland (Germany Backs Down, French Pressure)
-news_event = {
-	id = news.152
-	title = news.151.t
-	desc = news.152.d
-	picture = GFX_news_event_hitler_speech
-	
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = news.151.a
-		trigger = {
-			NOT = {
-				TAG = GER
-				TAG = FRA
-				TAG = ENG
-				is_in_faction_with = GER
-			}
-		}
-	}
-	option = {
-		name = news.151.b
-		trigger = { 
-			OR = {
-				TAG = GER 
-				is_in_faction_with = GER
-			}
-		}
-	}
-	option = {
-		name = news.152.c
-		trigger = { TAG = FRA }
-	}
-	option = {
-		name = news.152.e
-		trigger = { TAG = ENG }
-	}
-}
-
-# Germany Breaks Molotov-Ribbentrop Pact
-news_event = {
-	id = news.153
-	title = news.153.t
-	desc = news.153.d
-	picture = GFX_news_event_german_inspect_troops
-	
-	major = yes
-
-	trigger = {
-		SOV = {
-			has_defensive_war_with = GER
-			has_opinion_modifier = MR_pact
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 2
-	}
-
-	immediate = {
-		hidden_effect = {
-			SOV = { 
-				remove_opinion_modifier = { target = GER modifier = MR_pact }
-				remove_ideas = SOV_molotov_ribbentrop_pact
-			}
-			GER = { remove_opinion_modifier = { target = SOV modifier = MR_pact } }
-			every_other_country = {
-				limit = { has_opinion_modifier = MR_pact_fascists }
-				remove_opinion_modifier = { target = GER modifier = MR_pact_fascists }
-			}
-		}
-	}
-	
-	option = {
-		name = news.153.a
-		trigger = {
-			NOT = {
-				TAG = GER
-				TAG = SOV
-				is_in_faction_with = SOV
-			}
-		}
-	}
-	option = {
-		name = news.153.b
-		trigger = { TAG = GER }
-	}
-	option = {
-		name = news.153.c
-		trigger = { 
-			OR = {
-				TAG = SOV
-				is_in_faction_with = SOV
-			}
-		}
-	}
-}
-
-# USSR Breaks Molotov-Ribbentrop Pact
-news_event = {
-	id = news.154
-	title = news.154.t
-	desc = news.154.d
-	picture = GFX_news_event_006
-	
-	major = yes
-
-	trigger = {
-		GER = {
-			has_defensive_war_with = SOV
-			has_opinion_modifier = MR_pact
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 2
-	}
-
-	immediate = {
-		hidden_effect = {
-			SOV = { 
-				remove_opinion_modifier = { target = GER modifier = MR_pact }
-				remove_ideas = SOV_molotov_ribbentrop_pact
-			}
-			GER = { remove_opinion_modifier = { target = SOV modifier = MR_pact } }
-			every_other_country = {
-				limit = { has_opinion_modifier = MR_pact_fascists }
-				remove_opinion_modifier = { target = GER modifier = MR_pact_fascists }
-			}
-		}
-	}
-	
-	option = {
-		name = news.153.a
-		trigger = {
-			NOT = {
-				TAG = GER
-				TAG = SOV
-				is_in_faction_with = GER
-			}
-		}
-	}
-	option = {
-		name = news.154.b
-		trigger = {
-			OR = {
-				TAG = GER
-				is_in_faction_with = GER
-			}
-		}
-	}
-	option = {
-		name = news.154.c
-		trigger = { TAG = SOV }
-	}
-}
-
-# Germany declares war without having remilitarized Rhineland. Which then happens.
-news_event = {
-	id = news.155
-	title = news.155.t
-	desc = news.155.d
-	picture = GFX_news_event_german_soldiers
-	
-	major = yes
-
-	trigger = {
-		NOT = { has_global_flag = rhineland_militarized_war }
-		GER = {
-			OR = {
-				has_country_flag = GER_rhineland_backed_down
-				NOT = { has_completed_focus = GER_rhineland }
-			}
-			has_offensive_war = yes
-		}
-		42 = {
-			is_demilitarized_zone = no
-		}
-	}
-
-	immediate = {
-		set_global_flag = rhineland_militarized_war
-	}
-	
-
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	option = {
-		trigger = { NOT = { tag = GER } }
-		name = news.155.a
-	}
-	option = {
-		trigger = { tag = GER } 
-		name = news.155.b
-	}
-}
-
 # Komet Sighted
 news_event = {
 	id = news.156
@@ -10694,6 +10424,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.560.d
@@ -10722,48 +10453,50 @@ news_event = {
 	}
 }
 
-# France annexs Lusitania
-#news_event = {
-#	id = news.561
-#	title = news.561.t
-#	picture = GFX_news_event_germany_speech
-#	is_triggered_only = yes
-#	fire_only_once = yes
-#	
-#	desc = {
-#		text = news.561.d
-#	}
-#	
-#	option = {
-#		name = news.561.a
-#		trigger = {
-#			has_government = fascism
-#		}
-#	}
-#	option = {
-#		name = news.561.b
-#		trigger = {
-#			NOT = {
-#				has_government = fascism
-#				has_government = communism
-#			}
-#		}
-#	}
-#	option = {
-#		name = news.561.c
-#		trigger = {
-#			has_government = communism
-#		}
-#	}
-#}
+#France annexs Lusitania
+news_event = {
+	id = news.561
+	title = news.561.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	desc = {
+		text = news.561.d
+	}
+	
+	option = {
+		name = news.561.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.561.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+	}
+	option = {
+		name = news.561.c
+		trigger = {
+			has_government = communism
+		}
+	}
+}
 
-# France annexs Tarraconensis
+#France annexes Tarraconensis
 news_event = {
 	id = news.566
 	title = news.566.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.566.d
@@ -10799,6 +10532,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.562.d

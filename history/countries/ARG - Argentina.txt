@@ -102,17 +102,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Agustín Pedro Justo"
-	desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
-	picture = "Portrait_Argentina_Agustin_Pedro_Justo.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -155,7 +144,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Porfiro de Páez-Torchinovich"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
+	desc = "POLITICS_PORFIRO_DE_PAEZ_TORCHINOVICH_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -166,7 +155,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Prospero J. de Iglesias"
-	desc = "POLITICS_MARCELO_ALVEAR_DESC"
+	desc = "POLITICS_PROSPERO_DE_IGLESIAS_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = centrism
@@ -176,7 +165,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Julian Bäumler-Ma"
-	desc = "POLITICS_MARCELO_ALVEAR_DESC"
+	desc = "POLITICS_JULIAN_BAUMLER_MA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = corpocracy
@@ -186,7 +175,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Xiaoping Murad" #
-	desc = "POLITICS_FANNY_JABCOVSKY_DESC"
+	desc = "POLITICS_XIAOPING_MURAD_DESC"
 	picture = "arg_com_xiaoping_murad.dds"
 	expire = "1965.1.1"
 	ideology = marxism

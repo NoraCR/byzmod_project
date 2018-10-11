@@ -59,7 +59,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_gain = 1
+				political_power_gain = 0.20
 			}
 		}
 		BYZ_home_of_the_revolution = {
@@ -266,7 +266,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.15
+				consumer_goods_factor = -0.05
 			}
 		}
 		BYZ_new_red_army_idea = {

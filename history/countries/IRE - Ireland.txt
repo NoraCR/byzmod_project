@@ -148,7 +148,7 @@ set_politics = {
 }
 create_country_leader = {
 	name = "Kevin Donnelly"
-	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
+	desc = "POLITICS_KEVIN_DONNELLY_DESC"
 	picture = "ire_kevin_donnelly.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -159,7 +159,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Lorcan O Brogain"
-	desc = "POLITICS_EOIN_ODUFFY_DESC"
+	desc = "POLITICS_LORCAN_O_BROGAIN_DESC"
 	picture = "ire_lorcan_o_brogain.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -170,7 +170,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Aoife O'Connor"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
+	desc = "POLITICS_AOIFE_O_CONNOR_DESC"
 	picture = "ire_aoife_oconnor.dds"
 	expire = "1965.1.1"
 	ideology = marxism
@@ -181,7 +181,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Fiona Meloy"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
+	desc = "POLITICS_FIONA_MELOY_DESC"
 	picture = "ire_fiona_meloy.dds"
 	expire = "1965.1.1"
 	ideology = shanghai_school_economics

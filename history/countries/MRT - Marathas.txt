@@ -78,6 +78,7 @@ create_country_leader = {
 	ideology = stalinism
 	traits = 
 		cornered_fox
+		sphinx_of_mumbai
 	}
 }
 
@@ -89,6 +90,7 @@ create_country_leader = {
 	ideology = fascism_ideology
 	traits = {
 		cornered_fox
+		sphinx_of_mumbai
 	}
 }
 
@@ -100,6 +102,7 @@ create_country_leader = {
 	ideology = socialism
 	traits = {
 		cornered_fox
+		sphinx_of_mumbai
 	}
 }
 create_country_leader = {
@@ -110,6 +113,7 @@ create_country_leader = {
 	ideology = shanghai_school_economics
 	traits = {
 		cornered_fox
+		sphinx_of_mumbai
 	}
 }
 create_country_leader = {
@@ -120,6 +124,7 @@ create_country_leader = {
 	ideology = despotism
 	traits = {
 		cornered_fox
+		sphinx_of_mumbai
 	}
 }
 

@@ -49,7 +49,7 @@ set_stability = 0.40
 
 create_country_leader = {
 	name = "Wolfgang von Adelshausen"
-	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
+	desc = "POLITICS_WOLFGANG_VON_ADELSHAUSEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = centrism
@@ -60,7 +60,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Kurt Breitenbuch"
-	desc = "POLITICS_KARL_RENNER_DESC"
+	desc = "POLITICS_KURT_BREITENBUCH_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -71,7 +71,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Gaius Julius Dabertzhofen"
-	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
+	desc = "POLITICS_GAIUS_JULIUS_DABERTZHOFEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -82,7 +82,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Freida Dreschwitz"
-	desc = "POLITICS_ALFRED_KLAHR_DESC"
+	desc = "POLITICS_FREIDA_DRESCHWITZ_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = marxism
@@ -92,7 +92,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Karl August Hasenöhrl"
-	desc = "POLITICS_ALFRED_KLAHR_DESC"
+	desc = "POLITICS_KARL_AUGUST_HASENOHRL_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = objectivism

@@ -175,7 +175,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Wallace Minear"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	desc = "POLITICS_WALLACE_MINEAR_DESC"
 	picture = "Portrait_Britain_Neville_Chamberlain.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -186,7 +186,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Valeria Pendragon"
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
+	desc = "POLITICS_VALERIA_PENDRAGON_DESC"
 	picture = "Portrait_Britain_Oswald_Mosley.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -197,7 +197,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Mary Napier"
-	desc = "POLITICS_PALME_DUTT_DESC"
+	desc = "POLITICS_MARY_NAPIER_DESC"
 	picture = "eng_mary_napier.dds"
 	expire = "1965.1.1"
 	ideology = marxism

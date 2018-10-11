@@ -96,14 +96,14 @@ set_politics = {
 	}
 	
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = "1935.12.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
 	name = "Muhammad al-Wazir"
-	desc = ""
+	desc = "POLITICS_MUHAMMAD_AL_WAZIR_DESC"
 	picture = "syr_muhammad_al_wazir.dds"
 	ideology = liberalism
 	traits = {
@@ -113,7 +113,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Samir al-Mahdavi"
-	desc = ""
+	desc = "POLITICS_SAMIR_AL_MAHDAVI_DESC"
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_land_3.dds"
 	ideology = fascism_ideology
 	traits = {
@@ -123,7 +123,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Murshid al-Khalil"
-	desc = ""
+	desc = "POLITICS_MURSHID_AL_KHALIL_DESC"
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds"
 	ideology = despotism
 	traits = {
@@ -132,7 +132,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Emre Hayek"
-	desc = ""
+	desc = "POLITICS_EMRE_HAYEK_DESC"
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_1.dds"
 	ideology = corpocracy
 	traits = {
@@ -141,7 +141,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Dilkanî Hezar" #kurdish, female
-	desc = ""
+	desc = "POLITICS_DILKANI_HEZAR_DESC"
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_communism1.dds"
 	ideology = leninism
 	traits = {

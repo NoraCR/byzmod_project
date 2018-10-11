@@ -109,7 +109,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Szilágyi Flórián"
-	desc = "POLITICS_MIKLOS_HORTHY_DESC"
+	desc = "POLITICS_SZILAGYI_FLORIAN_DESC"
 	picture = "Portrait_Hungary_Miklos_Horthy.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -120,7 +120,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Juhasz Zsigmond"
-	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
+	desc = "POLITICS_JUHASZ_ZSIGMOND_DESC"
 	picture = "hun_zsigmond_juhasz.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
@@ -131,7 +131,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Moholy-Nagy Károly"
-	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
+	desc = "POLITICS_MOHOLY_NAGY_KAROLY_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -141,7 +141,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Esterházy József"
-	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
+	desc = "POLITICS_ESTERHAZY_JOSZEF_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = objectivism
@@ -151,7 +151,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Lakatos Márkó"
-	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
+	desc = "POLITICS_LAKATOS_MARKO_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = centrism

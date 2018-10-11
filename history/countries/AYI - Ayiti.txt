@@ -104,7 +104,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-		political_dancer
+		ambitious_technocrat
+		great_war_trauma
 	}
 }
 create_country_leader = {

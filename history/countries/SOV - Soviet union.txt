@@ -126,7 +126,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Nikolay Grigoryev"
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	desc = "POLITICS_NIKOLAY_GRIGORYEV_DESC"
 	picture = "Portrait_Soviet_Generic_1.dds"
 	expire = "1953.3.1"
 	ideology = despotism
@@ -136,7 +136,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Nadezhda Mikhailovna Arefyeva"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	desc = "POLITICS_NADEZHDA_MIKHAILOVNA_AREFYEVA_DESC"
 	picture = "Portrait_Britain_Neville_Chamberlain.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -146,7 +146,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Yekaterina V Ceska Lipa"
-	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
+	desc = "POLITICS_YEKATERINA_CESKA_LIPA_DESC"
 	picture = "sov_yekaterina_v_ceska_lipa.dds"
 	expire = "1953.3.1"
 	ideology = rexism
@@ -157,7 +157,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Vladislav Maximovich Shvedov"
-	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	desc = "POLITICS_VLADISLAV_SHVEDOV_DESC"
 	picture = "Portrait_Soviet_Generic_1.dds"
 	expire = "1953.3.1"
 	ideology = leninism

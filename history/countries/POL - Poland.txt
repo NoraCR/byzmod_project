@@ -198,7 +198,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Ludwyk Weyher"
-	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
+	desc = "POLITICS_LUDWYK_WEYHER_DESC"
 	picture = "pol_ludwyk_weyher.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
@@ -209,7 +209,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Augustyn Landa"
-	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
+	desc = "POLITICS_AUGUSTYN_LANDA_DESC"
 	picture = "pol_augustyn_landa.dds"
 	expire = "1965.1.1"
 	ideology = cacicazgo
@@ -220,7 +220,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Justyn Korda"
-	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
+	desc = "POLITICS_JUSTYN_KORDA_DESC"
 	picture = "pol_justyn_korda.dds"
 	expire = "1965.1.1"
 	ideology = leninism
@@ -231,7 +231,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Bohater Wolinski"
-	desc = "POLITICS_WINCENTY_WITOS_DESC"
+	desc = "POLITICS_BOHATER_WOLINSKI_DESC"
 	picture = "pol_bohater_wolinski.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -242,7 +242,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Stanislaus II de Valois Vexin"
-	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
+	desc = "POLITICS_STANISLAUS_DE_VALOIS_VEXIN_DESC"
 	picture = "pol_stanislaus_ii_de_valois_vexin.dds"
 	expire = "1965.1.1"
 	ideology = rexism

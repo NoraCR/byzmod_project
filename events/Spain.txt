@@ -15,6 +15,9 @@ country_event = {
 	
 	option = {
 		name = spain.50.a
+		hidden_effect = {
+			news_event = { days = 5 id = news.560 }
+		}
 	}
 }
 
@@ -29,6 +32,9 @@ country_event = {
 	
 	option = {
 		name = spain.51.a
+		hidden_effect = {
+			news_event = { days = 5 id = news.561 }
+		}
 	}
 }
 
@@ -41,8 +47,13 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	
 	option = {
 		name = spain.52.a
+		hidden_effect = {
+			news_event = { days = 5 id = news.566 }
+			news_event = { days = 6 id = news.562 }
+		}
 	}
 }
 

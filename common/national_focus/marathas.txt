@@ -15,7 +15,7 @@ focus_tree = {
 		x = 9
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available_if_capitulated = yes
@@ -602,7 +602,7 @@ focus_tree = {
 		x = 8
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 
 		available_if_capitulated = yes

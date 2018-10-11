@@ -79,12 +79,9 @@ set_politics = {
 }
 
 
-
-# Order matters - here Chamberlain becomes starting leader
-
 create_country_leader = {
 	name = "Annan Akenten"
-	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
+	desc = "POLITICS_ANNAN_AKENTEN_DESC"
 	picture = "Portrait_Britain_Winston_Churchill.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -94,19 +91,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Okparra Chukwuemeka"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
 	name = "Madukaife Nwabudike" 
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
+	desc = "POLITICS_MADUKAIFE_NWABUDIKE_DESC"
 	picture = "Portrait_Britain_Oswald_Mosley.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -117,7 +103,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Akwesi Konadu"
-	desc = "POLITICS_PALME_DUTT_DESC"
+	desc = "POLITICS_AKWESI_KONADU_DESC"
 	picture = "gha_akwesi_konadu.dds"
 	expire = "1965.1.1"
 	ideology = marxism
@@ -127,7 +113,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Chidie Chydi" #female
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
+	desc = "POLITICS_CHIDIE_CHYDI_DESC"
 	picture = "Portrait_Britain_Oswald_Mosley.dds"
 	expire = "1965.1.1"
 	ideology = objectivism

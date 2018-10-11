@@ -75,7 +75,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Waititũ Wanderi"
-	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	desc = "POLITICS_WAITITU_WANDERI_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -85,7 +85,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Fatima Ramadhani" #female
-	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	desc = "POLITICS_FATIMA_RAMADHANI_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = corpocracy
@@ -95,7 +95,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Kenyatta Nyambugi"
-	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	desc = "POLITICS_KENYATTA_NYAMBUGI_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = rexism
@@ -105,7 +105,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Konstantinos Shahbal"
-	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	desc = "POLITICS_KONSTANTINOS_SHAHBAL_DESC"
 	picture = "ken_konstantinos_shahbal.dds"
 	expire = "1965.1.1"
 	ideology = leninism

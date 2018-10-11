@@ -84,7 +84,7 @@ country_event = {
 			target = GER
 		}
 		hidden_effect = {
-				news_event = { id = news.512 hours = 6}
+				news_event = { id = news.512 hours = 6 }
 		}
 	}	
 }
@@ -166,7 +166,7 @@ country_event = {
 # Annexation of Galicia
 country_event = {
 	id = france.50
-	title = france.40.t
+	title = france.50.t
 	desc = france.50.d
 	picture = GFX_report_event_german_politician_speech
 	
@@ -183,13 +183,14 @@ country_event = {
 		SPR = {
 				country_event = { id = spain.50 }
 		}
+		add_named_threat = { threat = 3 name = france.50.t }
 	}
 }
 
 # Annexation of Algarve
 country_event = {
 	id = france.51
-	title = france.41.t
+	title = france.51.t
 	desc = france.51.d
 	picture = GFX_report_event_german_politician_speech
 	
@@ -208,6 +209,7 @@ country_event = {
 		SPR = {
 				country_event = { id = spain.51 }
 		}
+		add_named_threat = { threat = 5 name = france.51.t }
 	}
 }
 
@@ -236,7 +238,7 @@ country_event = {
 
 country_event = {
 	id = france.53
-	title = france.43.t
+	title = france.53.t
 	desc = france.53.d
 	picture = GFX_report_event_german_politician_speech
 	

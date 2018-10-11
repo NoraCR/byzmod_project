@@ -56,7 +56,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Robert Havlik"
-	desc = "POLITICS_EDVARD_BENES_DESC"
+	desc = "POLITICS_ROBERT_HAVLIK_DESC"
 	picture = "cze_robert_havlik.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -67,7 +67,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Roland I Ceska Lipa"
-	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
+	desc = "POLITICS_ROLAND_I_CESKA_LIPA_DESC"
 	picture = "cze_roland_ceska_lipa.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -78,7 +78,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Jolana Sukova"
-	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
+	desc = "POLITICS_JOLANA_SUKOVA_DESC"
 	picture = "cze_jolana_sukova.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
@@ -89,7 +89,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Gustav Kraus"
-	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
+	desc = "POLITICS_GUSTAV_KRAUS_DESC"
 	picture = "cze_vladan_zukal.dds"
 	expire = "1965.1.1"
 	ideology = objectivism
@@ -100,7 +100,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Vladan I Zukal"
-	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
+	desc = "POLITICS_VLADAN_I_ZUKAL_DESC"
 	picture = "cze_vladan_zukal.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism

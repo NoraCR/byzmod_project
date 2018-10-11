@@ -85,7 +85,78 @@ units = {
 		start_equipment_factor = 0.9
 
 	}
+	division = {
+		name = "IX. Divizija"
+		location = 6296
+		division_template = "Pestininku Divizija"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
 
+	}
+	division = {
+		name = "X. Divizija"
+		location = 6296
+		division_template = "Pestininku Divizija"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "XI. Divizija"
+		location = 6296
+		division_template = "Pestininku Divizija"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "XII. Divizija"
+		location = 6296
+		division_template = "Pestininku Divizija"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "XIII. Divizija"
+		location = 6296
+		division_template = "Pestininku Divizija"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "XIV. Divizija"
+		location = 6296
+		division_template = "Pestininku Divizija"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "XV. Divizija"
+		location = 6296
+		division_template = "Pestininku Divizija"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "XVI. Divizija"
+		location = 6296
+		division_template = "Pestininku Divizija"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
 	######## NAVAL OOB ########
 	navy = {
 		name = "LKJP"
