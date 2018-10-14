@@ -71,7 +71,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Rishma Sharqi" #female
+	name = "Rishma Sharqi" 
 	desc = "POLITICS_RISHMA_SHARQI_COM_DESC"
 	picture = "mrt_rishma_sharqi.tga"
 	expire = "1953.3.1"
@@ -95,7 +95,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Rishma Sharqi" #female
+	name = "Rishma Sharqi" 
 	desc = "POLITICS_RISHMA_SHARQI_DEM_DESC"
 	picture = "mrt_rishma_sharqi.tga"
 	expire = "1953.3.1"

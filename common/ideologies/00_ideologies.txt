@@ -94,6 +94,7 @@ ideologies = {
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = no
+			can_guarantee_other_ideologies = yes #less exclusionary than OTL
 		}
 		
 		modifiers = {

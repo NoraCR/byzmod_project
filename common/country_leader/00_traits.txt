@@ -328,8 +328,8 @@ leader_traits = {
 	}
 
 	great_war_hero = { #Papadopoulou
-		army_attack_factor = 0.025
-		army_defence_factor = 0.05
+		army_attack_factor = 0.100
+		army_defence_factor = 0.100
 
 		equipment_bonus = {
 			infantry_equipment = {
