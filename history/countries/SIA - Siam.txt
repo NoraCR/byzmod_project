@@ -113,7 +113,7 @@ set_war_support = 0.1
 
 	create_country_leader = {
 		name = "Cao Liuxian"
-		desc = "POLITICS_PLAEK_PHIBUNSONGKHRAM_DESC"
+		desc = "POLITICS_CAO_LIUXIAN_DESC"
 		picture = "sia_cao_liuxian_pangalism.tga"
 		expire = "1965.1.1"
 		ideology = shanghai_school_economics
