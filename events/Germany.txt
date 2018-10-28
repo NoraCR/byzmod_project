@@ -4,7 +4,103 @@
 
 add_namespace = germany
 
-# German Civil War
+### Domestic Unrest Event Chain
+
+#Far-Right Agitators Intelligence#
+country_event = {
+	id = germany.16
+	title = germany.16.t
+	desc = germany.16.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	fire_only_once = yes
+	trigger = {
+		date > 1936.8.1
+		country_exists = GER
+		NOT = { country_exists = CZE }
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		
+	}
+	option = {
+		name = germany.16.a
+	}
+}
+
+#Parliament Violence#
+country_event = {
+	id = germany.17
+	title = germany.17.t
+	desc = germany.17.d
+	picture = GFX_report_event_generic_rally2
+	fire_only_once = yes
+	trigger = {
+		date > 1937.1.1
+		country_exists = GER
+		NOT = { country_exists = CZE }
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		
+	}
+	option = {
+		name = germany.17.a
+		add_political_power = -10
+		add_stability = -0.05
+	}
+}
+
+#Street Violence I#
+country_event = {
+	id = germany.18
+	title = germany.18.t
+	desc = germany.18.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	fire_only_once = yes
+	trigger = {
+		date > 1937.2.1
+		country_exists = GER
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		
+	}
+	option = {
+		name = germany.18.a
+		add_political_power = -5
+		add_stability = -0.05
+	}
+}
+#Street Violence II#
+country_event = {
+	id = germany.19
+	title = germany.19.t
+	desc = germany.19.d
+	picture = GFX_report_event_generic_rally2
+	fire_only_once = yes
+	trigger = {
+		date > 1937.2.14
+		country_exists = GER
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		
+	}
+	option = {
+		name = germany.18.a
+		add_political_power = -5
+		add_stability = -0.05
+	}
+}
+### German Civil War ###
 country_event = {
 	id = germany.900
 	title = germany.900.t

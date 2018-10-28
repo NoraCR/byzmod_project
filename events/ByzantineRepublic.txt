@@ -492,7 +492,7 @@ country_event = {
 	option = {
 		name = byz.501.a
 		set_country_flag = byz_mullerist_coup_defeated
-		add_political_power = 100
+		add_political_power = 40
 		hidden_effect = { news_event = { id = news.1002 hours = 12 } }
 	}
 }

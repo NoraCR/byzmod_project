@@ -96,7 +96,7 @@ units = {
 		division_template = "Internationale Brigaden"
 	}
 	division = {
-		name = "XVIII Internationale Brigaden 'Befreiungsarmee'"
+		name = "XVIII Internationale Brigaden 'Margarit Zierer'"
 		location = 6377  # Hannover
 		division_template = "Internationale Brigaden"
 	}

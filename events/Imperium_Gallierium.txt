@@ -14,7 +14,7 @@ country_event = {
 	trigger = {
 		has_government = fascism 
 		tag = FRA
-		NOT = { country_exists = BYZ }
+		BYZ = { has_capitulated = yes }
 	}
 	mean_time_to_happen = {
 		days = 2
@@ -47,5 +47,52 @@ country_event = {
 	}
 	option = {
 		name = ig.101.a
+		add_political_power = 5
 	}
 }
+country_event = {
+	id = ig.102
+	title = ig.102.t
+	desc = ig.102.d
+	picture = GFX_report_event_generic_read_write
+	fire_only_once = yes
+	trigger = {
+		has_government = fascism 
+		tag = FRA
+		date > 1936.8.18
+	}
+	mean_time_to_happen = {
+		days = 10
+	}
+	immediate = {
+		
+	}
+	option = {
+		name = ig.102.a
+		add_political_power = 10
+	}
+}
+
+country_event = {
+	id = ig.103
+	title = ig.103.t
+	desc = ig.103.d
+	picture = GFX_report_event_generic_read_write
+	fire_only_once = yes
+	trigger = {
+		has_government = fascism 
+		tag = FRA
+		date > 1938.1.19
+	}
+	mean_time_to_happen = {
+		days = 5
+	}
+	immediate = {
+		
+	}
+	option = {
+		name = ig.103.a
+		add_political_power = 10
+	}
+}
+

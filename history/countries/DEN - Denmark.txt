@@ -152,7 +152,7 @@ set_convoys = 40
 
 create_country_leader = {
 	name = "Lise-Lotte Korsgaard"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
+	desc = "POLITICS_LISELOTTE_KORSGAARD_DESC"
 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -163,7 +163,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Julius Marius Pallesen"
-	desc = "POLITICS_FRITS_CLAUSEN_DESC"
+	desc = "POLITICS_JULIUS_MARIUS_PALLESEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = rexism
@@ -174,7 +174,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Hannah Abildgaard" #female
-	desc = "POLITICS_AKSEL_LARSEN_DESC"
+	desc = "POLITICS_HANNAH_ABILDGAARD_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
 	ideology = leninism
@@ -184,7 +184,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Kristiane Christiansen" #female
-	desc = "POLITICS_AKSEL_LARSEN_DESC"
+	desc = "POLITICS_KRISTIANE_CHRISTIANSEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	expire = "1965.1.1"
 	ideology = corpocracy
@@ -195,7 +195,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Gunnar af Belev"
-	desc = "POLITICS_PETER_ROCHEGUNE_MUNCH_DESC"
+	desc = "POLITICS_GUNNAR_AF_BELEV_DESC"
 	picture = "den_gunnar_af_belev.dds"
 	expire = "1965.1.1"
 	ideology = centrism

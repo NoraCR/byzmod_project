@@ -40,6 +40,7 @@ country_event = {
 	}
 	option = {
 		name = tr.101.a
-		add_political_power = -10
+		add_political_power = -50
+		add_stability = -0.10
 	}
 }
