@@ -79,8 +79,8 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Ese'he Ohnesesestse"
-	desc = "POLITICS_ESEHE_OHNESESESTSE_DESC"
+	name = "Abram Laypa"
+	desc = "POLITICS_ABRAM_LAYPA_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
 	expire = "1967.1.1"
 	ideology = liberalism

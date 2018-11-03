@@ -97,7 +97,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 120
 			army_experience = 5
-			add_named_threat = { threat = 5 name = BYZ_prelude_to_war }
+			add_named_threat = { threat = 2 name = BYZ_prelude_to_war }
 		}	
 	}
 	focus = {
@@ -2560,7 +2560,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_named_threat = { threat = 2 name = BYZ_democratic_centralism }
+			add_named_threat = { threat = 5 name = BYZ_democratic_centralism }
 			add_popularity = { ideology = communism popularity = 0.1 }
 			set_politics = { ruling_party = communism elections_allowed = no }
 			add_stability = 0.05

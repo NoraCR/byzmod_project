@@ -143,6 +143,14 @@ units = {
 
 	}
 	division = {
+		name = "Shoudu Jing"
+		location = 11913
+		division_template = "Siren Junshi Fuwu Gongsi"		
+		start_experience_factor = 0.45
+		start_equipment_factor = 1.0
+
+	}
+	division = {
 		name = "1 Nanking Zhujun"
 		location = 11913
 		division_template = "Bubingshi"

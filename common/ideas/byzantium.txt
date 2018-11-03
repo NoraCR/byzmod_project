@@ -491,7 +491,21 @@ ideas = {
 				factor = 0
 			}
 		}
+		BYZ_andreas_vasiliakis = {
+			
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = BYZ
+			}
 
+			available = 
+			{
+				has_global_flag = byz_mullerist_coup 
+			}
+			
+			traits = { prince_of_terror }
+		}
 		BYZ_robert_de_bassot = {
 			
 			allowed = {
