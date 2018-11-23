@@ -34,6 +34,37 @@ ideas = {
 			
 			traits = { captain_of_industry }
 		}
+		AKH_danilo_taranenko = {
+
+			picture = generic_political_advisor_asia_2
+				
+			allowed = {
+				original_tag = AKH
+			}
+			
+			traits = { backroom_backstabber }
+		}
+
+		AKH_guzalia_jalil = {
+
+			picture = generic_political_advisor_south_america_3
+			
+			allowed = {
+				original_tag = AKH
+			}
+			
+			traits = { prince_of_terror }
+		}
+		AKH_bai_he = {
+
+			picture = generic_political_advisor_south_america_3
+			
+			allowed = {
+				original_tag = AKH
+			}
+			
+			traits = { ayn_rand }
+		}
 	}	
 
 	army_chief = {
@@ -47,6 +78,20 @@ ideas = {
 			}
 			
 			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		AKH_wang_mu = {
+			
+			picture = generic_army_asia_3
+
+			allowed = {
+				original_tag = AKH
+			}
+			
+			traits = { army_chief_defensive_2 }
 			
 			ai_will_do = {
 				factor = 1

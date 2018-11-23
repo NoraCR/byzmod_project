@@ -102,24 +102,4 @@ units = {
 		location = 4424 
 		division_template = "Red Brigade"
 	}
-	division = {
-		name = "Red Brigade XVI"
-		location = 4424 
-		division_template = "Red Brigade"
-	}
-	division = {
-		name = "Red Brigade XVII"
-		location = 4613 
-		division_template = "Red Brigade"
-	}
-	division = {
-		name = "Red Brigade XVIII"
-		location = 4401 
-		division_template = "Red Brigade"
-	}
-	division = {
-		name = "Red Brigade XIX"
-		location = 4310 
-		division_template = "Red Brigade"
-	}
 }

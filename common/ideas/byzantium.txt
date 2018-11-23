@@ -216,7 +216,8 @@ ideas = {
 			picture = office_of_strategic_services
 
 			modifier = {
-				decryption_factor = 0.2
+				encryption = 1
+				decryption = 1
 			}
 		}
 		monarchist_rebels = {

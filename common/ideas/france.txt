@@ -39,12 +39,12 @@ ideas = {
             removal_cost = -1
             
             modifier = {
-                army_org_factor = 0.1
-                army_morale_factor = 0.1
+                army_org_factor = 0.05
+                army_morale_factor = 0.05
             }
         }
         
-        IG_mare_leones_prep = { # added by the Operation Sealion focus, helps with the invasion
+        IG_mare_leones_prep = { 
             allowed = {
                 original_tag = FRA
                 always = no
@@ -59,8 +59,8 @@ ideas = {
             removal_cost = -1
             
             modifier = {
-                invasion_preparation = -0.3 
-                amphibious_invasion = 0.10 
+                invasion_preparation = -0.2
+                amphibious_invasion = 0.10
             }
         }
 		IG_hastati = {
@@ -223,203 +223,7 @@ ideas = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}
-		}
-		FRA_support_the_left_focus = {
-				picture = generic_communism_drift_bonus
-				allowed = {
-					always = no # Added via focus
-				}
-
-				allowed_civil_war = {
-					NOT = {
-						OR = {
-							has_government = fascism
-							AND = {
-								NOT = { has_government = communism }
-								any_other_country = {
-									original_tag = FRA
-									has_government = communism
-								}
-							}
-						}
-					}
-				}
-
-				modifier = {
-					communism_drift = 0.2
-				}
-		}
-
-		FRA_scw_intervention_republicans_focus = {
-			picture = FRA_scw_intervention_republicans_focus
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-
-			modifier = {
-				send_volunteer_divisions_required = -0.5
-				send_volunteers_tension = -0.5
-			}
-		}
-
-		FRA_national_mobilization_focus = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-
-			modifier = {
-				conscription = 0.01
-				army_morale_factor = 0.10
-			}
 		}		
-		FRA_support_the_centre_focus = {
-				picture = generic_democratic_drift_bonus				
-				allowed = {
-					always = no # Added via focus
-				}
-
-				allowed_civil_war = {
-					has_government = democratic
-				}
-
-				modifier = {
-					democratic_drift = 0.2
-				}
-		}		
-
-		FRA_strengthen_government_support_focus = {
-				picture = generic_pp_unity_bonus
-				allowed = {
-					always = no # Added via focus
-				}
-
-				allowed_civil_war = {
-					has_government = democratic
-				}
-
-				modifier = {
-					stability_weekly = 0.002
-				}
-		}		
-		FRA_support_the_right_focus = {
-				picture = generic_fascism_drift_bonus
-				allowed = {
-					always = no # Added via focus
-				}
-				allowed_civil_war = {
-					NOT = {
-						OR = {
-							has_government = communism
-							AND = {
-								NOT = { has_government = fascism }
-								any_other_country = {
-									original_tag = FRA
-									has_government = fascism
-								}
-							}
-						}
-					}
-				}
-				modifier = {
-					fascism_drift = 0.2
-				}
-		}
-
-		FRA_scw_intervention_nationalists_focus = {
-			picture = FRA_scw_intervention_nationalists_focus
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				NOT = {
-					has_government = communism
-				}
-			}
-
-			modifier = {
-				send_volunteer_divisions_required = -0.5
-				send_volunteers_tension = -0.5
-			}
-		}
-		FRA_army_of_aggression_focus = {
-			picture = FRA_army_of_aggression_focus
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = fascism
-			}
-
-			modifier = {
-				army_org = 5
-				justify_war_goal_time = -0.25
-			}
-		}
-
-		FRA_factory_strikes = {
-			picture = generic_production_bonus
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				NOT = {
-					has_government = communism
-				}
-			}
-
-			modifier = {
-				industrial_capacity_factory =  -0.9
-				stability_factor = -0.1
-			}
-		}
-
-		FRA_matignon_agreements = {
-			picture = generic_production_bonus
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-
-			modifier = {
-				industrial_capacity_factory =  -0.3
-			}
-		}
-
-		FRA_communism_banned = {
-			picture = anti_soviet_pact
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				NOT = {
-					has_government = communism
-				}
-			}
-
-			modifier = {
-				communism_drift = -0.05
-			}
-		}
-		
 	}
 
 	# POLITICAL
@@ -658,7 +462,7 @@ ideas = {
 				original_tag = FRA
 			}
 			available = {
-				has_completed_focus = FRA_aggressive_focus
+				
 			}
 
 			cost = 50
@@ -678,7 +482,7 @@ ideas = {
 				original_tag = FRA
 			}
 			available = {
-				has_completed_focus = FRA_defensive_focus
+				
 			}
 
 			cost = 50
@@ -697,8 +501,6 @@ ideas = {
 			allowed = {
 				original_tag = FRA
 			}
-			
-
 			
 			traits = { army_chief_offensive_3 }
 			
@@ -1030,7 +832,7 @@ ideas = {
 			picture = generic_tank_manufacturer_2
 
 			available = {
-				has_completed_focus = FRA_army_reform
+				
 			}
 						
 			allowed = {

@@ -9965,6 +9965,89 @@ news_event = {
 	}
 
 }
+#SOV gets famine
+news_event = {
+	id = news.272
+	title = news.272.t
+	desc = news.272.desc
+	picture = GFX_news_event_indian_famine
+	
+	major = yes
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.272.a
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = news.272.b
+		trigger = { 
+			NOT = { tag = SOV }
+		}
+	}
+}
+
+#RAJ famine is over
+news_event = {
+	id = news.273
+	title = news.273.t
+	desc = news.273.desc
+	picture = GFX_news_event_indian_famine
+	
+	major = yes
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.273.a
+		trigger = {
+			original_tag = SOV
+		}
+	}
+	option = {
+		name = news.273.b
+		trigger = {
+			NOT = { original_tag = SOV }
+		}
+	}
+}
+#Airborne Hajj
+news_event = {
+	id = news.274
+	title = news.274.t
+	desc = news.274.desc
+	picture = GFX_news_event_generic_bombers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.274.a
+		trigger = {
+			original_tag = SOM
+		}
+	}
+	option = {
+		name = news.274.b
+		trigger = {
+			original_tag = BYZ
+		}
+	}
+	option = {
+		name = news.274.c
+		trigger = {
+			NOT = { original_tag = SOM }
+			NOT = { original_tag = BYZ }
+		}
+	}
+}
 # France denounces Communism
 news_event = {
 	id = news.506

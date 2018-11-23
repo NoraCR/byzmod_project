@@ -1,5 +1,47 @@
 ideas = {
 	country = {
+		SOV_risk_of_famine = {
+
+			picture = raj_risk_of_famine
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+
+			modifier = {
+
+			}
+		}
+
+		SOV_famine = {
+
+			picture = ENG_the_war_to_end_all_wars
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = -0.20
+				industrial_capacity_factory = -0.30
+				industrial_capacity_dockyard = -0.30
+				conscription_factor = -0.2
+				consumer_goods_factor = 0.10
+			}
+		}
 		communist_plot = {
 			removal_cost = -1
 			
@@ -15,7 +57,7 @@ ideas = {
 			picture = trotskyite_plot
 			
 			modifier = {
-				stability_factor = -0.2
+				stability_factor = -0.10
 			}
 		}
 		SOV_dismal_morale = {

@@ -721,7 +721,7 @@ units = {
 		ship = { name = "Nashak" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "Prabal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "Pralaya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
-		}
+	}
 	navy = {
 		name = "1 Panabudi Vegavana" 
 		base = 3456
@@ -747,10 +747,33 @@ units = {
 		ship = { name = "P14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }	
 		ship = { name = "P15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }
 		ship = { name = "P16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = MRT } } }	
-	}		
+	}	
+	navy = {
+		name = "1 Nasa karanara Vegavana" 
+		base = 1349
+		location = 1349 # Mumbai
+		ship = { name = "Magar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Gharial" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Guldar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Ghorpad" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Kesari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Shardul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Sharab" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+		ship = { name = "Mahish" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MRT } } }
+	}	
 }
 air_wings = {
 	429 = {
+		fighter_equipment_0 = {
+			owner = "MRT" 
+			amount = 94
+		}
+		tac_bomber_equipment_0 =  {
+			owner = "MRT" 
+			amount = 60
+		}
+	}
+	428 = {
 		fighter_equipment_0 = {
 			owner = "MRT" 
 			amount = 94

@@ -122,6 +122,7 @@ add_ideas = {
 	communist_plot
 	SOV_dismal_morale
 	SOV_hyper_inflation
+	SOV_risk_of_famine
 }
 
 create_country_leader = {
@@ -266,7 +267,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Daria Shcherbina"
 		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
-	traits = {  }
+	traits = { politically_connected }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -330,29 +331,4 @@ create_navy_leader = {
 		picture = "Portrait_Soviet_Vladimir_Kasatonov.dds"
 	traits = { seawolf }
 	skill = 2
-}
-
-1939.1.1 = {
-
-	create_equipment_variant = {
-		name = "Series X Shchuka"
-		type = submarine_2
-		upgrades = {
-			ship_reliability_upgrade = 3
-			sub_engine_upgrade = 3
-			sub_stealth_upgrade = 3
-			sub_torpedo_upgrade = 3
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Maxim Gorky Class"
-		type = heavy_cruiser_2
-		upgrades = {
-			ship_reliability_upgrade = 2
-			ship_engine_upgrade = 2
-			ship_armor_upgrade = 2
-			ship_gun_upgrade = 2
-		}
-	}
 }

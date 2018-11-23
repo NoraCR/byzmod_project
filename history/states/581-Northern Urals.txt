@@ -5,16 +5,16 @@ state={
 	manpower = 48831
 	
 	state_category = wasteland
+	impassable = yes
 	
 	resources={
-		chromium=44
-		aluminium=30
+
 	}
 
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 
 		}
 		add_core_of = SOV

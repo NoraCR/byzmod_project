@@ -166,7 +166,7 @@ units = {
 		location = 1944 
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -174,7 +174,7 @@ units = {
 		location = 13009 
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 #####Mainland North Avalon#####
@@ -183,7 +183,7 @@ units = {
 		location = 7552 ##New Orleans
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -191,7 +191,7 @@ units = {
 		location = 7552 
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -199,7 +199,7 @@ units = {
 		location = 7552 
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -207,7 +207,7 @@ units = {
 		location = 12489 #Little Rock 
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -215,7 +215,7 @@ units = {
 		location = 12489 #Little Rock 
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -231,7 +231,7 @@ units = {
 		location = 1843 #Manicato 
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -239,7 +239,7 @@ units = {
 		location = 1843 #Manicato 
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -247,7 +247,7 @@ units = {
 		location = 1843 #Manicato 
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -255,7 +255,7 @@ units = {
 		location = 7138 #Catawba 
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -263,7 +263,7 @@ units = {
 		location = 7138 #Catawba 
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -279,7 +279,7 @@ units = {
 		location = 788 #Norfolk
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -287,7 +287,7 @@ units = {
 		location = 788 #Norfolk
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}	
 	division= {			
@@ -295,7 +295,7 @@ units = {
 		location = 788 #Norfolk
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}	
 	division= {			
@@ -303,7 +303,7 @@ units = {
 		location = 788 #Norfolk
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -311,7 +311,7 @@ units = {
 		location = 788 #Norfolk
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -319,7 +319,7 @@ units = {
 		location = 3957 #Nacotchtank
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -327,7 +327,7 @@ units = {
 		location = 3957 #Nacotchtank
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -335,7 +335,7 @@ units = {
 		location = 3957
 		division_template = "Mechanized Cavalry"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -343,7 +343,7 @@ units = {
 		location = 9450 #Chicago
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -351,7 +351,7 @@ units = {
 		location = 9450 #Chicago
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -359,7 +359,7 @@ units = {
 		location = 9450 #Chicago
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -367,7 +367,7 @@ units = {
 		location = 9450
 		division_template = "Mechanized Cavalry"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -375,7 +375,7 @@ units = {
 		location = 12357 #Milioke
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -383,7 +383,7 @@ units = {
 		location = 12357 #Milioke
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			
@@ -391,7 +391,7 @@ units = {
 		location = 12357 #Milioke
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.8
 
 	}
 	division= {			

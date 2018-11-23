@@ -8,7 +8,10 @@ state={
 		owner = GHA
 		add_core_of = GHA
 		victory_points = {
-			10862 1 
+			1951 1 
+		}
+		victory_points = {
+			10862 10 
 		}
 		buildings = {
 			infrastructure = 6

@@ -204,12 +204,12 @@ air_wings = {
 		# 3. Légi Ezred -- Caproni Ca.101, WM-16 Budapest light bombers
 		CAS_equipment_1 = {
 			owner = "HUN" 
-			amount = 24
+			amount = 48
 		}
 		tac_bomber_equipment_0 = {
 			owner = "HUN" 
 			creator = "HUN"
-			amount = 24
+			amount = 48
 		}
 	}
 }

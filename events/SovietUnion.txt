@@ -18,7 +18,66 @@ country_event = {
 			add_to_faction = SOV
 		}
 		hidden_effect = {
-				news_event = { id = news.563 hours = 6}
+				news_event = { id = news.563 hours = 6 }
+		}
+	}
+}
+
+#SOV gets famine - Trigger/randomness event
+country_event = {
+	id = tr.20
+	
+	hidden = yes
+	
+	immediate = {
+		country_event = { id = tr.21 days = 300 }
+	}
+
+	trigger = {
+		has_capitulated = no
+		NOT = { surrender_progress > 0.5 }
+		original_tag = SOV
+		has_idea = SOV_risk_of_famine
+		has_war = yes		
+	}
+
+	mean_time_to_happen = { days = 150 }
+
+}
+
+#SOV gets famine - Actual event
+country_event = {
+	id = tr.21
+	title = tr.21.t
+	desc = tr.21.desc	#
+	picture = GFX_report_event_indian_famine
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = SOV_risk_of_famine
+			add_timed_idea = { idea = SOV_famine days = 365 }
+			news_event = { id = news.272 }
+			news_event = { id = news.273 days = 365 }
+		}
+	}
+			
+	trigger = {
+		#compare_autonomy_state < autonomy_dominion
+		has_capitulated = no
+		NOT = { surrender_progress > 0.5 }
+		original_tag = SOV
+		has_idea = SOV_risk_of_famine
+	}
+
+	option = {
+		name = tr.a
+		effect_tooltip = {
+			remove_ideas = SOV_risk_of_famine
+			add_timed_idea = { idea = SOV_famine days = 365 }
 		}
 	}
 }

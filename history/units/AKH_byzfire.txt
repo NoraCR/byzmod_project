@@ -449,7 +449,7 @@ units = {
 
 	}
 ########NAVAL UNITS########
-		navy = {				
+	navy = {				
 		name = "Heihai Jiandui" ##Rather small Black Sea Fleet - mainly here for coastal defense and for BYZ or SOV to trounce
 		base = 9417 ##Rostov
 		location = 9417 
@@ -459,6 +459,15 @@ units = {
 		ship = { name = "ANS Heitan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AKH } } }
 		ship = { name = "ANS Heixiazi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AKH } } }
 		ship = { name = "ANS Heijinghe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AKH } } }		
+	}
+	navy = {				
+		name = "Heihai Haian Jingwei Dui" ##Coast Guard
+		base = 9417 ##Rostov
+		location = 9417 
+		ship = { name = "ANS Fu'erjia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AKH } } }		
+		ship = { name = "ANS Kuban" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AKH } } }
+		ship = { name = "ANS Wula'er" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AKH } } }
+		ship = { name = "ANS Tang" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AKH } } }		
 	}
 }
 #####AIR FORCE######

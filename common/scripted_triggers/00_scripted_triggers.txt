@@ -114,3 +114,64 @@ is_controlled_by_ROOT_or_subject = {
 		}
 	}
 }
+needs_cheap_infantry = {
+	OR = {
+		has_civil_war = yes
+		AND = {
+			tag = GER
+			has_war_with = HRE
+		}
+		AND = {
+			tag = SIA
+			OR = {
+				has_war_with = JAP
+				has_war_with = VIN
+			}
+		}
+	}
+}
+
+# this is a check to see if a major has at least 35 factories
+# which means it's not just a faction leader (which anyone can be)
+is_actual_major = {
+	AND = {
+		is_major = yes
+		OR = {
+			num_of_factories > 49
+			tag = BYZ
+			tag = FRA
+			tag = AYI
+			tag = CHI
+			tag = JAP
+			tag = SOM
+			tag = MRT
+			tag = GER
+		}
+	}
+}
+
+# checks whether the country in scope has the same government as ROOT (the country running the event/focus)
+has_same_government_as_ROOT = {
+	OR = {
+		AND = {
+			has_government = communism
+			ROOT = { has_government = communism }
+		}
+		AND = {
+			has_government = democratic
+			ROOT = { has_government = democratic }
+		}
+		AND = {
+			has_government = fascism
+			ROOT = { has_government = fascism }
+		}
+		AND = {
+			has_government = neutrality
+			ROOT = { has_government = neutrality }
+		}
+		AND = {
+			has_government = pangalism
+			ROOT = { has_government = pangalism }
+		}
+	}
+}

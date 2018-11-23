@@ -12,6 +12,9 @@ state={
 
 	history={
 		owner = BYZ
+		victory_points = {
+			8435 1
+		}
 		buildings = {
 			infrastructure = 5
 			dockyard = 1

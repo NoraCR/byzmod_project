@@ -108,8 +108,8 @@ add_ideas = {
 	SIA_chinese_domination
 }
 
-set_stability = 0.4
-set_war_support = 0.1
+set_stability = 0.40
+set_war_support = 0.30
 
 	create_country_leader = {
 		name = "Cao Liuxian"

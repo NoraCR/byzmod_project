@@ -526,7 +526,8 @@ units = {
 		}
 		ship = { name = "CBS Jamhuuriyad" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOM } } }				
 		ship = { name = "CBS Muqdisho" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOM } } }
-		ship = { name = "CBS Futuh al-Habash" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOM } } }		
+		ship = { name = "CBS Futuh al-Habash" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOM } } }
+		ship = { name = "CBS Futuh al-Rumah" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Asmara" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOM } } }
 		ship = { name = "CBS Gondar" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOM } } }
 		ship = { name = "CBS Jabuuti" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOM } } }

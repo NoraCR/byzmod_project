@@ -62,84 +62,84 @@ units = {
 		location = 7408 #Bangkok
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Xigong Zhujun"
 		location = 4401 #Saigon
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Henei Zhujun"
 		location = 4075 #Hanoi
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Qingmai Zhujun"
 		location = 1488 #Chiang Mai
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Shidui Zhujun"
 		location = 12090 #Sittwe
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Hat Yai Zhujun"
 		location = 7236 #Hat Yai
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Mizhina Zhujun"
 		location = 4425 #Myitkyina
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Mandelei Zhujun"
 		location = 1492 #Mandalay
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Yangguang Zhujun"
 		location = 1330 #Rangoon
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Geda Balu Zhujun"
 		location = 7329 #Kota Bharu
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Ji Longpo Zhujun"
 		location = 10297 #Ji Longpo
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Xingzhou Zhujun"
 		location = 12299 #Singapore
 		division_template = "Zhujun Lu"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	##### Infantry Divisions #####
 	division = {
@@ -147,56 +147,56 @@ units = {
 		location = 7408 #Bangkok
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 2 Zhongnan Bubing Shi"
 		location = 7408 #Bangkok
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 3 Zhongnan Bubing Shi"
 		location = 7408 #Bangkok
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 4 Zhongnan Bubing Shi"
 		location = 10438
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 5 Zhongnan Bubing Shi"
 		location = 10438
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 6 Zhongnan Bubing Shi"
 		location = 10438
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 7 Zhongnan Bubing Shi"
 		location = 10438
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 8 Zhongnan Bubing Shi"
 		location = 10438
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	##### Mountain Infantry #####
 	division = {
@@ -204,21 +204,21 @@ units = {
 		location = 7075
 		division_template = "Dishan Pai"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 2 Zhongnan Dishan Pai 'Dongxu'"
 		location = 2061
 		division_template = "Dishan Pai"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Di 3 Zhongnan Dishan Pai 'Danbang'"
 		location = 1607
 		division_template = "Dishan Pai"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 ####### NAVY #######
 	navy = {				
