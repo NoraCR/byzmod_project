@@ -230,6 +230,13 @@ country_event = {
 		175 = { add_core_of = FRA }
 		173 = { add_core_of = FRA }
 		annex_country = { target = SPR transfer_troops = yes }
+		create_navy_leader = {
+			name = "Gabriela Fatima Hu"
+			picture = "spr_gabriela_fatima_hu.dds"
+			traits = { old_guard_navy ironside }
+			skill = 3
+			female = yes
+		}
 		add_named_threat = { threat = 10 name = france.52.t }
 	}
 }

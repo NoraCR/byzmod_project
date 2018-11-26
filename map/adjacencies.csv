@@ -189,6 +189,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3657;6673;impassable;-1;-1;-1;-1;-1;;Alps
 9613;6673;impassable;-1;-1;-1;-1;-1;;Alps
 9613;11612;impassable;-1;-1;-1;-1;-1;;Alps
+9738;9745;impassable;-1;-1;-1;-1;-1;;Alps
+764;9738;impassable;-1;-1;-1;-1;-1;;Alps
+3764;9738;impassable;-1;-1;-1;-1;-1;;Alps
 4751;7693;impassable;-1;-1;-1;-1;-1;;Beijiang
 4751;4823;impassable;-1;-1;-1;-1;-1;;Beijiang
 1774;4849;impassable;-1;-1;-1;-1;-1;;Beijiang
@@ -209,7 +212,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9704;3743;impassable;-1;-1;-1;-1;-1;;Carpathians
 6571;3743;impassable;-1;-1;-1;-1;-1;;Carpathians
 6571;9425;impassable;-1;-1;-1;-1;-1;;Carpathians
+9425;9563;impassable;-1;-1;-1;-1;-1;;Carpathians
 3728;9685;impassable;-1;-1;-1;-1;-1;;Carpathians
+6667;9619;impassable;-1;-1;-1;-1;-1;;Carpathians
+3665;6667;impassable;-1;-1;-1;-1;-1;;Carpathians
+3665;11605;impassable;-1;-1;-1;-1;-1;;Carpathians
+6679;11605;impassable;-1;-1;-1;-1;-1;;Carpathians
 672;11664;impassable;-1;-1;-1;-1;-1;;Caucasus
 672;6674;impassable;-1;-1;-1;-1;-1;;Caucasus
 654;6674;impassable;-1;-1;-1;-1;-1;;Caucasus
@@ -223,6 +231,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6763;3711;impassable;-1;-1;-1;-1;-1;;Caucasus
 6763;1450;impassable;-1;-1;-1;-1;-1;;Caucasus
 6763;7554;impassable;-1;-1;-1;-1;-1;;Caucasus
+4941;7161;impassable;-1;-1;-1;-1;-1;;Great Rift Valley
+4941;10766;impassable;-1;-1;-1;-1;-1;;Great Rift Valley
+1191;10766;impassable;-1;-1;-1;-1;-1;;Great Rift Valley
 5087;10821;impassable;-1;-1;-1;-1;-1;;Kashmir
 1970;10821;impassable;-1;-1;-1;-1;-1;;Kashmir
 1970;5042;impassable;-1;-1;-1;-1;-1;;Kashmir
@@ -241,6 +252,30 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10330;8045;impassable;-1;-1;-1;-1;-1;;Luang Prabang Range
 10356;8045;impassable;-1;-1;-1;-1;-1;;Luang Prabang Range
 10356;7531;impassable;-1;-1;-1;-1;-1;;Luang Prabang Range
+11037;6216;impassable;-1;-1;-1;-1;-1;;Norway
+11037;9047;impassable;-1;-1;-1;-1;-1;;Norway
+3059;9047;impassable;-1;-1;-1;-1;-1;;Norway
+6184;11198;impassable;-1;-1;-1;-1;-1;;Norway
+6184;11101;impassable;-1;-1;-1;-1;-1;;Norway
+100;11101;impassable;-1;-1;-1;-1;-1;;Norway
+100;3129;impassable;-1;-1;-1;-1;-1;;Norway
+6214;9175;impassable;-1;-1;-1;-1;-1;;Norway
+173;9175;impassable;-1;-1;-1;-1;-1;;Norway
+173;6152;impassable;-1;-1;-1;-1;-1;;Norway
+6111;6152;impassable;-1;-1;-1;-1;-1;;Norway
+6111;9095;impassable;-1;-1;-1;-1;-1;;Norway
+9095;9208;impassable;-1;-1;-1;-1;-1;;Norway
+6214;11058;impassable;-1;-1;-1;-1;-1;;Norway
+9126;11058;impassable;-1;-1;-1;-1;-1;;Norway
+58;9126;impassable;-1;-1;-1;-1;-1;;Norway
+6155;9126;impassable;-1;-1;-1;-1;-1;;Norway
+3132;6155;impassable;-1;-1;-1;-1;-1;;Norway
+3034;6155;impassable;-1;-1;-1;-1;-1;;Norway
+3034;9178;impassable;-1;-1;-1;-1;-1;;Norway
+6136;6216;impassable;-1;-1;-1;-1;-1;;Norway
+6136;6204;impassable;-1;-1;-1;-1;-1;;Norway
+3093;6136;impassable;-1;-1;-1;-1;-1;;Norway
+3093;6114;impassable;-1;-1;-1;-1;-1;;Norway
 915;9884;impassable;-1;-1;-1;-1;-1;;Pyrenees
 915;9882;impassable;-1;-1;-1;-1;-1;;Pyrenees
 899;9882;impassable;-1;-1;-1;-1;-1;;Pyrenees

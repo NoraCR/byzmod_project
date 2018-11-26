@@ -18,7 +18,13 @@ leader_traits = {
 			factor = 1
 		}
 	}
-
+	
+	head_of_the_establishment = { #Zhang Zhulin
+		production_speed_buildings_factor = 0.05
+		research_time_factor = -0.02
+		industrial_capacity_factory = 0.03
+	}
+	
 	local_tyrant = { #Cao Liuxian, the tuhao
 		political_power_gain = -0.10
 		local_resources_factor = 0.15
@@ -29,8 +35,6 @@ leader_traits = {
 		political_power_gain = 0.1
 		research_time_factor = -0.03
 		consumer_goods_factor = -0.05
-
-		random = no
 	}
 	
 	great_war_trauma = {
@@ -42,10 +46,19 @@ leader_traits = {
 		}
 	}
 	
-	oil_baron = {
+	oil_baron = { #Walashma
 		local_resources_factor = 0.10
 		production_factory_max_efficiency_factor = 0.025
 		production_speed_synthetic_refinery_factor = 0.10
+
+		random = no
+	}
+	
+	steppe_lord = { #Liu Kesan
+
+		political_power_gain = 0.075
+		consumer_goods_factor = 0.05
+		army_morale = 0.10
 
 		random = no
 	}
@@ -79,21 +92,6 @@ leader_traits = {
 		}
 	}
 
-	spirit_of_genghis = {
-		random = no
-		cavalry_attack_factor = 0.05
-		equipment_bonus = {
-			nav_bomber_equipment = {
-				air_range = 0.1 naval_strike_attack = 0.1
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	
 	indomitable_perseverance = { # Ground units get 4 more Morale 
 		random = no
 		sprite = 5
@@ -107,6 +105,14 @@ leader_traits = {
 	generallissimo = {
 		random = no
 		defensive_war_stability_factor = 0.4
+	}
+	
+	admiralissima = {
+		production_speed_naval_base_factor = 0.09
+		production_speed_dockyard_factor = 0.06
+		experience_gain_navy = 0.12
+
+		random = no
 	}
 	
 	

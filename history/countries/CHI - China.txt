@@ -121,6 +121,7 @@ create_country_leader = {
 	ideology = shanghai_school_economics
 	traits = {
 		dealbroker
+		head_of_the_establishment
 	}
 }
 
@@ -142,7 +143,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
-		cornered_fox
+	
 	}
 }
 
