@@ -94,8 +94,8 @@
 	}
     battleship = {
         prefix = ""
-        generic = { "Kurfürstentum Mainz" "Kurfürstentum Koln" "Kurfürstentum Trier" "Kurfürstentum Sachsen" "Kurpfalz" "Kurfürstentum Brandenburg" "Kurfürstentum Baden" "Kurfürstentum Böhmen"}
-        unique = {
+        generic = { "Schlachtschiff" }
+        unique = { "Kurfürstentum Mainz" "Kurfürstentum Koln" "Kurfürstentum Trier" "Kurfürstentum Sachsen" "Kurpfalz" "Kurfürstentum Brandenburg" "Kurfürstentum Baden" "Kurfürstentum Böhmen"
             
         }
     }
