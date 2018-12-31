@@ -18,6 +18,9 @@ state={
 
 		}
 		add_core_of = KOR
+		victory_points = {
+			1696 1
+		}
 	}
 
 	provinces={

@@ -16,6 +16,9 @@ state={
 		}
 		add_core_of = AKH
 		add_core_of = GEO
+		victory_points = {
+			9663 1
+		}
 	}
 
 	provinces={

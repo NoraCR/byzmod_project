@@ -198,6 +198,55 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
+	division = {
+		name = "Di 9 Zhongnan Bubing Shi"
+		location = 7254 #South Burma
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Di 10 Zhongnan Bubing Shi"
+		location = 7254
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Di 11 Zhongnan Bubing Shi"
+		location = 7254
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Di 12 Zhongnan Bubing Shi"
+		location = 4588 #North Burma
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Di 13 Zhongnan Bubing Shi"
+		location = 4588 
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Di 14 Zhongnan Bubing Shi"
+		location = 4588
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Di 15 Zhongnan Bubing Shi"
+		location = 4588 
+		division_template = "Bubingshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
 	##### Mountain Infantry #####
 	division = {
 		name = "Di 1 Zhongnan Dishan Pai 'Miaozu Jun'"
@@ -225,7 +274,21 @@ units = {
 		name = "Gongheguo Haijun"			
 		base = 7408
 		location = 7408 # Bangkok
-		ship = { name = "Guangming" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "Mangu" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "Chaigun" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "Dongjing" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "QZJ-1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "QZJ-2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "QZJ-3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "QZJ-4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "QZJ-5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "QZJ-6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "QZJ-7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "QZJ-8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "QZJ-9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "QZJ-10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "QZJ-11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+		ship = { name = "QZJ-12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
 	}
 }	
 #####AIR FORCE######

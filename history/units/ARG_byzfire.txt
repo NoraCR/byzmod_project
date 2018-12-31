@@ -44,8 +44,8 @@ units = {
 		name = "1era División del Ejercito"
 		location = 12364 # Buenos Aires
 		division_template = "División de Infanteria"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
 
 	}
 	division= {	
@@ -60,8 +60,8 @@ units = {
 		name = "2da División del Ejercito"
 		location = 10953 # Southern Argentina
 		division_template = "División de Infanteria"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
 
 	}
 	division= {	
@@ -100,24 +100,24 @@ units = {
 		name = "2a División de Caballería"
 		location = 12364 # Buenos Aires
 		division_template = "División de Caballería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 	division= {	
 		name = "Destacamento de Montaña Ku-yao"
 		location = 10992 # Mendoza
 		division_template = "Brigada Montaña"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
 
 	}
 	division= {	
 		name = "Destacamento de Montaña Beiyang"
 		location = 12942 # Salta
 		division_template = "Brigada Montaña"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
 
 	}
 
@@ -144,7 +144,7 @@ units = {
 		ship = { name = "BAC Juan de Garay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
 		ship = { name = "BAC Ma Jun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
 		ship = { name = "BAC La Rioja" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC Zheng Liuxian" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "BAC Zheng Jitao" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
 	}				
 	navy = {				
 		name = "Flotilla de Submarinos"			

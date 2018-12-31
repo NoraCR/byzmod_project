@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = CHI
+		add_core_of = KOR
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

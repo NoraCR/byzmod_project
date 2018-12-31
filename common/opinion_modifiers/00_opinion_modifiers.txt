@@ -370,11 +370,11 @@ opinion_modifiers = {
 	fascism_leanings_bad = {
 		value = -30
 	}
-	tizard_relations = {
-		value = 50
+	pangalism_leanings_good = {
+		value = 30
 	}
-	tizard_refused = {
-		value = -50
+	pangalism_leanings_bad = {
+		value = -30
 	}
 	sanctions_relations = {
 		value = -40

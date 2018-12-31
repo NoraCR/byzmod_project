@@ -2,7 +2,7 @@
 state={
 	id=608
 	name="STATE_608"
-	manpower = 9648400
+	manpower = 17648400
 	
 	state_category = metropolis
 
@@ -21,7 +21,7 @@ state={
 			9843 20
 		}
 		victory_points = {
-			10068 1 
+			10068 5
 		}
 
 		1938.10.25 = {

@@ -233,7 +233,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6763;7554;impassable;-1;-1;-1;-1;-1;;Caucasus
 4941;7161;impassable;-1;-1;-1;-1;-1;;Great Rift Valley
 4941;10766;impassable;-1;-1;-1;-1;-1;;Great Rift Valley
-1191;10766;impassable;-1;-1;-1;-1;-1;;Great Rift Valley
+1181;10766;impassable;-1;-1;-1;-1;-1;;Great Rift Valley
 5087;10821;impassable;-1;-1;-1;-1;-1;;Kashmir
 1970;10821;impassable;-1;-1;-1;-1;-1;;Kashmir
 1970;5042;impassable;-1;-1;-1;-1;-1;;Kashmir

@@ -24,6 +24,9 @@ state={
 		victory_points = {
 			10966 1
 		}
+		victory_points = {
+			2115 1
+		}
 		add_core_of = KOR		
 		add_core_of = ANG
 	}

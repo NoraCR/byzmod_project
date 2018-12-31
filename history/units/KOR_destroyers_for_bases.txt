@@ -1,0 +1,18 @@
+# Destroyers sent to KOR in exchange for bases
+
+units = {
+						
+	navy = {					
+		name = "Haida Destroyer Flotilla 14"
+		base = 4056
+		location = 4056 # Busan, should still be held by now
+
+		ship = { name = "SNS Kim Sang-chul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }		# 	
+		ship = { name = "SNS Nam Yung-hee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }			# 	
+		ship = { name = "SNS Oh Eun-soo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }			# 	
+		ship = { name = "SNS Nan Yung-joon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }		# 
+		ship = { name = "SNS Im Sulgi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }			# 	
+		ship = { name = "SNS Hwang Hyun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }			
+		ship = { name = "SNS Hyon Shin-Ae" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }		
+	}
+}

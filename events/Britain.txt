@@ -146,7 +146,7 @@ country_event = {
 		ENG = { puppet = COG }
 		BYZ = { add_to_faction = COG }
 		hidden_effect = {
-			country_event = { hours = 12 id = news.705 }
+			news_event = { hours = 12 id = news.705 }
 			every_state = {
 				limit = {
 					is_owned_by = COG

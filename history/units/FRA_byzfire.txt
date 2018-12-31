@@ -746,6 +746,13 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.66
 	}
+	division= {	
+		name = "12ème Div. Blindée 'Ligue des Jeunes Saints'"
+		location = 3423
+		division_template = "Division Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.66
+	}
 #####CSP (Comité de salut public) REGIMENTS - SECRET POLICE #####
 	division= {	
 		name = "Comité de Salut Public - Quartier Général"

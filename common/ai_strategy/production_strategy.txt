@@ -748,7 +748,7 @@ default_antitank_production = {
 					is_subject_of = ROOT
 					ROOT = { is_subject_of = PREV }
 					has_war_with = ROOT
-					same_government_type_as_ROOT = yes
+					same_government_as_ROOT = yes
 				}
 				ROOT = { estimated_intel_max_armor = { tag = PREV value > 25 } }
 			}
@@ -767,7 +767,7 @@ default_antitank_production = {
 						is_subject_of = ROOT
 						ROOT = { is_subject_of = PREV }
 						has_war_with = ROOT
-						same_government_type_as_ROOT = yes
+						same_government_as_ROOT = yes
 					}
 					ROOT = { estimated_intel_max_armor = { tag = PREV value > 25 } }
 				}

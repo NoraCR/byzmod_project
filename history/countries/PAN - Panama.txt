@@ -83,7 +83,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "John Claude Gibbs"
-	desc = "POLITICS_JUAN_DEMOSTENES_AROSEMENA_DESC"
+	desc = "POLITICS_JOHN_CLAUDE_GIBBS_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -94,7 +94,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Eileen Crawford"
-	desc = "POLITICS_JULY_PORTOCARRERO_DESC"
+	desc = "POLITICS_EILEEN_CRAWFORD_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 	expire = "1965.1.1"
 	ideology = marxism

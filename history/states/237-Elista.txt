@@ -9,9 +9,12 @@ state={
 	history={
 		owner = AKH
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 		}
 		add_core_of = AKH
+		victory_points = {
+			11724 1
+		}
 	}
 
 	provinces={

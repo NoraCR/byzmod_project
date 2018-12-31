@@ -16,6 +16,9 @@ state={
 			}
 		}
 		add_core_of = BYZ
+		victory_points = {
+			11894 1
+		}
 	}
 
 	provinces={

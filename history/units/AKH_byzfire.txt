@@ -110,7 +110,7 @@ units = {
 		location = 9417 #Rostov
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -118,7 +118,7 @@ units = {
 		location = 9417 #Rostov
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -126,7 +126,7 @@ units = {
 		location = 9417 #Rostov
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -151,7 +151,7 @@ units = {
 		location = 217 #Tsaritsyn
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -159,7 +159,7 @@ units = {
 		location = 217 #Tsaritsyn
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -167,7 +167,7 @@ units = {
 		location = 217 #Tsaritsyn
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -175,7 +175,7 @@ units = {
 		location = 217 #Tsaritsyn
 		division_template = "Qibing Shi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 #####Saratov#####
@@ -184,7 +184,7 @@ units = {
 		location = 3578 #Saratov
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -192,7 +192,7 @@ units = {
 		location = 3578 #Saratov
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -200,7 +200,7 @@ units = {
 		location = 3578 #Saratov
 		division_template = "Zhuangjia Qibing"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 #####Kuybyshev
@@ -209,7 +209,7 @@ units = {
 		location = 11225 #Kuybyshev
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -217,7 +217,7 @@ units = {
 		location = 11225 #Kuybyshev
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -225,7 +225,7 @@ units = {
 		location = 11225 #Kuybyshev
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -233,7 +233,7 @@ units = {
 		location = 11225 #Kuybyshev
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -241,7 +241,7 @@ units = {
 		location = 11225 #Kuybyshev
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -249,7 +249,7 @@ units = {
 		location = 11225 #Kuybyshev
 		division_template = "Dishan Pai"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 #####Kazan#####
@@ -258,7 +258,7 @@ units = {
 		location = 6338 #Samara
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -266,7 +266,7 @@ units = {
 		location = 6338 #Samara
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -274,7 +274,7 @@ units = {
 		location = 6338 #Samara
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -282,7 +282,7 @@ units = {
 		location = 6338 #Kuybyshev
 		division_template = "Dishan Pai"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 #####Ufa#####
@@ -291,7 +291,7 @@ units = {
 		location = 1278 #Ufa
 		division_template = "Dishan Pai"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -299,7 +299,7 @@ units = {
 		location = 1278 #Ufa
 		division_template = "Dishan Pai"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -307,7 +307,7 @@ units = {
 		location = 1278 #Ufa
 		division_template = "Dishan Pai"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -315,7 +315,7 @@ units = {
 		location = 1278 #Ufa
 		division_template = "Dishan Pai"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -323,7 +323,7 @@ units = {
 		location = 1278
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -331,7 +331,7 @@ units = {
 		location = 1278
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 #####Caucasus#####
@@ -340,7 +340,7 @@ units = {
 		location = 3653 #Batumi
 		division_template = "Dishan Pai"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -348,7 +348,7 @@ units = {
 		location = 3698 #Abkhazia
 		division_template = "Dishan Pai"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -356,7 +356,7 @@ units = {
 		location = 9632 #South Ossetia
 		division_template = "Dishan Pai"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -364,7 +364,7 @@ units = {
 		location = 3734 #Krasnodar
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -372,7 +372,7 @@ units = {
 		location = 3734
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -380,7 +380,7 @@ units = {
 		location = 3672 #Grozny
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -388,7 +388,7 @@ units = {
 		location = 3672
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -396,7 +396,7 @@ units = {
 		location = 714
 		division_template = "Qibing Shi"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -404,7 +404,7 @@ units = {
 		location = 3672
 		division_template = "Dishan Pai"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 #####Astrakhan#####
@@ -413,7 +413,7 @@ units = {
 		location = 9753 #Astrakhan
 		division_template = "Bubingshi"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -421,7 +421,7 @@ units = {
 		location = 9753
 		division_template = "Bubingshi"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -429,7 +429,7 @@ units = {
 		location = 9753
 		division_template = "Bubingshi"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -437,7 +437,7 @@ units = {
 		location = 9753 #Voronezh
 		division_template = "Qibing Shi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -445,7 +445,7 @@ units = {
 		location = 9753 #Voronezh
 		division_template = "Qibing Shi"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.8
 
 	}
 ########NAVAL UNITS########
@@ -472,6 +472,10 @@ units = {
 }
 #####AIR FORCE######
 air_wings = {
+	# Stavropol
+	235 = { 
+		fighter_equipment_0 = { owner = "AKH" amount = 24 }				
+	}
 	# Astrakhan
 	236 = { 
 		fighter_equipment_0 = { owner = "AKH" amount = 60 }				
@@ -481,5 +485,10 @@ air_wings = {
 		fighter_equipment_0 = { owner = "AKH" amount = 48 } 		
 		tac_bomber_equipment_0 =  { owner = "AKH" amount = 60 }		
 	}
-	#
+	# Georgia
+		#Rostov
+	231 = {
+		fighter_equipment_0 = { owner = "AKH" amount = 48 } 		
+		tac_bomber_equipment_0 =  { owner = "AKH" amount = 60 }		
+	}
 }

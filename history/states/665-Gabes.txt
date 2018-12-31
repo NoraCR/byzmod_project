@@ -9,6 +9,9 @@ state={
 
 		}
 		add_core_of = LBA
+		victory_points = {
+			7005 1
+		}
 	}
 	
 	state_category = pastoral

@@ -63,7 +63,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Petros Dundubala"
-	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	desc = "POLITICS_PETROS_DUNDUBALA_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -73,7 +73,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Djoueria Baloi"
-	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	desc = "POLITICS_DJOUERIA_BALOI_DESC"
 	picture = "mpt_com_djoueria_baloi.dds"
 	expire = "1965.1.1"
 	ideology = leninism
@@ -83,7 +83,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Abdul Sinoxolo"
-	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	desc = "POLITICS_ABDUL_SINOXOLO_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = rexism
@@ -93,7 +93,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Anna Nomthandazo"
-	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	desc = "POLITICS_ANNA_NOMTHANDAZO_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = shanghai_school_economics

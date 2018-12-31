@@ -4,12 +4,11 @@ state=
 	name="STATE_326"
 	manpower = 1143516
 	state_category = city
-	history=
-	{
+	history = {
 		owner = BAV
 		add_core_of = BAV
 		victory_points = {
-			10062 3 
+			11544 3
 		}
 		buildings = {
 			infrastructure = 5

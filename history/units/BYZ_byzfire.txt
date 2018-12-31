@@ -1511,7 +1511,7 @@ air_wings = {
 
 	341 = { 
 		# Home Defense
-		fighter_equipment_0 =  {
+		fighter_equipment_1 =  {
 			owner = "BYZ" 
 			amount = 144
 		}
@@ -1521,7 +1521,7 @@ air_wings = {
 	162 = {
 		# 7th Bombardment Group 
 		# 19th Bombardment Group 
-		tac_bomber_equipment_0 = {
+		tac_bomber_equipment_1 = {
 			owner = "BYZ" 
 			amount = 60
 		}
@@ -1536,7 +1536,7 @@ air_wings = {
 	162 = { 
 		# 1st Pursuit Group 
 		# 8th Pursuit Group 
-		fighter_equipment_0 =  {
+		fighter_equipment_1 =  {
 			owner = "BYZ" 
 			amount = 144
 		}
@@ -1548,7 +1548,7 @@ air_wings = {
 				is_female = yes
 				portrait=1 # 
 		}
-		tac_bomber_equipment_0 = {
+		tac_bomber_equipment_1 = {
 			owner = "BYZ" 
 			amount = 96
 		}
@@ -1557,7 +1557,7 @@ air_wings = {
 	### 3 BYZAF Wing 
 	161 = { 
 		# 20th Pursuit Group 
-		fighter_equipment_0 =  {
+		fighter_equipment_1 =  {
 			owner = "BYZ" 
 			amount = 96
 		}
@@ -1571,12 +1571,12 @@ air_wings = {
 	### 18th Composite Wing
 	160 = { 
 		# 18th Pursuit Group 
-		fighter_equipment_0 =  {
+		fighter_equipment_1 =  {
 			owner = "BYZ" 
 			amount = 96
 		}
 		# 5th Composite Group 
-		tac_bomber_equipment_0 = {
+		tac_bomber_equipment_1 = {
 			owner = "BYZ" 
 			amount = 72
 		}
@@ -1617,6 +1617,21 @@ air_wings = {
 		nav_bomber_equipment_1 =  {
 			owner = "BYZ" 
 			amount = 96
+		}
+	}
+	### Malta
+	116 = { 
+		fighter_equipment_1 = {
+			owner = "BYZ" 
+			amount = 72
+		}
+		tac_bomber_equipment_1 = {
+			owner = "BYZ" 
+			amount = 48
+		}
+		CAS_equipment_1 = {
+			owner = "BYZ" 
+			amount = 64
 		}
 	}
 }

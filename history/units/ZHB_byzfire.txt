@@ -104,7 +104,7 @@ units = {
 
 	division = {			
 		name = "1a Brigada Montaña"		
-		location = 12221  # Maine
+		location = 12459  # Maine
 		division_template = "Brigada Montaña"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8

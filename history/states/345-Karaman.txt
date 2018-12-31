@@ -15,6 +15,9 @@ state={
 			dockyard = 1
 		}
 		add_core_of = BYZ
+		victory_points = {
+			10056 1
+		}
 	}
 
 	provinces={

@@ -12,6 +12,9 @@ state={
 			infrastructure = 6
 		}
 		add_core_of = HUN
+		victory_points = {
+			3617 1
+		}
 	}
 
 	provinces={

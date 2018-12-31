@@ -151,7 +151,7 @@ is_actual_major = {
 }
 
 # checks whether the country in scope has the same government as ROOT (the country running the event/focus)
-has_same_government_as_ROOT = {
+same_government_as_ROOT = {
 	OR = {
 		AND = {
 			has_government = communism

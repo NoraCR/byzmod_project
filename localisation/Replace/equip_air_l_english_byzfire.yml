@@ -1018,3 +1018,63 @@
  
  KOR_jet_fighter_equipment_1:0 "Baegun S-92 Durumi"
  KOR_jet_fighter_equipment_1_short:0 "S-92"
+ 
+ ### Haida ###
+
+ HDA_heavy_fighter_equipment_1:0 "Fukai G.I"
+ HDA_heavy_fighter_equipment_1_short:0 "G.I"
+ HDA_heavy_fighter_equipment_2:0 "Fukai D.29"
+ HDA_heavy_fighter_equipment_2_short:0 "D.29"
+ HDA_heavy_fighter_equipment_3:0 "Fukai G.4"
+ HDA_heavy_fighter_equipment_3_short:0 "G.4"
+
+ HDA_fighter_equipment_0:0 "Fukai D.19"
+ HDA_fighter_equipment_0_short:0 "D.19"
+ HDA_fighter_equipment_1:0 "Fukai D.23"
+ HDA_fighter_equipment_1_short:0 "D.23"
+ HDA_fighter_equipment_2:0 "Kozakiewicz K.60"
+ HDA_fighter_equipment_2_short:0 "K.60"
+ HDA_fighter_equipment_3:0 "Djahui-skwahladagai S.21"
+ HDA_fighter_equipment_3_short:0 "S.21"
+
+ HDA_nav_bomber_equipment_1:0 "Fukai T.9a"
+ HDA_nav_bomber_equipment_1_short:0 "T.9a"
+ HDA_nav_bomber_equipment_2:0 "Kozakiewicz K. 66"
+ HDA_nav_bomber_equipment_2_short:0 "K. 66"
+ HDA_nav_bomber_equipment_3:0 "Fukai T.11"
+ HDA_nav_bomber_equipment_3_short:0 "T.11"
+
+ HDA_tac_bomber_equipment_0:0 "Fukai T.7" 
+ HDA_tac_bomber_equipment_0_short:0 "T.7"
+ HDA_tac_bomber_equipment_1:0 "Fukai T.9"
+ HDA_tac_bomber_equipment_1_short:0 "T.9"
+ HDA_tac_bomber_equipment_2:0 "Fukai T.10"
+ HDA_tac_bomber_equipment_2_short:0 "T.10"
+ HDA_tac_bomber_equipment_3:0 "Fukai T.17"
+ HDA_tac_bomber_equipment_3_short:0 "T.17"
+
+ HDA_strat_bomber_equipment_1:0 "Fukai T.8 (Ts'áak 115)"
+ HDA_strat_bomber_equipment_1_short:0 "T.8 (Ts'áak 115)"
+
+ HDA_CAS_equipment_1:0 "Fukai C.22"
+ HDA_CAS_equipment_1_short:0 "C.22"
+ HDA_CAS_equipment_2:0 "Fukai C.16"
+ HDA_CAS_equipment_2_short:0 "C.16"
+ HDA_CAS_equipment_3:0 "Fukai C.18"
+ HDA_CAS_equipment_3_short:0 "C.18"
+
+ HDA_cv_nav_bomber_equipment_1:0 "Fukai T.4m"
+ HDA_cv_nav_bomber_equipment_1_short:0 "Fukai T.4m"
+ HDA_cv_nav_bomber_equipment_2:0 "Kozakiewicz K. 66"
+ HDA_cv_nav_bomber_equipment_2_short:0 "Kozakiewicz K. 66m"
+ HDA_cv_nav_bomber_equipment_3:0 "Fukai T.11"
+ HDA_cv_nav_bomber_equipment_3_short:0 "Fukai T.11m"
+
+ HDA_cv_fighter_equipment_0:0 "Fukai D.19m"
+ HDA_cv_fighter_equipment_0_short:0 "Fukai D.19m"
+ HDA_cv_fighter_equipment_1:0 "Fukai D.23m"
+ HDA_cv_fighter_equipment_1_short:0 "Fukai D.23m"
+ HDA_cv_fighter_equipment_2:0 "Kozakiewicz K.60m"
+ HDA_cv_fighter_equipment_2_short:0 "K.60m"
+ HDA_cv_fighter_equipment_3:0 "Kozakiewicz K. 60"
+ HDA_cv_fighter_equipment_3_short:0 "K. 60m"

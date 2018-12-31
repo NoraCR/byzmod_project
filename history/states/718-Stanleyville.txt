@@ -13,6 +13,12 @@ state={
 		victory_points = {
 			9962 1
 		}
+		victory_points = {
+			2220 1
+		}
+		victory_points = {
+			1181 1
+		}
 	add_core_of = COG
 	}
 

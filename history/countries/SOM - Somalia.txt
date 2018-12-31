@@ -127,7 +127,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Mukhtaar Shariif"
-	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	desc = "POLITICS_MUKHTAAR_SHARIIF_DESC"
 	picture = "Portrait_USA_William_Dudley_Pelley.dds"
 	expire = "1965.1.1"
 	ideology = moderatism

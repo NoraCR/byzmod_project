@@ -1,0 +1,2281 @@
+focus_tree = {
+	id = haida
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HDA
+		}
+	}
+	default = no
+	focus = {
+		id = HDA_avalonian_democracy
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		x = 5
+		y = 0
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = HDA_diplomatic_initiatives
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		x = 15
+		y = 0
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = HDA_the_pacific_war
+		icon = GFX_focus_jap_cast_the_die
+		cost = 10.00
+		x = 20
+		y = 0
+		available = {
+			OR = {
+				has_war_with = CHI
+				has_war_with = JAP
+				has_war_with = KOR
+				has_war_with = BYZ
+				has_war_with = SOM
+				has_war_with = AYI
+				has_war_with = FRA
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = HDA_war_bonds_idea
+			if = {
+				limit = { has_idea = HDA_uneasy_victors }
+				remove_ideas = HDA_uneasy_victors
+			}
+		}
+	}
+	focus = {
+		id = HDA_traditional_and_solemn_ceremony
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		x = 25
+		y = 0
+		
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = HDA_masters_of_the_pacific
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		x = 31
+		y = 0
+		complete_tooltip = {
+			navy_experience = 25
+			random_state = {
+				limit = {
+					has_state_flag = HDA_masters_DY1
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = HDA_masters_DY2
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			random_owned_controlled_state = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_masters_DY1
+			}
+			random_owned_controlled_state = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT					
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_masters_DY2
+			}
+		}
+	}
+	focus = {
+		id = HDA_air_force_reorganization
+		icon = GFX_goal_generic_air_bomber
+		cost = 10.00
+		x = 37
+		y = 0
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = HDA_air_force_reorganization
+				bonus = 0.5
+				uses = 2
+				category = air_doctrine
+			} 
+		}
+	}
+	focus = {
+		id = HDA_elect_liberals
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_avalonian_democracy
+		}
+		mutually_exclusive = {
+			focus = HDA_elect_socialists
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		x = 2
+		y = 1
+		completion_reward = {
+			add_timed_idea = { idea = democratic_influence days = 180 }
+		}
+	}
+	focus = {
+		id = HDA_market_society
+		icon = GFX_focus_generic_industry_1
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_elect_liberals
+		}
+		mutually_exclusive = {
+			focus = HDA_a_fair_deal
+		}
+		x = 0
+		y = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HDA_market_society
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+			CHI = {
+				add_opinion_modifier = { target = HDA modifier = pangalism_leanings_good }
+			}
+		}
+	}
+	focus = {
+		id = HDA_nahua_enterprises
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_market_society
+		}
+		x = 0
+		y = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = HDA_ne_IC
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 479 }
+				limit = {
+					ROOT = { has_full_control_of_state = PREV } 
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_ne_IC
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+	}
+	focus = {
+		id = HDA_smokestack_economy
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_nahua_enterprises
+		}
+		x = 0
+		y = 4
+		available = {
+			has_tech = synth_oil_experiments
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		complete_tooltip = {
+
+			random_state = {
+				limit = {
+					has_state_flag = HDA_se_AF1
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			if = {
+				limit = { NOT = { has_tech = synth_oil_experiments } }
+				custom_effect_tooltip = HDA_smokestack_economy_tt
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = synthetic_refinery
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = HDA_se_AF1
+			}
+		}
+	}
+	focus = {
+		id = HDA_an_open_socety
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_smokestack_economy
+		}
+		x = 0
+		y = 5
+		completion_reward = {
+			add_ideas = HDA_wartime_industry_idea
+		}
+	}
+	focus = {
+		id = HDA_a_fair_deal
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_elect_liberals
+		}
+		mutually_exclusive = {
+			focus = HDA_market_society
+		}
+		x = 4
+		y = 2
+		completion_reward = {
+			JAP = {
+				add_opinion_modifier = { target = HDA modifier = democratic_leanings_good }
+			}
+		}
+	}
+	focus = {
+		id = HDA_agricultural_reform
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_a_fair_deal
+		}
+		x = 4
+		y = 3
+		available = {
+			OR = {
+				385 = {
+					is_fully_controlled_by = ROOT
+				}
+				386 = {
+					is_fully_controlled_by = ROOT
+				} 
+				482 = {
+					is_fully_controlled_by = ROOT
+				} 
+				483 = {
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = HDA_agricultural_reform_idea
+			if = {
+				limit = { 385 = { is_fully_controlled_by = ROOT } }
+				385 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = { 386 = { is_fully_controlled_by = ROOT } }
+				386 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				} 
+			}
+			if = {
+				limit = { 482 = { is_fully_controlled_by = ROOT } }
+				482 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				} 
+			}
+			if = {
+				limit = { 483 = { is_fully_controlled_by = ROOT } }
+				483 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = HDA_market_socialism
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_agricultural_reform
+		}
+		x = 4
+		y = 4
+		completion_reward = {
+			add_ideas = {
+				HDA_market_socialism_idea
+			}
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = HDA_a_fair_society
+		icon = GFX_goal_tripartite_pact
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_market_socialism
+		}
+		x = 4
+		y = 5
+		available_if_capitulated = yes
+
+		completion_reward = {
+			remove_ideas = {
+				HDA_nahua_tensions
+			}
+		}
+	}
+	focus = {
+		id = HDA_elect_socialists
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_avalonian_democracy
+		}
+		mutually_exclusive = {
+			focus = HDA_elect_liberals
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		x = 8
+		y = 1
+		completion_reward = {
+			add_timed_idea = { idea = communist_pressure days = 180 }
+		}
+	}
+	focus = {
+		id = HDA_klepacki_faction
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_elect_socialists
+		}
+		mutually_exclusive = {
+			focus = HDA_uyehara_faction
+		}
+		x = 6
+		y = 2
+		completion_reward = {
+			BYZ = {
+				add_opinion_modifier = { target = HDA modifier = communists_in_government }
+			}
+		}
+
+	}
+	focus = {
+		id = HDA_enterprise_autonomy
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_klepacki_faction
+		}
+		x = 6
+		y = 3
+		available_if_capitulated = yes
+
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = HDA_ea_IC
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV } 
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_ea_IC
+			}
+		}
+	}
+	focus = {
+		id = HDA_continuing_revolution
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_enterprise_autonomy
+		}
+		x = 6
+		y = 4
+		completion_reward = {
+			add_popularity = {
+				popularity = 0.35
+				ideology = communism
+			}
+			add_stability = -0.05
+		}
+	}
+	focus = {
+		id = HDA_solidarity_society
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_continuing_revolution
+		}
+		x = 6
+		y = 5
+		completion_reward = {
+			add_research_slot = 1
+			remove_ideas = HDA_nahua_tensions
+		}
+	}
+	focus = {
+		id = HDA_uyehara_faction
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_elect_socialists
+		}
+		mutually_exclusive = {
+			focus = HDA_klepacki_faction
+		}
+		x = 10
+		y = 2
+		completion_reward = {
+			MRT = {
+				add_opinion_modifier = { target = HDA modifier = communists_in_government }
+			}
+		}
+	}
+	focus = {
+		id = HDA_quotas_and_plans
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_uyehara_faction
+		}
+		x = 9
+		y = 3
+		completion_reward = {
+			army_experience = 10
+			if = {
+				limit = {
+					473 = {
+						OR = {
+							NOT = { is_controlled_by = HDA }
+							AND = {
+								is_controlled_by = HDA
+								free_building_slots = {
+									building = arms_factory
+									size < 2
+									include_locked = yes
+								}
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { 
+						free_building_slots = {
+							building = arms_factory
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}	
+					set_state_flag = HDA_qap_2AF
+				}
+			}
+			473 = {
+				if = {
+					limit = { 
+						is_controlled_by = HDA
+						free_building_slots = {
+							building = arms_factory
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = HDA_qap_2AF
+				}
+			}
+			if = {
+				limit = {
+					471 = {
+						OR = {
+							NOT = { is_controlled_by = HDA }
+							AND = {
+								is_controlled_by = HDA
+								free_building_slots = {
+									building = arms_factory
+									size < 2
+									include_locked = yes
+								}
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { 
+						free_building_slots = {
+							building = arms_factory
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}							
+					set_state_flag = HDA_qap_2AF
+				}
+			}
+			471 = {
+				if = {
+					limit = { 
+						is_controlled_by = HDA
+						free_building_slots = {
+							building = arms_factory
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = HDA_qap_2AF
+				}
+			}
+		}
+	}
+	focus = {
+		id = HDA_state_commissariat
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_uyehara_faction
+		}
+		x = 11
+		y = 3
+		completion_reward = {
+			add_ideas = HDA_state_commissariat_idea
+		}
+	}
+	focus = {
+		id = HDA_dictatorship_of_the_proletariat
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_state_commissariat
+		}
+		prerequisite = {
+			focus = HDA_quotas_and_plans
+		}
+		x = 10
+		y = 4
+		completion_reward = {
+			add_popularity = {
+				popularity = 0.50
+				ideology = communism
+			}
+			add_stability = -0.25
+			set_politics = { ruling_party = communism elections_allowed = no }
+		}
+	}
+	focus = {
+		id = HDA_a_revolutionary_society
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_dictatorship_of_the_proletariat
+		}
+		x = 10
+		y = 5
+		available = {
+			is_puppet = no
+			NOT = { is_in_faction_with = AYI }
+		}
+		bypass = {
+			NOT = { country_exists = AYI }
+			has_war_with = AYI
+		}
+		cancel_if_invalid = yes
+		will_lead_to_war_with = AYI
+		
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = AYI
+			}
+		}
+	}
+	focus = {
+		id = HDA_confederation_of_equals
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_diplomatic_initiatives
+		}
+		mutually_exclusive = {
+			focus = HDA_our_own_path
+		}
+		x = 14
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			JAP = {
+					add_opinion_modifier = { target = HDA modifier = democratic_leanings_good }
+				}
+		}
+	}
+	focus = {
+		id = HDA_align_shoshone
+		icon = GFX_goal_continuous_increase_nu
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_confederation_of_equals
+		}
+		x = 13
+		y = 2
+		available = {
+			country_exists = SHS
+		}
+
+		bypass = {
+			is_in_faction_with = SHS
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			SHS = { country_event = generic.5 }
+		}
+	}
+	focus = {
+		id = HDA_align_iroquois
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_align_shoshone
+		}
+		x = 13
+		y = 3
+		available = {
+			country_exists = IRO
+		}
+
+		bypass = {
+			is_in_faction_with = IRO
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			IRO = { country_event = generic.5 }
+		}
+	}
+	focus = {
+		id = HDA_aid_to_japan
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_confederation_of_equals
+		}
+		x = 14
+		y = 4
+		available = {
+			country_exists = CHI
+			is_puppet = no
+			JAP = {
+				NOT = { is_in_faction_with = CHI }
+			}
+			has_government = democratic
+		}
+		bypass = {
+			NOT = { 631 = { is_controlled_by = ENG } }
+			NOT = { 630 = { is_controlled_by = ENG } }
+			NOT = { 727 = { is_controlled_by = ENG } } 
+			NOT = { 270 = { is_controlled_by = ENG } } 
+			NOT = { 641 = { is_controlled_by = ENG } } 
+			NOT = { 642 = { is_controlled_by = ENG } } 
+			NOT = { 726 = { is_controlled_by = ENG } } 
+			NOT = { 636 = { is_controlled_by = ENG } } 
+			CHI = { exists = no }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			JAP = {
+				custom_effect_tooltip = needs_approval
+				country_event = { id = haida.1 days = 1 }
+			}
+			
+			effect_tooltip = {
+				custom_effect_tooltip = USA_destroyers_for_bases_tt
+				transfer_state = 631
+				transfer_state = 630
+				transfer_state = 727
+				transfer_state = 270
+				transfer_state = 641
+				transfer_state = 642
+				transfer_state = 726
+				transfer_state = 636
+			}
+		}
+	}
+	focus = {
+		id = HDA_our_own_path
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_diplomatic_initiatives
+		}
+		mutually_exclusive = {
+			focus = HDA_confederation_of_equals
+		}
+		x = 16
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			JAP = {
+					add_opinion_modifier = { target = HDA modifier = democratic_leanings_bad }
+				}
+		}
+	}
+	focus = {
+		id = HDA_sever_alliance
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_our_own_path
+		}
+		x = 17
+		y = 2
+		available = {
+			NOT = { is_in_faction_with = JAP }
+		}
+		bypass = {
+		}
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+			create_faction = HDA_yelamu_pact
+		}
+	}
+	focus = {
+		id = HDA_demand_concessions
+		icon = GFX_goal_anschluss
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_sever_alliance
+		}
+		x = 17
+		y = 3
+		available = {
+			country_exists = SHS
+		}
+
+		bypass = {
+			OR = {
+				has_wargoal_against = SHS
+				has_war_with = SHS
+				SHS = {
+					exists = no
+				}
+				SHS = {
+					not = {
+						has_government = fascism
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		will_lead_to_war_with = SHS
+		completion_reward = {
+			create_wargoal = {
+				target = SHS
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = {
+		id = HDA_take_mexico
+		icon = GFX_focus_secret_rearmament
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_demand_concessions
+		}
+		x = 16
+		y = 4
+		available = {
+			is_puppet = no
+			NOT = { is_in_faction_with = MEX }
+		}
+		bypass = {
+			NOT = { country_exists = MEX }
+			has_war_with = MEX
+		}
+		cancel_if_invalid = yes
+		will_lead_to_war_with = MEX
+		
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = MEX
+			}
+		}
+	}
+	focus = {
+		id = HDA_prolonged_and_complex_struggle
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_the_pacific_war
+		}
+		x = 20
+		y = 1
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = HDA_disastrous_rise_of_misplaced_power
+		icon = GFX_goal_generic_army_tanks
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_prolonged_and_complex_struggle
+		}
+		x = 19
+		y = 2
+		available = {
+
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			add_ideas = { HDA_disastrous_rise_of_misplaced_power_idea }
+			random_state = {
+				limit = {
+					has_state_flag = HDA_drmp_AF1
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = HDA_drmp_AF2
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 385 386 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = HDA_drmp_AF1
+			}
+			random_owned_controlled_state = {
+				prioritize = { 385 386 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_drmp_AF2
+			}
+		}
+	}
+	focus = {
+		id = HDA_light_of_a_broader_consideration
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_prolonged_and_complex_struggle
+		}
+		x = 21
+		y = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = HDA_broader_consideration_idea
+		}
+	}
+	focus = {
+		id = HDA_ruthless_in_purpose_insidious_in_method
+		icon = GFX_focus_generic_coastal_fort
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_light_of_a_broader_consideration
+		}
+		x = 20
+		y = 3
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = HDA_ruthless_insidious_idea
+		}
+	}
+	focus = {
+		id = HDA_horror_and_lingering_sadness
+		icon = GFX_focus_generic_combined_arms
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_ruthless_in_purpose_insidious_in_method
+		}
+		x = 20
+		y = 4
+		available = {
+			OR = {
+				date > 1939.1.1
+				has_war = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 1000
+				any_claim = yes
+				has_war = yes
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 20
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 1
+				category = armor
+			}
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = HDA_alert_and_knowledgable_citizenry
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_traditional_and_solemn_ceremony
+		}
+		x = 23
+		y = 1
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = HDA_power_in_the_interests_of_world_peace
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_traditional_and_solemn_ceremony
+		}
+		x = 25
+		y = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = HDA_piwp_AF
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = HDA_piwp_IC
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_piwp_AF
+			}
+			random_owned_controlled_state = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT					
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_piwp_IC
+			}
+		}
+	}
+	focus = {
+		id = HDA_formalized_complex
+		icon = GFX_focus_generic_rubber
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_power_in_the_interests_of_world_peace
+		}
+		x = 23
+		y = 2
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				name = mech_army_bonus
+				technology = basic_medium_tank
+				technology = improved_medium_tank
+				technology = advanced_medium_tank
+				technology = mechanised_infantry
+			}	
+		}
+	}
+	focus = {
+		id = HDA_unwarranted_influence
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_power_in_the_interests_of_world_peace
+		}
+		x = 25
+		y = 2
+		available = {
+			controls_state = 463
+			controls_state = 471
+			controls_state = 473
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			463 = {
+				add_resource = {
+					type = oil
+					amount = 12
+				}
+			}
+			471 = {
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+			473 = {
+				add_resource = {
+					type = oil
+					amount = 4
+				}
+			}
+		}
+	}
+	focus = {
+		id = HDA_permanent_armaments_industry
+		icon = GFX_focus_generic_industry_2
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_unwarranted_influence
+		}
+		x = 25
+		y = 3
+		available = {
+			OR = {
+				any_other_country = {
+					has_war_with = ROOT
+					num_of_factories > 30
+				}
+			}
+				threat > 0.2
+			}
+
+		continue_if_invalid = yes
+
+		bypass = {
+			custom_trigger_tooltip =  {
+				tooltip = production_effort_tt
+				NOT = {
+					any_owned_state = {
+						is_in_home_area = yes
+						free_building_slots = {
+							building = arms_factory
+							size > 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = HDA_pai_2AF }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_pai_2AF
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_pai_2AF
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_pai_2AF
+			}
+		}
+	}
+	focus = {
+		id = HDA_improvization_of_national_defense
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_permanent_armaments_industry
+		}
+		x = 25
+		y = 4
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						controller = { NOT = { is_in_faction_with = HDA } }
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+					level = 3
+					instant_build = yes
+				}
+			}
+			every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_coastal = yes
+					is_in_home_area = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = HDA_research_has_become_central
+		icon = GFX_goal_tfv_generic_tech_sharing
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_improvization_of_national_defense
+		}
+		x = 25
+		y = 5
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = HDA_need_so_sharp_and_apparent
+		icon = GFX_focus_secret_rearmament
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_traditional_and_solemn_ceremony
+		}
+		x = 27
+		y = 1
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = HDA_need_so_sharp_and_apparent_idea
+		}
+	}
+	focus = {
+		id = HDA_ready_for_instant_action
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_power_in_the_interests_of_world_peace
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = HDA_fleet_in_being
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_masters_of_the_pacific
+		}
+		mutually_exclusive = {
+			focus = HDA_carrier_focus
+		}
+		x = 30
+		y = 1
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_doc_bonus
+				bonus = 0.5
+				uses = 3
+				category = naval_doctrine
+			}
+		}
+	}
+	focus = {
+		id = HDA_battleship_development
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_fleet_in_being
+		}
+		x = 29
+		y = 2
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HDA_battleship_development
+				bonus = 0.5
+				uses = 2
+				category = bb_tech
+			}
+		}
+	}
+	focus = {
+		id = HDA_carrier_focus
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_masters_of_the_pacific
+		}
+		mutually_exclusive = {
+			focus = HDA_fleet_in_being
+		}
+		x = 32
+		y = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HDA_carrier_focus
+				bonus = 0.5
+				uses = 2
+				category = cv_tech
+			}
+		}
+	}
+	focus = {
+		id = HDA_cruiser_development
+		icon = GFX_focus_generic_cruiser2
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_carrier_focus
+			focus = HDA_fleet_in_being
+		}
+		x = 31
+		y = 2
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HDA_cruiser_development
+				bonus = 0.50
+				uses = 2
+				category = cl_tech	
+				category = ca_tech	
+			}
+		}
+	}
+	focus = {
+		id = HDA_naval_aviation
+		icon = GFX_goal_generic_occupy_start_war
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_carrier_focus
+		}
+		x = 33
+		y = 2
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HDA_naval_aviation
+				bonus = 0.5
+				uses = 1
+				category = naval_bomber
+			}
+		}
+	}
+	focus = {
+		id = HDA_marine_infantry
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_naval_aviation
+			focus = HDA_cruiser_development
+			focus = HDA_battleship_development
+		}
+		x = 31
+		y = 3
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HDA_marine_infantry
+				bonus = 0.5
+				uses = 1
+				technology = marines
+				technology = marines2
+			}
+		}
+	}
+	focus = {
+		id = HDA_expand_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_battleship_development
+			focus = HDA_cruiser_development
+			focus = HDA_naval_aviation
+		}
+		x = 29
+		y = 3
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = HDA_expand_dockyards_idea
+		}
+	}
+	focus = {
+		id = HDA_naval_logistics
+		icon = GFX_goal_generic_occupy_states_coastal
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_marine_infantry
+		}
+		prerequisite = {
+			focus = HDA_expand_dockyards
+		}
+		x = 31
+		y = 4
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = HDA_naval_logistics_idea
+		}
+	}
+	focus = {
+		id = HDA_radar
+		icon = GFX_goal_generic_radar
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_naval_aviation
+		}
+		x = 33
+		y = 4
+		completion_reward = {
+			air_experience = 50
+			add_tech_bonus = {
+				name = HDA_radar
+				bonus = 0.5
+				uses = 1
+				category = radar_tech
+			}
+		}
+	}
+	focus = {
+		id = HDA_submarines
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_expand_dockyards
+		}
+		x = 29
+		y = 4
+
+		complete_tooltip = {
+			navy_experience = 25
+			every_state = {
+				limit = { has_state_flag = HDA_subs_2DY }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = HDA_submarines
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+		}
+		
+		completion_reward = {
+			navy_experience = 25
+			random_owned_controlled_state = {
+				limit = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_subs_2DY
+			}
+			add_tech_bonus = {
+				name = HDA_submarines
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+		}
+	}
+	focus = {
+		id = HDA_blue_of_the_mighty_deep
+		icon = GFX_goal_generic_build_navy
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_naval_logistics
+		}
+		prerequisite = {
+			focus = HDA_radar
+		}
+		prerequisite = {
+			focus = HDA_submarines
+		}
+		x = 31
+		y = 5
+
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			navy_experience = 50
+			every_state = {
+				limit = { has_state_flag = HDA_botmd_DY }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = bc_bonus
+				bonus = 0.5
+				uses = 1
+				category = bc_tech
+			}
+			add_tech_bonus = {
+				name = bb_bonus
+				bonus = 0.5
+				uses = 1
+				category = bb_tech
+				category = shbb_tech
+			}
+			add_tech_bonus = {
+				name = cv_bonus
+				bonus = 0.5
+				uses = 1
+				category = cv_tech
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 50
+			random_owned_controlled_state = {
+				limit = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_botmd_DY
+			}
+			add_tech_bonus = {
+				name = bc_bonus
+				bonus = 0.5
+				uses = 1
+				category = bc_tech
+			}
+			add_tech_bonus = {
+				name = bb_bonus
+				bonus = 0.5
+				uses = 1
+				category = bb_tech
+				category = shbb_tech
+			}
+			add_tech_bonus = {
+				name = cv_bonus
+				bonus = 0.5
+				uses = 1
+				category = cv_tech
+			}
+		}
+	}
+	focus = {
+		id = HDA_airfields
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_air_force_reorganization
+		}
+		x = 36
+		y = 1
+		complete_tooltip = {
+			air_experience = 25
+			every_state = {
+				limit = { has_state_flag = HDA_airbase_2af }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			every_state = {
+				limit = { has_state_flag = HDA_airbase_6af }
+				add_building_construction = {
+					type = air_base
+					level = 6
+					instant_build = yes
+				}
+			}
+
+		}
+		
+		completion_reward = {
+			
+			air_experience = 25
+
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							air_base > 3
+							air_base < 9
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 5
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 6
+						instant_build = yes
+					}
+					set_state_flag = HDA_airbase_6af
+				}				
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					air_base > 3
+					air_base < 9
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_airbase_2af
+			}
+			random_owned_controlled_state = {
+				limit = {
+					air_base > 3
+					air_base < 9
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_airbase_2af
+			}
+			random_owned_controlled_state = {
+				limit = {
+					air_base > 2
+					air_base < 9
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HDA_airbase_2af
+			}
+		}
+	}
+	focus = {
+		id = HDA_pilot_training
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_air_force_reorganization
+		}
+		x = 38
+		y = 1
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			air_experience = 25
+		}
+	}
+	focus = {
+		id = HDA_ground_support_doctrine
+		icon = GFX_goal_generic_CAS
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_airfields
+		}
+		prerequisite = {
+			focus = HDA_pilot_training
+		}
+		mutually_exclusive = {
+			focus = HDA_fighter_doctrine
+		}
+		x = 35
+		y = 2
+		completion_reward = {
+			add_tech_bonus = {
+				name = HDA_ground_support_doctrine
+				bonus = 0.5
+				uses = 2
+				category = tactical_bomber
+				category = cas_bomber
+			}
+		}
+	}
+	focus = {
+		id = HDA_bomber_headquarters
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_ground_support_doctrine
+		}
+		x = 35
+		y = 3
+		available_if_capitulated = yes
+
+		completion_reward = { 
+			air_experience = 50
+			add_tech_bonus = {
+				name = HDA_bomber_headquarters
+				bonus = 0.5
+				uses = 2
+				category = heavy_air
+			}
+			add_tech_bonus = {
+				name = radar_tech_bonus
+				bonus = 0.5
+				uses = 1
+				category = radar_tech
+			}
+		}
+	}
+	focus = {
+		id = HDA_fighter_doctrine
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_pilot_training
+		}
+		prerequisite = {
+			focus = HDA_airfields
+		}
+		mutually_exclusive = {
+			focus = HDA_ground_support_doctrine
+		}
+		x = 37
+		y = 2
+		completion_reward = {
+			add_tech_bonus = {
+				name = HDA_fighter_doctrine
+				bonus = 0.5
+				uses = 2
+				category = light_fighter
+				category = cat_heavy_fighter
+			}
+		}
+	}
+	focus = {
+		id = HDA_eagle_aces
+		icon = GFX_goal_generic_air_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_fighter_doctrine
+		}
+		x = 37
+		y = 3
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = HDA_eagle_aces_idea
+			add_tech_bonus = {
+				name = HDA_eagle_aces
+				bonus = 0.5
+				uses = 2
+				category = cat_heavy_fighter
+			}
+		}
+	}
+	focus = {
+		id = HDA_strategic_bombers
+		icon = GFX_goal_generic_air_production
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_eagle_aces
+			focus = HDA_bomber_headquarters
+		}
+		x = 36
+		y = 4
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = strat_dest_bonus
+				bonus = 0.5
+				uses = 2
+				category = battlefield_support_tree
+			}
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 1
+				category = cat_strategic_bomber
+			}
+		}
+	}
+	focus = {
+		id = HDA_rocketry
+		icon = GFX_focus_rocketry
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_research_has_become_central
+		}
+		x = 24
+		y = 6
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HDA_rocketry
+				bonus = 0.5
+				uses = 2
+				category = rocketry
+			}
+			add_tech_bonus = {
+				name = HDA_rocketry
+				bonus = 0.5
+				uses = 1
+				category = jet_technology
+			}
+		}
+	}
+	focus = {
+		id = HDA_operation_albatross
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_research_has_become_central
+		}
+		x = 26
+		y = 6
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HDA_operation_albatross
+				bonus = 0.5
+				uses = 1
+				category = nuclear
+			}
+			add_tech_bonus = {
+				name = HDA_operation_albatross
+				bonus = 0.5
+				uses = 1
+				category = nuclear
+			}
+		}
+	}
+	focus = {
+		id = HDA_paratroopers
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_pilot_training
+		}
+		x = 39
+		y = 2
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = HDA_paratroopers
+				bonus = 0.5
+				uses = 2
+				technology = paratroopers
+				technology = paratroopers2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+				technology = tech_engineers
+				technology = tech_engineers2
+				technology = tech_engineers3
+				technology = tech_recon
+				technology = tech_recon2
+				technology = tech_recon3
+			}
+		}
+	}
+	focus = {
+		id = HDA_modern_af_doctrine
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_strategic_bombers
+		}
+		x = 36
+		y = 5
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HDA_modern_af_doctrine
+				bonus = 0.5
+				uses = 3
+				category = jet_technology
+			}
+		}
+	}
+}

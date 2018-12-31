@@ -719,23 +719,6 @@ air_wings = {
 			amount = 24
 		}
 	}
-
-	### RAF Middle East and Africa
-	116 = { 
-		### AHQ Malta
-		fighter_equipment_0 = {
-			owner = "ENG" 
-			amount = 72
-		}
-		tac_bomber_equipment_0 = {
-			owner = "ENG" 
-			amount = 48
-		}
-		CAS_equipment_1 = {
-			owner = "ENG" 
-			amount = 64
-		}
-	}
 }
 
 	#########################

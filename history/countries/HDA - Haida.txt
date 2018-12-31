@@ -4,8 +4,8 @@
 set_research_slots = 4
 
 oob = "HDA_byzfire"
-set_stability = 0.8
-set_war_support = 0.1
+set_stability = 0.65
+set_war_support = 0.40
 
 # Starting tech
 set_technology = {
@@ -42,7 +42,23 @@ set_technology = {
 
 }
 
+add_ideas = {
+	HDA_uneasy_victors
+	HDA_nahua_tensions	
+}
+
 set_convoys = 250
+
+if = {
+	set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = NZL
+		autonomous_state = autonomy_puppet
+	}
+}
 
 
 set_politics = {
@@ -74,7 +90,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Yeltatzie Kaawaas"
-	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
+	desc = "POLITICS_YELTATZIE_KAAWAAS_DESC"
 	picture = "hda_yeltatzie_kaawaas.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -85,8 +101,8 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Qaavotay" #Hopi
-	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
+	name = "Danavak Teikweidí" #Tlingit, female
+	desc = "POLITICS_DANAVAK_TEIKWEIDI_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -96,8 +112,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "'Ikiaq' Sammurtok" #Inuit
-	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
+	name = "Uluudax Kenaitze" #Aleut 
+	desc = "POLITICS_ULUUDAX_KENAITZE_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
@@ -107,7 +123,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Tahaygen 'Skíl Jáadaay' Idinsaw" #Haida
-	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
+	desc = "POLITICS_TAHAYGEN_IDINSAW_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
 	ideology = shanghai_school_economics

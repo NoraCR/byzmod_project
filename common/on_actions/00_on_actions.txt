@@ -563,35 +563,10 @@ on_actions = {
 			}
 			news_event = { id = country_capitulated.0 days = 0 }
 			if = {
-				limit = { 
-					original_tag = POL
-					has_government = neutrality
-				}
-				retire_country_leader = yes
-			}
-			if = {
 				limit = {
-					original_tag = YUG
+					original_tag = SOV
 				}
-				remove_ideas = YUG_idea_economic_aid
-			}
-			if = {
-				limit = {
-					original_tag = HOL
-					has_country_flag = netherlands_refused_return_kaiser
-					FROM = {
-						original_tag = GER
-						has_country_flag = germany_war_return_kaiser
-						has_government = neutrality
-					}
-				}
-				FROM = { country_event = { id = wtt_germany.6 } }
-			}
-			if = {
-				limit = {
-					original_tag = DEN
-				}
-				country_event = { id = wtt_denmark.1 days = 1 }
+				remove_ideas = communist_plot
 			}
 		}
 	}

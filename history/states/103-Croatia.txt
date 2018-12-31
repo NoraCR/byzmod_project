@@ -23,7 +23,7 @@ state={
 			}
 		}
 		victory_points = {
-			6889 1
+			6889 20
 		}
 		add_core_of = BYZ
 	}

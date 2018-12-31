@@ -15,7 +15,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		date > 1936.8.1
-		country_exists = GER
+		tag = GER
 		NOT = { country_exists = CZE }
 	}
 	mean_time_to_happen = {
@@ -38,7 +38,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		date > 1937.1.1
-		country_exists = GER
+		tag = GER
 		NOT = { country_exists = CZE }
 	}
 	mean_time_to_happen = {
@@ -63,7 +63,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		date > 1937.2.1
-		country_exists = GER
+		tag = GER
 	}
 	mean_time_to_happen = {
 		days = 2
@@ -86,7 +86,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		date > 1937.2.14
-		country_exists = GER
+		tag = GER
 	}
 	mean_time_to_happen = {
 		days = 2

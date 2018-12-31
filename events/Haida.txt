@@ -1,0 +1,101 @@
+﻿############
+# Haida Events
+############
+
+add_namespace = haida
+
+# Destroyers for Bases
+country_event = {
+	id = haida.1
+	title = haida.1.t
+	desc = haida.1.d
+	picture = GFX_report_event_usa_british_sailors_destroyers
+
+	is_triggered_only = yes
+	
+	option = {
+		name = haida.1.a
+		custom_effect_tooltip = haida.1.a.tt
+		hidden_effect = {
+			JAP = {	load_oob = "JAP_destroyers_for_bases" }
+			JAP = {
+				if = { limit = { 631 = { is_controlled_by = JAP } }
+					remove_state_core = 631
+				}
+				if = { limit = { 630 = { is_controlled_by = JAP } }
+					remove_state_core = 630
+				}
+				if = { limit = { 727 = { is_controlled_by = JAP } } 
+					remove_state_core = 727
+				}
+				if = { limit = { 270 = { is_controlled_by = JAP } } 
+					remove_state_core = 270
+				}
+				if = { limit = { 641 = { is_controlled_by = JAP } } 
+					remove_state_core = 641
+				}
+				if = { limit = { 642 = { is_controlled_by = JAP } } 
+					remove_state_core = 642
+				}
+				if = { limit = { 726 = { is_controlled_by = JAP } } 
+					remove_state_core = 726
+				}
+				if = { limit = { 636 = { is_controlled_by = JAP } } 
+					remove_state_core = 636
+				}
+			}
+			KOR = { load_oob = "KOR_destroyers_for_bases" }
+		}
+		HDA = {
+			if = { limit = { 631 = { is_controlled_by = JAP } }
+				transfer_state = 631
+			}
+			if = { limit = { 630 = { is_controlled_by = JAP } }
+				transfer_state = 630
+			}
+			if = { limit = { 727 = { is_controlled_by = JAP } } 
+				transfer_state = 727
+			}
+			if = { limit = { 270 = { is_controlled_by = JAP } } 
+				transfer_state = 270
+			}
+			if = { limit = { 641 = { is_controlled_by = JAP } } 
+				transfer_state = 641
+			}
+			if = { limit = { 642 = { is_controlled_by = JAP } } 
+				transfer_state = 642
+			}
+			if = { limit = { 726 = { is_controlled_by = JAP } } 
+				transfer_state = 726
+			}
+			if = { limit = { 636 = { is_controlled_by = JAP } } 
+				transfer_state = 636
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = destroyers_for_bases_opinion
+			}
+		}
+	}
+
+	option = {
+		name = haida.1.b
+		HDA = { country_event = { id = haida.2 days = 1 } }
+		ai_chance = { factor = 0 }
+	}
+
+}
+
+# Japan refuses offer
+country_event = {
+	id = haida.2
+	title = haida.2.t
+	desc = haida.2.d
+	picture = GFX_report_event_usa_destroyers
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = haida.2.a
+	}
+}

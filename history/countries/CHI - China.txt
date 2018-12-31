@@ -115,7 +115,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Zhang Zhulin"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+	desc = "POLITICS_ZHANG_ZHULIN_DESC"
 	picture = "chi_zhang_zhulin.dds"
 	expire = "1965.1.1"
 	ideology = shanghai_school_economics
@@ -127,7 +127,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Dai Chunfeng"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+	desc = "POLITICS_DAI_CHUNFENG_DESC"
 	picture = "Portrait_China_Chiang_Kai_Shek.dds"
 	expire = "1965.1.1"
 	ideology = despotism
@@ -138,7 +138,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Guan Xiannian"
-	desc = "POLITICS_MAO_ZEDONG_DESC"
+	desc = "POLITICS_GUAN_XIANNIAN_DESC"
 	picture = "Portrait_China_Mao_Zedong.dds"
 	expire = "1965.1.1"
 	ideology = leninism
@@ -149,7 +149,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "D.H.H.D.B.X. Huang Fuqiang"
-	desc = "POLITICS_WANG_JINGWEI_DESC"
+	desc = "POLITICS_HUANG_FUQIANG_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -159,8 +159,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sun Lan"
-	desc = "POLITICS_ZHANG_LAN_DESC"
+	name = "Eu Feihung"
+	desc = "POLITICS_EU_FEI_HUNG_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = socialism

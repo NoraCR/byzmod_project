@@ -1,0 +1,60 @@
+# Destroyers sent to JAP in exchange for bases
+
+units = {
+	navy = {					
+		name = "Haida Destroyer Flotilla 1"				
+		base = 9859
+		location = 9859 # Aomori
+		# 7th Destroyer Division				
+		ship = { name = "Sumida" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }				
+		ship = { name = "Fushimi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }					
+		ship = { name = "Ataka" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }							
+		ship = { name = "Okitsu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }					
+		ship = { name = "Karatsu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }						
+		# 8th Destroyer Division				
+		ship = { name = "Katada" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }						
+		ship = { name = "Fushimi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }						
+		ship = { name = "Sumida" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }							
+		ship = { name = "Hozu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }						
+		# 11th Destroyer Division				
+		ship = { name = "Katata" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }					
+		ship = { name = "Futami" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }			
+		ship = { name = "Atami" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }						
+		ship = { name = "Seta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }				
+		# 12th Destroyer Division				
+		ship = { name = "Kotaka" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }					
+		ship = { name = "Toba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }				
+		ship = { name = "Hira" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }					
+		ship = { name = "Tatara" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }					
+	}					
+	navy = {					
+		name = "Haida Destroyer Flotilla 2"				
+		base = 9950
+		location = 9950 # Nagasaki
+		# 22nd Destroyer Division				
+		ship = { name = "Chidori" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }					
+		ship = { name = "Hatsukari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }							
+		ship = { name = "Manazuru" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }						
+		ship = { name = "Tomozuru" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }				
+
+		ship = { name = "Hato" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }							
+		ship = { name = "Hayabusa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }							
+		ship = { name = "Hiyodori" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }						
+		ship = { name = "Kari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }							
+	}				
+	navy = {					
+		name = "Haida Destroyer Flotilla 3"				
+		base = 1092
+		location = 1092 # Hiroshima
+		# 19th Destroyer Division				
+		ship = { name = "Kasasagi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }				
+		ship = { name = "Kiji" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }					
+		ship = { name = "Ōtori" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }				
+		# 20th Destroyer Division				
+		ship = { name = "Sagi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }					
+		ship = { name = "Asagao" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }					
+		ship = { name = "Fuyo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }					
+		ship = { name = "Karukaya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HDA creator = HDA } } }				
+	}										
+}					
+					

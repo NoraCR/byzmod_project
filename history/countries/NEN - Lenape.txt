@@ -69,7 +69,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Appamankaogh Atsayonck"
-	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
+	desc = "POLITICS_APPANMANKAOGH_ATSAYONCK_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -81,7 +81,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Mahamickwon Canarsee"
-	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
+	desc = "POLITICS_MAHAMICKWON_CANARSEE_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -92,7 +92,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Menarhohondoo Sewapois"
-	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
+	desc = "POLITICS_CARLOS_MENARHOHONDOO_SEWAPOIS_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
 	ideology = marxism
@@ -103,7 +103,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Moconnoquah Weehawken"
-	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
+	desc = "POLITICS_MOCONNOQUAH_WEEHAWKEN_DESC"
 	picture = "nen_moconnoquah_weehawken.dds"
 	expire = "1965.1.1"
 	ideology = corpocracy

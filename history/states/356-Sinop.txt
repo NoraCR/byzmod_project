@@ -8,14 +8,17 @@ state={
 	history={
 		owner = BYZ
 		buildings = {
-			infrastructure = 5
+			infrastructure = 6
 			industrial_complex = 2
 			arms_factory = 2
 			6995 = {
-				naval_base = 1
+				naval_base = 2
 			}
 		}
 		add_core_of = BYZ
+		victory_points = {
+			6995 1
+		}
 	}
 
 	provinces={

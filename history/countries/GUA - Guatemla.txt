@@ -86,8 +86,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Tuyuc" #female
-	desc = "POLITICS_JORGE_UBICO_DESC"
+	name = "Tuyuc Xiu" #female
+	desc = "POLITICS_TUYUC_XIU_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_6.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -96,8 +96,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Paxbolonacha"
-	desc = "POLITICS_DIONISIO_ENCINA_DESC"
+	name = "Hunac Ahaual" #male
+	desc = "POLITICS_HUNAC_AHAUAL_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = corpocracy
@@ -106,8 +106,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Teyacapan" #female
-	desc = "POLITICS_DIONISIO_ENCINA_DESC"
+	name = "Apoxpalan Mes" #male
+	desc = "POLITICS_APOXPALAN_MES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = marxism

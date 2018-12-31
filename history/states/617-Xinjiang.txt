@@ -9,13 +9,16 @@ state={
 	history={
 		owner = CHI
 		add_core_of = CHI
+		add_core_of = SIK
 		buildings = {
 			infrastructure = 5
 		}
 		victory_points = {
-			4709 3 
+			10545 3
 		}
-
+		victory_points= {
+			12526 1
+		}
 	}
 
 	provinces={

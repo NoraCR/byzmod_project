@@ -8,13 +8,14 @@ state={
 
 	}
 	
-	state_category = wasteland
+	state_category = rural
 
 	history={
 		owner = CHI
 		add_core_of = CHI
+		add_core_of = SIK
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 
 		}
 

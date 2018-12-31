@@ -2474,7 +2474,6 @@ news_event = {
 	desc = news.991.d
 	picture = GFX_report_event_communists_cheer
 	
-	major = yes
 	
 	trigger = {
 		date > 1936.12.25
@@ -2698,7 +2697,6 @@ news_event = {
 	trigger = {
 		date > 1937.2.13
 		country_exists = SIA
-		SIA = { has_government = pangalism }
 		NOT = { has_global_flag = zhongnan_massacre_fired }
 	}
 	
@@ -10101,6 +10099,7 @@ news_event = {
 	picture = GFX_news_event_soldiers_marching
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.500.d
@@ -10152,6 +10151,7 @@ news_event = {
 	major = yes
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.501.d
@@ -10206,6 +10206,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.510.d
@@ -10248,6 +10249,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.511.d
@@ -10290,6 +10292,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.512.d
@@ -10332,6 +10335,7 @@ news_event = {
 	picture = GFX_news_event_053
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.513.d
@@ -10366,6 +10370,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.514.d
@@ -10408,6 +10413,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.515.d
@@ -10458,6 +10464,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes 
 	
 	desc = {
 		text = news.516.d
@@ -10756,6 +10763,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.600.d
@@ -10792,6 +10800,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.700.d
@@ -10852,6 +10861,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.720.d
@@ -10887,6 +10897,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.710.d
@@ -10922,6 +10933,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.721.d
@@ -10957,6 +10969,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.701.d
@@ -10992,6 +11005,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.702.d
@@ -11046,6 +11060,7 @@ news_event = {
 	picture = GFX_news_event_generic_communist_congress
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.704.d
@@ -11083,11 +11098,12 @@ news_event = {
 	}
 }
 news_event = {
-	id = news.705
+	id = news.705 #Britain Grants Congo Independence
 	title = news.705.t
 	picture = GFX_news_event_generic_communist_congress
 	is_triggered_only = yes
 	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.705.d
@@ -11125,7 +11141,7 @@ news_event = {
 	}
 }
 news_event = {
-	id = news.706
+	id = news.706 #Mount Sagarmatha
 	title = news.706.t
 	picture = GFX_news_event_journalists_speech
 	is_triggered_only = yes

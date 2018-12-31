@@ -18,6 +18,9 @@ state={
 		victory_points = {
 			7236 1 
 		}
+		victory_points = {
+			12230 1
+		}
 		add_core_of = SIA
 	}
 	

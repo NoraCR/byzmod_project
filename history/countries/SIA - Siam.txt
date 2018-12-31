@@ -123,8 +123,8 @@ set_war_support = 0.30
 		}
 	}
 	create_country_leader = {
-		name = "Nguyen Van Vien"
-		desc = ""
+		name = "Trung Cam Lynh"
+		desc = "POLITICS_TRUNG_CAM_LYNH_DESC"
 		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 		expire = "1965.1.1"
 		ideology = marxism
@@ -134,7 +134,7 @@ set_war_support = 0.30
 }
 	create_country_leader = {
 		name = "Chompon Por Krita Udomprecha"
-		desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+		desc = "POLITICS_KRITA_UDOMPRECHA_DESC"
 		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 		expire = "1965.1.1"
 		ideology = fascism_ideology
@@ -144,7 +144,7 @@ set_war_support = 0.30
 }
 	create_country_leader = {
 		name = "U Thet Phyoe" #Burmese male
-		desc = "POLITICS_EARL_BROWDER_DESC"
+		desc = "POLITICS_U_THET_PHYOE_DESC"
 		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 		expire = "1965.1.1"
 		ideology = liberalism
@@ -154,7 +154,7 @@ set_war_support = 0.30
 	}
 	create_country_leader = {
 		name = "Rama IV Paramenthra"
-		desc = "POLITICS_EARL_BROWDER_DESC"
+		desc = "POLITICS_RAMA_IV_DESC"
 		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 		expire = "1965.1.1"
 		ideology = centrism

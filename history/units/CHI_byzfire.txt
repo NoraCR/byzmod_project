@@ -526,6 +526,13 @@ units = {
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
 	}
+	division = {
+		name = "Gaoxiong Zhujun"
+		location = 12068 #Gaoxiong
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+				
+	}
 ##Central Asia
 	division = {
 		name = "Jindun Anfang Gongsi" ##Afghan PMC
@@ -630,6 +637,20 @@ units = {
 	division = {
 		name = "Di 451 Bubing Shi"
 		location = 4987
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Di 452 Bubing Shi"
+		location = 7374
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Di 451 Bubing Shi"
+		location = 7374
 		division_template = "Bubingshi"
 		start_experience_factor = 0.2
 		
@@ -923,6 +944,20 @@ units = {
 				
 	}
 	division = {
+		name = "Gavan Zhujun"
+		location = 4404 #Bohori
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+				
+	}
+	division = {
+		name = "Yongmingcheng Zhujun"
+		location = 957 #Yongmingcheng
+		division_template = "Zhujun Lu"
+		start_experience_factor = 0.3
+				
+	}
+	division = {
 		name = "Di 1 'Baqi' Manzu Bubing Shi"
 		location = 6981
 		division_template = "Bubingshi"
@@ -1088,7 +1123,7 @@ units = {
 		ship = { name = "CNS Q24" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHI } } }	
 	}
 	navy = {				
-		name = "Zhaonandao Jiandui"
+		name = "Maliujia Haixia Jiandui"
 		base = 12299
 		location = 12299 # Singapore
 		ship = { name = "CNS Nanzheng" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
@@ -1180,3 +1215,48 @@ air_wings = {
 	}
 }
 
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+		
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "CHI"
+		}
+		requested_factories = 6
+		progress = 0.1
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "CHI" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "CHI" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "CHI" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+}

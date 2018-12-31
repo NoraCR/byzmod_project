@@ -693,6 +693,8 @@
  balkan_strategy_good:0 "Balkan Strategy"
  balkan_strategy_bad:0 "Balkan Strategy"
  aided_industry:0 "Aided Industrial Development"
+ pangalism_leanings_good:0 "Pangalist Leanings"
+ pangalism_leanings_bad:0 "Pangalist Leanings"
  DIPLOMACY_LEAVE_FACTION_NOT_LEADER:0 "$LEADER|H$ is the leader of the faction"
  DIPLOMACY_LEAVE_FACTION_FIGHTING_WAR_TOGETHER:0 "Not allowed when fighting war together"
  DIPLOMACY_WAR_NO_WAR_FIGHTING_WAR:0 "Not allowed when fighting war together"

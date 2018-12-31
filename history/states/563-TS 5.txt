@@ -16,6 +16,9 @@ state={
 			air_base = 2
 		}
 		add_core_of = KOR
+		victory_points = {
+			12641 1
+		}
 	}
 
 	provinces={
