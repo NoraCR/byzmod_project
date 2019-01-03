@@ -1961,7 +1961,7 @@ focus_tree = {
 				add_opinion_modifier = { target = FRA modifier = embargo }
 			}
 			hidden_effect = {
-				news_event = { id = news.506 hours = 6}
+				news_event = { id = news.506 hours = 6 }
 			}
 		}
 	}
@@ -2687,9 +2687,6 @@ focus_tree = {
 		completion_reward = {
 			add_named_threat = { threat = 2 name = absorb_leon }
 			country_event = { id = france.50 }
-			hidden_effect = {
-				news_event = { id = news.560 hours = 6}
-			}
 		}
 	}
 	focus = {
@@ -2719,9 +2716,6 @@ focus_tree = {
 		completion_reward = {
 			add_named_threat = { threat = 3 name = absorb_algarve }
 			country_event = { id = france.51 }
-			#hidden_effect = {
-			#	news_event = { id = news.561 hours = 6}
-			#}
 		}
 	}
 	focus = {
@@ -2754,9 +2748,6 @@ focus_tree = {
 		completion_reward = {
 			puppet = SPR
 			country_event = { id = france.53 }
-			hidden_effect = {
-				news_event = { id = news.562 hours = 6}
-			}
 		}
 	}
 	focus = {

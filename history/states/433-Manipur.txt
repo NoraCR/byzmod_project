@@ -17,7 +17,16 @@ state={
 		add_core_of = MRT
 		add_core_of = RAJ
 		victory_points = {
-			1908 1 
+			1908 5 
+		}
+		victory_points = {
+			4915 3
+		}
+		victory_points = {
+			12718 3
+		}
+		victory_points = {
+			12743 3
 		}
 		buildings = {
 			infrastructure = 5

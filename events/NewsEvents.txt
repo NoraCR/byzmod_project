@@ -9990,7 +9990,7 @@ news_event = {
 	}
 }
 
-#RAJ famine is over
+#SOV famine is over
 news_event = {
 	id = news.273
 	title = news.273.t
@@ -10022,9 +10022,8 @@ news_event = {
 	title = news.274.t
 	desc = news.274.desc
 	picture = GFX_news_event_generic_bombers
-
-	fire_only_once = yes
 	is_triggered_only = yes
+	major = yes 
 	
 	option = {
 		name = news.274.a
@@ -10052,7 +10051,7 @@ news_event = {
 	title = news.506.t
 	picture = GFX_news_event_king_speech
 	is_triggered_only = yes
-	fire_only_once = yes
+	major = yes
 	desc = {
 		text = news.506.desc
 	}
@@ -10098,7 +10097,6 @@ news_event = {
 	title = news.500.t
 	picture = GFX_news_event_soldiers_marching
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10150,7 +10148,6 @@ news_event = {
 	picture = GFX_news_event_german_soldiers
 	major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10205,7 +10202,6 @@ news_event = {
 	title = news.510.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10248,7 +10244,6 @@ news_event = {
 	title = news.511.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10291,7 +10286,6 @@ news_event = {
 	title = news.512.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10334,7 +10328,6 @@ news_event = {
 	title = news.513.t
 	picture = GFX_news_event_053
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10369,7 +10362,6 @@ news_event = {
 	title = news.514.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10412,7 +10404,6 @@ news_event = {
 	title = news.515.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10463,7 +10454,6 @@ news_event = {
 	title = news.516.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes 
 	
 	desc = {
@@ -10513,7 +10503,6 @@ news_event = {
 	title = news.560.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10549,7 +10538,6 @@ news_event = {
 	title = news.561.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10585,7 +10573,6 @@ news_event = {
 	title = news.566.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10621,7 +10608,6 @@ news_event = {
 	title = news.562.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10657,7 +10643,7 @@ news_event = {
 	title = news.563.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.563.d
@@ -10692,7 +10678,7 @@ news_event = {
 	title = news.564.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.564.d
@@ -10727,7 +10713,7 @@ news_event = {
 	title = news.565.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.565.d
@@ -10762,7 +10748,6 @@ news_event = {
 	title = news.600.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10799,7 +10784,6 @@ news_event = {
 	title = news.700.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10860,7 +10844,6 @@ news_event = {
 	title = news.720.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10896,7 +10879,6 @@ news_event = {
 	title = news.710.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10932,7 +10914,6 @@ news_event = {
 	title = news.721.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -10968,7 +10949,6 @@ news_event = {
 	title = news.701.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -11004,7 +10984,6 @@ news_event = {
 	title = news.702.t
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -11059,7 +11038,6 @@ news_event = {
 	title = news.704.t
 	picture = GFX_news_event_generic_communist_congress
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -11102,7 +11080,6 @@ news_event = {
 	title = news.705.t
 	picture = GFX_news_event_generic_communist_congress
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	
 	desc = {
@@ -11112,13 +11089,13 @@ news_event = {
 	option = {
 		name = news.705.a
 		trigger = {
-			has_government = communism
+			has_government = fascism
 		}
 	}
 	option = {
 		name = news.705.b
 		trigger = {
-			has_government = fascism
+			has_government = communism
 			}
 		}
 	option = {
@@ -11145,7 +11122,7 @@ news_event = {
 	title = news.706.t
 	picture = GFX_news_event_journalists_speech
 	is_triggered_only = yes
-	fire_only_once = yes
+	major = yes
 	
 	desc = {
 		text = news.706.d
@@ -11156,7 +11133,7 @@ news_event = {
 	}
 }
 
-news_event = {
+news_event = { #Mullerists win
 	id = news.1001
 	title = news.1001.t
 	picture = GFX_news_event_ger_civil_war
@@ -11198,7 +11175,7 @@ news_event = {
 		}
 	}
 }
-news_event = {
+news_event = { #Mullerists lose
 	id = news.1002
 	title = news.1002.t
 	picture = GFX_news_event_generic_parliament

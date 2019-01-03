@@ -184,6 +184,7 @@ country_event = {
 				country_event = { id = spain.50 }
 		}
 		add_named_threat = { threat = 3 name = france.50.t }
+		news_event = { id = news.560 hours = 6 }
 	}
 }
 
@@ -210,6 +211,7 @@ country_event = {
 				country_event = { id = spain.51 }
 		}
 		add_named_threat = { threat = 5 name = france.51.t }
+		news_event = { id = news.561 hours = 6 }
 	}
 }
 
@@ -238,6 +240,7 @@ country_event = {
 			female = yes
 		}
 		add_named_threat = { threat = 10 name = france.52.t }
+		news_event = { id = news.566 hours = 6 }
 	}
 }
 
@@ -268,6 +271,7 @@ country_event = {
 		168 = { add_core_of = SPR }
 		SPR = { transfer_state = 168 }
 		add_named_threat = { threat = 5 name = france.53.t }
+		news_event = { id = news.562 hours = 6 }
 	}
 }
 

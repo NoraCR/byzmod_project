@@ -29,7 +29,7 @@ country_event = {
 		name = eng.2.a
 		remove_ideas = victoria_vi
 		hidden_effect = {
-				news_event = { id = news.700 hours = 6}
+			news_event = { id = news.700 hours = 6 }
 		}
 	}
 }
