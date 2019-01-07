@@ -526,3 +526,72 @@ country_event = {
 		add_stability = -0.15
 	}
 }
+
+#Beron Clan assassinations
+country_event = {
+	id = byz.899
+	title = byz.899.t
+	desc = byz.899.d
+	picture = GFX_report_event_generic_truck
+	fire_only_once = yes
+	trigger = {
+		date > 1936.2.14
+		tag = BYZ
+		NOT = { has_global_flag = byz.899_fired }
+		BYZ = { has_war = no }
+	}
+	
+	immediate = {
+		set_global_flag = byz.899_fired 
+	}
+	
+	option = {
+		name = byz.899.a
+	}
+}
+
+#Sicily protests
+country_event = {
+	id = byz.900
+	title = byz.900.t
+	desc = byz.900.d
+	picture = GFX_report_event_generic_truck
+	fire_only_once = yes
+	trigger = {
+		date > 1936.3.20
+		tag = BYZ
+		NOT = { has_global_flag = byz.900_fired }
+		BYZ = { has_war = no }
+	}
+	
+	immediate = {
+		set_global_flag = byz.900_fired 
+	}
+	
+	option = {
+		name = byz.900.a
+	}
+}
+
+#Colonel Baris Assassinated
+country_event = {
+	id = byz.901
+	title = byz.901.t
+	desc = byz.901.d
+	picture = GFX_report_event_generic_truck
+	fire_only_once = yes
+	trigger = {
+		date > 1936.8.15
+		tag = BYZ
+		NOT = { has_global_flag = byz.901_fired }
+		BYZ = { has_war = no }
+	}
+	
+	immediate = {
+		set_global_flag = byz.901_fired 
+	}
+	
+	option = {
+		name = byz.901.a
+	}
+}
