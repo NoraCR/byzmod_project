@@ -234,9 +234,9 @@ create_corps_commander = {
 	picture = "byz_general_antigone_tassi.tga"
 	traits = { trickster old_guard }
 	skill = 2
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 3
+	planning_skill = 2
 	logistics_skill = 2
 	female = yes
 }
@@ -325,10 +325,10 @@ create_corps_commander = {
 	picture = "byz_general_evangeline_hira.tga"
 	traits = {  }
 	skill = 2
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 2
 	female = yes
 }
 
@@ -489,18 +489,6 @@ create_equipment_variant = {
 		ship_armor_upgrade = 2
 		ship_gun_upgrade = 2
 	}
-}
-
-create_equipment_variant = {
-	name = "Poseidon Class"
-	type = carrier_2
-	upgrades = {
-		ship_deckspace_upgrade = 1
-		carrier_armor_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_reliability_upgrade = 1
-	}
-
 }
 
 

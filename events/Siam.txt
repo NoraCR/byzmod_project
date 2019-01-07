@@ -159,3 +159,65 @@ country_event = {
 		}
 	}
 }
+#rename city
+country_event = {
+	id = zhongnan.999
+	title = zhongnan.999.t
+	desc = zhongnan.999.desc
+	picture = GFX_report_event_japan_army_mountainside
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = SIA
+		SIA = {
+			NOT = { has_government = pangalism }
+			owns_state = 289 #Thailand 
+			owns_state = 288 #Burma
+			owns_state = 286 #South Vietnam
+			owns_state = 670 #Laos
+			owns_state = 671 #North Vietnam
+			owns_state = 336 #Malay Peninsula
+		}
+	}
+
+	option = { #a great idea!
+		name = zhongnan.999.a
+		ai_chance = {
+			base = 100
+		}
+		set_province_name = { id = 1330 name = "Yangon" }
+		set_province_name = { id = 1403 name = "Moulmein" }
+		set_province_name = { id = 1464 name = "Vientiane" }
+		set_province_name = { id = 1488 name = "Chiang Mai"} #fuck you nazis
+		set_province_name = { id = 4075 name = "Hanoi" }
+		set_province_name = { id = 4302 name = "Siem Reap" }
+		set_province_name = { id = 4379 name = "Hue" }
+		set_province_name = { id = 4397 name = "Vinh" }
+		set_province_name = { id = 4401 name = "Saigon" }
+		set_province_name = { id = 4405 name = "Nha Trang"}
+		set_province_name = { id = 4425 name = "Myitkyina" }
+		set_province_name = { id = 7015 name = "Haiphong" }
+		set_province_name = { id = 7236 name = "Hat Yai" }
+		set_province_name = { id = 7254 name = "Pathein" }
+		set_province_name = { id = 7329 name = "Kota Bharu" }
+		set_province_name = { id = 7376 name = "Phnom Penh" }
+		set_province_name = { id = 7408 name = "Bangkok" }
+		set_province_name = { id = 10297 name = "Kuala Lumpur"}
+		set_province_name = { id = 10438 name = "Nakhon Ratchasima"}
+		set_province_name = { id = 12090 name = "Sittwe" }
+		set_province_name = { id = 12133 name = "Can Tho" }
+		set_province_name = { id = 12230 name = "Phuket" }
+		set_province_name = { id = 12299 name = "Singapura" }
+		set_global_flag = SIA_cities_renamed 
+	}
+
+	option = { #rather not
+		name = zhongnan.999.b
+		ai_chance = {
+			base = 0
+		}
+		add_stability = -0.05 #because fuck you
+	}
+
+}

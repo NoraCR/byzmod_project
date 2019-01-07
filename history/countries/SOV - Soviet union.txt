@@ -136,8 +136,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Nadezhda Mikhailovna Arefyeva"
-	desc = "POLITICS_NADEZHDA_MIKHAILOVNA_AREFYEVA_DESC"
+	name = "Nadezhda Arefyeva"
+	desc = "POLITICS_NADEZHDA_AREFYEVA_DESC"
 	picture = "Portrait_Britain_Neville_Chamberlain.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -157,7 +157,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vladislav Maximovich Shvedov"
+	name = "Vladislav Shvedov"
 	desc = "POLITICS_VLADISLAV_SHVEDOV_DESC"
 	picture = "Portrait_Soviet_Generic_1.dds"
 	expire = "1953.3.1"
@@ -169,7 +169,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Lydia Vasilievna Yushkova"
-	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	desc = "POLITICS_LYDIA_YUSHKOVA_DESC"
 	picture = "Portrait_Soviet_Generic_1.dds"
 	expire = "1953.3.1"
 	ideology = corpocracy
