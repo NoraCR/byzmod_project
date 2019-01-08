@@ -60,6 +60,24 @@ country_event = {
 
 }
 
+# Akira Hinode returns home a hero
+country_event = {
+	id = japan.300
+	title = japan.300.t	
+	desc = japan.300.desc	#
+	picture = GFX_report_event_generic_rally2
+	fire_only_once = yes
+	trigger = {
+		date > 1936.11.13
+		tag = JAP
+	}
+	option = {
+		name = japan.300.a
+		
+	}
+
+}
+
 country_event = {
 	id = japan.19
 	title = japan.19.t	

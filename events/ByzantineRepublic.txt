@@ -573,7 +573,7 @@ country_event = {
 	}
 }
 
-#Colonel Baris Assassinated
+#Storming of the Magnaura
 country_event = {
 	id = byz.901
 	title = byz.901.t
@@ -581,7 +581,7 @@ country_event = {
 	picture = GFX_report_event_generic_truck
 	fire_only_once = yes
 	trigger = {
-		date > 1936.8.15
+		date > 1936.4.4
 		tag = BYZ
 		NOT = { has_global_flag = byz.901_fired }
 		BYZ = { has_war = no }
@@ -593,5 +593,28 @@ country_event = {
 	
 	option = {
 		name = byz.901.a
+	}
+}
+
+#Colonel Baris Assassinated
+country_event = {
+	id = byz.902
+	title = byz.902.t
+	desc = byz.902.d
+	picture = GFX_report_event_generic_truck
+	fire_only_once = yes
+	trigger = {
+		date > 1936.8.15
+		tag = BYZ
+		NOT = { has_global_flag = byz.902_fired }
+		BYZ = { has_war = no }
+	}
+	
+	immediate = {
+		set_global_flag = byz.902_fired 
+	}
+	
+	option = {
+		name = byz.902.a
 	}
 }

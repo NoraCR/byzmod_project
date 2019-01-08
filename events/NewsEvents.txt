@@ -2684,6 +2684,45 @@ news_event = {
 	}
 }
 
+
+
+# Havelka Alive
+news_event = {
+	id = news.910
+	title = news.910.t
+	desc = news.910.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		date > 1936.4.20
+		9 = { is_controlled_by = POL }
+		NOT = { has_global_flag = havelka_survived }
+	}
+	
+	immediate = {
+		set_global_flag = havelka_survived
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.910.a
+		trigger = {
+			NOT = {
+				TAG = POL
+			}
+		}
+	}
+	option = {
+		name = news.910.b
+		trigger = { TAG = POL }
+	}
+}
+
 # Zhongnan Protest Massacre
 news_event = {
 	id = news.990
@@ -2717,6 +2756,57 @@ news_event = {
 	option = {
 		name = news.990.b
 		trigger = { TAG = SIA }
+	}
+}
+
+# Bangkok Boxing Matches (Havelka-Papadopoulous III, Hinode-Shinawatra)
+news_event = {
+	id = news.989
+	title = news.989.t
+	desc = news.989.d
+	picture = GFX_news_event_olympics_1940
+	
+	major = yes
+	
+	trigger = {
+		date > 1936.11.11
+		country_exists = DEN
+		country_exists = BYZ
+		country_exists = SIA
+		country_exists = JAP
+		NOT = { has_global_flag = news.989_fired }
+		DEN = { has_war = no }
+		BYZ = { has_war = no }
+		SIA = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = news.989_fired 
+	}
+	
+	option = {
+		name = news.989.a
+		trigger = { 
+			NOT = { TAG = SIA }
+			NOT = { TAG = BYZ }
+			NOT = { TAG = JAP }
+		}
+	}
+	option = {
+		name = news.989.b
+		trigger = { TAG = SIA }
+	}
+	option = {
+		name = news.989.c
+		trigger = { TAG = BYZ }
+	}
+	option = {
+		name = news.989.d
+		trigger = { TAG = JAP }
 	}
 }
 
@@ -3316,7 +3406,7 @@ news_event = {
 	}
 }
 
-# The Fall of New York
+# The Fall of Prague
 news_event = {
 	id = news.111
 	title = news.111.t
