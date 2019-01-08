@@ -578,10 +578,10 @@ country_event = {
 	id = byz.901
 	title = byz.901.t
 	desc = byz.901.d
-	picture = GFX_report_event_generic_truck
+	picture = GFX_report_event_german_speech
 	fire_only_once = yes
 	trigger = {
-		date > 1936.4.4
+		date > 1936.7.4
 		tag = BYZ
 		NOT = { has_global_flag = byz.901_fired }
 		BYZ = { has_war = no }
@@ -594,6 +594,70 @@ country_event = {
 	option = {
 		name = byz.901.a
 	}
+}
+
+country_event = {
+	id = byz.980
+	title = byz.980.t
+	desc = byz.980.d
+	picture = GFX_report_event_german_speech
+	fire_only_once = yes
+	trigger = {
+		date > 1936.7.7
+		tag = BYZ
+		NOT = { has_global_flag = byz.980_fired }
+		BYZ = { has_war = no }
+	}
+	
+	immediate = {
+		set_global_flag = byz.980_fired 
+	}
+	
+	# Discuss reparations
+	option = {
+		name = byz.980.a
+		BYZ = {
+			country_event = { id = byz.981  }
+		}
+	}
+	# A referendum isn't a bad idea
+	option = {
+		name = byz.980.b
+		BYZ = {
+			country_event = { id = byz.982  }
+		}
+	}
+	# General Stanotas deserves consequences
+	option = {
+		name = byz.980.c
+		BYZ = {
+			country_event = { id = byz.983  }
+		}
+	}
+	# Guards! Guards!!
+	option = {
+		name = byz.980.d
+		BYZ = {
+			country_event = { id = byz.984  }
+		}
+	}
+}
+
+# Demonstration dispersed by force
+country_event = {
+	id = byz.984
+	title = byz.984.t
+	desc = byz.984.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	
+	option = { 
+		name = byz.984.a
+		add_political_power = +100
+	}
+	
 }
 
 #Colonel Baris Assassinated
