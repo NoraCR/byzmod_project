@@ -11307,3 +11307,46 @@ news_event = { #Mullerists lose
 		}
 	}
 }
+
+news_event = { #Theodora assassinated
+	id = news.1003
+	title = news.1003.t
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	desc = {
+		text = news.1003.desc
+	}
+	
+	option = {
+		name = news.1003.a
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.1003.b
+		trigger = {
+			has_government = fascism
+			}
+		}
+	option = {
+		name = news.1003.c
+		trigger = {
+			has_government = democratic
+		}
+	}
+	option = {
+		name = news.1003.d
+		trigger = {
+			has_government = pangalism
+		}
+	}
+	option = {
+		name = news.1003.e
+		trigger = {
+			has_government = neutrality
+		}
+	}
+}

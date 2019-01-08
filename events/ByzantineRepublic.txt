@@ -178,7 +178,7 @@ country_event = {
 		add_war_support = 0.05
 	}
 }
-# Election of 1939: Erdemir vs Lucenteforte vs Swiderska
+# Election for 1940: Erdemir vs Lucenteforte vs Swiderska
 country_event = {
 	id = byz.8
 	title = byz.8.t
@@ -188,8 +188,8 @@ country_event = {
 	trigger = {
 		tag = BYZ
 		communism > 0.5
-		date > 1939.1.1
-		date < 1940.1.1
+		date > 1939.12.1
+		date < 1939.12.30
 		has_elections = yes
 		NOT = { has_global_flag = byz_mullerist_coup  }
 	}
@@ -271,7 +271,7 @@ country_event = {
 		}
 	}
 }
-# Election of 1944: Erdemir vs. Rotas
+# Election for 1945: Erdemir vs. Rotas
 country_event = {
 	id = byz.9
 	title = byz.9.t
@@ -281,8 +281,8 @@ country_event = {
 	trigger = {
 		tag = BYZ
 		communism > 0.5
-		date > 1944.1.1
-		date < 1945.1.1
+		date > 1944.12.1
+		date < 1944.12.30
 		has_elections = yes
 		NOT = { has_global_flag = byz_mullerist_coup }
 	}
@@ -309,7 +309,7 @@ country_event = {
 		set_party_name = { ideology = communism long_name = BYZ_labour_party_long name = BYZ_labour_party }
 		create_country_leader = {
 			name = "Georgios Rotas"
-			desc = "POLITICS_WENDELL_WILKIE_DESC"
+			desc = "POLITICS_GEORGIOS_ROTAS_DESC"
 			picture = "Portrait_USA_Wendell_Willkie.dds"
 			expire = "1965.1.1"
 			ideology = leninism
@@ -319,7 +319,7 @@ country_event = {
 		}
 	}
 }
-# Election of 1944: Erdemir vs (Incumbent)
+# Election for 1945: Erdemir vs (Incumbent)
 country_event = {
 	id = byz.10
 	title = byz.10.t
@@ -332,8 +332,8 @@ country_event = {
 	trigger = {
 		tag = BYZ
 		communism > 0.5
-		date > 1944.1.1
-		date < 1945.1.1
+		date > 1944.12.1
+		date < 1944.12.30
 		has_elections = yes
 		NOT = { has_global_flag = byz_mullerist_coup }
 		NOT = {
@@ -526,7 +526,48 @@ country_event = {
 		add_stability = -0.15
 	}
 }
-
+#Mullerist Coup - III
+country_event = {
+	id = byz.503
+	title = byz.503.t
+	desc = byz.503.d
+	picture = GFX_report_event_soviet_purge_trial
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+		date > 1945.5.20
+		date < 1946.1.1
+		has_global_flag = byz_mullerist_coup
+		has_country_leader = {
+				name = "Theodora Papadopoulou"
+				ruling_only = yes
+			}
+	}
+	
+	option = {
+		name = byz.503.a
+		kill_country_leader = yes
+		set_country_flag = byz_theodora_dead
+		custom_effect_tooltip = remove_military_high_command
+		remove_ideas = theodora_papadopoulou
+		remove_unit_leader = 101
+		ai_chance = {
+			factor = 100
+		}
+			create_country_leader = {
+				name = "Zenobia Stanotas"
+				desc = "POLITICS_ZENOBIA_STANOTAS_DESC"
+				picture = "byz_general_zenobia_stanotas.tga"
+				expire = "1965.1.1"
+				ideology = stalinism
+				traits = {
+					
+				}
+			}
+		hidden_effect = { news_event = { id = news.1003 hours = 12 } }
+	}
+}
 #Beron Clan assassinations
 country_event = {
 	id = byz.899
@@ -594,6 +635,7 @@ country_event = {
 	option = {
 		name = byz.901.a
 	}
+}
 }
 
 country_event = {

@@ -62,9 +62,9 @@ country_event = {
 
 # Akira Hinode returns home a hero
 country_event = {
-	id = japan.300
-	title = japan.300.t	
-	desc = japan.300.desc	#
+	id = japan.4
+	title = japan.4.t	
+	desc = japan.4.desc	#
 	picture = GFX_report_event_generic_rally2
 	fire_only_once = yes
 	trigger = {
@@ -72,7 +72,7 @@ country_event = {
 		tag = JAP
 	}
 	option = {
-		name = japan.300.a
+		name = japan.4.a
 		
 	}
 

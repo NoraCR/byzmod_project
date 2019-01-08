@@ -1351,6 +1351,9 @@ ideas = {
 			
 			allowed = {
 				original_tag = BYZ
+				NOT = {
+					has_country_flag = byz_theodora_dead 
+				}
 			}
 			
 			picture = generic_army_europe_2
