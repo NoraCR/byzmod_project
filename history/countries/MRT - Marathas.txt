@@ -137,6 +137,7 @@ create_field_marshal = {
 	defense_skill = 4
 	planning_skill = 4
 	logistics_skill = 4
+	female = yes
 }
 create_field_marshal = {
 	name = "Rishma Sharqi" #the omniqueen, long may she reign
@@ -147,6 +148,7 @@ create_field_marshal = {
 	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 4
+	female = yes
 }
 
 create_corps_commander = {
@@ -158,6 +160,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 5
+	female = yes
 }
 create_corps_commander = {
 	name = "Jasbir Dahal Singh" #sikh, male
@@ -198,6 +201,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 3
+	female = yes
 }
 create_corps_commander = {
 	name = "Narasimha Sharqi" #Male, ex-royal family
@@ -248,6 +252,7 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 1
+	female = yes
 }
 create_navy_leader = {
 	name = "Chandravadan Ganatra" #Gujarati, male
@@ -260,6 +265,7 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
 	traits = { }
 	skill = 2
+	female = yes
 }
 create_navy_leader = {
 	name = "Prayag Ghadge" #Marathi, male
