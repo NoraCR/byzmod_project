@@ -45,6 +45,7 @@ country_event = {
 	}
 	option = {
 		name = marathas.2.a
+		add_political_power = 10
 	}
 }
 # Afghan Border
@@ -223,5 +224,40 @@ country_event = {
 		hidden_effect = {
 			news_event = { days = 5 id = news.8 }
 		}
+	}
+}
+# Cult of Personality
+country_event = {
+	id = marathas.101
+	title = marathas.101.t
+	desc = marathas.101.d
+	picture = GFX_report_event_generic_communist_congress
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = MRT
+		has_completed_focus = MRT_personality_cult
+	}
+	option = {
+		name = marathas.101.a
+		add_political_power = 10
+		add_popularity = { ideology = communism popularity = 0.05 }
+	}
+}
+# Socialist Competition
+country_event = {
+	id = marathas.102
+	title = marathas.102.t
+	desc = marathas.102.d
+	picture = GFX_report_event_generic_communist_congress
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = MRT
+		has_completed_focus = MRT_crash_industrialization
+	}
+	option = {
+		name = marathas.102.a
+		add_political_power = 10
 	}
 }

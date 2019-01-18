@@ -961,7 +961,16 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		complete_tooltip = {
-
+			modify_tech_sharing_bonus = {
+ 				id = allies_tech_sharing_group
+ 				bonus = 0.03
+			}
+			HDA = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = democratic_leanings_good
+				}
+			}
 		}
 		completion_reward = {			
 			modify_tech_sharing_bonus = {

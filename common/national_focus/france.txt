@@ -2086,7 +2086,7 @@ focus_tree = {
 				15 = {
 					set_building_level = {
 						type = coastal_bunker
-						level = 7
+						level = 4
 						province = {
 							id = 9550
 							id = 6449
@@ -2095,8 +2095,7 @@ focus_tree = {
 							id = 6599
 							id = 9434
 							id = 485
-							limit_to_border = yes
-							level < 7
+							level < 4
 						}
 					}
 				}
@@ -2107,20 +2106,19 @@ focus_tree = {
 				29 = {
 					set_building_level = {
 						type = coastal_bunker
-						level = 7
+						level = 4
 						province = {
 							id = 11420
 							id = 9500
 							id = 11548
 							id = 575
-							limit_to_border = yes
-							level < 7
+							level < 4
 						}
 					}
 				}
 			}
 			hidden_effect = {
-				news_event = { id = news.500 hours = 6}
+				news_event = { id = news.500 hours = 6 }
 			}
 		}
 	}

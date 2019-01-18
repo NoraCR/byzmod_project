@@ -67,6 +67,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	neutrality_idea	
+}
+
 create_country_leader = {
 	name = "Appamankaogh Atsayonck"
 	desc = "POLITICS_APPANMANKAOGH_ATSAYONCK_DESC"

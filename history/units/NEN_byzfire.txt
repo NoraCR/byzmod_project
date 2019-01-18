@@ -62,7 +62,7 @@ units = {
 		location = 3878 # Mannahatta
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -70,7 +70,7 @@ units = {
 		location = 3878 # Mannahatta
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -78,7 +78,7 @@ units = {
 		location = 3878 # Mannahatta
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -86,7 +86,7 @@ units = {
 		location = 11654 # Buffalo
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -94,7 +94,7 @@ units = {
 		location = 11654 # Buffalo
 		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	## New Jersey ##
@@ -103,7 +103,7 @@ units = {
 		location = 6882 # Achkinhenhcky
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -111,7 +111,7 @@ units = {
 		location = 6882 # Achkinhenhcky
 		division_template = "Armor Regiment"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -119,7 +119,7 @@ units = {
 		location = 3863
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -127,7 +127,7 @@ units = {
 		location = 3863
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	## Pennsylvania ##
@@ -136,7 +136,7 @@ units = {
 		location = 6845 # Philadelphia
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -144,7 +144,32 @@ units = {
 		location = 6845 
 		division_template = "Armor Regiment"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
+
+	}
+	## Colonies ##
+	division = {
+		name = "1st Colonial Infantry Division"
+		location = 10337 # Hopocan City
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+
+	}
+	division = {
+		name = "2nd Colonial Infantry Division"
+		location = 3960 # Fort Teedyuscung
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+
+	}
+	division = {
+		name = "2nd Cavalry Brigade"
+		location = 1806 # Gelelemend City
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	##### NAVAL UNITS #####

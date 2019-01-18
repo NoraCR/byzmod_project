@@ -166,6 +166,18 @@ units = {
 		ship = { name = "ARE Saguntum" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Emporion" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
 	}
+	navy = {				
+		name = "Base Naval Lisboa"			
+		base = 11805
+		location = 11805 # Lisbon
+		ship = { name = "ARE Lisbon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Porto" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		# Podmornica Divizija
+		ship = { name = "ARE Argonauta" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }				
+		ship = { name = "ARE Achille" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }				
+		ship = { name = "ARE Neptuno" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }				
+		ship = { name = "ARE Rayo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }				
+	}	
 }
 
 ### Air Wings

@@ -118,6 +118,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			country_event = { id = marathas.102 hours = 6 }
 			random_owned_controlled_state = {
 				limit = {
 					industrial_complex > 0
@@ -477,6 +478,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = MRT_shock_workers
+			country_event = { id = marathas.103 hours = 6 }
 		}
 	}
 	focus = {
@@ -726,6 +728,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.1
+			country_event = { id = marathas.101 }
 		}
 	}
 	focus = {

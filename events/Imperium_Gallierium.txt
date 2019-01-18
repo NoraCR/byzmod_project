@@ -28,7 +28,7 @@ country_event = {
 }
 
 # 
-country_event = {
+country_event = { #Books
 	id = ig.101
 	title = ig.101.t
 	desc = ig.101.d
@@ -50,7 +50,7 @@ country_event = {
 		add_political_power = 5
 	}
 }
-country_event = {
+country_event = { #Living Saint Ceremony
 	id = ig.102
 	title = ig.102.t
 	desc = ig.102.d
@@ -73,8 +73,8 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = ig.103
+country_event = { #Movie
+	id = ig.103 
 	title = ig.103.t
 	desc = ig.103.d
 	picture = GFX_report_event_generic_read_write
@@ -92,6 +92,26 @@ country_event = {
 	}
 	option = {
 		name = ig.103.a
+		add_political_power = 10
+	}
+}
+
+country_event = {
+	id = ig.104
+	title = ig.104.t
+	desc = ig.104.d
+	picture = GFX_report_event_generic_read_write
+	fire_only_once = yes
+	trigger = {
+		has_government = fascism
+		tag = FRA
+		GER = { has_capitulated = yes }
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = ig.104.a
 		add_political_power = 10
 	}
 }

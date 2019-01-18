@@ -398,10 +398,37 @@ country_event = {
 		days = 2
 	}
 	immediate = {
-		set_global_flag = china.306_fired 
+		
 	}
 	option = {
 		name = china.306.a
+	}
+}
+# The End of the Monarchy
+country_event = {
+	id = china.307
+	title = china.307.t
+	desc = china.307.d
+	picture = GFX_report_event_china_infiltration
+	fire_only_once = yes
+	trigger = {
+		tag = CHI
+		CHI = {
+			OR = {
+				has_government = communism
+				has_government = fascism
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 7
+	}
+	immediate = {
+		
+	}
+	option = {
+		remove_ideas = { CHI_the_empress_in_her_palace }
+		name = china.307.a
 	}
 }
 #UPR coup attempt

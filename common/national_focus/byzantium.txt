@@ -2220,7 +2220,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 150
-			country_event = { id = byz.501 }
+			country_event = { id = byz.501 hours = 6 }
 		}
 	}
 	focus = {
