@@ -159,7 +159,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_republicanische_marine
+		id = GER_republicanische_marine # Corrected to Republikanisch in localization/in-game
 		icon = GFX_goal_generic_amphibious_assault
 		cost = 10.00
 		x = 38
@@ -1259,7 +1259,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_gebirgsjaegers
+		id = GER_gebirgsjaegers # No s on the end in localization
 		icon = GFX_goal_generic_special_forces
 		cost = 10.00
 		prerequisite = {
@@ -1350,7 +1350,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_jaegers
+		id = GER_jaegers #no s on the end in localization
 		icon = GFX_goal_generic_small_arms
 		cost = 10.00
 		prerequisite = {
