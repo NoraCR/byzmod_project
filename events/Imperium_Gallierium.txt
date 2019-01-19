@@ -27,6 +27,28 @@ country_event = {
 	}
 }
 
+# Valeria Fired
+country_event = {
+	id = ig.2
+	title = ig.2.t
+	desc = ig.2.d
+	picture = GFX_report_event_generic_rally2
+	fire_only_once = yes
+	trigger = {
+		NOT = { has_government = fascism } 
+		tag = FRA
+	}
+	mean_time_to_happen = {
+		days = 8
+	}
+	immediate = {
+		set_global_flag = valeria_out
+	}
+	option = {
+		remove_unit_leader = 1
+		name = ig.2.a
+	}
+}
 # 
 country_event = { #Books
 	id = ig.101
