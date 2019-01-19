@@ -15,8 +15,8 @@ state={
 		owner = NEN
 		buildings = {
 			infrastructure = 8
-			industrial_complex = 5
-			dockyard = 7
+			industrial_complex = 4
+			dockyard = 4
 			air_base = 2
 			6845 = {
 				naval_base = 8
@@ -29,12 +29,6 @@ state={
 		}
 		victory_points = {
 			11800 15
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
-				dockyard = 8
-			}
 		}
 
 	}

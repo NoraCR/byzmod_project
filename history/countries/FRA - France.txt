@@ -192,6 +192,7 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 3
 	female = yes
+	id = 2
 }
 
 create_corps_commander = {
@@ -203,6 +204,7 @@ create_corps_commander = {
 	defense_skill = 4
 	planning_skill = 4
 	logistics_skill = 3
+	id = 3
 }
 
 create_field_marshal = {
@@ -215,6 +217,7 @@ create_field_marshal = {
 	planning_skill = 5
 	logistics_skill = 5
 	female = yes
+	id = 1
 }
 
 create_corps_commander = {
@@ -226,6 +229,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 4
+	id = 4
 }
 
 create_field_marshal = {
@@ -237,6 +241,7 @@ create_field_marshal = {
 	defense_skill = 5
 	planning_skill = 4
 	logistics_skill = 3
+	id = 5
 }
 
 create_field_marshal = {
@@ -248,6 +253,7 @@ create_field_marshal = {
 	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 4
+	id = 6
 }
 
 create_corps_commander = {
@@ -259,6 +265,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 3
+	id = 7
 }
 
 create_corps_commander = {
@@ -270,6 +277,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 3
+	id = 8
 }
 
 create_corps_commander = {
@@ -282,6 +290,7 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 3
 	female = yes
+	id = 9
 }
 
 create_corps_commander = {
@@ -294,6 +303,7 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 3
 	female = yes
+	id = 10
 }
 
 create_corps_commander = {
@@ -306,6 +316,7 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 2
 	female = yes
+	id = 11
 }
 
 create_corps_commander = {
@@ -318,6 +329,7 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 4
 	female = yes
+	id = 12
 }
 
 create_corps_commander = {
@@ -329,6 +341,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 3
+	id = 13
 }
 
 create_corps_commander = {
@@ -340,6 +353,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 2
+	id = 14
 }
 
 create_corps_commander = {
@@ -351,6 +365,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
+	id = 15
 }
 
 create_corps_commander = {
@@ -363,6 +378,7 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 3
 	female = yes
+	id = 16
 }
 
 create_corps_commander = {
@@ -374,6 +390,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 3
+	id = 17
 }
 
 create_corps_commander = {
@@ -386,6 +403,7 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 3
 	female = yes
+	id = 18
 }
 
 create_corps_commander = {
@@ -398,28 +416,32 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 3
 	female = yes
+	id = 19
 }
 
 create_navy_leader = {
 	name = "Adèle de Lacour"
-		picture = "fra_admiral_adele_de_lacour.tga"
+	picture = "fra_admiral_adele_de_lacour.tga"
 	traits = { superior_tactician old_guard_navy }
 	skill = 3
 	female = yes
+	id = 20
 }
 
 create_navy_leader = {
 	name = "Gilles Raphaël d'Espinassy"
-		picture = "fra_admiral_gilles_raphael_d'espinassy.tga"
+	picture = "fra_admiral_gilles_raphael_d'espinassy.tga"
 	traits = { spotter old_guard_navy}
 	skill = 3
+	id = 21
 }
 
 create_navy_leader = {
 	name = "Jean-Baptiste d'Arnauld"
-		picture = "fra_admiral_jean-baptiste_d'arnauld.tga"
+	picture = "fra_admiral_jean-baptiste_d'arnauld.tga"
 	traits = { seawolf old_guard_navy }
 	skill = 2
+	id = 22
 }
 
 create_navy_leader = {
@@ -428,6 +450,7 @@ create_navy_leader = {
 	traits = { old_guard_navy spotter }
 	skill = 1
 	female = yes
+	id = 23
 }
 
 

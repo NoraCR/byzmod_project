@@ -146,6 +146,10 @@ is_actual_major = {
 			tag = SOM
 			tag = MRT
 			tag = GER
+			tag = KOR
+			tag = GHA
+			tag = HDA
+			tag = ENG
 		}
 	}
 }
