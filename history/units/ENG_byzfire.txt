@@ -589,8 +589,7 @@ units = {
 		ship = { name = "HMS Torridon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 		ship = { name = "HMS Applecross" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 		ship = { name = "HMS Gairloch" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
-	}
-	### CANADA ###
+	}				
 	navy = {				
 		name = "Nova Scotia Fleet"
 		base = 7361
@@ -611,19 +610,18 @@ units = {
 		ship = { name = "HMS Annan Waters" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
 		ship = { name = "HMS Gillitie" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
 		ship = { name = "HMS Spartacus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
-	}
-	### CONGO ###
+	}				
 	navy = {				
 		name = "Indian Ocean Division"
-		base = 10968
-		location = 10968 # Congo	
+		base = 2188
+		location = 2188 # Seychelles	
 		ship = { name = "HMS Stonehaven" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }		# to RNZN 1941
 		ship = { name = "HMS Lochmodan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }		# to RNZN 1941
 	}				
 	navy = {				
 		name = "4th Submarine Flotilla"			
-		base = 10968
-		location = 10968 # Congo
+		base = 2188
+		location = 2188 # Seychelles
 		ship = { name = "HMS Mimir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		# Submarine Division 41
 		ship = { name = "HMS Aegir" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }

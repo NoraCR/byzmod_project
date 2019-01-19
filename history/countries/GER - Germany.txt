@@ -176,6 +176,7 @@ create_field_marshal = {
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 2
+	id = 1
 }
 
 
@@ -184,6 +185,7 @@ create_corps_commander = {
 	picture = "ger_general_konrad_tegeler.png"
 	traits = { panzer_leader }
 	skill = 4
+	id = 4
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 2
@@ -195,6 +197,7 @@ create_corps_commander = {
 	picture = "ger_general_erich_ceska_lipa.png"
 	traits = { trickster fortress_buster trait_engineer }
 	skill = 4
+	id = 5
 	attack_skill = 2
 	defense_skill = 4
 	planning_skill = 3
@@ -206,6 +209,7 @@ create_corps_commander = {
 	picture = "ger_general_alaric_vorster.png"
 	traits = { trickster armor_officer career_officer }
 	skill = 4
+	id = 6
 	attack_skill = 2
 	defense_skill = 4
 	planning_skill = 4
@@ -217,6 +221,7 @@ create_corps_commander = {
 	picture = "ger_general_karla_rosenblatt.png"
 	traits = { old_guard inflexible_strategist }
 	skill = 3
+	id = 7
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 1
@@ -229,6 +234,7 @@ create_corps_commander = {
 	picture = "ger_general_konrad_moreau.png"
 	traits = { old_guard trait_cautious }
 	skill = 2
+	id = 8
 	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 2
@@ -245,6 +251,7 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 2
 	female = yes
+	id = 9
 }
 
 create_corps_commander = {
@@ -256,6 +263,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 1
 	logistics_skill = 2
+	id = 13
 }
 
 create_corps_commander = {
@@ -267,6 +275,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 3
+	id = 14
 }
 
 create_corps_commander = {
@@ -278,6 +287,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 3
+	id = 16
 }
 
 
@@ -291,6 +301,7 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 3
 	female = yes
+	id = 18
 }
 
 create_corps_commander = {
@@ -303,6 +314,7 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 3
 	female = yes
+	id = 19
 }
 
 create_corps_commander = {
@@ -314,6 +326,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 5
+	id = 20
 }
 
 create_field_marshal = {
@@ -326,6 +339,7 @@ create_field_marshal = {
 	planning_skill = 4
 	logistics_skill = 3
 	female = yes
+	id = 21
 }
 
 create_corps_commander = {
@@ -337,6 +351,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 4
+	id = 34
 }
 
 create_navy_leader = {
@@ -345,6 +360,7 @@ create_navy_leader = {
 	traits = { ironside }
 	skill = 5
 	female = yes
+	id = 26
 }
 
 create_navy_leader = {
@@ -352,6 +368,7 @@ create_navy_leader = {
 	picture = "ger_admiral_florian_amsel.png"
 	traits = {  }
 	skill = 3
+	id = 27
 }
 
 create_navy_leader = {
@@ -359,6 +376,7 @@ create_navy_leader = {
 		picture = "ger_admiral_maximilian_von_kotzau.png"
 	traits = { old_guard_navy superior_tactician }
 	skill = 4
+	id = 28
 }
 
 create_navy_leader = {
@@ -366,6 +384,7 @@ create_navy_leader = {
 		picture = "ger_admiral_sebastian_vogt.png"
 	traits = { seawolf }
 	skill = 3
+	id = 29
 }
 
 create_navy_leader = {
@@ -373,6 +392,7 @@ create_navy_leader = {
 		picture = "ger_admiral_ernst_zeuge.png"
 	traits = { fly_swatter spotter }
 	skill = 2
+	id = 31
 }
 
 

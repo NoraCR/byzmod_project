@@ -1047,20 +1047,6 @@ units = {
 		name = "Di 1 Haifang Jiandui" 
 		base = 7014
 		location = 7014 #Shanghai
-		ship = { name = "CNS Fengxiang" definition = carrier equipment = { carrier_1 = {amount = 1 owner = CHI } } 				
-			air_wings = { 
-				cv_fighter_equipment_0 =  { owner = "CHI" amount = 25 } 
-				cv_nav_bomber_equipment_1 = { owner = "CHI" amount = 20 } 	
-
-			}
-		}
-		ship = { name = "CNS Xizheng" definition = carrier equipment = { carrier_1 = {amount = 1 owner = CHI } } 				
-			air_wings = { 
-				cv_fighter_equipment_0 =  { owner = "CHI" amount = 25 } 
-				cv_nav_bomber_equipment_1 = { owner = "CHI" amount = 20 } 	
-
-			}
-		}
 		ship = { name = "CNS Nanchen" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
 		ship = { name = "CNS Nanrui" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
 		ship = { name = "CNS Hairong" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }

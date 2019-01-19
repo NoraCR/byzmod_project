@@ -215,16 +215,16 @@ air_wings = {
 		# 3rd Grupa Bombardu 
 		tac_bomber_equipment_0 = {
 			owner = "IRE" 
-			amount = 60
+			amount = 100
 		}
 		# 1st Grupa Tacaiocht Aeir 
 		CAS_equipment_1 = {
 			owner = "IRE" 
-			amount = 24
+			amount = 50
 		}
 		fighter_equipment_1 =  {
 			owner = "IRE" 
-			amount = 60
+			amount = 100
 		}
 	}
 
@@ -234,12 +234,12 @@ air_wings = {
 		# 2nd Grupa Trodaire 'an Clairseach Fuilteach'
 		fighter_equipment_1 =  {
 			owner = "IRE" 
-			amount = 48
+			amount = 100
 		}
 		# 1st Farraige Patroil 
 		nav_bomber_equipment_1 =  {
 			owner = "IRE" 
-			amount = 24
+			amount = 50
 		}
 	}
 }

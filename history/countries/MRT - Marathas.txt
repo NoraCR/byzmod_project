@@ -68,7 +68,6 @@ set_politics = {
 
 add_ideas = {
 	MRT_the_marathan_tiger
-	limited_conscription
 }
 
 create_country_leader = {
