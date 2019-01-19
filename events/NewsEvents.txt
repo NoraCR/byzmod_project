@@ -2763,7 +2763,7 @@ news_event = {
 news_event = {
 	id = news.989
 	title = news.989.t
-	desc = news.989.d
+	desc = news.989.desc
 	picture = GFX_news_event_olympics_1940
 	
 	major = yes
