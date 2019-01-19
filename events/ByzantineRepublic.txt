@@ -52,8 +52,8 @@ country_event = {
 		army_experience = 10
 		add_tech_bonus = {
 			name = land_doc_bonus
-			bonus = 0.66
-			uses = 2
+			bonus = 0.50
+			uses = 1
 			category = land_doctrine
 		}
 	}
@@ -552,6 +552,8 @@ country_event = {
 		custom_effect_tooltip = remove_military_high_command
 		remove_ideas = theodora_papadopoulou
 		remove_unit_leader = 101
+		remove_unit_leader = 126
+		remove_unit_leader = 128
 		ai_chance = {
 			factor = 100
 		}
@@ -640,7 +642,7 @@ country_event = {
 country_event = {
 	id = byz.980
 	title = byz.980.t
-	desc = byz.980.d
+	desc = byz.980.desc
 	picture = GFX_report_event_german_speech
 	fire_only_once = yes
 	trigger = {

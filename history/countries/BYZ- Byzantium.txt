@@ -374,14 +374,16 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Alexandros Sallajer"
-		picture = "byz_admiral_alexandros_sallajer.tga"
+	picture = "byz_admiral_alexandros_sallajer.tga
+	id = 116
 	traits = { superior_tactician ironside }
 	skill = 4
 }
 
 create_navy_leader = {
 	name = "Ariadne Rodinou"
-		picture = "byz_admiral_ariadne_rodinou.tga"
+	picture = "byz_admiral_ariadne_rodinou.tga"
+	id = 117
 	traits = { superior_tactician spotter }
 	skill = 5
 	female = yes
@@ -389,14 +391,16 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Atlas Nicolaides"
-		picture = "byz_admiral_atlas_nicolaides.tga"
+	picture = "byz_admiral_atlas_nicolaides.tga"
+	id = 118
 	traits = { superior_tactician }
 	skill = 4
 }
 
 create_navy_leader = {
 	name = "Benevenuta Pasqualigo"
-		picture = "byz_admiral_benevenuta_pasqualigo.tga"
+	picture = "byz_admiral_benevenuta_pasqualigo.tga"
+	id = 119
 	traits = { spotter }
 	skill = 4
 	female = yes
@@ -405,6 +409,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Callidora Mars"
 	picture = "byz_admiral_callidora_mars.tga"
+	id = 120
 	traits = { seawolf }
 	skill = 4
 	female = yes
@@ -412,14 +417,16 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Ercole Andretti"
-		picture = "byz_admiral_ercole_andretti.tga"
+	picture = "byz_admiral_ercole_andretti.tga"
+	id = 121
 	traits = { fly_swatter superior_tactician }
 	skill = 5
 }
 
 create_navy_leader = {
 	name = "Hypatia Kiyohara"
-		picture = "byz_admiral_hypatia_kiyohara.tga"
+	picture = "byz_admiral_hypatia_kiyohara.tga"
+	id = 122
 	traits = { spotter ironside }
 	skill = 4
 	female = yes
@@ -427,7 +434,8 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Rivkah Avinbruch"
-		picture = "byz_admiral_rivkah_avinbruch.tga"
+	picture = "byz_admiral_rivkah_avinbruch.tga"
+	id = 123
 	traits = { old_guard_navy ironside }
 	skill = 5
 	female = yes
@@ -435,7 +443,8 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Iskender Qutuzid"
-		picture = "byz_admiral_iskender_qutuzid.tga"
+	picture = "byz_admiral_iskender_qutuzid.tga"
+	id = 124
 	traits = { blockade_runner }
 	skill = 5
 }
@@ -443,6 +452,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Vasilios Flesnolk"
 	picture = "byz_admiral_vasilios_flesnolk.tga"
+	id = 125
 	traits = { superior_tactician }
 	skill = 4
 }

@@ -227,12 +227,12 @@ ideas = {
 	
 	political_advisor = {
 		
-		harry_pollitt = {
+		ENG_ursula_todd = {
 			allowed = {
 				original_tag = ENG
 			}
 			
-
+			picture = generic_political_advisor_europe_1
 			
 			traits = { communist_revolutionary }
 	
@@ -251,13 +251,13 @@ ideas = {
 			}
 		}	
 			
-		clement_attlee = {
+		ENG_blanche_pembroke = {
 			
 			allowed = {
 				original_tag = ENG
 			}
 			
-
+			picture = generic_political_advisor_europe_2
 			
 			traits = { democratic_reformer }
 	
@@ -276,13 +276,13 @@ ideas = {
 			}
 		}
 		
-		john_beckett = {
+		ENG_valeria_pendragon = {
 			
 			allowed = {
 				original_tag = ENG
 			}
 			
-
+			picture = generic_political_advisor_europe_3
 			
 			traits = { fascist_demagogue }
 	
