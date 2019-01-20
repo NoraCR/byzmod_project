@@ -131,7 +131,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Saanvi Roychaudhuri" #female, Bengali
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "mrt_marshal_saanvi_roychaudhuri.png"
 	traits = { defensive_doctrine }
 	skill = 4
 	attack_skill = 2
@@ -154,7 +154,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Aruna Vrishchika" #female, not Vriska
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	picture = "mrt_general_aruna_vrischika.png"
 	traits = { desert_fox armor_officer trait_reckless harsh_leader }
 	skill = 5
 	attack_skill = 5
@@ -165,7 +165,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Jasbir Dahal Singh" #sikh, male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	portrait_path = "mrt_general_jasbir_dahal_singh.png"
 	traits = { career_officer }
 	skill = 3
 	attack_skill = 3
@@ -175,7 +175,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Surendra Kshirsagar" #Marathi, male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "mrt_general_surendra_kshirsagar.png"
 	traits = { politically_connected }
 	skill = 3
 	attack_skill = 2
@@ -185,7 +185,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Vikram Arondekar" #Marathi, male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	portrait_path = "mrt_general_vikram_arondekar.png"
 	traits = { infantry_officer trait_reckless }
 	skill = 4
 	attack_skill = 2
@@ -195,7 +195,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Swati Gokhale" #Marathi, female
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	portrait_path = "mrt_general_swati_gokhale.png"
 	traits = { old_guard }
 	skill = 3
 	attack_skill = 1
@@ -206,7 +206,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Narasimha Sharqi" #Male, ex-royal family
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "mrt_general_narasimha_sharqi.png"
 	traits = { old_guard infantry_officer }
 	skill = 2
 	attack_skill = 2
@@ -215,7 +215,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Gul Warin Chamkanni" #male, pashtun
+	name = "mrt_general_gul_warin_chamkanni.png" #male, pashtun
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	traits = { trait_engineer }
 	skill = 1
@@ -226,7 +226,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Shyrjaan Laghari" #balochi, male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	portrait_path = "mrt_general_shyrjaan_laghari.png"
 	traits = { desert_fox }
 	skill = 1
 	attack_skill = 1
@@ -235,8 +235,8 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Surendra Kshirsagar" #marathi, male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	name = "Inyat Sardesai" #marathi, female
+	portrait_path = "mrt_general_inyat_sardesai.png"
 	traits = { politically_connected }
 	skill = 2
 	attack_skill = 2
@@ -246,7 +246,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Laxmi Potapragada" #telugu, female
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "mrt_general_laxmi_potapragada.png"
 	traits = {  }
 	skill = 2
 	attack_skill = 1
@@ -257,20 +257,20 @@ create_corps_commander = {
 }
 create_navy_leader = {
 	name = "Chandravadan Ganatra" #Gujarati, male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
+	portrait_path = "mrt_admiral_chandravadan_ganatra.png"
 	traits = { }
 	skill = 2
 }
 create_navy_leader = {
 	name = "Chitrani Dixit" #Gujarati, female 
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	portrait_path = "mrt_admiral_chitrani_dixit.png"
 	traits = { }
 	skill = 2
 	female = yes
 }
 create_navy_leader = {
 	name = "Prayag Ghadge" #Marathi, male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	portrait_path = "mrt_admiral_prayag_ghadge.png"
 	traits = { }
 	skill = 3
 }
