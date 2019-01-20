@@ -131,7 +131,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Saanvi Roychaudhuri" #female, Bengali
-	portrait_path = "mrt_marshal_saanvi_roychaudhuri.png"
+	picture = "mrt_marshal_saanvi_roychaudhuri.png"
 	traits = { defensive_doctrine }
 	skill = 4
 	attack_skill = 2
@@ -165,7 +165,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Jasbir Dahal Singh" #sikh, male
-	portrait_path = "mrt_general_jasbir_dahal_singh.png"
+	picture = "mrt_general_jasbir_dahal_singh.png"
 	traits = { career_officer }
 	skill = 3
 	attack_skill = 3
@@ -175,7 +175,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Surendra Kshirsagar" #Marathi, male
-	portrait_path = "mrt_general_surendra_kshirsagar.png"
+	picture = "mrt_general_surendra_kshirsagar.png"
 	traits = { politically_connected }
 	skill = 3
 	attack_skill = 2
@@ -185,7 +185,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Vikram Arondekar" #Marathi, male
-	portrait_path = "mrt_general_vikram_arondekar.png"
+	picture = "mrt_general_vikram_arondekar.png"
 	traits = { infantry_officer trait_reckless }
 	skill = 4
 	attack_skill = 2
@@ -195,7 +195,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Swati Gokhale" #Marathi, female
-	portrait_path = "mrt_general_swati_gokhale.png"
+	picture = "mrt_general_swati_gokhale.png"
 	traits = { old_guard }
 	skill = 3
 	attack_skill = 1
@@ -206,7 +206,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Narasimha Sharqi" #Male, ex-royal family
-	portrait_path = "mrt_general_narasimha_sharqi.png"
+	picture = "mrt_general_narasimha_sharqi.png"
 	traits = { old_guard infantry_officer }
 	skill = 2
 	attack_skill = 2
@@ -215,8 +215,8 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "mrt_general_gul_warin_chamkanni.png" #male, pashtun
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	name = "Gul Warin Chamkanni" #male, pashtun
+	picture = "mrt_general_gul_warin_chamkanni.png"
 	traits = { trait_engineer }
 	skill = 1
 	attack_skill = 1
@@ -226,7 +226,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Shyrjaan Laghari" #balochi, male
-	portrait_path = "mrt_general_shyrjaan_laghari.png"
+	picture = "mrt_general_shyrjaan_laghari.png"
 	traits = { desert_fox }
 	skill = 1
 	attack_skill = 1
@@ -236,7 +236,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Inyat Sardesai" #marathi, female
-	portrait_path = "mrt_general_inyat_sardesai.png"
+	picture = "mrt_general_inyat_sardesai.png"
 	traits = { politically_connected }
 	skill = 2
 	attack_skill = 2
@@ -246,7 +246,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Laxmi Potapragada" #telugu, female
-	portrait_path = "mrt_general_laxmi_potapragada.png"
+	picture = "mrt_general_laxmi_potapragada.png"
 	traits = {  }
 	skill = 2
 	attack_skill = 1
@@ -257,26 +257,26 @@ create_corps_commander = {
 }
 create_navy_leader = {
 	name = "Chandravadan Ganatra" #Gujarati, male
-	portrait_path = "mrt_admiral_chandravadan_ganatra.png"
+	picture = "mrt_admiral_chandravadan_ganatra.png"
 	traits = { }
 	skill = 2
 }
 create_navy_leader = {
 	name = "Chitrani Dixit" #Gujarati, female 
-	portrait_path = "mrt_admiral_chitrani_dixit.png"
+	picture = "mrt_admiral_chitrani_dixit.png"
 	traits = { }
 	skill = 2
 	female = yes
 }
 create_navy_leader = {
 	name = "Prayag Ghadge" #Marathi, male
-	portrait_path = "mrt_admiral_prayag_ghadge.png"
+	picture = "mrt_admiral_prayag_ghadge.png"
 	traits = { }
 	skill = 3
 }
 create_navy_leader = {
 	name = "Parsan Kal Singh" #sikh, male
-	portrait_path = "mrt_admiral_parsan_kal_singh.png"
+	picture = "mrt_admiral_parsan_kal_singh.png"
 	traits = { }
 	skill = 1
 }

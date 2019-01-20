@@ -374,7 +374,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Alexandros Sallajer"
-	picture = "byz_admiral_alexandros_sallajer.tga
+	picture = "byz_admiral_alexandros_sallajer.tga"
 	id = 116
 	traits = { superior_tactician ironside }
 	skill = 4
