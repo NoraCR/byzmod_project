@@ -91,7 +91,7 @@ units = {
 		location = 9203
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -99,7 +99,7 @@ units = {
 		location = 142
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -107,7 +107,7 @@ units = {
 		location = 7375 #Perm
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 
@@ -117,7 +117,7 @@ units = {
 		location = 3134
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 
@@ -130,7 +130,7 @@ units = {
 		location = 149
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 
@@ -142,7 +142,7 @@ units = {
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -151,7 +151,7 @@ units = {
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}					
 	#### Belorusskii Voennyii Okrug (Belorussian Military District) -- Velikie Luki, Minsk ####			
@@ -161,7 +161,7 @@ units = {
 		location = 3320
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -169,7 +169,7 @@ units = {
 		location = 6359
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 
@@ -179,7 +179,7 @@ units = {
 		location = 3255
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -187,7 +187,7 @@ units = {
 		location = 9340
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -195,7 +195,7 @@ units = {
 		location = 310
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 
@@ -205,7 +205,7 @@ units = {
 		location = 6380
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -213,7 +213,7 @@ units = {
 		location = 6380
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -221,7 +221,7 @@ units = {
 		location = 6220
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 
@@ -231,7 +231,7 @@ units = {
 		location = 3267
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division= {			
@@ -239,7 +239,7 @@ units = {
 		location = 11216
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 
@@ -250,7 +250,7 @@ units = {
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -259,7 +259,7 @@ units = {
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}					
 
@@ -271,7 +271,7 @@ units = {
 		location = 6380
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -279,7 +279,7 @@ units = {
 		location = 6380
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}					
 	### Moskva Gruppa Armiya (Moscow Army Group) -- Moscow ###		
@@ -290,7 +290,7 @@ units = {
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -299,7 +299,7 @@ units = {
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}					
 	# Subordinate to VO		
@@ -309,7 +309,7 @@ units = {
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 
@@ -321,7 +321,7 @@ units = {
 		location = 6380
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -329,7 +329,7 @@ units = {
 		location = 6380
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 
@@ -339,7 +339,7 @@ units = {
 		location = 6380
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division= {			
@@ -347,7 +347,7 @@ units = {
 		location = 6380
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 
@@ -357,7 +357,7 @@ units = {
 		location = 525
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division= {			
@@ -365,7 +365,7 @@ units = {
 		location = 525
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 
@@ -376,7 +376,7 @@ units = {
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -385,7 +385,7 @@ units = {
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -394,7 +394,7 @@ units = {
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	# 6ya Strelkoviy Korpus		
@@ -403,7 +403,7 @@ units = {
 		location = 6380
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -411,7 +411,7 @@ units = {
 		location = 6380
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	# 5ya Kavaleriyskiy Korpus		
@@ -420,7 +420,7 @@ units = {
 		location = 11437
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division= {			
@@ -428,7 +428,7 @@ units = {
 		location = 11437
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 
@@ -439,7 +439,7 @@ units = {
 		location = 418
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}	
 	division= {			
@@ -447,7 +447,7 @@ units = {
 		location = 418
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 
@@ -457,7 +457,7 @@ units = {
 		location = 3580
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -465,7 +465,7 @@ units = {
 		location = 3580
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -473,7 +473,7 @@ units = {
 		location = 3580
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 
@@ -484,7 +484,7 @@ units = {
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 
@@ -499,7 +499,7 @@ units = {
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division= {			
@@ -508,7 +508,7 @@ units = {
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 
@@ -518,7 +518,7 @@ units = {
 		location = 6380
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 
@@ -529,7 +529,7 @@ units = {
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 
@@ -539,7 +539,7 @@ units = {
 		location = 6380
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	division= {			
@@ -548,7 +548,7 @@ units = {
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}		
 
@@ -559,7 +559,7 @@ units = {
 		division_template = "Okhrana Pogranichnaya Diviziya"		# Okhrana -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}			
 	# Kolkhoziy Korpus -- Collective Farm Corps

@@ -4,7 +4,7 @@ state={
 	name="STATE_105" # Montenegro
 	manpower = 2895500
 	
-	state_category = large_city
+	state_category = city
 	
 	resources={
 		chromium=36
