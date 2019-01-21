@@ -11,7 +11,7 @@ state={
 		add_core_of = CHI
 		add_core_of = MON
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 		}
 		victory_points = {
 			7648 1

@@ -1,9 +1,9 @@
 state={
 	id=715
 	name="STATE_715"
-	manpower = 3643373
+	manpower = 4443373
 	
-	state_category = town
+	state_category = city
 
 	history={
 		owner = CHI
