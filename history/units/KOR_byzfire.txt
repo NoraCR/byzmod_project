@@ -67,7 +67,7 @@ units = {
 		location = 7125 # Seoul
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -75,7 +75,7 @@ units = {
 		location = 7125 # Seoul
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -91,7 +91,7 @@ units = {
 		location = 4052 # Pyongyang
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -99,7 +99,7 @@ units = {
 		location = 4052 # Pyongyang
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -107,7 +107,7 @@ units = {
 		location = 4056 # Busan
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -115,7 +115,7 @@ units = {
 		location = 4056 # Busan
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -123,7 +123,7 @@ units = {
 		location = 4056 #Busan 
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -131,7 +131,7 @@ units = {
 		location = 4052 #Pyongyang 
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -139,7 +139,7 @@ units = {
 		location = 11828 #Kanggye
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -147,7 +147,7 @@ units = {
 		location = 11828 #Kanggye
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -155,7 +155,7 @@ units = {
 		location = 959 #Chongjin
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -163,7 +163,7 @@ units = {
 		location = 959 #Chongjin
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}	
 	division = {
@@ -171,7 +171,7 @@ units = {
 		location = 959 #Chongjin
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}		
 ##### Eastern Siberia #####
@@ -245,7 +245,7 @@ units = {
 		location = 4866 # Krasnoyarsk
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -253,7 +253,7 @@ units = {
 		location = 4866 # Krasnoyarsk
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -261,7 +261,7 @@ units = {
 		location = 4866 # Krasnoyarsk
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -269,7 +269,7 @@ units = {
 		location = 4866 # Krasnoyarsk
 		division_template = "Gibyeong Yeodan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -277,7 +277,7 @@ units = {
 		location = 4866 # Krasnoyarsk
 		division_template = "Gibyeong Yeodan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 ##### Western Siberia/Russian Border #####
@@ -286,7 +286,7 @@ units = {
 		location = 1821 
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -294,7 +294,7 @@ units = {
 		location = 1821 
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -310,7 +310,7 @@ units = {
 		location = 9292 
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -318,7 +318,7 @@ units = {
 		location = 9292 
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 ##### Australia/New Guinea #####
@@ -327,7 +327,7 @@ units = {
 		location = 7566 
 		division_template = "Bobyeong Sadan"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
+		start_equipment_factor = 0.8
 
 	}
 	division = {
