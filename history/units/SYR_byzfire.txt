@@ -31,7 +31,7 @@ units = {
 		location = 2097 #Baghdad
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -39,7 +39,7 @@ units = {
 		location = 10106 #Mosul
 		division_template = "Alfurqat Aljabalia"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -47,7 +47,7 @@ units = {
 		location = 12473 #Aleppo
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -55,7 +55,7 @@ units = {
 		location = 4111 #Damascus
 		division_template = "Alfurqat Aljabalia"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -63,7 +63,7 @@ units = {
 		location = 1086 #Jerusalem
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -71,7 +71,7 @@ units = {
 		location = 12883 #Jeddah
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -79,7 +79,7 @@ units = {
 		location = 2097 #Baghdad
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -87,7 +87,7 @@ units = {
 		location = 2097 #Baghdad
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -95,7 +95,7 @@ units = {
 		location = 10106 #Mosul
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -103,7 +103,7 @@ units = {
 		location = 4111 #Damascus
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -111,7 +111,7 @@ units = {
 		location = 2089 #Basrah
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -119,7 +119,7 @@ units = {
 		location = 2089 #Basrah
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
 	division = {
@@ -127,11 +127,34 @@ units = {
 		location = 7151 #Amman
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
 
 	}
+	division = {
+		name = "14 Alfurqat"
+		location = 7151 #Amman
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
 
+	}
+		division = {
+		name = "15 Alfurqat"
+		location = 2089 #Basrah
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
 	######## NAVAL OOB ########
+	navy = {
+		name = "Da Qin Battle Fleet"
+		base = 792
+		location = 792 #Lebanon
+		ship = { name = "Tartus" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SYR } } }
+		ship = { name = "Latakia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SYR } } }
+		ship = { name = "Beirut" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SYR } } }
+	}
 	navy = {
 		name = "Da Qin Destroyer Fleet"
 		base = 792 
@@ -167,7 +190,7 @@ air_wings = {
 	291 = {
 		fighter_equipment_0 =  {
 			owner = "SYR" 
-			amount = 48
+			amount = 60
 		}
 	}
 }

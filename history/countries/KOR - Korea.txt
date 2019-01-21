@@ -83,7 +83,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Han Kyongsu"
-	desc = ""
+	desc = "POLITICS_HAN_KYONGSU_DESC"
 	picture = "kor_han_kyongsu.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -94,7 +94,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Yi Dan 'Taejo'"
-	desc = ""
+	desc = "POLITICS_YI_DAN_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	expire = "1965.1.1"
 	ideology = despotism
@@ -105,18 +105,18 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Won Kyungmin" #female
-	desc = ""
+	desc = "POLITICS_WON_KYUNGMIN_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
-		cornered_fox
+		
 	}
 }
 
 create_country_leader = {
 	name = "Oh Eun-a" #female
-	desc = ""
+	desc = "POLITICS_OH_EUNA_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

@@ -82,8 +82,8 @@ IRO = {
 }
 
 AYI = {
-	color = rgb { 31 49 71 }
-	color_ui = rgb { 51  79  91 }
+	color = rgb { 201 25 0 }
+	color_ui = rgb { 255 255 120  }
 }
 
 BYZ = {
@@ -101,8 +101,8 @@ GER = {
 	color_ui = rgb { 143  168  154 }
 }
 ENG = {
-	color = rgb { 219  76  68 }
-	color_ui = rgb { 239  96  88 }
+	color = rgb { 215 196 72 }
+	color_ui = rgb { 205 186 62 }
 }
 SOV = {
 	color = rgb { 27 71 1 }
@@ -399,8 +399,8 @@ CRI = {
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
-	color = rgb { 130  220  235 }
-	color_ui = rgb { 150  230  255 }
+	color = rgb { 128  158  118 }
+	color_ui = rgb { 128  158  118 }
 }
 
 CRO = {

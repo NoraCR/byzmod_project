@@ -2658,7 +2658,7 @@ focus_tree = {
 	focus = {
 		id = CHI_annex_tibet
 		icon = GFX_goal_generic_territory_or_war
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = CHI_prepare_indian_war
 		}

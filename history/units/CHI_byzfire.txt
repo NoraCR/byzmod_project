@@ -1011,7 +1011,7 @@ units = {
 #####Mercenaries Stationed Abroad#####
 	division = {
 		name = "Bawang Anquan Gongsi"
-		location = 12465 ##Transoxiana
+		location = 12465 ## Asitelahan
 		division_template = "Siren Junshi Fuwu Gongsi"
 		start_experience_factor = 0.3
 		

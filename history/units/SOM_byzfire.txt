@@ -536,6 +536,11 @@ units = {
 		ship = { name = "CBS Maxamed Bulxan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }
 		ship = { name = "CBS Geyre Caynaanshe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }
 		ship = { name = "CBS Xayir Cabdull" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }
+		# 10th Destroyer Squadron
+		ship = { name = "CBS Marsa Alam" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }
+		ship = { name = "CBS Quseer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }
+		ship = { name = "CBS Berenice" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }
+		ship = { name = "CBS Shlateen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }
 	}					
 	navy = {					
 		name = "4th Naval Group"				
@@ -604,6 +609,11 @@ units = {
 		ship = { name = "CBS Madar Daacad" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }
 		ship = { name = "CBS Mukhtaar Geele" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }
 		ship = { name = "CBS Seyruuq Ammaan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }
+		# 13th Destroyer Squadron
+		ship = { name = "CBS Derna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }
+		ship = { name = "CBS Bardiyah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }
+		ship = { name = "CBS Al Beida" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }
+		ship = { name = "CBS Marsa Matruh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }
 	}					
 	navy = {					
 		name = "7th Naval Squadron"				
@@ -633,12 +643,12 @@ units = {
 		ship = { name = "CBS Saad ad-Din" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOM } } }				
 		ship = { name = "CBS Shimbiris" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOM } } }				
 		ship = { name = "CBS Bajuni" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOM } } }				
-		# 6a Squadriglia Torpedindiere
+		# 6a Torpedo Boat Squadron
 		ship = { name = "CBS Xukun Hasan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Kunciil Abdallah Omar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Francesco Stocco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Muhammad Guntaal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
-		# 7a Squadriglia Torpedindiere
+		# 7a Torpedo Boat Squadron
 		ship = { name = "CBS Osman Bishaar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Karuur Fatima" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Leylo Dhuubo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
@@ -651,12 +661,12 @@ units = {
 		name = "Tobruk Naval Division"				
 		base = 1130
 		location = 1130
-		# 3a Squadriglia Torpedindiere
+		# 3a Torpedo Boat Squadron
 		ship = { name = "CBS Boqor Omar Hayaan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Boqor Cabdulle Guhaad" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Faadumo Muuqaal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Toosan Daaha" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
-		# 4a Squadriglia Torpedindiere
+		# 4a Torpedo Boat Squadron
 		ship = { name = "CBS Omdurman" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Juba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Malakal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
@@ -666,21 +676,21 @@ units = {
 		name = "Suez Naval Command"				
 		base = 1155
 		location = 1155
-		# 2a Squadriglia Torpedindiere
+		# 2a Torpedo Boat Squadron
 		ship = { name = "CBS Liwa' Asmar al-Sabet" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Boqor Omar Saadaaq" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Liwa Aatika al-Attar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Boqor Mohammad Darmaan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
-		# 9a Squadriglia Torpedindiere
+		# 9a Torpedo Boat Squadron
 		ship = { name = "CBS Mesfin Robel Fisahaye" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Amha Asnake Lemma" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Asnake Abimelech Kassa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }				
-		# 1a Squadriglia Torpedindiere
+		# 1a Torpedo Boat Squadron
 		ship = { name = "CBS Dinka" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Nuer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Luo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Shilluk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
-		# 5a Squadriglia Torpedindiere
+		# 5a Torpedo Boat Squadron
 		ship = { name = "CBS Toposa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Otuho" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	
 		ship = { name = "CBS Didinga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOM } } }	

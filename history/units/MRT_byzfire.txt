@@ -351,6 +351,22 @@ units = {
 		start_equipment_factor = 0.8
 
 	}
+	division= {			
+		name = "2 Mashinikrrta Korpasa"		
+		location = 10259
+		division_template = "Mashinikrrta Korpasa"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	division= {			
+		name = "3 Mashinikrrta Korpasa"		
+		location = 10259
+		division_template = "Mashinikrrta Korpasa"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
 ######Jabalpur######
 	division= {			
 		name = "23 Rayaphala Vibhaga"		

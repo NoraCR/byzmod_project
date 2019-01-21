@@ -333,7 +333,7 @@ leader_traits = {
 		}
 	}
 
-	great_war_hero = { #Papadopoulou
+	witch_of_balboa = { #Papadopoulou
 		war_support_factor = 0.05
 		stability_factor = 0.05
 		army_core_attack_factor = 0.2

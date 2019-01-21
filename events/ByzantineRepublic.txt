@@ -483,7 +483,7 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = stalinism
 			traits = {
-				great_war_hero
+				witch_of_balboa
 			}
 		}
 		hidden_effect = { news_event = { id = news.1001 hours = 48 }
