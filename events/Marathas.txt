@@ -261,3 +261,20 @@ country_event = {
 		add_political_power = 10
 	}
 }
+#Shock WOrkers
+country_event = {
+	id = marathas.103
+	title = marathas.103.t
+	desc = marathas.103.d
+	picture = GFX_report_event_generic_communist_congress
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = MRT
+		has_completed_focus = MRT_shock_workers
+	}
+	option = {
+		name = marathas.103.a
+		add_political_power = 10
+	}
+}
