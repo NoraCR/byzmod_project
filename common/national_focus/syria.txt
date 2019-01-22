@@ -15,7 +15,7 @@ focus_tree = {
 		x = 1
 		y = 0
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -36,7 +36,7 @@ focus_tree = {
 		x = 5
 		y = 0
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -54,7 +54,7 @@ focus_tree = {
 		x = 10
 		y = 0
 		ai_will_do = {
-			factor = 5
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -76,7 +76,7 @@ focus_tree = {
 		x = 15
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -119,7 +119,7 @@ focus_tree = {
 		x = 20
 		y = 0
 		ai_will_do = {
-			factor = 2
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -162,7 +162,7 @@ focus_tree = {
 		x = 27
 		y = 0
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -182,7 +182,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -229,6 +229,9 @@ focus_tree = {
 		}
 		x = 0
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}
 
 	}
 	focus = {
@@ -240,8 +243,8 @@ focus_tree = {
 		}
 		x = 2
 		y = 2
-				ai_will_do = {
-			factor = 10
+		ai_will_do = {
+			factor = 40
 		}
 
 		bypass = {
@@ -349,7 +352,7 @@ focus_tree = {
 		x = 1
 		y = 3
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 		complete_tooltip = {
 			random_state = {
@@ -392,10 +395,10 @@ focus_tree = {
 		x = 4
 		y = 1
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
-		available_if_capitulated = yes
+		available_if_capitulated = no
 		
 		complete_tooltip = {
 			random_state = {
@@ -438,7 +441,7 @@ focus_tree = {
 		x = 6
 		y = 1
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		complete_tooltip = {
@@ -486,7 +489,7 @@ focus_tree = {
 		x = 5
 		y = 2
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 		complete_tooltip = {
 			random_state = {
@@ -530,7 +533,7 @@ focus_tree = {
 		x = 4
 		y = 3
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -550,7 +553,7 @@ focus_tree = {
 		x = 6
 		y = 3
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		complete_tooltip = {
@@ -594,7 +597,7 @@ focus_tree = {
 		x = 6
 		y = 4
 		ai_will_do = {
-			factor = 60
+			factor = 40
 		}
 
 		available = {
@@ -638,7 +641,7 @@ focus_tree = {
 		x = 9
 		y = 1
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -663,7 +666,7 @@ focus_tree = {
 		x = 8
 		y = 2
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -688,7 +691,7 @@ focus_tree = {
 		x = 8
 		y = 3
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -714,7 +717,7 @@ focus_tree = {
 		x = 8
 		y = 4
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -738,7 +741,7 @@ focus_tree = {
 		x = 11
 		y = 1
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -763,7 +766,7 @@ focus_tree = {
 		x = 11
 		y = 2
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -793,7 +796,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 		completion_reward = {
 			344 = {
@@ -823,7 +826,7 @@ focus_tree = {
 		x = 12
 		y = 3
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 		bypass = {
 			454 = { NOT = { is_owned_by = ROOT } }
@@ -883,7 +886,7 @@ focus_tree = {
 		x = 12
 		y = 4
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -908,7 +911,7 @@ focus_tree = {
 		x = 14
 		y = 1
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -933,7 +936,7 @@ focus_tree = {
 		x = 16
 		y = 1
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -959,7 +962,7 @@ focus_tree = {
 		x = 14
 		y = 2
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 		
 		available_if_capitulated = yes
@@ -983,7 +986,7 @@ focus_tree = {
 		x = 16
 		y = 2
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1011,7 +1014,7 @@ focus_tree = {
 		x = 14
 		y = 3
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1040,7 +1043,7 @@ focus_tree = {
 		x = 16
 		y = 3
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1066,7 +1069,7 @@ focus_tree = {
 		x = 15
 		y = 4
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1091,7 +1094,7 @@ focus_tree = {
 		x = 19
 		y = 1
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1116,7 +1119,7 @@ focus_tree = {
 		x = 18
 		y = 2
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1140,7 +1143,7 @@ focus_tree = {
 		x = 21
 		y = 1
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1166,7 +1169,7 @@ focus_tree = {
 		x = 20
 		y = 2
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1193,7 +1196,7 @@ focus_tree = {
 		x = 19
 		y = 3
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1226,7 +1229,7 @@ focus_tree = {
 		x = 21
 		y = 3
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1258,7 +1261,7 @@ focus_tree = {
 		x = 20
 		y = 4
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1284,7 +1287,7 @@ focus_tree = {
 		x = 22
 		y = 2
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1309,7 +1312,7 @@ focus_tree = {
 		x = 26
 		y = 1
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1330,7 +1333,7 @@ focus_tree = {
 		x = 24
 		y = 2
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1350,7 +1353,7 @@ focus_tree = {
 		x = 30
 		y = 1
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1373,7 +1376,7 @@ focus_tree = {
 		x = 26
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1392,7 +1395,7 @@ focus_tree = {
 		x = 23
 		y = 3
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 		completion_reward = {
 			set_rule = { can_create_factions = yes }
@@ -1412,7 +1415,7 @@ focus_tree = {
 		x = 25
 		y = 3
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1436,7 +1439,7 @@ focus_tree = {
 		x = 28
 		y = 2
 		ai_will_do = {
-			factor = 2.5
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1460,7 +1463,7 @@ focus_tree = {
 		x = 29
 		y = 3
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1484,7 +1487,7 @@ focus_tree = {
 		x = 28
 		y = 5
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1507,7 +1510,7 @@ focus_tree = {
 		x = 26
 		y = 4
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1533,7 +1536,7 @@ focus_tree = {
 		x = 31
 		y = 3
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1557,7 +1560,7 @@ focus_tree = {
 		x = 30
 		y = 4
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1576,7 +1579,7 @@ focus_tree = {
 		x = 30
 		y = 5
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1597,7 +1600,7 @@ focus_tree = {
 		x = 32
 		y = 4
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1619,7 +1622,7 @@ focus_tree = {
 		x = 32
 		y = 5
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1641,7 +1644,7 @@ focus_tree = {
 		x = 10
 		y = 4
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1666,7 +1669,7 @@ focus_tree = {
 		x = 11
 		y = 5
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1692,7 +1695,7 @@ focus_tree = {
 		x = 23
 		y = 4
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 		available_if_capitulated = yes
 
@@ -1711,7 +1714,7 @@ focus_tree = {
 		x = 34
 		y = 4
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1733,7 +1736,7 @@ focus_tree = {
 		x = 28
 		y = 6
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1755,7 +1758,7 @@ focus_tree = {
 		x = 26
 		y = 5
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes

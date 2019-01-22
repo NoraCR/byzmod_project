@@ -15,7 +15,7 @@ focus_tree = {
 		x = 2
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -52,7 +52,7 @@ focus_tree = {
 		x = 6
 		y = 0
 		ai_will_do = {
-			factor = 5
+			factor = 40
 		}
 
 		available = {
@@ -86,14 +86,14 @@ focus_tree = {
 		x = 8
 		y = 0
 		ai_will_do = {
-			factor = 0
+			factor = 40
 			modifier = {
 				NOT = { CHI = { has_government = pangalism } }
-				factor = 10
+				factor = 100
 			}
 			modifier = {
-				NOT = { has_government = pangalist }
-				factor = 100
+				NOT = { has_government = pangalism }
+				factor = 1000
 			}
 			modifier = {	#makes it significantly more likely if player boosts non-pangalist
 				pangalism < 0.3
@@ -129,7 +129,7 @@ focus_tree = {
 		x = 15
 		y = 0
 		ai_will_do = {
-			factor = 15
+			factor = 40
 		}
 
 		available = {
@@ -181,7 +181,7 @@ focus_tree = {
 		x = 19
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -217,7 +217,7 @@ focus_tree = {
 		x = 23
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -283,7 +283,7 @@ focus_tree = {
 		x = 27
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -352,7 +352,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -386,7 +386,7 @@ focus_tree = {
 		x = 2
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 		completion_reward = {
 			289 = {
@@ -433,7 +433,7 @@ focus_tree = {
 		x = 6
 		y = 1
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 		completion_reward = {
 			add_political_power = 150
@@ -453,9 +453,9 @@ focus_tree = {
 		x = 5
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 			modifier = {
-				factor = 100
+				factor = 2
 				has_global_flag = zhongnan_massacre
 			}
 		}
@@ -523,7 +523,7 @@ focus_tree = {
 		x = 2
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -556,7 +556,7 @@ focus_tree = {
 		x = 4
 		y = 3
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -591,7 +591,7 @@ focus_tree = {
 		y = 3
 		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 		completion_reward = {
 			add_resource = {
@@ -619,7 +619,7 @@ focus_tree = {
 		x = 8
 		y = 1
 		ai_will_do = {
-			factor = 90
+			factor = 40
 		}
 
 		available = {
@@ -667,7 +667,7 @@ focus_tree = {
 		y = 2
 		
 		ai_will_do = {
-			factor = 90
+			factor = 40
 		}
 
 		available = {
@@ -702,7 +702,7 @@ focus_tree = {
 		x = 8
 		y = 3
 		ai_will_do = {
-			factor = 100
+			factor = 40
 		}
 
 		available = {
@@ -739,10 +739,8 @@ focus_tree = {
 		}
 		x = 8
 		y = 4
-		cost = 10
-
 		ai_will_do = {
-			factor = 60
+			factor = 40
 			modifier = {
 				factor = 0.5
 				is_in_faction_with = CHI
@@ -791,7 +789,7 @@ focus_tree = {
 		x = 10
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -833,7 +831,7 @@ focus_tree = {
 		x = 10
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 		available = {
 
@@ -904,7 +902,7 @@ focus_tree = {
 		x = 10
 		y = 3
 		ai_will_do = {
-			factor = 90
+			factor = 40
 		}
 
 		available = {
@@ -937,6 +935,9 @@ focus_tree = {
 		}
 		x = 10
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}
 
 	}
 	focus = {
@@ -950,7 +951,7 @@ focus_tree = {
 		y = 5
 		ai_will_do = {
 			factor = 40
-			}
+		}
 
 		available = {
 			fascism > 0.5
@@ -997,7 +998,7 @@ focus_tree = {
 		x = 12
 		y = 2
 		ai_will_do = {
-			factor = 0.5
+			factor = 40
 			modifier = {	#will make country more likely to go down this path if player boosts communism support
 				communism > 0.1
 				factor = 10
@@ -1081,7 +1082,7 @@ focus_tree = {
 		x = 12
 		y = 3
 		ai_will_do = {
-			factor = 2
+			factor = 40
 		}
 
 		available = {
@@ -1116,7 +1117,7 @@ focus_tree = {
 		y = 4
 
 		ai_will_do = {
-			factor = 80
+			factor = 40
 		}
 
 		available = {
@@ -1165,7 +1166,7 @@ focus_tree = {
 		x = 11
 		y = 5
 		ai_will_do = {
-			factor = 50
+			factor = 40
 			modifier = {
 				MRT = { surrender_progress > 0.75 }
 				factor = 0 # let's not get into that...
@@ -1211,7 +1212,7 @@ focus_tree = {
 		x = 13
 		y = 5
 		ai_will_do = {
-			factor = 50
+			factor = 40
 			modifier = {
 				BYZ = { surrender_progress > 0.75 }
 				factor = 0 # let's not get into that...
@@ -1255,7 +1256,7 @@ focus_tree = {
 		x = 14
 		y = 1
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 		available = {
@@ -1323,7 +1324,7 @@ focus_tree = {
 		x = 16
 		y = 1
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 		available = {
@@ -1365,7 +1366,7 @@ focus_tree = {
 		x = 15
 		y = 2
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 		available = {
@@ -1421,7 +1422,7 @@ focus_tree = {
 		x = 14
 		y = 3
 		ai_will_do = {
-			factor = 15
+			factor = 40
 		}
 
 		available = {
@@ -1460,7 +1461,7 @@ focus_tree = {
 		x = 16
 		y = 3
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 		available = {
@@ -1519,7 +1520,7 @@ focus_tree = {
 		x = 16
 		y = 4
 		ai_will_do = {
-			factor = 15
+			factor = 40
 		}
 
 		available = {
@@ -1553,7 +1554,7 @@ focus_tree = {
 		x = 18
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1592,7 +1593,7 @@ focus_tree = {
 		x = 20
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1635,7 +1636,7 @@ focus_tree = {
 		x = 19
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1675,7 +1676,7 @@ focus_tree = {
 		x = 18
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1715,7 +1716,7 @@ focus_tree = {
 		x = 20
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1755,7 +1756,7 @@ focus_tree = {
 		x = 19
 		y = 4
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1795,7 +1796,7 @@ focus_tree = {
 		x = 20
 		y = 5
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1837,7 +1838,7 @@ focus_tree = {
 		x = 22
 		y = 1
 		ai_will_do = {
-			factor = 0.4
+			factor = 40
 		}
 
 		available = {
@@ -1882,7 +1883,7 @@ focus_tree = {
 		x = 24
 		y = 1
 		ai_will_do = {
-			factor = 0.6
+			factor = 40
 		}
 
 		available = {
@@ -1924,9 +1925,8 @@ focus_tree = {
 		x = 23
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
-
 		available = {
 
 		}
@@ -1964,7 +1964,7 @@ focus_tree = {
 		x = 22
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2004,7 +2004,7 @@ focus_tree = {
 		x = 24
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2043,7 +2043,7 @@ focus_tree = {
 		x = 23
 		y = 4
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2085,7 +2085,7 @@ focus_tree = {
 		x = 26
 		y = 1
 		ai_will_do = {
-			factor = 0.2
+			factor = 40
 			modifier = {
 				has_war_with = JAP
 				factor = 10
@@ -2130,7 +2130,7 @@ focus_tree = {
 		x = 28
 		y = 1
 		ai_will_do = {
-			factor = 0.8
+			factor = 40
 		}
 
 		available = {
@@ -2169,7 +2169,7 @@ focus_tree = {
 		x = 27
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2253,7 +2253,7 @@ focus_tree = {
 		x = 26
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2293,7 +2293,7 @@ focus_tree = {
 		x = 14
 		y = 4
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available = {
@@ -2352,7 +2352,7 @@ focus_tree = {
 		y = 5
 		
 		ai_will_do = {
-			factor = 45
+			factor = 40
 		}
 
 		available = {
@@ -2387,7 +2387,7 @@ focus_tree = {
 		y = 3
 
 		ai_will_do = {
-			factor = 1
+			factor = 40
 			modifier = {
 				has_war_with = JAP
 				factor = 3
@@ -2432,6 +2432,9 @@ focus_tree = {
 		}
 		x = 28
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}
 
 	}
 	focus = {
@@ -2447,7 +2450,7 @@ focus_tree = {
 		x = 26
 		y = 4
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2495,7 +2498,7 @@ focus_tree = {
 		x = 18
 		y = 5
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2535,7 +2538,7 @@ focus_tree = {
 		x = 19
 		y = 6
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {

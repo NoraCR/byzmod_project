@@ -15,7 +15,7 @@ focus_tree = {
 		x = 4
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -46,7 +46,7 @@ focus_tree = {
 		x = 12
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -77,7 +77,7 @@ focus_tree = {
 		x = 20
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -108,7 +108,7 @@ focus_tree = {
 		x = 26
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -186,7 +186,7 @@ focus_tree = {
 		x = 28
 		y = 0
 		ai_will_do = {
-			factor = 3
+			factor = 40
 		}
 
 		available = {
@@ -228,7 +228,7 @@ focus_tree = {
 		x = 36
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -256,7 +256,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -290,7 +290,7 @@ focus_tree = {
 		x = 2
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -323,7 +323,7 @@ focus_tree = {
 		x = 4
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -357,7 +357,7 @@ focus_tree = {
 		x = 4
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -391,7 +391,7 @@ focus_tree = {
 		x = 6
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -425,9 +425,9 @@ focus_tree = {
 		x = 6
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
-
+		
 		available = {
 
 		}
@@ -460,7 +460,7 @@ focus_tree = {
 		x = 4
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -488,7 +488,7 @@ focus_tree = {
 		x = 10
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -525,7 +525,7 @@ focus_tree = {
 		x = 8
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -559,7 +559,7 @@ focus_tree = {
 		x = 8
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -594,7 +594,7 @@ focus_tree = {
 		x = 10
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -628,7 +628,7 @@ focus_tree = {
 		x = 12
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -689,7 +689,7 @@ focus_tree = {
 		x = 12
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -753,7 +753,7 @@ focus_tree = {
 		x = 11
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -787,7 +787,7 @@ focus_tree = {
 		x = 14
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -821,7 +821,7 @@ focus_tree = {
 		x = 14
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -858,9 +858,9 @@ focus_tree = {
 		x = 13
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
-
+		
 		available = {
 
 		}
@@ -895,7 +895,7 @@ focus_tree = {
 		x = 12
 		y = 4
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -929,7 +929,7 @@ focus_tree = {
 		x = 18
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -964,7 +964,7 @@ focus_tree = {
 		x = 18
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1002,7 +1002,7 @@ focus_tree = {
 		x = 16
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1035,7 +1035,7 @@ focus_tree = {
 		x = 20
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1070,7 +1070,7 @@ focus_tree = {
 		x = 20
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1105,7 +1105,7 @@ focus_tree = {
 		x = 22
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1160,7 +1160,7 @@ focus_tree = {
 		x = 22
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1221,7 +1221,7 @@ focus_tree = {
 		x = 20
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1254,7 +1254,7 @@ focus_tree = {
 		x = 26
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1311,7 +1311,7 @@ focus_tree = {
 		x = 28
 		y = 1
 		ai_will_do = {
-			factor = 3
+			factor = 40
 		}
 
 		available = {
@@ -1356,7 +1356,7 @@ focus_tree = {
 		x = 26
 		y = 2
 		ai_will_do = {
-			factor = 2
+			factor = 40
 		}
 
 		available = {
@@ -1387,7 +1387,7 @@ focus_tree = {
 		x = 24
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1420,7 +1420,7 @@ focus_tree = {
 		x = 26
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1456,7 +1456,7 @@ focus_tree = {
 		x = 28
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1558,7 +1558,7 @@ focus_tree = {
 		x = 28
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1589,7 +1589,7 @@ focus_tree = {
 		x = 27
 		y = 4
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1623,7 +1623,7 @@ focus_tree = {
 		x = 33
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1654,7 +1654,7 @@ focus_tree = {
 		x = 31
 		y = 2
 		ai_will_do = {
-			factor = 5
+			factor = 40
 		}
 
 		available = {
@@ -1761,7 +1761,7 @@ focus_tree = {
 		x = 31
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -1856,7 +1856,7 @@ focus_tree = {
 		x = 31
 		y = 4
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2116,7 +2116,7 @@ focus_tree = {
 		x = 33
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2146,7 +2146,7 @@ focus_tree = {
 		x = 33
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2174,7 +2174,7 @@ focus_tree = {
 		x = 39
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2205,7 +2205,7 @@ focus_tree = {
 		x = 36
 		y = 2
 		ai_will_do = {
-			factor = 5
+			factor = 40
 			modifier = {
 				factor = 0.25
 				has_global_flag = byz_mullerist_coup
@@ -2237,7 +2237,7 @@ focus_tree = {
 		x = 36
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2265,11 +2265,14 @@ focus_tree = {
 		x = 34
 		y = 4
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
-		available = { # needs a good size army
+		available = { # needs a good size army, Ireland not in faction
 			has_army_manpower = { size > 749999 }
+			NOT = { 
+				is_in_faction_with = IRE
+			}
 		}
 		
 		bypass = {
@@ -2295,7 +2298,7 @@ focus_tree = {
 		x = 38
 		y = 4
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2323,7 +2326,7 @@ focus_tree = {
 		x = 38
 		y = 5
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2357,9 +2360,9 @@ focus_tree = {
 		x = 42
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 			modifier = {
-				factor = 5
+				factor = 3
 				has_global_flag = byz_mullerist_coup
 			}
 		}
@@ -2389,7 +2392,7 @@ focus_tree = {
 		x = 42
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2418,7 +2421,7 @@ focus_tree = {
 		x = 36
 		y = 4
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2460,7 +2463,7 @@ focus_tree = {
 		x = 41
 		y = 4
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2490,7 +2493,7 @@ focus_tree = {
 		x = 40
 		y = 5
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2520,7 +2523,7 @@ focus_tree = {
 		x = 42
 		y = 5
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2550,7 +2553,7 @@ focus_tree = {
 		x = 16
 		y = 4
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2583,7 +2586,7 @@ focus_tree = {
 		x = 20
 		y = 4
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2616,7 +2619,7 @@ focus_tree = {
 		x = 24
 		y = 4
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2797,7 +2800,7 @@ focus_tree = {
 		x = 34
 		y = 5
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2831,7 +2834,7 @@ focus_tree = {
 		x = 36
 		y = 5
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2862,7 +2865,7 @@ focus_tree = {
 		x = 40
 		y = 6
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2894,7 +2897,7 @@ focus_tree = {
 		x = 44
 		y = 4
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2936,7 +2939,7 @@ focus_tree = {
 		x = 44
 		y = 5
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {
@@ -2967,7 +2970,7 @@ focus_tree = {
 		x = 42
 		y = 6
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available = {

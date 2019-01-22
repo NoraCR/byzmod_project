@@ -14,10 +14,8 @@ focus_tree = {
 		cost = 10.00
 		x = 1
 		y = 0
-		cost = 10
-
 		ai_will_do = {
-			factor = 24
+			factor = 40
 			modifier = {
 				factor = 3
 				has_completed_focus = KOR_state_owned_enterprises
@@ -51,7 +49,7 @@ focus_tree = {
 		x = 4
 		y = 0
 		ai_will_do = {
-			factor = 25
+			factor = 40
 			modifier = {
 				factor = 3
 				has_completed_focus = KOR_bogeon_sahoe_bu
@@ -85,10 +83,8 @@ focus_tree = {
 		cost = 10.00
 		x = 8
 		y = 0
-		cost = 10
-
 		ai_will_do = {
-			factor = 80
+			factor = 40
 		}
 
 		available = {
@@ -118,10 +114,8 @@ focus_tree = {
 		cost = 10.00
 		x = 11
 		y = 0
-		cost = 10
-
 		ai_will_do = {
-			factor = 30
+			factor = 40
 		}
 
 		available = {
@@ -165,10 +159,8 @@ focus_tree = {
 		cost = 10.00
 		x = 16
 		y = 0
-		cost = 10
-
 		ai_will_do = {
-			factor = 4
+			factor = 40
 		}
 
 		available = {
@@ -249,7 +241,7 @@ focus_tree = {
 		x = 24
 		y = 0
 		ai_will_do = {
-			factor = 1
+			factor = 40
 			modifier = {
 				OR = {
 					communism > 0.15
@@ -289,10 +281,8 @@ focus_tree = {
 		cost = 10.00
 		x = 35
 		y = 0
-		cost = 10
-
 		ai_will_do = {
-			factor = 3
+			factor = 40
 		}
 
 		available = {
@@ -359,10 +349,8 @@ focus_tree = {
 		cost = 10.00
 		x = 39
 		y = 0
-		cost = 10
-
 		ai_will_do = {
-			factor = 9
+			factor = 40
 		}
 
 		available = {
@@ -424,7 +412,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		ai_will_do = {
-			factor = 75
+			factor = 40
 		}
 
 		available = {
@@ -488,7 +476,7 @@ focus_tree = {
 		x = 1
 		y = 3
 		ai_will_do = {
-			factor = 75
+			factor = 40
 		}
 
 		available = {
@@ -553,10 +541,8 @@ focus_tree = {
 		}
 		x = 3
 		y = 1
-		cost = 10
-
 		ai_will_do = {
-			factor = 75
+			factor = 40
 		}
 
 		available = {
@@ -621,10 +607,8 @@ focus_tree = {
 		}
 		x = 3
 		y = 2
-		cost = 10
-
 		ai_will_do = {
-			factor = 75
+			factor = 40
 		}
 
 		available = {
@@ -665,10 +649,8 @@ focus_tree = {
 		}
 		x = 6
 		y = 1
-		cost = 10
-
 		ai_will_do = {
-			factor = 50
+			factor = 40
 		}
 
 		available = {
@@ -761,10 +743,8 @@ focus_tree = {
 		}
 		x = 5
 		y = 2
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -799,10 +779,8 @@ focus_tree = {
 		}
 		x = 3
 		y = 3
-		cost = 10
-
 		ai_will_do = {
-			factor = 75
+			factor = 40
 		}
 
 		available = {
@@ -869,10 +847,8 @@ focus_tree = {
 		}
 		x = 5
 		y = 4
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 			modifier = {
 				factor = 2
 				has_completed_focus = KOR_samjok_o_aircraft
@@ -971,10 +947,8 @@ focus_tree = {
 		}
 		x = 7
 		y = 2
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 			modifier = {
 				factor = 2
 				has_completed_focus = KOR_gang_jitae_company
@@ -1077,7 +1051,7 @@ focus_tree = {
 		x = 9
 		y = 1
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -1142,10 +1116,8 @@ focus_tree = {
 		}
 		x = 9
 		y = 2
-		cost = 10
-
 		ai_will_do = {
-			factor = 75
+			factor = 40
 		}
 
 		available = {
@@ -1179,7 +1151,7 @@ focus_tree = {
 		x = 8
 		y = 4
 		ai_will_do = {
-			factor = 50
+			factor = 40
 		}
 
 		available = {
@@ -1329,7 +1301,7 @@ focus_tree = {
 		x = 12
 		y = 1
 		ai_will_do = {
-			factor = 50
+			factor = 40
 		}
 
 		available = {
@@ -1361,10 +1333,8 @@ focus_tree = {
 		}
 		x = 11
 		y = 2
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 			modifier = {
 				factor = 2
 				has_completed_focus = KOR_rice_production_council
@@ -1421,7 +1391,7 @@ focus_tree = {
 		x = 11
 		y = 3
 		ai_will_do = {
-			factor = 50
+			factor = 40
 		}
 
 		available = {
@@ -1491,10 +1461,8 @@ focus_tree = {
 		}
 		x = 11
 		y = 4
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -1588,10 +1556,8 @@ focus_tree = {
 		}
 		x = 9
 		y = 5
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -1629,7 +1595,7 @@ focus_tree = {
 		x = 13
 		y = 2
 		ai_will_do = {
-			factor = 25
+			factor = 40
 			modifier = {
 				factor = 2
 				has_completed_focus = KOR_expand_siberian_mining
@@ -1669,7 +1635,7 @@ focus_tree = {
 		x = 13
 		y = 3
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -1705,7 +1671,7 @@ focus_tree = {
 		x = 13
 		y = 4
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -1738,7 +1704,7 @@ focus_tree = {
 		x = 12
 		y = 5
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -1776,10 +1742,8 @@ focus_tree = {
 		}
 		x = 15
 		y = 1
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -1817,10 +1781,8 @@ focus_tree = {
 		}
 		x = 15
 		y = 3
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -1857,10 +1819,8 @@ focus_tree = {
 		}
 		x = 17
 		y = 1
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -1899,10 +1859,8 @@ focus_tree = {
 		}
 		x = 16
 		y = 2
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -1948,10 +1906,8 @@ focus_tree = {
 		}
 		x = 17
 		y = 3
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -2002,7 +1958,7 @@ focus_tree = {
 		x = 15
 		y = 4
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -2044,7 +2000,7 @@ focus_tree = {
 		x = 14
 		y = 5
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -2083,7 +2039,7 @@ focus_tree = {
 		x = 16
 		y = 5
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -2122,7 +2078,7 @@ focus_tree = {
 		x = 20
 		y = 1
 		ai_will_do = {
-			factor = 35
+			factor = 40
 		}
 
 		available = {
@@ -2243,7 +2199,7 @@ focus_tree = {
 		x = 20
 		y = 2
 		ai_will_do = {
-			factor = 25
+			factor = 40
 			modifier = {
 				factor = 2
 				has_completed_focus = KOR_arsenal_of_democracy
@@ -2282,7 +2238,7 @@ focus_tree = {
 		x = 18
 		y = 4
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -2320,7 +2276,7 @@ focus_tree = {
 		x = 22
 		y = 1
 		ai_will_do = {
-			factor = 70
+			factor = 40
 		}
 
 		available = {
@@ -2353,7 +2309,7 @@ focus_tree = {
 		x = 22
 		y = 2
 		ai_will_do = {
-			factor = 25
+			factor = 40
 			modifier = {
 				factor = 2
 				has_completed_focus = KOR_aircraft_development
@@ -2397,7 +2353,7 @@ focus_tree = {
 		x = 21
 		y = 3
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -2439,7 +2395,7 @@ focus_tree = {
 		x = 20
 		y = 4
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -2477,7 +2433,7 @@ focus_tree = {
 		x = 22
 		y = 4
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -2532,14 +2488,14 @@ focus_tree = {
 		x = 24
 		y = 1
 		ai_will_do = {
-			factor = 2
+			factor = 40
 			modifier = {
 				democratic > 0.6
-				factor = 25
+				factor = 2
 			}
 			modifier = {
 				democratic < 0.4
-				factor = 50
+				factor = 4
 			}
 		}
 
@@ -2590,7 +2546,7 @@ focus_tree = {
 		x = 24
 		y = 2
 		ai_will_do = {
-			factor = 25
+			factor = 40
 			modifier = {
 				CHI = { surrender_progress > 0.5 }
 				factor = 0 #silla doesnt like losers
@@ -2636,7 +2592,7 @@ focus_tree = {
 		x = 23
 		y = 3
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -2676,7 +2632,7 @@ focus_tree = {
 		x = 25
 		y = 3
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -2718,7 +2674,7 @@ focus_tree = {
 		x = 28
 		y = 1
 		ai_will_do = {
-			factor = 1.5
+			factor = 40
 			modifier = {
 				fascism > 0.25
 				factor = 2
@@ -2759,7 +2715,7 @@ focus_tree = {
 		x = 28
 		y = 2
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -2799,7 +2755,7 @@ focus_tree = {
 		x = 27
 		y = 3
 		ai_will_do = {
-			factor = 25
+			factor = 40
 			modifier = {
 				FRA = { surrender_progress > 0.5 }
 				factor = 0 #silla doesnt like losers
@@ -2848,7 +2804,7 @@ focus_tree = {
 		x = 29
 		y = 3
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -2887,7 +2843,7 @@ focus_tree = {
 		x = 28
 		y = 4
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -2950,7 +2906,6 @@ focus_tree = {
 		}
 		x = 28
 		y = 5
-		cost = 10
 		bypass = {
 			716 = { is_owned_by = KOR }
 			745 = { is_owned_by = KOR }
@@ -2963,7 +2918,7 @@ focus_tree = {
 			761 = { is_owned_by = KOR }
 		}
 		ai_will_do = {
-			factor = 10	
+			factor = 40
 			modifier = {
 				factor = 0
 				date < 1939.1.1
@@ -2995,7 +2950,7 @@ focus_tree = {
 		x = 32
 		y = 1
 		ai_will_do = {
-			factor = 25
+			factor = 40
 			modifier = {
 				communism > 0.2
 				factor = 20
@@ -3032,7 +2987,7 @@ focus_tree = {
 		x = 32
 		y = 2
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {			
@@ -3069,7 +3024,7 @@ focus_tree = {
 		x = 32
 		y = 3
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -3133,7 +3088,7 @@ focus_tree = {
 		x = 32
 		y = 4
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {			
@@ -3175,7 +3130,7 @@ focus_tree = {
 		x = 32
 		y = 5
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -3210,10 +3165,8 @@ focus_tree = {
 		}
 		x = 34
 		y = 1
-				cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -3251,10 +3204,8 @@ focus_tree = {
 		}
 		x = 36
 		y = 1
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -3446,10 +3397,8 @@ focus_tree = {
 		}
 		x = 35
 		y = 2
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -3517,10 +3466,8 @@ focus_tree = {
 		}
 		x = 34
 		y = 3
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 			modifier = {
 				factor = 2
 				has_completed_focus = KOR_four_engine_bombers
@@ -3562,10 +3509,8 @@ focus_tree = {
 		}
 		x = 36
 		y = 3
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 			modifier = {
 				factor = 2
 				has_completed_focus = KOR_kaesong_factory
@@ -3609,10 +3554,8 @@ focus_tree = {
 		}
 		x = 35
 		y = 4
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -3650,10 +3593,8 @@ focus_tree = {
 		}
 		x = 39
 		y = 1
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -3691,10 +3632,8 @@ focus_tree = {
 		}
 		x = 39
 		y = 2
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -3736,12 +3675,9 @@ focus_tree = {
 		}
 		x = 38
 		y = 3
-		cost = 10
-
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
-
 		available = {
 
 		}
@@ -3778,7 +3714,7 @@ focus_tree = {
 		x = 3
 		y = 4
 		ai_will_do = {
-			factor = 75
+			factor = 40
 		}
 
 		available = {
@@ -3841,7 +3777,7 @@ focus_tree = {
 		x = 12
 		y = 6
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -3880,7 +3816,7 @@ focus_tree = {
 		x = 14
 		y = 6
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -3916,7 +3852,7 @@ focus_tree = {
 		x = 18
 		y = 5
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -3954,7 +3890,7 @@ focus_tree = {
 		x = 16
 		y = 6
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -4002,7 +3938,7 @@ focus_tree = {
 		x = 40
 		y = 3
 		ai_will_do = {
-			factor = 25
+			factor = 40
 			modifier = {
 				has_war_with = CHI
 				factor = 2
@@ -4044,9 +3980,9 @@ focus_tree = {
 		}
 		x = 38
 		y = 4
-		#ai_will_do = {
-		#	factor = 1
-		#}
+		ai_will_do = {
+			factor = 40
+		}
 
 		available_if_capitulated = yes
 
@@ -4070,7 +4006,7 @@ focus_tree = {
 		x = 40
 		y = 4
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -4103,7 +4039,7 @@ focus_tree = {
 		x = 11
 		y = 7
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {

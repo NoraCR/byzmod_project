@@ -14,7 +14,9 @@ focus_tree = {
 		cost = 10.00
 		x = 4
 		y = 0
-		cost = 10
+		ai_will_do = {
+			factor = 40
+		}
 
 		available_if_capitulated = yes
 
@@ -29,6 +31,9 @@ focus_tree = {
 		cost = 10.00
 		x = 11
 		y = 0
+		ai_will_do = {
+			factor = 40
+		}
 		cost = 10
 
 		available_if_capitulated = yes
@@ -50,10 +55,11 @@ focus_tree = {
 		cost = 15.00
 		x = 18
 		y = 0
-		cost = 10
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
+		cost = 10
+	
 
 		available_if_capitulated = yes
 
@@ -70,7 +76,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		ai_will_do = {
-			factor = 2
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -163,7 +169,7 @@ focus_tree = {
 		y = 0
 		cost = 15
 		ai_will_do = {
-			factor = 10
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -178,6 +184,9 @@ focus_tree = {
 		cost = 10.00
 		x = 48
 		y = 0
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = no
 		available = {
 			JAP = { has_capitulated = yes }
@@ -197,9 +206,6 @@ focus_tree = {
 				 	} 
 				}			
 			}			
-		}
-		ai_will_do = {
-			factor = 1
 		}	
 		completion_reward = {
 			add_named_threat = { threat = 10 name = CHI_the_second_xizheng }
@@ -231,7 +237,6 @@ focus_tree = {
 	focus = {
 		id = CHI_battleship_primacy
 		icon = GFX_goal_generic_navy_battleship
-		cost = 10.00
 		prerequisite = {
 			focus = CHI_xinshi_haijun
 		}
@@ -240,6 +245,9 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}
 		cost = 10
 		available_if_capitulated = yes
 
@@ -255,12 +263,14 @@ focus_tree = {
 	focus = {
 		id = CHI_hai_quan_theory
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		cost = 10.00
 		prerequisite = {
 			focus = CHI_battleship_primacy
 		}
 		x = 0
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}
 		cost = 10
 		available_if_capitulated = yes
 
@@ -283,10 +293,9 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-		cost = 10
-		#ai_will_do = {
-		#	factor = 1
-		#}
+		ai_will_do = {
+			factor = 40
+		}
 
 		available_if_capitulated = yes
 
@@ -307,7 +316,9 @@ focus_tree = {
 		}
 		x = 2
 		y = 2
-		cost = 10
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -329,9 +340,8 @@ focus_tree = {
 		}
 		x = 4
 		y = 1
-		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -366,9 +376,8 @@ focus_tree = {
 		}
 		x = 4
 		y = 2
-		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -399,10 +408,9 @@ focus_tree = {
 		}
 		x = 6
 		y = 1
-		cost = 10
-		#ai_will_do = {
-		#	factor = 1
-		#}
+		ai_will_do = {
+			factor = 40
+		}
 
 		available_if_capitulated = yes
 
@@ -420,10 +428,9 @@ focus_tree = {
 		}
 		x = 6
 		y = 2
-		cost = 10
-		#ai_will_do = {
-		#	factor = 1
-		#}
+		ai_will_do = {
+			factor = 40
+		}
 
 		available_if_capitulated = yes
 
@@ -446,9 +453,8 @@ focus_tree = {
 		}
 		x = 8
 		y = 1
-		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -472,7 +478,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 2
-		cost = 10
+		ai_will_do = {
+			factor = 40
+		}
 
 		available_if_capitulated = yes
 
@@ -495,7 +503,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 3
-		cost = 10
+		ai_will_do = {
+			factor = 40
+		}
 
 		available_if_capitulated = yes
 		
@@ -520,6 +530,9 @@ focus_tree = {
 		}
 		x = 10
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}
 		
 		available_if_capitulated = yes
 
@@ -539,6 +552,9 @@ focus_tree = {
 		}
 		x = 10
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -558,10 +574,9 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_aerial_support_focus
 		}
-		cost = 10
-		#ai_will_do = {
-		#	factor = 1
-		#}
+		ai_will_do = {
+			factor = 40
+		}
 
 		available_if_capitulated = yes
 
@@ -589,6 +604,9 @@ focus_tree = {
 		}
 		x = 12
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -609,7 +627,9 @@ focus_tree = {
 		}
 		x = 13
 		y = 2
-
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -632,6 +652,9 @@ focus_tree = {
 		}
 		x = 15
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}
 		completion_reward = {
 		remove_ideas = CHI_government_corruption
 		}
@@ -645,6 +668,9 @@ focus_tree = {
 		}
 		x = 15
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -662,6 +688,9 @@ focus_tree = {
 		}
 		x = 17
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}
 		completion_reward = {
 			add_political_power = 120
 		}
@@ -677,7 +706,7 @@ focus_tree = {
 		x = 17
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		bypass = {
@@ -770,7 +799,7 @@ focus_tree = {
 		x = 17
 		y = 3
 		ai_will_do = {
-			factor = 5
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -796,7 +825,7 @@ focus_tree = {
 		x = 19
 		y = 1
 		ai_will_do = {
-			factor = 5
+			factor = 40
 		}
 
 		available = {
@@ -830,6 +859,9 @@ focus_tree = {
 		}
 		x = 19
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = yes
 		completion_reward = {
 			add_research_slot = 1
@@ -845,6 +877,9 @@ focus_tree = {
 		}
 		x = 20
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -861,6 +896,9 @@ focus_tree = {
 		}
 		x = 22
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -934,11 +972,11 @@ focus_tree = {
 		}
 		x = 21
 		y = 2
-		available_if_capitulated = yes
-
 		ai_will_do = {
-			factor = 1
-		}	
+			factor = 40
+		}
+		available_if_capitulated = yes
+	
 		completion_reward = {
 			add_resource = {
 				type = oil
@@ -957,11 +995,11 @@ focus_tree = {
 		}
 		x = 22
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = yes
 
-		ai_will_do = {
-			factor = 1
-		}	
 		completion_reward = {
 			add_resource = {
 				type = tungsten
@@ -996,6 +1034,9 @@ focus_tree = {
 		}
 		x = 18
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1022,6 +1063,9 @@ focus_tree = {
 		}
 		x = 23
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = yes
 		completion_reward = {
 				724 = {
@@ -1041,6 +1085,9 @@ focus_tree = {
 		}
 		x = 24
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1076,7 +1123,7 @@ focus_tree = {
 		x = 27
 		y = 1
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1107,7 +1154,10 @@ focus_tree = {
 		}
 		x = 26
 		y = 3
-
+		ai_will_do = {
+			factor = 40
+		}
+		
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1125,6 +1175,9 @@ focus_tree = {
 		}
 		x = 26
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1152,6 +1205,9 @@ focus_tree = {
 		}
 		x = 28
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}
 		completion_reward = {
 			air_experience = 25
 
@@ -1180,7 +1236,7 @@ focus_tree = {
 		x = 28
 		y = 3
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 
 		available_if_capitulated = yes
@@ -1474,6 +1530,9 @@ focus_tree = {
 		}
 		x = 35
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}
 		
 		available_if_capitulated = yes
 
@@ -1493,7 +1552,9 @@ focus_tree = {
 		}
 		x = 32
 		y = 2
-		cost = 10
+		ai_will_do = {
+			factor = 40
+		}
 
 		available_if_capitulated = yes
 
@@ -1511,7 +1572,11 @@ focus_tree = {
 		}
 		x = 30
 		y = 3
-				available_if_capitulated = yes
+		ai_will_do = {
+			factor = 40
+		}
+		
+		available_if_capitulated = yes
 
 		bypass = {
 			SIA = {
@@ -1661,7 +1726,7 @@ focus_tree = {
 		x = 29
 		y = 4
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 
 		available = {
@@ -1705,7 +1770,7 @@ focus_tree = {
 		x = 31
 		y = 4
 		ai_will_do = {
-			factor = 25
+			factor = 40
 		}
 		available = {
 			SIA = { is_subject = yes }
@@ -1817,6 +1882,9 @@ focus_tree = {
 		}
 		x = 32
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = yes
 
 		bypass = {
@@ -1916,7 +1984,10 @@ focus_tree = {
 		} 
 		x = 34
 		y = 3
-				available_if_capitulated = yes
+		ai_will_do = {
+			factor = 40
+		}
+		available_if_capitulated = yes
 
 		bypass = {
 			TRX = {
@@ -2208,6 +2279,9 @@ focus_tree = {
 		}
 		x = 36
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}
 		available = {
 			524 = {
 				CONTROLLER = {
@@ -2217,10 +2291,6 @@ focus_tree = {
 					}
 				}
 			}
-		}
-
-		ai_will_do = {
-			factor = 10
 		}
 
 		available_if_capitulated = yes
@@ -2264,7 +2334,7 @@ focus_tree = {
 			focus = CHI_east_china_sea
 		}
 		ai_will_do = {
-			factor = 55
+			factor = 40
 		}
 		available = {
 			CHI = { controls_state = 717 }
@@ -2311,7 +2381,7 @@ focus_tree = {
 		y = 5
 		available_if_capitulated = no
 		ai_will_do = {
-			factor = 100
+			factor = 40
 		}	
 		completion_reward = {
 			create_wargoal = {
@@ -2335,6 +2405,9 @@ focus_tree = {
 		}
 		x = 38
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}
 		completion_reward = {
 			#boost pangalism in "PHI"
 			"PHI" = {
@@ -2356,6 +2429,9 @@ focus_tree = {
 		}
 		x = 40
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}
 		available_if_capitulated = yes
 
 		bypass = {
@@ -2494,6 +2570,9 @@ focus_tree = {
 		}
 		x = 40
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}
 		available = {
 			has_equipment = {
 				infantry_equipment > 499
@@ -2533,6 +2612,9 @@ focus_tree = {
 		}
 		x = 40
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}
 		available = {
 			any_owned_state {
 				is_coastal = yes
@@ -2571,7 +2653,7 @@ focus_tree = {
 		x = 43
 		y = 2
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 		completion_reward = {
 			add_named_threat = { threat = 5 name = CHI_prepare_indian_war }
@@ -2586,6 +2668,9 @@ focus_tree = {
 		}
 		x = 42
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}
 		bypass = {
 			custom_trigger_tooltip = {
 				tooltip = infrastructure_effort_tt
@@ -2668,6 +2753,9 @@ focus_tree = {
 		}
 		x = 44
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}
 		completion_reward = {
 			TIB = {
 				country_event = { id = china.300 }
@@ -2687,6 +2775,9 @@ focus_tree = {
 		}
 		x = 43
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}
 		completion_reward = {
 			add_tech_bonus = {
 				name = CHI_mountain_infantry
@@ -2711,6 +2802,9 @@ focus_tree = {
 		}
 		x = 43
 		y = 5
+		ai_will_do = {
+			factor = 40
+		}
 		completion_reward = {
 			add_ideas = CHI_partisan_suppression_focus
 		}
@@ -2730,6 +2824,9 @@ focus_tree = {
 		}
 		x = 46
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}
 
 	}
 	focus = {
@@ -2745,7 +2842,7 @@ focus_tree = {
 			has_war_with = BYZ
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 40
 			modifier = {
 				factor = 0
 
@@ -2790,6 +2887,9 @@ focus_tree = {
 		}
 		x = 50
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}
 
 	}
 	focus = {
@@ -2802,6 +2902,9 @@ focus_tree = {
 		}
 		x = 48
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}
 		available = {
 			407 = {
 				is_controlled_by = AKH
@@ -2815,10 +2918,6 @@ focus_tree = {
 				}
 			}
 		}
-		cost = 5
-		ai_will_do = {
-			factor = 100
-		}	
 		completion_reward = {
 			army_experience = 5
 			407 = {
@@ -2888,9 +2987,8 @@ focus_tree = {
 		}
 		x = 48
 		y = 4
-		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 		completion_reward = {
 			234 = {
@@ -2976,6 +3074,9 @@ focus_tree = {
 		}
 		x = 50
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}
 		completion_reward = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
@@ -2993,6 +3094,9 @@ focus_tree = {
 		}
 		x = 50
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}
 		completion_reward = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
@@ -3010,7 +3114,9 @@ focus_tree = {
 		}
 		x = 50
 		y = 4
-		
+		ai_will_do = {
+			factor = 40
+		}
 		completion_reward = {
 			create_wargoal = {
 				type = puppet_wargoal_focus

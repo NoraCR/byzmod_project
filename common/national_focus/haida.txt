@@ -14,6 +14,9 @@ focus_tree = {
 		cost = 10.00
 		x = 5
 		y = 0
+		ai_will_do = {
+			factor = 40
+		}	
 
 		available_if_capitulated = yes
 
@@ -27,6 +30,9 @@ focus_tree = {
 		cost = 10.00
 		x = 15
 		y = 0
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -39,6 +45,9 @@ focus_tree = {
 		cost = 10.00
 		x = 20
 		y = 0
+		ai_will_do = {
+			factor = 40
+		}	
 		available = {
 			OR = {
 				has_war_with = CHI
@@ -74,7 +83,9 @@ focus_tree = {
 		cost = 10.00
 		x = 25
 		y = 0
-		
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = no
 
 		complete_tooltip = {
@@ -91,6 +102,9 @@ focus_tree = {
 		cost = 10.00
 		x = 31
 		y = 0
+		ai_will_do = {
+			factor = 40
+		}	
 		complete_tooltip = {
 			navy_experience = 25
 			random_state = {
@@ -161,6 +175,9 @@ focus_tree = {
 		cost = 10.00
 		x = 37
 		y = 0
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -184,8 +201,8 @@ focus_tree = {
 			focus = HDA_elect_socialists
 		}
 		ai_will_do = {
-			factor = 20
-		}
+			factor = 40
+		}	
 		x = 2
 		y = 1
 		completion_reward = {
@@ -204,6 +221,9 @@ focus_tree = {
 		}
 		x = 0
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -234,8 +254,8 @@ focus_tree = {
 		x = 0
 		y = 3
 		ai_will_do = {
-			factor = 1
-		}
+			factor = 40
+		}	
 
 		available = {
 
@@ -301,6 +321,9 @@ focus_tree = {
 		}
 		x = 0
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}	
 		available = {
 			has_tech = synth_oil_experiments
 		}
@@ -360,6 +383,9 @@ focus_tree = {
 		}
 		x = 0
 		y = 5
+		ai_will_do = {
+			factor = 40
+		}	
 		completion_reward = {
 			add_ideas = HDA_wartime_industry_idea
 		}
@@ -376,6 +402,9 @@ focus_tree = {
 		}
 		x = 4
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		completion_reward = {
 			JAP = {
 				add_opinion_modifier = { target = HDA modifier = democratic_leanings_good }
@@ -391,6 +420,9 @@ focus_tree = {
 		}
 		x = 4
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}	
 		available = {
 			OR = {
 				385 = {
@@ -473,6 +505,9 @@ focus_tree = {
 		}
 		x = 4
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}	
 		completion_reward = {
 			add_ideas = {
 				HDA_market_socialism_idea
@@ -489,6 +524,9 @@ focus_tree = {
 		}
 		x = 4
 		y = 5
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -508,8 +546,8 @@ focus_tree = {
 			focus = HDA_elect_liberals
 		}
 		ai_will_do = {
-			factor = 5
-		}
+			factor = 40
+		}	
 		x = 8
 		y = 1
 		completion_reward = {
@@ -528,6 +566,9 @@ focus_tree = {
 		}
 		x = 6
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		completion_reward = {
 			BYZ = {
 				add_opinion_modifier = { target = HDA modifier = communists_in_government }
@@ -544,7 +585,9 @@ focus_tree = {
 		}
 		x = 6
 		y = 3
-		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 40
+		}	
 
 		available_if_capitulated = no
 
@@ -591,6 +634,9 @@ focus_tree = {
 		}
 		x = 6
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}	
 		completion_reward = {
 			add_popularity = {
 				popularity = 0.35
@@ -608,6 +654,9 @@ focus_tree = {
 		}
 		x = 6
 		y = 5
+		ai_will_do = {
+			factor = 40
+		}		
 		completion_reward = {
 			add_research_slot = 1
 			remove_ideas = HDA_nahua_tensions
@@ -625,6 +674,9 @@ focus_tree = {
 		}
 		x = 10
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		completion_reward = {
 			MRT = {
 				add_opinion_modifier = { target = HDA modifier = communists_in_government }
@@ -640,6 +692,9 @@ focus_tree = {
 		}
 		x = 9
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}	
 		completion_reward = {
 			army_experience = 10
 			if = {
@@ -757,6 +812,9 @@ focus_tree = {
 		}
 		x = 11
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}	
 		completion_reward = {
 			add_ideas = HDA_state_commissariat_idea
 		}
@@ -773,6 +831,9 @@ focus_tree = {
 		}
 		x = 10
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}	
 		completion_reward = {
 			add_popularity = {
 				popularity = 0.50
@@ -791,6 +852,9 @@ focus_tree = {
 		}
 		x = 10
 		y = 5
+		ai_will_do = {
+			factor = 40
+		}	
 		available = {
 			is_puppet = no
 			NOT = { is_in_faction_with = AYI }
@@ -822,8 +886,8 @@ focus_tree = {
 		x = 14
 		y = 1
 		ai_will_do = {
-			factor = 1
-		}
+			factor = 40
+		}	
 		completion_reward = {
 			JAP = {
 					add_opinion_modifier = { target = HDA modifier = democratic_leanings_good }
@@ -839,6 +903,9 @@ focus_tree = {
 		}
 		x = 13
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		available = {
 			country_exists = SHS
 		}
@@ -868,6 +935,9 @@ focus_tree = {
 		}
 		x = 13
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}	
 		available = {
 			country_exists = IRO
 		}
@@ -897,6 +967,9 @@ focus_tree = {
 		}
 		x = 14
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}	
 		available = {
 			country_exists = CHI
 			is_puppet = no
@@ -915,9 +988,6 @@ focus_tree = {
 			NOT = { 726 = { is_controlled_by = ENG } } 
 			NOT = { 636 = { is_controlled_by = ENG } } 
 			CHI = { exists = no }
-		}
-		ai_will_do = {
-			factor = 1
 		}
 		completion_reward = {
 			JAP = {
@@ -951,8 +1021,8 @@ focus_tree = {
 		x = 16
 		y = 1
 		ai_will_do = {
-			factor = 1
-		}
+			factor = 40
+		}	
 		completion_reward = {
 			JAP = {
 					add_opinion_modifier = { target = HDA modifier = democratic_leanings_bad }
@@ -968,6 +1038,9 @@ focus_tree = {
 		}
 		x = 17
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		available = {
 			NOT = { is_in_faction_with = JAP }
 		}
@@ -987,6 +1060,9 @@ focus_tree = {
 		}
 		x = 17
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}	
 		available = {
 			country_exists = SHS
 		}
@@ -1031,6 +1107,9 @@ focus_tree = {
 		}
 		x = 16
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}	
 		available = {
 			is_puppet = no
 			NOT = { is_in_faction_with = MEX }
@@ -1058,6 +1137,9 @@ focus_tree = {
 		}
 		x = 20
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 		
 		completion_reward = {
@@ -1073,6 +1155,9 @@ focus_tree = {
 		}
 		x = 19
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		available = {
 
 		}
@@ -1166,6 +1251,9 @@ focus_tree = {
 		}
 		x = 21
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
@@ -1187,6 +1275,9 @@ focus_tree = {
 		}
 		x = 20
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1202,21 +1293,20 @@ focus_tree = {
 		}
 		x = 20
 		y = 4
+		ai_will_do = {
+			factor = 40
+			modifier = {
+				factor = 2
+				any_claim = yes
+				has_war = yes
+			}
+		}
 		available = {
 			OR = {
 				date > 1939.1.1
 				has_war = yes
 			}
 		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 1000
-				any_claim = yes
-				has_war = yes
-			}
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1243,6 +1333,9 @@ focus_tree = {
 		}
 		x = 23
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 		
 		completion_reward = {
@@ -1258,6 +1351,9 @@ focus_tree = {
 		}
 		x = 25
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}	
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1333,6 +1429,9 @@ focus_tree = {
 		}
 		x = 23
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		completion_reward = {
 			army_experience = 10
 			add_tech_bonus = {
@@ -1355,6 +1454,9 @@ focus_tree = {
 		}
 		x = 25
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		available = {
 			controls_state = 463
 			controls_state = 471
@@ -1403,6 +1505,9 @@ focus_tree = {
 		}
 		x = 25
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}	
 		available = {
 			OR = {
 				any_other_country = {
@@ -1505,6 +1610,9 @@ focus_tree = {
 		}
 		x = 25
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}	
 		available = {
 
 		}
@@ -1566,6 +1674,9 @@ focus_tree = {
 		}
 		x = 25
 		y = 5
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1581,6 +1692,9 @@ focus_tree = {
 		}
 		x = 27
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = no
 
 		complete_tooltip = {
@@ -1600,6 +1714,9 @@ focus_tree = {
 		}
 		x = 27
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 
 	}
 	focus = {
@@ -1614,6 +1731,9 @@ focus_tree = {
 		}
 		x = 30
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1634,6 +1754,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1657,7 +1780,9 @@ focus_tree = {
 		}
 		x = 32
 		y = 1
-
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1679,7 +1804,10 @@ focus_tree = {
 		}
 		x = 31
 		y = 2
-		available_if_capitulated = no
+		ai_will_do = {
+			factor = 40
+		}	
+		available_if_capitulated = yes
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -1700,6 +1828,9 @@ focus_tree = {
 		}
 		x = 33
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1722,6 +1853,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1745,7 +1879,10 @@ focus_tree = {
 		}
 		x = 29
 		y = 3
-
+		ai_will_do = {
+			factor = 40
+		}	
+		available_if_capitulated = yes
 		complete_tooltip = {
 
 		}
@@ -1766,6 +1903,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1781,6 +1921,9 @@ focus_tree = {
 		}
 		x = 33
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}	
 		completion_reward = {
 			air_experience = 50
 			add_tech_bonus = {
@@ -1800,7 +1943,10 @@ focus_tree = {
 		}
 		x = 29
 		y = 4
-
+		ai_will_do = {
+			factor = 40
+		}	
+		available_if_capitulated = no
 		complete_tooltip = {
 			navy_experience = 25
 			every_state = {
@@ -1862,7 +2008,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 5
-
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		complete_tooltip = {
@@ -1946,6 +2094,9 @@ focus_tree = {
 		}
 		x = 36
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}	
 		complete_tooltip = {
 			air_experience = 25
 			every_state = {
@@ -2043,6 +2194,9 @@ focus_tree = {
 		}
 		x = 38
 		y = 1
+		ai_will_do = {
+			factor = 40
+		}	
 		complete_tooltip = {
 
 		}
@@ -2066,6 +2220,9 @@ focus_tree = {
 		}
 		x = 35
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		completion_reward = {
 			add_tech_bonus = {
 				name = HDA_ground_support_doctrine
@@ -2085,6 +2242,9 @@ focus_tree = {
 		}
 		x = 35
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = { 
@@ -2118,6 +2278,9 @@ focus_tree = {
 		}
 		x = 37
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		completion_reward = {
 			add_tech_bonus = {
 				name = HDA_fighter_doctrine
@@ -2137,6 +2300,9 @@ focus_tree = {
 		}
 		x = 37
 		y = 3
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -2159,6 +2325,9 @@ focus_tree = {
 		}
 		x = 36
 		y = 4
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -2185,6 +2354,9 @@ focus_tree = {
 		}
 		x = 24
 		y = 6
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -2211,6 +2383,9 @@ focus_tree = {
 		}
 		x = 26
 		y = 6
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -2237,6 +2412,9 @@ focus_tree = {
 		}
 		x = 39
 		y = 2
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -2267,6 +2445,9 @@ focus_tree = {
 		}
 		x = 36
 		y = 5
+		ai_will_do = {
+			factor = 40
+		}	
 		available_if_capitulated = yes
 
 		completion_reward = {
