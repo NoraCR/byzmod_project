@@ -159,6 +159,52 @@ country_event = {
 		}
 	}
 }
+
+#elections resume?
+country_event = {
+	id = zhongnan.998
+	title = zhongnan.998.t
+	desc = zhongnan.998.desc
+	picture = GFX_report_event_german_speech
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SIA
+		SIA = {
+			OR = {
+				has_government = democratic
+				has_government = communism
+			}
+		}
+	}
+	option = { #Yes
+		name = zhongnan.998.a
+		ai_chance = {
+			base = 75
+		}
+		if = { limit = {
+			tag = SIA
+			has_government = democratic
+			}
+			set_politics = { ruling_party = democratic elections_allowed = yes }
+		}
+		if = { limit = {
+			tag = SIA
+			has_government = communism
+			}
+			set_politics = { ruling_party = communism elections_allowed = yes }
+		}
+	}
+	option = { #No
+		name = zhongnan.998.b
+		ai_chance = {
+			base = 25
+		}
+	}
+	
+}
+
 #rename city
 country_event = {
 	id = zhongnan.999
@@ -189,7 +235,7 @@ country_event = {
 		set_province_name = { id = 1330 name = "Yangon" }
 		set_province_name = { id = 1403 name = "Moulmein" }
 		set_province_name = { id = 1464 name = "Vientiane" }
-		set_province_name = { id = 1488 name = "Chiang Mai"} #fuck you nazis
+		set_province_name = { id = 1488 name = "Chiang Mai"} 
 		set_province_name = { id = 4075 name = "Hanoi" }
 		set_province_name = { id = 4302 name = "Siem Reap" }
 		set_province_name = { id = 4379 name = "Hue" }
