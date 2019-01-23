@@ -2830,7 +2830,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 40
 		}
+		available_if_capitulated = yes
 
+		completion_reward = {
+			BYZ = {
+				add_opinion_modifier = { target = CHI modifier = CHI_anticommunism }
+			}
+		}
 	}
 	focus = {
 		id = CHI_cut_down_byzantium
@@ -2893,7 +2899,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 40
 		}
-
+		completion_reward = {
+			FRA = {
+				add_opinion_modifier = { target = CHI modifier = CHI_antifascism }
+			}
+		}
 	}
 	focus = {
 		id = CHI_asitelahan_line

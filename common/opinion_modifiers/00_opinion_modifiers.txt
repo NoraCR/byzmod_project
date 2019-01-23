@@ -751,5 +751,12 @@ opinion_modifiers = {
 	som_friendship_no = {
 		value = -20
 	}
+	
+	CHI_anticommunism = {
+		value = -50
+	}
+	CHI_antifascism = {
+		value = -50
+	}
 
 }	

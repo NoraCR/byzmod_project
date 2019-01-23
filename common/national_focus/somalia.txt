@@ -594,6 +594,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 40
 		}
+		completion_reward = {
+			add_timed_idea = { idea = democratic_drift days = 365 }
+		}
 
 	}
 	focus = {
@@ -625,7 +628,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		add_political_power = 120
+			add_political_power = 120
+			add_ideas = { SOM_treaty_of_addis_ababa_idea }
 		}
 
 	}

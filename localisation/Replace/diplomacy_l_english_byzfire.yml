@@ -689,6 +689,8 @@
  FRA_scw_intervention_nationalists_SPR:0 "Nationalist Intervention"
  FRA_scw_intervention_republicans_SPA:0 "Republican Intervention"
  FRA_scw_intervention_republicans_SPR:0 "Republican Intervention"
+ CHI_anticommunism:0 "Chinese Anti-Communism"
+ CHI_antifascism:0 "Chinese Anti-Fascism"
  monroe_doctrine_trade:0 "Monroe Doctrine"
  balkan_strategy_good:0 "Balkan Strategy"
  balkan_strategy_bad:0 "Balkan Strategy"
