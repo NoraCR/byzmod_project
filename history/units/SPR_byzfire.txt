@@ -172,7 +172,7 @@ units = {
 		location = 11805 # Lisbon
 		ship = { name = "ARE Lisbon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Porto" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-		# Podmornica Divizija
+		# Submarine Division
 		ship = { name = "ARE Argonauta" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }				
 		ship = { name = "ARE Achille" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }				
 		ship = { name = "ARE Neptuno" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }				
