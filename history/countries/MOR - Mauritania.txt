@@ -107,7 +107,7 @@ set_politics = {
 create_country_leader = {
 	name = "Leila Ben Barka" #female
 	desc = ""
-	picture = "gfx/leaders/LBA/Portrait_Arabia_Generic_democratic1.dds"
+	picture = "gfx/leaders/MOR/mor_dem.tga"
 	ideology = liberalism
 	traits = {
 		#
