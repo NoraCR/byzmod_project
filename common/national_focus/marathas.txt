@@ -1636,8 +1636,58 @@ focus_tree = {
 		y = 4
 		ai_will_do = {
 			factor = 40
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
 		}
-
+		will_lead_to_war_with = CHI
+		bypass = {
+			OR = {
+				has_war_with = CHI
+				is_in_faction_with = CHI
+				NOT = {
+					441 = {
+						controller = {
+							original_tag = CHI 
+						}
+						owner = {
+							original_tag = CHI 
+						}
+					}
+				}
+			}
+		}
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_named_threat = { threat = 5 name = MRT_demand_kashmir }
+			if = {
+				limit = {
+					441 = {
+						controller = {
+							tag = POL
+							has_civil_war = no
+						}
+					}
+				}
+				effect_tooltip = {
+					transfer_state = 441
+					add_state_core = 441
+					remove_state_claim = 442
+					remove_state_claim = 267
+					remove_state_claim = 415
+					remove_state_claim = 323
+				}
+				CHI = {
+					country_event = { id = marathas.10 }
+					if = {
+						limit = { NOT = { is_in_faction_with = ROOT } }
+						custom_effect_tooltip = needs_approval
+					}
+				}
+			}
+		}
 	}
 	focus = {
 		id = MRT_against_liberalism

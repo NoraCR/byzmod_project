@@ -226,6 +226,137 @@ country_event = {
 		}
 	}
 }
+# Demand Kashmir
+country_event = {
+	id = marathas.10
+	title = marathas.10.t
+	desc = marathas.10.desc
+	picture = GFX_report_event_japan_army_mountainside
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_war_with = MRT }
+	}
+	option = {
+		name = marathas.10.a
+		ai_chance = {
+			factor = 20
+		}
+		MRT = { country_event = { id = marathas.11 days = 1 } }
+		effect_tooltip = {
+			MRT = {
+				transfer_state = 441
+				add_state_core = 441
+				remove_state_claim = 442
+				remove_state_claim = 267
+				remove_state_claim = 415
+				remove_state_claim = 323
+			}
+		}
+		country_event = { id = china.10 days = 7 }
+		hidden_effect = {
+			news_event = { id = news.203 hours = 6 }
+		}
+	}
+	option = {
+		name = marathas.10.b
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 3
+				strength_ratio = {
+					tag = MRT
+					ratio > 0.7
+				}
+			}
+			modifier = {
+				factor = 0.1
+				any_other_country = {
+					is_major = yes
+					is_in_faction_with = POL
+				}
+			}
+		}
+		MRT = { country_event = { id = marathas.12 days = 1 } 		
+		}		
+		hidden_effect = {
+			news_event = { hours = 1 id = news.204 }
+		}
+		effect_tooltip = {
+			MRT = {
+				declare_war_on = {
+					target = CHI
+					type = take_state
+					generator = { 441 }
+				}
+			}
+		}
+	}
+}
+# Ming Cedes Kashmir
+country_event = {
+	id = marathas.11
+	title = marathas.11.t
+	desc = marathas.11.d
+	picture = GFX_report_event_japan_army_mountainside
+
+	is_triggered_only = yes
+	
+	option = {
+		name = marathas.11.a
+		transfer_state = 441
+		add_state_core = 441
+		remove_state_claim = 442
+		remove_state_claim = 267
+		remove_state_claim = 415
+		remove_state_claim = 323
+		if = {
+			limit = {
+				BYZ = {
+					NOT = {
+						is_in_faction_with = MRT
+					}
+				}
+			}
+			BYZ = {
+				add_war_support = -0.05 #dodged a bullet there
+			}
+		}
+	}
+}
+
+# Ming Refuses to Cede Kashmir (Danzig or War)
+country_event = {
+	id = marathas.12
+	title = marathas.12.t
+	desc = marathas.12.desc
+	picture = GFX_report_event_japan_army_mountainside
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.88.a
+		create_wargoal = {
+			type = take_state
+			generator = { 441 }
+			target = CHI
+		}
+		add_state_core = 441
+		if = {
+			limit = {
+				BYZ = {
+					NOT = {
+						is_in_faction_with = CHI
+					}
+				}
+			}
+			BYZ = {
+				add_war_support = 0.1 #well fuck i guess were doing this
+			}
+		}
+	}
+}
 # Cult of Personality
 country_event = {
 	id = marathas.101

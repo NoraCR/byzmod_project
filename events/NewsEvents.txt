@@ -7910,11 +7910,11 @@ news_event = {
 	}
 }
 
-#Danzig Ceded
+#Kashmir Ceded
 news_event = {
 	id = news.203
 	title = news.203.t
-	desc = news.203.d
+	desc = news.203.desc
 	picture = GFX_news_events_generic_sign_treaty2
 
 	major = yes
@@ -7928,7 +7928,7 @@ news_event = {
 		trigger = {
 			has_government = democratic
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = MRT
 			}
 		}
 	}
@@ -7936,7 +7936,7 @@ news_event = {
 	option = {
 		name = news.203.b
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = MRT
 		}
 	}
 
@@ -7945,7 +7945,7 @@ news_event = {
 		trigger = {
 			has_government = neutrality
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = MRT
 			}
 		}
 	}
@@ -7955,14 +7955,14 @@ news_event = {
 		trigger = {
 			has_government = communism
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = MRT
 			}
 		}
 	}
 }
 
 
-#Poland Refuses to Cede Danzig
+#Ming Refuses to Cede Kashmir
 news_event = {
 	id = news.204
 	title = news.204.t
@@ -7981,10 +7981,10 @@ news_event = {
 		trigger = {
 			is_in_faction = yes
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = CHI
 			}
 			NOT = {
-				is_in_faction_with = POL
+				is_in_faction_with = MRT
 			}
 		}
 	}
@@ -7993,7 +7993,7 @@ news_event = {
 	option = {
 		name = news.204.b
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = MRT
 		}
 	}
 
@@ -8001,7 +8001,7 @@ news_event = {
 	option = {
 		name = news.204.c
 		trigger = {
-			is_in_faction_with = POL
+			is_in_faction_with = CHI
 		}
 	}
 
