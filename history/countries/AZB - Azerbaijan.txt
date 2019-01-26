@@ -126,7 +126,7 @@ create_country_leader = {
 }
 create_corps_commander = {
 	name = "Solmaz Asimanlü" #female
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	portrait_path = "gfx/generic/generic_mideast_f3.png"
 	traits = { desert_fox }
 	skill = 3
 	attack_skill = 2

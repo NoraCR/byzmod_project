@@ -106,7 +106,7 @@ set_stability = 0.9
 
 create_corps_commander = {
 	name = "Peter McKinnon"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_m2.png"
 	traits = {  }
 	skill = 4
 	attack_skill = 2
@@ -117,7 +117,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Joan K. Anderson"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_f2.png"
 	traits = { }
 	skill = 4
     attack_skill = 4
@@ -128,7 +128,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Maxime Heenan"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_m3.png"
 	traits = { }
 	skill = 3
     attack_skill = 1
@@ -139,14 +139,14 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Gertrude B. Cayley"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_europe_f1.png"
 	traits = { }
 	skill = 4
 }
 
 create_navy_leader = {
 	name = "Wilson McLaren"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_europe_m1.png"
 	traits = { spotter }
 	skill = 4
 }

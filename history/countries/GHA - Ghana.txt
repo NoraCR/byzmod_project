@@ -134,7 +134,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Ioannes Oluwaremilekun"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+	picture = "gfx/leaders/generic/generic_africa_m1.png"
 	traits = { offensive_doctrine defensive_doctrine }
 	skill = 5
 	attack_skill = 5
@@ -144,7 +144,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Kwasí Omenaa"
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	portrait_path = "gfx/leaders/generic/generic_africa_m2.png"
 	traits = { career_officer infantry_officer }
 	skill = 3
 	attack_skill = 3
@@ -154,7 +154,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Amacheah Ozoemena" #female
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_africa_f3.png"
 	traits = { desert_fox }
 	skill = 4
 	attack_skill = 4
@@ -164,13 +164,13 @@ create_corps_commander = {
 }
 create_navy_leader = {
 	name = "Ajwoba Owoahene" #female
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_africa_f1.png"
 	traits = { superior_tactician }
 	skill = 4
 }
 create_navy_leader = {
 	name = "Kaku Soadwa"
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_africa_m3.png"
 	traits = { spotter }
 	skill = 3
 }

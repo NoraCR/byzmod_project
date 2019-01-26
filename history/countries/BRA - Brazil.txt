@@ -133,7 +133,7 @@ set_convoys = 40
 
 create_corps_commander = {
 	name = "Nuadu O Tanaidheain" #Irish
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_m3.png"
 	traits = { ranger  }
 	skill = 3
 	attack_skill = 2
@@ -144,7 +144,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Moacir Moema"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+	portrait_path = "gfx/leaders/generic/generic_avalon_m1.png"
 	traits = {  jungle_rat }
 	skill = 4
 	attack_skill = 2
@@ -155,7 +155,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Caique Ubirajara"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_avalon_m3.png"
 	traits = {  }
 	skill = 3
 }

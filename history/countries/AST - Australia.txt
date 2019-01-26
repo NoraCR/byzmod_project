@@ -120,7 +120,7 @@ set_convoys = 100
 
 create_corps_commander = {
 	name = "Jowallie" #male, aboriginal
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_africa_m2.png"
 	traits = { }
 	skill = 3
 	attack_skill = 4
@@ -131,7 +131,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Wanering" #male, aboriginal
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_africa_m3.png"
 	traits = { }
 	skill = 2
 	attack_skill = 2

@@ -114,7 +114,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Otto Karl zu Pfannhofen und Wissenau"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_m3.png"
 	traits = { trait_mountaineer trickster }
 	skill = 3
 	attack_skill = 4

@@ -103,7 +103,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Augustus Ebron von Wildenburg"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_m1.png"
 	traits = { trait_mountaineer trickster }
 	skill = 2
 	attack_skill = 1
@@ -113,7 +113,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Apollonia Perghauser zu Weichs" #female
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_f3.png"
 	traits = {  }
 	skill = 1
 	attack_skill = 1

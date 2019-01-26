@@ -168,7 +168,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Annalies den Ouden" #female
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_f2.png"
 	traits = { armor_officer fortress_buster }
 	skill = 4
 	attack_skill = 3
@@ -179,7 +179,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Jan-Hendrik van Mulder"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_europe_m2.png"
 	traits = { blockade_runner superior_tactician }
 	skill = 4
 }

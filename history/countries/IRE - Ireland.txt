@@ -131,7 +131,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Eoin Aiken"
-	portrait_path = "gfx/leaders/IRE/ire_eoin_aiken.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_m2.png"
 	traits = { defensive_doctrine }
 	skill = 4
 	attack_skill = 2
@@ -141,7 +141,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Deirdre O'Mahony" #female
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_f1.png"
 	traits = { fortress_buster }
 	skill = 4
 	attack_skill = 4
@@ -152,7 +152,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Eamonn McGovern"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_europe_m1.png"
 	traits = { blockade_runner superior_tactician }
 	skill = 4
 }
