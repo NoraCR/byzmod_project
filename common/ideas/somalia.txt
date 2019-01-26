@@ -315,7 +315,6 @@ ideas = {
 			}
 		}
 	}
-	}
 	
 	political_advisor = {
 

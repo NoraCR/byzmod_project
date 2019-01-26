@@ -595,7 +595,7 @@ focus_tree = {
 			factor = 40
 		}
 		completion_reward = {
-			add_timed_idea = { idea = democratic_drift days = 365 }
+			add_timed_idea = { idea = democratic_influence days = 365 }
 		}
 
 	}

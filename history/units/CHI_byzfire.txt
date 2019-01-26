@@ -655,8 +655,31 @@ units = {
 		start_experience_factor = 0.2
 		
 	}
+	division = {
+		name = "Di 452 Bubing Shi"
+		location = 7374
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Di 453 Bubing Shi"
+		location = 7374
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
 	division= {			
 		name = "Di 497 'Xianggeli-La' Dishan Pai"		
+		location = 4987
+		division_template = "Dishan Pai"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+		start_experience_factor = 0.3
+		
+
+	}
+	division= {			
+		name = "Di 498 Dishan Pai"		
 		location = 4987
 		division_template = "Dishan Pai"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
@@ -1061,6 +1084,13 @@ units = {
 
 			}
 		}
+		ship = { name = "CNS Chang Yuchun" definition = carrier equipment = { carrier_1 = {amount = 1 owner = CHI } } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "CHI" amount = 25 } 
+				cv_nav_bomber_equipment_1 = { owner = "CHI" amount = 20 } 	
+
+			}
+		}
 		ship = { name = "CNS Nanchen" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
 		ship = { name = "CNS Nanrui" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
 		ship = { name = "CNS Hairong" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
@@ -1141,6 +1171,7 @@ units = {
 		base = 12299
 		location = 12299 # Singapore
 		ship = { name = "CNS Nanzheng" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
+		ship = { name = "CNS Beishu" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Xingzhou" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Dongguan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CHI } } }
 		ship = { name = "CNS Jieshen" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHI } } }
@@ -1156,7 +1187,7 @@ units = {
 		ship = { name = "CNS Changbai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }	
 		ship = { name = "CNS Yimen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }	
 		ship = { name = "CNS Tianzhu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }	
-		ship = { name = "CNS Daqing" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }	
+		ship = { name = "CNS Daqing" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI } } }		
 	}
 	navy = {				
 		name = "Di 2 Qianting Jiandui"			
