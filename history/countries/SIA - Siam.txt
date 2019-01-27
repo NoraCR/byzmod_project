@@ -112,7 +112,7 @@ set_war_support = 0.50
 }
 create_field_marshal = {
 	name = "Chen Hai" #Chinese male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_asia_m2.png"
 	traits = { defensive_doctrine }
 	skill = 4
 	attack_skill = 2
@@ -123,17 +123,18 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Daw Mon Thuzar" #Burmese female
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	portrait_path = "gfx/leaders/generic/generic_asia_f3.png"
 	traits = { harsh_leader infantry_officer }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 4
+	female = yes
 }
 create_corps_commander = {
 	name = "U Yarzar Zaw" #Burmese male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	portrait_path = "gfx/leaders/generic/generic_asia_m3.png"
 	traits = { jungle_rat }
 	skill = 2
 	attack_skill = 1
@@ -143,7 +144,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Aek Chakara" #Khmer male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	portrait_path = "gfx/leaders/generic/generic_asia_m1.png"
 	traits = { career_officer substance_abuser }
 	skill = 1
 	attack_skill = 1
@@ -154,7 +155,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Saravan Southavilay" #Lao male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	portrait_path = "gfx/leaders/generic/generic_asia_m3.png"
 	traits = { trait_cautious }
 	skill = 2
 	attack_skill = 2
@@ -164,7 +165,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Zhu Wendan" #Chinese male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_asia_m2.png"
 	traits = { hill_fighter }
 	skill = 1
 	attack_skill = 1
@@ -174,7 +175,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Ngu Van Ninh" #Vietnamese male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_asia_m1.png"
 	traits = { }
 	skill = 3
 	attack_skill = 3
@@ -184,17 +185,18 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Gao Yazhu" #Chinese female
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_asia_f1.png"
 	traits = { }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 4
+	female = yes
 }
 create_corps_commander = {
 	name = "Daus Ntxaij Vwj" #Hmong male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	portrait_path = "gfx/leaders/generic/generic_asia_m3.png"
 	traits = { hill_fighter }
 	skill = 1
 	attack_skill = 1
@@ -204,7 +206,7 @@ create_corps_commander = {
 }
 create_navy_leader = {
 	name = "Pai Hualong" #Chinese male
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_asia_m1.png"
 	traits = { superior_tactician spotter }
 	skill = 4
 }	

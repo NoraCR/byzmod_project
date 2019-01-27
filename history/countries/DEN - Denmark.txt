@@ -138,4 +138,5 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/generic/adm_generic_europe_f3.png"
 	traits = { blockade_runner superior_tactician }
 	skill = 2
+	female = yes
 }

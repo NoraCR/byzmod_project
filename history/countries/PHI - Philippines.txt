@@ -171,35 +171,38 @@ create_country_leader = {
 }
 create_corps_commander = {
 	name = "Megawati" #Javanese, female
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_asia_f3.png"
 	traits = { infantry_officer }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 3
+	female = yes
 }
 
 create_corps_commander = {
 	name = "Ade Utari Sasmita"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	portrait_path = "gfx/leaders/generic/generic_asia_f2.png"
 	traits = { desert_fox trait_reckless }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 3
+	female = yes
 }
 
 create_navy_leader = {
 	name = "Susilo Iman Kusnadi"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_asia_m1.png"
 	traits = { superior_tactician }
 	skill = 3
 }
 create_navy_leader = {
 	name = "Tjahjana Wencheng"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_asia_f1.png"
 	traits = { }
 	skill = 2
+	female = yes
 }

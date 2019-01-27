@@ -170,7 +170,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Artur Ramiro Sá"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_m2.png"
 	traits = {  }
 	skill = 2
 	attack_skill = 2

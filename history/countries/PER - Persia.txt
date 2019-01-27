@@ -128,7 +128,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Ardeshir Behramvarzavand"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	portrait_path = "gfx/leaders/generic/generic_mideast_m1.png"
 	traits = { infantry_officer desert_fox }
 	skill = 3
 	attack_skill = 3

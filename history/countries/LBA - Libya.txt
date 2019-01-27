@@ -95,8 +95,9 @@ create_country_leader = {
 }
 create_corps_commander = {
 	name = "Mimouna Jaffer" #female
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	portrait_path = "gfx/leaders/generics/generic_mideast_f1.png"
 	traits = { desert_fox }
 	skill = 3
+	female = yes
 
 }

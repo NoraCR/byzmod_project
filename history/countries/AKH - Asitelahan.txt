@@ -134,6 +134,7 @@ create_field_marshal = {
     defense_skill = 3
     planning_skill = 3
     logistics_skill = 2
+    female = yes
 }
 
 create_field_marshal = {

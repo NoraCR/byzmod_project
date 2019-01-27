@@ -162,7 +162,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Ibrahim Seljuk"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	portrait_path = "gfx/leaders/generic/generic_mideast_m3.png"
 	traits = { defensive_doctrine logistics_wizard }
 	skill = 4
 	attack_skill = 4
@@ -172,7 +172,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Zahir Al-Muhaya"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_mideast_m2.png"
 	traits = { desert_fox trait_engineer panzer_leader }
 	skill = 5
 	attack_skill = 5
@@ -183,7 +183,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Muhammad Bahajri"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_mideast_m1.png"
 	traits = { }
 	skill = 4
 }

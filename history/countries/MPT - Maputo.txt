@@ -104,7 +104,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Anastasios Sibakabaka"
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_africa_m3.png"
 	traits = {  }
 	skill = 2
 	attack_skill = 2
@@ -114,7 +114,8 @@ create_corps_commander = {
 }
 create_navy_leader = {
 	name = "Melinda Nomandla"
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_africa_f2.png"
 	traits = { spotter }
 	skill = 3
+	female = yes
 }

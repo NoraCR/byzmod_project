@@ -108,7 +108,7 @@ set_convoys = 70
 
 create_corps_commander = {
 	name = "Uru Reio Munu" #male
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	portrait_path = "gfx/leaders/generic/generic_avalon_m1.png"
 	traits = {  }
 	skill = 2
 	attack_skill = 2
@@ -119,9 +119,10 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Uru Tarangi Taimana" #female
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_asia_f2.png"
 	traits = { }
 	skill = 3
+	female = yes
 }
 
 ### Ship Variants ###
