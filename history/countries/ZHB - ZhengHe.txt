@@ -108,7 +108,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Juan-Bautista Emmanuel Villosillo-Zhang"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_9.dds"
+	portrait_path = "gfx/leaders/generic/generic_mideast_m3.png"
 	traits = { trait_mountaineer infantry_officer }
 	skill = 4
 	attack_skill = 3

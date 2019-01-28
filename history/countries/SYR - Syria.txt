@@ -102,7 +102,7 @@ create_country_leader = {
 }
 create_field_marshal = {
 	name = "Cenk Kashani" #Turkish
-	portrait_path = "gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_mideast_m3.png"
 	traits = { logistics_wizard  }
 	skill = 2
 }

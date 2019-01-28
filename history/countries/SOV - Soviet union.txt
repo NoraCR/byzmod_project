@@ -125,7 +125,7 @@ add_namespace = {
 create_field_marshal = {
 	name = "Yeremey Kalyagin"
 	id = 405
-		picture = "Portrait_Soviet_Kliment_Voroshilov.dds"
+		portrait_path = "gfx/leaders/generic/generic_europe_m2.png"
 	traits = { old_guard infantry_officer }
 	skill = 1
 	attack_skill = 1
@@ -136,7 +136,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Konstantin Mukhomorov"
-		picture = "Portrait_Soviet_Semyon_Budyonny.dds"
+		portrait_path = "gfx/leaders/generic/generic_europe_m1.png"
 	traits = { old_guard politically_connected }
 	skill = 1
 	attack_skill = 1
@@ -147,18 +147,19 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Vasilissa Perestoronina"
-		picture = "Portrait_Soviet_Ivan_Chernyakhovsky.dds"
+		portrait_path = "gfx/leaders/generic/generic_europe_f1.png"
 	traits = {  }
 	skill = 1 
 	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 1
+	female = yes
 }
 
 create_corps_commander = {
 	name = "Valentin Krayevsky"
-		picture = "Portrait_Soviet_Issa_Pliyev.dds"
+		portrait_path = "gfx/leaders/generic/generic_europe_m3.png"
 	traits = {  }
 	skill = 1
 	attack_skill = 2
@@ -169,18 +170,19 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Karina Derzhavina"
-		picture = "Portrait_Soviet_Leonid_Govorov.dds"
+		portrait_path = "gfx/leaders/generic/generic_europe_f2.png"
 	traits = { infantry_officer }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
+	female = yes
 }
 
 create_field_marshal = {
 	name = "Anatoliy Kharlamov"
-		picture = "Portrait_Soviet_Grigory_Kulik.dds"
+		portrait_path = "gfx/leaders/generic/generic_europe_m1.png"
 	traits = { old_guard }
 	skill = 1	
 	attack_skill = 1
@@ -191,7 +193,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Mikhail Ponchikov"
-		picture = "Portrait_Soviet_Filipp_Golikov.dds"
+		portrait_path = "gfx/leaders/generic/generic_europe_m2.png"
 	traits = { politically_connected cavalry_officer }
 	skill = 3
 	attack_skill = 3
@@ -202,17 +204,18 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Daria Shcherbina"
-		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
+		portrait_path = "gfx/leaders/generic/generic_europe_f3.png"
 	traits = { politically_connected }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1 	
+	female = yes
 }
 create_corps_commander = {
 	name = "Arseni Krupin"
-		picture = "Portrait_Soviet_Georgiy_Zakharov.dds"
+		portrait_path = "gfx/leaders/generic/generic_europe_m2.png"
 	traits = {  }
 	skill = 1
 	attack_skill = 1
@@ -223,7 +226,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Panteley Meshcheryakov"
-		picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
+		portrait_path = "gfx/leaders/generic/generic_europe_m3.png"
 	traits = { career_officer }
 	skill = 3
 	attack_skill = 3
@@ -234,7 +237,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Osip Pomelov"
-		picture = "Portrait_Soviet_Max_Andreyevich.dds"
+		portrait_path = "gfx/leaders/generic/generic_europe_m1.png"
 	traits = { inflexible_strategist }
 	skill = 1	
 	attack_skill = 1
@@ -244,27 +247,29 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Yuliya Laskutina"
-		picture = "Portrait_Soviet_Andrey_Vlasov.dds"
+		portrait_path = "gfx/leaders/generic/generic_europe_f2.png"
 	traits = { infantry_officer winter_specialist }
 	skill = 3
 	attack_skill = 4
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1	
+	female = yes
 }
 
 create_navy_leader = {
 	name = "Ekaterina Zubova"
 	id = 409
-		picture = "Portrait_Soviet_Arseniy_Golovko.dds"
+		portrait_path = "gfx/leaders/generic/adm_generic_europe_f3.png"
 	traits = { spotter }
 	skill = 4
+	female = yes
 }
 
 create_navy_leader = {
 	name = "Oleg Galiaskarov"
 	id = 403
-		picture = "Portrait_Soviet_Vladimir_Kasatonov.dds"
+		portrait_path = "gfx/leaders/generic/adm_generic_europe_m2.png"
 	traits = { seawolf }
 	skill = 2
 }

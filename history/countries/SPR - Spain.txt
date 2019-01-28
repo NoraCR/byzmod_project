@@ -192,7 +192,7 @@ create_country_leader = {
 }
 create_field_marshal = {
 	name = "Ezozia Guerricaechevarria" #female
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/Europe/generic_mideast_f3.png"
 	traits = { defensive_doctrine }
 	skill = 2
 	attack_skill = 1

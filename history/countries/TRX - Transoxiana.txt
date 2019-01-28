@@ -118,7 +118,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Yarmat Shah Wali Khan"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	portrait_path = "gfx/leaders/generic/generic_asia_m3.png"
 	traits = { desert_fox }
 	skill = 4
 	attack_skill = 5
