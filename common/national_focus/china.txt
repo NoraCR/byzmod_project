@@ -1534,7 +1534,7 @@ focus_tree = {
 		x = 35
 		y = 1
 		ai_will_do = {
-			factor = 40
+			factor = 60
 		}
 		
 		available_if_capitulated = yes
@@ -2102,7 +2102,7 @@ focus_tree = {
 		x = 37
 		y = 2
 		ai_will_do = {
-			factor = 40
+			factor = 50
 		}
 
 		available = {
@@ -2337,7 +2337,7 @@ focus_tree = {
 			focus = CHI_east_china_sea
 		}
 		ai_will_do = {
-			factor = 40
+			factor = 50
 		}
 		available = {
 			CHI = { controls_state = 717 }
@@ -2384,7 +2384,11 @@ focus_tree = {
 		y = 5
 		available_if_capitulated = no
 		ai_will_do = {
-			factor = 40
+			factor = 90
+			modifier = {
+				factor = 0
+				date < 1938.1.1
+			}
 		}	
 		completion_reward = {
 			create_wargoal = {
