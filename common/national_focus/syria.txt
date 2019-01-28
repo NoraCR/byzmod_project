@@ -1647,6 +1647,7 @@ focus_tree = {
 		completion_reward = {
 			add_opinion_modifier = { target = BYZ modifier = took_stand_for_us }
 			BYZ = { add_opinion_modifier = { target = ROOT modifier = took_stand_for_us } }
+			BYZ = { country_event = generic.2 }
 		}
 
 	}
@@ -1782,6 +1783,7 @@ focus_tree = {
 		completion_reward = {
 			add_opinion_modifier = { target = JAP modifier = democratic_leanings_good }
 			JAP = { add_opinion_modifier = { target = ROOT modifier = democratic_leanings_good } }
+			JAP = { country_event = generic.2 }
 			#Relation Boost With Japan
 		}
 
@@ -1804,6 +1806,7 @@ focus_tree = {
 		completion_reward = {
 			add_opinion_modifier = { target = FRA modifier = fascism_leanings_good }
 			FRA = { add_opinion_modifier = { target = ROOT modifier = fascism_leanings_good } }
+			FRA = { country_event = generic.2 }
 			#Relation Boost With Gaul
 		}
 
@@ -1826,6 +1829,7 @@ focus_tree = {
 		completion_reward = {
 			add_opinion_modifier = { target = CHI modifier = backed_our_cause }
 			CHI = { add_opinion_modifier = { target = ROOT modifier = backed_our_cause } }
+			CHI = { country_event = generic.2 }
 			#Relation Boost With Ming
 		}
 	}

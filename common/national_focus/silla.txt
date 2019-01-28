@@ -2534,6 +2534,7 @@ focus_tree = {
 				modifier = backed_our_cause
 			}
 			give_guarantee = CHI
+			CHI = { country_event = generic.2 }
 		}
 	}
 	focus = {

@@ -91,7 +91,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Alexander MacKendrick"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_m2.png"
 	traits = { old_guard trait_cautious }
 	skill = 3
 	attack_skill = 1
@@ -102,7 +102,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Saint-John Liwanga Mbandakulu"
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	portrait_path = "gfx/leaders/generic/generic_india_m1.png"
 	traits = { trait_cautious }
 	skill = 2
 	attack_skill = 2
@@ -112,7 +112,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Mustapha Obeid"
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_africa_m3.png"
 	traits = { }
 	skill = 2
 	attack_skill = 2
@@ -122,7 +122,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Mary Kolingba" #female
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_africa_m1.png"
 	traits = { politically_connected }
 	skill = 2
 	attack_skill = 1

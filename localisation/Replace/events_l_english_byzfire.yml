@@ -460,7 +460,7 @@
  news.13.e:0 "A pity. It would have kept the Bolsheviks busy."
  news.13.f:0 "Our comrades show their strength!"
  news.14.t:0 "[CHI.GetNameDef] Annexes [TIB.GetNameDef]"
- news.14.d:0 "In a press release earlier today, Ming announced the formal annexation of [TIB.GetNameDef]. \n\nThe Supreme Soviet agreed to a request from the Tibetan monks for membership in the Great Ming. \n\nThe small Tibetan Kingdom, which had only been officially recognized by the Great Ming and Zhongnan, will be organized as a self-governing region."
+ news.14.d:0 "In a press release earlier today, Ming announced the formal annexation of [TIB.GetNameDef]. \n\nThe Imperial household and Council of Ministers agreed to a request from the Tibetan monks for membership in the Great Ming. \n\nThe small Tibetan Kingdom, which had only been officially recognized by the Great Ming and Zhongnan, will be organized as a self-governing region."
  news.14.a:0 "Tib-what?"
  news.14.b:0 "They will be better off."
  news.15.t:0 "Second Vienna Award"

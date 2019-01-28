@@ -2866,10 +2866,6 @@
 			FRA = {
 				exists = yes
 				NOT = { has_government = ROOT }
-				OR = { 
-					has_offensive_war = yes 
-					has_added_tension_amount > 10
-				}
 			}
 			NOT = { has_government = fascism }
 		}
@@ -3228,7 +3224,7 @@
 		}
 	}
 	focus = {
-		id = BYZ_shake_hands_with_the_devil
+		id = BYZ_east_asian_alliances
 		icon = GFX_goal_generic_war_with_comintern
 		cost = 8.00
 		prerequisite = {
@@ -3253,11 +3249,11 @@
 		}
 	}
 	focus = {
-		id = BYZ_invite_marathas
+		id = BYZ_shake_hands_with_the_devil
 		icon = GFX_focus_RAJ_seek_help_from_soviet
 		cost = 8.00
 		prerequisite = {
-			focus = BYZ_shake_hands_with_the_devil
+			focus = BYZ_east_asian_alliances
 		}
 		x = 40
 		y = 3
@@ -3339,7 +3335,7 @@
 		icon = GFX_focus_generic_industry_2
 		cost = 4.00
 		prerequisite = {
-			focus = BYZ_invite_marathas
+			focus = BYZ_shake_hands_with_the_devil
 		}
 		x = 40
 		y = 4
@@ -3395,7 +3391,7 @@
 		icon = GFX_focus_jap_spiritual_mobilization
 		cost = 8.00
 		prerequisite = {
-			focus = BYZ_shake_hands_with_the_devil
+			focus = BYZ_east_asian_alliances
 		}
 		x = 42
 		y = 3
@@ -4032,7 +4028,7 @@
 		cost = 8.00
 		prerequisite = {
 			focus = BYZ_east_asia_pact
-			focus = BYZ_invite_marathas
+			focus = BYZ_shake_hands_with_the_devil
 		}
 		x = 41
 		y = 5

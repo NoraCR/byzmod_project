@@ -90,7 +90,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Bernadette Ibañez-Hu" #female
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_avalon_f2.png"
 	traits = { defensive_doctrine }
 	skill = 3
 	attack_skill = 4
@@ -100,8 +100,8 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Estanislao Panicucci"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	name = "Vicente Guadarrama"
+	portrait_path = "gfx/leaders/generic/generic_avalon_m1.png"
 	traits = { urban_assault_specialist fortress_buster }
 	skill = 3
     attack_skill = 1
@@ -111,8 +111,8 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Atahualpa Moretti"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	name = "Sebastián A. Moretti"
+	portrait_path = "gfx/leaders/generic/adm_generic_europe_m2.png"
 	traits = { blockade_runner }
 	skill = 3
 }

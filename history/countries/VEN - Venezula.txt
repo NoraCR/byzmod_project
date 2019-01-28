@@ -85,8 +85,8 @@ create_country_leader = {
 	}
 }
 create_corps_commander = {
-	name = "Cristóbal Moya-Zhen" 
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	name = "Cristóbal Moya-Ma" 
+	portrait_path = "gfx/leaders/generic/generic_avalon_m3.png"
 	traits = { infantry_officer }
 	skill = 4
 	attack_skill = 4
@@ -97,7 +97,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Muxamad Ali Ceydiid" #Somali
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_africa_m3.png"
 	traits = { blockade_runner }
 	skill = 4
 }
