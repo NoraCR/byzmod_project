@@ -82,6 +82,24 @@ ideas = {
 				can_create_factions = yes
 			}
 		}
+		BYZ_sicilian_reparations = {
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = idea_generic_agrarian_society
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
 		BYZ_rocketry_idea = {
 			removal_cost = -1
 			allowed = {

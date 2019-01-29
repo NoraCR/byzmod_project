@@ -686,6 +686,68 @@ country_event = {
 	}
 }
 
+# Reparations
+country_event = {
+	id = byz.981
+	title = byz.981.t
+	desc = byz.981.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = byz.981.a
+		add_timed_idea = { idea = BYZ_sicilian_reparations days = 365 }
+		
+	}
+}
+
+
+# Referenda
+country_event = {
+	id = byz.982
+	title = byz.982.t
+	desc = byz.982.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = byz_sicily_referendum
+	}
+	
+	option = {
+		name = byz.982.a
+	}
+}
+
+# Stanotas
+country_event = {
+	id = byz.983
+	title = byz.983.t
+	desc = byz.983.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = { #She goes
+		name = byz.983.a
+		remove_unit_leader = 104
+		add_manpower = -10000
+		add_command_power = -25
+		add_stability = 0.05
+		add_war_support = -0.05
+	}
+	
+	option = { #She stays
+		name = byz.983.b
+		add_political_power = -100
+		add_stability = -0.05
+		add_war_support = 0.05
+	}
+	
+}
+
 # Demonstration dispersed by force
 country_event = {
 	id = byz.984
@@ -701,6 +763,94 @@ country_event = {
 		add_political_power = 100
 	}
 	
+}
+
+# Sicily Refendum
+country_event = {
+	id = byz.985
+	title = byz.985.t
+	desc = byz.985.desc
+	picture = GFX_report_event_german_speech
+	fire_only_once = yes
+	trigger = {
+		date > 1941.12.24
+		country_exists = BYZ
+		NOT = { country_exists = ITA }
+	}
+	
+	option = { # Yes, go
+		 ai_chance = { factor = 10 }
+		name = byz.985.a
+		if = {
+			limit = {
+				115 = {
+					is_owned_by = BYZ
+				}
+			}
+			ITA = { transfer_state = 115 }
+		}
+		if = {
+			limit = {
+				116 = {
+					is_owned_by = BYZ
+				}
+			}
+			ITA = { transfer_state = 116 }
+		}
+		if = {
+			limit = {
+				156 = {
+					is_owned_by = BYZ
+				}
+			}
+			ITA = { transfer_state = 156 }
+		}
+		if = {
+			limit = {
+				117 = {
+					is_owned_by = BYZ
+				}
+			}
+			ITA = { transfer_state = 117 }
+		}
+		BYZ = { add_to_faction = ITA }
+		hidden_effect = {
+			news_event = { hours = 12 id = news.707 }
+			ITA = {
+				set_politics = { ruling_party = communism elections_allowed = yes }
+			}
+			every_state = {
+				limit = {
+					is_owned_by = ITA
+				}
+				add_core_of = ITA
+			}
+			ITA = {
+				load_oob = ITA_byzfire
+			}
+		}
+	}
+	
+	option = { # No, stay
+		ai_chance = { factor = 40 }
+		name = byz.985.b
+		add_stability = 0.05
+		add_political_power = 150
+		hidden_effect = {
+			news_event = { hours = 12 id = news.708 }
+		}
+	}
+	
+	option = { # Delay the vote, a war's on
+		ai_chance = { factor = 50 }
+ 		name = byz.985.c
+		trigger = {
+			BYZ = {
+				has_war = yes
+			}
+		}
+		add_political_power = -50
+	}
 }
 
 #Colonel Baris Assassinated

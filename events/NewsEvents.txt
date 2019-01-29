@@ -11223,6 +11223,22 @@ news_event = {
 	}
 }
 
+news_event = {
+	id = news.707 #Sicily Gains Independence
+	title = news.707.t
+	picture = GFX_news_event_generic_communist_congress
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.707.d
+	}
+
+	option = {
+		name = news.707.a
+	}
+}
+
 news_event = { #Mullerists win
 	id = news.1001
 	title = news.1001.t

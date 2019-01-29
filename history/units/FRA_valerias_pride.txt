@@ -3,31 +3,11 @@
 units = {
 	navy = {					
 		name = "Julius and Augustus"				
-		base = 6621
-		location = 6621 # Sussex, prolly not correct at all
+		base = 9737
+		location = 9737 # Saint Nazaire
 		# 7th Destroyer Division				
-		ship = {
-			name = "HIM Augustus" 
-			definition = SH_battleship_1 
-			equipment = {
-				battleship_1 = {
-					amount = 1 
-					owner = FRA 
-					creator = FRA 
-				} 
-			} 
-		}			
-		ship = {
-			name = "HIM Julius" 
-			definition = SH_battleship_1 
-			equipment = {
-				battleship_1 = {
-					amount = 1 
-					owner = FRA 
-					creator = FRA 
-				} 
-			} 
-		}
+		ship = { name = "HIM Augustus" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = FRA creator = FRA } } }			
+		ship = { name = "HIM Julius" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = FRA creator = FRA } } }
 	}			
 }					
 					

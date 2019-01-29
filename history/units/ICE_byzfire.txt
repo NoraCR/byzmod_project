@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Ríkislögreglan"	# hahahaha are you kidding me
+	name = "Ríkislögreglan"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
