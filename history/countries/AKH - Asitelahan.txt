@@ -97,7 +97,7 @@ create_country_leader = {
 	desc = "POLITICS_CHANG_ZIPING_DESC"
 	picture = "Portrait_China_Mao_Zedong.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = stalinism
 	traits = {
 		cornered_fox
 	}

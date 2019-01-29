@@ -77,8 +77,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jolana Sukova"
-	desc = "POLITICS_JOLANA_SUKOVA_DESC"
+	name = "Jolana Ceska Lipa"
+	desc = "POLITICS_JOLANA_CESKA_LIPA_DESC"
 	picture = "cze_jolana_sukova.dds"
 	expire = "1965.1.1"
 	ideology = stalinism

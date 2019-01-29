@@ -453,7 +453,7 @@ create_navy_leader = {
 	name = "Vasilios Flesnolk"
 	picture = "byz_admiral_vasilios_flesnolk.tga"
 	id = 125
-	traits = { superior_tactician }
+	traits = { superior_tactician ironside }
 	skill = 4
 }
 

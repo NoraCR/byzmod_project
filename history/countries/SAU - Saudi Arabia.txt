@@ -107,7 +107,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Mesud IV Seljuk"
-	desc = "POLITICS_MESUD_IV_DESC"
+	desc = "POLITICS_MESUD_IV_NEU_DESC"
 	picture = "Portrait_Saudi_Arabia_Abdulazis_Ibn_Saud.dds"
 	expire = "1965.1.1"
 	ideology = moderatism
@@ -117,8 +117,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Husaam Ali"
-	desc = "POLITICS_HUSAAM_ALI_DESC"
+	name = "Mesud IV Seljuk"
+	desc = "POLITICS_MESUD_IV_DEM_DESC"
 	picture = "Portrait_Saudi_Arabia_Abdulazis_Ibn_Saud.dds"
 	expire = "1965.1.1"
 	ideology = socialism
