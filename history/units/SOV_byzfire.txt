@@ -604,6 +604,8 @@ units = {
 		# 2ya Flotiliya Esmintsev
 		ship = { name = "Gormonosets" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
 		ship = { name = "Pryamislav" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		ship = { name = "Bryachislav" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		ship = { name = "Fiodor Stratilat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
 	}	
 	navy = {	
 		name = "Severnyy Podvodniy Flot"
@@ -667,6 +669,12 @@ units = {
 		ship = { name = "Zharkiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
 		ship = { name = "Zvonkiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
 		ship = { name = "Zorkiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		# 6a Flotiliya Esmintsev
+		ship = { name = "Sil'nyi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		ship = { name = "Storozhevoy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		ship = { name = "Stroinyi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		ship = { name = "Razyashchiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		ship = { name = "Rastoropnyi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
 	}	
 	navy = {	
 		name = "Chernomorskiy Podvodniy Flot"
@@ -676,7 +684,8 @@ units = {
 		ship = { name = "Shch-121" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
 		ship = { name = "Shch-122" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
 		ship = { name = "Shch-123" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-124" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
+		ship = { name = "Shch-124" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }
+		ship = { name = "Shch-125" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }					
 	}		
 }					
 
