@@ -89,7 +89,7 @@ ideas = {
 		}
 		
 		SOV_mafiya = {
-			picture = 
+			picture = generic_spy_political
 			
 			allowed = {
 				always = no

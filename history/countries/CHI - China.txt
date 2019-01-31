@@ -137,8 +137,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Guan Xiannian"
-	desc = "POLITICS_GUAN_XIANNIAN_DESC"
+	name = "Xia Yuandao"
+	desc = "POLITICS_XIA_YUANDAO_DESC"
 	picture = "Portrait_China_Mao_Zedong.dds"
 	expire = "1965.1.1"
 	ideology = leninism
@@ -148,8 +148,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "D.H.H.D.B.X. Huang Fuqiang"
-	desc = "POLITICS_HUANG_FUQIANG_DESC"
+	name = "Li Fuzhi"
+	desc = "POLITICS_LI_FUZHI_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

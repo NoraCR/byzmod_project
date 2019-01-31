@@ -392,7 +392,7 @@ country_event = {
 		add_political_power = 10
 	}
 }
-#Shock WOrkers
+#Shock Workers
 country_event = {
 	id = marathas.103
 	title = marathas.103.t
