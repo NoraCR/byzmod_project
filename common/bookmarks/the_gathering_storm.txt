@@ -66,6 +66,89 @@ bookmarks = {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 		# minors from DLC ####
+		"SOV"={
+			minor = yes
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				SOV_dismal_morale
+				SOV_risk_of_famine
+				SOV_hyper_inflation
+			}
+			focuses = {
+				TR_i_am_third_rome
+			}
+		}
+		"IRE"={
+			minor = yes
+			history = "IRE_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				theodore_iii
+				IRE_oconnor_government
+				IRE_truth_recon_comm
+			}
+			focuses = {
+				IRE_the_first_oconnor_govt
+			}
+		}
+		"ENG"={
+			minor = yes
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"GER"={
+			minor = yes
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"HDA"={
+			minor = yes
+			history = "HDA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				HDA_uneasy_victors
+				HDA_nahua_tensions	
+			}
+			focuses = {
+
+			}
+		}
+		"KOR"={
+			minor = yes
+			history = "KOR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				KOR_economic_crisis_1
+				KOR_conscription_crisis
+			}
+			focuses = {
+
+			}
+		}
+		"SYR"={
+			minor = yes
+			history = "SYR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

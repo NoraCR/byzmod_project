@@ -105,7 +105,7 @@ focus_tree = {
 	}
 	focus = {
 		id = TR_crush_the_mafiya #remove mafia spirit which also needs to be added, this more represents the tsarina cracking down on old powerbrokers who haven't fallen in line
-		icon = GFX_focus_renounce_the_treaty_of_triannon
+		icon = GFX_goal_generic_intelligence_exchange
 		cost = 10
 		prerequisite = {
 			focus = TR_the_new_streltsy
@@ -161,7 +161,7 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 			add_tech_bonus = {
-				name = conscript_workers_boost
+				name = TR_conscript_workers
 				bonus = 0.5 # this is a 50% boost
 				uses = 2 # how many times you can use it
 				category = construction_tech # the tech categories can be found in 00_technology file in the technology_tags folder in \common
@@ -195,7 +195,7 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 			add_tech_bonus = {
-				name = consolidate_farms
+				name = TR_consolidate_farms
 				bonus = 0.85 # this is a 50% boost
 				uses = 1 # how many times you can use it
 				category = industry # the tech categories can be found in 00_technology file in the technology_tags folder in \common
@@ -265,9 +265,9 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 95
 			add_popularity = {
-					ideology = pangalism
-					popularity = 0.1
-				}
+				ideology = pangalism
+				popularity = 0.1
+			}
 		}
 	}
 	focus = {
@@ -815,7 +815,13 @@ focus_tree = {
 		x = 14
 		y = 2
 		completion_reward = {
-		
+			add_popularity = {
+				ideology = pangalism
+				popularity = 0.1
+			}
+			CHI = {
+				add_opinion_modifier = { target = SOV modifier = pangalism_leanings_good }
+			}
 		}
 	}
 	focus = {
@@ -927,7 +933,9 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-		
+			FRA = {
+				add_opinion_modifier = { target = SOV modifier = fascism_leanings_good }
+			}
 		}
 	}
 	focus = {
@@ -1014,7 +1022,15 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-		
+			every_army_leader = {
+				add_planning = 1
+			}
+			add_tech_bonus = {
+				name = TR_french_officers
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 	focus = {
@@ -1045,7 +1061,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-		
+			add_offsite_building = { type = arms_factory level = 2 }
 		}
 	}
 	focus = {
@@ -1781,10 +1797,12 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		complete_tooltip = {
-
+			add_offsite_building = { type = arms_factory level = 2 }
+			add_offsite_building = { type = industrial_complex level = 2 }
 		}
 		completion_reward = {
-
+			add_offsite_building = { type = arms_factory level = 2 }
+			add_offsite_building = { type = industrial_complex level = 2 }
 		}
 	}
 	focus = {
@@ -1915,7 +1933,6 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-		completion_reward = {
 		complete_tooltip = {
 			random_state = {
 				limit = {
@@ -1931,7 +1948,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			random_owned_controlled_state = {
-				prioritize = { 137 }
+				prioritize = { 195 }
 				limit = {
 					is_coastal = yes
 					free_building_slots = {
@@ -1949,7 +1966,6 @@ focus_tree = {
 				set_state_flag = SOV_baltic_DY_flag
 			}
 		}		
-		}
 	}
 	focus = {
 		id = TR_destroyer_effort #increase destroyer tech boost
