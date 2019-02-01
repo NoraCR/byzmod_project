@@ -59,6 +59,7 @@ add_ideas = {
 	SOV_dismal_morale
 	SOV_hyper_inflation
 	SOV_risk_of_famine
+	SOV_mafiya
 }
 
 create_country_leader = {

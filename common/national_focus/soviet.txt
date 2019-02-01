@@ -11,7 +11,7 @@ focus_tree = {
 	focus = {
 		id = TR_i_am_third_rome #political power
 		icon = GFX_focus_hun_elect_a_king
-		cost = 10
+		cost = 15
 		x = 18
 		y = 0
 		ai_will_do = {
@@ -128,9 +128,12 @@ focus_tree = {
 		x = 5
 		y = 2
 		completion_reward = {
-			
+			if = {
+				limit = { has_idea = SOV_mafiya }
+				remove_ideas = SOV_mafiya
+			}
 		}
-		#to do
+
 	}
 	focus = {
 		id = TR_conscript_workers #we should change the localized name, as I feel this is more of a build infrastructure focus maybe? it's steps to stop the famine, and the player should get a reward. maybe a NS?
@@ -822,11 +825,11 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = yes
+		available_if_capitulated = no
 		x = 14
 		y = 3
 		completion_reward = {
-		
+			CHI = { country_event = generic.2 }
 		}
 	}
 	focus = {
@@ -939,9 +942,9 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = yes
+		available_if_capitulated = no
 		completion_reward = {
-		
+			FRA = { country_event = generic.2 }
 		}
 	}
 	focus = {
@@ -1056,7 +1059,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-		
+			add_war_support = 0.10
+			add_stability = 0.05
 		}
 	}
 	focus = {
@@ -1084,7 +1088,57 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-		
+			custom_effect_tooltip = SOV_red_barrier_tt
+			hidden_effect = {
+				192 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 754
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 741
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 11670
+						instant_build = yes
+					}
+				}
+				203 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 11409
+						instant_build = yes
+					}
+				}
+				197 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 6597
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 11546
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 11683
+						instant_build = yes
+					}
+				}
+			}
 		}
 	}
 	focus = {
@@ -1406,8 +1460,57 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-		completion_reward = {
+		complete_tooltip = {
+			air_experience = 25
+			every_state = {
+				limit = { has_state_flag = SOV_newaf_2air }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 		
+		completion_reward = {
+			
+			air_experience = 25
+			random_owned_controlled_state = {
+				limit = {
+					air_base > 3
+					air_base < 9
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOV_newaf_2air
+			}
+			random_owned_controlled_state = {
+				limit = {
+					air_base > 3
+					air_base < 9
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOV_newaf_2air
+			}
+			random_owned_controlled_state = {
+				limit = {
+					air_base > 2
+					air_base < 9
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOV_newaf_2air
+			}
 		}
 	}
 	focus = {
@@ -1569,8 +1672,38 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = SOV_blacksea_DY_flag
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
 		completion_reward = {
-		
+			random_owned_controlled_state = {
+				prioritize = { 137 }
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = SOV_blacksea_DY_flag
+			}
 		}
 	}
 	focus = {
@@ -1633,8 +1766,11 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
+		complete_tooltip = {
+
+		}
 		completion_reward = {
-	
+
 		}
 	}
 	focus = {
@@ -1699,8 +1835,12 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-		
-		}
+			add_resource = {
+				type = oil
+				amount = 10
+				state = 223
+			}
+		}		
 	}
 	focus = {
 		id = TR_war_with_lithuania #cb on lithunaia
@@ -1728,7 +1868,7 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = yes
+		available_if_capitulated = no
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -1762,7 +1902,39 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-		
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = SOV_baltic_DY_flag
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 137 }
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = SOV_baltic_DY_flag
+			}
+		}		
 		}
 	}
 	focus = {
@@ -1826,7 +1998,10 @@ focus_tree = {
 		x = 37
 		y = 4
 		completion_reward = {
-		
+			custom_effect_tooltip = TR_battleship_potemkin_tt
+			hidden_effect = {
+				load_oob = "SOV_battleship_potemkin"
+			}
 		}
 	}
 }
