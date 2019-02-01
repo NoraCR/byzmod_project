@@ -160,7 +160,12 @@ focus_tree = {
 		x = 3
 		y = 3
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = conscript_workers_boost
+				bonus = 0.5 # this is a 50% boost
+				uses = 2 # how many times you can use it
+				category = construction_tech # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
 		}
 		#to do
 	}
@@ -189,7 +194,12 @@ focus_tree = {
 		x = 5
 		y = 3
 		completion_reward = {
-		
+			add_tech_bonus = {
+				name = consolidate_farms
+				bonus = 0.85 # this is a 50% boost
+				uses = 1 # how many times you can use it
+				category = industry # the tech categories can be found in 00_technology file in the technology_tags folder in \common
+			}
 		}
 	}
 	focus = {
@@ -253,7 +263,11 @@ focus_tree = {
 		available_if_capitulated = yes
 		#to do
 		completion_reward = {
-			
+			add_political_power = 95
+			add_popularity = {
+					ideology = pangalism
+					popularity = 0.1
+				}
 		}
 	}
 	focus = {
