@@ -131,6 +131,26 @@ ideas = {
 				industrial_capacity_factory = -0.25
 			}
 		}
+		TR_winter_warfare_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = MAN
+			}
+			
+			removal_cost = -1
+
+			picture = generic_war_preparation
+			
+			modifier = {
+				army_morale_factor = 0.05
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
 	}
 
 
@@ -163,12 +183,13 @@ ideas = {
 			traits = { smooth_talking_charmer }
 		}
 
-		SOV_mitrofan_vedernikov = {
+		SOV_ma_zhichun = {
 			
 			picture = generic_political_advisor_europe_2
 			
 			allowed = {
 				original_tag = SOV
+				has_completed_focus = TR_economic_advisors
 			}
 			
 			traits = { captain_of_industry }

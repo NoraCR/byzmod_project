@@ -894,7 +894,7 @@ focus_tree = {
 		}
 
 		available = {
-
+			NOT = { has_war_with = CHI }
 		}
 		
 		bypass = {
@@ -904,9 +904,43 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-		completion_reward = {
-		
+		complete_tooltip = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = SOV_ma_zhichun
+			random_state = {
+				limit = {
+					has_state_flag = SOV_ming_inv_IC
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
+		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = SOV_ma_zhichun
+			random_owned_controlled_state = {
+				prioritize = { 328 }
+				limit = {
+					is_fully_controlled_by = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOV_ming_inv_IC
+			}
+		}		
 	}
 	focus = {
 		id = TR_reach_out_france #improve france's opinion
@@ -922,7 +956,7 @@ focus_tree = {
 		}
 
 		available = {
-
+			NOT = { has_war_with = FRA }
 		}
 		
 		bypass = {
@@ -1023,7 +1057,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			every_army_leader = {
-				add_planning = 1
+				add_attack = 1
 			}
 			add_tech_bonus = {
 				name = TR_french_officers
@@ -1296,7 +1330,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-		
+			add_ideas = TR_winter_warfare_idea
 		}
 	}
 	focus = {
