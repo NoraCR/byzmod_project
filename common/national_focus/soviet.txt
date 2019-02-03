@@ -840,7 +840,16 @@ focus_tree = {
 		}
 		
 		bypass = {
-
+			CHI = {
+				OR = {
+					exists = no
+					is_subject = yes		
+					AND = {
+						is_subject = no
+						is_in_faction_with = ROOT
+					}
+				}
+			}
 		}
 
 		cancel_if_invalid = yes
@@ -993,7 +1002,16 @@ focus_tree = {
 		}
 		
 		bypass = {
-
+			FRA = {
+				OR = {
+					exists = no
+					is_subject = yes		
+					AND = {
+						is_subject = no
+						is_in_faction_with = ROOT
+					}
+				}
+			}
 		}
 
 		cancel_if_invalid = yes
