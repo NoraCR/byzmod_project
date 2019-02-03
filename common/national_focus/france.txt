@@ -2536,7 +2536,16 @@ focus_tree = {
 		}
 		
 		bypass = {
-
+			GER = {
+				OR = {
+					exists = no
+					is_subject = yes		
+					AND = {
+						is_subject = no
+						is_in_faction_with = ROOT
+					}
+				}
+			}
 		}
 
 		cancel_if_invalid = yes
@@ -2841,7 +2850,16 @@ focus_tree = {
 		}
 		
 		bypass = {
-
+			SOV = {
+				OR = {
+					exists = no
+					is_subject = yes		
+					AND = {
+						is_subject = no
+						is_in_faction_with = ROOT
+					}
+				}
+			}
 		}
 
 		cancel_if_invalid = yes
