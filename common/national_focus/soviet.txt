@@ -1055,6 +1055,19 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
+		complete_tooltip = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = SOV_matthieu_caussade
+			every_army_leader = {
+				add_attack = 1
+			}
+			add_tech_bonus = {
+				name = TR_french_officers
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
 		completion_reward = {
 			every_army_leader = {
 				add_attack = 1

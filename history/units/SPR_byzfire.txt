@@ -151,6 +151,9 @@ units = {
 		ship = { name = "ARE Baetica" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Lusitania" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Tarraconensis" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Esperanza" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Invencible " definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Glorioso" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Almirante Zheng He" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Julio César" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Escipión el Africano" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
@@ -165,6 +168,29 @@ units = {
 		ship = { name = "ARE Segisama" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Saguntum" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Emporion" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+	}
+	navy = {
+		name = "Base Naval Ferrol"
+		base = 758
+		location = 758 #Coruna
+		ship = { name = "ARE Galicia" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Invencible" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Alerta" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Vigilante" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Almirante Rodriguez" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Almirante Hu" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Almirante el-Arshad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Covadonga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Circe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Sirena" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Andaluza" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Guadiana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Huelva" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Ligera" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Favorita" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Santa Filomena" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Valiente" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Constancia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
 	}
 	navy = {				
 		name = "Base Naval Lisboa"			

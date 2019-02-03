@@ -189,6 +189,9 @@ ideas = {
 			
 			allowed = {
 				original_tag = SOV
+			}
+			available = 
+			{
 				has_completed_focus = TR_economic_advisors
 			}
 			
@@ -362,7 +365,7 @@ ideas = {
 			}
 		}
 		
-		SOV_stanislav_ivashchenko = {
+		SOV_matthieu_caussade  = {
 			
 			picture = generic_army_europe_1
 			allowed = {
@@ -371,7 +374,7 @@ ideas = {
 			}
 			available = 
 			{
-
+				has_completed_focus = TR_french_officers
 			}
 
 			traits = { army_chief_maneuver_2 }

@@ -465,7 +465,20 @@ units = {
 		ship = { name = "Pelikan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
 		ship = { name = "Seelöwe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
 	}
-
+	navy = {
+		name = "Küstenverteidigungsgeschwader"
+		base = 6389
+		location = 6389 #Kiel
+		# 2. Torpedobootflottille
+		ship = { name = "K1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "K3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "K4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "K7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "K8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "K9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "K11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "K12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+	}
 	navy = {
 		name = "Ostseeflotte"
 		base = 6332
