@@ -1,6 +1,6 @@
 ﻿##### Division Templates #####
 division_template = {
-	name = "Padatikabarga Dibhisana"	
+	name = "Infantry Division"	
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -21,7 +21,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Parbata Padatikabarga Dibhisana"		# Mountain Division
+	name = "Mountain Infantry Division"		# Mountain Division
 
 	regiments = {
 		mountaineers = { x = 0 y = 0 }	
@@ -44,7 +44,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Motaraba'ika inaphyantri Dibhisana"		# Motor Rifle Division
+	name = "Motorized Infantry Division"		# Motor Rifle Division
 											
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -62,7 +62,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Asbarohi Bahini Dibhisana" 	# Kavaleriyskaya Diviziya
+	name = "Cavalry Division" 	# Kavaleriyskaya Diviziya
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -72,7 +72,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Yantrika Karpasa" 				# Represents regular mechanized corps (4 existed in 1935-38); 
+	name = "Mechanized Corps" 				# Represents regular mechanized corps (4 existed in 1935-38); 
 													# Also represents groups of independent tank, mech brigades of the time, though groups are best represented by tank bge 
 													# (2x M/L tank + 1x mot), and 2x mech bge (2x L tank + 1x mot)
 	regiments = {
@@ -90,463 +90,463 @@ division_template = {
 units = {
 #######North Bengal#######
 	division= {			
-		name = "1 Parbata Padatikabarga Dibhisana"		
+		name = "1 Mountain Infantry Division"		
 		location = 8010 ##Thimphu
-		division_template = "Parbata Padatikabarga Dibhisana"
+		division_template = "Mountain Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "2 Parbata Padatikabarga Dibhisana"		
+		name = "2 Mountain Infantry Division"		
 		location = 8010
-		division_template = "Parbata Padatikabarga Dibhisana"
+		division_template = "Mountain Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "3 Parbata Padatikabarga Dibhisana"		
+		name = "3 Mountain Infantry Division"		
 		location = 8010
-		division_template = "Parbata Padatikabarga Dibhisana"
+		division_template = "Mountain Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "1 Padatikabarga Dibhisana"		
+		name = "1 Infantry Division"		
 		location = 1497 #Assam
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "2 Padatikabarga Dibhisana"		
+		name = "2 Infantry Division"		
 		location = 1497 #Assam
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "3 Padatikabarga Dibhisana"		
+		name = "3 Infantry Division"		
 		location = 1497 #Assam
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "4 Padatikabarga Dibhisana"		
+		name = "4 Infantry Division"		
 		location = 10514
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "5 Padatikabarga Dibhisana"		
+		name = "5 Infantry Division"		
 		location = 10514
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "6 Padatikabarga Dibhisana"		
+		name = "6 Infantry Division"		
 		location = 10514
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 #######South Bengal#######
 	division= {			
-		name = "7 Padatikabarga Dibhisana"		
+		name = "7 Infantry Division"		
 		location = 11929 ##Dhaka
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "8 Padatikabarga Dibhisana"		
+		name = "8 Infantry Division"		
 		location = 11929
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "9 Padatikabarga Dibhisana"		
+		name = "9 Infantry Division"		
 		location = 11929
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "10 Padatikabarga Dibhisana"		
+		name = "10 Infantry Division"		
 		location = 11929
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "11 Padatikabarga Dibhisana"		
+		name = "11 Infantry Division"		
 		location = 11929
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "1 Yantrika Karpasa"		
+		name = "1 Mechanized Corps"		
 		location = 11929
-		division_template = "Yantrika Karpasa"
+		division_template = "Mechanized Corps"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 #####Bihar#####
 	division= {			
-		name = "12 Padatikabarga Dibhisana"		
+		name = "12 Infantry Division"		
 		location = 4516 #Patna
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "13 Padatikabarga Dibhisana"		
+		name = "13 Infantry Division"		
 		location = 4516
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "14 Padatikabarga Dibhisana"		
+		name = "14 Infantry Division"		
 		location = 4516
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "15 Padatikabarga Dibhisana"		
+		name = "15 Infantry Division"		
 		location = 4516
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "16 Padatikabarga Dibhisana"		
+		name = "16 Infantry Division"		
 		location = 4516
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "17 Padatikabarga Dibhisana"		
+		name = "17 Infantry Division"		
 		location = 4516
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "18 Padatikabarga Dibhisana"		
+		name = "18 Infantry Division"		
 		location = 10751
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "19 Padatikabarga Dibhisana"		
+		name = "19 Infantry Division"		
 		location = 10751
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "1 Asbarohi Bahini Dibhisana"		
+		name = "1 Cavalry Division"		
 		location = 10751
-		division_template = "Asbarohi Bahini Dibhisana"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "4 Parbata Padatikabarga Dibhisana"		
+		name = "4 Mountain Infantry Division"		
 		location = 10471
-		division_template = "Parbata Padatikabarga Dibhisana"
+		division_template = "Mountain Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "5 Parbata Padatikabarga Dibhisana"		
+		name = "5 Mountain Infantry Division"		
 		location = 10471
-		division_template = "Parbata Padatikabarga Dibhisana"
+		division_template = "Mountain Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "20 Padatikabarga Dibhisana"		
+		name = "20 Infantry Division"		
 		location = 12307
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 #####Orissa#####
 	division= {			
-		name = "21 Padatikabarga Dibhisana"		
+		name = "21 Infantry Division"		
 		location = 1059 #Orissa
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "22 Padatikabarga Dibhisana"		
+		name = "22 Infantry Division"		
 		location = 1059
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "23 Padatikabarga Dibhisana"		
+		name = "23 Infantry Division"		
 		location = 1059
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "24 Padatikabarga Dibhisana"		
+		name = "24 Infantry Division"		
 		location = 1059
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "25 Padatikabarga Dibhisana"		
+		name = "25 Infantry Division"		
 		location = 1059
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "1 Motaraba'ika inaphyantri Dibhisana"		
+		name = "1 Motorized Infantry Division"		
 		location = 1059
-		division_template = "Motaraba'ika inaphyantri Dibhisana"
+		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "6 Parbata Padatikabarga Dibhisana"		
+		name = "6 Mountain Infantry Division"		
 		location = 12490
-		division_template = "Parbata Padatikabarga Dibhisana"
+		division_template = "Mountain Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "7 Parbata Padatikabarga Dibhisana"		
+		name = "7 Mountain Infantry Division"		
 		location = 12490
-		division_template = "Parbata Padatikabarga Dibhisana"
+		division_template = "Mountain Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "26 Padatikabarga Dibhisana"		
+		name = "26 Infantry Division"		
 		location = 9946
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "2 Asbarohi Bahini Dibhisana"		
+		name = "2 Cavalry Division"		
 		location = 9946
-		division_template = "Asbarohi Bahini Dibhisana"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 #####Hyderabad######
 	division= {			
-		name = "27 Padatikabarga Dibhisana"		
+		name = "27 Infantry Division"		
 		location = 8087 #Hyderabad
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "28 Padatikabarga Dibhisana"		
+		name = "28 Infantry Division"		
 		location = 8087
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "29 Padatikabarga Dibhisana"		
+		name = "29 Infantry Division"		
 		location = 8087
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "2 Motaraba'ika inaphyantri Dibhisana"		
+		name = "2 Motorized Infantry Division"		
 		location = 8087
-		division_template = "Motaraba'ika inaphyantri Dibhisana"
+		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "30 Padatikabarga Dibhisana"		
+		name = "30 Infantry Division"		
 		location = 4472
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "31 Padatikabarga Dibhisana"		
+		name = "31 Infantry Division"		
 		location = 4472
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "32 Padatikabarga Dibhisana"		
+		name = "32 Infantry Division"		
 		location = 4472
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "3 Asbarohi Bahini Dibhisana"		
+		name = "3 Cavalry Division"		
 		location = 10311
-		division_template = "Asbarohi Bahini Dibhisana"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "4 Asbarohi Bahini Dibhisana"		
+		name = "4 Cavalry Division"		
 		location = 10311
-		division_template = "Asbarohi Bahini Dibhisana"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "5 Asbarohi Bahini Dibhisana"		
+		name = "5 Cavalry Division"		
 		location = 10311
-		division_template = "Asbarohi Bahini Dibhisana"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 #####Madras#####
 	division= {			
-		name = "33 Padatikabarga Dibhisana"		
+		name = "33 Infantry Division"		
 		location = 10756
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "34 Padatikabarga Dibhisana"		
+		name = "34 Infantry Division"		
 		location = 10756
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "35 Padatikabarga Dibhisana"		
+		name = "35 Infantry Division"		
 		location = 10756
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "36 Padatikabarga Dibhisana"		
+		name = "36 Infantry Division"		
 		location = 12180
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "37 Padatikabarga Dibhisana"		
+		name = "37 Infantry Division"		
 		location = 12180
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "38 Padatikabarga Dibhisana"		
+		name = "38 Infantry Division"		
 		location = 12180
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 #####Sri Lanka#####
 	division= {			
-		name = "39 Padatikabarga Dibhisana"		
+		name = "39 Infantry Division"		
 		location = 10201 #Trincomalee
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "40 Padatikabarga Dibhisana"		
+		name = "40 Infantry Division"		
 		location = 10201 #Trincomalee
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "41 Padatikabarga Dibhisana"		
+		name = "41 Infantry Division"		
 		location = 10201 #Trincomalee
-		division_template = "Padatikabarga Dibhisana"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
 	}
 	division= {			
-		name = "8 Parbata Padatikabarga Dibhisana"		
+		name = "8 Mountain Infantry Division"		
 		location = 4219
-		division_template = "Parbata Padatikabarga Dibhisana"
+		division_template = "Mountain Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.65
 
@@ -557,11 +557,18 @@ units = {
 		base = 4245
 		location = 4245 # Dhaka
 		ship = { name = "Chakra" definition = battleship equipment = { battleship_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "Sinha" definition = battleship equipment = { battleship_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "Sainika" definition = battleship equipment = { battleship_1 = { amount = 1 owner = RAJ } } }
 		ship = { name = "Chennai" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
 		ship = { name = "Visakhapatnam" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
 		ship = { name = "Puri" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
 		ship = { name = "Kolkata" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
-		ship = { name = "Chittagong" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
+		ship = { name = "Khulna" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "Sylhet" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
+		ship = { name = "Rajshahi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
+		ship = { name = "Tongi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
+		ship = { name = "Mymensingh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
+		ship = { name = "Barisal" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }			
 		# 1 Dhbansatmaka bahara
 		ship = { name = "Dhaleshwari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
 		ship = { name = "Bijoy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
@@ -571,6 +578,17 @@ units = {
 		ship = { name = "Meghna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
 		ship = { name = "Jamuna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
 		ship = { name = "Kukri" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		# 3 Dhbansatmaka bahara
+		ship = { name = "TB 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "TB 12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "TB 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "TB 14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "TB 15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "TB 16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "TB 17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "TB 18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "TB 19" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		ship = { name = "TB 20" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
 	}
 	navy = {	
 		name = "Srilanka Phlita"
