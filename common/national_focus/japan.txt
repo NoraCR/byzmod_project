@@ -254,6 +254,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 120
+			add_war_support = 0.1
 		}
 
 	}
@@ -1790,7 +1791,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_named_threat = { threat = 1 name = JAP_freedom_of_navigation }
+			add_named_threat = { threat = 5 name = JAP_freedom_of_navigation }
 		}
 	}
 	focus = {

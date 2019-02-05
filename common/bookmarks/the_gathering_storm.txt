@@ -13,6 +13,11 @@ bookmarks = {
 			ideas = {
 				IG_cult_of_valeria
 			}
+			focuses = {
+				all_europa_under_rome
+				smash_the_reds
+				work_shall_make_you_free
+			}
 		}
 		"BYZ"={
 			history = "BYZ_GATHERING_STORM_DESC"
@@ -22,12 +27,22 @@ bookmarks = {
 				BYZ_incompetant_officers
 				BYZ_home_of_the_revolution
 			}
+			focuses = {
+				BYZ_prelude_to_war
+				BYZ_marxism_extebarrianism
+				BYZ_the_alpine_wall
+			}
 		}
 		"MRT"={
 			history = "MRT_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 				MRT_the_marathan_tiger
+			}
+			focuses = {
+				MRT_sharqi_constitution
+				MRT_AVM_supremacy
+				MRT_climb_sagarmatha
 			}
 		}
 		"AYI"={
@@ -38,6 +53,11 @@ bookmarks = {
 				AYI_immigrant_prejudice
 				AYI_mafia_rampage
 			}
+			focuses = {
+				AYI_wounds_of_war
+				AYI_crush_mafia
+				AYI_sailors_union
+			}
 		}
 		"CHI"={
 			history = "CHI_GATHERING_STORM_DESC"
@@ -46,20 +66,35 @@ bookmarks = {
 				CHI_complacent_hegemon
 				CHI_government_corruption
 				CHI_the_empress_in_her_palace
-			}			
+			}
+			focuses = {
+				CHI_a_legal_purge
+				CHI_east_china_sea
+				CHI_the_second_xizheng
+			}
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas={
 				JAP_dai_ichi_kyouwakoku
-			}			
+			}
+			focuses = {
+				JAP_recycling_laws
+				JAP_shihobu
+				JAP_freedom_of_navigation
+			}
 		}
 		"SOM"={
 			history = "SOM_GATHERING_STORM_DESC"
 			ideology = pangalism
 			ideas = {
 				SOM_ruling_conglomerates
+			}
+			focuses = {
+				SOM_statistics_bureau
+				SOM_naval_buildup
+				SOM_maritime_silk_road
 			}
 		}
 		"---"={
@@ -77,6 +112,8 @@ bookmarks = {
 			}
 			focuses = {
 				TR_i_am_third_rome
+				TR_revenging_our_sons
+				TR_fury_of_the_rus
 			}
 		}
 		"IRE"={
@@ -86,10 +123,11 @@ bookmarks = {
 			ideas = {
 				theodore_iii
 				IRE_oconnor_government
-				IRE_truth_recon_comm
 			}
 			focuses = {
 				IRE_the_first_oconnor_govt
+				IRE_RRP
+				IRE_army_restructuring
 			}
 		}
 		"ENG"={
@@ -100,7 +138,9 @@ bookmarks = {
 
 			}
 			focuses = {
-
+				new_model_army
+				brittania_rules_the_waves
+				handle_the_queen
 			}
 		}
 		"GER"={
@@ -111,7 +151,9 @@ bookmarks = {
 
 			}
 			focuses = {
-
+				GER_defensive_measures
+				GER_industrial_base
+				GER_resist
 			}
 		}
 		"HDA"={
@@ -123,7 +165,9 @@ bookmarks = {
 				HDA_nahua_tensions	
 			}
 			focuses = {
-
+				HDA_avalonian_democracy
+				HDA_the_pacific_war
+				HDA_masters_of_the_pacific
 			}
 		}
 		"KOR"={
@@ -135,7 +179,9 @@ bookmarks = {
 				KOR_conscription_crisis
 			}
 			focuses = {
-
+				KOR_siberian_railway
+				KOR_siberian_oil
+				KOR_emergency_powers_act
 			}
 		}
 		"SYR"={
@@ -146,9 +192,24 @@ bookmarks = {
 
 			}
 			focuses = {
-
+				SYR_fertile_crescent_strategy
+				SYR_zagros_bridgehead
+				SYR_revenge
 			}
-		}		
+		}
+		"SIA"={
+			minor = yes
+			history = "SIA_GATHERING_STORM_DESC"
+			ideology = pangalism
+			ideas = {
+				SIA_chinese_domination
+			}
+			focuses = {
+				SIA_state_of_emergency
+				SIA_stay_with_shanghai
+				SIA_steel_mills
+			}
+		}				
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
