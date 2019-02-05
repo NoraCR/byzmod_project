@@ -4033,7 +4033,11 @@
 		x = 41
 		y = 5
 		ai_will_do = {
-			factor = 40
+			factor = 10
+			modifier = {
+				factor = 0.5
+				FRA = { has_government = fascism } #maybe don't get into a twofront war
+			}
 		}
 		will_lead_to_war_with = CHI
 		available = {

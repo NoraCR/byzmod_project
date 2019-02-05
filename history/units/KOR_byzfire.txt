@@ -408,12 +408,21 @@ units = {
 		name = "2. Hamdae"
 		base = 4329
 		location = 4329 # Papua
+		ship = { name = "SNS Kim Isabu" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Jeong Do-jeon" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
 		ship = { name = "SNS Incheon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
 		ship = { name = "SNS Gyeonggi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Sariwon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Nampo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
 		ship = { name = "SNS Lee Jang-yeol" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }		
 		ship = { name = "SNS Kim Jongsun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }		
 		ship = { name = "SNS Park Yong-hwa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
-		ship = { name = "SNS Jo Bang-hyeon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }			
+		ship = { name = "SNS Jo Bang-hyeon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Han Suk-Chul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Wang Seo-Yeon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Kim Sung-chul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Un So-yun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Kim Ha'un" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
 	}
 	navy = { 
 		name = "3. Guchugham Hamdae"
