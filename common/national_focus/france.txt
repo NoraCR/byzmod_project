@@ -100,7 +100,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rome_reborn
-		icon = GFX_goal_generic_support_fascism
+		icon = GFX_goal_generic_major_war
 		cost = 10
 		x = 42
 		y = 0
