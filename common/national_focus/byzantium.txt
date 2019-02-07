@@ -3347,9 +3347,9 @@
 		}
 		completion_reward = {
 			MRT = {
-				add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = BYZ }
-				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1500 producer = BYZ }
-				add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 100 producer = BYZ }
+				add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 200 producer = BYZ }
+				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3500 producer = BYZ }
+				add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 150 producer = BYZ }
 			}
 		}
 	}
@@ -3589,7 +3589,7 @@
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = USA_expand_the_USMC
+				name = BYZ_marine_infantry
 				bonus = 0.5
 				uses = 1
 				technology = marines
