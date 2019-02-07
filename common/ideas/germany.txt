@@ -118,7 +118,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				fascism_drift = 0.05
+				fascism_drift = 0.10
 				
 			}
 		}
@@ -144,7 +144,7 @@ ideas = {
 				research_time_factor = -0.05
 			}
 		}
-		GER_army_of_aggression_focus = {
+		GER_our_own_path_idea = {
 			picture = FRA_army_of_aggression_focus
 			allowed = {
 				always = no
@@ -852,23 +852,23 @@ ideas = {
 			
 			traits = { rocket_scientist }
 		}
-		lewinski = {
+        lewinski = {
 
-			picture = generic_army_europe_1
-			
-			allowed = {
-				original_tag = GER
-			}
-			
-			cost = 250
-			
-			research_bonus = {
-				cat_mobile_warfare = 0.10
-			}
-			
+            picture = generic_army_europe_1
+            
+            allowed = {
+                original_tag = GER
+            }
+            
+            cost = 150
+            
+            research_bonus = {
+                land_doctrine = 0.07
+            }
+            
 
-			traits = { mobile_warfare_expert }
-		}
+            traits = { military_theorist }
+        }
 		
 		volkhardt_von_frentz = {
 			picture = generic_army_europe_1
@@ -931,19 +931,19 @@ ideas = {
 			traits = { submarine_specialist }
 		}
 		
-		michael_radnitzer = {
-
-			
-			allowed = {
-				original_tag = GER
-			}
-			
-			research_bonus = {
-				naval_doctrine = 0.07
-			}
-			
-			traits = { naval_theorist }
-		}
+        michael_radnitzer = {
+            picture = generic_navy_europe_3
+            
+            allowed = {
+                original_tag = GER
+            }
+            
+            research_bonus = {
+                naval_doctrine = 0.07
+            }
+            
+            traits = { naval_theorist }
+        }
 	}	
 		
 	# MILITARY

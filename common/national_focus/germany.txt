@@ -452,6 +452,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_state_core = 50
+			add_state_core = 326
+			add_state_core = 52
+			add_state_core = 53
 			if = {
 				limit = {
 					has_idea = GER_war_of_resistance
@@ -1078,7 +1082,7 @@ focus_tree = {
 		}
 
 		available = {
-			communism > 0.2
+		
 		}
 
 		bypass = {
@@ -1111,7 +1115,7 @@ focus_tree = {
 		}
 
 		available = {
-			communism > 0.3
+
 			BYZ = {
 				has_government = communism 
 			}
@@ -1304,7 +1308,7 @@ focus_tree = {
 		}
 
 		available = {
-			fascism > 0.35
+
 		}
 
 		bypass = {
@@ -1402,7 +1406,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = GER_army_of_aggression_focus
+			add_ideas = GER_our_own_path_idea
 		}
 	}
 	focus = {
@@ -1631,7 +1635,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			GER = { has_tech = motorised_infantry }
 		}
 
 		cancel_if_invalid = yes
