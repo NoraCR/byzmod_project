@@ -57,7 +57,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 40
+			factor = 10
 			modifier = {
 				NOT = { CHI = { has_government = pangalism } }
 				factor = 5
@@ -1013,6 +1013,7 @@ focus_tree = {
 
 		available = {			
 			is_subject = no
+			has_war = no
 		}
 		
 		bypass = {
@@ -1028,9 +1029,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			CHI = { remove_from_faction = ROOT }
 			add_ideas = SOM_close_bases
-			}
 		}
+	}
 		
 	focus = {
 		id = SOM_join_RRP
@@ -1061,8 +1063,9 @@ focus_tree = {
 
 		available = {
 			NOT = { has_war_with = BYZ }
+			SOM = { has_war = no }
 			BYZ = { is_puppet = no }
-			is_subject = no
+			SOM = { is_subject = no }
 		}
 		
 		bypass = {
@@ -1183,6 +1186,7 @@ focus_tree = {
 
 		available = {
 			is_subject = no
+			SOM = { has_war = no }
 		}
 		
 		bypass = {

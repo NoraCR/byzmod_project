@@ -1475,7 +1475,17 @@
 		x = 12
 		y = 2
 		ai_will_do = {
-			factor = 40
+			factor = 1
+			modifier = {
+				factor = 40
+				AND = {
+					is_historical_focus_on = no
+					OR = {
+						SYR = { has_government = fascism }
+						SYR = { has_government = pangalism }
+					}
+				}
+			}
 		}
 		bypass = {
 			SYR = {
@@ -2475,7 +2485,11 @@
 		x = 28
 		y = 1
 		ai_will_do = {
-			factor = 40
+			factor = 10
+			modifier = {
+				factor = 4
+				is_historical_focus_on = no
+			}
 		}
 		available = {
 			is_puppet = no
