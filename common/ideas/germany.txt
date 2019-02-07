@@ -414,7 +414,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_west_wall
+				
 			}
 			
 			traits = { fortification_engineer }
