@@ -2579,7 +2579,7 @@ focus_tree = {
 
 		available = {
 			GER = {
-				has_government = democratic
+				NOT = { has_government = fascism }
 			}
 		}
 		
