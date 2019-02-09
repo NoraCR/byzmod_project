@@ -355,13 +355,18 @@ units = {
 		# Destroyer Division 13
 		ship = { name = "HMS Grim" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Thessaly" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Thorncastle" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Meredith" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Melusine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		# Destroyer Division 14
 		ship = { name = "HMS Cornelius" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Steele" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Vivian" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Belladonna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Rex" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Melody" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Merry" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Grenadine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		
+		
 	}				
 	navy = {				
 		name = "Northern Patrol"	
