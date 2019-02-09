@@ -1032,4 +1032,3 @@
  CHAT:0 "Chat"
  FORT:0 "Fort"
  SYSTEM_SERVER_LOST:0 "Server Lost"
- UNITLEADER_IS_EN_ROUTE:0 "$NAME|H$ is currently §REn Route§! from a previous command. They won't be able to use abilities or give positive buffs for another $DAYS|H$ days."
