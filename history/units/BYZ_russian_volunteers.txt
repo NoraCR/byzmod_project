@@ -1,0 +1,15 @@
+﻿units = {
+	##### Russian Volunteers from Event ###
+	division= {
+		name = "1st Free Russian Division"
+		location = 9833 
+		division_template = "Red Guard Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "2nd Free Russian Division"
+		location = 9833 
+		division_template = "Red Guard Division"
+		start_experience_factor = 0.3
+	}
+}
