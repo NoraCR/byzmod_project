@@ -137,6 +137,7 @@ create_field_marshal = {
 	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 2
+	female = yes
 }
 create_corps_commander = {
 	name = "Imotonex Daguao"
@@ -179,7 +180,7 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 create_corps_commander = {
-	name = "Wahnenauhi Itseyi" #Cherokee
+	name = "Wahnenauhi Itseyi" #Cherokee #female
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { fortress_buster trait_engineer }
 	skill = 4
@@ -187,9 +188,10 @@ create_corps_commander = {
 	defense_skill = 5
 	planning_skill = 4
 	logistics_skill = 4
+	female = yes
 }
 create_corps_commander = {
-	name = "Wambli-Waste Mdewakanton"
+	name = "Wambli-Waste Mdewakanton" #female
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = {  }
 	skill = 3
@@ -197,6 +199,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 2
+	female = yes
 }
 create_corps_commander = {
 	name = "Unaduti Watauga"
@@ -229,7 +232,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Kathrin Möhring"
+	name = "Kathrin Möhring" #female
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = { }
 	skill = 3
@@ -237,30 +240,34 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 3
+	female = yes
 }
 create_navy_leader = {
-	name = "Iftiin Khalif Abdi Dhala"
+	name = "Iftiin Khalif Abdi Dhala" #female
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	traits = { ironside }
 	skill = 2
+	female = yes
 }
 create_navy_leader = {
-	name = "Nokosi Chichuchate"
+	name = "Nokosi Chichuchate" #seminole
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 	traits = { }
 	skill = 3
 }
 create_navy_leader = {
-	name = "Agasga Hiwassee" #female
+	name = "Agasga Hiwassee" #female #cherokee
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
 	traits = { }
 	skill = 3
+	female = yes
 }
 create_navy_leader = {
-	name = "Bohechio Kiskeya"
+	name = "Casiguaya Kiskeya" #female
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
 	traits = {  }
 	skill = 4
+	female = yes
 }
 create_navy_leader = {
 	name = "Guaora Yaquimel"
