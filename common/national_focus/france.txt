@@ -15,7 +15,7 @@ focus_tree = {
 		x = 4
 		y = 0
 		ai_will_do = {
-			factor = 40
+			factor = 60
 		}
 
 		available = {
@@ -105,7 +105,7 @@ focus_tree = {
 		x = 42
 		y = 0
 		ai_will_do = {
-			factor = 60
+			factor = 80
 		}
 
 		available = {
@@ -130,7 +130,7 @@ focus_tree = {
 		x = 10
 		y = 0
 		ai_will_do = {
-			factor = 40
+			factor = 60
 		}
 
 		available = {
@@ -494,7 +494,7 @@ focus_tree = {
 		x = 4
 		y = 4
 		ai_will_do = {
-			factor = 40
+			factor = 160
 		}
 
 		available = {
@@ -1255,7 +1255,7 @@ focus_tree = {
 		x = 11
 		y = 4
 		ai_will_do = {
-			factor = 40
+			factor = 160
 		}
 
 		available = {
@@ -1504,7 +1504,7 @@ focus_tree = {
 		x = 16
 		y = 3
 		ai_will_do = {
-			factor = 40
+			factor = 160
 		}
 
 		available = {
@@ -1921,7 +1921,7 @@ focus_tree = {
 		x = 34
 		y = 1
 		ai_will_do = {
-			factor = 90	
+			factor = 120	
 			modifier = {
 				factor = 0
 				date < 1938.1.1
@@ -1976,7 +1976,7 @@ focus_tree = {
 		x = 31
 		y = 2
 		ai_will_do = {
-			factor = 50
+			factor = 60
 		}
 
 		available = {
@@ -2034,7 +2034,7 @@ focus_tree = {
 		x = 29
 		y = 3
 		ai_will_do = {
-			factor = 50
+			factor = 60
 		}
 
 		available = {
@@ -2049,6 +2049,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {	
+			add_ideas = IG_mare_leones_prep
 			add_tech_bonus = {
 				name = naval_planning
 				bonus = 0.5
@@ -2067,7 +2068,7 @@ focus_tree = {
 		x = 31
 		y = 3
 		ai_will_do = {
-			factor = 50
+			factor = 60
 		}
 
 		available = {
@@ -2133,7 +2134,7 @@ focus_tree = {
 		x = 33
 		y = 3
 		ai_will_do = {
-			factor = 50
+			factor = 40
 		}
 
 		available = {
@@ -2173,6 +2174,10 @@ focus_tree = {
 				factor = 0
 				date < 1941.1.1
 			}
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
 		}	
 
 		available = {
@@ -2187,7 +2192,6 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = IG_mare_leones_prep
 			create_wargoal = {
 				type = annex_everything
 				target = ENG
@@ -2204,7 +2208,7 @@ focus_tree = {
 		x = 37
 		y = 2
 		ai_will_do = {
-			factor = 40
+			factor = 60
 		}
 
 		available = {
@@ -2295,7 +2299,7 @@ focus_tree = {
 		x = 37
 		y = 3
 		ai_will_do = {
-			factor = 40
+			factor = 60
 		}
 
 		available = {
@@ -2339,7 +2343,7 @@ focus_tree = {
 		x = 39
 		y = 3
 		ai_will_do = {
-			factor = 40
+			factor = 60
 		}
 
 		available = {
@@ -2432,10 +2436,14 @@ focus_tree = {
 		x = 37
 		y = 4
 		ai_will_do = {
-			factor = 95
+			factor = 160
 			modifier = {
 				factor = 0
 				date < 1940.3.1
+			}
+			modifier = {
+				factor = 0
+				has_war = yes
 			}
 		}	
 
@@ -2467,7 +2475,7 @@ focus_tree = {
 		x = 45
 		y = 1
 		ai_will_do = {
-			factor = 70
+			factor = 80
 		}
 
 		available = {
@@ -2499,7 +2507,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 120
 		}
 		
 		bypass = {
@@ -2526,7 +2534,7 @@ focus_tree = {
 		x = 42
 		y = 3
 		ai_will_do = {
-			factor = 40
+			factor = 160
 		}
 
 		available = {
@@ -2553,7 +2561,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			GER = {
-				country_event = { id = ger_byz.2 }
+				country_event = { id = germany.1 }
 			}
 		}
 	}
@@ -2570,7 +2578,7 @@ focus_tree = {
 		x = 44
 		y = 3
 		ai_will_do = {
-			factor = 75	
+			factor = 120	
 			modifier = {
 				factor = 0
 				date < 1939.1.1
@@ -2606,10 +2614,10 @@ focus_tree = {
 		x = 44
 		y = 4
 		ai_will_do = {
-			factor = 85
+			factor = 120
 			modifier = {
 				factor = 0
-				date < 1940.1.1
+				date < 1939.7.1
 			}
 		}	
 
@@ -2641,7 +2649,7 @@ focus_tree = {
 		x = 48
 		y = 2
 		ai_will_do = {
-			factor = 60
+			factor = 80
 			modifier = {
 				factor = 0
 				date < 1937.6.1
@@ -2676,7 +2684,7 @@ focus_tree = {
 		x = 47
 		y = 3
 		ai_will_do = {
-			factor = 70
+			factor = 80
 		}
 
 		available = {
@@ -2707,7 +2715,7 @@ focus_tree = {
 		x = 47
 		y = 4
 		ai_will_do = {
-			factor = 70
+			factor = 80
 		}
 
 		available = {
@@ -2804,7 +2812,7 @@ focus_tree = {
 		x = 52
 		y = 2
 		ai_will_do = {
-			factor = 65
+			factor = 80
 			modifier = {
 				factor = 0
 				date < 1937.1.1
@@ -2838,7 +2846,7 @@ focus_tree = {
 		x = 52
 		y = 3
 		ai_will_do = {
-			factor = 70
+			factor = 160
 			modifier = {
 				factor = 0
 				date < 1937.6.1
@@ -2881,7 +2889,7 @@ focus_tree = {
 		x = 52
 		y = 4
 		ai_will_do = {
-			factor = 40
+			factor = 80
 		}
 
 		available = {
@@ -2908,7 +2916,7 @@ focus_tree = {
 			focus = invite_germany
 		}
 		ai_will_do = {
-			factor = 40
+			factor = 160
 		}
 		x = 42
 		y = 4
@@ -2920,7 +2928,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			GER = {
-				country_event = { id = germany.1 }
+				country_event = { id = germany.2 }
 			}
 			hidden_effect = {
 				news_event = { id = news.564 hours = 6}
@@ -2937,7 +2945,7 @@ focus_tree = {
 		x = 42
 		y = 5
 		ai_will_do = {
-			factor = 40
+			factor = 80
 		}
 
 		available = {
@@ -2966,7 +2974,7 @@ focus_tree = {
 		x = 47
 		y = 5
 		ai_will_do = {
-			factor = 70
+			factor = 80
 		}
 
 		available = {
