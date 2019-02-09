@@ -460,7 +460,7 @@ focus_tree = {
 		x = 4
 		y = 3
 		ai_will_do = {
-			factor = 40
+			factor = 160
 		}
 
 		available = {
@@ -551,7 +551,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ENG_naval_planning
-		icon = GFX_goal_generic_occypy_states_coastal
+		icon = GFX_goal_generic_occupy_states_coastal
 		cost = 10
 		prerequisite = {
 			focus = marine_inf_effort
@@ -1356,7 +1356,7 @@ focus_tree = {
 		x = 26
 		y = 2
 		ai_will_do = {
-			factor = 40
+			factor = 160
 		}
 
 		available = {
@@ -1558,7 +1558,7 @@ focus_tree = {
 		x = 28
 		y = 3
 		ai_will_do = {
-			factor = 40
+			factor = 160
 		}
 
 		available = {
@@ -2174,7 +2174,7 @@ focus_tree = {
 		x = 39
 		y = 1
 		ai_will_do = {
-			factor = 40
+			factor = 80
 		}
 
 		available = {
@@ -2194,7 +2194,7 @@ focus_tree = {
 	}
 	focus = {
 		id = disestablish_the_monarchy
-		icon = GFX_goal_generic_support_communism
+		icon = GFX_goal_tfv_sever_ties_with_uk
 		cost = 10
 		prerequisite = {
 			focus = handle_the_queen
@@ -2205,7 +2205,7 @@ focus_tree = {
 		x = 36
 		y = 2
 		ai_will_do = {
-			factor = 40
+			factor = 80
 			modifier = {
 				factor = 0.25
 				has_global_flag = byz_mullerist_coup
@@ -2237,7 +2237,7 @@ focus_tree = {
 		x = 36
 		y = 3
 		ai_will_do = {
-			factor = 40
+			factor = 80
 		}
 
 		available = {
@@ -2265,7 +2265,7 @@ focus_tree = {
 		x = 34
 		y = 4
 		ai_will_do = {
-			factor = 40
+			factor = 80
 		}
 
 		available = { # needs a good size army, Ireland not in faction
@@ -2298,7 +2298,7 @@ focus_tree = {
 		x = 38
 		y = 4
 		ai_will_do = {
-			factor = 40
+			factor = 120
 		}
 
 		available = {
@@ -2326,7 +2326,7 @@ focus_tree = {
 		x = 38
 		y = 5
 		ai_will_do = {
-			factor = 40
+			factor = 120
 		}
 
 		available = {
@@ -2360,7 +2360,7 @@ focus_tree = {
 		x = 42
 		y = 2
 		ai_will_do = {
-			factor = 40
+			factor = 0
 			modifier = {
 				factor = 3
 				has_global_flag = byz_mullerist_coup
@@ -2421,7 +2421,7 @@ focus_tree = {
 		x = 36
 		y = 4
 		ai_will_do = {
-			factor = 40
+			factor = 60
 		}
 
 		available = {
@@ -2455,7 +2455,7 @@ focus_tree = {
 	}
 	focus = {
 		id = approach_scandinavia # Form Northern Alliance
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_goal_anschluss
 		cost = 10
 		prerequisite = {
 			focus = long_live_the_queen
@@ -2484,8 +2484,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = integrate_habsburg # Forge Nova Scotian Ties
-		icon = GFX_goal_generic_support_democracy
+		id = integrate_habsburg # Strengthen Nova Scotian Ties
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		cost = 10
 		prerequisite = {
 			focus = approach_scandinavia
@@ -2515,7 +2515,7 @@ focus_tree = {
 	}
 	focus = {
 		id = invite_ngf
-		icon = GFX_goal_generic_major_alliance
+		icon = GFX_goal_generic_improve_relations
 		cost = 10
 		prerequisite = {
 			focus = approach_scandinavia
@@ -2800,7 +2800,7 @@ focus_tree = {
 		x = 34
 		y = 5
 		ai_will_do = {
-			factor = 40
+			factor = 80
 		}
 
 		available = {
@@ -2883,7 +2883,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			CAN = {
-				country_event = { id = canada.2  }
+				country_event = { id = can.2  }
 			}
 		}
 	}
@@ -2962,7 +2962,7 @@ focus_tree = {
 	}
 	focus = {
 		id = northern_technology
-		icon = GFX_goal_tfv_generic_tech_sharing
+		icon = GFX_goal_generic_scientific_exchange
 		cost = 10
 		prerequisite = {
 			focus = invite_ngf
@@ -2970,7 +2970,7 @@ focus_tree = {
 		x = 42
 		y = 6
 		ai_will_do = {
-			factor = 40
+			factor = 120
 		}
 
 		available = {
