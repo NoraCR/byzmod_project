@@ -2186,6 +2186,8 @@
  BYZ_war_with_gaul_desc:0 "It has become obvious that the Gauls are a threat to the free peoples of Europe and the world. They would make a desert and call it peace."
  BYZ_war_with_china:0 "War with China"
  BYZ_war_with_china_desc:0 "The Great Ming, led by its cabal of dictatorial corporations, is now the world's greatest threat to global peace. We must end this."
+ BYZ_partisan_war_failure:0 "Partisan War Failure"
+ BYZ_partisan_war_failure_desc:0 "Our mishandling of the Third Rome front has led to a serious increase in partisan activity."
  HDA_avalonian_democracy:0 "Avalonian Democracy"
  HDA_avalonian_democracy_desc:0 "We are the last liberal democracy in all of Avalon that has any pretensions to global or even regional influence. We have survived the Second Great War. We have walked the tightrope of history and avoided falling into despotism and formed alliances with the socialists. Our state endures."
  HDA_diplomatic_initiatives:0 "Diplomatic Initiatives"

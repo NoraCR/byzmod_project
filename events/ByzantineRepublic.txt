@@ -890,12 +890,13 @@ country_event = {
 	}
 	
 	immediate = {
-		set_global_flag = milyukova_defects 
+		
 	}
 	
 	option = {
 		name = byz.903.a
 		add_political_power = -10
+		set_country_flag = milyukova_commander
 		create_corps_commander = {
 			name = "Apollonia Milyukova"
 			portrait_path = "gfx/leaders/generic/generic_europe_f2.png"
@@ -916,4 +917,71 @@ country_event = {
 		add_political_power = -5
 		army_experience = 10
 	}
+}
+
+#Milyukova Trigger Event
+country_event = {
+	id = byz.904
+	title = byz.904.t
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		date > 1940.7.1
+		tag = BYZ
+		BYZ = { has_war_with = SOV }
+		BYZ = { has_country_flag = milyukova_commander }
+	}
+	
+	immediate = {
+		random_list = {
+			50 = { BYZ = { country_event = { id = byz.905 } } }
+			50 = { BYZ = { country_event = { id = byz.906 } } }
+		}
+	}
+	
+	option = {
+		name = byz.904.a
+	}
+}
+
+#Milyukova Good
+country_event = {
+	id = byz.905
+	title = byz.905.t
+	desc = byz.905.d
+	picture = GFX_report_event_spain_civil_war_volunteers_02
+	fire_only_once = yes
+	immediate = {
+	
+	}
+	
+	option = {
+		name = byz.905.a
+		add_political_power = 50
+		add_manpower = 13571
+		hidden_effect = {
+			load_oob = BYZ_russian_volunteers
+		}
+	}
+	
+}
+#Milyukova Bad
+country_event = {
+	id = byz.906
+	title = byz.906.t
+	desc = byz.906.d
+	picture = GFX_report_event_generic_riot
+	fire_only_once = yes
+	immediate = {
+	
+	}
+	
+	option = {
+		name = byz.906.a
+		add_political_power = -50
+		remove_unit_leader = 131
+		add_timed_idea = { idea = BYZ_partisan_war_failure days = 180 }
+	}
+	
 }
