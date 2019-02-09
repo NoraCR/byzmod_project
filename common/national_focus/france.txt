@@ -1908,7 +1908,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-			load_oob = "FRA_valerias_pride"
+			custom_effect_tooltip = FRA_valerias_pride_tt
+			hidden_effect = {
+				load_oob = "FRA_valerias_pride"
+			}
 		}
 	}
 	focus = {

@@ -875,3 +875,45 @@ country_event = {
 		name = byz.902.a
 	}
 }
+
+#Milyukova Defects
+country_event = {
+	id = byz.903
+	title = byz.903.t
+	desc = byz.903.d
+	picture = GFX_report_event_desertion_poster
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+		BYZ = { has_full_control_of_state = 137 }
+		BYZ = { has_war_with = SOV }
+	}
+	
+	immediate = {
+		set_global_flag = milyukova_defects 
+	}
+	
+	option = {
+		name = byz.903.a
+		add_political_power = -10
+		create_corps_commander = {
+			name = "Apollonia Milyukova"
+			portrait_path = "gfx/leaders/generic/generic_europe_f2.png"
+			traits = { harsh_leader career_officer }
+			skill = 3
+			id = 131
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	option = {
+		name = byz.903.b
+	}
+	option = {
+		name = byz.903.c
+		add_political_power = -5
+		army_experience = 10
+	}
+}
