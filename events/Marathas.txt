@@ -409,3 +409,74 @@ country_event = {
 		add_political_power = 10
 	}
 }
+#The AVM
+country_event = {
+	id = marathas.104
+	title = marathas.104.t
+	desc = marathas.104.d
+	picture = GFX_report_event_generic_communist_congress
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = MRT
+		has_completed_focus = MRT_AVM_supremacy
+	}
+	option = {
+		name = marathas.104.a
+		add_political_power = 10
+		remove_unit_leader = 403
+		add_popularity = { ideology = communism popularity = 0.05 }
+		add_manpower = -5000
+	}
+	option = {
+		name = marathas.104.b
+		add_political_power = 10
+		add_stability = 0.03
+		remove_unit_leader = 401
+		add_popularity = { ideology = communism popularity = 0.05 }
+		add_manpower = -5000
+	}
+	option = {
+		name = marathas.104.c
+		add_political_power = -50
+		add_popularity = { ideology = communism popularity = -0.10 }
+	}
+}
+#The AVM
+country_event = {
+	id = marathas.105
+	title = marathas.105.t
+	desc = marathas.105.d
+	picture = GFX_report_event_generic_communist_congress
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = MRT
+		has_completed_focus = MRT_army_supremacy
+	}
+	option = {
+		name = marathas.105.a
+		add_political_power = 10
+		add_popularity = { ideology = communism popularity = 0.05 }
+		add_manpower = -8000
+		custom_effect_tooltip = remove_political_advisor
+		show_ideas_tooltip = MRT_aarati_sanghavi
+		set_country_flag = purged_sanghavi
+		hidden_effect = {
+			remove_ideas = MRT_aarati_sanghavi
+		}
+	}
+	option = {
+		name = marathas.105.b
+		add_political_power = 10
+		add_stability = 0.03
+		remove_unit_leader = 415
+		add_popularity = { ideology = communism popularity = 0.05 }
+		add_manpower = -5000
+	}
+	option = {
+		name = marathas.105.c
+		add_political_power = -50
+		add_popularity = { ideology = communism popularity = -0.10 }
+	}
+}
