@@ -191,6 +191,11 @@ units = {
 		ship = { name = "ARE Santa Filomena" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Valiente" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
 		ship = { name = "ARE Constancia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Prudencia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Fealtad" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Honora" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Justicia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Equidad" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
 	}
 	navy = {				
 		name = "Base Naval Lisboa"			
