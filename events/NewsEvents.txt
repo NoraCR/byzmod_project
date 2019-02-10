@@ -11366,3 +11366,39 @@ news_event = { #Theodora assassinated
 		}
 	}
 }
+
+# Introduction of Latin Education
+news_event = {
+	id = news.1004
+	title = news.1004.t
+	desc = news.1004.d
+	picture = GFX_report_event_generic_rally2
+	
+	trigger = {
+		date > 1938.1.1
+		has_government = communism 
+		tag = FRA
+	}
+	
+	mean_time_to_happen = {
+		days = 36
+	}
+	immediate = {
+		set_global_flag = latin_education_fired 
+	}
+	option = {
+		trigger = {
+			has_government = fascism
+		}
+		name = news.1004.a
+	}
+	
+	option = {
+		trigger = {
+			NOT = {
+				has_government = fascism
+			}
+		}
+		name = news.1004.b
+	}
+}
