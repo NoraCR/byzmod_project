@@ -445,7 +445,25 @@ units = {
 		ship = { name = "ACS Guacanagarix" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ACS Hayuya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
 		ship = { name = "ACS Orocobix" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
-	}				
+	}
+	navy = {
+		name = "Carrier Fleet 1"
+		base = 4641 #Jaragua
+		location = 4641
+		ship = { name = "ACS Huracan" definition = carrier equipment = { carrier_1 = {amount = 1 owner = AYI } } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "AYI" amount = 25 } 
+				cv_nav_bomber_equipment_1 = { owner = "AYI" amount = 20 } 	
+
+			}
+		}
+		ship = { name = "ACS Waccamaw" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Saluda" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Tokeena" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Keowee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Socastee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Sampit" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+	}
 	navy = {				
 		name = "Destroyer Patrol 1"			
 		base = 1550
