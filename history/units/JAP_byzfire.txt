@@ -501,7 +501,8 @@ units = { #includes army and navy but not air-force
 		ship = { name = "Minshu" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
 		ship = { name = "Kaigi" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
 		ship = { name = "Dōmei" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Yamashiro" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Kasegawa" definition = battleship equipment = { battleship_2 = { amount = 1 owner = JAP } } }
+		ship = { name = "Yamashiro" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Amagi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Akagi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Takao" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
