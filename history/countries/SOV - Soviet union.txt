@@ -125,7 +125,6 @@ add_namespace = {
 
 create_field_marshal = {
 	name = "Yeremey Kalyagin"
-	id = 405
 		portrait_path = "gfx/leaders/generic/generic_europe_m2.png"
 	traits = { old_guard infantry_officer }
 	skill = 1

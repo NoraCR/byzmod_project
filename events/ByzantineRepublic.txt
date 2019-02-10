@@ -952,6 +952,7 @@ country_event = {
 	desc = byz.905.d
 	picture = GFX_report_event_spain_civil_war_volunteers_02
 	fire_only_once = yes
+	is_triggered_only = yes
 	immediate = {
 	
 	}
@@ -972,6 +973,7 @@ country_event = {
 	title = byz.906.t
 	desc = byz.906.d
 	picture = GFX_report_event_generic_riot
+	is_triggered_only = yes
 	fire_only_once = yes
 	immediate = {
 	
