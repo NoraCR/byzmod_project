@@ -274,5 +274,27 @@ country_event = {
 		news_event = { id = news.562 hours = 6 }
 	}
 }
+# Introduction of Latin Education
+country_event = {
+	id = france.54
+	title = france.54.t
+	desc = france.54.d
+	picture = GFX_report_event_generic_rally2
+	
+	trigger = {
+		date > 1938.1.1
+		has_government = communism 
+		tag = FRA
+	}
+	mean_time_to_happen = {
+		days = 36
+	}
+	immediate = {
+		set_global_flag = france.54_fired 
+	}
+	option = {
+		name = france.54.a
+	}
+}
 
 
