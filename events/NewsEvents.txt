@@ -11376,8 +11376,10 @@ news_event = {
 	
 	trigger = {
 		date > 1938.1.1
-		has_government = communism 
-		tag = FRA
+		FRA = {
+			has_government = fascism 
+		}
+		country_exists = FRA 
 	}
 	
 	mean_time_to_happen = {
