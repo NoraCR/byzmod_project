@@ -474,21 +474,21 @@ units = { #includes army and navy but not air-force
 		base = 7072
 		location = 7072
 		
-		ship = { name = "Zankokunatenshi" definition = carrier equipment = { carrier_2 = {amount = 1 owner = JAP} } 				
+		ship = { name = "Soryu" definition = carrier equipment = { carrier_2 = {amount = 1 owner = JAP} } 				
 			air_wings = { 
 				cv_fighter_equipment_0 =  { owner = "JAP" amount = 30 } 
 				cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 25 } 	
 
 			}
 		}
-		ship = { name = "Sorairo" definition = carrier equipment = { carrier_2 = {amount = 1 owner = JAP} } 				
+		ship = { name = "Hiryu" definition = carrier equipment = { carrier_2 = {amount = 1 owner = JAP} } 				
 			air_wings = { 
 				cv_fighter_equipment_0 =  { owner = "JAP" amount = 30 } 
 				cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 25 } 	
 
 			}
 		}
-		ship = { name = "Shiriusu" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
+		ship = { name = "Shin'yo" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
 			air_wings = { 
 				cv_fighter_equipment_0 =  { owner = "JAP" amount = 25 } 
 				cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 20 } 	
@@ -501,10 +501,10 @@ units = { #includes army and navy but not air-force
 		ship = { name = "Minshu" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
 		ship = { name = "Kaigi" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
 		ship = { name = "Dōmei" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Gasshūkoku" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
-		ship = { name = "Kotai Hebi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
-		ship = { name = "Ekitai Hebi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
-		ship = { name = "Furui Hebi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Yamashiro" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Amagi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Akagi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Takao" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Sendai" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Jintsu" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Nagara" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP }}}
@@ -530,23 +530,23 @@ units = { #includes army and navy but not air-force
 		base = 9998
 		location = 9998
 		
-		ship = { name = "Umōbuton" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
+		ship = { name = "Zuikaku" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
 			air_wings = { 
 				cv_fighter_equipment_0 =  { owner = "JAP" amount = 25 } 
 				cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 20 } 	
 
 			}
 		}
-		ship = { name = "Chimamire Nagare" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
+		ship = { name = "Shokaku" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
 			air_wings = { 
 				cv_fighter_equipment_0 =  { owner = "JAP" amount = 25 } 
 				cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 20 } 	
 
 			}
 		}
-		ship = { name = "Oserotto" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP } } }
-		ship = { name = "Mankashoku" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP } } }
-		ship = { name = "Matoi" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Kaga" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Uji" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = { name = "Oshima" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Kuma" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Abukuma" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Isuzu" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
@@ -567,9 +567,9 @@ units = { #includes army and navy but not air-force
 		base = 11932
 		location = 11932
 		
-		ship = { name = "Sunaipāookami" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
-		ship = { name = "Kamina" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
-		ship = { name = "Yoko" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
+		ship = { name = "Settsu" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Banryu" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
+		ship = { name = "Choyo" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
 		ship = { name = "Natori" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Yura" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
 		ship = { name = "Satsuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
@@ -586,16 +586,16 @@ units = { #includes army and navy but not air-force
 		base = 11932
 		location = 11932
 		
-		ship = { name = "Nagareboshi" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
+		ship = { name = "Unyo" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
 			air_wings = { 
 				cv_fighter_equipment_0 =  { owner = "JAP" amount = 25 } 
 				cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 20 } 	
 
 			}
 		}
-		ship = { name = "Saikomanto" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
-		ship = { name = "Ikari" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
-		ship = { name = "Ayanami" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
+		ship = { name = "Hyuga" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Ise" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
+		ship = { name = "Haruna" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
 		ship = { name = "Oi" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }
 		ship = { name = "Tenryu" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
 		ship = { name = "Tama" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
