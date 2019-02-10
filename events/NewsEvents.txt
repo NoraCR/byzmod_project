@@ -11372,7 +11372,9 @@ news_event = {
 	id = news.1004
 	title = news.1004.t
 	desc = news.1004.d
-	picture = GFX_report_event_generic_rally2
+	picture = GFX_news_event_germany_speech
+	
+	major = yes
 	
 	trigger = {
 		date > 1938.1.1
