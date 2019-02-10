@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = MRT_marxism_mullerism_sharqiism
-		icon = GFX_focus_generic_soviet_politics
+		icon = GFX_focus_RAJ_seek_help_from_soviet
 		cost = 10.00
 		x = 9
 		y = 0
@@ -646,6 +646,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = MRT_army_supremacy_focus
+			MRT = { country_event = marathas.105 }
 		}
 	}
 	focus = {
@@ -763,6 +764,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = avm
+			MRT = { country_event = marathas.104 }
 		}
 
 	}
@@ -1515,7 +1517,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MRT_against_capitalism
-		icon = GFX_focus_SAF_colonialist_crusade
+		icon = GFX_focus_generic_soviet_politics
 		cost = 10.00
 		prerequisite = {
 			focus = MRT_international_communism
@@ -1666,7 +1668,7 @@ focus_tree = {
 				limit = {
 					441 = {
 						controller = {
-							tag = POL
+							tag = CHI
 							has_civil_war = no
 						}
 					}

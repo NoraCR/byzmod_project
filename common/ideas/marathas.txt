@@ -273,6 +273,10 @@ ideas = {
 
 			picture = generic_political_advisor_arab_1
 			
+			available = {
+				NOT = { has_country_flag = purged_sanghavi }
+			}
+			
 			allowed = {
 				original_tag = MRT
 			}
