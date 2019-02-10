@@ -11372,7 +11372,7 @@ news_event = {
 	id = news.1004
 	title = news.1004.t
 	desc = news.1004.d
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_generic_parliament
 	
 	major = yes
 	
