@@ -505,6 +505,7 @@ units = { #includes army and navy but not air-force
 		ship = { name = "Amagi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Akagi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Takao" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
+		ship = { name = "Iwakura" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Sendai" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Jintsu" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP }}}
 		ship = { name = "Nagara" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP }}}
