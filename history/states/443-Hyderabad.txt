@@ -4,7 +4,7 @@ state={
 	name="STATE_443" # Sind
 	manpower = 3887000
 	
-	state_category = large_town
+	state_category = city
 
 	history={
 		owner = MRT

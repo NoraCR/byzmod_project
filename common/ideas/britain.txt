@@ -1,6 +1,27 @@
 ideas = {
 
 	country = {
+		stiff_upper_lip = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				industry_air_damage_factor = -0.1
+				army_morale_factor = 0.1
+			}
+			
+			rule = {
+
+			}			
+		}
 		victoria_vi = {
 			
 			allowed = {

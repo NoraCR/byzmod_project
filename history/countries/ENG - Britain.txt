@@ -47,6 +47,7 @@ set_technology = {
 }
 
 add_ideas = {
+	stiff_upper_lip
 }
 
 set_convoys = 800

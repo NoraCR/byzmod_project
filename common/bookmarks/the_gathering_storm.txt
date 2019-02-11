@@ -135,7 +135,7 @@ bookmarks = {
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-
+				stiff_upper_lip
 			}
 			focuses = {
 				new_model_army

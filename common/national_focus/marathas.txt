@@ -646,7 +646,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = MRT_army_supremacy_focus
-			MRT = { country_event = marathas.105 }
+			country_event = { id = marathas.105 hours = 6 }
 		}
 	}
 	focus = {
@@ -733,7 +733,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.1
-			country_event = { id = marathas.101 }
+			country_event = { id = marathas.101 hours = 6 }
 		}
 	}
 	focus = {
@@ -764,7 +764,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = avm
-			MRT = { country_event = marathas.104 }
+			country_event = { id = marathas.104 hours = 6 }
 		}
 
 	}

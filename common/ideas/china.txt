@@ -56,6 +56,27 @@ ideas = {
 				stability_factor = -0.1
 			}
 		}
+		CHI_guided_democracy_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				 has_government = pangalism
+			}
+
+			removal_cost = -1
+
+			picture = idea_chi_chinese_support
+
+			modifier = {
+				pangalism_drift = 0.1
+				drift_defence_factor = 0.1
+				join_faction_tension = -0.2
+				lend_lease_tension = -0.2
+				send_volunteers_tension = -0.2
+			}
+		}
 		CHI_upr_nationalists = {
 
 			allowed = {
@@ -71,7 +92,6 @@ ideas = {
 			picture = generic_democracy_drift_bonus
 
 			modifier = {
-				autonomy_gain = 1
 				democratic_drift = -0.2
 				pangalism_drift = 0.4
 			}

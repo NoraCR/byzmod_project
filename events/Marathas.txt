@@ -442,7 +442,7 @@ country_event = {
 		add_popularity = { ideology = communism popularity = -0.10 }
 	}
 }
-#The AVM
+#The Army
 country_event = {
 	id = marathas.105
 	title = marathas.105.t
