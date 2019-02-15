@@ -987,3 +987,23 @@ country_event = {
 	}
 	
 }
+
+#Nuke Letter
+country_event = {
+	id = byz.907
+	title byz.907.t
+	desc = byz.907.d
+	picture = GFX_report_event_generic_sign_treaty1
+	fire_only_once = yes
+	trigger = {
+		date > 1939.6.1
+		tag = BYZ
+		NOT = { country_exists = CZE }
+		country_exists = COG
+		BYZ = { has_elections = yes }
+	}	
+	
+	option = {
+		name = byz.907.a
+	}
+}

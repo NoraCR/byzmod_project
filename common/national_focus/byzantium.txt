@@ -3238,6 +3238,25 @@
 		}
 	}
 	focus = {
+		id = BYZ_annex_seljuks
+		icon = GFX_goal_support_communism
+		cost = 8.00
+		prerequisite = {
+			focus = BYZ_annex_da_qin
+		}
+		x = 38
+		y = 3
+		ai_will_do = {
+			factor = 40
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = SAU
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
 		id = BYZ_east_asian_alliances
 		icon = GFX_goal_generic_war_with_comintern
 		cost = 8.00

@@ -109,22 +109,47 @@ country_event = {
 		name = ayiti.102.a
 		383 = {
 			if = {
-        limit = { is_controlled_by = ROOT }
-        add_building_construction = {
-            type = infrastructure
-            level = -1
-            instant_build = yes
-        }
+				limit = { is_controlled_by = ROOT }
+				add_building_construction = {
+					type = infrastructure
+					level = -1
+					instant_build = yes
+				}
+			}
+		}
 		384 = {
 			if = {
-        limit = { is_controlled_by = ROOT }
-        add_building_construction = {
-            type = infrastructure
-            level = -1
-            instant_build = yes
-        }
-    }
-}
+				limit = { is_controlled_by = ROOT }
+				add_building_construction = {
+					type = infrastructure
+					level = -1
+					instant_build = yes
+				}
+			}
+		}
 	}
 }
-
+#Oh No He's Hot
+country_event = {
+	id = ayiti.103
+	title = ayiti.103.t
+	desc = ayiti.103.d
+	picture = report_event_journalists_speech
+	fire_only_once = yes
+	trigger = {
+		tag = AYI
+		date > 1936.4.1
+		has_government = communism 
+	}
+	mean_time_to_happen = {
+		days = 10
+	}
+	immediate = {
+		set_global_flag = ayiti.101_fired 
+	}
+	option = {
+		name = ayiti.103.a
+		add_political_power = 50
+		add_stability = 0.05
+	}
+}
