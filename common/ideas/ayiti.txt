@@ -94,7 +94,6 @@ ideas = {
 			modifier = {
 				political_power_cost = 0.5
 				stability_factor = -0.10
-				political_power_cost = 0.25
 				trade_laws_cost_factor = 0.25
 				economy_cost_factor = 0.25
 			}
