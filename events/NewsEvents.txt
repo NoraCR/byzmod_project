@@ -11357,6 +11357,7 @@ news_event = {
 			has_government = fascism 
 		}
 		country_exists = FRA 
+		NOT = { has_global_flag = latin_education_fired }
 	}
 	
 	mean_time_to_happen = {
