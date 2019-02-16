@@ -13,7 +13,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_pp_unity_bonus
+			picture = state_shintoism
 			
 			rule = {
 				can_join_opposite_factions = no

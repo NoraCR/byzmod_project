@@ -2744,7 +2744,7 @@ news_event = {
 	}
 	
 	immediate = {
-		set_global_flag = zhongnan_massacre_fired
+		set_global_flag = zhongnan_massacre
 	}
 	
 	option = {
@@ -11184,18 +11184,33 @@ news_event = {
 }
 
 news_event = {
-	id = news.707 #Sicily Gains Independence
-	title = news.707.t
+	id = news.807 #Sicily Gains Independence
+	title = news.807.t
 	picture = GFX_news_event_generic_communist_congress
 	is_triggered_only = yes
 	major = yes
 	
 	desc = {
-		text = news.707.d
+		text = news.807.d
 	}
 
 	option = {
-		name = news.707.a
+		name = news.807.a
+	}
+}
+news_event = {
+	id = news.808 #Sicily Stays
+	title = news.808.t
+	picture = GFX_news_event_generic_communist_congress
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.808.d
+	}
+
+	option = {
+		name = news.808.a
 	}
 }
 

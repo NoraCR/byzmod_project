@@ -34,6 +34,12 @@
 			}
 
 			complete_tooltip = {
+				add_tech_bonus = {
+					name = BYZ_war_industry_white_paper
+					bonus = 0.5
+					uses = 2
+					category = industry
+				}
 				every_state = {
 					limit = { has_state_flag = BYZ_white_paper_2IC }
 					add_extra_state_shared_building_slots = 2
@@ -45,6 +51,12 @@
 				}
 			}
 			completion_reward = {
+				add_tech_bonus = {
+					name = BYZ_war_industry_white_paper
+					bonus = 0.5
+					uses = 2
+					category = industry
+				}
 				random_owned_controlled_state = {
 					limit = {
 						industrial_complex > 0
@@ -97,7 +109,7 @@
 			completion_reward = {
 				add_political_power = 120
 				army_experience = 5
-				add_named_threat = { threat = 2 name = BYZ_prelude_to_war }
+				add_named_threat = { threat = 1 name = BYZ_prelude_to_war }
 			}	
 		}
 		focus = {
@@ -360,8 +372,69 @@
 			
 		}
 
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip =  {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 2
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_political_power = 120
+			every_state = {
+				limit = { has_state_flag = BYZ_dom_coord_2IC }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 		completion_reward = {
 			add_political_power = 120
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_dom_coord_2IC
+			}
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_dom_coord_2IC
+			}
 		}
 	}
 	focus = {
@@ -1201,6 +1274,22 @@
 				}
 				set_state_flag = BYZ_regions
 			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_regions
+			}
 		}
 	}
 	focus = {
@@ -1234,6 +1323,15 @@
 		}
 
 		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = BYZ_hungary_AF }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 			HUN = {
 				add_opinion_modifier = { target = BYZ modifier = aided_industry }
 				every_state = { limit = { has_state_flag = BYZ_aid_hungary_2IC }
@@ -1256,6 +1354,22 @@
 		}
 
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_hungary_AF
+			}
 			HUN = {
 				add_opinion_modifier = { target = BYZ modifier = aided_industry }
 				random_owned_controlled_state = {
@@ -1386,6 +1500,15 @@
 		}
 
 		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = BYZ_azer_AF }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 			AZB = {
 				add_opinion_modifier = { target = BYZ modifier = aided_industry }
 				every_state = { limit = { has_state_flag = BYZ_aid_azb_2IC }
@@ -1408,6 +1531,22 @@
 		}
 
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_azer_AF
+			}
 			AZB = {
 				add_opinion_modifier = { target = BYZ modifier = aided_industry }
 				random_owned_controlled_state = {
@@ -1460,8 +1599,13 @@
 		completion_reward = {
 			add_resource = {
 				type = oil
-				amount = 10
+				amount = 12
 				state = 341 #Thrace
+			}
+			add_resource = {
+				type = oil
+				amount = 15
+				state = 229 #Baku
 			}
 		}
 	}
@@ -1513,6 +1657,22 @@
 		}
 
 		complete_tooltip = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_dq_AF
+			}
 			SYR = {
 				add_opinion_modifier = { target = BYZ modifier = aided_industry }
 				every_state = { limit = { has_state_flag = BYZ_aid_daqin_2IC }
@@ -1543,6 +1703,22 @@
 		}
 
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = BYZ_azer_AF
+			}
 			SYR = {
 				add_opinion_modifier = { target = BYZ modifier = aided_industry }
 				random_owned_controlled_state = {
@@ -1619,6 +1795,11 @@
 				type = oil
 				amount = 6
 				state = 350 #Malatya
+			}
+			add_resource = {
+				type = oil
+				amount = 6
+				state = 352 #Van
 			}
 		}
 	}
@@ -1944,8 +2125,8 @@
 
 		completion_reward = {
 			if = {
-				limit = { has_idea = BYZ_incompetant_officers }
-				remove_ideas = BYZ_incompetant_officers
+				limit = { has_idea = BYZ_incompetent_officers }
+				remove_ideas = BYZ_incompetent_officers
 			}
 		}
 	}
@@ -2996,7 +3177,7 @@
 			custom_effect_tooltip = BYZ_coup_austria_tt
 			effect_tooltip = {
 				AUS = {
-					add_ideas = monarchist_rebels
+					add_ideas = armed_rebels
 				}
 			}
 		}

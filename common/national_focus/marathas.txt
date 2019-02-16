@@ -359,17 +359,17 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = tungsten
-				amount = 10
+				amount = 12
 				state = 433 #Rajasthan
 			}
 			add_resource = {
 				type = chromium
-				amount = 10
+				amount = 12
 				state = 436 #Jabalpur
 			}
 			add_resource = {
 				type = aluminium
-				amount = 6
+				amount = 8
 				state = 437 #Indore
 			}
 		}

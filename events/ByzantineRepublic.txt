@@ -815,7 +815,7 @@ country_event = {
 		}
 		BYZ = { add_to_faction = ITA }
 		hidden_effect = {
-			news_event = { hours = 12 id = news.707 }
+			news_event = { hours = 12 id = news.807 }
 			ITA = {
 				set_politics = { ruling_party = communism elections_allowed = yes }
 			}
@@ -837,7 +837,7 @@ country_event = {
 		add_stability = 0.05
 		add_political_power = 150
 		hidden_effect = {
-			news_event = { hours = 12 id = news.708 }
+			news_event = { hours = 12 id = news.808 }
 		}
 	}
 	

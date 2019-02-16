@@ -11,7 +11,7 @@ focus_tree = {
 	focus = {
 		id = AYI_wounds_of_war
 		icon = GFX_goal_generic_army_doctrines
-		cost = 10
+		cost = 9
 		x = 4
 		y = 0
 		ai_will_do = {
@@ -42,7 +42,7 @@ focus_tree = {
 	focus = {
 		id = AYI_industrial_reform
 		icon = GFX_goal_generic_construct_civilian
-		cost = 80
+		cost = 9
 		x = 12
 		y = 0
 		ai_will_do = {
@@ -126,7 +126,7 @@ focus_tree = {
 	focus = {
 		id = AYI_sailors_union
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		cost = 10
+		cost = 9
 		x = 20
 		y = 0
 		ai_will_do = {
@@ -157,7 +157,7 @@ focus_tree = {
 	focus = {
 		id = AYI_union_air_force
 		icon = GFX_goal_generic_air_doctrine
-		cost = 10
+		cost = 9
 		x = 28
 		y = 0
 		ai_will_do = {
@@ -188,7 +188,7 @@ focus_tree = {
 	focus = {
 		id = AYI_the_colossus
 		icon = GFX_goal_generic_propaganda
-		cost = 10
+		cost = 9
 		x = 38
 		y = 0
 		ai_will_do = {
@@ -213,7 +213,7 @@ focus_tree = {
 	focus = {
 		id = AYI_veteran_societies
 		icon = GFX_focus_generic_military_mission
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_wounds_of_war
 		}
@@ -247,7 +247,7 @@ focus_tree = {
 	focus = {
 		id = AYI_training_new_generation
 		icon = GFX_goal_generic_allies_build_infantry
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_veteran_societies
 		}
@@ -276,7 +276,7 @@ focus_tree = {
 	focus = {
 		id = AYI_superior_firepower_doctrine
 		icon = GFX_goal_generic_army_artillery2
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_wounds_of_war
 		}
@@ -316,7 +316,7 @@ focus_tree = {
 	focus = {
 		id = AYI_motorized_effort
 		icon = GFX_goal_generic_army_motorized
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_superior_firepower_doctrine
 		}
@@ -349,7 +349,7 @@ focus_tree = {
 	focus = {
 		id = AYI_reconcile_cherokee
 		icon = GFX_focus_generic_diplomatic_treaty
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_motorized_effort
 			focus = AYI_training_new_generation
@@ -382,7 +382,7 @@ focus_tree = {
 	focus = {
 		id = AYI_paratrooper_effort
 		icon = GFX_focus_generic_paratrooper
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_reconcile_cherokee
 		}
@@ -416,7 +416,7 @@ focus_tree = {
 	focus = {
 		id = AYI_arms_effort
 		icon = GFX_goal_generic_military_sphere
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_reconcile_cherokee
 		}
@@ -449,7 +449,7 @@ focus_tree = {
 	focus = {
 		id = AYI_reach_out_to_immigrants
 		icon = GFX_focus_generic_concessions
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_wounds_of_war
 		}
@@ -471,13 +471,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
+			add_stability = 0.05
 			remove_ideas = AYI_immigrant_prejudice
 		}
 	}
 	focus = {
 		id = AYI_soldier_refugees
 		icon = GFX_focus_generic_little_entente
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_reach_out_to_immigrants
 		}
@@ -505,7 +506,7 @@ focus_tree = {
 	focus = {
 		id = AYI_civilian_factories_effort
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_industrial_reform
 		}
@@ -592,7 +593,7 @@ focus_tree = {
 	focus = {
 		id = AYI_work_for_citizenship
 		icon = GFX_goal_generic_construction2
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_reach_out_to_immigrants
 		}
@@ -623,7 +624,7 @@ focus_tree = {
 	focus = {
 		id = AYI_not_by_blood
 		icon = GFX_goal_generic_national_unity
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_work_for_citizenship
 		}
@@ -654,7 +655,7 @@ focus_tree = {
 	focus = {
 		id = AYI_civilian_industry_effort_2
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_civilian_factories_effort
 		}
@@ -741,7 +742,7 @@ focus_tree = {
 	focus = {
 		id = AYI_civilian_industry_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_civilian_industry_effort_2
 		}
@@ -828,7 +829,7 @@ focus_tree = {
 	focus = {
 		id = AYI_infrastructure_effort
 		icon = GFX_goal_generic_construction2
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_industrial_reform
 		}
@@ -922,7 +923,7 @@ focus_tree = {
 	focus = {
 		id = AYI_jaragua_university
 		icon = GFX_focus_research
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_infrastructure_effort
 		}
@@ -950,7 +951,7 @@ focus_tree = {
 	focus = {
 		id = AYI_the_mississippi_road
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_jaragua_university
 		}
@@ -1031,7 +1032,7 @@ focus_tree = {
 	focus = {
 		id = AYI_military_industry_effort
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_industrial_reform
 		}
@@ -1110,7 +1111,7 @@ focus_tree = {
 	focus = {
 		id = AYI_military_industry_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_military_industry_effort
 		}
@@ -1189,7 +1190,7 @@ focus_tree = {
 	focus = {
 		id = AYI_military_industry_effort_3
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_military_industry_effort_2
 		}
@@ -1268,7 +1269,7 @@ focus_tree = {
 	focus = {
 		id = AYI_crush_mafia
 		icon = GFX_focus_AST_squander_bug
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_military_industry_effort_3
 			focus = AYI_the_mississippi_road
@@ -1298,7 +1299,7 @@ focus_tree = {
 	focus = {
 		id = AYI_expand_oil_operations
 		icon = GFX_goal_generic_oil_refinery
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_crush_mafia
 		}
@@ -1330,7 +1331,7 @@ focus_tree = {
 	focus = {
 		id = AYI_austerity_effort
 		icon = GFX_goal_generic_consumer_goods
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_crush_mafia
 		}
@@ -1358,7 +1359,7 @@ focus_tree = {
 	focus = {
 		id = AYI_heavy_cruisers
 		icon = GFX_goal_generic_navy_cruiser
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_sailors_union
 		}
@@ -1391,7 +1392,7 @@ focus_tree = {
 	focus = {
 		id = AYI_jaragua_shipyards
 		icon = GFX_goal_generic_construct_naval_dockyard
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_heavy_cruisers
 		}
@@ -1449,7 +1450,7 @@ focus_tree = {
 	focus = {
 		id = AYI_mississippi_shipyards
 		icon = GFX_goal_generic_construct_naval_dockyard
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_jaragua_shipyards
 		}
@@ -1507,7 +1508,7 @@ focus_tree = {
 	focus = {
 		id = AYI_capital_ship_effort
 		icon = GFX_goal_generic_navy_battleship
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_heavy_cruisers
 		}
@@ -1546,7 +1547,7 @@ focus_tree = {
 	focus = {
 		id = AYI_battleship_syndicate
 		icon = GFX_goal_generic_navy_battleship
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_capital_ship_effort
 		}
@@ -1580,7 +1581,7 @@ focus_tree = {
 	focus = {
 		id = AYI_cruiser_effort
 		icon = GFX_goal_generic_navy_cruiser
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_sailors_union
 		}
@@ -1614,7 +1615,7 @@ focus_tree = {
 	focus = {
 		id = AYI_submarine_effort
 		icon = GFX_goal_generic_navy_submarine
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_cruiser_effort
 		}
@@ -1647,7 +1648,7 @@ focus_tree = {
 	focus = {
 		id = AYI_ayiti_shipbuilders_union
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_capital_ship_effort
 		}
@@ -1678,7 +1679,7 @@ focus_tree = {
 	focus = {
 		id = AYI_destroyer_effort
 		icon = GFX_goal_generic_navy_anti_submarine
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_cruiser_effort
 		}
@@ -1712,7 +1713,7 @@ focus_tree = {
 	focus = {
 		id = AYI_wolf_pack_doctrine
 		icon = GFX_goal_generic_wolf_pack
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_destroyer_effort
 		}
@@ -1749,7 +1750,7 @@ focus_tree = {
 	focus = {
 		id = AYI_bomber_focus
 		icon = GFX_goal_generic_air_bomber
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_union_air_force
 		}
@@ -1786,7 +1787,7 @@ focus_tree = {
 	focus = {
 		id = AYI_bomber_focus_2
 		icon = GFX_goal_generic_air_bomber
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_bomber_focus
 		}
@@ -1823,7 +1824,7 @@ focus_tree = {
 	focus = {
 		id = AYI_carrier_focus
 		icon = GFX_goal_generic_navy_carrier
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_capital_ship_effort
 		}
@@ -1860,7 +1861,7 @@ focus_tree = {
 	focus = {
 		id = AYI_jaragua_airport
 		icon = GFX_goal_generic_build_airforce
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_union_air_force
 		}
@@ -1909,7 +1910,7 @@ focus_tree = {
 	focus = {
 		id = AYI_taino_union_airport
 		icon = GFX_goal_generic_build_airforce
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_jaragua_airport
 		}
@@ -1959,7 +1960,7 @@ focus_tree = {
 	focus = {
 		id = AYI_plane_builders_union
 		icon = GFX_goal_generic_air_production
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_taino_union_airport
 		}
@@ -1987,7 +1988,7 @@ focus_tree = {
 	focus = {
 		id = AYI_fighter_focus
 		icon = GFX_goal_generic_air_fighter
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_union_air_force
 		}
@@ -2022,7 +2023,7 @@ focus_tree = {
 	focus = {
 		id = AYI_fighter_focus_2
 		icon = GFX_goal_generic_air_fighter
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_fighter_focus
 		}
@@ -2057,7 +2058,7 @@ focus_tree = {
 	focus = {
 		id = AYI_pilots_union
 		icon = GFX_goal_generic_air_production
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_bomber_focus_2
 		}
@@ -2088,7 +2089,7 @@ focus_tree = {
 	focus = {
 		id = AYI_aerial_breakthrough
 		icon = GFX_goal_generic_air_doctrine
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_bomber_focus_2
 		}
@@ -2125,7 +2126,7 @@ focus_tree = {
 	focus = {
 		id = AYI_stregthen_social_programs
 		icon = GFX_focus_generic_support_the_left_right
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_the_colossus
 		}
@@ -2154,13 +2155,13 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = AYI_socialist_programs #boost communist support
+			add_timed_idea = { idea = AYI_socialist_programs days = 720 }
 		}
 	}
 	focus = {
 		id = AYI_socialist_education
 		icon = GFX_focus_generic_socialist_science
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_stregthen_social_programs
 		}
@@ -2188,7 +2189,7 @@ focus_tree = {
 	focus = {
 		id = AYI_socialist_work_programs
 		icon = GFX_goal_generic_construction2
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_stregthen_social_programs
 		}
@@ -2216,7 +2217,7 @@ focus_tree = {
 	focus = {
 		id = AYI_fortress_ayiti
 		icon = GFX_goal_generic_fortify_city
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_the_colossus
 		}
@@ -2257,7 +2258,7 @@ focus_tree = {
 	focus = {
 		id = AYI_expand_police_corps
 		icon = GFX_goal_generic_defence
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_fortress_ayiti
 		}
@@ -2285,7 +2286,7 @@ focus_tree = {
 	focus = {
 		id = AYI_fortify_against_mannahatta
 		icon = GFX_goal_generic_construct_military
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_fortress_ayiti
 		}
@@ -2400,7 +2401,7 @@ focus_tree = {
 	focus = {
 		id = AYI_crush_separatists
 		icon = GFX_goal_generic_political_pressure
-		cost = 10
+		cost = 9
 		prerequisite = { # perhaps add a requirement that the civil war is averted or defeated?
 			focus = AYI_expand_police_corps
 			focus = AYI_fortify_against_mannahatta
@@ -2433,7 +2434,7 @@ focus_tree = {
 	focus = {
 		id = AYI_support_socialists
 		icon = GFX_focus_generic_join_comintern
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_socialist_education
 		}
@@ -2467,7 +2468,7 @@ focus_tree = {
 	focus = {
 		id = AYI_renew_byz_science_ties
 		icon = GFX_goal_tfv_generic_tech_sharing
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_support_socialists
 		}
@@ -2496,7 +2497,7 @@ focus_tree = {
 	focus = {
 		id = AYI_embargo_lenape
 		icon = GFX_goal_generic_trade
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_support_socialists
 		}
@@ -2518,13 +2519,13 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-				NEN = { add_opinion_modifier =  { target = AYI modifier = embargo } }
+			NEN = { add_opinion_modifier =  { target = AYI modifier = embargo } }
 		}
 	}
 	focus = {
 		id = AYI_rally_the_old_guard
 		icon = GFX_focus_generic_the_giant_wakes
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_the_colossus
 		}
@@ -2553,13 +2554,13 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = AYI_rally_old_guard # boost democracy
+			add_timed_idea = { idea = AYI_rally_old_guard days = 720 }
 		}
 	}
 	focus = {
 		id = AYI_liberal_officers
 		icon = GFX_focus_generic_military_mission
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_rally_the_old_guard
 		}
@@ -2587,7 +2588,7 @@ focus_tree = {
 	focus = {
 		id = AYI_liberty_builders
 		icon = GFX_focus_generic_the_giant_wakes
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_rally_the_old_guard
 		}
@@ -2620,7 +2621,7 @@ focus_tree = {
 	focus = {
 		id = AYI_down_with_the_socialists
 		icon = GFX_goal_anti_comintern_pact
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_liberty_builders
 		}
@@ -2654,7 +2655,7 @@ focus_tree = {
 	focus = {
 		id = AYI_the_new_era
 		icon = GFX_goal_generic_national_unity
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_down_with_the_socialists
 			focus = AYI_support_socialists
@@ -2683,7 +2684,7 @@ focus_tree = {
 	focus = {
 		id = AYI_rehabilitate_buccaneers
 		icon = GFX_goal_generic_dangerous_deal
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_the_new_era
 		}
@@ -2711,7 +2712,7 @@ focus_tree = {
 	focus = {
 		id = AYI_puppet_tianhui
 		icon = GFX_goal_generic_forceful_treaty
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_the_new_era
 		}
@@ -2719,11 +2720,20 @@ focus_tree = {
 		y = 6
 		ai_will_do = {
 			factor = 40
+			modifier = {
+				factor = 0
+				has_government = democratic
+			}
 		}
 
 		available = {
 			is_puppet = no
 			has_army_manpower = { size > 549999 }
+			NOT = { has_war_with = VEN }
+		}
+
+		bypass = {
+			VEN = { is_subject_of = ROOT }
 		}
 		
 		bypass = {
@@ -2734,10 +2744,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-			set_autonomy = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
 				target = VEN
-				autonomy_state = puppet
 			}
+			
 			hidden_effect = {
 				news_event = { id = news.904 hours = 6}
 			}
@@ -2746,7 +2757,7 @@ focus_tree = {
 	focus = {
 		id = AYI_reconcile_haida
 		icon = GFX_goal_generic_improve_relations
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_down_with_the_socialists
 		}
@@ -2772,14 +2783,14 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			HDA = {
-					add_opinion_modifier = { target = AYI modifier = democratic_leanings_good }
+				add_opinion_modifier = { target = AYI modifier = democratic_leanings_good }
 			}
 		}
 	}
 	focus = {
 		id = AYI_join_allies
 		icon = GFX_goal_generic_major_alliance
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_reconcile_haida
 		}
@@ -2809,7 +2820,7 @@ focus_tree = {
 	focus = {
 		id = AYI_avalon_first
 		icon = GFX_goal_tfv_can_compromise_with_quebec
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_down_with_the_socialists
 		}
@@ -2844,7 +2855,7 @@ focus_tree = {
 	focus = {
 		id = AYI_draw_lenape_from_china
 		icon = GFX_goal_generic_improve_relations
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_avalon_first
 		}
@@ -2867,9 +2878,9 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-			set_autonomy = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
 				target = NEN
-				autonomy_state = puppet
 			}
 			hidden_effect = {
 				news_event = { id = news.905 hours = 6}
@@ -2879,7 +2890,7 @@ focus_tree = {
 	focus = {
 		id = AYI_mississippi_university
 		icon = GFX_focus_research
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_crush_mafia
 		}
@@ -2907,7 +2918,7 @@ focus_tree = {
 	focus = {
 		id = AYI_tank_effort
 		icon = GFX_goal_generic_army_tanks
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_reconcile_cherokee
 		}
@@ -2942,7 +2953,7 @@ focus_tree = {
 	focus = {
 		id = AYI_crush_mannahatta
 		icon = GFX_goal_generic_major_war
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_embargo_lenape
 		}
@@ -2973,7 +2984,7 @@ focus_tree = {
 	focus = {
 		id = AYI_war_with_lenape
 		icon = GFX_goal_generic_major_war
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_join_allies
 		}
@@ -3004,7 +3015,7 @@ focus_tree = {
 	focus = {
 		id = AYI_finishing_the_job
 		icon = GFX_focus_generic_strike_at_democracy2
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_draw_lenape_from_china
 		}
@@ -3036,7 +3047,7 @@ focus_tree = {
 	focus = {
 		id = AYI_red_army
 		icon = GFX_focus_generic_join_comintern
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_renew_byz_science_ties
 		}
@@ -3070,7 +3081,7 @@ focus_tree = {
 	focus = {
 		id = AYI_expand_south_avalon_ops
 		icon = GFX_goal_generic_oil_refinery
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_puppet_tianhui
 		}
@@ -3105,7 +3116,7 @@ focus_tree = {
 	focus = {
 		id = AYI_develop_iroquois
 		icon = GFX_goal_generic_construct_civilian
-		cost = 10
+		cost = 9
 		prerequisite = {
 			focus = AYI_avalon_first
 		}

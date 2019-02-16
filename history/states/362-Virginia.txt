@@ -10,7 +10,7 @@ state={
 		owner = AYI
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 3
+			industrial_complex = 2
 			dockyard = 4
 			air_base = 10
 			788 = {
@@ -27,12 +27,6 @@ state={
 		}
 		victory_points = {
 			7588 1
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-				dockyard = 5
-			}
 		}
 
 	}

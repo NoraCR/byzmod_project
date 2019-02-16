@@ -24,7 +24,7 @@ bookmarks = {
 			ideology = communism
 			ideas = {
 				BYZ_byzantine_abundance
-				BYZ_incompetant_officers
+				BYZ_incompetent_officers
 				BYZ_home_of_the_revolution
 			}
 			focuses = {
@@ -122,7 +122,6 @@ bookmarks = {
 			ideology = communism
 			ideas = {
 				theodore_iii
-				IRE_oconnor_government
 			}
 			focuses = {
 				IRE_the_first_oconnor_govt

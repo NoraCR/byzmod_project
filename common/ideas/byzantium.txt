@@ -22,7 +22,7 @@ ideas = {
 			}
 		}
 		
-		BYZ_incompetant_officers = {
+		BYZ_incompetent_officers = {
 			
 			allowed = {
 				always = no
@@ -34,7 +34,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = generic_victors_of_ww1
+			picture = byz_incompetent_officers
 			
 			research_bonus = {
 				land_doctrine = -0.33
@@ -238,7 +238,7 @@ ideas = {
 				decryption = 1
 			}
 		}
-		monarchist_rebels = {
+		armed_rebels = {
 			allowed = {
 				always = no
 			}

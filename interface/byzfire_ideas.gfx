@@ -65,6 +65,10 @@ spriteTypes = {
 		name = "GFX_idea_melisa_terzi"
 		texturefile = "gfx/interface/ideas/idea_melisa_terzi.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_byz_incompetent_officers"
+		texturefile = "gfx/interface/ideas/idea_byz_incompetent_officers.dds"
+	}
 	
 	
 	### FRENCH IDEAS

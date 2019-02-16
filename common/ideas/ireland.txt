@@ -38,7 +38,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_pp_unity_bonus
+			picture = generic_volunteer_expedition_bonus
 			
 			modifier = {
 				consumer_goods_factor = -0.02
