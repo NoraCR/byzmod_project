@@ -6,6 +6,7 @@ state={
 	
 	resources={
 		steel=66
+		rubber=12
 	}
 
 	history={

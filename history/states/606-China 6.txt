@@ -18,21 +18,7 @@ state= {
 			industrial_complex = 4
 		}
 		victory_points = { 
-			7222 1 
-		}
-		1938.10.25 = {		
-			controller = JAP
-			CHI = {
-				set_province_controller = 1125
-				set_province_controller = 7104
-				set_province_controller = 12019
-			}
-			buildings = {
-				industrial_complex = 3
-				infrastructure = 6
-				air_base = 1
-				arms_factory = 1
-			}			
+			7222 5 
 		}
 	}
 	

@@ -15,10 +15,13 @@ state={
 		owner = PHI
 		add_core_of = PHI
 		victory_points = {
-			7381 5
+			7381 10
 		}
 		victory_points = {
-			4608 3 
+			4608 5
+		}
+		victory_points = {
+			7421 5
 		}
 
 		buildings = {

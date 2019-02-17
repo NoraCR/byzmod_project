@@ -809,6 +809,16 @@ air_wings = {
 			amount = 54
 		}
 	}
+	439 = {
+		fighter_equipment_0 = {
+			owner = "MRT" 
+			amount = 120
+		}
+		tac_bomber_equipment_0 =  {
+			owner = "MRT" 
+			amount = 60
+		}
+	}
 }
 
 		

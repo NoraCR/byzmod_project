@@ -4,7 +4,11 @@ state={
 	name="STATE_539"
 	manpower = 2564000
 	
-	state_category = rural
+	resources={
+		rubber = 40
+	}
+	
+	state_category = town
 	history={
 		owner = ENG
 		victory_points = {

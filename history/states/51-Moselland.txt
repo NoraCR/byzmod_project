@@ -18,6 +18,12 @@ state={
 		victory_points = {
 			587 5 
 		}
+		victory_points = {
+			3547 3
+		}
+		victory_points = {
+			9522 3
+		}
 		buildings = {
 			infrastructure = 8
 			arms_factory = 4
@@ -27,12 +33,6 @@ state={
 		}
 		add_core_of = GER
 
-		1939.1.1 = {
-			buildings = {
-				air_base = 6
-				radar_station = 1
-			}
-		}
 	}
 
 	provinces={
