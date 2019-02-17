@@ -11397,6 +11397,7 @@ news_event = {
 			has_government = pangalism 
 		}
 		country_exists = NEN 
+		NOT = { has_global_flag = len_march_fired }
 	}
 	
 	mean_time_to_happen = {
@@ -11456,6 +11457,7 @@ news_event = {
 			has_government = pangalism 
 		}
 		country_exists = NEN 
+		NOT = { has_global_flag = fascists_arrested_flag }
 	}
 	
 	mean_time_to_happen = {
