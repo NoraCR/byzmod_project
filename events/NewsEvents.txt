@@ -11382,3 +11382,120 @@ news_event = {
 		name = news.1004.b
 	}
 }
+# Fascist march in Lenape
+news_event = {
+	id = news.1005
+	title = news.1005.t
+	desc = news.1005.desc
+	picture = GFX_news_event_generic_parliament
+	
+	major = yes
+	
+	trigger = {
+		date > 1937.1.1
+		NEN = {
+			has_government = pangalism 
+		}
+		country_exists = NEN 
+	}
+	
+	mean_time_to_happen = {
+		days = 36
+	}
+	immediate = {
+		set_global_flag = len_march_fired 
+	}
+	option = {
+		trigger = {
+			has_government = fascism
+		}
+		name = news.1005.a
+	}
+	
+	option = {
+		trigger = {
+			has_government = pangalism
+		}
+		name = news.1005.b
+	}
+	
+	option = {
+		trigger = {
+				has_government = communism
+		}
+		name = news.1005.c
+	}
+	
+	option = {
+		trigger = {
+			has_government = democratic
+		}
+		name = news.1005.d
+	}
+	
+	option = {
+		name = news.1005.e
+		trigger = {
+			has_government = neutrality
+		}
+	}
+}
+
+# Fascists arrested
+news_event = {
+	id = news.1006
+	title = news.1006.t
+	desc = news.1006.desc
+	picture = GFX_news_event_generic_parliament
+	
+	major = yes
+	
+	trigger = {
+		date > 1939.1.1
+		NEN = {
+			has_government = pangalism 
+		}
+		country_exists = NEN 
+	}
+	
+	mean_time_to_happen = {
+		days = 72
+	}
+	immediate = {
+		set_global_flag = fascists_arrested_flag 
+	}
+	option = {
+		trigger = {
+			has_government = fascism
+		}
+		name = news.1006.a
+	}
+	
+	option = {
+		trigger = {
+			has_government = pangalism
+		}
+		name = news.1006.b
+	}
+	
+	option = {
+		trigger = {
+				has_government = communism
+		}
+		name = news.1006.c
+	}
+	
+	option = {
+		trigger = {
+			has_government = democratic
+		}
+		name = news.1006.d
+	}
+	
+	option = {
+		name = news.1006.e
+		trigger = {
+			has_government = neutrality
+		}
+	}
+}
