@@ -285,6 +285,7 @@ focus_tree = {
 						type = bunker
 						level = 3
 						province = {
+							all_provinces = yes
 							limit_to_border = yes
 							level < 3
 						}
@@ -299,6 +300,7 @@ focus_tree = {
 						type = bunker
 						level = 3
 						province = {
+							all_provinces = yes
 							limit_to_border = yes
 							level < 3
 						}
@@ -313,6 +315,7 @@ focus_tree = {
 						type = bunker
 						level = 3
 						province = {
+							all_provinces = yes
 							limit_to_border = yes
 							level < 3
 						}
@@ -326,6 +329,7 @@ focus_tree = {
 						type = bunker
 						level = 3
 						province = {
+							all_provinces = yes
 							limit_to_border = yes
 							level < 3
 						}
@@ -1099,6 +1103,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = communist_influence
+			remove_ideas = GER_weakening_democracy
 		}
 	}
 	focus = {
@@ -1180,6 +1185,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 200
 			add_ideas = GER_democratic_bastion
+			remove_ideas = GER_weakening_democracy
 		}
 	}
 	focus = {
@@ -1190,7 +1196,7 @@ focus_tree = {
 		}
 		x = 15
 		y = 2
-		cost = 2
+		cost = 3
 
 		ai_will_do = {
 			factor = 40
@@ -1325,6 +1331,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = GER_german_fascism
+			remove_ideas = GER_weakening_democracy
 		}
 	}
 	focus = {
@@ -2563,6 +2570,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = GER_kriegsschule_idea
+			remove_ideas = GER_spectre_of_defeat
 			add_research_slot = 1
 			}
 		}

@@ -4,7 +4,42 @@
 
 add_namespace = poland
 
+##Hey we might need to add a pilgrimage event?##
 
+country_event = {
+	id = poland.10
+	title = poland.10.t
+	desc = poland.10.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	trigger = {
+		tag = POL
+		POL = { has_war = no }
+		9 = {
+			controller = {
+				OR = {
+					tag = POL
+					is_in_faction_with = POL			
+				}
+			}
+		}
+		NOT = { country_exists = CZE }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = poland.10.a
+		remove_ideas = POL_discontented_nobility
+		hidden_effect = {
+			set_country_flag = POL_nobles_appeased
+		}
+	}
+}
 
 country_event = {
 	id = poland.12

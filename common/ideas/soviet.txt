@@ -162,12 +162,6 @@ ideas = {
 			allowed = {
 				original_tag = "SOV"
 			}
-			available = 
-			{
-
-			}
-			
-
 			
 			traits = { popular_figurehead }
 		}

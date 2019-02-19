@@ -10,7 +10,20 @@ spriteTypes = {
 
 	### UNIQUE national focus icons				
 
+	spriteType = {
+		name = "GFX_idea_ger_war_of_resistance3"
+		texturefile = "gfx/interface/ideas/idea_ger_war_of_resistance3.dds"
+	}
 	
+	spriteType = {
+		name = "GFX_idea_ger_war_of_resistance2"
+		texturefile = "gfx/interface/ideas/idea_ger_war_of_resistance2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ger_war_of_resistance"
+		texturefile = "gfx/interface/ideas/idea_ger_war_of_resistance.dds"
+	}	
 
 	### BYZANTINE IDEAS
 	spriteType = {

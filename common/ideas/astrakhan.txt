@@ -1,5 +1,6 @@
 ideas = {
-
+	country = {
+	}
 	political_advisor = {
 
 		AKH_ma_shucheng = {

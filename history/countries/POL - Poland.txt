@@ -37,6 +37,10 @@ set_technology = {
 	basic_machine_tools = 1
 }
 
+add_ideas = {
+	POL_discontented_nobility
+}
+
 # DIPLOMACY / WAR 36
 	declare_war_on = {
 		target = CZE

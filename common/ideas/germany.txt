@@ -2,24 +2,44 @@ ideas = {
 
 	country = {
 
-		
-		general_staff = {
+		GER_weakening_democracy = {
 			
 			allowed = {
 				original_tag = GER
 			}
-
 			allowed_civil_war = {
-				always = yes
+				has_government = democratic
 			}
-
+			
+			picture = triumphant_will
+			
 			removal_cost = -1
 			
 			modifier = {
-				army_org_Factor = 0.05
-				planning_speed = 0.25
+				stability_factor = -0.1
 			}
 		}
+		GER_spectre_of_defeat = {
+
+			picture = generic_manpower_bonus
+			
+			allowed = { 
+				always = no 
+			}
+			allowed_civil_war = { always = yes }
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_Factor = -0.15
+				planning_speed = -0.20
+			}
+			
+			research_bonus = {
+				land_doctrine = -0.4
+			}
+			
+		}		
 		GER_aerial_defenses_idea = {
 		
 			allowed = {
@@ -201,7 +221,7 @@ ideas = {
 		}
 		GER_war_of_resistance = {
 
-			picture = chi_war_of_resistance		
+			picture = ger_war_of_resistance		
 
 			allowed = {
 				always = no
@@ -214,14 +234,12 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_core_defence_factor = 0.1
+				army_core_defence_factor = 0.05
 			}
 		}
 		GER_war_of_resistance_2 = {
 
-			name = CHI_war_of_resistance
-
-			picture = chi_war_of_resistance2
+			picture = ger_war_of_resistance2
 
 			allowed = {
 				always = no
@@ -234,14 +252,14 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_core_defence_factor = 0.1
-				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.05
 			}
 		}
 
 		GER_liberation_war = {
 
-			picture = chi_war_of_resistance3			
+			picture = ger_war_of_resistance3			
 
 			allowed = {
 				always = no
@@ -254,7 +272,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_core_attack_factor = 0.1
+				army_core_attack_factor = 0.05
 			}
 		}
 		GER_destroy_the_empire = {
@@ -383,25 +401,6 @@ ideas = {
 				production_speed_rocket_site_factor = 0.15
 			}
 	
-		}
-
-		rhineland_challenge_met = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = fascism
-			}
-
-			removal_cost = -1
-			
-			picture = generic_democratic_drift_bonus
-
-			modifier = {
-				stability_factor = -0.10
-			}
 		}
 
 	}

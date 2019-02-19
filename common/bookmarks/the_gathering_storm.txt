@@ -147,7 +147,8 @@ bookmarks = {
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-
+				GER_weakening_democracy
+				GER_spectre_of_defeat
 			}
 			focuses = {
 				GER_defensive_measures

@@ -148,7 +148,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = generic_morale_bonus
+			picture = officers_purged
 			
 			modifier = {
 				land_reinforce_rate = 0.02
@@ -206,7 +206,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_disjointed_gov
+			picture = generic_secret_police
 			
 			modifier = {
 				foreign_subversive_activites = -0.50
