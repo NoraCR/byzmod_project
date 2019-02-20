@@ -112,7 +112,7 @@ create_corps_commander = {
     logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Apollonia Perghauser zu Weichs" #female
+	name = "Adelheit Perghauser zu Weichs" #female
 	portrait_path = "gfx/leaders/generic/generic_europe_f3.png"
 	traits = {  }
 	skill = 1

@@ -137,7 +137,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Ludwyk Weyher"
-	picture = "pol_ludwyk_weyher.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_m1.png"
 	traits = { offensive_doctrine logistics_wizard harsh_leader }
 	skill = 5
 	attack_skill = 5
@@ -148,7 +148,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Sebastian Furck"
-	picture = "pol_sebastian_furck.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_m2.png"
 	traits = { panzer_leader trait_engineer }
 	skill = 4
 	attack_skill = 4
@@ -158,8 +158,8 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Aleksander Karski"
-	picture= "pol_aleksander_karski.dds"
+	name = "Anastazja Karski"
+	portrait_path = "gfx/leaders/generic/generic_europe_f1.png"
 	traits = {  trait_mountaineer }
 	skill = 3
 	attack_skill = 3
@@ -170,11 +170,17 @@ create_corps_commander = {
 
 create_corps_commander= {
 	name = "Czcibor Umiastowski"
-	picture = "pol_czcibor_umiastowski.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_m3.png"
 	traits = { urban_assault_specialist }
 	skill = 2
 	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
+}
+create_navy_leader = {
+	name = "Kacper Przybyla"
+	portrait_path = "gfx/leaders/generic/adm_generic_mideast_m1.png"
+	traits = {  }
+	skill = 1
 }

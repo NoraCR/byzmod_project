@@ -139,7 +139,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Dakarai Mathema" #female
-	portrait_path = "gfx/leaders/leaders/generic_africa_f2.png"
+	portrait_path = "gfx/leaders/generic/generic_africa_f2.png"
 	traits = { cavalry_officer }
 	skill = 3
 	attack_skill = 3
@@ -150,7 +150,7 @@ create_corps_commander = {
 }
 create_navy_leader = {
 	name = "Zvionere Chikerema"
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_africa_m3.png"
 	traits = { spotter }
 	skill = 3
 }

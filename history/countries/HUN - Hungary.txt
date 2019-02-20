@@ -101,7 +101,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Somogyi Erzsébet" #female
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_f1.png"
 	traits = {  }
 	skill = 3
 	attack_skill = 3
@@ -112,7 +112,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Zobor Krisztofer"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	portrait_path = "gfx/leaders/generic/generic_europe_m1.png"
 	traits = {  trickster }
 	skill = 4
 	attack_skill = 3
@@ -122,11 +122,28 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Borbély Endre"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	portrait_path = "gfx/leaders/generic/generic_mideast_m2.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Király Zsuzsanna" #female
+	portrait_path = "gfx/leaders/generic/generic_avalon_f2.png"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	female = yes
+}
+create_navy_leader = {
+	name = "Fazekas László"
+	portrait_path = "gfx/leaders/generic/adm_generic_europe_m2.png"
+	traits = { }
+	skill = 1
 }

@@ -2667,8 +2667,9 @@
  germany.2.d:0 "Excellent news! [FRA.GetLeader] has given the order for Germania to annex the South German Foedorati and [AUS.GetName]. With these two states added to our own, we form a fitting partner to the [FRA.GetName]. Even the Byzantines won't be able to stand up to our combined might."
  germany.2.a:0 "Excellent."
  tr.1.t:0 "France Invites Us to the WRE"
- tr.1.d:0 "Good news! The Imperium has extended its hand in friendship towards us, in a common alliance against the Communist menace. They will be fitting partners in the destruction of the murderers of Rome, with the Imperium in the west and us in the east. Constantinople shall be ours!'
- tr.1.a:0 "We will not say "do svidaniya" to Byzantium, for we shall never see them again!"
+ tr.1.d:0 "Good news! The Imperium has extended its hand in friendship towards us, in a common alliance against the Communist menace. They will be fitting partners in the destruction of the murderers of Rome, with the Imperium in the west and us in the east. Constantinople shall be ours!"
+ tr.1.a:0 "We will not say 'do svidaniya' to Byzantium, for we shall never see them again!"
+ tr.1.b:0 "Uhhh, I don't know..."
  tr.21.t:0 "Russian Famine"
  tr.21.d:0 "Our motherland has suffered famines before, but this time events have unfolded as much worse than expected. The feudal landowners and provincial governors are incapable - or perhaps even unwilling - to react to a harsh winter and summer drought wiping out much of the wheat harvest. With refugees making their way from the front, food stocks grow thin and meagre.  \n\n The factories are empty as workers scavenge for food. The army is withering away, as they have no more will to fight. If only the Tsaritsa knew about this, they say."
  tr.21.a:0 "A disaster."

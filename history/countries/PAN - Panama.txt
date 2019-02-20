@@ -54,3 +54,14 @@ create_country_leader = {
 		#
 	}
 }
+
+create_corps_commander = {
+	name = "Eunice K. Cradduck" 
+	portrait_path = "gfx/leaders/Asia/generic_avalon_f1.png"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}

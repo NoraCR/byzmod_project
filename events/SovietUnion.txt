@@ -17,9 +17,14 @@ country_event = {
 		FRA = {
 			add_to_faction = SOV
 		}
+		ai_chance = { factor = 100 }
 		hidden_effect = {
 				news_event = { id = news.563 hours = 6 }
 		}
+	}
+	option = {
+		name = tr.1.b
+		ai_chance = { factor = 0 }
 	}
 }
 
@@ -84,7 +89,7 @@ country_event = {
 
 country_event = {
 	id = tr.101
-	title = tr.101
+	title = tr.101.t
 	desc = tr.101.d
 	fire_only_once = yes
 	trigger = {

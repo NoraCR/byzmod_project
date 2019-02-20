@@ -52,7 +52,7 @@ focus_tree = {
 		x = 6
 		y = 0
 		ai_will_do = {
-			factor = 40
+			factor = 80
 		}
 
 		available = {
@@ -86,7 +86,7 @@ focus_tree = {
 		x = 8
 		y = 0
 		ai_will_do = {
-			factor = 40
+			factor = 10
 			modifier = {
 				NOT = { CHI = { has_government = pangalism } }
 				factor = 100

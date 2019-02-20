@@ -2,7 +2,7 @@ state=
 {
 	id=620
 	name="STATE_620" # Hubei
-	manpower = 25541600
+	manpower = 40541600
 	
 	state_category = large_city
 	history=
@@ -19,24 +19,6 @@ state=
 		}
 		victory_points = { 
 			1612 3
-		}
-
-		1938.10.25 = {		
-			buildings = {
-				industrial_complex = 3
-				infrastructure = 6
-				air_base = 2
-				arms_factory = 2
-			}		
-			JAP = {
-				set_province_controller = 1036
-				set_province_controller = 4619
-				set_province_controller = 4631
-				set_province_controller = 7167
-				set_province_controller = 7637
-				set_province_controller = 9959
-				set_province_controller = 10462
-			} 			
 		}
 	}
 	provinces={
