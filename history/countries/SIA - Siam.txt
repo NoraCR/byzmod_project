@@ -204,9 +204,45 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 2
 }
+create_corps_commander = {
+	name = "Htet Kyaw" #Burmese male
+	portrait_path = "gfx/leaders/generic/generic_india_m3.png"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Valentin Baranov" #Russian male
+	portrait_path = "gfx/leaders/generic/generic_europe_m3.png"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Phan Anh Mai" #Viet female
+	portrait_path = "gfx/leaders/generic/generic_asia_f2.png"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
 create_navy_leader = {
 	name = "Pai Hualong" #Chinese male
 	portrait_path = "gfx/leaders/generic/generic_asia_m1.png"
 	traits = { superior_tactician spotter }
 	skill = 4
 }	
+create_navy_leader = {
+	name = "Uch Kravann" #Khmer male
+	portrait_path = "gfx/leaders/generic/generic_asia_m1.png"
+	traits = {  }
+	skill = 1
+}

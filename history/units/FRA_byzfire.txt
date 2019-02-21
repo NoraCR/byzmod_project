@@ -119,9 +119,12 @@ division_template = {
 		motorized = { x = 0 y = 0 }
 	    motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+	    motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
 	}
 	support = {
-        artillery = { x = 0 y = 0 }			
+        military_police = { x = 0 y = 0 }			
 	}
 	priority = 2
 }
@@ -178,7 +181,42 @@ units = {
 		start_equipment_factor = 0.8
 	}
 	division= {	
-		name = "2ème Légion de Cavalerie"
+		name = "101ème Légion d'Infanterie"
+		location = 549
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "102ème Légion d'Infanterie"
+		location = 549
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "103ème Légion d'Infanterie"
+		location = 549
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "104ème Légion d'Infanterie"
+		location = 549
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "105ème Légion d'Infanterie"
+		location = 549
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "4ème Légion de Cavalerie"
 		location = 11516
 		division_template = "Division de Cavalerie" 	
 		start_experience_factor = 0.2
@@ -269,6 +307,14 @@ units = {
 		start_equipment_factor = 0.8
 
 	}
+	division= {	
+		name = "2ème Légion de Cavalerie"
+		location = 3509
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
 
 	# IXe Corps d'Armée (Région Militaire in 1936) -- Tours
 	division= {	
@@ -278,7 +324,13 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9
 	}
-
+	division= {	
+		name = "47ème Légion d'Infanterie"
+		location = 3671
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
 	# XIe Corps d'Armée (Région Militaire in 1936) -- Nantes
 	division= {	
 		name = "16ème Légion d'Infanterie"
@@ -289,11 +341,25 @@ units = {
 
 	}
 	division= {	
+		name = "48ème Légion d'Infanterie"
+		location = 3671
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {	
 		name = "21ème Légion d'Infanterie"
 		location = 6536
 		division_template = "Division Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "49ème Légion d'Infanterie"
+		location = 3671
+		division_template = "Division Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {	
 		name = "5ème Brigade de Chars de Combat"
@@ -302,7 +368,20 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 	}
-
+	division= {	
+		name = "6ème Brigade de Chars de Combat"
+		location = 11465
+		division_template = "Brigade de Chars de Combat" 		# R-35s
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "99ème Brigade de Chars de Combat 'Alesia'"
+		location = 11465
+		division_template = "Brigade de Chars de Combat" 		# R-35s
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
 	# Région Militaire de Paris -- Paris
 	division= {	
 		name = "16ème Légion d'Infanterie"
@@ -384,7 +463,7 @@ units = {
 		location = 5291
 		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.67
+		
 
 	}
 	division= {	
@@ -392,7 +471,7 @@ units = {
 		location = 11502
 		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.67
+		
 
 	}
 	division= {	
@@ -400,7 +479,7 @@ units = {
 		location = 3629
 		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.67
+		
 
 	}
 	division= {	
@@ -408,7 +487,7 @@ units = {
 		location = 9503
 		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.67
+		
 
 	}
 	division= {	
@@ -416,7 +495,7 @@ units = {
 		location = 678
 		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.67
+		
 
 	}
 
@@ -514,7 +593,7 @@ units = {
 		location = 9909
 		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.67
+		
 
 	}
 	# Swiss Alpine Divisions
@@ -609,21 +688,21 @@ units = {
 		location = 3838
 		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.67
+		
 	}
 	division= {	
 		name = "Sardaigne Légion d'Inf. de Forteresse"
 		location = 11773
 		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.67
+		
 	}
 	division= {	
 		name = "Iles Baléares Légion d'Inf. de Forteresse"
 		location = 9793
 		division_template = "Division Infanterie" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.67
+		
 	}
 	### SPANISH GARRISONS ###
 	division= {	
@@ -753,6 +832,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
 	}
+	
 #####CSP (Comité de salut public) REGIMENTS - SECRET POLICE #####
 	division= {	
 		name = "Comité de Salut Public - Quartier Général"

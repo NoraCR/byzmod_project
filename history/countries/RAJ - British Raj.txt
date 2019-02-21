@@ -148,6 +148,17 @@ create_corps_commander = {
 
 }
 create_corps_commander = {
+	name = "Vinesh Tamhanakar"
+	portrait_path = "gfx/leaders/generic/generic_india_m3.png"
+	traits = {   }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+
+}
+create_corps_commander = {
 	name = "Tharaka Samaraweera" #female
 	portrait_path = "gfx/leaders/generic/generic_india_f3.png"
 	traits = { urban_assault_specialist }
@@ -170,4 +181,18 @@ create_corps_commander = {
 	logistics_skill = 1
 	female = yes
 
+}
+
+create_navy_leader = {
+	name = "Chandrabali Kandulphul" #female
+	portrait_path = "gfx/leaders/generic/adm_generic_india_f2.png"
+	traits = { }
+	skill = 3
+	female = yes
+}
+create_navy_leader = {
+	name = "Aditya Bhattacharya" 
+	portrait_path = "gfx/leaders/generic/adm_generic_india_m1.png"
+	traits = { }
+	skill = 1
 }
