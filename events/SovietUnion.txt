@@ -95,6 +95,7 @@ country_event = {
 	trigger = {
 		date > 1937.2.14
 		tag = SOV
+		surrender_progress > 0.85
 	}
 	mean_time_to_happen = {
 		days = 2
