@@ -96,6 +96,7 @@ country_event = {
 		date > 1937.2.14
 		tag = SOV
 		surrender_progress > 0.85
+		has_war = yes
 	}
 	mean_time_to_happen = {
 		days = 2
