@@ -201,7 +201,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 40
 			modifier = {
-				democratic < 0.5
+				JAP = { has_offensive_war_with = CHI }
 				factor = 0.5
 			}
 		}
@@ -242,14 +242,6 @@ focus_tree = {
 		y = 0
 		ai_will_do = {
 			factor = 40
-			modifier = {
-				OR = {
-					communism > 0.15
-					fascism > 0.15
-					pangalism > 0.15
-					}
-				factor = 2.5
-			}
 		}
 
 		available = {
