@@ -95,6 +95,7 @@ country_event = {
 	trigger = {
 		date > 1937.2.14
 		tag = SOV
+		has_government = fascism
 		surrender_progress > 0.85
 		has_war = yes
 	}

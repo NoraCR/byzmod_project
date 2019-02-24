@@ -2993,6 +2993,8 @@
  SIA_local_elites_desc:0 "The vast domains of the Great Ming require some degree of delegation and local autonomy. Close cooperation with these local business leaders is essential for maintaining governmental functions."
  SIA_empower_cao:0 "Empower Cao Liuxian"
  SIA_empower_cao_desc:0 "The Cao experiment has proven to be a great success in increasing resource outputs. We should continue to invest in this economic miracle worker."
+ SIA_marginalized_locals:0 "Marginalized Locals"
+ SIA_marginalized_locals_desc:0 "We cannot allow overcentralization or inefficiency. We must restore some control to local leaders and avoid a further revolt."
  SIA_brain_drain_idea:0 "Brain Drain"
  SIA_brain_drain_idea_desc:0 "Our sudden appropriation of Chinese factories has led to a mass exodus of trained personnel. It will take some time to recover."
  JAP_haida_technology:0 "Haida Technology Trading"

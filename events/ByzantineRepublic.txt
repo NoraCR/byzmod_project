@@ -542,7 +542,7 @@ country_event = {
 		has_country_leader = {
 				name = "Theodora Papadopoulou"
 				ruling_only = yes
-			}
+		}
 	}
 	
 	option = {

@@ -11304,6 +11304,105 @@ news_event = {
 }
 
 news_event = {
+	id = news.707 #Tycoon Arrested
+	title = news.707.t
+	picture = GFX_news_event_journalists_speech
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.707.d
+	}
+	
+	option = {
+		name = news.707.a
+	}
+}
+news_event = {
+	id = news.708 #Ayiti stays socialist
+	title = news.708.t
+	picture = GFX_news_event_generic_communist_congress
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.708.desc
+	}
+	
+	option = {
+		name = news.708.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.708.b
+		trigger = {
+			has_government = communism
+			}
+		}
+	option = {
+		name = news.708.c
+		trigger = {
+			has_government = democratic
+		}
+	}
+	option = {
+		name = news.708.d
+		trigger = {
+			has_government = pangalism
+		}
+	}
+	option = {
+		name = news.708.e
+		trigger = {
+			has_government = neutrality
+		}
+	}
+}
+news_event = {
+	id = news.709 #Ayiti goes liberal
+	title = news.709.t
+	picture = GFX_news_event_generic_communist_congress
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.709.desc
+	}
+	
+	option = {
+		name = news.709.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.709.b
+		trigger = {
+			has_government = communism
+			}
+		}
+	option = {
+		name = news.709.c
+		trigger = {
+			has_government = democratic
+		}
+	}
+	option = {
+		name = news.709.d
+		trigger = {
+			has_government = pangalism
+		}
+	}
+	option = {
+		name = news.709.e
+		trigger = {
+			has_government = neutrality
+		}
+	}
+}
+news_event = {
 	id = news.807 #Sicily Gains Independence
 	title = news.807.t
 	picture = GFX_news_event_generic_communist_congress

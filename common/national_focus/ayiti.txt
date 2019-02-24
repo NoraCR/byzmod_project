@@ -2156,6 +2156,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_timed_idea = { idea = AYI_socialist_programs days = 720 }
+			hidden_effect = {
+				news_event = { hours = 24 id = news.708 }
+			}
 		}
 	}
 	focus = {
@@ -2555,6 +2558,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_timed_idea = { idea = AYI_rally_old_guard days = 720 }
+			hidden_effect = {
+				news_event = { hours = 24 id = news.709 }
+			}
 		}
 	}
 	focus = {

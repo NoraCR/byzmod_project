@@ -65,6 +65,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 150
+			hidden_effect = {
+				news_event = { hours = 24 id = news.707 }
+			}
 		}
 
 	}
