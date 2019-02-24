@@ -57,7 +57,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Eunice K. Cradduck" 
-	portrait_path = "gfx/leaders/Asia/generic_avalon_f1.png"
+	portrait_path = "gfx/leaders/generic/generic_avalon_f1.png"
 	traits = { }
 	skill = 3
 	attack_skill = 3

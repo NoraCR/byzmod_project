@@ -73,7 +73,7 @@ units = {
 		location = 3273
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	division= {	
@@ -81,7 +81,31 @@ units = {
 		location = 9392
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
+
+	}
+	division= {	
+		name = "81st Infantry Division"
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+
+	}
+	division= {	
+		name = "82nd Infantry Division"
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+
+	}
+	division= {	
+		name = "83nd 'Lowland' Infantry Division"
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
 
 	}
 	#Northern Command
@@ -90,7 +114,15 @@ units = {
 		location = 11297
 		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
+
+	}
+	division= {	
+		name = "8th Cavalry Brigade"
+		location = 11297
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
 
 	}
 	division= {	
@@ -104,7 +136,7 @@ units = {
 		location = 9397
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	division= {	
@@ -112,7 +144,7 @@ units = {
 		location = 11218
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	#Eastern Command
@@ -127,7 +159,7 @@ units = {
 		location = 11221
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	division= {	
@@ -135,7 +167,7 @@ units = {
 		location = 3287
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	#Western Command	
@@ -144,7 +176,7 @@ units = {
 		location = 407
 		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	division= {	
@@ -152,7 +184,7 @@ units = {
 		location = 6318
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	division= {	
@@ -160,7 +192,7 @@ units = {
 		location = 311
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	division= {	
@@ -168,12 +200,18 @@ units = {
 		location = 6384
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	#Southern Command
 	division= {	
 		name = "Royal Tank Regiment"
+		location = 9239
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Queen Victoria Light Tank Brigade"
 		location = 9239
 		division_template = "Tank Brigade"
 		start_experience_factor = 0.3
@@ -189,7 +227,7 @@ units = {
 		location = 3369
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	division= {	
@@ -197,7 +235,7 @@ units = {
 		location = 6351
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	
@@ -207,7 +245,7 @@ units = {
 		location = 10968
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	division= {	  
@@ -215,7 +253,7 @@ units = {
 		location = 6039
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	division= {	  
@@ -223,7 +261,7 @@ units = {
 		location = 5084
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	division= {	  
@@ -231,7 +269,7 @@ units = {
 		location = 1181
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	division= {	  
@@ -239,14 +277,14 @@ units = {
 		location = 988
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		name = "Katanga Groups"
 		location = 4515
 		division_template = "Colonial Garrison"	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	

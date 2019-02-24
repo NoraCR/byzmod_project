@@ -110,6 +110,17 @@ create_corps_commander = {
     logistics_skill = 3
 }
 
+create_corps_commander = {
+	name = "Fausto Ma"
+	portrait_path = "gfx/leaders/generic/generic_india_m2.png"
+	traits = {  }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+
 create_navy_leader = {
 	name = "Sebastián A. Moretti"
 	portrait_path = "gfx/leaders/generic/adm_generic_europe_m2.png"

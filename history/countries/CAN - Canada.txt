@@ -128,8 +128,8 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Maxime Heenan"
-	portrait_path = "gfx/leaders/generic/generic_europe_m3.png"
+	name = "Maxine G. Heenan"
+	portrait_path = "gfx/leaders/generic/generic_avalon_f3.png"
 	traits = { }
 	skill = 3
     attack_skill = 1

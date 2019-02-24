@@ -1253,7 +1253,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOM_liberate_zimbabwe
-		icon = GFX_goal_continuous_suppression
+		icon = GFX_focus_generic_support_the_left_right
 		cost = 10.00
 		prerequisite = {
 			focus = SOM_free_africa

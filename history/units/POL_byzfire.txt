@@ -459,30 +459,30 @@ air_wings = {
 	66 = { 
 		fighter_equipment_1 =  {
 			owner = "POL" 
-			amount = 108
+			amount = 64
 		}
 		CAS_equipment_1 =  {
 			owner = "POL" 
-			amount = 100
+			amount = 48
 		}
 		tac_bomber_equipment_1 =  {	
 			owner = "POL" 
-			amount = 100
+			amount = 48
 		}
 		
 	}
 	75 = { 
 		fighter_equipment_1 =  {
 			owner = "POL" 
-			amount = 100
+			amount = 48
 		}
 		CAS_equipment_1 =  {
 			owner = "POL" 
-			amount = 50
+			amount = 48
 		}
 		tac_bomber_equipment_1 =  {	
 			owner = "POL" 
-			amount = 80
+			amount = 72
 		}
 	}
 }

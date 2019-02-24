@@ -376,6 +376,10 @@ air_wings = {
 			owner = "HDA" 
 			amount = 72
 		}
+		fighter_equipment_0 =  {
+			owner = "HDA" 
+			amount = 60
+		}
 	}
 	385 = {
 		tac_bomber_equipment_0 =  {
@@ -383,6 +387,10 @@ air_wings = {
 			amount = 72
 		}
 		fighter_equipment_0 =  {
+			owner = "HDA" 
+			amount = 72
+		}
+		nav_bomber_equipment_1 =  {
 			owner = "HDA" 
 			amount = 72
 		}
