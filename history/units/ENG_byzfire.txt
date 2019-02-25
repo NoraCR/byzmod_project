@@ -313,7 +313,7 @@ units = {
 		ship = { name = "HMS Perth" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
 		ship = { name = "HMS Berwick" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
 		ship = { name = "HMS Hadrian" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }			
-		ship = { name = "HMS Pax Europa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Theseus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		### 6th Destroyer Flotilla
 		ship = { name = "HMS Claudius" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
 		# Destroyer Division 11
@@ -324,7 +324,7 @@ units = {
 		# Destroyer Division 12
 		ship = { name = "HMS Evensong" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Shetland" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Great Seal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Holyrood" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Radziwill" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		### 8th Destroyer Flotilla
 		ship = { name = "HMS Sterling" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
@@ -382,7 +382,7 @@ units = {
 		# Destroyer Division 10
 		ship = { name = "HMS Scapa Flow" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }				
 		ship = { name = "HMS Heligoland Bight" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }			
-		ship = { name = "HMS Gloriana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }			
+		ship = { name = "HMS Hippolyta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }			
 		ship = { name = "HMS Amazon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }		
 	}
 	navy = {				
@@ -424,9 +424,9 @@ units = {
 		base = 6300
 		location = 6300 # Rosyth
 		# Rosyth Destroyer Division
-		ship = { name = "HMS Oli" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }			
-		ship = { name = "HMS Day" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Jessamine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Perseus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }			
+		ship = { name = "HMS Belacqua" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Phaeton" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 	}				
 	navy = {				
 		name = "Nore Fleet"
@@ -435,9 +435,9 @@ units = {
 		ship = { name = "HMS Carton" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
 		ship = { name = "HMS Ipswich" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 		# Nore Destroyer Division
-		ship = { name = "HMS Jo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS January" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Edison" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Innogen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Leir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Cordelia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Cadence" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Antonine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		### 14th Destroyer Flotilla
@@ -450,8 +450,8 @@ units = {
 		# Destroyer Division 28
 		ship = { name = "HMS Kamber" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }	
 		ship = { name = "HMS Boadicea" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }	
-		ship = { name = "HMS Cromwell" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }	
-		ship = { name = "HMS Cardinal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Argosy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }	
+		ship = { name = "HMS Caractacus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
 	}				
 	navy = {				
 		name = "Portsmouth Fleet"
@@ -465,7 +465,7 @@ units = {
 		ship = { name = "HMS Rose" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Sardonyx" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		# Destroyer Division 18
-		ship = { name = "HMS Northerly" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		ship = { name = "HMS Sutherland" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
 		ship = { name = "HMS Livens" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 	}				
 	navy = {				
@@ -482,8 +482,8 @@ units = {
 		ship = { name = "HMS Historia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		# Destroyer Division 21
 		ship = { name = "HMS Woodhenge" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Cerne Abbas Giant" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Green Man" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Cerne Abbas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Ayr" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Faerie" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		# Destroyer Division 22
 		ship = { name = "HMS Lace" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
@@ -496,15 +496,15 @@ units = {
 		base = 4135
 		location = 4135 # Gibraltar
 		ship = { name = "HMS Boston" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
-		ship = { name = "HMS Congo River" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Congo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 		ship = { name = "HMS Weasel" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		# 13th Destroyer Flotilla
 		ship = { name = "HMS Boyama Falls" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		# Destroyer Division 25
 		ship = { name = "HMS Vilette" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Ziegler" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Amari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Luisa Rey" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Loch Lomond" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Islay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Louise" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		# Destroyer Division 26
 		ship = { name = "HMS Black Douglas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Clanna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }	
@@ -540,9 +540,9 @@ units = {
 		ship = { name = "HMS Barracuda" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Payara" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Sargo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Alexander" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Phoenix" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Sephirot" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Cetus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Stingray" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Salamander" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
 	}				
 
 	### MEDITERRANIAN FLEET ###			
@@ -573,7 +573,7 @@ units = {
 		ship = { name = "HMS Siol Alpin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }			# to RCN as Restigouche, 1938
 		ship = { name = "HMS Shakespeare" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }			# to RCN as Ottawa, 1938	
 		ship = { name = "HMS Cygnet" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }			# to RCN as St Laurent, 1937
-		ship = { name = "HMS Mornington Crescent" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }			# to RCN as Fraser, 1937
+		ship = { name = "HMS Firth" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }			# to RCN as Fraser, 1937
 		# Destroyer Division 2
 		ship = { name = "HMS Python" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Argo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
@@ -586,9 +586,9 @@ units = {
 		### 3rd Destroyer Flotilla
 		ship = { name = "HMS Pepys" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
 		# Destroyer Division 5
-		ship = { name = "HMS Cabal" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Arran" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Quicksilver" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
-		ship = { name = "HMS Waterhouse" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Leith" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Caroline" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }											# to RCN as Gatineau, 1943	
 		# Destroyer Division 6
 		ship = { name = "HMS Bloody Nora" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
@@ -651,8 +651,8 @@ units = {
 		ship = { name = "HMS Achiltibuie" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 		# Singapore & Hong Kong Division
 		ship = { name = "HMS MacDonell" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
-		ship = { name = "HMS Annan Waters" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
-		ship = { name = "HMS Gillitie" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
+		ship = { name = "HMS Skye" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
+		ship = { name = "HMS Cairndow" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
 		ship = { name = "HMS Spartacus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
 	}
 	### CONGO ###
@@ -661,7 +661,7 @@ units = {
 		base = 10968
 		location = 10968 # Congo	
 		ship = { name = "HMS Stonehaven" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }		# to RNZN 1941
-		ship = { name = "HMS Lochmodan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }		# to RNZN 1941
+		ship = { name = "HMS Blackpool" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }		# to RNZN 1941
 	}				
 	navy = {				
 		name = "4th Submarine Flotilla"			
