@@ -48,7 +48,7 @@
 		generic = { "Battleship" }
 		unique = {
 			# Goddesses (and gods if you need more)
-			"Nike" "Athena" "Hera" "Persephone" "Artemis" "Pallas" "Hestia" "Aphrodite" "Demeter" "Gaia" "Eos" "Hecate" "Selene" "Mnemosyne" "Phoebe" "Rhea" "Themis" "Leto" "Clotho" "Lachesis" "Atropos" "Tethys" "Rhea" "Eurbia" "Asteria" "Ganymede" "Eris" "Isis" "Calliope" "Clio" "Euterpe" "Melpomene" "Polyhymnia" "Terpischore" "Thalia" "Urania" "Aglaea" "Eurphorynse" "Thalia" "Thalassa" "Eurynome" "Metis" "Nemesis" "Alecto" "Tisphone" "Megaera" "Adikia"
+			"Nike" "Athena" "Hera" "Persephone" "Artemis" "Pallas" "Hestia" "Aphrodite" "Demeter" "Gaia" "Eos" "Hecate" "Selene" "Mnemosyne" "Phoebe" "Rhea" "Themis" "Leto" "Clotho" "Lachesis" "Atropos" "Tethys" "Rhea" "Eurbia" "Asteria" "Ganymede" "Eris" "Isis" "Calliope" "Clio" "Euterpe" "Melpomene" "Polyhymnia" "Terpischore" "Thalia" "Urania" "Aglaea" "Eurphorynse" "Thalia" "Thalassa" "Eurynome" "Metis" "Nemesis" "Alecto" "Tisphone" "Megaera" "Adikia" "Neith" "Ailuros"
 		}
 	}	
 	carrier = {
@@ -56,7 +56,7 @@
 		generic = { "Carrier" }
 		unique = { 
 		# names celebrating revolution, communism, etc.
-			"Qiu Zhichao" "Noor Sallajer" "Athens Commune" "Evgenia Exteberria" "Ten Thousand Martyrs" "First International" "Reyhan Hamzaoglu" "Red Guard" "Combined Syndicates" "Kurt Muller" "Grand Secretariat" "Madame Hiratine" "Peasant's War" "Proletarian" "Krakatoa Sunset" "Owl of Athena" "Ziyi Demetriou" "Ryuzoji Nagahito" "Red Star" "Regicide" "Simeon Djordjic" "Julia Radziwill" "Liraz Tavori" "Minna Cyrahzax" "Mathias Sniperid" "Yuchun He" "Eskander Ansari" "Balboa" 
+			"Gaius Gracchus" "Tiberius Gracchus""Qiu Zhichao" "Noor Sallajer" "Athens Commune" "Evgenia Exteberria" "Ten Thousand Martyrs" "First International" "Reyhan Hamzaoglu" "Red Guard" "Combined Syndicates" "Kurt Muller" "Grand Secretariat" "Madame Hiratine" "Peasant's War" "Proletarian" "Krakatoa Sunset" "Owl of Athena" "Ziyi Demetriou" "Ryuzoji Nagahito" "Red Star" "Regicide" "Simeon Djordjic" "Julia Radziwill" "Liraz Tavori" "Minna Cyrahzax" "Mathias Sniperid" "Yuchun He" "Eskander Ansari" "Balboa" 
 			}
 	}
 
@@ -65,7 +65,7 @@ infantry = {
 		generic = { "Infantry" }
 		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
 		unique = {
-		"Fifth Foreign Legion" "Sixth Foreign Legion" "Seventh Foreign Legion" "Fourth Treaty Army Infantry" "Exteberria's Own Rifles" "Fifth Treaty Army Infantry" "Sixth Treaty Army Infantry" "Byzantion Shooting Club 34th Chapter" "Seventh Treaty Army Infantry" "IWM Local 333" "Eight Treaty Army Infantry" "International Divison" "IWM Local 4242" "Osman's Heroes" "Fifth Treaty Army Infantry" "Sixth Treaty Army Infantry" "Mechanics Union Local 313" "IWM Local 111" "First Antifa Volunteers" "Second Antifa Volunteer" "Red Banner Division" "Glorious 1884" "Civil Service Association Local 86" "Seventh Treaty Army Infantry" "Eight Treaty Army Infantry"
+		"Fifth Foreign Legion" "Sixth Foreign Legion" "Seventh Foreign Legion" "Fourth Treaty Army Infantry" "Exteberria's Own Rifles" "Fifth Treaty Army Infantry" "Sixth Treaty Army Infantry" "Byzantion Shooting Club 34th Chapter" "Seventh Treaty Army Infantry" "IWM Local 333" "Eighth Treaty Army Infantry" "International Divison" "IWM Local 4242" "Osman's Heroes" "Fifth Treaty Army Infantry" "Sixth Treaty Army Infantry" "Mechanics Union Local 313" "IWM Local 111" "First Antifa Volunteers" "Second Antifa Volunteer" "Red Banner Division" "Glorious 1884" "Civil Service Association Local 86" "Eighth Foreign Legion" "Ninth Foreign Legion"
 		}
 	}
 	motorized = {
@@ -73,7 +73,7 @@ infantry = {
 		generic = { "Motorized Infantry" }
 		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
 		unique = {
-		"Athens Motoring Club" "Teamsters Local 701" "Red Ball Express" "Teamster Local 702" "Athens Commune Coach Drivers 2112" "1st Motorized Infantry Division" "2nd Motorized Infantry Division" "3rd Motorized Infantry Division" "4th Motorized Infantry Division"
+		"1st Treaty Army Dragoons" "2nd Treaty Army Dragoons" "Athens Motoring Club" "Teamsters Local 701" "Red Ball Express" "Teamster Local 702" "Athens Commune Coach Drivers 2112" "1st Motorized Infantry Division" "2nd Motorized Infantry Division" "3rd Motorized Infantry Division" "4th Motorized Infantry Division" "5th Motorized Infantry Division" "6th Motorized Infantry Division" "7th Motorized Infantry Division" "First Motorized Foreign Legion" "Second Motorized Foreign Legion" "Third Motorized Foreign Legion" 
 		}
 	}
 	mountaineers = {
@@ -81,7 +81,7 @@ infantry = {
 		generic = { "Alpine Infantry" }
 		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
 		unique = {
-		"Gorz Mountaineering Society" "Red Alps Division" "Asiago Alpine Club" "1st Ski Division" "2nd Ski Division" "3rd Ski Divison" "28th Mountain Infantry Division" "47th Mountain Infantry Division" "54th Mountain Rifle Division" "1st Caucasus Mountain Division"
+		"Gorz Mountaineering Society" "Red Alps Division" "Asiago Alpine Club" "1st Ski Division" "2nd Ski Division" "3rd Ski Divison" "28th Mountain Infantry Division" "47th Mountain Infantry Division" "54th Mountain Rifle Division" "1st Caucasus Mountain Division" "42nd Mountain Infatry Division 'Matterhorn'" "Red Olympus Division"
 		}
 	}
 	cavalry = {
@@ -89,21 +89,21 @@ infantry = {
 		generic = { "Cavalry" }
 		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
 		unique = {
-		"Knights of Calatrava" "Knights of St. Kaisarios" "Artemis' Own Cavalry" "1st Volunteer Cavalry Division" "1st Mountain Cavalry Division"
+		"Knights of Calatrava" "Knights of St. Kaisarios" "Artemis' Own Cavalry" "1st Volunteer Cavalry Division" "1st Mountain Cavalry Division" "Sicilian Rangers"
 		}
 	}
 	light_armor = {
 		prefix = ""
 		generic = { "Armored Cavalry" }
 		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
-		unique = { "1st Armored Cavalry Division" "2nd Armored Cavalry Division" "3rd Armored Cavalry Division" "4th Armored Cavalry Division" }
+		unique = { "1st Armored Cavalry Division" "2nd Armored Cavalry Division" "3rd Armored Cavalry Division" "4th Armored Cavalry Division" "5th Armored Cavalry Division" "6th Armored Cavalry Division" "First Armored Foreign Legion Cavalry" }
 	}
 	medium_armor = {
 		prefix = ""
 		generic = { "Landships" }
 		generic_pattern = "UNIT_GENERIC_NAME_BYZ"
 		unique = {
-		"Fourth Treaty Army Cataphracts" "Fifth Treaty Army Cataphracts" "First Foreign Legion Cataphracts" "Second Foreign Legion Cataphracts" "Third Foreign Legion Cataphracts" "Fourth Foreing Legion Cataphracts" "1st New Red Army Landship Divison" "2nd New Red Army Landship Divison" "3rd New Red Army Landship Divison" "4th New Red Army Landship Divison" "5th New Red Army Landship Divison" "6th New Red Army Landship Divison" "7th New Red Army Landship Divison" "8th New Red Army Landship Divison" "9th New Red Army Landship Divison" "10th New Red Army Landship Divison"
+		"Fourth Treaty Army Cataphracts" "Fifth Treaty Army Cataphracts" "First Foreign Legion Cataphracts" "Second Foreign Legion Cataphracts" "Third Foreign Legion Cataphracts" "Fourth Foreign Legion Cataphracts" "1st New Red Army Landship Divison" "2nd New Red Army Landship Divison" "3rd New Red Army Landship Divison" "4th New Red Army Landship Divison" "5th New Red Army Landship Divison" "6th New Red Army Landship Divison" "7th New Red Army Landship Divison" "8th New Red Army Landship Divison" "9th New Red Army Landship Divison" "10th New Red Army Landship Divison" "Sixth Treaty Army Cataphracts" "Seventh Treaty Army Cataphracts" "Eighth Treaty Army Cataphracts"
 		}
 	}
 }

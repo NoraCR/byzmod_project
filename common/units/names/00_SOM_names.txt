@@ -56,7 +56,7 @@
 			"Maxamed Muzaffar" "Somaliland" "Guuleysiga Byzantion" "Muqdisho"
 		} 
 	} 
-	carrier = { 
+	carrier = {  
 		prefix = "SR" 
 		generic = { "Xambaara Dayuuradaha" } 
 		unique = { 
