@@ -1150,7 +1150,7 @@ units = {
 		ship = { name = "RNS Pamphylon" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
 		# 34th Destroyer Division			
 		ship = { name = "RNS Cyrahzax" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BYZ } } }		
-		ship = { name = "RNS Qutzid" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BYZ } } }		
+		ship = { name = "RNS Qutuzid" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BYZ } } }		
 		ship = { name = "RNS Hira" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BYZ } } }		
 		ship = { name = "RNS De Bassot" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BYZ } } }		
 		# 35th Destroyer Division			
@@ -1228,7 +1228,7 @@ units = {
 		ship = { name = "RNS Dyrnwyn" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Kladenets" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Jokulsnaut" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } }
-		ship = { name = "RNS Ashbringer" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } } # ha ha
+		ship = { name = "RNS Mmaagha Kamalu" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BYZ } } } # 
 	}					
 
 	### ASIATIC FLEET -- Gibraltar, PHI
@@ -1283,8 +1283,8 @@ units = {
 		ship = { name = "RNS Athos" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Etna" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 		ship = { name = "RNS Helicon" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
-		ship = { name = "RNS Matterhorn" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
-		ship = { name = "RNS Vesuvius" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }	
+		ship = { name = "RNS Radomir" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
+		ship = { name = "RNS Dinara" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }	
 	}					
 	navy = {					
 		name = "Battleship Division 5"				
@@ -1295,7 +1295,7 @@ units = {
 		ship = { name = "RNS Trebizond" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ } } }
 		ship = { name = "RNS Latium" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ } } }	
 		ship = { name = "RNS Pelopennese" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ } } }	
-		ship = { name = "RNS Trebizond" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ } } }	
+		ship = { name = "RNS Macedon" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BYZ } } }	
 	}					
 	navy = {					
 		name = "Cruiser Division 2"				
@@ -1333,7 +1333,7 @@ units = {
 		name = "RNS Juno Koca"				
 		base = 4135
 		location = 4135 # Gibraltar
-		ship = { name = "RNS Karl Marx" definition = carrier equipment = { carrier_2 = { amount = 1 owner = BYZ } } 
+		ship = { name = "RNS Juno Koca" definition = carrier equipment = { carrier_2 = { amount = 1 owner = BYZ } } 
 			air_wings = {
 				cv_fighter_equipment_0 =  { owner = "BYZ" amount = 8 } # historical: 36
 				cv_CAS_equipment_1 =  { owner = "BYZ" amount = 14 } # historical: 15
@@ -1425,7 +1425,7 @@ units = {
 		ship = { name = "RNS Gravina" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
 		ship = { name = "RNS Ferrari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
 		ship = { name = "RNS Zunica" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
-		ship = { name = "RNS Gobroon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
+		ship = { name = "RNS Plovdiv" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
 	}					
 	navy = {					
 		name = "1st Submarine Squadron"				
