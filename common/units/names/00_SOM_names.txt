@@ -1,6 +1,6 @@
 ﻿SOM = { 
 	submarine = { 
-		prefix = "SR" 
+		prefix = "CBS" 
 		generic = { "Gujis" } 
 		unique = { 
 			"G-1" "G-2" "G-3" "G-4" "G-5" "G-6" "G-7" "G-8" "G-9" "G-10" "G-11" "G-12" "G-13" "G-14" "G-15" "G-16" "G-17" "G-18" "G-19" "G-20" "G-21" "G-22" "G-23" "G-24" "G-25" "G-26" 
@@ -8,7 +8,7 @@
 		} 
 	} 
 	destroyer = { 
-		prefix = "SR" 
+		prefix = "CBS" 
 		generic = { "Burburay" } 
 		unique = { 
 			#big cats
@@ -22,7 +22,7 @@
 		} 
 	} 
 	light_cruiser = { 
-		prefix = "SR" 
+		prefix = "CBS" 
 		generic = { "Light Cruiser" } 
 		unique = { 
 			#northern cities
@@ -33,7 +33,7 @@
 		} 
 	} 
 	heavy_cruiser = { 
-		prefix = "SR" 
+		prefix = "CBS" 
 		generic = { "Heavy Cruiser" } 
 		unique = { 
 			#historic sites
@@ -41,7 +41,7 @@
 		} 
 	} 
 	battle_cruiser = { 
-		prefix = "SR" 
+		prefix = "CBS" 
 		generic = { "Battlecruiser" } 
 		unique = { 
 			#historic conquests, generals
@@ -49,7 +49,7 @@
 		} 
 	} 
 	battleship = { 
-		prefix = "SR" 
+		prefix = "CBS" 
 		generic = { "Markab Dagaal" } 
 		unique = { 
 			#battles, major regions/cities, dictators
@@ -57,7 +57,7 @@
 		} 
 	} 
 	carrier = {  
-		prefix = "SR" 
+		prefix = "CBS" 
 		generic = { "Xambaara Dayuuradaha" } 
 		unique = { 
 			#grand symbolic names, heroes
