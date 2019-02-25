@@ -345,7 +345,7 @@ units = {
 		location = 9458
 		ship = { name = "HMS Maud von Habsburg" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }					
 		ship = { name = "HMS Victoria I" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }					
-		ship = { name = "HMS Belaqua" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }		
+		ship = { name = "HMS Thunder Child" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }		
 		ship = { name = "HMS Smith" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }		
 		ship = { name = "HMS Holyhead" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 		ship = { name = "HMS Caernarfon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
