@@ -536,8 +536,9 @@ ideas = {
 
 		designer = yes
 		
-		porsche = {
+		brandeis = {
 
+			picture = porsche
 			
 			allowed = {
 				original_tag = GER
@@ -551,11 +552,13 @@ ideas = {
 
 		}
 		
-		henschel = {
+		ehrenstein = {
 			
 			allowed = {
 				original_tag = GER
 			}
+			
+			picture = henschel
 			
 			research_bonus = {
 				armor = 0.10
@@ -568,11 +571,13 @@ ideas = {
 			}
 		}
 		
-		MAN = {
+		MEO = {
 			
 			allowed = {
 				original_tag = GER
 			}
+			
+			picture = macchi
 			
 			research_bonus = {
 				armor = 0.10
@@ -590,12 +595,14 @@ ideas = {
 		
 		designer = yes
 		
-		germaniawerft = {
+		nordseewerft = {
 
 			
 			allowed = {
 				original_tag = GER
 			}
+			
+			picture = germaniawerft
 			
 			research_bonus = {
 				naval_equipment = 0.10
@@ -609,12 +616,14 @@ ideas = {
 			
 		}
 		
-		blohm_und_voss = {
+		bohm_und_heun = {
 
 			
 			allowed = {
 				original_tag = GER
 			}
+			
+			picture = blohm_und_voss
 			
 			research_bonus = {
 				naval_equipment = 0.10
@@ -633,7 +642,7 @@ ideas = {
 			
 		designer = yes
 		
-		messerschmitt = {
+		beyerlein = {
 			
 			allowed = {
 				original_tag = GER
@@ -642,6 +651,8 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.10
 			}
+			
+			picture = messerschmitt
 			
 			traits = { light_aircraft_manufacturer }
 			
@@ -654,7 +665,7 @@ ideas = {
 			}
 		}
 		
-		junkers = { 
+		klotz = { 
 			allowed = {
 				original_tag = GER
 			}
@@ -662,6 +673,8 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.10
 			}
+			
+			picture = junkers
 			
 			traits = { CAS_manufacturer }
 			
@@ -675,13 +688,14 @@ ideas = {
 		}	
 		
 
-		focke_wulf = { 
+		schauerte = { 
 
 			
 			allowed = {
 				original_tag = GER
 			}
 			
+			picture = focke_wulf
 						
 			research_bonus = {
 				air_equipment = 0.10
@@ -694,7 +708,7 @@ ideas = {
 			}
 		}
 		
-		heinkel = {
+		taussig = {
 
 			
 			allowed = {
@@ -706,6 +720,8 @@ ideas = {
 				air_equipment = 0.10
 			}
 			
+			picture = heinkel
+			
 			traits = { heavy_aircraft_manufacturer }
 			
 			ai_will_do = {
@@ -713,12 +729,13 @@ ideas = {
 			}
 		}
 		
-		dornier = {
+		lichte = {
 
 			allowed = {
 				original_tag = GER
 			}
 			
+			picture = dornier
 						
 			research_bonus = {
 				air_equipment = 0.10
@@ -736,11 +753,13 @@ ideas = {
 	
 	industrial_concern = {
 		
-		ig_faben = {
+		nd_ck = {
 			
 			allowed = {
 				original_tag = GER
 			}
+			
+			picture = generic_refining_concern_1
 			
 			research_bonus = {
 				industry = 0.05

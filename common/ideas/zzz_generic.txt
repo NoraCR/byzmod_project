@@ -1025,7 +1025,7 @@ ideas = {
 		generic_communist_revolutionary = {
 			
 			allowed = {
-				NOT = { OR = { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM } }
+				NOT = { OR = { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM tag = AYI } }
 				NOT = {
 					has_available_idea_with_traits = { idea = communist_revolutionary limit = 1 }
 				}
@@ -1033,13 +1033,6 @@ ideas = {
 			}
 
 			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = NZL_the_lee_affair
-				}
 				
 			}
 			
@@ -1063,7 +1056,7 @@ ideas = {
 		generic_democratic_reformer = {
 			
 			allowed = {
-				NOT = { OR = { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM  } }
+				NOT = { OR = { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM  tag = AYI } }
 				NOT = {
 					has_available_idea_with_traits = { idea = democratic_reformer limit = 1 }
 				}
@@ -1071,16 +1064,7 @@ ideas = {
 			}
 			
 			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = NZL_strengthen_the_commonwealth
-						has_completed_focus = NZL_constitution_amendment_act
-					}
-				}
+
 			}
 
 			
@@ -1104,7 +1088,7 @@ ideas = {
 		generic_fascist_demagogue = {
 			
 			allowed = {
-				NOT = { OR = { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM  } }
+				NOT = { OR = { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM tag = AYI } }
 				NOT = {
 					has_available_idea_with_traits = { idea = fascist_demagogue limit = 1 }
 				}
@@ -1112,13 +1096,6 @@ ideas = {
 			}
 			
 			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = NZL_in_the_darkness
-				}
 				
 			}
 			
@@ -1152,7 +1129,7 @@ ideas = {
 			picture = generic_tank_manufacturer_1
 			
 			allowed = {
-				NOT = { OR { tag = ENG tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM  } }
+				NOT = { OR { tag = ENG tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM tag = AYI } }
 				NOT = {
 					has_available_idea_with_traits = { idea = tank_manufacturer limit = 1 }
 				}
@@ -1178,7 +1155,7 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 
 			allowed = {
-				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM  } }
+				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM tag = AYI tag = ENG } }
 				NOT = {
 					has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
 				}
@@ -1204,7 +1181,7 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			allowed = {
-				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM  } }
+				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM tag = AYI } }
 				NOT = {
 					has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
 				}
@@ -1225,7 +1202,7 @@ ideas = {
 			picture = generic_air_manufacturer_3
 
 			allowed = {
-				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM  } }
+				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM tag = AYI } }
 				NOT = {
 					has_available_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
 				}
@@ -1252,7 +1229,7 @@ ideas = {
 			picture = generic_air_manufacturer_2
 			
 			allowed = {
-				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM  } }
+				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM tag = AYI } }
 				NOT = {
 					has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
 				}
@@ -1279,7 +1256,7 @@ ideas = {
 			picture = generic_naval_manufacturer_2
 
 			allowed = {
-				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM } }
+				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM tag = AYI } }
 				NOT = {
 					has_available_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
 				}
@@ -1303,7 +1280,7 @@ ideas = {
 			picture = generic_industrial_concern_1
 
 			allowed = {
-				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM  } }
+				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM tag = AYI } }
 				NOT = {
 					has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
 				}
@@ -1324,7 +1301,7 @@ ideas = {
 			picture = generic_electronics_concern_1
 
 			allowed = {
-				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM  } }
+				NOT = { OR { tag = BYZ tag = FRA tag = MRT tag = CHI tag = JAP tag = SOM tag = AYI  } }
 				NOT = {
 					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
 				}

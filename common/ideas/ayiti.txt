@@ -768,4 +768,334 @@ ideas = {
 			}
 		}
 	}
+	
+	tank_manufacturer = { 
+	
+		designer = yes
+		
+		abey_ornofay = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}		
+
+			picture = generic_motorized_equipment_manufacturer_2
+
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		camaguey_automotive = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = generic_infantry_equipment_manufacturer_3
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { medium_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+		naval_artillery_arsenal = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = generic_artillery_manufacturer_1
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { heavy_tank_manufacturer }
+			
+			modifier = {
+			}
+		}	
+	}
+	
+	
+	naval_manufacturer = { 
+	
+		designer = yes
+		
+		jaragua_naval_yard = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = norfolk_naval_yard
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { coastal_defence_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		habana_naval_design = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = electric_boat_company
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		nacotchtank_naval_yard = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = brooklyn_naval_yard
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+	}
+	
+	aircraft_manufacturer = { 
+		
+		designer = yes
+		
+		north_avalon_aviation = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = generic_air_manufacturer_1
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		casiguaya = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = generic_air_manufacturer_2
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		yahima_aircraft_group = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = generic_air_manufacturer_3
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { CAS_manufacturer }
+			
+			modifier = {
+			}
+		}
+
+		
+		yucayonex = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = generic_electronics_concern_2
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		brizuela = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = generic_electronics_concern_3
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}		
+	}
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		west_cahokia_armory = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = generic_motorized_equipment_manufacturer_2
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		ohiyo_motor_company = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = generic_motorized_equipment_manufacturer_1
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+	
+		
+		xamayca_arsenal = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = generic_motorized_equipment_manufacturer_3
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+	industrial_concern = {
+					
+		ayitian_combined_syndicates = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = generic_industrial_concern_1
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+			
+			modifier = {
+			}
+		}
+		
+		managua_electronics_combine = {
+			
+			
+			allowed = {
+				original_tag = AYI
+			}
+			
+			picture = generic_industrial_concern_3
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+			
+			modifier = {
+			}
+		}
+	}
 }

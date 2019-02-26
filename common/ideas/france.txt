@@ -811,9 +811,9 @@ ideas = {
 		designer = yes
 	
 		# TECHNOLOGY
-		renault_fra = {
+		de_ransonnet_bosford = {
 		
-			picture = renault
+			picture = generic_artillery_manufacturer_2
 						
 			allowed = {
 				original_tag = FRA
@@ -826,14 +826,34 @@ ideas = {
 
 			traits = { heavy_tank_manufacturer }
 		}
-	
-		FRA_AMX = {
+		
+		FRA_atelier_de_forbin = {
+			
+			
+			allowed = {
+				original_tag = FRA
+			}
+			
+			picture = generic_artillery_manufacturer_3
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { medium_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+		FRA_dalbignac = {
 		
 			picture = generic_tank_manufacturer_2
 
 			available = {
 				
 			}
+			
+			picture = danieli
 						
 			allowed = {
 				original_tag = FRA
@@ -852,11 +872,13 @@ ideas = {
 			
 		designer = yes
 		
-		somua = {
+		FRA_gfam = {
 		
 			allowed = {
 				original_tag = FRA
 			}
+			
+			picture = generic_motorized_equipment_manufacturer_3
 
 			research_bonus = {
 				motorized_equipment = 0.10
@@ -866,7 +888,7 @@ ideas = {
 
 		}
 		
-		mas = {
+		FRA_mfr = {
 						
 			allowed = {
 				original_tag = FRA
@@ -876,14 +898,18 @@ ideas = {
 				infantry_weapons = 0.10
 			}
 			
+			picture = mas
+			
 			traits = { infantry_equipment_manufacturer }
 		}
 	
-		schneider = {
+		FRA_de_sabran = {
 						
 			allowed = {
 				original_tag = FRA
-			}		
+			}
+
+			picture = schneider
 			
 			research_bonus = {
 				artillery = 0.10
@@ -897,11 +923,13 @@ ideas = {
 			
 		designer = yes
 		
-		morane_saulnier = {
+		souchon_menard = {
 			
 			allowed = {
 				original_tag = FRA
 			}
+			
+			picture = morane_saulnier
 			
 			research_bonus = {
 				air_equipment = 0.10
@@ -910,11 +938,13 @@ ideas = {
 			traits = { light_aircraft_manufacturer }
 		}
 		
-		bloch = {
+		massu = {
 						
 			allowed = {
 				original_tag = FRA
 			}
+			
+			picture = generic_air_manufacturer_1
 						
 			research_bonus = {
 				air_equipment = 0.10
@@ -923,11 +953,13 @@ ideas = {
 			traits = { medium_aircraft_manufacturer }
 		}
 		
-		amiot = {
+		poissonnier_desperrieres = {
 						
 			allowed = {
 				original_tag = FRA
 			}
+			
+			picture = beretta
 						
 			research_bonus = {
 				air_equipment = 0.10
@@ -936,11 +968,13 @@ ideas = {
 			traits = { heavy_aircraft_manufacturer }
 		}
 		
-		levasseur = {
+		lalance = {
 						
 			allowed = {
 				original_tag = FRA
 			}
+			
+			picture = generic_air_manufacturer_2
 						
 			research_bonus = {
 				air_equipment = 0.10
@@ -954,11 +988,13 @@ ideas = {
 
 		designer = yes
 		
-		fcm = {
+		FRA_cfb = {
 						
 			allowed = {
 				original_tag = FRA
 			}
+			
+			picture = generic_naval_manufacturer_2
 						
 			research_bonus = {
 				naval_equipment = 0.10
@@ -970,11 +1006,13 @@ ideas = {
 	
 	industrial_concern = {	
 		
-		famh = {
+		FRA_sma = {
 						
 			allowed = {
 				original_tag = FRA
 			}
+			
+			picture = generic_industrial_concern_2
 						
 			research_bonus = {
 				industry = 0.05
