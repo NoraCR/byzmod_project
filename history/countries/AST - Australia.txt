@@ -129,6 +129,16 @@ create_corps_commander = {
     logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "Dhirtarashtra Naidu" #male, Hindu
+	portrait_path = "gfx/leaders/generic/generic_india_m2.png"
+	traits = { }
+	skill = 3
+	attack_skill = 4
+    defense_skill = 2
+    planning_skill = 5
+    logistics_skill = 2
+}
 create_navy_leader = {
 	name = "Wanering" #male, aboriginal
 	portrait_path = "gfx/leaders/generic/adm_generic_africa_m3.png"
@@ -161,19 +171,5 @@ create_equipment_variant = {
 		ship_engine_upgrade = 2
 		ship_armor_upgrade = 2
 		ship_gun_upgrade = 2
-	}
-}
-
-1939.1.1 = {
-	
-	create_equipment_variant = {
-		name = "Arunta Class"
-		type = destroyer_1
-		upgrades = {
-			ship_torpedo_upgrade = 2
-			destroyer_engine_upgrade = 2
-			ship_ASW_upgrade = 2
-			ship_anti_air_upgrade = 2
-		}
 	}
 }

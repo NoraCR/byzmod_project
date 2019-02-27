@@ -117,6 +117,17 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "Kim Hye-Yeong" #Korean female
+	portrait_path = "gfx/leaders/generic/generic_asia_f1.png"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
 create_navy_leader = {
 	name = "Uru Tarangi Taimana" #female
 	portrait_path = "gfx/leaders/generic/adm_generic_asia_f2.png"
