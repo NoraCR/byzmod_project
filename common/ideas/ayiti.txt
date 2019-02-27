@@ -836,7 +836,7 @@ ideas = {
 	
 		designer = yes
 		
-		jaragua_naval_yard = {
+		jaragua_bohechio_naval_yard = {
 			
 			
 			allowed = {
