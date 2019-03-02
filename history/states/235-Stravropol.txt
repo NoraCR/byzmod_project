@@ -16,6 +16,9 @@ state={
 			infrastructure = 4
 			air_base = 2
 		}
+		victory_points = {
+			6753 1
+		}
 	}
 
 	provinces={

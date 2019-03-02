@@ -143,6 +143,30 @@ country_event = {
 				}
 			COG = { transfer_state = 718 }
 		}
+		if = {
+			limit = {
+				768 = {
+					is_owned_by = ENG
+					}
+				}
+			COG = { transfer_state = 768 }
+		}
+		if = {
+			limit = {
+				769 = {
+					is_owned_by = ENG
+					}
+				}
+			COG = { transfer_state = 769 }
+		}
+		if = {
+			limit = {
+				772 = {
+					is_owned_by = ENG
+					}
+				}
+			COG = { transfer_state = 772 }
+		}
 		ENG = { puppet = COG }
 		BYZ = { add_to_faction = COG }
 		hidden_effect = {

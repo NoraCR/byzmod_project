@@ -1,0 +1,25 @@
+state={
+	id=770
+	name="STATE_770"
+
+	history={
+		owner = SHO
+		add_core_of = SHO
+		victory_points = {
+			12986 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		2255 12908 12986 13209 
+	}
+	manpower=1603975
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -10,6 +10,12 @@ state={
 		victory_points = {
 			3780 15 
 		}
+		victory_points = {
+			773 3
+		}
+		victory_points = {
+			3776 3
+		}
 		buildings = {
 			infrastructure = 8
 			arms_factory = 3
@@ -21,12 +27,6 @@ state={
 
 		}
 		add_core_of = BYZ
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 7
-				industrial_complex = 4
-			}
-		}
 	}
 
 	provinces={

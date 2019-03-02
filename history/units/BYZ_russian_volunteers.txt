@@ -12,4 +12,10 @@
 		division_template = "Red Guard Division"
 		start_experience_factor = 0.3
 	}
+	division= {
+		name = "3rd Free Russian Division"
+		location = 9833 
+		division_template = "Red Guard Division"
+		start_experience_factor = 0.2
+	}
 }

@@ -1,9 +1,9 @@
 state={
 	id=700
 	name="STATE_700"
-	manpower = 1768500
+	manpower = 3768500
 	
-	state_category = megalopolis
+	state_category = metropolis
 	
 	resources={
 		steel=12.0000
@@ -19,7 +19,7 @@ state={
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2
-			industrial_complex = 7
+			industrial_complex = 5
 			dockyard = 3
 			air_base = 10
 			2038 = {
@@ -30,6 +30,6 @@ state={
 	}
 	
 	provinces={
-		1909 2038 2094 
+		2038 2094 
 	}
 }

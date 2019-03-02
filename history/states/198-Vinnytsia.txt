@@ -12,6 +12,9 @@ state={
 			infrastructure = 5
 			air_base = 3
 		}
+		victory_points = {
+			6480 1
+		}
 		add_core_of = POL
 		add_core_of = UKR
 	}

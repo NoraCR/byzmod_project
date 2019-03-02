@@ -2,11 +2,11 @@ state= {
 	id=593
 	name="STATE_593"
 	manpower = 25700000
-	state_category = large_city
+	state_category = megalopolis
 	resources={
-		tungsten=20
-		steel= 20
-		chromium = 4
+		tungsten= 32
+		steel= 40
+		chromium = 5
 	}
 	history= {
 		owner = CHI

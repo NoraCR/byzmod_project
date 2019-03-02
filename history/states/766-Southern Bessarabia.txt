@@ -1,0 +1,30 @@
+state=
+{
+	id=766
+	name="STATE_766"
+	manpower = 566600
+	
+	state_category = rural
+	
+	history= {
+		victory_points = {
+			6727 1
+		}
+		add_core_of = BYZ
+		owner = BYZ
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			6743 = {
+				bunker = 2
+			}
+			6727 = {
+				bunker = 2
+				naval_base = 3
+			}
+		}
+	}
+	provinces=
+	{
+3701 3704 6727 6743	}
+}

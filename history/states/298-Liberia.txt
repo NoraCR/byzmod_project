@@ -8,7 +8,8 @@ state=
 	
 	resources={
 		rubber=106.0000
-		oil=22.0000
+		oil = 8.0000
+		steel = 24.000
 	}
 
 	history= {
@@ -30,6 +31,6 @@ state=
 		add_core_of = GHA
 	}
 	provinces={
-		5013 5039 5045 5070 7959 7983 8006 8008 8065 8122 10762 10803 12794 
+		7959 8006
 	}
 }

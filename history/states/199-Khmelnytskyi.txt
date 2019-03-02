@@ -13,6 +13,9 @@ state={
 			industrial_complex = 1
 			air_base = 3
 		}
+		victory_points = {
+			462 1
+		}
 		add_core_of = POL
 		add_core_of = UKR
 	}

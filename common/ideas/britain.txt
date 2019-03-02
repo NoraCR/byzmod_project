@@ -719,7 +719,7 @@ ideas = {
 				original_TAG = ENG
 			}
 			
-			image = brooklyn_naval_yard
+			picture = brooklyn_naval_yard
 			
 			research_bonus = {
 				naval_equipment = 0.10

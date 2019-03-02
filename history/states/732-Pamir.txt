@@ -2,12 +2,12 @@ state={
 	id=732
 	name="STATE_732"
 	
-	state_category = wasteland
+	state_category = town
 
 	history={
 		owner = CHI
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 
 		}
 		add_core_of = CHI
@@ -15,7 +15,7 @@ state={
 	}
 
 	provinces={
-		1483 1675 4316 4391 4467 4768 4923 5062 10408 10530 12370 12511 
+		1483 1675 1825 2058 4224 4316 4391 4467 4768 4923 5062 10408 10530 10660 12370 12511 12581 12583 13147 
 	}
 	manpower=450000
 }

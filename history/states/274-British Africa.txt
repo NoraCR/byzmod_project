@@ -8,10 +8,10 @@ state={
 		owner = GHA
 		add_core_of = GHA
 		victory_points = {
-			1951 1 
+			10862 20
 		}
 		victory_points = {
-			10862 20
+			12787 5
 		}
 		buildings = {
 			infrastructure = 6
@@ -27,8 +27,8 @@ state={
 	}
 
 	provinces={
-		1951 2001 8039 8096 10862 10919 12742 12762 12785 12787 12843 12874 13136 
+		8039 8096 10862 12742 12785 12787 13136 
 	}
-	manpower=3163600
+	manpower=8233600
 	buildings_max_level_factor=1.000
 }
