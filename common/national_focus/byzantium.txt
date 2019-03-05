@@ -3435,6 +3435,10 @@
 		prerequisite = {
 			focus = BYZ_annex_da_qin
 		}
+		available = {
+			country_exists = SYR
+			is_in_faction_with = SYR
+		}
 		x = 38
 		y = 3
 		ai_will_do = {
