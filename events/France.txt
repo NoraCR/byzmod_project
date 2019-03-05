@@ -83,6 +83,7 @@ country_event = {
 			type = annex_everything
 			target = GER
 		}
+		set_country_flag = germany_refuses_flag
 		hidden_effect = {
 				news_event = { id = news.512 hours = 6 }
 		}
@@ -109,6 +110,7 @@ country_event = {
 			type = annex_everything
 			target = GER
 		}
+		set_country_flag = germany_refuses_flag
 		BYZ = {
 			add_to_faction = GER
 		}
@@ -147,6 +149,7 @@ country_event = {
 			type = annex_everything
 			target = GER
 		}
+		set_country_flag = germany_refuses_flag
 		hidden_effect = {
 				news_event = { id = news.515 hours = 2}
 		}
