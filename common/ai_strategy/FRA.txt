@@ -29,6 +29,15 @@ mare_leones = {
 	}		
 }
 
+valeria_hates_wafflers = {
+	enable = {
+		tag = FRA
+		has_country_flag = germany_refuses_flag
+		country_exists = GER
+	}
+	
+	
+
 valeria_hates_gyros = {
 	enable = {
 		tag = FRA
@@ -41,12 +50,19 @@ valeria_hates_gyros = {
 		}
 	}
 	
+	abort = {
+		NOT = {
+			country_exists = GER
+		}
+	}
+	
 	ai_strategy = {
 		type = antagonize
-		id = "BYZ"			
+		id = "GER"			
 		value = 300
 	}	
 }
+
 valeria_hates_wurst = {
 	enable = {
 		tag = FRA
