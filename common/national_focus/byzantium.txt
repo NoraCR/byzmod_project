@@ -3436,8 +3436,13 @@
 			focus = BYZ_annex_da_qin
 		}
 		available = {
-			country_exists = SYR
-			is_in_faction_with = SYR
+			OR = {
+				AND = {
+					country_exists = SYR
+					is_in_faction_with = SYR
+				}
+				NOT = { country_exists = SYR }
+			}
 		}
 		x = 38
 		y = 3
