@@ -435,7 +435,7 @@ country_event = {
 	option = {
 		name = germany.200.a
 		BYZ = {
-			country_event = { id = byz.100  }
+			country_event = { id = byz.100 hours = 3  }
 		}
 	}
 }
@@ -453,7 +453,7 @@ country_event = {
 	option = {
 		name = germany.201.a
 		FRA = {
-			country_event = { id = france.101  }
+			country_event = { id = france.101 hours = 3 }
 		}
 	}
 	
@@ -461,7 +461,7 @@ country_event = {
 	option = {
 		name = germany.201.b
 		FRA = {
-			country_event = { id = france.102  }
+			country_event = { id = france.102 hours = 3  }
 		}
 	}
 	
@@ -469,7 +469,7 @@ country_event = {
 	option = {
 		name = germany.201.c
 		DEN = {
-			country_event = { id = sca.103  }
+			country_event = { id = sca.103 hours = 3 }
 		}
 	}
 }
@@ -522,7 +522,7 @@ country_event = {
 	option = {
 		name = germany.241.b
 		GER = {
-			country_event = { id = germany.242 }
+			country_event = { id = germany.242 hours = 3 }
 		}
 	}
 }
@@ -540,7 +540,7 @@ country_event = {
 	option = {
 		name = germany.242.a
 		FRA = {
-			country_event = { id = france.101  }
+			country_event = { id = france.101 hours = 3  }
 		}
 	}
 	
@@ -548,7 +548,8 @@ country_event = {
 	option = {
 		name = germany.242.b
 		FRA = {
-			country_event = { id = france.102  }
+			country_event = { id = france.102 hours = 3  }
+		} }
 		}
 	}
 	
@@ -556,7 +557,8 @@ country_event = {
 	option = {
 		name = germany.201.c
 		DEN = {
-			country_event = { id = sca.103  }
+			country_event = { id = sca.103 hours = 3  }
+		} }
 		}
 	}
 }
@@ -574,7 +576,7 @@ country_event = {
 	option = {
 		name = germany.301.a
 		FRA = {
-			country_event = { id = france.101  }
+			country_event = { id = france.101 hours = 3  }
 		}
 	}
 	
@@ -582,7 +584,7 @@ country_event = {
 	option = {
 		name = germany.242.b
 		FRA = {
-			country_event = { id = france.102  }
+			country_event = { id = france.102 hours = 3  }
 		}
 	}
 }
