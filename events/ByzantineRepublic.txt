@@ -396,22 +396,43 @@ country_event = {
 	# We refuse
 	option = {
 		name = byz.200.a
+		ai_chance = {
+			factor = 10
+		}
 		GER = {
-			country_event = { id = germany.201  }
+			country_event = { id = germany.201 hours = 3  }
 		}
 	}
 	# We will help them
 	option = {
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = {
+					has_war_support > 0.5
+				}
+			}
+		}
 		name = byz.200.b
 		GER = {
-			country_event = { id = germany.221  }
+			country_event = { id = germany.221 hours = 3  }
 		}
 	}
 	# We will help them - if they become socialist
 	option = {
 		name = byz.200.c
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = {
+					has_war_support > 0.5
+				}
+			}
+		}
 		GER = {
-			country_event = { id = germany.241  }
+			country_event = { id = germany.241 hours = 3  }
 		}
 	}
 }
