@@ -469,7 +469,7 @@ country_event = {
 	option = {
 		name = germany.201.c
 		DEN = {
-			country_event = { id = sca.103 hours = 3 }
+			country_event = { id = sca.200 hours = 3 }
 		}
 	}
 }
@@ -557,7 +557,7 @@ country_event = {
 	option = {
 		name = germany.201.c
 		DEN = {
-			country_event = { id = sca.103 hours = 3  }
+			country_event = { id = sca.200 hours = 3  }
 		} }
 		}
 	}
