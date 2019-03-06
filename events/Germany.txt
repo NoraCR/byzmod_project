@@ -435,7 +435,7 @@ country_event = {
 	option = {
 		name = germany.200.a
 		BYZ = {
-			country_event = { id = byz.100 hours = 3  }
+			country_event = { id = byz.200 hours = 3  }
 		}
 	}
 }
