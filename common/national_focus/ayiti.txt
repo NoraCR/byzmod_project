@@ -2141,6 +2141,10 @@ focus_tree = {
 				factor = 0.25
 				has_global_flag = byz_mullerist_coup
 			}
+			modifier = {
+				factor = 0
+				date < 1937.1.1
+			}
 		}
 
 		available = {
@@ -2542,6 +2546,10 @@ focus_tree = {
 			modifier = {
 				factor = 5
 				has_global_flag = byz_mullerist_coup
+			}
+			modifier = {
+				factor = 0
+				date < 1937.1.1
 			}
 		}
 

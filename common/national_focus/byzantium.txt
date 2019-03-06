@@ -2052,7 +2052,7 @@
 				create_corps_commander = {
 					name = "Nadine Hau-Fang"
 					picture = "byz_general_nadine_hau-fang.png"
-					traits = { brilliant_strategist trait_engineer }
+					traits = { brilliant_strategist trait_engineer armor_officer }
 					skill = 4
 					id = 126
 					attack_skill = 3

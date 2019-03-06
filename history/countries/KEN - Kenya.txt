@@ -116,7 +116,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Mũngania Gathongo" 
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	portrait_path = "gfx/leaders/generic/generic_africa_m1.png"
 	traits = { trait_cautious }
 	skill = 3
 	attack_skill = 2
@@ -124,9 +124,29 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 2
 }
+create_corps_commander = {
+	name = "Zuhaira al-Sharif" 
+	portrait_path = "gfx/leaders/generic/generic_mideast_f2.png"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Nyaguthii Mwihaki" 
+	portrait_path = "gfx/leaders/generic/generic_africa_f1.png"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
 create_navy_leader = {
 	name = "Pantoleon Kereenyaga" 
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+	portrait_path = "gfx/leaders/generic/adm_generic_africa_m3.png"
 	traits = { ironside }
 	skill = 3
 }

@@ -101,7 +101,17 @@ create_country_leader = {
 		#
 	}
 }
-
+create_field_marshal = {
+	name = "Jihan Chakravadhanula"
+	picture = "gfx/leaders/generic/generic_india_m3.png"
+	id = 102
+	traits = { logistics_wizard  politically_connected }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
 create_corps_commander = {
 	name = "Anastasios Sibakabaka"
 	portrait_path = "gfx/leaders/generic/generic_africa_m3.png"
@@ -112,6 +122,18 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 4
 }
+create_corps_commander = {
+	name = "Sarudzai Jongwe" #Shona, female
+	portrait_path = "gfx/leaders/generic/generic_africa_f1.png"
+	traits = {  }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 4
+	female = yes
+}
+
 create_navy_leader = {
 	name = "Melinda Nomandla"
 	portrait_path = "gfx/leaders/generic/adm_generic_africa_f2.png"

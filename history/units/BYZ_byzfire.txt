@@ -519,6 +519,20 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
 	}
+	division= {			
+		name = "49th Infantry Division"		
+		location = 11797
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {			
+		name = "50th Infantry Division"		
+		location = 3950
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
 	##### BULGARIA #####
 	division= {			
 		name = "20th Infantry Division 'Golden Lion'"		
@@ -554,14 +568,14 @@ units = {
 		location = 9716
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {			
 		name = "7th Motorized Division"		
 		location = 9716
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}	
 	### BUCOVINA ###
 	division= {			
@@ -638,7 +652,7 @@ units = {
 		location = 9683
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {			
 		name = "48th Infantry Division"		
@@ -653,7 +667,6 @@ units = {
 		location = 9914
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
 	}
 	##### ILLYRIA #####
 	division= {			
@@ -696,14 +709,14 @@ units = {
 		location = 3924
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {			
 		name = "3rd Motorized Division"		
 		location = 3924
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {			
 		name = "29th Infantry Division"		
@@ -875,7 +888,7 @@ units = {
 		location = 11584
 		division_template = "Motorized Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {			
 		name = "5th Motorized Division"		

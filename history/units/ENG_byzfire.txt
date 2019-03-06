@@ -241,6 +241,14 @@ units = {
 	
 	###Africa
 	division= {	
+		name = "Congo Capital Garrison"
+		location = 5117
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+
+	}
+	division= {	
 		name = "Congo Force"
 		location = 10968
 		division_template = "Colonial Garrison"
@@ -248,9 +256,9 @@ units = {
 		start_equipment_factor = 0.6
 
 	}
-	division= {	  
-		name = "Cameroon Force"
-		location = 6039
+	division= {	
+		name = "Orungu Force"
+		location = 5139
 		division_template = "Colonial Garrison"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.6
