@@ -10269,7 +10269,7 @@ news_event = {
 	major = yes
 	
 	desc = {
-		text = news.500.d
+		text = news.500.desc
 	}
 	
 	option = {
@@ -10320,7 +10320,7 @@ news_event = {
 	major = yes
 	
 	desc = {
-		text = news.501.d
+		text = news.501.desc
 	}
 	
 	option = {
@@ -10374,7 +10374,7 @@ news_event = {
 	major = yes
 	
 	desc = {
-		text = news.510.d
+		text = news.510.desc
 	}
 	
 	option = {
@@ -10416,7 +10416,7 @@ news_event = {
 	major = yes
 	
 	desc = {
-		text = news.511.d
+		text = news.511.desc
 	}
 	
 	option = {
@@ -10458,7 +10458,7 @@ news_event = {
 	major = yes
 	
 	desc = {
-		text = news.512.d
+		text = news.512.desc
 	}
 	
 	option = {
@@ -10500,7 +10500,7 @@ news_event = {
 	major = yes
 	
 	desc = {
-		text = news.513.d
+		text = news.513.desc
 	}
 	
 	option = {
@@ -10534,7 +10534,7 @@ news_event = {
 	major = yes
 	
 	desc = {
-		text = news.514.d
+		text = news.514.desc
 	}
 	
 	option = {
@@ -10576,7 +10576,7 @@ news_event = {
 	major = yes
 	
 	desc = {
-		text = news.515.d
+		text = news.515.desc
 	}
 	
 	option = {
@@ -10626,7 +10626,7 @@ news_event = {
 	major = yes 
 	
 	desc = {
-		text = news.516.d
+		text = news.516.desc
 	}
 	
 	option = {
@@ -10957,7 +10957,7 @@ news_event = {
 	major = yes
 	
 	desc = {
-		text = news.700.d
+		text = news.700.desc
 	}
 	
 	option = {
