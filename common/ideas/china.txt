@@ -36,7 +36,7 @@ ideas = {
 			picture = generic_victors_of_ww1
 			
 			research_bonus = {
-				land_doctrine = -0.75
+				land_doctrine = -0.25
 			}
 			modifier = {
 				conscription = -0.008
@@ -67,7 +67,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = idea_chi_chinese_support
+			picture = idea_generic_neutrality_drift_bonus
 
 			modifier = {
 				pangalism_drift = 0.1
