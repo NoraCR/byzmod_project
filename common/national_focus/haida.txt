@@ -201,7 +201,7 @@ focus_tree = {
 			focus = HDA_elect_socialists
 		}
 		ai_will_do = {
-			factor = 40
+			factor = 80
 		}	
 		x = 2
 		y = 1
@@ -546,7 +546,7 @@ focus_tree = {
 			focus = HDA_elect_liberals
 		}
 		ai_will_do = {
-			factor = 40
+			factor = 20
 		}	
 		x = 8
 		y = 1

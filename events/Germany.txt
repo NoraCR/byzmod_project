@@ -549,7 +549,6 @@ country_event = {
 		name = germany.242.b
 		FRA = {
 			country_event = { id = france.102 hours = 3  }
-		} }
 		}
 	}
 	
@@ -558,7 +557,6 @@ country_event = {
 		name = germany.201.c
 		DEN = {
 			country_event = { id = sca.200 hours = 3  }
-		} }
 		}
 	}
 }
