@@ -1250,7 +1250,15 @@ focus_tree = {
 		y = 3
 		ai_will_do = {
 			factor = 40
-		}
+			modifier = {
+				factor = 0
+				date < 1940.3.1
+			}
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}	
 
 		available = {
 
