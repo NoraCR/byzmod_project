@@ -35,6 +35,13 @@ valeria_hates_wafflers = {
 		has_country_flag = germany_refuses_flag
 		country_exists = GER
 	}
+	
+	abort = {
+		NOT = {
+			country_exists = GER
+		}
+	}
+	
 	ai_strategy = {
 		type = antagonize
 		id = "GER"			
@@ -55,15 +62,9 @@ valeria_hates_gyros = {
 		}
 	}
 	
-	abort = {
-		NOT = {
-			country_exists = GER
-		}
-	}
-	
 	ai_strategy = {
 		type = antagonize
-		id = "GER"			
+		id = "BYZ"			
 		value = 300
 	}	
 }
