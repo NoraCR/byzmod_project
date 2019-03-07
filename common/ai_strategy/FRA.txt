@@ -65,7 +65,7 @@ valeria_hates_gyros = {
 	ai_strategy = {
 		type = antagonize
 		id = "BYZ"			
-		value = 300
+		value = 1000
 	}	
 }
 
