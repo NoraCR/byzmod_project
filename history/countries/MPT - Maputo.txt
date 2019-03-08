@@ -103,8 +103,7 @@ create_country_leader = {
 }
 create_field_marshal = {
 	name = "Jihan Chakravadhanula"
-	picture = "gfx/leaders/generic/generic_india_m3.png"
-	id = 102
+	portrait_path = "gfx/leaders/generic/generic_india_m3.png"
 	traits = { logistics_wizard  politically_connected }
 	skill = 3
 	attack_skill = 2

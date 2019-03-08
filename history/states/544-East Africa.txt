@@ -4,13 +4,14 @@ state={
 	name="STATE_544" #Mozambique
 	manpower = 4125000
 	
-	state_category = metropolis
+	state_category = large_city
 	
 	history={
 		owner = MPT
 		buildings = {
 			infrastructure = 8
-			industrial_complex = 7
+			industrial_complex = 4
+			arms_factory = 1
 			8245 = {
 				naval_base = 6
 			}
@@ -20,6 +21,9 @@ state={
 		}
 		victory_points = {
 			8245 5
+		}
+		victory_points = {
+			2123 1
 		}
 		add_core_of = MPT
 	}

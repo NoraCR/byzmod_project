@@ -106,3 +106,34 @@ create_field_marshal = {
 	traits = { logistics_wizard  }
 	skill = 2
 }
+create_corps_commander = {
+	name = "Muhammad Talib Abd El-Youseff"
+	portrait_path = "gfx/leaders/generic/generic_mideast_m1.png"
+	traits = { infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Waneesa Hamdan"
+	portrait_path = "gfx/leaders/generic/generic_mideast_f2.png"
+	traits = { desert_fox }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	female = yes
+}
+create_corps_commander = {
+	name = "Yasser Ali al-Majali"
+	portrait_path = "gfx/leaders/generic/generic_india_m2.png"
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

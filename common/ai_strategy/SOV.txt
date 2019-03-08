@@ -30,3 +30,23 @@ german_civil_war = {
 		value = 100
 	}	
 }
+
+
+remove_gyro = {
+	enable = {
+		tag = SOV
+		has_completed_focus = one_rome
+		country_exists = BYZ
+	}
+	abort = {
+		NOT = {
+			country_exists = BYZ
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "BYZ"			
+		value = 300
+	}	
+}
