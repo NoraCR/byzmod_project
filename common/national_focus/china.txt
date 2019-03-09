@@ -1737,7 +1737,7 @@ focus_tree = {
 		}
 
 		available = {
-			SIA = { is_subject = yes }
+			SIA = { has_government = ROOT }
 		}
 
 		bypass = {
@@ -1780,7 +1780,7 @@ focus_tree = {
 			factor = 40
 		}
 		available = {
-			SIA = { is_subject = yes }
+			SIA = { has_government = ROOT }
 		}
 
 		bypass = {
@@ -1796,6 +1796,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_to_tech_sharing_group = tctp_tech_sharing_group
+			SIA = { add_to_tech_sharing_group = tctp_tech_sharing_group } # you need to be in the group with at least one person
 			SIA = {
 				add_political_power = 100
 				add_ideas = SIA_marginalized_locals
@@ -2444,6 +2446,12 @@ focus_tree = {
 			factor = 40
 		}
 		available_if_capitulated = yes
+		
+		available = {
+			SOM = {
+				has_government = ROOT
+			}
+		}
 
 		bypass = {
 			SOM = {
@@ -2471,6 +2479,8 @@ focus_tree = {
 		}
 
 		complete_tooltip = {
+			add_to_tech_sharing_group = tctp_tech_sharing_group
+			SOM = { add_to_tech_sharing_group = tctp_tech_sharing_group } # you need to be in the group with at least one person
 			SOM = {
 				add_opinion_modifier = { target = CHI modifier = aided_industry }
 				every_state = { limit = { has_state_flag = CHI_chi_somalia_focus_2IC }
@@ -2501,6 +2511,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_to_tech_sharing_group = tctp_tech_sharing_group
+			SOM = { add_to_tech_sharing_group = tctp_tech_sharing_group } # you need to be in the group with at least one person
 			SOM = {
 				add_opinion_modifier = { target = CHI modifier = aided_industry }
 				random_owned_controlled_state = {

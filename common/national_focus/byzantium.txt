@@ -2950,6 +2950,7 @@
 		}
 
 		complete_tooltip = {
+			ENG = { add_to_tech_sharing_group = rrp_tech_sharing_group }
 			ENG = {
 				add_opinion_modifier = { target = BYZ modifier = aided_industry }
 				every_state = { limit = { has_state_flag = BYZ_aid_brits_2IC }
@@ -3079,7 +3080,7 @@
 		prerequisite = {
 			focus = BYZ_continental_allies
 		}
-		x = 34
+		x = 33
 		y = 3
 		ai_will_do = {
 			factor = 40
@@ -3102,7 +3103,7 @@
 		prerequisite = {
 			focus = BYZ_continental_allies
 		}
-		x = 32
+		x = 31
 		y = 3
 		ai_will_do = {
 			factor = 40
@@ -3195,7 +3196,7 @@
 		prerequisite = {
 			focus = BYZ_continental_allies
 		}
-		x = 36
+		x = 35
 		y = 3
 		ai_will_do = {
 			factor = 40
@@ -3352,6 +3353,39 @@
 		}
 	}
 	focus = {
+		id = BYZ_ayiti_tech_sharing
+		icon = GFX_goal_tfv_generic_tech_sharing
+		cost = 5.00
+		prerequisite = {
+			focus = BYZ_the_western_colossus
+		}
+		x = 37
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			is_in_faction_with = AYI
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+			add_to_tech_sharing_group = rrp_tech_sharing_group
+			AYI = { add_to_tech_sharing_group = rrp_tech_sharing_group } # you need to be in the group with at least one person
+		}
+
+		completion_reward = {
+			add_to_tech_sharing_group = rrp_tech_sharing_group
+			AYI = { add_to_tech_sharing_group = rrp_tech_sharing_group } # you need to be in the group with at least one person
+		}
+	}
+	focus = {
 		id = BYZ_neutralize_austria
 		icon = GFX_goal_demand_sudetenland
 		cost = 8.00
@@ -3445,7 +3479,7 @@
 			}
 		}
 		x = 38
-		y = 3
+		y = 5
 		ai_will_do = {
 			factor = 10
 			 modifier = {
@@ -3568,7 +3602,7 @@
 		}
 	}
 	focus = {
-		id = BYZ_military_aid
+		id = BYZ_marathan_tech_sharing
 		icon = GFX_focus_generic_industry_2
 		cost = 4.00
 		prerequisite = {
@@ -3582,12 +3616,14 @@
 		ai_will_do = {
 			factor = 40
 		}
+		complete_tooltip = {
+			add_to_tech_sharing_group = rrp_tech_sharing_group
+			MRT = { add_to_tech_sharing_group = rrp_tech_sharing_group } # you need to be in the group with at least one person
+		}
+
 		completion_reward = {
-			MRT = {
-				add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 200 producer = BYZ }
-				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3500 producer = BYZ }
-				add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 150 producer = BYZ }
-			}
+			add_to_tech_sharing_group = rrp_tech_sharing_group
+			MRT = { add_to_tech_sharing_group = rrp_tech_sharing_group } # you need to be in the group with at least one person
 		}
 	}
 	focus = {

@@ -1036,11 +1036,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-
+			add_to_tech_sharing_group = allies_tech_sharing_group
+			HDA = { add_to_tech_sharing_group = allies_tech_sharing_group } # you need to be in the group with at least one person
 		}
 
 		completion_reward = {
-			add_ideas = JAP_haida_technology
+			add_to_tech_sharing_group = allies_tech_sharing_group
+			HDA = { add_to_tech_sharing_group = allies_tech_sharing_group } # you need to be in the group with at least one person
 		}
 	}
 	focus = {
