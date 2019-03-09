@@ -122,7 +122,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Mary Kolingba" #female
-	portrait_path = "gfx/leaders/generic/adm_generic_africa_m1.png"
+	portrait_path = "gfx/leaders/generic/generic_africa_m1.png"
 	traits = { politically_connected }
 	skill = 2
 	attack_skill = 1

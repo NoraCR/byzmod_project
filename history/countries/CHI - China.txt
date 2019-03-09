@@ -55,6 +55,11 @@ add_to_faction = TRX
 add_to_faction = AKH
 add_to_faction = SIA
 
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = tctp_tech_sharing_group
+}
 
 if = {
 	limit = {

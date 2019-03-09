@@ -201,7 +201,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Smith Hyun-mi"
-	portrait_path = "gfx/leaders/Asia/adm_generic_asia_f2.png"
+	portrait_path = "gfx/leaders/generic/adm_generic_asia_f2.png"
 	traits = { }
 	skill = 3
 	female = yes

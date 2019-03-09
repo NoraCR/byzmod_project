@@ -70,6 +70,12 @@ add_to_faction = PER
 add_to_faction = ZHB
 add_to_faction = IRO
 
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = allies_tech_sharing_group
+}
+
 set_convoys = 400
 
 

@@ -62,6 +62,12 @@ add_to_faction = POL
 add_to_faction = POR
 add_to_faction = AUS
 
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = wre_tech_sharing_group
+}
+
 set_convoys = 300
 
 if = {

@@ -107,7 +107,7 @@ create_field_marshal = {
 	skill = 2
 }
 create_corps_commander = {
-	name = "Muhammad Talib Abd El-Youseff"
+	name = "Muhammad Abd El-Youseff"
 	portrait_path = "gfx/leaders/generic/generic_mideast_m1.png"
 	traits = { infantry_officer }
 	skill = 3
@@ -136,4 +136,22 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Ma Gui"
+	portrait_path = "gfx/leaders/generic/generic_asia_f3.png"
+	traits = { career_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	female = yes
+}
+create_navy_leader = {
+	name = "Fatima Shawkat" #female
+	portrait_path = "gfx/leaders/generic/adm_generic_mideast_f3.png"
+	traits = { blockade_runner }
+	skill = 2
+	female = yes
 }
