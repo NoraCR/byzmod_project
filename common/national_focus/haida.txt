@@ -929,7 +929,7 @@ focus_tree = {
 	
 		focus = {
 		id = HDA_police_action
-		icon = GFX_goal_continuous_increase_nu
+		icon = GFX_goal_anschluss
 		cost = 10.00
 		prerequisite = {
 			focus = HDA_confederation_of_equals
@@ -937,7 +937,7 @@ focus_tree = {
 		x = 15
 		y = 3
 		ai_will_do = {
-			factor = 60
+			factor = 120
 		}
 		
 		will_lead_to_war_with = MEX
