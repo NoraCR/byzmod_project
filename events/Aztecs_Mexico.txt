@@ -42,7 +42,7 @@ country_event = {
 	
 	option = {
 		name = aztec.2.a
-		country_event = { id = aztec.1 hours = 36 }
+		country_event = { id = aztec.1 days = 3 }
 	}
 	
 }

@@ -132,7 +132,6 @@ country_event = {
 	# so it begins
 	option = {
 		name = haida.4.a
-		option = {
 		declare_war_on = {
 			type = puppet_wargoal_focus
 			target = MEX
