@@ -10912,6 +10912,238 @@ news_event = {
 	}
 }
 
+# Haida Police Action
+news_event = {
+	id = news.570
+	title = news.570.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.570.d
+	}
+	
+	option = {
+		name = news.570.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.570.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+				tag = HDA
+				tag = MEX
+			}
+		}
+	}
+	option = {
+		name = news.570.c
+		trigger = {
+			has_government = communism
+			NOT = {
+				tag = HDA
+				tag = MEX
+			}
+		}
+	}
+	option = {
+		name = news.570.e
+		trigger = {
+			tag = MEX
+		}
+	}
+	option = {
+		name = news.570.f
+		trigger = {
+			tag = HDA
+		}
+	}
+}
+# The Aztecs Refuse
+
+news_event = {
+	id = news.571
+	title = news.571.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.571.d
+	}
+	
+	option = {
+		name = news.571.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.571.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+				tag = HDA
+				tag = MEX
+			}
+		}
+	}
+	option = {
+		name = news.571.c
+		trigger = {
+			has_government = communism
+			NOT = {
+				tag = HDA
+				tag = MEX
+			}
+		}
+	}
+	option = {
+		name = news.571.e
+		trigger = {
+			tag = MEX
+		}
+	}
+	option = {
+		name = news.571.f
+		trigger = {
+			tag = HDA
+		}
+	}
+}
+
+# The Aztecs submit
+
+news_event = {
+	id = news.572
+	title = news.572.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.572.d
+	}
+	
+	option = {
+		name = news.572.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.572.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+				tag = HDA
+				tag = MEX
+			}
+		}
+	}
+	option = {
+		name = news.572.c
+		trigger = {
+			has_government = communism
+			NOT = {
+				tag = HDA
+				tag = MEX
+			}
+		}
+	}
+	option = {
+		name = news.572.e
+		trigger = {
+			tag = MEX
+		}
+	}
+	option = {
+		name = news.572.f
+		trigger = {
+			tag = HDA
+		}
+	}
+}
+
+# Nahua Integration
+news_event = {
+	id = news.573
+	title = news.573.t
+	picture = GFX_news_event_germany_speech
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.573.d
+	}
+	
+	option = {
+		name = news.573.b
+		trigger = {
+			NOT = {
+				tag = HDA
+				tag = MEX
+			}
+		}
+	}
+	option = {
+		name = news.573.e
+		trigger = {
+			tag = HDA
+		}
+	}
+}
+
+# Terrorist Attack in Sinaloa
+news_event = {
+	id = news.574
+	title = news.574.t
+	picture = GFX_news_event_germany_speech
+	
+	trigger = {
+		date > 1936.2.1
+		country_exists = MEX
+		country_exists = HDA
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	desc = {
+		text = news.573.4
+	}
+	
+	option = {
+		name = news.574.a
+		trigger = {
+			NOT = {
+				tag = HDA
+				tag = MEX
+			}
+		}
+	}
+	option = {
+		name = news.574.b
+		trigger = {
+			tag = HDA
+		}
+	}
+	option = {
+		name = news.574.b
+		trigger = {
+			tag = MEX
+		}
+	}
+}
+
 # Irish Dominion
 news_event = {
 	id = news.600
