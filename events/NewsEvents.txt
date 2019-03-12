@@ -11108,9 +11108,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	
 	trigger = {
-		date > 1936.2.1
-		country_exists = MEX
-		country_exists = HDA
+		date > 1936.4.3
 	}
 	
 	fire_only_once = yes
@@ -11122,7 +11120,7 @@ news_event = {
 	}
 	
 	desc = {
-		text = news.573.4
+		text = news.574.d
 	}
 	
 	option = {
