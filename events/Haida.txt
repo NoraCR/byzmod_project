@@ -99,3 +99,105 @@ country_event = {
 		name = haida.2.a
 	}
 }
+
+# Police Ultimatum
+
+country_event = {
+	id = haida.3
+	title = haida.3.t
+	desc = haida.3.d
+	picture = GFX_report_event_fascists_posing
+	is_triggered_only = yes
+	
+	option = {
+		name = haida.3.a
+		MEX = {
+			country_event = { id = aztec.2 hours = 1 }
+		}
+		hidden_effect = {
+				news_event = { id = news.570 hours = 3}
+		}
+	}
+}	
+
+# The Aztecs Refuse
+
+country_event = {
+	id = haida.4
+	title = haida.4.t
+	desc = haida.4.d
+	picture = GFX_report_event_fascists_posing
+	is_triggered_only = yes
+	
+	# so it begins
+	option = {
+		name = haida.4.a
+		option = {
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = MEX
+		}
+		hidden_effect = {
+				news_event = { id = news.571 hours = 2}
+		}
+	}
+}	
+
+# The Aztecs submit
+country_event = {
+	id = haida.5
+	title = haida.5.t
+	desc = haida.5.d
+	picture = GFX_report_event_fascists_posing
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = aztec_submit_flag
+	}
+	
+	# It appears that they have sense
+	option = {
+		name = haida.5.a
+		puppet = MEX
+		MEX = { transfer_state = 479 }
+		MEX = { transfer_state = 480 }
+		MEX = { transfer_state = 481 }
+		hidden_effect = {
+				news_event = { id = news.572 hours = 2}
+		}
+	}
+}	
+
+# The Creation of the Autonomous Nahua State
+
+country_event = {
+	id = haida.6
+	title = haida.6.t
+	desc = haida.6.d
+	picture = GFX_report_event_fascists_posing
+	trigger = {
+		tag = HDA
+		MEX = { 
+			is_puppet_of = HDA
+		}
+		NOT = {
+			has_global_flag = aztec_submit_flag
+		}
+	}
+	
+	mean_time_to_happen = {
+		hours = 1
+	}
+	
+	fire_only_once = yes
+	# They will be happier under our guidance
+	option = {
+		name = haida.6.a
+		MEX = { transfer_state = 479 }
+		MEX = { transfer_state = 480 }
+		MEX = { transfer_state = 481 }
+		hidden_effect = {
+				news_event = { id = news.573 hours = 2}
+		}
+	}
+}	
