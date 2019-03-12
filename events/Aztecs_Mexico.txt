@@ -37,14 +37,12 @@ country_event = {
 	desc = aztec.2.d
 	picture = GFX_report_event_fascists_posing
 	is_triggered_only = yes
-	immediate = {
-		country_event = { id = aztec.1 hours = 36 }
-	}
 	
 	# We will consider
 	
 	option = {
 		name = aztec.2.a
+		country_event = { id = aztec.1 hours = 36 }
 	}
 	
 }

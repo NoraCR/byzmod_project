@@ -659,7 +659,6 @@ focus_tree = {
 		}		
 		completion_reward = {
 			add_research_slot = 1
-			remove_ideas = HDA_nahua_tensions
 		}
 	}
 	focus = {

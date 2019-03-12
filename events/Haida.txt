@@ -165,6 +165,7 @@ country_event = {
 		hidden_effect = {
 				news_event = { id = news.572 hours = 2}
 		}
+		remove_ideas = HDA_nahua_tensions
 	}
 }	
 
@@ -199,5 +200,6 @@ country_event = {
 		hidden_effect = {
 				news_event = { id = news.573 hours = 2}
 		}
+		remove_ideas = HDA_nahua_tensions
 	}
 }	
