@@ -15,7 +15,7 @@ focus_tree = {
 		x = 5
 		y = 0
 		ai_will_do = {
-			factor = 40
+			factor = 60
 		}	
 
 		available_if_capitulated = yes
@@ -886,7 +886,7 @@ focus_tree = {
 		x = 14
 		y = 1
 		ai_will_do = {
-			factor = 40
+			factor = 60
 		}	
 		completion_reward = {
 			JAP = {
@@ -921,11 +921,50 @@ focus_tree = {
 		complete_tooltip = {
 
 		}
-
+		
 		completion_reward = {
 			SHS = { country_event = generic.5 }
 		}
 	}
+	
+		focus = {
+		id = HDA_police_action
+		icon = GFX_goal_continuous_increase_nu
+		cost = 10.00
+		prerequisite = {
+			focus = HDA_confederation_of_equals
+		}
+		x = 15
+		y = 3
+		ai_will_do = {
+			factor = 60
+		}
+		
+		will_lead_to_war_with = MEX
+		available = {
+			country_exists = MEX
+		}
+
+		bypass = {
+			NOT = {
+				country_exists = MEX
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			HDA = { country_event = haida.3 }
+		}
+		
+	}
+	
 	focus = {
 		id = HDA_align_iroquois
 		icon = GFX_focus_generic_treaty
