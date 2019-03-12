@@ -1,5 +1,5 @@
-##########################################
-Aztec Events (There's just two right now)
+﻿##########################################
+ ## Aztec Events (There's just two right now)
 ##########################################
 
 add_namespace = aztec
