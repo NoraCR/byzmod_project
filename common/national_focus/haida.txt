@@ -937,6 +937,10 @@ focus_tree = {
 		y = 3
 		ai_will_do = {
 			factor = 120
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
 		}
 		
 		will_lead_to_war_with = MEX
