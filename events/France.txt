@@ -79,7 +79,7 @@ country_event = {
 	
 	option = {
 		name = france.102.a
-		create_wargoal = {
+		declare_war_on = {
 			type = annex_everything
 			target = GER
 		}
@@ -106,7 +106,7 @@ country_event = {
 	
 	option = {
 		name = france.103.a
-		create_wargoal = {
+		declare_war_on = {
 			type = annex_everything
 			target = GER
 		}
@@ -145,7 +145,7 @@ country_event = {
 	
 	option = {
 		name = france.104.a
-		create_wargoal = {
+		declare_war_on = {
 			type = annex_everything
 			target = GER
 		}
