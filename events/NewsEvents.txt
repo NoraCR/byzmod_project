@@ -11117,6 +11117,10 @@ news_event = {
 	
 	major = yes
 	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
 	desc = {
 		text = news.573.4
 	}
