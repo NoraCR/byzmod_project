@@ -1,0 +1,50 @@
+##########################################
+Aztec Events (There's just one right now)
+##########################################
+
+add_namespace = aztec
+
+# The Ultimatum Decision
+country_event = {
+	id = aztec.1
+	title = aztec.1.t
+	desc = aztec.1.d
+	picture = GFX_report_event_fascists_posing
+	is_triggered_only = yes
+	
+	# We refuse
+	
+	option = {
+		name = aztec.1.a
+		HDA = {
+				country_event = { id = haida.4 hours = 3 }
+		}
+	}
+	
+	# We submit
+	option = {
+		name = aztec.1.b
+		HDA = {
+				country_event = { id = haida.5 hours = 3 }
+		}
+	}	
+}
+
+# The Ultimatum
+country_event = {
+	id = aztec.2
+	title = aztec.2.t
+	desc = aztec.2.d
+	picture = GFX_report_event_fascists_posing
+	is_triggered_only = yes
+	immediate = {
+		country_event = { id = aztec.1 hours = 36 }
+	}
+	
+	# We will consider
+	
+	option = {
+		name = aztec.2.a
+	}
+	
+}
