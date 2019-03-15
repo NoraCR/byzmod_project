@@ -38,6 +38,7 @@ bookmarks = {
 			ideology = communism
 			ideas = {
 				MRT_the_marathan_tiger
+				MRT_independent_socialism
 			}
 			focuses = {
 				MRT_sharqi_constitution

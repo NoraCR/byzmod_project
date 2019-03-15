@@ -186,7 +186,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		hours = 1
+		days = 1
 	}
 	
 	fire_only_once = yes

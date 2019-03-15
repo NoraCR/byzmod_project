@@ -70,6 +70,7 @@ set_politics = {
 
 add_ideas = {
 	MRT_the_marathan_tiger
+	MRT_independent_socialism
 	limited_conscription
 }
 

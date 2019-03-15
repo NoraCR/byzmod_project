@@ -1,0 +1,446 @@
+﻿###########################
+# Byzantine-Marathas Negotiation Events
+###########################
+
+add_namespace = byzmrt
+
+country_event = {
+	id = byzmrt.1 #Starter Event
+	title = byzmrt.1.t
+	desc = byzmrt.1.d
+	picture = GFX_report_event_indian_parade
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = byzmrt.1.a
+		hidden_effect = {
+			country_event = {
+				id = byzmrt.2 hours = 24
+			}
+		}
+		# set approval flag
+		MRT = {
+			set_country_flag = {
+				flag = SHARQI_APPROVE
+				value = 0
+			}
+		}
+	}
+}
+country_event = {
+	id = byzmrt.2 #First Protocols
+	title = byzmrt.2.t
+	desc = byzmrt.2.d
+	picture = GFX_report_event_generic_factory
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = byzmrt.2.a #resources
+		hidden_effect = {
+			country_event = {
+				id = byzmrt.3 hours = 24
+			}
+		}
+		BYZ = {
+			add_political_power = -10
+		}
+		MRT = {
+			add_timed_idea = { idea = communist_influence days = 180 }
+		}
+		MRT = {
+			modify_country_flag = {
+				flag = SHARQI_APPROVE
+				value = 1
+			}
+		}
+	}
+	option = {
+		name = byzmrt.2.b #resource and civ factory bonus
+		hidden_effect = {
+			country_event = {
+				id = byzmrt.3 hours = 24
+			}
+		}
+		BYZ = {
+			add_political_power = -25
+		}
+		MRT = {
+			add_timed_idea = { idea = communist_influence days = 180 }
+		}
+		MRT = {
+			add_ideas = MRT_civilian_economic_aid
+		}
+		MRT = {
+			modify_country_flag = {
+				flag = SHARQI_APPROVE
+				value = 2
+			}
+		}
+	}
+	option = {
+		name = byzmrt.2.c #resources, civ, mil bonus
+		hidden_effect = {
+			country_event = {
+				id = byzmrt.3 hours = 24
+			}
+		}
+		BYZ = {
+			add_political_power = -50
+		}
+		MRT = {
+			add_timed_idea = { idea = communist_influence days = 180 }
+		}
+		MRT = {
+			add_ideas = MRT_civilian_economic_aid
+		}
+		MRT = {
+			add_ideas = MRT_military_aid
+		}
+		MRT = {
+			modify_country_flag = {
+				flag = SHARQI_APPROVE
+				value = 3
+			}
+		}
+	}
+}
+country_event = {
+	id = byzmrt.3 #Military Aid
+	title = byzmrt.3.t
+	desc = byzmrt.3.d
+	picture = GFX_report_event_generic_lend_lease
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+		option = {
+		name = byzmrt.3.a #equipment
+		hidden_effect = {
+			country_event = {
+				id = byzmrt.4 hours = 24
+			}
+		}
+		BYZ = {
+			add_political_power = -10
+		}
+		MRT = {
+			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = BYZ }
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2500 producer = BYZ }
+			add_equipment_to_stockpile = { type = fighter_equipment_1 amount = 100 producer = BYZ }
+		}
+		MRT = {
+			modify_country_flag = {
+				flag = SHARQI_APPROVE
+				value = 1
+			}
+		}
+	}
+	option = {
+		name = byzmrt.3.b #equipment and doctrines
+		hidden_effect = {
+			country_event = {
+				id = byzmrt.4 hours = 24
+			}
+		}
+		BYZ = {
+			add_political_power = -25
+		}
+		MRT = {
+			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = BYZ }
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2500 producer = BYZ }
+			add_equipment_to_stockpile = { type = fighter_equipment_1 amount = 100 producer = BYZ }
+		}
+		MRT = {
+			army_experience = 20
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+		MRT = {
+			modify_country_flag = {
+				flag = SHARQI_APPROVE
+				value = 2
+			}
+		}
+	}
+	option = {
+		name = byzmrt.3.c #equipment, doctrines, expeditionary forces
+		hidden_effect = {
+			country_event = {
+				id = byzmrt.4 hours = 24
+			}
+		}
+		BYZ = {
+			add_command_power = -15
+			add_political_power = -50
+			create_corps_commander = {
+				name = "Maheshwari Sihra"
+				portrait_path = "gfx/leaders/generic/generic_india_f3.png"
+				traits = { desert_fox trickster }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+		}
+		MRT = {
+			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = BYZ }
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2500 producer = BYZ }
+			add_equipment_to_stockpile = { type = fighter_equipment_1 amount = 100 producer = BYZ }
+		}
+		MRT = {
+			add_command_power = 15
+			army_experience = 20
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+			create_corps_commander = {
+				name = "Marta Aghvorian"
+				portrait_path = "gfx/leaders/generic/generic_mideast_f3.png"
+				traits = { trait_mountaineer hill_fighter career_officer }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 3
+				planning_skill = 1
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "Georgi Dachev"
+				portrait_path = "gfx/leaders/generic/generic_europe_m3.png"
+				traits = { career_officer trickster }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 3
+			}
+		}
+		MRT = {
+			modify_country_flag = {
+				flag = SHARQI_APPROVE
+				value = 3
+			}
+		}
+	}
+}
+country_event = {
+	id = byzmrt.4 # Territory Claims
+	title = byzmrt.4.t
+	desc = byzmrt.4.d
+	picture = GFX_report_event_generic_sign_treaty2
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+		option = {
+		name = byzmrt.4.a #opportunism
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_leader = { name = "Theodora Papadopoulou" ruling_only = yes }
+				}
+				country_event = { id = byzmrt.6 hours = 12 }
+			}
+			country_event = { id = byzmrt.5 hours = 24 }
+		}
+		MRT = {
+			modify_country_flag = {
+				flag = SHARQI_APPROVE
+				value = 1
+			}
+		}
+	}
+	option = {
+		name = byzmrt.4.b #against one big enemy
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_leader = { name = "Theodora Papadopoulou" ruling_only = yes }
+				}
+				country_event = { id = byzmrt.6 hours = 12 }
+			}
+			country_event = { id = byzmrt.5 hours = 24 }
+		}
+		MRT = {
+			modify_country_flag = {
+				flag = SHARQI_APPROVE
+				value = 2
+			}
+		}
+		every_other_country = {
+			limit = { 
+				OR = {
+					has_government = fascism
+					has_government = pangalism
+				}
+				num_of_factories > 30
+			}
+			add_opinion_modifier = { 
+				target = MRT					
+				modifier = FRA_leftist_rhetoric_fascism
+			}
+			add_opinion_modifier = {
+				target = BYZ					
+				modifier = FRA_leftist_rhetoric_fascism
+			}
+		}
+	}
+	option = {
+		name = byzmrt.4.c #the whole shebang
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_leader = { name = "Theodora Papadopoulou" ruling_only = yes }
+				}
+				country_event = { id = byzmrt.6 hours = 12 }
+			}
+			country_event = { id = byzmrt.5 hours = 24 }
+		}
+		every_other_country = {
+			limit = { 
+				OR = {
+					has_government = fascism
+					has_government = pangalism
+				}
+				num_of_factories > 30
+			}
+			add_opinion_modifier = { 
+				target = MRT					
+				modifier = FRA_leftist_rhetoric_fascism
+			}
+			add_opinion_modifier = {
+				target = BYZ					
+				modifier = FRA_leftist_rhetoric_fascism
+			}
+		}
+		every_other_country { 
+			limit = { 
+				has_government = democratic
+				num_of_factories > 30
+			}
+			add_opinion_modifier = { 
+				target = MRT 
+				modifier = FRA_leftist_rhetoric_democratic
+			}
+		}
+		MRT = {
+			modify_country_flag = {
+				flag = SHARQI_APPROVE
+				value = 3
+			}
+		}
+	}
+}
+country_event = {
+	id = byzmrt.5 # The Long Walk
+	title = byzmrt.5.t
+	desc = byzmrt.5.d
+	picture = GFX_report_event_generic_sign_treaty2
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = byzmrt.5.a
+		hidden_effect = {
+			MRT = {
+			country_event = {
+				id = byzmrt.7 hours = 6
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = byzmrt.6 # this is the Bad Timeline
+	title = byzmrt.6.t
+	desc = byzmrt.6.d
+	picture = GFX_report_event_indian_parade
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = byzmrt.6.a
+		# add approval
+		MRT = {
+			modify_country_flag = {
+				flag = SHARQI_APPROVE
+				value = 2
+			}
+		}
+	}
+}
+country_event = {
+	id = byzmrt.7 # Sharqi decides
+	title = byzmrt.7.t
+	desc = byzmrt.7.d
+	picture = GFX_report_event_military_planning
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		ai_chance = { 
+			factor = 40 
+			modifier = {
+				factor = 10
+				has_country_flag = {
+					flag = SHARQI_APPROVE
+					value > 3
+				}
+			}
+		}
+		name = byzmrt.7.a
+		BYZ = { add_to_faction = MRT }
+		BYZ = { country_event = { id = byzmrt.8 hours = 6 } }
+		remove_ideas = MRT_independent_socialism
+		hidden_effect = {
+			news_event = { id = news.290 hours = 12 }
+		}
+	}
+	option = {
+		ai_chance = { factor = 40 }
+		name = byzmrt.7.b
+		BYZ = { 
+			country_event = { id = byzmrt.9 hours = 6 }
+		}
+	}
+}
+
+country_event = { #Sharqi is in
+	id = byzmrt.8 
+	title = byzmrt.8.t
+	desc = byzmrt.8.d
+	
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+	
+	option = {
+		name = byzmrt.8.a
+	}
+}
+
+country_event = {
+	id = byzmrt.9 #Talks fail
+	title = byzmrt.9.t
+	desc = byzmrt.9.d
+	
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+	
+	option = {
+		name = byzmrt.9.a
+	}
+}

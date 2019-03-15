@@ -1488,7 +1488,11 @@ focus_tree = {
 		x = 22
 		y = 3
 		ai_will_do = {
-			factor = 40
+			factor = 10
+			modifier = {
+				factor = 100 #oh god oh fuck
+				MRT = { has_war = yes }
+			}
 		}
 
 		available = {

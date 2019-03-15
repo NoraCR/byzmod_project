@@ -7,7 +7,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -17,6 +17,25 @@ ideas = {
 			modifier = {
 				drift_defence_factor = 0.1
 				enemy_justify_war_goal_time = 0.1
+			}
+		}
+		
+		MRT_independent_socialism = {
+		
+			allowed = {
+				always = no
+			}
+			
+			cancel = {
+				has_war = yes
+			}
+			
+			picture = neutrality_idea
+			
+			removal_cost = -1
+	
+			modifier = {
+				ai_get_ally_desire_factor = -1000
 			}
 		}
 		MRT_militarized_schools = {
@@ -72,6 +91,8 @@ ideas = {
 			
 			modifier = {
 				subversive_activites_upkeep = -0.5
+				decryption_factor = 0.15
+				encryption_factor = 0.15
 				land_reinforce_rate = 0.05
 			}
 		}
@@ -174,6 +195,43 @@ ideas = {
 				infantry_equipment = {
 					build_cost_ic = -0.1 instant = yes
 				}
+			}
+		}
+		MRT_civilian_economic_aid = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = MRT
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_can_wartime_prices_and_trade_board
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+		MRT_military_aid = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = MRT
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_generic_acquire_tanks
+			
+			modifier = {
+				conversion_cost_civ_to_mil_factor= -0.2
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05				
 			}
 		}
 		MRT_officer_corps = {

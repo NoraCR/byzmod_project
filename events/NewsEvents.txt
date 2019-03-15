@@ -10214,6 +10214,54 @@ news_event = {
 		}
 	}
 }
+# Fascist march in Lenape
+news_event = {
+	id = news.290
+	title = news.290.t
+	desc = news.290.desc
+	picture = GFX_news_event_generic_communist_congress
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = sharqi_rrp 
+	}
+	option = {
+		trigger = {
+			has_government = fascism
+		}
+		name = news.290.a
+	}
+	
+	option = {
+		trigger = {
+			has_government = pangalism
+		}
+		name = news.290.b
+	}
+	
+	option = {
+		trigger = {
+				has_government = communism
+		}
+		name = news.290.c
+	}
+	
+	option = {
+		trigger = {
+			has_government = democratic
+		}
+		name = news.290.d
+	}
+	
+	option = {
+		name = news.290.e
+		trigger = {
+			has_government = neutrality
+		}
+	}
+}
 # France denounces Communism
 news_event = {
 	id = news.506
@@ -11079,7 +11127,7 @@ news_event = {
 	picture = GFX_news_event_germany_speech
 	is_triggered_only = yes
 	major = yes
-	
+
 	desc = {
 		text = news.573.d
 	}
@@ -11117,6 +11165,7 @@ news_event = {
 	}
 	
 	major = yes
+	is_triggered_only = yes
 	
 	mean_time_to_happen = {
 		days = 1
