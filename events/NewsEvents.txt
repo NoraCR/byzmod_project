@@ -10214,7 +10214,7 @@ news_event = {
 		}
 	}
 }
-# Fascist march in Lenape
+# Sharqi joins RRP
 news_event = {
 	id = news.290
 	title = news.290.t

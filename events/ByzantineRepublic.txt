@@ -1012,7 +1012,7 @@ country_event = {
 #Nuke Letter
 country_event = {
 	id = byz.907
-	title byz.907.t
+	title = byz.907.t
 	desc = byz.907.d
 	picture = GFX_report_event_generic_sign_treaty1
 	fire_only_once = yes

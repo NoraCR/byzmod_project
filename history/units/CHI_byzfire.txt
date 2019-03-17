@@ -697,6 +697,27 @@ units = {
 
 	}
 ##Tibet and Yunnan
+	division = {
+		name = "Di 331 Bubing Shi"
+		location = 7316
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Di 332 Bubing Shi"
+		location = 7316
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Di 333 Bubing Shi"
+		location = 7316
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
 	division= {			
 		name = "Di 501 'Shijie Wuji' Dishan Pai"		
 		location = 7316
@@ -847,6 +868,57 @@ units = {
 		start_experience_factor = 0.3
 		
 	}
+##Guangxi
+	division = {
+		name = "Di 121 Bubing Shi"
+		location = 7137
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Di 122 Bubing Shi"
+		location = 7137
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Di 123 Bubing Shi"
+		location = 7137
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Di 124 Bubing Shi"
+		location = 7137
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Di 125 Bubing Shi"
+		location = 7137
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
+##Dzungaria
+	division = {
+		name = "Di 126 Bubing Shi"
+		location = 4823
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Di 127 Bubing Shi"
+		location = 4823
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
 ##Mongolia/Manchuria/Amur
 	division = {
 		name = "Di 125 Bubing Shi"
@@ -882,7 +954,21 @@ units = {
 		division_template = "Bubingshi"
 		start_experience_factor = 0.3
 		
-	}	
+	}
+	division = {
+		name = "Di 141 Bubing Shi"
+		location = 1847
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Di 142 Bubing Shi"
+		location = 1847
+		division_template = "Bubingshi"
+		start_experience_factor = 0.2
+		
+	}
 	division = {
 		name = "Di 1 Menggu Qibing Shi" 
 		location = 4801
