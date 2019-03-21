@@ -1028,3 +1028,21 @@ country_event = {
 		name = byz.907.a
 	}
 }
+#Refugees
+country_event = {
+	id = byz.908
+	title = byz.908.t
+	desc = byz.908.d
+	picture = GFX_report_event_french_resistance_02
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.12.25
+		tag = BYZ
+		BYZ = { has_elections = yes}
+	}
+	
+	option = {
+		name = byz.908.a
+	}
+}
