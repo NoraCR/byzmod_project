@@ -139,4 +139,8 @@ create_navy_leader = {
 	traits = { blockade_runner superior_tactician }
 	skill = 2
 	female = yes
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 1
 }

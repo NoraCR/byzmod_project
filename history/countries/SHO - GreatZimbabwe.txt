@@ -153,4 +153,8 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/generic/adm_generic_africa_m3.png"
 	traits = { spotter }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 1
+	coordination_skill = 3
 }

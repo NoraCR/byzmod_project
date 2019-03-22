@@ -218,6 +218,10 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/generic/adm_generic_asia_m1.png"
 	traits = { superior_tactician }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
 }
 create_navy_leader = {
 	name = "Tjahjana Wencheng"
@@ -225,4 +229,8 @@ create_navy_leader = {
 	traits = { }
 	skill = 2
 	female = yes
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }

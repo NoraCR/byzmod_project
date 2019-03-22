@@ -166,13 +166,21 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Ajwoba Owoahene" #female
 	portrait_path = "gfx/leaders/generic/adm_generic_africa_f1.png"
-	traits = { superior_tactician }
+	traits = { superior_tactician battleship_adherent }
 	skill = 4
 	female = yes
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 create_navy_leader = {
 	name = "Kaku Soadwa"
 	portrait_path = "gfx/leaders/generic/adm_generic_africa_m3.png"
-	traits = { spotter }
+	traits = { spotter bold }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
 }

@@ -134,8 +134,12 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Andrew Bahigwa"
 	portrait_path = "gfx/leaders/generic/adm_generic_africa_m1.png"
-	traits = { }
+	traits = { bold spotter }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 
 

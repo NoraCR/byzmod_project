@@ -238,8 +238,12 @@ country_event = {
 		create_navy_leader = {
 			name = "Gabriela Fatima Hu"
 			picture = "spr_gabriela_fatima_hu.dds"
-			traits = { old_guard_navy ironside }
+			traits = { old_guard_navy navy_career_officer }
 			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 3
 			female = yes
 		}
 		add_named_threat = { threat = 10 name = france.52.t }

@@ -281,6 +281,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_kazuo_yoshida.dds"
 	}
 
-	
+	#diplomacy things, kludged
+	spriteType = {
+		name = "GFX_icon_exiled_governments"
+		texturefile = "gfx/interface/icon_exiled_governments.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_manage_subjects"
+		texturefile = "gfx/interface/icon_manage_subjects.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_occupied_territories"
+		texturefile = "gfx/interface/icon_occupied_territories.dds"
+	}
 	
 }

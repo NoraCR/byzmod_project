@@ -1,15 +1,24 @@
 state={
 	id=90
 	name="STATE_90" # Kielce
-	manpower = 2135700
+	manpower = 1835700
 	
 	state_category = town
 	
 	resources={
-		steel=12
+		steel=8 # was: 12
 	}
 
 	history={
+		victory_points = {
+			11430 5
+		}
+		victory_points = {
+			3458 5
+		}
+		#victory_points = {
+		#	562 3
+		#}
 		owner = POL
 		buildings = {
 			infrastructure = 6

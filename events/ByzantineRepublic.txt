@@ -1028,6 +1028,7 @@ country_event = {
 		name = byz.907.a
 	}
 }
+
 #Refugees
 country_event = {
 	id = byz.908
@@ -1044,5 +1045,62 @@ country_event = {
 	
 	option = {
 		name = byz.908.a
+		6 = {
+			add_manpower = -100000
+		}
+		16 = {
+			add_manpower = -20000
+		}
+		158 = {
+			add_manpower = -80000
+		}
+		172 = {
+			add_manpower = -50000
+		}
+		42 = { 
+			add_manpower = -90000
+		}
+		2 = {
+			add_manpower = 41392 
+		}
+		159 = {
+			add_manpower = 33568
+		}
+		341 = {
+			add_manpower = 12844
+		}
+		126 = {
+			add_manpower = 25181
+		}
+		64 = {
+			add_manpower = 9431
+		}
+		37 = {
+			add_manpower = 2576
+		}
+		362 = {
+			add_manpower = 5345
+		}
+		371 = {
+			add_manpower = 1649
+		}
+		613 = {
+			add_manpower = 51783
+		}
+		274 = {
+			add_manpower = 22917
+		}
+		128 = {
+			add_manpower = 9001
+		}
+		500 = {
+			add_manpower = 8234
+		}
+		47 = {
+			add_manpower = 7812
+		}
+		51 = {
+			add_manpower = 100500
+		}
 	}
 }

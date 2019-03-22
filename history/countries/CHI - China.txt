@@ -334,25 +334,41 @@ create_navy_leader = {
 	picture = "chi_admiral_ma_weiming.png"
 	traits = { seawolf }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 3
 }
 create_navy_leader = {
 	name = "Hu Ping" #female
 	picture = "chi_admiral_hu_ping.png"
-	traits = { old_guard_navy }
+	traits = { old_guard_navy battleship_adherent }
 	female = yes
 	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 create_navy_leader = {
 	name = "Wu Gongping"
 	picture = "chi_admiral_wu_gongping.png"
-	traits = { fly_swatter }
+	traits = { fly_swatter bold }
 	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 3
 }
 create_navy_leader = {
 	name = "Zhen Dazhou"
 	picture = "chi_admiral_zhen_dazhou.png"
-	traits = { }
+	traits = { superior_tactician }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 3
 }
 create_navy_leader = {
 	name = "Chen Gao" #female
@@ -360,12 +376,20 @@ create_navy_leader = {
 	traits = { }
 	female = yes
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 3
 }
 create_navy_leader = {
 	name = "Huang Zhejun"
 	picture = "chi_admiral_huang_zhejun.png"
-	traits = { }
+	traits = { craven air_controller flight_deck_manager }
 	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 create_navy_leader = {
 	name = "Lu Jianmei" #female
@@ -373,4 +397,8 @@ create_navy_leader = {
 	traits = { blockade_runner }
 	female = yes
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }

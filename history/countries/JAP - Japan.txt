@@ -328,9 +328,13 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Nishimuraya Mutsuko" #female
 		picture = "jpn_admiral_mutsuko_nishimuraya.tga"
-	traits = {  }
+	traits = { old_guard_navy }
 	skill = 2
 	female = yes
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 1
 }
 
 create_navy_leader = {
@@ -338,30 +342,46 @@ create_navy_leader = {
 		picture = "jpn_admiral_yukio_yahgulanaas.tga"
 	traits = { superior_tactician spotter }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 1
+	maneuvering_skill = 4
+	coordination_skill = 4
 }
 
 
 create_navy_leader = {
 	name = "Watanabe Eiichi"
-		picture = "jpn_admiral_eiichi_watanabe.tga"
-	traits = { fly_swatter }
+	picture = "jpn_admiral_eiichi_watanabe.tga"
+	traits = { fly_swatter naval_lineage }
 	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 
 create_navy_leader = {
 	name = "Ichisada Honami" #female
-		picture = "jpn_admiral_honami_ichisada.tga"
-	traits = { superior_tactician spotter }
+	picture = "jpn_admiral_honami_ichisada.tga"
+	traits = { bold battleship_adherent superior_tactician spotter }
 	skill = 5
 	female = yes
+	attack_skill = 5
+	defense_skill = 3
+	maneuvering_skill = 5
+	coordination_skill = 4
 }
 
 create_navy_leader = {
 	name = "Nobusawa Hisako" #female
-		picture = "jpn_admiral_hisako_nobusawa.tga"
-	traits = { blockade_runner superior_tactician }
+	picture = "jpn_admiral_hisako_nobusawa.tga"
+	traits = { aviation_enthusiast bold air_controller flight_deck_manager superior_tactician }
 	skill = 5
 	female = yes
+	attack_skill = 6
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 5
 	}
 
 
@@ -370,15 +390,10 @@ create_navy_leader = {
 	picture = "jpn_admiral_shiori_hitotsuyanagi.tga"
 	traits = { superior_tactician }
 	skill = 3
-}
-
-
-create_navy_leader = {
-	name = "Izumi Taniguchi" #female
-		picture = "Portrait_Japan_Gengo_Hyakutake.dds"
-	traits = { seawolf }
-	skill = 3
-	female = yes
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 2
 }
 
 

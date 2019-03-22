@@ -1437,7 +1437,6 @@
 			hidden_effect = {
 				102 = {
 					add_building_construction = { type = bunker province = 3631 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 11612 level = 3 instant_build = yes }
 					add_building_construction = { type = bunker province = 9596 level = 3 instant_build = yes }
 					add_building_construction = { type = bunker province = 596 level = 3 instant_build = yes }
 					add_building_construction = { type = bunker province = 665 level = 3 instant_build = yes }

@@ -100,4 +100,8 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/generic/adm_generic_africa_m3.png"
 	traits = { blockade_runner }
 	skill = 4
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 4
+	coordination_skill = 2
 }

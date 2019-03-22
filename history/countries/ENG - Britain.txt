@@ -301,16 +301,24 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Anne de Mowbray"
 		picture = "eng_admiral_anne_de_mowbray.png"
-	traits = { superior_tactician old_guard_navy }
+	traits = { blockade_runner superior_tactician navy_career_officer bold gunnery_expert }
 	skill = 5
 	female = yes
+	attack_skill = 5
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 4
 }
 
 create_navy_leader = {
 	name = "Horatio Elphinstone"
 		picture = "eng_admiral_horatio_elphinstone.png"
-	traits = { old_guard_navy blockade_runner }
+	traits = { gentlemanly naval_lineage superior_tactician }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 5
 }
 
 create_navy_leader = {
@@ -318,22 +326,34 @@ create_navy_leader = {
 		picture = "eng_admiral_lachlan_kilsyth.png"
 	traits = { fly_swatter }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	maneuvering_skill = 4
+	coordination_skill = 3
 }
 
 create_navy_leader = {
 	name = "Matilda Samuel"
 		picture = "eng_admiral_matilda_samuel.png"
-	traits = { blockade_runner }
+	traits = { blockade_runner aviation_enthusiast }
 	skill = 4
 	female = yes
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 4
+	coordination_skill = 4
 }
 
 create_navy_leader = {
 	name = "Moira Raoumbe"
 		picture = "eng_admiral_moira_raoumbe.png"
-	traits = { superior_tactician }
+	traits = { superior_tactician battleship_adherent }
 	skill = 4
 	female = yes
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 3
 }
 
 

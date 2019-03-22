@@ -248,32 +248,52 @@ create_navy_leader = {
 	traits = { ironside }
 	skill = 2
 	female = yes
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 create_navy_leader = {
 	name = "Nokosi Chichuchate" #seminole
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { }
+	traits = { navy_career_officer gentlemanly }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 create_navy_leader = {
 	name = "Agasga Hiwassee" #female #cherokee
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
-	traits = { }
+	traits = { superior_tactician spotter }
 	skill = 3
 	female = yes
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 create_navy_leader = {
 	name = "Casiguaya Kiskeya" #female
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
-	traits = {  }
+	traits = { bold aviation_enthusiast }
 	skill = 4
 	female = yes
+	attack_skill = 5
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 2
 }
 create_navy_leader = {
 	name = "Guaora Yaquimel"
 	portrait_path = "gfx/leaders/South_America/Portrait_South_America_Generic_navy_1.dds"
-	traits = { }
+	traits = { old_guard_navy fleet_protector }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 4
 }
 
 ### Ship Variants ###

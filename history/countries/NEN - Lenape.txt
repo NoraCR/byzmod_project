@@ -129,5 +129,16 @@ create_corps_commander = {
 }
 
 
+create_navy_leader = {
+	name = "Wamascuoning Keckquennen"
+	portrait_path = "gfx/leaders/generic/adm_generic_avalon_m1.png"
+	traits = { navy_career_officer bold }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
 ### Ship Variants ###
 

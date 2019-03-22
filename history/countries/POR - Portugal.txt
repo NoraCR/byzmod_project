@@ -185,4 +185,8 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/generic/adm_generic_europe_f1.png"
 	traits = { }
 	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 2
 }

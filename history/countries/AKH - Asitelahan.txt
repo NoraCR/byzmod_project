@@ -206,6 +206,10 @@ create_navy_leader = {
 		picture = "gfx/leaders/generic/adm_generic_asia_m2.png"
 	traits = { spotter }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 
 create_navy_leader = {
@@ -213,11 +217,19 @@ create_navy_leader = {
 		picture = "gfx/leaders/generic/adm_generic_asia_m1.png"
 	traits = { superior_tactician spotter }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 
 create_navy_leader = {
 	name = "Ruslan Bragin"
 		picture = "gfx/leaders/generic/adm_generic_europe_m1.png"
 	traits = { }
-	skill = 3
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
 }

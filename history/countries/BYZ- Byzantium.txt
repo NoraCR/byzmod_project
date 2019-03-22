@@ -3,7 +3,6 @@
 set_research_slots = 4
 oob = "BYZ_byzfire"
 
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -377,77 +376,113 @@ create_navy_leader = {
 	name = "Alexandros Sallajer"
 	picture = "byz_admiral_alexandros_sallajer.tga"
 	id = 116
-	traits = { superior_tactician ironside }
+	traits = { superior_tactician ironside navy_career_officer }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
 }
 
 create_navy_leader = {
 	name = "Ariadne Rodinou"
 	picture = "byz_admiral_ariadne_rodinou.tga"
 	id = 117
-	traits = { superior_tactician spotter }
+	traits = { navy_career_officer aviation_enthusiast caustic_personality bold superior_tactician }
 	skill = 5
 	female = yes
+	attack_skill = 6
+	defense_skill = 3
+	maneuvering_skill = 5
+	coordination_skill = 5
 }
 
 create_navy_leader = {
 	name = "Atlas Nicolaides"
 	picture = "byz_admiral_atlas_nicolaides.tga"
 	id = 118
-	traits = { superior_tactician }
+	traits = { gentlemanly blue_water_expert superior_tactician }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 5
+	coordination_skill = 5
 }
 
 create_navy_leader = {
 	name = "Benevenuta Pasqualigo"
 	picture = "byz_admiral_benevenuta_pasqualigo.tga"
 	id = 119
-	traits = { spotter }
+	traits = { bold aviation_enthusiast superior_tactician spotter }
 	skill = 4
 	female = yes
+	attack_skill = 5
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 2
 }
 
 create_navy_leader = {
 	name = "Callidora Mars"
 	picture = "byz_admiral_callidora_mars.tga"
 	id = 120
-	traits = { seawolf }
+	traits = { seawolf navy_career_officer }
 	skill = 4
 	female = yes
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
 }
 
 create_navy_leader = {
 	name = "Ercole Andretti"
 	picture = "byz_admiral_ercole_andretti.tga"
 	id = 121
-	traits = { fly_swatter superior_tactician }
+	traits = { fly_swatter gentlemanly superior_tactician }
 	skill = 5
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 5
+	coordination_skill = 4
 }
 
 create_navy_leader = {
 	name = "Hypatia Kiyohara"
 	picture = "byz_admiral_hypatia_kiyohara.tga"
 	id = 122
-	traits = { spotter ironside }
+	traits = { spotter ironside bold air_controller flight_deck_manager }
 	skill = 4
 	female = yes
+	attack_skill = 4
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 5
 }
 
 create_navy_leader = {
 	name = "Rivkah Avinbruch"
 	picture = "byz_admiral_rivkah_avinbruch.tga"
 	id = 123
-	traits = { old_guard_navy ironside }
+	traits = { old_guard_navy ironside bold }
 	skill = 5
 	female = yes
+	attack_skill = 5
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
 }
 
 create_navy_leader = {
 	name = "Iskender Qutuzid"
 	picture = "byz_admiral_iskender_qutuzid.tga"
 	id = 124
-	traits = { blockade_runner }
+	traits = { blockade_runner bold battleship_adherent }
 	skill = 5
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 4
+	coordination_skill = 3
 }
 
 create_navy_leader = {
@@ -456,6 +491,10 @@ create_navy_leader = {
 	id = 125
 	traits = { superior_tactician ironside }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 4
+	coordination_skill = 4
 }
 
 

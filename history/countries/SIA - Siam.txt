@@ -239,10 +239,18 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/generic/generic_asia_m1.png"
 	traits = { superior_tactician spotter }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 3
 }	
 create_navy_leader = {
 	name = "Uch Kravann" #Khmer male
 	portrait_path = "gfx/leaders/generic/generic_asia_m1.png"
-	traits = {  }
+	traits = { craven }
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }

@@ -363,7 +363,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				 research_time_factor = -0.10 
+				 research_speed_factor = 0.05 
 			}
 		}
 		
@@ -480,7 +480,7 @@ ideas = {
 				 conscription_factor = -0.30
 				 production_speed_buildings_factor = -0.1
 				 consumer_goods_factor = 0.05
-				 research_time_factor = 0.05
+				 research_speed_factor = -0.05
 				 training_time_factor = 0.1
 				 industrial_capacity_factory = -0.1 
 			}

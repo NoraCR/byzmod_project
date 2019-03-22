@@ -184,8 +184,12 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Muhammad Bahajri"
 	portrait_path = "gfx/leaders/generic/adm_generic_mideast_m1.png"
-	traits = { }
+	traits = { bold }
 	skill = 4
+	attack_skill = 5
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 2
 }
 
 1939.1.1 = {

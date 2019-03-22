@@ -237,7 +237,88 @@ ideas = {
 				communism_drift = 0.1
 			}
 		}
+
+		# from decision
+		socialist_education = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				communism_drift = 0.1
+				research_speed_factor = 0.025
+			}
+		}
+		# from decision
+		paramilitary_training = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				fascism_drift = 0.1
+				experience_gain_army = 0.1
+			}
+		}
+		# from decision
+		nation_building = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				democratic_drift = 0.1
+				stability_factor = 0.1
+			}
+		}
 		
+		military_parade = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+			modifier = {
+				neutrality_drift = 0.1
+				mobilization_speed = 0.15
+			}
+		}		
 		
 		# Generic Focus Ideas
 
@@ -646,7 +727,7 @@ ideas = {
 			picture = generic_research_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.025
 			}
 		}
 		generic_freedom_of_opportunity_idea = {
@@ -995,7 +1076,25 @@ ideas = {
 				army_core_attack_factor = 0.2
 			}
 		}	
+		idea_weapons_for_the_resistance = {
 
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = chi_war_of_resistance3
+			
+			modifier = {
+				resistance_tick_in_states_controlled_by_enemy = 0.01
+				partisan_effect = 0.25
+			}
+		}
 		civil_war_rebuild_nation = {
 			allowed = {
 				always = no

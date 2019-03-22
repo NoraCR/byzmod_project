@@ -144,6 +144,10 @@ create_navy_leader = {
 	traits = { }
 	skill = 4
 	female = yes
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 
 create_navy_leader = {
@@ -151,6 +155,10 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/generic/adm_generic_europe_m1.png"
 	traits = { spotter }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
 }
 
 ### Ship Variants ###

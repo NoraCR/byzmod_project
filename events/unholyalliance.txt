@@ -403,7 +403,7 @@ country_event = {
 		name = byzmrt.7.a
 		BYZ = { add_to_faction = MRT }
 		BYZ = { country_event = { id = byzmrt.8 hours = 6 } }
-		MRT = { remove_ideas = MRT_independent_socialism }
+		remove_ideas = MRT_independent_socialism
 		hidden_effect = {
 			news_event = { id = news.290 hours = 12 }
 		}

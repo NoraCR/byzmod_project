@@ -259,15 +259,23 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Ekaterina Zubova"
-		portrait_path = "gfx/leaders/generic/adm_generic_europe_f3.png"
+	portrait_path = "gfx/leaders/generic/adm_generic_europe_f3.png"
 	traits = { spotter }
 	skill = 4
 	female = yes
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 4
 }
 
 create_navy_leader = {
 	name = "Oleg Galiaskarov"
-		portrait_path = "gfx/leaders/generic/adm_generic_europe_m2.png"
+	portrait_path = "gfx/leaders/generic/adm_generic_europe_m2.png"
 	traits = { seawolf }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
 }

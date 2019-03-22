@@ -10,4 +10,90 @@ leader_traits = {
 			factor = 0
 		}
 	}
+	coalition_builder = { #Erdemir
+		random = no
+		political_power_gain = 0.05
+		political_advisor_cost_factor = -0.25
+		trade_laws_cost_factor = -0.25
+		mobilization_laws_cost_factor = -0.25
+		economy_cost_factor = -0.25
+		high_command_cost_factor = -0.25
+		air_chief_cost_factor = -0.25
+		army_chief_cost_factor = -0.25
+		navy_chief_cost_factor = -0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	admiralissima = { #Fatima Hu
+		production_speed_naval_base_factor = 0.09
+		production_speed_dockyard_factor = 0.06
+		experience_gain_navy = 0.12
+
+		random = no
+	}
+	oil_baron = { #Walashma
+		local_resources_factor = 0.10
+		production_factory_max_efficiency_factor = 0.025
+		production_speed_synthetic_refinery_factor = 0.10
+
+		random = no
+	}
+	head_of_the_establishment = { #Zhang Zhulin
+		production_speed_buildings_factor = 0.05
+		research_speed_factor = 0.02
+		industrial_capacity_factory = 0.03
+	}
+	
+	local_tyrant = { #Cao Liuxian, the tuhao
+		political_power_gain = -0.10
+		local_resources_factor = 0.15
+	}
+	
+	ambitious_technocrat = { #Mayneri Nitaino
+
+		political_power_gain = 0.1
+		research_speed_factor = 0.03
+		consumer_goods_factor = -0.05
+	}
+	
+	steppe_lord = { #Liu Kesan
+
+		political_power_gain = 0.075
+		consumer_goods_factor = 0.05
+		army_morale = 0.10
+
+		random = no
+	}
+	witch_of_balboa = { #Papadopoulou
+		war_support_factor = 0.05
+		stability_factor = 0.05
+		high_command_cost_factor = -0.25
+		air_chief_cost_factor = -0.25
+		army_chief_cost_factor = -0.25
+		navy_chief_cost_factor = -0.25
+		army_core_attack_factor = 0.2
+		army_core_defence_factor = 0.2
+	}
+	
+	sphinx_of_mumbai = { #Sharqi
+		political_power_gain = -0.10
+		production_speed_arms_factory_factor = 0.15
+		industrial_capacity_factory = 0.05
+		local_resources_factor = 0.05
+	}
+
+	valeria_aeterna = { #Valeria Postuma
+		political_power_gain = 0.05
+		consumer_goods_factor = 0.05
+
+		equipment_bonus = {
+			infantry_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+		}
+		army_speed_factor = 0.05
+	}
 }

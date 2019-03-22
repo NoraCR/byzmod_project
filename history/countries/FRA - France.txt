@@ -429,35 +429,52 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Adèle de Lacour"
 	picture = "fra_admiral_adele_de_lacour.tga"
-	traits = { superior_tactician old_guard_navy }
+	traits = { superior_tactician naval_lineage }
 	skill = 3
 	female = yes
 	id = 20
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 
 create_navy_leader = {
 	name = "Gilles Raphaël d'Espinassy"
 	picture = "fra_admiral_gilles_raphael_d'espinassy.tga"
-	traits = { spotter old_guard_navy}
+	traits = { spotter naval_lineage gentlemanly }
 	skill = 3
 	id = 21
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
+	
 }
 
 create_navy_leader = {
 	name = "Jean-Baptiste d'Arnauld"
 	picture = "fra_admiral_jean-baptiste_d'arnauld.tga"
-	traits = { seawolf old_guard_navy }
+	traits = { seawolf bold }
 	skill = 2
 	id = 22
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
 }
 
 create_navy_leader = {
 	name = "Jeanne-Marie de Beauharnais"
 		picture = "fra_adm_jeanne-marie_de_beauharnais.tga"
-	traits = { old_guard_navy spotter }
+	traits = { spotter craven }
 	skill = 1
 	female = yes
 	id = 23
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 

@@ -2466,38 +2466,6 @@ news_event = {
 		name = news.906.a
 	}
 }
-# 1938 World Cup ended
-news_event = {
-	id = news.907
-	title = news.907.t
-	desc = news.907.d
-	picture = GFX_news_event_069
-	
-	major = yes
-	
-	trigger = {
-		date > 1938.6.18
-		has_global_flag = world_cup_starts }
-		country_exists = IRE
-		country_exists = BYZ
-		country_exists = MEX
-		MEX = { has_war = no }
-		IRE = { has_war = no }
-		BYZ = { has_war = no }
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	immediate = {
-		set_global_flag = 38_world_cup_over
-	}
-	
-	option = {
-		name = news.907.a
-	}
-}
 
 # Dog Park!
 news_event = {

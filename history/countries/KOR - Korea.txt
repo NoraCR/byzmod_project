@@ -197,12 +197,20 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/generic/generic_asia_m2.png"
 	traits = { air_controller }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 4
+	coordination_skill = 3
 }
 
 create_navy_leader = {
 	name = "Smith Hyun-mi"
 	portrait_path = "gfx/leaders/generic/adm_generic_asia_f2.png"
-	traits = { }
+	traits = { bold ironside }
 	skill = 3
 	female = yes
+	attack_skill = 5
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 2
 }

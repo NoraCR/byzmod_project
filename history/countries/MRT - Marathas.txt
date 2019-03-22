@@ -58,6 +58,9 @@ set_politics = {
 		communism = {
 			popularity = 55
 		}
+		neutrality = {
+			popularity = 0
+		}
 	}
 	
 	ruling_party = communism
@@ -274,8 +277,12 @@ create_navy_leader = {
 	name = "Chandravadan Ganatra" #Gujarati, male
 	picture = "mrt_admiral_chandravadan_ganatra.png"
 	id = 413
-	traits = { }
+	traits = { seawolf }
 	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 create_navy_leader = {
 	name = "Chitrani Dixit" #Gujarati, female 
@@ -284,19 +291,32 @@ create_navy_leader = {
 	traits = { }
 	skill = 2
 	female = yes
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 create_navy_leader = {
 	name = "Prayag Ghadge" #Marathi, male
 	picture = "mrt_admiral_prayag_ghadge.png"
 	id = 415
-	traits = { }
+	traits = { ground_pounder }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 create_navy_leader = {
 	name = "Parsan Kal Singh" #sikh, male
 	picture = "mrt_admiral_parsan_kal_singh.png"
 	id = 416
-	traits = { }
+	traits = { green_water_expert }
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+
 }
 

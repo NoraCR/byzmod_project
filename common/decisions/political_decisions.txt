@@ -1929,7 +1929,7 @@ political_actions = {
         }
 
         modifier = {
-            research_time_factor = -0.03
+            research_speed_factor = 0.04
             stability_factor = -0.05
         }
 

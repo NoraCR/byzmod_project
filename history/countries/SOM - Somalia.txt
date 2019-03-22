@@ -214,34 +214,54 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Samiira Isir Mareye" #female
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
-	traits = { superior_tactician spotter }
+	traits = { superior_tactician spotter battleship_adherent }
 	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	maneuvering_skill = 5
+	coordination_skill = 4
 }
 
 create_navy_leader = {
 	name = "Abdirahman Hirsi Jama"
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
-	traits = { ironside }
+	traits = { ironside gunnery_expert }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 
 create_navy_leader = {
 	name = "Asha-Kos Hussein Haji Abdi"
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-	traits = { }
+	traits = { bold navy_career_officer }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 5
+	coordination_skill = 4
 }
 
 create_navy_leader = {
 	name = "Cabdullahi Osoble Tahir"
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
-	traits = { superior_tactician }
+	traits = { superior_tactician aviation_enthusiast }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 4
+	coordination_skill = 2
 }
 
 create_navy_leader = {
 	name = "Athouman Qureshi" #Egyptian
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-	traits = { superior_tactician spotter }
+	traits = { superior_tactician spotter gentlemanly }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
 }

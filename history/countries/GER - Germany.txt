@@ -340,9 +340,13 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Hildegard Schröder"
 	picture = "ger_admiral_hildegard_schroder.png"
-	traits = { ironside }
+	traits = { ironside superior_tactician }
 	skill = 5
 	female = yes
+	attack_skill = 5
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 5
 }
 
 create_navy_leader = {
@@ -350,6 +354,10 @@ create_navy_leader = {
 	picture = "ger_admiral_florian_amsel.png"
 	traits = {  }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 3
 }
 
 create_navy_leader = {
@@ -357,6 +365,10 @@ create_navy_leader = {
 		picture = "ger_admiral_maximilian_von_kotzau.png"
 	traits = { old_guard_navy superior_tactician }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 4
+	coordination_skill = 2
 }
 
 create_navy_leader = {
@@ -364,6 +376,10 @@ create_navy_leader = {
 		picture = "ger_admiral_sebastian_vogt.png"
 	traits = { seawolf }
 	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 4
 }
 
 create_navy_leader = {
@@ -371,6 +387,10 @@ create_navy_leader = {
 		picture = "ger_admiral_ernst_zeuge.png"
 	traits = { fly_swatter spotter }
 	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 
 

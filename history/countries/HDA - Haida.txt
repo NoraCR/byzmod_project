@@ -184,26 +184,42 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Skilkwiitlaas Kaysuun Llnagaay"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { ironside }
+	traits = { bold aviation_enthusiast navy_career_officer ironside superior_tactician }
 	skill = 5
+	attack_skill = 5
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
 }
 create_navy_leader = {
 	name = "Chimako Arakawa" #Japanese, female
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { spotter }
+	traits = { spotter fly_swatter }
 	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 create_navy_leader = {
 	name = "Sandlenee Hlgihla-ala"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { air_controller }
+	traits = { aviation_enthusiast gentlemanly }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 4
 }
 create_navy_leader = {
 	name = "Matvey Shults" #Russian
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { air_controller }
+	traits = { air_controller old_guard_navy }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 
 
