@@ -252,7 +252,7 @@
 		available_if_capitulated = yes
 
 		complete_tooltip = {
-			air_experience = 25
+			air_experience = 50
 			add_tech_bonus = {
 				name = air_sup_bonus
 				bonus = 0.5

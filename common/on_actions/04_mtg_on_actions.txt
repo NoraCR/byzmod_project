@@ -216,7 +216,6 @@ on_actions = {
 				ENG = {
 					release = FIJ
 					release = MLD
-					release = MAL
 					release = SRL
 					release = QAT
 					release = KUW
@@ -242,13 +241,6 @@ on_actions = {
 					retire_country_leader = yes
 				}
 				RAJ = {
-					drop_cosmetic_tag = yes
-					retire_country_leader = yes
-				}
-				HOL = {
-					set_autonomy = { target = INS autonomy_state = autonomy_free }
-				}
-				INS = {
 					drop_cosmetic_tag = yes
 					retire_country_leader = yes
 				}
