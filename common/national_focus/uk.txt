@@ -2108,7 +2108,7 @@ focus_tree = {
 	}
 	focus = {
 		id = african_rifles
-		icon = GFX_focus_SAF_secure_africa
+		icon = GFX_goal_generic_army_doctrines
 		cost = 10
 		prerequisite = {
 			focus = the_homefront
@@ -2194,7 +2194,7 @@ focus_tree = {
 	}
 	focus = {
 		id = disestablish_the_monarchy
-		icon = GFX_goal_tfv_sever_ties_with_uk
+		icon = GFX_goal_tfv_burn_the_royal_portraits
 		cost = 10
 		prerequisite = {
 			focus = handle_the_queen
