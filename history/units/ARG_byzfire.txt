@@ -127,32 +127,32 @@ units = {
 		name = "Armada de Communa"			
 		base = 12364 
 		location = 12364 # Buenos Aires
-		ship = { name = "BAC Nuevo Xi'an" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC Xin Fenghao" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC Duanwu Jie" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC Almirante Tang" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC Pueyrredon" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC Socialismo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC Independencia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Nuevo Xi'an" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Xin Fenghao" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Duanwu Jie" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Almirante Tang" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Pueyrredon" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Socialismo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Independencia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
 		# Flotilla de Destructores nro. 1
-		ship = { name = "BAC Catamarca" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC Jujuy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC Córdoba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC La Plata" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Catamarca" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Jujuy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Córdoba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX La Plata" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
 		# Flotilla de Destructores nro. 2
-		ship = { name = "BAC Cai Rong" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC Juan de Garay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC Ma Jun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC La Rioja" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC Zheng Jitao" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Cai Rong" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Juan de Garay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Ma Jun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX La Rioja" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Zheng Jitao" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
 	}				
 	navy = {				
 		name = "Flotilla de Submarinos"			
 		base = 12364 
 		location = 12364 # Buenos Aires
-		ship = { name = "BAC Santa Fe" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC Santiago del Estero" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "BAC Salta" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Santa Fe" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Santiago del Estero" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Salta" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG } } }
 	}				
 }
 

@@ -1,0 +1,14 @@
+﻿#### LITHUANIAN NAVY ####
+units = {
+	fleet = {
+		name = "LKJP"
+		naval_base = 3288 #Memel
+		task_force = {
+			name = "Destroyer Squadron"
+			location = 3288
+			ship = { name = "Prezidentas Sereikis" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = LIT version_name = "Prezidentas Sereikis Class" } } }
+			ship = { name = "Skalvas" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = LIT version_name = "Prezidentas Sereikis Class" } } }	
+			ship = { name = "Kuršis" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = LIT version_name = "Prezidentas Sereikis Class" } } }	
+		}
+	}
+}

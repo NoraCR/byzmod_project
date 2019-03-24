@@ -157,15 +157,6 @@ units = {
 		start_equipment_factor = 0.9
 
 	}
-	######## NAVAL OOB ########
-	navy = {
-		name = "LKJP"
-		base = 3288 
-		location = 3288 # Memel
-		ship = { name = "Prezidentas Sereikis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LIT } } }
-		ship = { name = "Skalvas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LIT } } }	
-		ship = { name = "Kuršis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LIT } } }	
-	}
 }
 
 air_wings = {

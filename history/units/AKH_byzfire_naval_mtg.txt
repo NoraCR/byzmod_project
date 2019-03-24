@@ -1,0 +1,42 @@
+﻿#### ASITELAHAN NAVY ####
+units = {
+########NAVAL UNITS########
+	fleet = {		
+		name = "Asitelahan Renmin Gongheguo Haijun"
+		naval_base = 9417 ##Rostov
+		task_force = {
+		name = "Heihai Jiandui"
+			location = 9417 
+			ship = { name = "ANS Asitelahan" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = AKH version_name = "Asitelahan Class" } } }		
+			ship = { name = "ANS Heima" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = AKH  version_name = "Heihai Class" } } }		
+			ship = { name = "ANS Heiying" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = AKH  version_name = "Heihai Class"  } } }		
+			ship = { name = "ANS Heitan" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = AKH  version_name = "Heihai Class"  } } }
+			ship = { name = "ANS Heixiazi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = AKH  version_name = "Heihai Class"  } } }
+			ship = { name = "ANS Heijinghe" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = AKH  version_name = "Heihai Class"  } } }
+		}
+		task_force = {				
+			name = "Heihai Haian Jingwei Dui" ##Coast Guard
+			location = 9417 
+			ship = { name = "ANS Fu'erjia He" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AKH  version_name = "Heihai Class"  } } }		
+			ship = { name = "ANS Kuban He" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AKH  version_name = "Heihai Class"  } } }
+			ship = { name = "ANS Wula'er He" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AKH  version_name = "Heihai Class"  } } }
+			ship = { name = "ANS Dun He" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AKH  version_name = "Heihai Class"  } } }		
+		}
+	}
+}
+
+##### SHIP CONSTRUCTION #####
+instant_effect = {
+	# Light Cruiser 
+	add_equipment_production = { 		
+		equipment = {
+			type = ship_hull_cruiser_coastal_defense_ship
+			creator = "CHI" 
+			version_name = "Asitelahan Class"
+		}
+		name = "ANS Samara" 
+		requested_factories = 1
+		progress = 0.33
+		amount = 1
+	}
+}

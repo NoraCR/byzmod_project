@@ -34,6 +34,7 @@ set_technology = {
 	superior_firepower = 1
 	base_strike = 1
 	oil_processing = 1
+	fuel_silos = 1
 }
 
 
