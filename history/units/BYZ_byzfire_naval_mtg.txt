@@ -167,9 +167,9 @@ units = {
 			# 35th Destroyer Division			
 			ship = { name = "RNS Suzuki" definition = destroyer equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ } } }		
 			ship = { name = "RNS Helladid" definition = destroyer equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ } } }		
-			ship = { name = "RNS Peneid" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
-			ship = { name = "RNS Mars" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
-			ship = { name = "RNS Hadjiapostolou" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BYZ } } }		
+			ship = { name = "RNS Peneid" definition = destroyer equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ } } }		
+			ship = { name = "RNS Mars" definition = destroyer equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ } } }		
+			ship = { name = "RNS Hadjiapostolou" definition = destroyer equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ } } }		
 		}				
 		task_force = {					
 			name = "Destroyer Flotilla  5"				
