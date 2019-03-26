@@ -60,38 +60,16 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
-	}
-
-	##### Naval OOB #####
-	navy = {				
-		name = "Inca Navy"			
-		base = 12997 
-		location = 12997 # Lima
-		ship = { name = "TNS Hualcana" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PRU } } }
-		ship = { name = "TNS Pucará" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PRU } } }
-		ship = { name = "TNS Suchuc Chiqui" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
-		ship = { name = "TNS Chaska Chiqui" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
-	}				
-	navy = {				
-		name = "Submarine Flotilla"			
-		base = 12997 
-		location = 12997 # Lima
-		ship = { name = "TNS R1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRU } } }
-		ship = { name = "TNS R2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRU } } }
-		ship = { name = "TNS R3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRU } } }
-		ship = { name = "TNS R4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRU } } }
 	}				
 }
 
 air_wings = {
 	### Cuerpo de Aviación del Perú -- Lima
 	303 = {
-		# Fighter Air Group -- Curtis F11s, NiD 123s, Ca.114s
 		fighter_equipment_0 =  {
 			owner = "PRU" 
 			amount = 60
 		}
-		# CAS Air Group -- Ca.111s, Fairey Foxes
 		CAS_equipment_1 =  {
 			owner = "PRU" 
 			amount = 36

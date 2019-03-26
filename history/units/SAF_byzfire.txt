@@ -67,15 +67,6 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-	navy = {	
-		name = "Cape Nitaino Fleet" 
-		base = 12589
-		location = 12589 # Cape Nitaino
-		ship = { name = "CNS Amatola" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF  } } }
-		ship = { name = "CNS Isandlwana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF  } } }
-		ship = { name = "CNS Dyobha" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF  } } }
-		ship = { name = "CNS Galeshewe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF  } } }
-}
 }
 
 air_wings = {

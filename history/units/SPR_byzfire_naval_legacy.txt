@@ -1,0 +1,63 @@
+﻿##### LEONESE NAVY #####
+units = {
+	navy = {
+		name = "Base Naval Cádiz"
+		base = 1048
+		location = 1048  #Cádiz
+		ship = { name = "ARL Galicia" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Baetica" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Lusitania" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Tarraconensis" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Almirante Zheng He" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Julio César" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Escipión el Africano" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Emerita Augusta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Tarraco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Corduba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Brigantium" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Segovia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Valentia Edetanorum" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Cesaraugusta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Galatea" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Segisama" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Saguntum" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Emporion" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+	}
+	navy = {
+		name = "Base Naval Ferrol"
+		base = 758
+		location = 758 #Coruna
+		ship = { name = "ARL Galicia" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Almirante Rodriguez" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Almirante Hu" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Almirante el-Arshad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Covadonga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Circe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Sirena" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Andaluza" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Guadiana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Huelva" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Ligera" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Favorita" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Santa Filomena" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Valiente" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Constancia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Prudencia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Fealtad" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Honora" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Justicia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Equidad" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+	}
+	navy = {				
+		name = "Base Naval Lisboa"			
+		base = 11805
+		location = 11805 # Lisbon
+		ship = { name = "ARL Lisbon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARL Porto" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
+		# Submarine Division
+		ship = { name = "ARL Argonauta" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }				
+		ship = { name = "ARL Achille" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }				
+		ship = { name = "ARL Neptuno" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }				
+		ship = { name = "ARL Rayo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }				
+	}	
+}
