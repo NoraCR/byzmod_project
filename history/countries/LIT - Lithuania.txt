@@ -161,6 +161,19 @@ create_corps_commander = {
 	female = yes
 }
 
+
+create_navy_leader = {
+	name = "Jeronimas Orentas"
+	portrait_path = "gfx/leaders/generic/adm_generic_europe_m1.png"
+	traits = { blockade_runner bold spotter }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 1
+}
+
+
 ### VARIANTS ###
 # 1936 Start #
 if = {

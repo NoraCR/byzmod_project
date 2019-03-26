@@ -1,0 +1,12 @@
+﻿# Some new Battleships
+
+units = {
+	navy = {					
+		name = "Linkor Flot"				
+		base = 3151
+		location = 3151 # Saint Petersburg			
+		ship = { name = "Potemkin" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV creator = SOV } } }			
+		ship = { name = "Tsaritsa Ekaterina Velikaya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV creator = SOV } } }
+		ship = { name = "Andrei Pervozvanny" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV creator = SOV } } }
+	}			
+}

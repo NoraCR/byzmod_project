@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Alfurqat Almasha"		# 'Infantry Division' - Represents local tribal levies (militia)
+	name = "Alfurqat Almasha"		# 'Infantry Division' - Represents local levies (militia)
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -21,7 +21,7 @@ division_template = {
 	}
 }
 units = {
-	##### Royal Seljuk Army #####
+	##### Libyan Army #####
 	division = {
 		name = "Sipahis al-1i"
 		location = 1149
@@ -49,13 +49,6 @@ units = {
 		division_template = "Alfurqat Almasha"
 		start_equipment_factor = 0.3
 
-	}
-	navy = { #Miniscule, purchased from Byzantium
-		name = "Quwwat Al-Bahriat Al-Lybia"
-		base = 1149 
-		location = 1149 # Tripoli
-		ship = { name = "Al Hani" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
-		ship = { name = "Al Ghardabia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }		
 	}
 }
 

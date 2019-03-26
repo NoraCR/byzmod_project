@@ -1,0 +1,11 @@
+﻿### LIBYAN NAVY ###
+units = {
+	navy = { #Miniscule, purchased from Byzantium
+		name = "Quwwat Al-Bahriat Al-Lybia"
+		base = 1149 
+		location = 1149 # Tripoli
+		ship = { name = "Al Hani" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LBA } } }
+		ship = { name = "Al Ghardabia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LBA } } }
+		ship = { name = "Sirte" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LBA } } }		
+	}
+}

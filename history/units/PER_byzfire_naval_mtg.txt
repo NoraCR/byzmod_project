@@ -1,0 +1,18 @@
+﻿units = {
+	##### PERSIAN NAVAL UNITS #####
+	fleet = {					
+		name = "Persian Republican Navy"				
+		naval_base = 7982 #Bandar-e-Abbas 
+		task_force = {
+		location =  7982
+		name = "Persian Republican Navy"
+			ship = { name = "Bandar-e-Abbas" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PER version_name = "Bandar-e-Abbas Class" } } }				
+			ship = { name = "Bushehr" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PER version_name = "Bandar-e-Abbas Class" } } }	
+			ship = { name = "Kaman" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = PER version_name = "Kaman Class" } } }
+			ship = { name = "Zoubin" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = PER version_name = "Kaman Class" } } }
+			ship = { name = "Khadang" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = PER version_name = "Kaman Class" } } }
+			ship = { name = "Paykan" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = PER version_name = "Kaman Class" } } }
+			ship = { name = "Gardouneh" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = PER version_name = "Kaman Class" } } }
+		}
+	}
+}

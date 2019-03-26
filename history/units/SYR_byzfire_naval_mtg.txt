@@ -1,0 +1,45 @@
+﻿units = {
+	######## NAVAL OOB ########
+	fleet = {
+		name = "Da Qin Battle Fleet"
+		naval_base = 792 #Lebanon
+		task_force = {
+			name = "Da Qin Cruisers Fleet"
+			location = 792 #Lebanon
+			ship = { name = "Tartus" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SYR version_name = "Tartus Class" } } }
+			ship = { name = "Latakia" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SYR version_name = "Tartus Class" } } }
+			ship = { name = "Beirut" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SYR version_name = "Tartus Class" } } }
+		}
+		task_force = {
+			name = "Da Qin Destroyer Fleet"
+			location = 792 #Lebanon
+			ship = { name = "Easifa" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SYR version_name = "Sakhab Class" } } }	
+			ship = { name = "Sakhab" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SYR version_name = "Sakhab Class" } } }		
+			ship = { name = "Bariq" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SYR version_name = "Sakhab Class" } } }
+			ship = { name = "Hadir" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SYR version_name = "Sakhab Class" } } }
+			ship = { name = "Sayf" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SYR version_name = "Sakhab Class" } } }
+			ship = { name = "Khanajr" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SYR version_name = "Sakhab Class" } } }
+		}
+		task_force = {
+			name = "Da Qin Submarine Fleet"
+			location = 4206 # Jerusalem
+			ship = { name = "Washq" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SYR version_name = "Asada Class" } } }					
+			ship = { name = "Dhiyb" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SYR version_name = "Asada Class" } } }					
+			ship = { name = "Asada" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SYR version_name = "Asada Class" } } }
+			ship = { name = "Nasir" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SYR version_name = "Asada Class" } } }
+			ship = { name = "Saqr" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SYR version_name = "Asada Class" } } }	
+		}
+	}
+	
+	fleet = {
+		name = "Persian Gulf Detachment"
+		naval_base = 2089 #Basra
+		task_force = {
+			name = "Persian Gulf Destroyers"
+			location = 2089
+			ship = { name = "Umm Qasr" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SYR version_name = "Sakhab Class" } } }	
+			ship = { name = "Al Basra" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SYR version_name = "Sakhab Class" } } }		
+			ship = { name = "Ahvaz" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SYR version_name = "Sakhab Class" } } }
+		}
+	}
+}

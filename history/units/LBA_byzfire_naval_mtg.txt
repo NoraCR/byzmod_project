@@ -1,0 +1,14 @@
+﻿#### LBAHUANIAN NAVY ####
+units = {
+	fleet = {
+		name = "Quwwat Al-Bahriat Al-Lybia"
+		naval_base = 1149 #Tripoli
+		task_force = {
+			name = "Destroyer Squadron"
+			location = 1149 #Tripoli
+			ship = { name = "Al Hani" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = LBA version_name = "Sirte Class" } } }
+			ship = { name = "Al Ghardabia" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = LBA version_name = "Sirte Class" } } }	
+			ship = { name = "Sirte" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = LBA version_name = "Sirte Class" } } }	
+		}
+	}
+}

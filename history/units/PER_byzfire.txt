@@ -117,23 +117,7 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
-	}
-
-	##### NAVAL UNITS #####
-	navy = {					
-		name = "Persian Republican Navy"				
-		base = 7982 #Bandar-e-Abbas 
-		location =  7982
-		ship = { name = "Bandar-e-Abbas" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PER } } }				
-		ship = { name = "Bushehr" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PER } } }	
-		ship = { name = "Kaman" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
-		ship = { name = "Zoubin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
-		ship = { name = "Khadang" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
-		ship = { name = "Paykan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
-		ship = { name = "Gardouneh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
-		ship = { name = "Noor" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PER } } }
-		ship = { name = "Yunes" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PER } } }
-	}		
+	}	
 }
 
 air_wings = {
@@ -151,8 +135,6 @@ air_wings = {
 		}
 	}
 }
-
-
 
 instant_effect = {
 	add_equipment_production = {
