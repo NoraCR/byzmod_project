@@ -5,8 +5,8 @@ units = {
 		name = "Julius and Augustus"				
 		base = 9737
 		location = 9737 # Saint Nazaire			
-		ship = { name = "HIM Augustus" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = FRA creator = FRA } } }			
-		ship = { name = "HIM Julius" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = FRA creator = FRA } } }
+		ship = { name = "HIM Augustus" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA creator = FRA } } }			
+		ship = { name = "HIM Julius" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA creator = FRA } } }
 	}			
 }					
 					
