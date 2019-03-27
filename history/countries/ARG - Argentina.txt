@@ -239,7 +239,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Mendoza Class"				
+		name = "Ma Jun Class"				
 		type = ship_hull_light_2
 		name_group = ARG_DD_HISTORICAL
 		parent_version = 0

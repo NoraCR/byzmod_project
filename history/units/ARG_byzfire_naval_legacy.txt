@@ -1,0 +1,33 @@
+﻿units = {
+	navy = {				
+		name = "Armada de Communa"			
+		base = 12364 
+		location = 12364 # Buenos Aires
+		ship = { name = "ACNX Nuevo Xi'an" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Xin Fenghao" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Duanwu Jie" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Almirante Tang" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Pueyrredon" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Socialismo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Independencia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
+		# Flotilla de Destructores nro. 1
+		ship = { name = "ACNX Catamarca" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Jujuy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Córdoba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX La Plata" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		# Flotilla de Destructores nro. 2
+		ship = { name = "ACNX Cai Rong" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Juan de Garay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Ma Jun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX La Rioja" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Zheng Jitao" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+	}				
+	navy = {				
+		name = "Flotilla de Submarinos"			
+		base = 12364 
+		location = 12364 # Buenos Aires
+		ship = { name = "ACNX Santa Fe" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Santiago del Estero" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG } } }
+		ship = { name = "ACNX Salta" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG } } }
+	}	
+}

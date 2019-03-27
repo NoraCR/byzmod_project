@@ -1,0 +1,38 @@
+﻿##### NUEVO XIAN NAVY #####
+
+units = {
+	fleet = {				
+		name = "Armada de Communa"			
+		naval_base = 12364
+		task_force = {
+			name = "Armada de Communa"
+			location = 12364 # Buenos Aires
+			ship = { name = "ACNX Nuevo Xi'an" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ARG version_name = "Nuevo Xi'an Class" } } }
+			ship = { name = "ACNX Xin Fenghao" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ARG version_name = "Nuevo Xi'an Class" } } }
+			ship = { name = "ACNX Duanwu Jie" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Duanwu Jie Class" } } }
+			ship = { name = "ACNX Almirante Tang" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Duanwu Jie Class" } } }
+			ship = { name = "ACNX Pueyrredon" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Duanwu Jie Class" } } }
+			ship = { name = "ACNX Socialismo" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = ARG version_name = "Socialismo Class" } } }
+			ship = { name = "ACNX Independencia" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = ARG version_name = "Socialismo Class" } } }
+			# Flotilla de Destructores nro. 1
+			ship = { name = "ACNX Catamarca" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Catamarca Class" } } }
+			ship = { name = "ACNX Jujuy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Catamarca Class" } } }
+			ship = { name = "ACNX Córdoba" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Catamarca Class" } } }
+			ship = { name = "ACNX La Plata" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Catamarca Class" } } }
+			# Flotilla de Destructores nro. 2
+			ship = { name = "ACNX Cai Rong" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Catamarca Class" } } }
+			ship = { name = "ACNX Juan de Garay" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Catamarca Class" } } }
+			ship = { name = "ACNX Ma Jun" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ARG version_name = "Ma Jun Class" } }}
+			ship = { name = "ACNX La Rioja" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ARG version_name = "Ma Jun Class" } }}
+			ship = { name = "ACNX Zheng Jitao" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ARG version_name = "Ma Jun Class" } }}
+		}
+		task_force = {				
+			name = "Flotilla de Submarinos"			
+			location = 12364 # Buenos Aires
+			ship = { name = "ACNX Santa Fe" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ARG version_name = "Santa Fe Class" } } }
+			ship = { name = "ACNX Santiago del Estero" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ARG version_name = "Santa Fe Class" } } }
+			ship = { name = "ACNX Salta" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ARG version_name = "Santa Fe Class" } } }
+		}	
+	}				
+
+}
