@@ -192,45 +192,7 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-
-
-	##### Naval OOB #####
-	navy = {				
-		name = "Anacoana Navy"			
-		base = 10980 
-		location = 10980 # Rio de Janiero
-		ship = { name = "NRA Guiana" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Tupiniqium" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Sabiá-Laranjeira" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Ipê-Amarelo" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Paraná" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Sergipe" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Guarani" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Kaingang" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
-		# 1a Destroyer Flotilla
-		ship = { name = "NRA Piaui" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Potengi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Paraíba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Alagoas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		# 2a Destroyer Flotilla
-		ship = { name = "NRA Caxias" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }	
-		ship = { name = "NRA Uruguaia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Cuiabá" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Iguaçu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Itanhangá" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		# 3a Destroyer Flotilla
-		ship = { name = "NRA Pirai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Umuarama" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Maranhao" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Araucaria" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "NRA Kaiowá" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-	}				
-	navy = {				
-		name = "Submarine Flotilla"			
-		base = 10980 
-		location = 10980 # Rio de Janiero
-		ship = { name = "NRA Humaytá" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BRA } } }
-	}				
+			
 }
 
 

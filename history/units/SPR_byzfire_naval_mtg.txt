@@ -1,6 +1,7 @@
 ##### LEONESE NAVY #####
 units = {
 	fleet = {
+	name = Flota Imperial
 	naval_base = 1048 # Cadiz
 	task_force = {
 		name = "Base Naval Cádiz"
@@ -27,6 +28,7 @@ units = {
 		}
 	}
 	fleet = {
+	name = "Base Naval Ferrol"
 	naval_base = 758 #Coruna
 	task_force = {
 		name = "Base Naval Ferrol"

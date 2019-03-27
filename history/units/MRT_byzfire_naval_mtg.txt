@@ -1,0 +1,96 @@
+﻿#######Maratha Navy#######
+units = {
+	fleet = {
+		name = "1 Maratha Vegavana" 
+		base = 1349
+		task_force = {
+			name = "1 Maratha Vegavana"
+			location = 1349 # Mumbai
+			ship = { name = "Samyavada" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = MRT version_name = "Samyavada Class" } } }
+			ship = { name = "Hivali Kranti" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = MRT version_name = "Samyavada Class" } } }
+			ship = { name = "Khanderi" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = MRT version_name = "Khanderi Class" } } }
+			ship = { name = "Kalvari" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = MRT version_name = "Khanderi Class" } } }
+			ship = { name = "Kursura" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = MRT version_name = "Khanderi Class" } } }
+			ship = { name = "Ahamadabada" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MRT version_name = "Ahamadabada Class" } } }
+			ship = { name = "Gova" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MRT version_name = "Ahamadabada Class" } } } 
+			ship = { name = "Madrasa" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MRT version_name = "Ahamadabada Class" } } } 
+			# 3 Nasa karanara Phadaphada
+			ship = { name = "Capala" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Capala Class" } } }
+			ship = { name = "Jalada" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Capala Class" } } }
+			ship = { name = "Savadhagirine" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Capala Class" } } }
+			ship = { name = "Aparyapta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Capala Class" } } }
+			ship = { name = "Dhita" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Capala Class" } } }
+			# 4 Nasa karanara Phadaphada
+			ship = { name = "Cidakhora" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }		
+			ship = { name = "Abhimana" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }		
+			ship = { name = "Joradara" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }		
+			ship = { name = "Meghagarjana" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			ship = { name = "Bhavya" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			# 5 Nasa karanara Phadaphada
+			ship = { name = "Hiravati" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			ship = { name = "Phrabhavati" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			ship = { name = "Dipavati" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+		}
+		task_force = {
+			name = "1 Nasa karanara Vegavana" 
+			location = 1349 # Mumbai
+			ship = { name = "Magar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			ship = { name = "Gharial" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			ship = { name = "Guldar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			ship = { name = "Ghorpad" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			ship = { name = "Kesari" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			ship = { name = "Shardul" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			ship = { name = "Sharab" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			ship = { name = "Mahish" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+		}
+	}
+	fleet = {
+		name = "2 Maratha Vegavana" 
+		base = 1273
+		task_force = {
+		location = 1273 # Goa
+			name = "2 Maratha Vegavana"
+			ship = { name = "Ivjeniya Etskevhariya" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = MRT version_name = "Samyavada Class" } } }
+			ship = { name = "Kamyuna" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = MRT version_name = "Samyavada Class" } } }
+			ship = { name = "Proletarice" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = MRT version_name = "Samyavada Class" } } }
+			ship = { name = "Henarika Mulara" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = MRT version_name = "Samyavada Class" } } }
+			ship = { name = "Rajakota" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MRT version_name = "Rajakota Class" } } }
+			ship = { name = "Surata" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MRT version_name = "Rajakota Class" } } } 
+			ship = { name = "Mumba'i" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MRT version_name = "Rajakota Class" } } } 
+			# 6 Nasa karanara Phadaphada
+			ship = { name = "Nishank" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Capala Class" } } }
+			ship = { name = "Vibhuti" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Capala Class" } } }
+			ship = { name = "Vipul" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Capala Class" } } }
+			# 7 Nasa karanara Phadaphada
+			ship = { name = "Vinash" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			ship = { name = "Vidyut" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			ship = { name = "Nashak" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			ship = { name = "Prabal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+			ship = { name = "Pralaya" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MRT version_name = "Hiravati Class" } } }
+		}
+		task_force = {
+			name = "1 Panabudi Vegavana" 
+			location = 3456 # Karachi
+			ship = { name = "P1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }
+			ship = { name = "P2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }
+			ship = { name = "P3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }
+			ship = { name = "P4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }	
+			ship = { name = "P5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }
+			ship = { name = "P6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }	
+			ship = { name = "P7" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }	
+			ship = { name = "P8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }	
+			ship = { name = "P9" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }	
+			ship = { name = "P10" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }	
+		}
+		task_force = {
+			name = "2 Panabudi Vegavana" 
+			location = 10278 # Madras
+			ship = { name = "P11" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }
+			ship = { name = "P12" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }
+			ship = { name = "P13" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }
+			ship = { name = "P14" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }	
+			ship = { name = "P15" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }
+			ship = { name = "P16" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MRT version_name = "P-Type" } } }	
+		}
+	}	
+}	

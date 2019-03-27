@@ -1,0 +1,27 @@
+﻿units = {
+	##### HOLLANDIA NAVAL UNITS #####
+	navy = {				
+		name = "Nederlandse Marine"			
+		base = 9498 
+		location = 9498
+		ship = { name = "Amsterdam" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = HOL } } }		
+		ship = { name = "Antwerpen" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = HOL } } }		
+		ship = { name = "Rotterdam" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = HOL } }	}		
+		ship = { name = "Den Haag" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = HOL } } }
+		ship = { name = "Rotterdam" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = HOL } } }
+		ship = { name = "Van Galen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }		
+		ship = { name = "Van Ghent" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }		
+		ship = { name = "Evertsen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }		
+		ship = { name = "Kortenaer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }		
+		ship = { name = "Piet Hein" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }		
+		ship = { name = "Witte de With" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }	
+	}				
+	navy = {				
+		name = "Onderzeeboot Smaldeel"			
+		base = 9498  
+		location = 9498 
+		ship = { name = "O-1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+		ship = { name = "O-2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+		ship = { name = "O-3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+	}
+}

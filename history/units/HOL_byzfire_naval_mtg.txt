@@ -1,0 +1,29 @@
+units = {
+	##### HOLLANDIA NAVAL UNITS #####
+	fleet = {				
+		name = "Koninklijke Marine"			
+		base = 9498
+		task_force = {
+			name = "Koninklijke Vloot"	
+			location = 9498
+			ship = { name = "Batavia" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Batavia Class" } } }		
+			ship = { name = "Antwerpen" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Batavia Class" } } }		
+			ship = { name = "Rotterdam" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Batavia Class" } }	}		
+			ship = { name = "Den Haag" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "De Ruyter Class" } } }
+			ship = { name = "Rotterdam" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "De Ruyter Class" } } }
+			ship = { name = "Van Galen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }		
+			ship = { name = "Van Ghent" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }		
+			ship = { name = "Evertsen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }		
+			ship = { name = "Kortenaer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }		
+			ship = { name = "Piet Hein" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }		
+			ship = { name = "Witte de With" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }
+		}
+		task_force = {				
+			name = "Onderzeeboot Smaldeel"			 
+			location = 9498 
+			ship = { name = "O-1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+			ship = { name = "O-2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+			ship = { name = "O-3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+		}
+	}				
+}

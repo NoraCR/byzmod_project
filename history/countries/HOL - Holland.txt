@@ -1,6 +1,13 @@
 ﻿capital = 7
 
 oob = "HOL_byzfire"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "HOL_byzfire_naval_mtg"
+	else = {
+		set_naval_oob = "HOL_byzfire_naval_legacy"
+	}
+}
 
 set_research_slots = 3
 
