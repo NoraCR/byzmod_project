@@ -1,0 +1,264 @@
+units = {
+	#### Naval Units ####
+	
+	fleet = {				
+		name = "1ère Région Navale"			
+		base = 575
+		location = 575 # Dunkerque			
+		# 8e Division des Contre-Torpilleurs
+		ship = { name = "Saint Orientius" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = FRA } } }
+		ship = { name = "Sainte Reine" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = FRA } } }
+		ship = { name = "Concitatus" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = FRA } } }
+		ship = { name = "Ferox" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = FRA } } }
+		ship = { name = "Impetus" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = FRA } } }
+		ship = { name = "Animosus" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = FRA } } }
+		ship = { name = "Impavida" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = FRA } } }
+	}				
+	fleet = {				
+		name = "2ème Région Navale"			
+		base = 3552 
+		location = 3552 # Brest			
+		ship = { name = "Valeria Postuma" definition = carrier equipment = { carrier_1 = { amount = 1 owner = FRA } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "FRA" amount = 25 }
+				cv_nav_bomber_equipment_1 =  { owner = "FRA" amount = 20 }
+			}
+		}
+		# 2e Division des Contre-Torpilleurs
+		ship = { name = "Scipio Africanus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Valérie l'Apôtre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Saint Pothin de Lyon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Gaius Julius Caesar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		# 2e Légère Division des Contre-Torpilleurs
+		ship = { name = "Saint Patiens" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Saint Aurelius Ambrosius" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Germanicus Julius Caesar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		# 4e Légère Division des Contre-Torpilleurs
+		ship = { name = "Marcus Piavonius Victorinus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Marcus Aurelius Marius" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Saint Avitus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		# 5e Légère Division des Contre-Torpilleurs
+		ship = { name = "Saint Brice" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Saint Patroclus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Postume" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		# 6e Légère Division des Contre-Torpilleurs
+		ship = { name = "Saint Césaire" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Saint Foutin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Saint Honorat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+	}				
+	fleet = {				
+		name = "3ème Région Navale"			
+		base = 911 
+		location = 911 # Toulon			
+		ship = { name = "Campus Mauriacus" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = FRA } } }
+		ship = { name = "Gladius" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }		
+		ship = { name = "Pugio" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Spatha" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Hasta" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Pilum" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Arcus" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+		# 4e Division des Contre-Torpilleurs
+		ship = { name = "Gaius Pius Esuvius Tetricus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Vitruvia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		# 5e Division des Contre-Torpilleurs
+		ship = { name = "Anna Komnene" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Agile & Vauquelin Class" } } }
+		ship = { name = "Marcus Salvius Otho" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Agile & Vauquelin Class" } } }
+		ship = { name = "Livia Drusilla" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Agile & Vauquelin Class" } } }
+		# 7e Division des Contre-Torpilleurs
+		ship = { name = "Vipsania Agrippina" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Agile & Vauquelin Class" } } }
+		ship = { name = "Drusus Caesar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Agile & Vauquelin Class" } } }
+		ship = { name = "Marcus Vipsanius Agrippa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Agile & Vauquelin Class" } } }
+		# 9e Division des Contre-Torpilleurs
+		ship = { name = "Lucius Cornelius Sulla Felix" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Agile & Vauquelin Class" } } }
+		ship = { name = "Julia Domna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Agile & Vauquelin Class" } } }
+		ship = { name = "Julia Avita Mamaea" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Agile & Vauquelin Class" } } }
+	}				
+	fleet = {				
+		name = "3ème Escadron Soumarins"			
+		base = 911 
+		location = 911 # Toulon			
+		# 1e Division des Sous-Marins
+		ship = { name = "Zenon le Méchant" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		# 3 Division des Sous-Marins
+		ship = { name = "Marcus Junius Brutus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Lucius Junius Brutus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Gabrielia la Méchante" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Lucius Aelius Sejanus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		# 5e Division des Sous-Marins
+		ship = { name = "Ariadne Yaroslavovna" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Adriane" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Stephanus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+	}				
+	fleet = {				
+		name = "4ème Escadron Soumarins"			
+		base = 3552 
+		location = 3552 # Brest			
+		# 2e Division des Sous-Marins
+		ship = { name = "Quintus Aemilius Laetus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Agrippina Minor" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		# 6e Division des Sous-Marins
+		ship = { name = "Narcissus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Gnaeus Capurnius Piso" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Euphrosyne" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Arachne" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		# 8e Division des Sous-Marins
+		ship = { name = "Helios" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Romulus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+	}				
+	fleet = {				
+		name = "5ème Escadron Soumarins"			
+		base = 911 
+		location = 911 # Toulon			
+		# 7e Division des Sous-Marins
+		ship = { name = "Cassius Chaerea" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Martialis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		# 13e Division des Sous-Marins
+		ship = { name = "Mucapor" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Caracalla" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Halotus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Xenophon" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		# 15e Division des Sous-Marins
+		ship = { name = "Locusta" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Loge Ziani" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Loge Croesus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Xie Lu" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+	}				
+	fleet = {				
+		name = "Soumarins Force du Nord"			
+		base = 575
+		location = 575 # Dunkerque			
+		# 16e Division des Sous-Marins
+		ship = { name = "Pebekkamen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Tiye" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Maximinus Thrax" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Marcus Julius Philippus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+	}				
+
+	### NORTH AFRICA ###				
+	fleet = {				
+		name = "Flottille de Haute Mers"			
+		base = 9863 
+		location = 9863 # Sardinia			
+		ship = { name = "Juliana Comnena Magna" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }			
+		ship = { name = "Augustus Caesar" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }			
+		ship = { name = "Traianus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Maiorianus Augustus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Aurelianus Augustus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Valerius Diocletianus Augustus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Cheiroballistra" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Polybolos" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Catapulta" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Iaculum" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+		# 1e Légère Division des Contre-Torpilleurs
+		ship = { name = "Manius Manilius" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Lucius Marcius Censorius" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Scipio Aemilianus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		# 3e Légère Division des Contre-Torpilleurs
+		ship = { name = "Nero Claudius Drusus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Antonia Minor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Emilia Hu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+		# 7e Légère Division des Contre-Torpilleurs
+		ship = { name = "Arni" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Saint Alyre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Saint Irénée de Lyon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		# 8e Légère Division des Contre-Torpilleurs
+		ship = { name = "Saint Latuin de Séez" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Saint Juventiole" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Saint Taurin d'Évreux" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		# 9e Légère Division des Contre-Torpilleurs
+		ship = { name = "Marcus Atilius Regulus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Gaius Duilius" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Auspice de Toul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }		
+		# 10e Légère Division des Contre-Torpilleurs
+		ship = { name = "Saint Mathurin de Larchant" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Saint Clemens de Metiae" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Sainte Honorine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+	}				
+	fleet = {				
+		name = "Attack Force Légère"			
+		base = 9863 
+		location = 9863 # Sardinia	
+		ship = { name = "Dolabra" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FRA } } }
+		ship = { name = "Ardens" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FRA } } }
+		ship = { name = "Vehemens" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FRA } } }
+		ship = { name = "Falx" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+		# 1e Division des Contre-Torpilleurs
+		ship = { name = "Irene Atheniensis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Domitia Longina" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Vibia Sabina" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		# 3e Division des Contre-Torpilleurs
+		ship = { name = "Annia Galeria Faustina Major" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Annia Galeria Faustina Minor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Flavia Titiana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		# 6e Division des Contre-Torpilleurs
+		ship = { name = "Aelia Eudoxia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Agile & Vauquelin Class" } } }
+		ship = { name = "Sainte Aelia Pulchérie" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Agile & Vauquelin Class" } } }
+		ship = { name = "Theodora" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Agile & Vauquelin Class" } } }
+	}				
+	fleet = {				
+		name = "Flotte des îles Baléares"			
+		base = 9793 
+		location = 9793 # Balearic			
+		ship = { name = "Plumbata" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Scutum" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Parma" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+	}
+	fleet = {				
+		name = "2ème Escadron Soumarins" 			
+		base = 9863 
+		location = 9863 # Sardinia			
+		# 4e Division des Sous-Marins
+		ship = { name = "Messalina" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Gaius Silius" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Gaius Cassius Longinus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Servius Sulpicius Galba" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		# 12e Division des Sous-Marins
+		ship = { name = "Lucius Minucius Basilus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Publius Servilius Casca Longus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Lucius Tillius Cimber" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Gaius Trebonius" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Gaius Cassius Parmensis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Lucius Pontius Aquila" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		# 14e Division des Sous-Marins
+		ship = { name = "Lucius Cornelius Cinna" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Pausanias" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Olympias" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Bardanes" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+	}				
+	fleet = {				
+		name = "6ème Escadron Soumarins"			
+		base = 11773 
+		location = 11773 # Bizerte, Tunisia	
+		# 9e Division des Sous-Marins
+		ship = { name = "Basiliskianos" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Theophano" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "John Tzimiskes" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		# 10e Division des Sous-Marins
+		ship = { name = "Titus Claudius Aurelius Aristobulus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Magnentius" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Constantius II" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		# 17e Division des Sous-Marins
+		ship = { name = "Marcus Aurelius Probus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Ulpius Cornelius Laelianus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Ricimer" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+		ship = { name = "Optelas" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
+	}				
+	fleet = {				
+		name = "Soumarins Force de Corse"			
+		base = 3838 #Corsica
+		location = 3838 			
+		# 11e Division des Sous-Marins
+		ship = { name = "Thraustelas" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Petronius Maximus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Vitellius" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }		
+		# 18e Division des Sous-Marins
+		ship = { name = "Gatianus of Tours" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Georgius Florentius" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+		ship = { name = "Trophimus of Arles" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }
+		# 19e Division des Sous-Marins
+		ship = { name = "Paul of Narbonnensis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Saturninus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Saint Denis de Paris" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Strimonius" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }	
+	}				
+}
