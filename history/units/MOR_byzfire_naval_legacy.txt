@@ -1,0 +1,14 @@
+﻿### MOROCCAN NAVY ###
+units = {
+	navy = {
+		name = "Adwas Ageldan n Yilel"
+		base = 7069 
+		location = 7069 # Casablanca
+		ship = { name = "Idris I" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MOR } } }
+		ship = { name = "Er-Rachiq" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+		ship = { name = "El Akid" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }	
+		ship = { name = "El Maher" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+		ship = { name = "El Majid" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+		ship = { name = "El Bachir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }		
+	}
+}

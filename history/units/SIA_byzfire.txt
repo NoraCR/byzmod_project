@@ -269,27 +269,6 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
-####### NAVY #######
-	navy = {				
-		name = "Gongheguo Haijun"			
-		base = 7408
-		location = 7408 # Bangkok
-		ship = { name = "Mangu" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SIA } } }
-		ship = { name = "Chaigun" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SIA } } }
-		ship = { name = "Dongjing" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SIA } } }
-		ship = { name = "QZJ-1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
-		ship = { name = "QZJ-2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
-		ship = { name = "QZJ-3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
-		ship = { name = "QZJ-4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
-		ship = { name = "QZJ-5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
-		ship = { name = "QZJ-6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
-		ship = { name = "QZJ-7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
-		ship = { name = "QZJ-8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
-		ship = { name = "QZJ-9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
-		ship = { name = "QZJ-10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
-		ship = { name = "QZJ-11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
-		ship = { name = "QZJ-12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
-	}
 }	
 #####AIR FORCE######
 air_wings = {

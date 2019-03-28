@@ -1,0 +1,25 @@
+﻿units = {
+####### NAVY #######
+	fleet = {				
+		name = "Zhongnan Bandao Gongheguo Haijun"			
+		naval_base = 7408
+		task_force = {
+		location = 7408 # Bangkok
+			ship = { name = "Mangu" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SIA version_name = "Mangu Class" } } }
+			ship = { name = "Chaigun" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Chaigun Class" } } }
+			ship = { name = "Dongjing" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Chaigun Class" } } }
+			ship = { name = "QZJ-1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "QZJ-1 Class" } } }
+			ship = { name = "QZJ-2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "QZJ-1 Class" } } }
+			ship = { name = "QZJ-3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "QZJ-1 Class" } } }
+			ship = { name = "QZJ-4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "QZJ-1 Class" } } }
+			ship = { name = "QZJ-5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "QZJ-1 Class" } } }
+			ship = { name = "QZJ-6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "QZJ-1 Class" } } }
+			ship = { name = "QZJ-7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "QZJ-1 Class" } } }
+			ship = { name = "QZJ-8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "QZJ-1 Class" } } }
+			ship = { name = "QZJ-9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "QZJ-1 Class" } } }
+			ship = { name = "QZJ-10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "QZJ-1 Class" } } }
+			ship = { name = "QZJ-11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "QZJ-1 Class" } } }
+			ship = { name = "QZJ-12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "QZJ-1 Class" } } }
+		}
+	}
+}
