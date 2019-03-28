@@ -1,0 +1,19 @@
+﻿
+
+units = {
+	navy = {				
+		name = "Karatgurk Squadron"			
+		base = 12406
+		location = 12406 # Sydney
+		ship = { name = "KRS Kambera" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AST } } }
+		ship = { name = "KRS Karatgurk" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AST } } }
+		ship = { name = "KRS Kuringgai" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AST } } }
+		ship = { name = "KRS Kaurna" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AST } } }
+		# Scrap Iron Flotilla
+		ship = { name = "KRS Anangu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+		ship = { name = "KRS Koori" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+		ship = { name = "KRS Murri" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+		ship = { name = "KRS Noongar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+		ship = { name = "KRS Yamatji" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+	}	
+}

@@ -1,0 +1,350 @@
+﻿######## SOMALIA NAVY ########
+
+units = {
+	fleet = {					
+		name = "1st Naval Group"				
+		naval_base = 12991
+		task_force = {
+		name = "1st Naval Group, 1st Fleet"
+		location = 12991
+			ship = { name = "CBS Xiddig Cad" definition = carrier equipment = { ship_hull_carrier_conversion_ca = {amount = 1 owner = SOM version_name = "Guulayste Class"} }  
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "SOM" amount = 10 }
+					cv_nav_bomber_equipment_1 =  { owner = "SOM" amount = 5 }
+				}
+			}	
+			ship = { name = "CBS Guulayste" definition = carrier equipment = { ship_hull_carrier_conversion_ca = {amount = 1 owner = SOM version_name = "Guulayste Class"} } 
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "SOM" amount = 10 }
+					cv_nav_bomber_equipment_1 =  { owner = "SOM" amount = 5 }
+				}
+			}
+			ship = { name = "CBS Boqortooyada" definition = carrier equipment = { ship_hull_carrier_conversion_bb = {amount = 1 owner = SOM version_name = "Boqortooyada Class"} } 
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "SOM" amount = 12 }
+					cv_CAS_equipment_1 = { owner = "SOM" amount = 12 } 	
+					cv_nav_bomber_equipment_1 =  { owner = "SOM" amount = 36 }
+				}
+			}
+			ship = { name = "CBS Jamhuuriyad" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOM version_name = "Jamhuuriyad Class"  } } }				
+			ship = { name = "CBS Muqdisho" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOM version_name = "Jamhuuriyad Class"  } } }
+			ship = { name = "CBS Futuh al-Habash" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOM version_name = "Jamhuuriyad Class"  } } }
+			ship = { name = "CBS Futuh al-Rumah" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOM version_name = "Jamhuuriyad Class"  } } }	
+			ship = { name = "CBS Asmara" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Asmara Class" } } }
+			ship = { name = "CBS Gondar" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Asmara Class" } } }
+			ship = { name = "CBS Jabuuti" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Asmara Class" } } }
+			# 9th Destroyer Squadron
+			ship = { name = "CBS Sahal Janaalle" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }
+			ship = { name = "CBS Maxamed Bulxan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }
+			ship = { name = "CBS Geyre Caynaanshe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }
+			ship = { name = "CBS Xayir Cabdull" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }
+			# 10th Destroyer Squadron
+			ship = { name = "CBS Marsa Alam" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			ship = { name = "CBS Quseer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			ship = { name = "CBS Berenice" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			ship = { name = "CBS Shlateen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+		}
+		task_force = {					
+			name = "4th Naval Group"				
+			location = 12991			
+			ship = { name = "CBS Iimaan Abdullahi Ali" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Iimaan Ali Class" } } }
+			ship = { name = "CBS Khadra Ahmed Dualle" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Iimaan Ali Class" } } }
+			ship = { name = "CBS Nebiat Yaee Shawel" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Iimaan Ali Class" } } }
+			ship = { name = "CBS Maxamuud Bicir Ali" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Iimaan Ali Class" } } }
+			ship = { name = "CBS Yuusa Ilays Fatima" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Iimaan Ali Class" } } }
+			ship = { name = "CBS Wardi Maxamuud Geele" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Iimaan Ali Class" } } }
+			# 6th Destroyer Squadron
+			ship = { name = "CBS Hiddo Culimmo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			ship = { name = "CBS Daaha Mulki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+		}
+		task_force = {					
+			name = "5th Naval Group"				
+			location = 12991			
+			ship = { name = "CBS Saciid min Muqdisho" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOM version_name = "Jamhuuriyad Class"  } } }				
+			ship = { name = "CBS Dawud al-Jabarti" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOM version_name = "Jamhuuriyad Class"  } } }
+			ship = { name = "CBS Maxamad Muzaffar" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOM version_name = "Maxamad Muzaffar Class"  } } }		
+			ship = { name = "CBS Saba Muzaffar" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOM version_name = "Maxamad Muzaffar Class"  } } }		
+			# 7th Destroyer Squadron
+			ship = { name = "CBS Hoto" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			ship = { name = "CBS Falaar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			ship = { name = "CBS Hilaac" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			ship = { name = "CBS Waran" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			# 8th Destroyer Squadron
+			ship = { name = "CBS Buluug" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }
+			ship = { name = "CBS Qaylo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }
+			ship = { name = "CBS Iftiin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }
+			ship = { name = "CBS Onkod" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }
+		}			
+	}					
+
+	
+	### 2nd FLEET ###
+	fleet = {
+		name = "2nd Fleet"				
+		naval_base = 12759
+		task_force = {					
+			name = "2nd Naval Group"				
+			location = 12759
+			ship = { name = "CBS Dhul-Udug" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOM version_name = "Jamhuuriyad Class"  } } }				
+			ship = { name = "CBS Adowa" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOM version_name = "Jamhuuriyad Class"  } } }
+			ship = { name = "CBS Samothrace" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOM version_name = "Maxamad Muzaffar Class" } } }	
+			ship = { name = "CBS Puntland" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOM version_name = "Maxamad Muzaffar Class" }	} }	
+			ship = { name = "CBS Yasmeena al-Suwmal" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOM version_name = "Yasmeena al-Suwmal Class" } } }
+			ship = { name = "CBS Reda Abadi" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOM version_name = "Yasmeena al-Suwmal Class" } } }
+			# 10th Destroyer Squadron
+			ship = { name = "CBS Duufaanka" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			ship = { name = "CBS Dabayl" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			ship = { name = "CBS Eawasif Ramalia" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			ship = { name = "CBS Al'iiesar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+		}					
+		task_force = {					
+			name = "3rd Naval Group"				
+			location = 12759		
+			ship = { name = "CBS Hargeisa" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Hargeisa Class" } } }
+			ship = { name = "CBS Bosaso" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Hargeisa Class" } } }				
+			ship = { name = "CBS Galkayo" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Hargeisa Class" } } }				
+			# 11th Destroyer Squadron
+			ship = { name = "CBS Horyaal Nuuradiin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }
+			ship = { name = "CBS Sugaal Kadiye" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }
+			ship = { name = "CBS Nimco Sucaad" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }
+			ship = { name = "CBS Rekik Bereket Teshale" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }
+		}					
+		task_force = {					
+			name = "6th Naval Group"				
+			location = 12759		
+			ship = { name = "CBS Kismayo" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Kismayo Class" } } }
+			# 12th Destroyer Squadron
+			ship = { name = "CBS Xasan Xiirey" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }
+			ship = { name = "CBS Madar Daacad" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }
+			ship = { name = "CBS Mukhtaar Geele" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }
+			ship = { name = "CBS Seyruuq Ammaan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }
+			# 13th Destroyer Squadron
+			ship = { name = "CBS Derna" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			ship = { name = "CBS Bardiyah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			ship = { name = "CBS Al Beida" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			ship = { name = "CBS Marsa Matruh" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			# 14th Destroyer Squadron
+			ship = { name = "CBS Rassini" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			ship = { name = "CBS Ras Kamboni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+			ship = { name = "CBS Baraawe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }
+		}					
+		task_force = {					
+			name = "7th Naval Squadron"				
+			location = 12759		
+			ship = { name = "CBS Malik Shibana" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Malik Shibana Class" } } }
+			ship = { name = "CBS Boqor Xaange Caraale" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Malik Shibana Class" } } }
+			ship = { name = "CBS Maxamad Qaalib Yusuf" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Malik Shibana Class" } } }
+			ship = { name = "CBS Galbeyte Guuleed" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Malik Shibana Class" } } }
+			ship = { name = "CBS Fahma Ciiltira Samiira" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Malik Shibana Class" } } }
+		}
+	}
+
+##### NORTH AFRICA COMMAND
+	fleet = {
+		name = "North Africa Command"				
+		naval_base = 4076
+		task_force = {					
+			name = "Alexandria Division"				
+			location = 4076	
+			ship = { name = "CBS Dagaalyahan" definition = carrier equipment = { ship_hull_carrier_1 = {amount = 1 owner = SOM version_name = "Dagaalyahan Class"} }
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "SOM" amount = 24 }
+					cv_nav_bomber_equipment_1 =  { owner = "SOM" amount = 12 }
+				}
+			}
+			ship = { name = "CBS Halyeeya" definition = carrier equipment = { ship_hull_carrier_1 = {amount = 1 owner = SOM version_name = "Dagaalyahan Class"} }
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "SOM" amount = 24 }
+					cv_nav_bomber_equipment_1 =  { owner = "SOM" amount = 12 }
+				}
+			}			
+			ship = { name = "CBS Saad ad-Din" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOM version_name = "Kismayo Class" } } }				
+			ship = { name = "CBS Shimbiris" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOM version_name = "Yasmeena al-Suwmal Class" } } }				
+			ship = { name = "CBS Bajuni" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOM version_name = "Yasmeena al-Suwmal Class" } } }				
+			# 6a Torpedo Boat Squadron
+			ship = { name = "CBS Xukun Hasan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			ship = { name = "CBS Kunciil Abdallah Omar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			ship = { name = "CBS Ali Maxamad Galmaan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			ship = { name = "CBS Muhammad Guntaal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			# 7a Torpedo Boat Squadron
+			ship = { name = "CBS Osman Bishaar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			ship = { name = "CBS Karuur Fatima" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			ship = { name = "CBS Leylo Dhuubo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			ship = { name = "CBS Gurxan Sooyaan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			# Destroyer Squadron
+			ship = { name = "CBS Ali Yusuf Darwiish" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }	
+			ship = { name = "CBS Muhammad Ali Warsame" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }	
+		}					
+		task_force = {					
+			name = "Tobruk Naval Division"				
+			location = 1130
+			# 3a Torpedo Boat Squadron
+			ship = { name = "CBS Boqor Omar Hayaan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			ship = { name = "CBS Boqor Cabdulle Guhaad" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			ship = { name = "CBS Faadumo Muuqaal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			ship = { name = "CBS Toosan Daaha" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			# 4a Torpedo Boat Squadron
+			ship = { name = "CBS Omdurman" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }	
+			ship = { name = "CBS Juba" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }	
+			ship = { name = "CBS Malakal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }	
+			ship = { name = "CBS Heglig" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }	
+		}					
+		task_force = {					
+			name = "Suez Naval Command"				
+			location = 1155
+			# 2a Torpedo Boat Squadron
+			ship = { name = "CBS Liwa' Asmar al-Sabet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }	
+			ship = { name = "CBS Boqor Omar Saadaaq" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }	
+			ship = { name = "CBS Liwa Aatika al-Attar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }	
+			ship = { name = "CBS Boqor Mohammad Darmaan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }	
+			# 9a Torpedo Boat Squadron
+			ship = { name = "CBS Mesfin Robel Fisahaye" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }	
+			ship = { name = "CBS Amha Asnake Lemma" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }	
+			ship = { name = "CBS Asnake Abimelech Kassa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }				
+			# 1a Torpedo Boat Squadron
+			ship = { name = "CBS Dinka" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }	
+			ship = { name = "CBS Nuer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }	
+			ship = { name = "CBS Luo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }	
+			ship = { name = "CBS Shilluk" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }	
+			# 5a Torpedo Boat Squadron
+			ship = { name = "CBS Toposa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }	
+			ship = { name = "CBS Otuho" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }	
+			ship = { name = "CBS Didinga" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }	
+			ship = { name = "CBS Tennet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Marsa Alam Class" } } }	
+		}
+		task_force = {					
+			name = "Libyan Garrison"				
+			location = 1130			
+			# 1st Destroyer Squadron
+			ship = { name = "CBS Gorgor" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }
+			ship = { name = "CBS Dafo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }
+			ship = { name = "CBS Aboodiga" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }
+			ship = { name = "CBS Guumays" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }
+		}	
+	}
+###### SUBMARINE Command
+	fleet = {
+		name = "Submarine Command"
+		naval_base = 6973
+		task_force = {					
+			name = "1st Submarine Group"				
+			location = 12766		
+			# 11th Submarine Group
+			ship = { name = "CBS Shuuriye Kaliil" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Xidig Bacalwaan" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Saado Hoobaan" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			# 12th Submarine Group
+			ship = { name = "CBS Cagaraan" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Sumurud" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			# 13th Submarine Group
+			ship = { name = "CBS Sardiyos" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Dheemman" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			# 14th Submarine Group
+			ship = { name = "CBS G1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+			ship = { name = "CBS G2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+			ship = { name = "CBS G3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+			ship = { name = "CBS G4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+			ship = { name = "CBS G5" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+			ship = { name = "CBS G6" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+			ship = { name = "CBS G7" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+			ship = { name = "CBS G8" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+		}					
+
+		task_force = {					
+			name = "3rd Submarine Group"				
+			location = 12766			
+			# 31th Submarine Group
+			ship = { name = "CBS Adar Abdurahman Hassan" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }			
+			ship = { name = "CBS Cabdi Ould-Abdallah" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }			
+			ship = { name = "CBS Saadaq Omar" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }			
+			ship = { name = "CBS Bicir Cabdi Xasan" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }			
+			# 32th Submarine Group
+			ship = { name = "CBS Haajiro Gobaad" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Cugan Aniso" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Jawaahir Basro" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Khaladla Naqo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			# 33th Submarine Group
+			ship = { name = "CBS Nagaado Ruqiyo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }			
+			ship = { name = "CBS Hiraale Omar" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }			
+			ship = { name = "CBS Gaacir Bullale" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }			
+			ship = { name = "CBS Kulmiye Awsame" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }			
+		}					
+		task_force = {					
+			name = "4th Submarine Group"				
+			location = 12766			
+			# 41th Submarine Group
+			ship = { name = "CBS Balilla Barkhadle" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }			
+			ship = { name = "CBS Janaalle Jaamac" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }			
+			ship = { name = "CBS Xaashi Yaasiin" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }			
+			ship = { name = "CBS Sulugla Iqra" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }			
+		}					
+		task_force = {					
+			name = "6th Submarine Group"				
+			location = 12766		
+			# 61th Submarine Group
+			ship = { name = "CBS Seeriga" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Dalxiisto" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Libaax Badeed" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Jawharad" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Durdur" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+		}					
+		task_force = {					
+			name = "7th Submarine Group"				
+			base = 6891
+			location = 12766
+			# 71st Submarine Group
+			ship = { name = "CBS Xayawaan Badeed" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Memnon" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+		}					
+		task_force = {					
+			name = "5th Submarine Group"				
+			base = 12766 
+			location = 12766			
+			# 51th Submarine Group
+			ship = { name = "CBS Hoon-baro" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Nibiri" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Selax" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Maroodi" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+		}					
+		task_force = {					
+			name = "8th Submarine Group"				
+			base = 12766 
+			location = 12766 # Asmara, Eritrea		
+			# 81th Submarine Group
+			ship = { name = "CBS Maxamuud Arbooshe" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Qaayaweyn Haweeyo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Dhoofnay" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			ship = { name = "CBS Mas" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOM version_name = "Hoon-baro Class" } } }
+			# 91st Submarine Group
+			ship = { name = "CBS G9" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+			ship = { name = "CBS G10" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+			ship = { name = "CBS G11" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+			ship = { name = "CBS G12" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+			ship = { name = "CBS G13" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+			ship = { name = "CBS G14" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+			ship = { name = "CBS G15" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+			ship = { name = "CBS G16" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOM version_name = "G Class" } } }
+		}
+	}
+	### EAST AFRICA ###					
+	fleet = {
+	name = "Red Sea Command"
+	naval_base = 12766
+		task_force = {					
+			name = "Red Sea Command"				
+			location = 12766 # Asmara, Eritrea		
+			# 3rd Destroyer Squadron
+			ship = { name = "CBS Mohammad Salaad" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }
+			ship = { name = "CBS Nufane Huruuse" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			ship = { name = "CBS Gadiido Hodman" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			ship = { name = "CBS Idman Nawaal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Sahal Janaalle Class" } } }	
+			# 5th Destroyer Squadron
+			ship = { name = "CBS Libaax" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }	
+			ship = { name = "CBS Haramcad" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }	
+			ship = { name = "CBS Shabeel" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }	
+			# 5th Red Sea Torpedo Boat Squadron 
+			ship = { name = "CBS Nuuradiin Kuluc" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }	
+			ship = { name = "CBS Hiddo Ulasan Cajabo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOM version_name = "Buluug Class" } } }	
+		}					
+	}
+}	

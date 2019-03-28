@@ -1,0 +1,22 @@
+﻿units = {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Karatgurk Dominion Navy"			
+		naval_base = 12406 # Sydney
+		task_force = {
+			name = "Karatgurk Squadron"
+			location = 12406 # Sydney
+			ship = { name = "KRS Kambera" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Kambera Class" } }	}
+			ship = { name = "KRS Karatgurk" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Kambera Class" } } }
+			ship = { name = "KRS Kuringgai" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Kuringgai Class" } } }
+			ship = { name = "KRS Kaurna" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Kaurna Class" } } }
+			# Scrap Iron Flotilla
+			ship = { name = "KRS Anangu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Anangu Class" } } }
+			ship = { name = "KRS Koori" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Anangu Class" } } }
+			ship = { name = "KRS Murri" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Anangu Class" } } }
+			ship = { name = "KRS Noongar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Anangu Class" } } }
+			ship = { name = "KRS Yamatji" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Yamatji Class" } } }
+		}				
+	}
+}
