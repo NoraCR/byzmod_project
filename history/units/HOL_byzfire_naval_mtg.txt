@@ -1,8 +1,8 @@
-units = {
+﻿units = {
 	##### HOLLANDIA NAVAL UNITS #####
 	fleet = {				
 		name = "Koninklijke Marine"			
-		base = 9498
+		naval_base = 9498
 		task_force = {
 			name = "Koninklijke Vloot"	
 			location = 9498
@@ -10,7 +10,7 @@ units = {
 			ship = { name = "Antwerpen" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Batavia Class" } } }		
 			ship = { name = "Rotterdam" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Batavia Class" } }	}		
 			ship = { name = "Den Haag" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "De Ruyter Class" } } }
-			ship = { name = "Rotterdam" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "De Ruyter Class" } } }
+			ship = { name = "Groningen" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "De Ruyter Class" } } }
 			ship = { name = "Van Galen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }		
 			ship = { name = "Van Ghent" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }		
 			ship = { name = "Evertsen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }		

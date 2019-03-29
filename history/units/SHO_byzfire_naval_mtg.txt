@@ -1,0 +1,30 @@
+﻿units = {
+	##### Naval OOB #####
+	fleet = {				
+		name = "Uto Romumvura"			
+		naval_base = 2196 
+		task_force = {
+			name = "Uto Romumvura"
+			location = 2196 # Dar es Salaam
+			ship = { name = "ZUR Bulawayo" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SHO version_name = "Bulawayo Class" } } }
+			ship = { name = "ZUR Harare" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SHO version_name = "Bulawayo Class" } } }
+			ship = { name = "ZUR Manica" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SHO version_name = "Manica Class" } } }
+			ship = { name = "ZUR Mashona" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SHO version_name = "Manica Class" } } }
+			# Che1 Destroyer Fleet
+			ship = { name = "ZUR Mutare" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SHO version_name = "Mutare Class" } } }
+			ship = { name = "ZUR Bindura" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SHO version_name = "Mutare Class" } } }
+			ship = { name = "ZUR Morandera" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SHO version_name = "Mutare Class" } } }
+			ship = { name = "ZUR Chinhoyi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SHO version_name = "Mutare Class" } } }
+			# Che2 Destroyer Fleet
+			ship = { name = "ZUR Masvingo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SHO version_name = "Mutare Class" } } }	
+			ship = { name = "ZUR Lupane" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SHO version_name = "Mutare Class" } } }
+			ship = { name = "ZUR Gwanda" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SHO version_name = "Mutare Class" } } }
+			ship = { name = "ZUR Gweru" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SHO version_name = "Mutare Class" } } }
+		}				
+		task_force = {				
+			name = "Subarmine Fleet"			
+			location = 2196 # Dar es Salam
+			ship = { name = "ZUR Mumvuri" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SHO version_name = "Mumvuri Class" } } }
+		}	
+	}
+}
