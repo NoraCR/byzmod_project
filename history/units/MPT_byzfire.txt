@@ -103,24 +103,6 @@ units = {
 		division_template = "Iwahu Ibutho"
 		start_experience_factor = 0.5
 	}		
-###NAVY###
-	navy = {					
-		name = "Nesinkanawa iwaZulu"				
-		base = 8245
-		location = 8245	
-		ship = { name = "KNS Maputo" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MPT  } } }
-		ship = { name = "KNS Nampula" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MPT  } } }							
-		ship = { name = "KNS Namuli" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MPT  } } }
-		ship = { name = "KNS Binga" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MPT  } } }
-		ship = { name = "KNS Mabu" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MPT  } } }
-		ship = { name = "KNS Zambezi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
-		ship = { name = "KNS Limpopo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
-		ship = { name = "KNS Chilwa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
-		ship = { name = "KNS Malawi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
-		ship = { name = "KNS Lukugu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
-		ship = { name = "KNS Pungwe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
-		ship = { name = "KNS Ruvuma" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MPT  } } }
-	}	
 }
 
 ##no air force to speak of

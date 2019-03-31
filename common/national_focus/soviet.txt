@@ -2103,7 +2103,13 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = TR_battleship_potemkin_tt
 			hidden_effect = {
-				load_oob = "SOV_battleship_potemkin"
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+						load_oob = "SOV_battleship_potemkin"
+					else = {
+						load_oob = "SOV_battleship_potemkin_legacy"
+					}
+				}
 			}
 		}
 	}

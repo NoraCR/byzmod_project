@@ -22,9 +22,9 @@ units = {
 			# Flotilla de Destructores nro. 2
 			ship = { name = "ACNX Cai Rong" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Catamarca Class" } } }
 			ship = { name = "ACNX Juan de Garay" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Catamarca Class" } } }
-			ship = { name = "ACNX Ma Jun" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ARG version_name = "Ma Jun Class" } }}
-			ship = { name = "ACNX La Rioja" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ARG version_name = "Ma Jun Class" } }}
-			ship = { name = "ACNX Zheng Jitao" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ARG version_name = "Ma Jun Class" } }}
+			ship = { name = "ACNX Ma Jun" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ARG version_name = "Ma Jun Class" } } }
+			ship = { name = "ACNX La Rioja" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ARG version_name = "Ma Jun Class" } } }
+			ship = { name = "ACNX Zheng Jitao" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ARG version_name = "Ma Jun Class" } } }
 		}
 		task_force = {				
 			name = "Flotilla de Submarinos"			

@@ -1,0 +1,47 @@
+﻿##### GHANIAN NAVY #####
+
+units = {
+	fleet = {				
+		name = "Ghanian Navy"			
+		naval_base = 2038
+		task_force = {
+		location = 2038 #Sierra Leone
+			ship = { name = "GNS Abdullah Moussa" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GHA version_name = "Abdullah Moussa Class" } } }
+			ship = { name = "GNS Achimota" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GHA version_name = "Achimota Class" } } }
+			ship = { name = "GNS Yogaga" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GHA version_name = "Achimota Class" } } }
+			ship = { name = "GNS Amariya" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GHA version_name = "Achimota Class" } } }
+			ship = { name = "GNS Lana" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GHA version_name = "Achimota Class" } } }
+			ship = { name = "GNS Andoni" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GHA version_name = "Andoni Class" } } }
+			ship = { name = "GNS Karaduwa" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GHA version_name = "Andoni Class" } } }
+			ship = { name = "GNS Ohue" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GHA version_name = "Andoni Class" } } }
+			ship = { name = "GNS Barama" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GHA version_name = "Andoni Class" } } }
+			ship = { name = "GNS Anzone" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GHA version_name = "Anzone Class" } } }
+			ship = { name = "GNS Bonsu" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GHA version_name = "Anzone Class" } } }
+			ship = { name = "GNS Sebo" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GHA version_name = "Anzone Class" } } }
+			ship = { name = "GNS Dzata" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GHA version_name = "Anzone Class" } } }
+			ship = { name = "GNS Takoradi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GHA version_name = "Zaria Class" } } }
+			ship = { name = "GNS Aradu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GHA version_name = "Zaria Class" } } }
+			ship = { name = "GNS Okpabana" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GHA version_name = "Zaria Class" } } }
+		}
+		task_force = {				
+			name = "Coastal Defense Squadron"			
+			location = 2050 # Nigeria
+			ship = { name = "GNS Blika" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GHA version_name = "Andoni Class" } } }
+			ship = { name = "GNS Garinga" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GHA version_name = "Andoni Class" } } }
+			ship = { name = "GNS Chemle" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GHA version_name = "Andoni Class" } } }
+			ship = { name = "GNS Ehwor" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GHA version_name = "Andoni Class" } } }
+			ship = { name = "GNS Ekpe" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GHA version_name = "Anzone Class" } } }
+			ship = { name = "GNS Damisa" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GHA version_name = "Anzone Class" } } }
+			ship = { name = "GNS Agu" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GHA version_name = "Anzone Class" } } }
+			ship = { name = "GNS Dorina" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GHA version_name = "Anzone Class" } } }
+			ship = { name = "GNS Siri" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GHA version_name = "Anzone Class" } } }
+			ship = { name = "GNS Ayam" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GHA version_name = "Anzone Class" } } }
+			ship = { name = "GNS Ekun" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GHA version_name = "Anzone Class" } } }
+			ship = { name = "GNS Zaria" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GHA version_name = "Zaria Class" } } }
+			ship = { name = "GNS Burutu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GHA version_name = "Zaria Class" } } }
+			ship = { name = "GNS Kyanwa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GHA version_name = "Zaria Class" } } }	
+			ship = { name = "GNS Ologbo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GHA version_name = "Zaria Class" } } }	
+			ship = { name = "GNS Nwamba" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GHA version_name = "Zaria Class" } } }
+			ship = { name = "GNS Obula" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GHA version_name = "Zaria Class" } } }	
+		}
+}

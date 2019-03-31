@@ -1,0 +1,22 @@
+﻿units = {
+###NAVY###
+	fleet = {					
+		name = "Nesinkanawa iwaZulu"				
+		naval_base = 8245
+		task_force = {
+		location = 8245	
+			ship = { name = "KNS Maputo" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MPT version_name = "Maputo Class" } } }
+			ship = { name = "KNS Nampula" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MPT version_name = "Maputo Class" } } }							
+			ship = { name = "KNS Namuli" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = MPT version_name = "Namuli Class" } } }
+			ship = { name = "KNS Binga" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = MPT version_name = "Namuli Class" } } }
+			ship = { name = "KNS Mabu" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = MPT version_name = "Namuli Class" } } }
+			ship = { name = "KNS Zambezi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MPT version_name = "Zambezi Class" } } }
+			ship = { name = "KNS Limpopo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MPT version_name = "Zambezi Class" } } }
+			ship = { name = "KNS Chilwa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MPT version_name = "Zambezi Class" } } }
+			ship = { name = "KNS Malawi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MPT version_name = "Zambezi Class" } } }
+			ship = { name = "KNS Lukugu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MPT version_name = "Zambezi Class" } } }
+			ship = { name = "KNS Pungwe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MPT version_name = "Zambezi Class" } } }
+			ship = { name = "KNS Ruvuma" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MPT version_name = "Zambezi Class" } } }
+		}
+	}	
+}
