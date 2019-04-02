@@ -1,0 +1,89 @@
+﻿##### SILLA NAVAL UNITS #####
+units = {
+	fleet = { 
+		name = "1. Hamdae"
+		naval_base = 4056
+		task_force = { 
+		name = "1. Hamdae"
+		location = 4056 # Busan
+			ship = { name = "SNS Gwanggaeto Wang" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = KOR version_name = "Gwaggaeto Wang Class" } } }
+			ship = { name = "SNS Eulji Mundeok" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = KOR version_name = "Gwaggaeto Wang Class" } } }
+			ship = { name = "SNS Yang Manchun" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = KOR version_name = "Gwaggaeto Wang Class" } } }
+			ship = { name = "SNS Yi Sunsin" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Yi Sunsin Class" } } }
+			ship = { name = "SNS Go Wang" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Yi Sunsin Class" } } }
+			ship = { name = "SNS Mugunghwa" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Yi Sunsin Class" } } }
+			ship = { name = "SNS Shin Saimdang" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Yi Sunsin Class" } } }
+			ship = { name = "SNS Seondeok Yeowang" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Yi Sunsin Class" } } }
+			ship = { name = "SNS Gang Gamchan" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Yi Sunsin Class" } } }
+			ship = { name = "SNS Chungnam" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = KOR version_name = "Jeju Class" } } }				
+			ship = { name = "SNS Masan" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = KOR version_name = "Jeju Class" } } }				
+			ship = { name = "SNS Kyeongbuk" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = KOR version_name = "Jeju Class" } } }
+			ship = { name = "SNS Jeonnam" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = KOR version_name = "Jeju Class" } } }	
+			ship = { name = "SNS Jeju" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = KOR version_name = "Jeju Class" } } }	
+			ship = { name = "SNS Busan" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = KOR version_name = "Jeju Class" } } }	
+			ship = { name = "SNS Cheongju" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = KOR version_name = "Jeju Class" } } }
+		}
+		task_force = { 
+			name = "1. Guchugham Hamdae"
+			location = 4056 # Busan								
+			ship = { name = "SNS Hae-Joo Im" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }		
+			ship = { name = "SNS Sonmi-451" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }		
+			ship = { name = "SNS Zhang Bogo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Nan Yeongho" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Paeng Heechul" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Pak Sangchol" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Ping Yijae" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Yu Ji-eun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Sol Sebin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Mae Seungwoo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Paek Seonggi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Kim Seung-hyeon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Ryu Young-sook" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+		}
+		task_force = { 
+			name = "2. Guchugham Hamdae"
+			location = 10598 # Sea of Okhotsk
+			ship = { name = "SNS Im Duyeon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }		
+			ship = { name = "SNS Choi Amhoe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }		
+			ship = { name = "SNS Cha Un-gyo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Kim Jeonggi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }			
+		}
+	}
+
+	fleet = { 
+		name = "2. Hamdae"
+		naval_base = 4329
+		task_force = {
+		name = "2. Hamdae"
+		location = 4329 # Papua
+			ship = { name = "SNS Kim Isabu" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Yi Sunsin Class" } } }
+			ship = { name = "SNS Jeong Do-jeon" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Yi Sunsin Class" } } }
+			ship = { name = "SNS Incheon" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = KOR version_name = "Jeju Class" } } }
+			ship = { name = "SNS Gyeonggi" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = KOR version_name = "Jeju Class" } } }
+			ship = { name = "SNS Sariwon" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = KOR version_name = "Jeju Class" } } }
+			ship = { name = "SNS Nampo" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = KOR version_name = "Jeju Class" } } }
+			ship = { name = "SNS Lee Jang-yeol" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }		
+			ship = { name = "SNS Kim Jongsun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }		
+			ship = { name = "SNS Park Yong-hwa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Jo Bang-hyeon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Han Suk-Chul" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Wang Seo-Yeon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Kim Sung-chul" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Un So-yun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Kim Ha'un" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+		}
+	}
+	fleet = { 
+		name = "3. Guchugham Hamdae"
+		naval_base = 8248
+		task_force = {
+		name = "3. Guchugham Hamdae"
+		location = 8248 # Angola
+			ship = { name = "SNS Kim Hanbaek" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }		
+			ship = { name = "SNS Hong Gukhyon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }		
+			ship = { name = "SNS Baek Gusu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+			ship = { name = "SNS Song Seong-dal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }	
+			ship = { name = "SNS Song Ha-na" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "Lee Jang-yeol Class" } } }
+		}
+	}
+}

@@ -1,0 +1,81 @@
+﻿##### SILLA NAVAL UNITS #####
+units = {
+	navy = { 
+		name = "1. Hamdae"
+		base = 4056
+		location = 4056 # Busan
+		ship = { name = "SNS Gwanggaeto Wang" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Eulji Mundeok" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Yang Manchun" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Yi Sunsin" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Go Wang" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Mugunghwa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Shin Saimdang" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Seondeok Yeowang" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Gang Gamchan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Chungnam" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }				
+		ship = { name = "SNS Masan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }				
+		ship = { name = "SNS Kyeongbuk" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Jeonnam" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }	
+		ship = { name = "SNS Jeju" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }	
+		ship = { name = "SNS Busan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }	
+		ship = { name = "SNS Cheongju" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+		}
+	navy = { 
+		name = "1. Guchugham Hamdae"
+		base = 4056
+		location = 4056 # Busan								
+		ship = { name = "SNS Hae-Joo Im" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }		
+		ship = { name = "SNS Sonmi-451" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }		
+		ship = { name = "SNS Zhang Bogo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Nan Yeongho" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Paeng Heechul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Pak Sangchol" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Ping Yijae" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Yu Ji-eun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Sol Sebin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Mae Seungwoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Paek Seonggi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Kim Seung-hyeon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Ryu Young-sook" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }			
+	}
+	navy = { 
+		name = "2. Guchugham Hamdae"
+		base = 10598
+		location = 10598 # Sea of Okhotsk
+		ship = { name = "SNS Im Duyeon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }		
+		ship = { name = "SNS Choi Amhoe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }		
+		ship = { name = "SNS Cha Un-gyo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Kim Jeonggi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }			
+	}
+	navy = { 
+		name = "2. Hamdae"
+		base = 4329
+		location = 4329 # Papua
+		ship = { name = "SNS Kim Isabu" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Jeong Do-jeon" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Incheon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Gyeonggi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Sariwon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Nampo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Lee Jang-yeol" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }		
+		ship = { name = "SNS Kim Jongsun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }		
+		ship = { name = "SNS Park Yong-hwa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Jo Bang-hyeon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Han Suk-Chul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Wang Seo-Yeon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Kim Sung-chul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Un So-yun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Kim Ha'un" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+	}
+	navy = { 
+		name = "3. Guchugham Hamdae"
+		base = 8248
+		location = 8248 # Angola
+		ship = { name = "SNS Kim Hanbaek" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }		
+		ship = { name = "SNS Hong Gukhyon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }		
+		ship = { name = "SNS Baek Gusu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+		ship = { name = "SNS Song Seong-dal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }	
+		ship = { name = "SNS Song Ha-na" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR } } }
+	}
+}
