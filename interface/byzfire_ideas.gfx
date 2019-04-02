@@ -24,6 +24,12 @@ spriteTypes = {
 		name = "GFX_idea_ger_war_of_resistance"
 		texturefile = "gfx/interface/ideas/idea_ger_war_of_resistance.dds"
 	}	
+	
+	### NEW IDEOLOGY
+	spriteType = {
+		name = "GFX_ideology_pangalism_group"
+		texturefile = "gfx/interface/ideologies/pangalism_group.dds"
+	}	
 
 	### BYZANTINE IDEAS
 	spriteType = {

@@ -1,0 +1,30 @@
+﻿units = {
+	##### NAVAL UNITS #####
+	navy = { 
+		name = "Comando Navale Sicilia" # Comando Militare Marittimo 'Sicilia'
+		base = 4159 
+		location = 4159 # Messina
+
+		# I Squadriglia Torpediniere
+		ship = { name = "RCT Aldebaran" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } } 
+		ship = { name = "RCT Altair" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } } 
+		ship = { name = "RCT Andromeda" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } } 
+		ship = { name = "RCT Cassiopea" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } } 
+
+		# V Squadriglia Torpediniere
+		ship = { name = "RCT Libra" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } } 
+		ship = { name = "RCT Aretusa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } } 
+		ship = { name = "RCT Clio" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } } 
+		ship = { name = "RCT Calliope" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } } 
+	}
+	navy = { 
+		name = "I Gruppo Sommergibili"	
+		base = 11837 
+		location = 11837 # Taranto
+
+		ship = { name = "RSmg Florina Grego" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } } 
+		ship = { name = "RSmg Cassiano Randazzo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } } 
+		ship = { name = "RSmg Isidora Amato" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } } 
+		ship = { name = "RSmg Sabazio Fioravanti" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } } 
+	} 
+}

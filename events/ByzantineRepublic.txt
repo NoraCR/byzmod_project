@@ -248,18 +248,7 @@ country_event = {
 					is_historical_focus_on = yes
 				}
 			}
-		if = {
-			limit = {
-				has_idea = democratic_drift
-			}
-			add_political_power = 150
-		}
-		if = {
-			limit = {
-				NOT = { has_idea = democratic_drift }
-			}
-			add_timed_idea = { idea = democratic_influence days = 180 }
-		}
+		add_timed_idea = { idea = democratic_influence days = 180 }
 		create_country_leader = {
 			name = "Anna Swiderska"
 			desc = "POLITICS_ANNA_SWIDERSKA_DESC"
@@ -848,6 +837,14 @@ country_event = {
 			}
 			ITA = {
 				load_oob = ITA_byzfire
+
+			}
+			if = {
+				limit = { not = { has_dlc = "Man the Guns" } }
+				ITA = {	load_oob = "ITA_byzfire_naval_legacy" }
+			}
+			else = {
+				ITA = {	load_oob = "ITA_byzfire_naval_mtg" }
 			}
 		}
 	}

@@ -1,0 +1,57 @@
+﻿units = {
+	##### NAVAL UNITS #####
+	### OLD ROYAL NAVY ###
+	fleet = {				
+		name = "Tentera Laut Republik"			
+		naval_base = 10265 
+		task_force = {
+			name = "Tentera Laut Republik"
+			location = 10265  # Manila
+			ship = { name = "KRP Luzon" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PHI version_name = "Aceh Class" } } }		
+			ship = { name = "KRP Mindanao" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PHI version_name = "Aceh Class" } } }		
+			ship = { name = "KRP Mindoro" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PHI version_name = "Lombok Class" } } }		
+		}			
+	}
+	### EAST INDIES SQUADRON ###
+	fleet = {				
+		name = "Skuadron Sumatra"			
+		naval_base = 12268 
+		task_force = {
+			name = "Skuadron Sumatra"			
+			location = 12268  # Sumatra	
+			ship = { name = "KRP Surabaya" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PHI version_name = "Surabaya Class" } }   }
+			ship = { name = "KRP Madagasikara" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PHI version_name = "Surabaya Class" } }   }
+			ship = { name = "KRP Aceh" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PHI version_name = "Aceh Class" } } }		
+			ship = { name = "KRP Java" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PHI version_name = "Java Class" } } }
+			ship = { name = "KRP Sumatra" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PHI version_name = "Java Class" } } }
+			# Torpedobootjager Divisie
+			ship = { name = "KRP Lombok" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PHI version_name = "Lombok Class" } } }		
+			ship = { name = "KRP Sulawesi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PHI version_name = "Lombok Class" } } }		
+			ship = { name = "KRP Biak" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PHI version_name = "Lombok Class" } } }		
+			ship = { name = "KRP Bangka" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PHI version_name = "Lombok Class" } } }		
+			ship = { name = "KRP Sumba" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PHI version_name = "Lombok Class" } } }	
+			ship = { name = "KRP Siberut" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PHI version_name = "Lombok Class" } } }	
+			ship = { name = "KRP Nias" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PHI version_name = "Lombok Class" } } }	
+		}	
+	}
+	fleet = {				
+		name = "Armada Kapal Selam Madagasikara"			
+		naval_base = 4608
+		task_force = {
+			name = "Armada Kapal Selam Madagasikara"
+			location = 4608  # Soerbaja
+			ship = { name = "KRP K-VII" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "K-Class" } } }
+			ship = { name = "KRP K-VIII" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "K-Class" } } }
+			ship = { name = "KRP K-X" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "K-Class" } } }
+			ship = { name = "KRP K-XVII" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "K-Class" } } }
+			ship = { name = "KRP K-XVIII" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "K-Class" } } }
+			ship = { name = "KRP K-IX" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "K-Class" } } }
+			ship = { name = "KRP K-XI" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "K-Class" } } }
+			ship = { name = "KRP K-XII" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "K-Class" } } }
+			ship = { name = "KRP K-XIII" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "K-Class" } } }
+			ship = { name = "KRP K-XIV" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "K-Class" } } }
+			ship = { name = "KRP K-XV" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "K-Class" } } }
+			ship = { name = "KRP K-XVI" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "K-Class" } } }
+		}
+	}
+}

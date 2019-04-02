@@ -1,0 +1,237 @@
+﻿### FLEET OF THE JAPANESE REPUBLIC ###
+
+
+units = {
+		### Navy ###
+#Osaka - Republican Grand Battlefleet
+	fleet = {
+		name = "Kyouwakoku Daiichi Koukuu Kantai"
+		naval_base = 7072
+		task_force = {
+			name = "Kyouwakoku Daiichi Koukuu Kantai"
+			location = 7072
+			ship = { name = "Soryu"  definition = carrier equipment = { ship_hull_carrier_conversion_bb = {amount = 1 owner = JAP version_name = "Kaga Class"} } 				
+				air_wings = { 
+					cv_fighter_equipment_0 =  { owner = "JAP" amount = 30 } 
+					cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 25 } 	
+
+				}
+			}
+			ship = { name = "Hiryu"  definition = carrier equipment = { ship_hull_carrier_conversion_bb = {amount = 1 owner = JAP version_name = "Kaga Class"} } 				
+				air_wings = { 
+					cv_fighter_equipment_0 =  { owner = "JAP" amount = 30 } 
+					cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 25 } 	
+
+				}
+			}
+			ship = { name = "Shin'yo" definition = carrier equipment = { ship_hull_carrier_conversion_ca = {amount = 1 owner = JAP version_name = "Hosho Class"} } 				
+				air_wings = { 
+					cv_fighter_equipment_0 =  { owner = "JAP" amount = 10 } 
+					cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 5 } 	
+
+				}
+			}
+			ship = { name = "Kyōwakoku" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }
+			ship = { name = "Kenpō" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }
+			ship = { name = "Seiza" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }
+			ship = { name = "Minshu" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }
+			ship = { name = "Kaigi" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }
+			ship = { name = "Dōmei" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }
+			ship = { name = "Hasegawa" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Nagato Class" } } }
+			ship = { name = "Yamashiro" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Fuso/Ise Class"} } }
+			ship = { name = "Amagi" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Myoko Class"} } }
+			ship = { name = "Akagi" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Myoko Class"} } }
+			ship = { name = "Takao" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Myoko Class"} } }
+			ship = { name = "Iwakura" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Myoko Class"} } }
+			ship = { name = "Sendai" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Sendai Class"} } }
+			ship = { name = "Jintsu" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Sendai Class"} } }
+			ship = { name = "Nagara" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+			ship = { name = "Edo" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+			ship = { name = "Ariake" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Yugure" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Hatsuharu" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Nenohi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }	
+			ship = { name = "Wakaba" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }		
+			ship = { name = "Hatsushimo" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Mutsuki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Kisaragi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Yayoi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Uzuki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Asakaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Harukaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Matsukaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Hatakaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+		}
+	}
+	
+	fleet = { #Edo - Eastern Sea Battlefleet 
+	name = "Tōkai Sentōki"
+	naval_base = 9998
+	task_force = {
+		name = "Tōkai Sentōki"
+		location = 9998
+		ship = { name = "Kaga" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Fuso/Ise Class"} } }
+		ship = { name = "Uji" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Myoko Class"} } }
+		ship = { name = "Oshima" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Aoba Class"} } }
+		ship = { name = "Kuma" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+		ship = { name = "Abukuma" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+		ship = { name = "Isuzu" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+		ship = { name = "Yugiri" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }	
+		ship = { name = "Sagiri" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+		ship = { name = "Shiokaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+		ship = { name = "Yukaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+		ship = { name = "Tachikaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+		ship = { name = "Hokaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+		ship = { name = "Akatsuki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+		ship = { name = "Hibiki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }		
+		ship = { name = "Ikazuchi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }	
+		ship = { name = "Inazuma" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }	
+		}
+	}
+	fleet = { #Moluccas - Southern Sea Fleet 
+		name = "Nankai Kantai"
+		naval_base = 11932
+		task_force = {
+			name = "Nankai Kantai"
+			location = 11932
+		
+			ship = { name = "Settsu" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Myoko Class"} } }
+			ship = { name = "Banryu" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Izumo Class"} } }
+			ship = { name = "Choyo" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Izumo Class"} } }
+			ship = { name = "Natori" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+			ship = { name = "Yura" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+			ship = { name = "Satsuki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Minazuki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Fumizuki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Nagatsuki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Kikuzuki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Mikazuki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Mochizuki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+		}
+	}
+	
+	fleet = { #Okinawa - China Sea Fleet 
+		name = "Higashishinakai Kantai"
+		naval_base = 11932
+		task_force = {
+			name = "Higashishinakai Kantai"
+			location = 11932
+			
+			ship = { name = "Unyo" definition = carrier equipment = { ship_hull_carrier_1 = {amount = 1 owner = JAP version_name = "Ryujo Class"} } 				
+				air_wings = { 
+					cv_fighter_equipment_0 =  { owner = "JAP" amount = 25 } 
+					cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 20 } 	
+
+				}
+			}
+			ship = { name = "Hyuga" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Myoko Class"} } }
+			ship = { name = "Ise" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }
+			ship = { name = "Haruna" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }
+			ship = { name = "Oi" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+			ship = { name = "Tenryu" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+			ship = { name = "Tama" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+			ship = { name = "Oboro" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }	
+			ship = { name = "Akebono" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }	
+			ship = { name = "Sazanami" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Ushio" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Murakumo" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }		
+			ship = { name = "Usugumo" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }	
+			ship = { name = "Shirakumo" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Yuzuki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+		}
+	}
+	
+	fleet = { #Coast Guard No. 1
+		name = "Engan Kantai"
+		naval_base = 9859
+		task_force = {
+			name = "Dai-ichi Engan Keibitai"
+			location = 9859		
+			ship = { name = "Kiso" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+			ship = { name = "Yomogi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Tade" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Kiku" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Aoi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Hagi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Fuji" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Susuki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Tsuta" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+		}
+		task_force = { #Coast Guard No. 2 - Hiroshima
+			name = "Dai-nichi Engan Keibitai"
+			location = 1092 
+			
+			ship = { name = "Naka" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+			ship = { name = "Kiji" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Kasasagi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Kari" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Hiyodori" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }	
+			ship = { name = "Hayabusa" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }		
+			ship = { name = "Hato" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Sakaki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Chidori" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Manazuru" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Tomozuru" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+		}
+	}
+	
+
+	
+	fleet = {
+		name = "Sensui Kantai"
+		naval_base = 1092
+			task_force = {
+			name = "Daiichi Sensui Sentai" 
+			location = 1092  
+			
+			ship = { name = "RJ-51" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+			ship = { name = "RJ-152" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }		
+			ship = { name = "RJ-153" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }			
+			ship = { name = "RJ-154" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
+			ship = { name = "RJ-155" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
+			ship = { name = "RJ-156" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+			ship = { name = "RJ-157" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
+			ship = { name = "RJ-158" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+			ship = { name = "RJ-159" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+			ship = { name = "RJ-60" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+			ship = { name = "RJ-61" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+			ship = { name = "RJ-162" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
+			ship = { name = "RJ-63" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
+			ship = { name = "RJ-164" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+			ship = { name = "RJ-165" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
+			ship = { name = "RJ-166" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }	
+			ship = { name = "RJ-67" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+			ship = { name = "RJ-168" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+			ship = { name = "RJ-169" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+			ship = { name = "RJ-70" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+			ship = { name = "RJ-171" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai III Class"} } }
+		}	
+		task_force = {
+			name = "Dai-nichi Sensui Kantai"
+			base = 1092
+			location = 1092  # Hiroshima
+			
+			ship = { name = "Ro-26" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "I-121 Class"} } }
+			ship = { name = "Ro-27" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "I-121 Class"} } }
+			ship = { name = "Ro-28" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "I-121 Class"} } }
+			ship = { name = "Ro-30" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "I-121 Class"} } }
+			ship = { name = "Ro-31" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "I-121 Class"} } }
+			ship = { name = "Ro-32" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "I-121 Class"} } }
+			ship = { name = "Ro-33" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "I-121 Class"} } }
+			ship = { name = "Ro-51" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "I-121 Class"} } }
+			ship = { name = "Ro-56" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "I-121 Class"} } }
+			ship = { name = "Ro-57" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "I-121 Class"} } }
+			ship = { name = "Ro-58" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Ro-26 Class"} } }
+			ship = { name = "Ro-59" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Ro-26 Class"} } }
+			ship = { name = "Ro-60" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Ro-26 Class"} } }
+			ship = { name = "Ro-61" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Ro-26 Class"} } }
+			ship = { name = "Ro-62" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Ro-26 Class"} } }
+			ship = { name = "Ro-63" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Ro-26 Class"} } }
+			ship = { name = "Ro-64" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Ro-26 Class"} } }
+			ship = { name = "Ro-65" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Ro-26 Class"} } }
+			ship = { name = "Ro-66" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Ro-26 Class"} } }
+			ship = { name = "Ro-67" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Ro-26 Class"} } }
+			ship = { name = "Ro-68" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Ro-26 Class"} } }	
+		}
+	}
+}

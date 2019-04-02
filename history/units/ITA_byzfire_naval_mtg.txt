@@ -1,0 +1,30 @@
+units = {
+	##### NAVAL UNITS #####
+	navy = { 
+		name = "Comando Navale Sicilia" # Comando Militare Marittimo 'Sicilia'
+		base = 4159 
+		location = 4159 # Messina
+
+		# I Squadriglia Torpediniere
+		ship = { name = "RCT Aldebaran" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ creator = BYZ version_name = "Argosy Class" } } } 
+		ship = { name = "RCT Altair" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ creator = BYZ version_name = "Argosy Class" } } } 
+		ship = { name = "RCT Andromeda" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ creator = BYZ version_name = "Argosy Class" } } } 
+		ship = { name = "RCT Cassiopea" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ creator = BYZ version_name = "Argosy Class" } } } 
+
+		# V Squadriglia Torpediniere
+		ship = { name = "RCT Libra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ creator = BYZ version_name = "Argosy Class" } } } 
+		ship = { name = "RCT Aretusa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ creator = BYZ version_name = "Argosy Class" } } } 
+		ship = { name = "RCT Clio" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ creator = BYZ version_name = "Argosy Class" } } } 
+		ship = { name = "RCT Calliope" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ creator = BYZ version_name = "Argosy Class" } } } 
+	}
+	navy = { 
+		name = "I Gruppo Sommergibili"	
+		base = 11837 
+		location = 11837 # Taranto
+
+		ship = { name = "RSmg Florina Grego" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } } 
+		ship = { name = "RSmg Cassiano Randazzo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } } 
+		ship = { name = "RSmg Isidora Amato" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } } 
+		ship = { name = "RSmg Sabazio Fioravanti" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } } 
+	} 
+}

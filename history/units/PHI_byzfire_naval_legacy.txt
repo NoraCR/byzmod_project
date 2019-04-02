@@ -1,0 +1,49 @@
+﻿units = {
+	##### NAVAL UNITS #####
+	### OLD ROYAL NAVY ###
+	navy = {				
+		name = "Tentera Laut Republik"			
+		base = 10265 
+		location = 10265  # Manila
+		ship = { name = "KRP Luzon" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PHI } } }		
+		ship = { name = "KRP Mindanao" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PHI } } }		
+		ship = { name = "KRP Mindoro" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }		
+	}			
+
+	### EAST INDIES SQUADRON ###
+	navy = {				
+		name = "Skuadron Sumatra"			
+		base = 12268 
+		location = 12268  # Sumatra	
+		ship = { name = "KRP Surabaya" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP Madagasikara" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP Aceh" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PHI } } }		
+		ship = { name = "KRP Java" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP Sumatra" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PHI } } }
+		# Torpedobootjager Divisie
+		ship = { name = "KRP Lombok" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }		
+		ship = { name = "KRP Sulawesi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }		
+		ship = { name = "KRP Biak" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }		
+		ship = { name = "KRP Bangka" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }		
+		ship = { name = "KRP Sumba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }	
+		ship = { name = "KRP Siberut" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }	
+		ship = { name = "KRP Nias" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }	
+	}				
+	navy = {				
+		name = "Armada Kapal Selam Madagasikara"			
+		base = 4608
+		location = 4608  # Soerbaja
+		ship = { name = "KRP K-VII" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-VIII" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-X" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XVII" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XVIII" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-IX" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XI" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XII" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XIII" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XIV" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XV" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+		ship = { name = "KRP K-XVI" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PHI } } }
+	}
+}
