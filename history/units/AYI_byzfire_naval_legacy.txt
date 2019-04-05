@@ -1,0 +1,145 @@
+﻿############ AYITI COMMUNE NAVY ############
+
+units = {
+	navy = {				
+		name = "Battleship Fleet 1"			
+		base = 4641 #Jaragua 
+		location = 4641
+		ship = { name = "ACS Ayiti" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Coabana" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AYI } } }	 
+		ship = { name = "ACS Tocobaga" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AYI } } }	 
+		ship = { name = "ACS Cahokia" definition = battleship equipment = { battleship = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Penobscot" definition = battleship equipment = { battleship = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Samoset" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }	
+		ship = { name = "ACS Agueybana" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }			
+		ship = { name = "ACS Mecidiye" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Guarionex" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Umpqua" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Wampanoag" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Allegheny" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Catawba" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Iuka" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Tatnuck" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Keosankwa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Abama" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Manica" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Brizuela" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Guacanagarix" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Hayuya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Orocobix" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+	}
+	navy = {
+		name = "Carrier Fleet 1"
+		base = 4641 #Jaragua
+		location = 4641
+		ship = { name = "ACS Huracan" definition = carrier equipment = { carrier_1 = {amount = 1 owner = AYI } } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "AYI" amount = 25 } 
+				cv_nav_bomber_equipment_1 = { owner = "AYI" amount = 20 } 	
+
+			}
+		}
+		ship = { name = "ACS Caya Hico" definition = carrier equipment = { carrier_1 = {amount = 1 owner = AYI } } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "AYI" amount = 25 } 
+				cv_nav_bomber_equipment_1 = { owner = "AYI" amount = 20 } 	
+
+			}
+		}
+		ship = { name = "ACS Waccamaw" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Saluda" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Tokeena" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Keowee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Socastee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Sampit" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+	}
+	navy = {				
+		name = "Destroyer Patrol 1"			
+		base = 1550
+		location = 1550 # Guantanamo
+		ship = { name = "ACS Tymangoua" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ACS Caloosahatchee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ACS Chahta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Niukonska" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Hinono'eino" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Yanktonai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }	
+		ship = { name = "ACS Patoka" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Kaweah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Sangamon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Suwannee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Merrimack" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Kankakee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+	}				
+	navy = {				
+		name = "Submarine Fleet 1"			
+		base = 1550
+		location = 1550 # Guantanamo
+		ship = { name = "ACS Kaima" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ACS Manati" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ACS Huraka" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Barana" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Chali" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Coai" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }		
+	}	
+	navy = {				
+		name = "Northern Command"			
+		base = 788
+		location = 788 # Roanoke
+		ship = { name = "ACS Etowah" definition = battleship equipment = { battleship = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Quinipissa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ACS Biloxi" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Malbanchia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AYI } } }			
+		ship = { name = "ACS Chickamauga" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Karankawa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Millioke" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Kichai" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Tawakoni" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Taovaya" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Hueco" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Tjisondari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }	
+		ship = { name = "ACS Kajeruna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Montauk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Santee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Keweenaw" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Timicua" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Chickasaw" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+	}	
+	navy = {				
+		name = "Submarine Fleet 2"			
+		base = 7552
+		location = 7552 # Quinipissa
+		ship = { name = "ACS Canaris" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ACS Fotuto" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ACS Caona" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Barana" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Ciba" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Kachi" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AYI } } }		
+	}
+	navy = {				
+		name = "Destroyer Patrol 2"			
+		base = 1440
+		location = 1440 # Boriken
+		ship = { name = "ACS Chawasha" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ACS Bayogoula" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ACS Taneksa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Surruque" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Jaega" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Eufaula" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }	
+		ship = { name = "ACS Naniaba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Kasihta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Impsaktea" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Intcutwalipa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Ugahxpah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Pankah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+	}
+	navy = {				
+		name = "Destroyer Patrol 3"			
+		base = 7552
+		location = 7552 # Quinipissa
+		ship = { name = "ACS Ibitoupa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ACS Koroa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }		
+		ship = { name = "ACS Tallahatchie" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Yalobusha" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+		ship = { name = "ACS Tiou" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AYI } } }
+	}
+}

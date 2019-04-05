@@ -364,6 +364,19 @@ leader_traits = {
 		}
 	}
 	
+	dislikes_france = {
+		random = no
+		ai_strategy = {
+			type = antagonize
+			id = "FRA"			
+			value = 200
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	tenacious_defender = {
 		random = no
 		
@@ -496,7 +509,7 @@ leader_traits = {
 		}
 	}
 
-	railroad_enthusiast = { #Valentin Campa
+	railroad_enthusiast = { #Duncan MacDougall
 		random = no
 		production_speed_infrastructure_factor = 0.25
 		

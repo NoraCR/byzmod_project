@@ -1,0 +1,24 @@
+﻿###SELJUK NAVY###
+units = {
+	fleet = {					
+		name = "Royal Seljuk Navy"				
+		naval_base = 12702
+		task_force = {
+			name = "Royal Seljuk Navy"
+			location = 12702
+			ship = { name = "Alp Arslan" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SAU version_name = "Alp Arslan Class" } } }						
+			ship = { name = "Al Riyadh" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SAU version_name = "Al Riyadh Class" } } }
+			ship = { name = "Dammam" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SAU version_name = "Al Riyadh Class" } } }
+			ship = { name = "Hofouf" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SAU version_name = "Al Riyadh Class" } } }
+			ship = { name = "Doha" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAU version_name = "Sharjah Class" } } }
+			ship = { name = "Sana'a" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAU version_name = "Sharjah Class" } } }
+			ship = { name = "Aden" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAU version_name = "Sharjah Class" } } }
+			ship = { name = "Al Mukallah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAU version_name = "Sharjah Class" } } }
+			ship = { name = "Muscat" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAU version_name = "Sharjah Class" } } }
+			ship = { name = "Al Jubail" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAU version_name = "Sharjah Class" } } }
+			ship = { name = "Khafji" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAU version_name = "Sharjah Class" } } }
+			ship = { name = "Al Khobar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAU version_name = "Sharjah Class" } } }
+			ship = { name = "Sharjah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAU version_name = "Sharjah Class" } } }
+		}
+	}
+}

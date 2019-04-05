@@ -1,0 +1,326 @@
+﻿############ AYITI COMMUNE NAVY ############
+
+units = {
+	fleet = {
+		name = "Battle Force"
+		naval_base = 4641
+		task_force = {
+			name = "Battleship Fleet 1"			
+			base = 4641 #Jaragua 
+			location = 4641
+			ship = { name = "ACS Ayiti" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AYI version_name = "Ayiti Class" } } }
+			ship = { name = "ACS Coabana" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AYI version_name = "Ayiti Class" } } }	 
+			ship = { name = "ACS Tocobaga" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AYI version_name = "Ayiti Class" } } }	 
+			ship = { name = "ACS Cahokia" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AYI version_name = "Ayiti Class" } } }
+			ship = { name = "ACS Penobscot" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AYI version_name = "Ayiti Class" } } }
+			ship = { name = "ACS Samoset" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Agueybana Class" } } }	
+			ship = { name = "ACS Agueybana" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Agueybana Class" } } }			
+			ship = { name = "ACS Mecidiye" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Guarionex" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Umpqua" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Wampanoag" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Allegheny" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Catawba" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Iuka" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Tatnuck" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Keosankwa" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Abama" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Manica" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Brizuela" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Guacanagarix" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Hayuya" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Orocobix" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+		}
+		task_force = {
+			name = "Carrier Fleet 1"
+			location = 4641
+			ship = { name = "ACS Huracan" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = AYI version_name = "Huracan Class" } } 				
+				air_wings = { 
+					cv_fighter_equipment_0 =  { owner = "AYI" amount = 25 } 
+					cv_nav_bomber_equipment_1 = { owner = "AYI" amount = 20 } 	
+
+				}
+			}
+			ship = { name = "ACS Caya Hico" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = AYI version_name = "Huracan Class" } } 				
+				air_wings = { 
+					cv_fighter_equipment_0 =  { owner = "AYI" amount = 25 } 
+					cv_nav_bomber_equipment_1 = { owner = "AYI" amount = 20 } 	
+
+				}
+			}
+			ship = { name = "ACS Waccamaw" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Saluda" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Tokeena" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Keowee" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Socastee" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Sampit" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+		}
+	}
+	fleet = {
+		name = "Scouting Force"
+		naval_base = 1550
+		task_force = {				
+			name = "Destroyer Patrol 1"			
+			location = 1550 # Guantanamo
+			ship = { name = "ACS Tymangoua" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }		
+			ship = { name = "ACS Caloosahatchee" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }		
+			ship = { name = "ACS Chahta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Niukonska" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Hinono'eino" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Yanktonai" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }	
+			ship = { name = "ACS Patoka" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Kaweah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Sangamon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Suwannee" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Merrimack" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Kankakee" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+		}				
+		task_force = {				
+			name = "Submarine Fleet 1"			
+			location = 1550 # Guantanamo
+			ship = { name = "ACS Kaima" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AYI version_name = "Kaima Class" } } }		
+			ship = { name = "ACS Manati" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AYI version_name = "Kaima Class" } } }		
+			ship = { name = "ACS Huraka" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AYI version_name = "Kaima Class" } } }
+			ship = { name = "ACS Barana" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AYI version_name = "Kaima Class" } } }
+			ship = { name = "ACS Chali" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AYI version_name = "Kaima Class" } } }
+			ship = { name = "ACS Coai" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AYI version_name = "Kaima Class" } } }		
+		}
+		task_force = {				
+			name = "Destroyer Patrol 2"			
+			location = 1440 # Boriken
+			ship = { name = "ACS Chawasha" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }		
+			ship = { name = "ACS Bayogoula" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }		
+			ship = { name = "ACS Taneksa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Surruque" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Jaega" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Eufaula" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }	
+			ship = { name = "ACS Naniaba" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Kasihta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Impsaktea" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Intcutwalipa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Ugahxpah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Pankah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+		}
+	}
+	fleet = {				
+		name = "Northern Command"			
+		naval_base = 788
+		task_force = {
+			name = "Cruiser Force"
+			location = 788 # Roanoke
+			ship = { name = "ACS Etowah" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AYI version_name = "Ayiti Class" } } }
+			ship = { name = "ACS Quinipissa" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Agueybana Class" } } }		
+			ship = { name = "ACS Biloxi" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Agueybana Class" } } }
+			ship = { name = "ACS Malbanchia" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Agueybana Class" } } }			
+			ship = { name = "ACS Chickamauga" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Karankawa" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Millioke" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Kichai" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Tawakoni" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Taovaya" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Hueco" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AYI version_name = "Mecidiye Class" } } }
+			ship = { name = "ACS Tjisondari" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }	
+			ship = { name = "ACS Kajeruna" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Montauk" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Santee" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Keweenaw" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Timicua" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Chickasaw" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+		}
+		task_force = {				
+			name = "Submarine Fleet 2"			
+			location = 7552 # Quinipissa
+			ship = { name = "ACS Canaris" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AYI version_name = "Canaris Class" } }}		
+			ship = { name = "ACS Fotuto" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AYI version_name = "Canaris Class" } }}		
+			ship = { name = "ACS Caona" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AYI version_name = "Canaris Class" } }}
+			ship = { name = "ACS Guaraguao" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AYI version_name = "Canaris Class" } }}
+			ship = { name = "ACS Ciba" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AYI version_name = "Canaris Class" } }}
+			ship = { name = "ACS Kachi" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AYI version_name = "Canaris Class" } }}		
+		}
+
+		task_force = {				
+			name = "Destroyer Patrol 3"			
+			location = 7552 # Quinipissa
+			ship = { name = "ACS Ibitoupa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }		
+			ship = { name = "ACS Koroa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }		
+			ship = { name = "ACS Tallahatchie" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Yalobusha" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+			ship = { name = "ACS Tiou" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AYI version_name = "Tymangoua Class" } }  }
+		}
+	}	
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	### Under Construction Notes ###
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "AYI"
+			version_name = "Roanoke Class"
+		}
+		name = "ACS Bainoa" 
+		requested_factories = 2
+		progress = 0.60
+		amount = 1
+	}
+	# DD: Fotuto (x14) 
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AYI"
+			version_name = "Fotuto Class"
+		}
+		name = "ACS Pauling" 
+		requested_factories = 1
+		progress = 0.20
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AYI"
+			version_name = "Fotuto Class"
+		}
+		name = "ACS Phelps" 
+		requested_factories = 1
+		progress = 0.80
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AYI"
+			version_name = "Fotuto Class"
+		}
+		name = "ACS Cook" 
+		requested_factories = 1
+		progress = 0.50
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AYI"
+			version_name = "Fotuto Class"
+		}
+		name = "ACS Grykov" 
+		requested_factories = 1
+		progress = 0.20
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AYI"
+			version_name = "Fotuto Class"
+		}
+		name = "ACS Mahon" 
+		requested_factories = 1
+		progress = 0.30
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AYI"
+			version_name = "Fotuto Class"
+		}
+		name = "ACS Cummings" 
+		requested_factories = 1
+		progress = 0.10
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AYI"
+			version_name = "Fotuto Class"
+		}
+		name = "ACS Flaherty" 
+		requested_factories = 1
+		progress = 0.20
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AYI"
+			version_name = "Fotuto Class"
+		}
+		name = "ACS Cassus" 
+		requested_factories = 1
+		progress = 0.30
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AYI"
+			version_name = "Fotuto Class"
+		}
+		name = "ACS Cunningham" 
+		requested_factories = 1
+		progress = 0.10
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AYI"
+			version_name = "Fotuto Class"
+		}
+		name = "ACS Cassini" 
+		requested_factories = 1
+		progress = 0.40
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AYI"
+			version_name = "Fotuto Class"
+		}
+		name = "ACS Shaw Fuyi" 
+		requested_factories = 1
+		progress = 0.30
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AYI"
+			version_name = "Fotuto Class"
+		}
+		name = "ACS Kushner" 
+		requested_factories = 1
+		progress = 0.40
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AYI"
+			version_name = "Fotuto Class"
+		}
+		name = "ACS Porkins" 
+		requested_factories = 1
+		progress = 0.30
+		amount = 1
+	}
+	# SS: Shark class (x1) ("ACS Tarpon")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_2
+			creator = "AYI"
+			version_name = "Porpoise Class"
+		}
+		name = "ACS Tarpon" 
+		requested_factories = 1
+		progress = 0.70
+		amount = 1
+	}
+}
