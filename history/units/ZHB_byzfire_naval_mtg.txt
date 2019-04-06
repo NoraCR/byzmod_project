@@ -1,0 +1,49 @@
+##### ZHENG HE BAY NAVAL UNITS #####
+units = {
+	fleet = {
+		name = "1a Grupo Naval"
+		naval_base = 9832
+		task_force = {
+			name = "Base Naval Providencia"
+			location = 9832  # Providence
+			ship = { name = "ARE Libertad" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = ZHB version_name = "Libertad Class" } } }
+			ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = ZHB version_name = "Libertad Class" } } }
+			ship = { name = "ARE Alsedo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ZHB version_name = "Churucca Class" } } }
+			ship = { name = "ARE Velasco" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ZHB version_name = "Churucca Class" } } }
+			ship = { name = "ARE Lazaga" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ZHB version_name = "Churucca Class" } } }
+		}
+		task_force = {
+			name = "Flota del Cruceros"
+			location = 9832  
+			ship = { name = "ARE Independencia" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = ZHB version_name = "Libertad Class" } } }
+			ship = { name = "ARE Constante" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = ZHB version_name = "Libertad Class" } } }
+			ship = { name = "ARE Resistencia" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = ZHB version_name = "Libertad Class" } } }
+		}
+		task_force = {
+			name = "Base Naval Moswetuset"
+			location = 6732  #Boston
+			# Flotilla de Destructores n.1
+			ship = { name = "ARE Almirante Ferrándiz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ZHB version_name = "Churucca Class" } } }
+			ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ZHB version_name = "Churucca Class" } } }
+			ship = { name = "ARE Alcalá Galiano" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ZHB version_name = "Churucca Class" } } }
+			ship = { name = "ARE Almirante Valdés" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ZHB version_name = "Churucca Class" } } }
+			# Flotilla de Destructores n.2
+			ship = { name = "ARE Churucca" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ZHB version_name = "Churucca Class" } } }
+			ship = { name = "ARE José Luis Díez" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ZHB version_name = "Churucca Class" } } }
+			ship = { name = "ARE Lepanto" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ZHB version_name = "Churucca Class" } } }
+			ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ZHB version_name = "Churucca Class" } } }
+		}
+	}
+	fleet = {
+		name = "Grupo de Bermudas"
+		naval_base = 13010
+		task_force = {
+			location = 13010  #Bermuda
+			# S103 Flotilla
+			ship = { name = "B101" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ZHB version_name = "B Class" } } }
+			ship = { name = "B102" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ZHB version_name = "B Class" } } }
+			ship = { name = "B103" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ZHB version_name = "B Class" } } }
+			ship = { name = "B104" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ZHB version_name = "B Class" } } }
+		}
+	}
+}

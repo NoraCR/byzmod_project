@@ -4,6 +4,13 @@
 set_research_slots = 4
 
 oob = "HDA_byzfire"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "HDA_byzfire_naval_mtg"
+	else = {
+		set_naval_oob = "HDA_byzfire_naval_legacy"
+	}
+}
 set_stability = 0.65
 set_war_support = 0.40
 

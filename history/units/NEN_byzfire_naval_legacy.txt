@@ -1,0 +1,36 @@
+﻿	##### LENAPE NAVAL UNITS #####
+units = {
+	navy = { 
+		name = "1st Squadron"
+		base = 3878
+		location = 3878 # Mannahatta
+		ship = { name = "LNS Buckongahelas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = NEN } } }				
+		ship = { name = "LNS Shingas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = NEN } } }
+		ship = { name = "LNS Leni Lenape" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }				
+		ship = { name = "LNS Kittakima" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }				
+		ship = { name = "LNS Konieschquanoheel" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }				
+		ship = { name = "LNS Remkoke" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = NEN } } }				
+		# 1. Destroyer Flotilla			
+		ship = { name = "LNS Klampeechen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }		
+		ship = { name = "LNS Kittahikan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }		
+		ship = { name = "LNS Kchiechpecat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }		
+		ship = { name = "LNS Ktemaque" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }		
+	}
+	navy = { 
+		name = "Cruiser Squadron"
+		base = 6845
+		location = 6845 
+		ship = { name = "LNS Gelelemend" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }				
+		ship = { name = "LNS Koquethagechton" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }
+		# 2. Destroyer Flotilla				
+		ship = { name = "LNS Achgook" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }
+		ship = { name = "LNS Welchos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }
+		ship = { name = "LNS Michalappotis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }
+		ship = { name = "LNS Monhacaniminshi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }
+		# 3. Destroyer Flotilla
+		ship = { name = "LNS Muiminschi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }
+		ship = { name = "LNS Piselid-tulpe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }
+		ship = { name = "LNS Quequongalle" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }
+		ship = { name = "LNS Schauweminschi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }
+	}
+}

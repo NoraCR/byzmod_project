@@ -1,0 +1,53 @@
+﻿#######NAVAL UNITS#######
+units = {
+	fleet = {	
+		name = "Hindustan Navy" ##Bay of Bengal Fleet
+		naval_base = 4245
+		task_force = {
+		name = "Battle Fleet"
+		location = 4245 # Dhaka
+			ship = { name = "Chakra" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RAJ version_name = "Sainika Class" } } }
+			ship = { name = "Sinha" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RAJ version_name = "Sainika Class" } } }
+			ship = { name = "Sainika" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RAJ version_name = "Sainika Class" } } }
+			ship = { name = "Chennai" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Trincomalee Class" } } }	
+			ship = { name = "Visakhapatnam" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Trincomalee Class" } } }	
+			ship = { name = "Puri" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Trincomalee Class" } } }	
+			ship = { name = "Kolkata" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Trincomalee Class" } } }	
+			ship = { name = "Khulna" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Trincomalee Class" } } }
+			ship = { name = "Sylhet" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Trincomalee Class" } } }	
+			ship = { name = "Rajshahi" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Trincomalee Class" } } }	
+			ship = { name = "Tongi" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Trincomalee Class" } } }	
+			ship = { name = "Mymensingh" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Trincomalee Class" } } }	
+			ship = { name = "Barisal" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Trincomalee Class" } } }			
+			# 1 Destroyer Flotilla
+			ship = { name = "Dhaleshwari" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "Bijoy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "Shadhinota" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "Prottoy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			# 2 Destroyer Flotilla
+			ship = { name = "Meghna" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "Jamuna" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "Kukri" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			# 3 Destroyer Flotilla
+			ship = { name = "TB 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "TB 12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "TB 13" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "TB 14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "TB 15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "TB 16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "TB 17" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "TB 18" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "TB 19" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "TB 20" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+		}
+		task_force = {	
+			name = "Sri lanka Detachment"
+			naval_base = 10201
+			# 8 Destroyer Flotilla
+			ship = { name = "Trincomalee" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Trincomalee Class" } } }	
+			ship = { name = "Karnafuli" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "Tista" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+			ship = { name = "Jaffna" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Dhaleshwari Class" } } }
+		}
+	}
+}

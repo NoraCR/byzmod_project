@@ -551,55 +551,6 @@ units = {
 		start_equipment_factor = 0.65
 
 	}
-#######NAVAL UNITS#######
-	navy = {	
-		name = "Bangopasagara Upakule Bayu" ##Bay of Bengal Fleet
-		base = 4245
-		location = 4245 # Dhaka
-		ship = { name = "Chakra" definition = battleship equipment = { battleship_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "Sinha" definition = battleship equipment = { battleship_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "Sainika" definition = battleship equipment = { battleship_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "Chennai" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
-		ship = { name = "Visakhapatnam" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
-		ship = { name = "Puri" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
-		ship = { name = "Kolkata" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
-		ship = { name = "Khulna" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "Sylhet" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
-		ship = { name = "Rajshahi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
-		ship = { name = "Tongi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
-		ship = { name = "Mymensingh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
-		ship = { name = "Barisal" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }			
-		# 1 Dhbansatmaka bahara
-		ship = { name = "Dhaleshwari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "Bijoy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "Shadhinota" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "Prottoy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		# 2 Dhbansatmaka bahara
-		ship = { name = "Meghna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "Jamuna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "Kukri" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		# 3 Dhbansatmaka bahara
-		ship = { name = "TB 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "TB 12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "TB 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "TB 14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "TB 15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "TB 16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "TB 17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "TB 18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "TB 19" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "TB 20" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-	}
-	navy = {	
-		name = "Srilanka Phlita"
-		base = 10201
-		location = 10201 # Trincomalee
-		# 8 Dhbansatmaka bahara
-		ship = { name = "Trincomalee" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }	
-		ship = { name = "Karnafuli" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "Tista" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-		ship = { name = "Jaffna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
-	}
 }	
 air_wings = {
 	431 = { 

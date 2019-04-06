@@ -1,6 +1,13 @@
 ﻿capital = 426 #Orissa
 
 oob = "RAJ_byzfire"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "RAJ_byzfire_naval_mtg"
+	else = {
+		set_naval_oob = "RAJ_byzfire_naval_legacy"
+	}
+}
 
 # Starting tech
 set_technology = {
@@ -222,10 +229,79 @@ create_navy_leader = {
 	traits = { }
 	skill = 3
 	female = yes
+    attack_skill = 3
+    defense_skill = 2
+  	maneuvering_skill = 2
+	coordination_skill = 3
 }
 create_navy_leader = {
 	name = "Aditya Bhattacharya" 
 	portrait_path = "gfx/leaders/generic/adm_generic_india_m1.png"
 	traits = { }
 	skill = 1
+    attack_skill = 1
+    defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+### Ship Variants ###
+### VARIANTS ###
+# 1936 Start #
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	# Destroyers #
+	create_equipment_variant = {
+		name = "Dhaleshwari Class"	
+		type = ship_hull_light_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+	# Heavy Cruisers #
+	create_equipment_variant = {
+		name = "Trincomalee Class"				
+		type = ship_hull_cruiser_coastal_defense_ship
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	# Battleships #
+	create_equipment_variant = {
+		name = "Sainika Class"	
+		type = ship_hull_heavy_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
 }

@@ -172,35 +172,7 @@ units = {
 		start_equipment_factor = 0.75
 
 	}
-	##### NAVAL UNITS #####
 
-	navy = { 
-		name = "1st Squadron"
-		base = 3878
-		location = 3878 # Mannahatta
-		ship = { name = "LNS Buckongahelas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = NEN } } }				
-		ship = { name = "LNS Shingas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = NEN } } }
-		ship = { name = "LNS Leni Lenape" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }				
-		ship = { name = "LNS Kittakima" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }				
-		ship = { name = "LNS Konieschquanoheel" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }				
-		ship = { name = "LNS Remkoke" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = NEN } } }				
-		# 1. Jagarflottiljen				
-		ship = { name = "LNS Klampeechen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }		
-		ship = { name = "LNS Kittahikan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }		
-		ship = { name = "LNS Kchiechpecat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }		
-		ship = { name = "LNS Ktemaque" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }		
-	}
-	navy = { 
-		name = "Cruiser Squadron"
-		base = 6845
-		location = 6845 
-		ship = { name = "LNS Gelelemend" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }				
-		ship = { name = "LNS Koquethagechton" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NEN } } }
-		# 1. Ubatsflottiljen				
-		ship = { name = "LNS Achgook" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }
-		ship = { name = "LNS Welchos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }
-		ship = { name = "LNS Michalappotis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEN } } }
-	}
 }
 
 ### Flygvapnet ###
@@ -242,24 +214,5 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.21
 		efficiency = 100
-	}
-	### Under Construction Notes ###
-	add_equipment_production = {
-		equipment = {
-			type = destroyer_1
-			creator = "NEN"
-		}
-		requested_factories = 1
-		progress = 0.50
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
-			type = submarine_1
-			creator = "NEN"
-		}
-		requested_factories = 2
-		progress = 0.80
-		amount = 3
 	}
 }

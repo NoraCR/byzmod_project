@@ -1,0 +1,112 @@
+﻿##### HAIDA NAVY #####
+
+
+units = {
+	navy = {
+		name = "Combined Fleet"
+		base = 1869
+		location = 1869  # Haida Gwaii
+		ship = { name = "Tlingit" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Eyak" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Denali" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Cehdotlothna" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Yukon" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Stikine" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Waahúu Ñ'ust'anáay " definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Gyúudaanaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Ñúndlaan" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Madaláaw" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Mas" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Ts'áamaas Ñ'íidaay " definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+	}
+	navy = {
+		name = "Combined Fleet 1"				
+		base = 9671
+		location = 9671  # San Francisco
+		ship = { name = "Chaan Xúujaay" definition = carrier equipment = { carrier_1 = {amount = 1 owner = HDA } } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "HDA" amount = 24 } # historical 24
+				cv_CAS_equipment_1 = { owner = "HDA" amount = 12 } 	# historical 12
+
+			}
+		}
+		ship = { name = "Sgáanuwaa" definition = carrier equipment = { carrier_1 = {amount = 1 owner = HDA } } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "HDA" amount = 24 } # historical 24
+				cv_CAS_equipment_1 = { owner = "HDA" amount = 12 } 	# historical 12
+
+			}
+		}
+		ship = { name = "Dagwiig" definition = carrier equipment = { carrier_1 = {amount = 1 owner = HDA } } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "HDA" amount = 24 } # historical 24
+				cv_CAS_equipment_1 = { owner = "HDA" amount = 12 } 	# historical 12
+
+			}
+		}		
+		ship = { name = "Tsimshian" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Haisla" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Helitsuk" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "Nuxalk" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Tlingit" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Nisga'a" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Gitxsan" definition = battleship equipment = { battleship_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Yaas'éit'aa Shaa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Tsalxhaan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Tahini-wud" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Tagish" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Tr'ondëk Hwëch'in" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Ts'áak'" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Ts'áamaas ñ'íidaay" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Ts'ánhlñ'al" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = HDA } } }
+}
+	navy = {
+		name = "Destroyer Fleet 1"				
+		base = 9671
+		location = 9671  # San Francisco
+		ship = { name = "Dagdagdiyáa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Dagdag" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Híilang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Híilaang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Kingáang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "K'idáng" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "K'áy ýiláay" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Ngáahlang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Sdagwaanáa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "St'a K'ún" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Ts'ahts'áa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Wáanuug" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Xyáahl" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Giid" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA} } }
+		ship = { name = "Gyahgdáang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Hlçíid" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Hlíing" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Hlñ'ámaal" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Ináahlgaal" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Kaas" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "K'áalts'adaa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "K'ayánhl " definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Kuyánhl " definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Skíi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "S'ám" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "S'íinaang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "S'úuluud" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "T'a'áaw" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "Dlagáng" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = HDA } } }
+}
+	navy = {	
+		name = "1st Submarine Fleet" 
+		base = 9671
+		location = 9671 
+		ship = { name = "S-1" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "S-2" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }		
+		ship = { name = "S-3" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "S-4" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }		
+		ship = { name = "S-5" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }	
+		ship = { name = "S-6" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "S-7" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "S-8" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "S-9" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }
+		ship = { name = "S-10" definition = submarine equipment = { submarine_1 = {amount = 1 owner = HDA } } }		
+	}
+}

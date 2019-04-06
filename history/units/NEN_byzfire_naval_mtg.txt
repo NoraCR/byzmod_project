@@ -1,0 +1,38 @@
+﻿	##### LENAPE NAVAL UNITS #####
+units = {
+	fleet = {
+		name = "Lenape Navy"
+		naval_base = 3878
+		task_force = {
+			name = "1st Squadron"
+			location = 3878
+			ship = { name = "LNS Buckongahelas" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = NEN version_name = "Buckongahelas Class" } } }				
+			ship = { name = "LNS Shingas" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = NEN version_name = "Buckongahelas Class" } } }
+			ship = { name = "LNS Leni Lenape" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NEN version_name = "Leni Lenape Class" } } }				
+			ship = { name = "LNS Kittakima" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NEN version_name = "Leni Lenape Class" } } }				
+			ship = { name = "LNS Konieschquanoheel" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NEN version_name = "Leni Lenape Class" } } }				
+			ship = { name = "LNS Remkoke" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NEN version_name = "Remkoke Class" } } }				
+			# 1. Destroyer Flotilla			
+			ship = { name = "LNS Klampeechen" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEN version_name = "Klampeechen Class" } } }		
+			ship = { name = "LNS Kittahikan" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEN version_name = "Klampeechen Class" } } }		
+			ship = { name = "LNS Kchiechpecat" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEN version_name = "Klampeechen Class" } } }		
+			ship = { name = "LNS Ktemaque" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEN version_name = "Klampeechen Class" } } }
+		}
+		task_force = { 
+			name = "Cruiser Squadron"
+			location = 6845 
+			ship = { name = "LNS Gelelemend" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NEN version_name = "Leni Lenape Class" } } }				
+			ship = { name = "LNS Koquethagechton" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NEN version_name = "Leni Lenape Class" } } }
+			# 2. Destroyer Flotilla				
+			ship = { name = "LNS Achgook" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NEN version_name = "Muiminschi Class" } } }
+			ship = { name = "LNS Welchos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NEN version_name = "Muiminschi Class" } } }
+			ship = { name = "LNS Michalappotis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NEN version_name = "Muiminschi Class" } } }
+			ship = { name = "LNS Monhacaniminshi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NEN version_name = "Muiminschi Class" } } }
+			# 3. Destroyer Flotilla
+			ship = { name = "LNS Muiminschi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NEN version_name = "Muiminschi Class" } } }
+			ship = { name = "LNS Piselid-tulpe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NEN version_name = "Muiminschi Class" } } }
+			ship = { name = "LNS Quequongalle" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NEN version_name = "Muiminschi Class" } } }
+			ship = { name = "LNS Schauweminschi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NEN version_name = "Muiminschi Class" } } }
+		}
+	}
+}
