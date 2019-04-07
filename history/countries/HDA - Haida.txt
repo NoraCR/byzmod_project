@@ -31,6 +31,7 @@ set_technology = {
 	#basic_medium_tank = 1 # PLACEHOLDER
 	early_fighter = 1
 	cv_early_fighter = 1
+	cv_CAS1 = 1
 	cv_naval_bomber1 = 1
 	naval_bomber1 = 1
 	early_bomber = 1
@@ -274,5 +275,299 @@ create_navy_leader = {
 }
 
 
-### Ship Variants ###
+### VARIANTS ###
+if = {
+	limit = { has_dlc = "Man the Guns"}
+	### VARIANTS ###
+	# 1936 Start #
+		### Carrier Variants
+		create_equipment_variant = {
+			name = "Chaan Xúujaay Class"
+			type = ship_hull_carrier_conversion_bb
+			name_group = HDA_CV_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_secondaries_slot = empty
+				mid_1_custom_slot = ship_deck_space
+			}
+			obsolete = yes
+		}
+		create_equipment_variant = {
+			name = "Xaadas Class"
+			type = ship_hull_carrier_1
+			name_group = HDA_CV_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = ship_deck_space
+			}
+		}
+		create_equipment_variant = {
+			name = "Januug Xaat'aay Class"
+			type = ship_hull_carrier_conversion_ca
+			name_group = HDA_CVL_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_secondaries_slot = ship_secondaries_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Sgáanuwaa Class"
+			name_group = HDA_CVL_HISTORICAL
+			type = ship_hull_carrier_conversion_ca
+			parent_version = 0
+			modules = {
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = empty
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_secondaries_slot = empty
+			}
+			obsolete = yes
+		}
+		### Battleship Variants	
+		create_equipment_variant = {
+			name = "Tlingit Class"
+			name_group = HDA_BB_HISTORICAL
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_2
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_armor_slot = ship_armor_bb_1
+				front_1_custom_slot = empty
+				mid_1_custom_slot = ship_secondaries_1
+				mid_2_custom_slot = ship_airplane_launcher_1
+				rear_1_custom_slot = ship_heavy_battery_2
+			}
+		}
+		create_equipment_variant = {
+			name = "Gitxsan Class"
+			name_group = HDA_BB_HISTORICAL
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = heavy_ship_engine_2
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_armor_slot = ship_armor_bc_2
+				front_1_custom_slot = ship_anti_air_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_airplane_launcher_1
+				rear_1_custom_slot = ship_heavy_battery_1
+			}
+		}
+			
+		### Heavy Cruiser Variants			
+		create_equipment_variant = {
+			name = "Tagish Class"
+			type = ship_hull_cruiser_2
+			name_group = HDA_CA_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_2
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_armor_slot = ship_armor_cruiser_2
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = ship_medium_battery_2
+				mid_1_custom_slot = ship_torpedo_1
+				mid_2_custom_slot = ship_torpedo_1
+				rear_1_custom_slot = ship_airplane_launcher_1
+			}
+			obsolete = yes
+		}
+		create_equipment_variant = {
+			name = "Tahini-wud Class"
+			type = ship_hull_cruiser_1
+			name_group = HDA_CA_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_torpedo_2
+				rear_1_custom_slot = empty
+			}
+			obsolete = yes
+		}
+		create_equipment_variant = {
+			name = "K'aad Class"
+			type = ship_hull_cruiser_2
+			name_group = HDA_CA_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_2
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_armor_slot = ship_armor_cruiser_2
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = ship_medium_battery_2
+				mid_1_custom_slot = ship_torpedo_2
+				mid_2_custom_slot = ship_airplane_launcher_1
+				rear_1_custom_slot = ship_airplane_launcher_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Tang'waan Class"
+			type = ship_hull_cruiser_2
+			name_group = HDA_CL_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_2
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_armor_slot = ship_armor_cruiser_2
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = ship_medium_battery_2
+				mid_1_custom_slot = ship_torpedo_2
+				mid_2_custom_slot = ship_torpedo_2
+				rear_1_custom_slot = ship_airplane_launcher_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Yahk'ii Class"
+			type = ship_hull_cruiser_1
+			name_group = HDA_CL_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_light_medium_battery_1
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				mid_1_custom_slot = ship_torpedo_1
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+			obsolete = yes
+		}
+		create_equipment_variant = {
+			name = "Ts'ánhlñ'al Class"
+			type = ship_hull_cruiser_1
+			name_group = HDA_CL_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_light_medium_battery_1
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				mid_1_custom_slot = ship_torpedo_1
+				mid_2_custom_slot = ship_airplane_launcher_1
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+			obsolete = yes
+		}
+		create_equipment_variant = {
+			name = "Sgaanuug Class"
+			type = ship_hull_cruiser_1
+			name_group = HDA_CL_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_light_medium_battery_1
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				mid_1_custom_slot = ship_torpedo_1
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+			obsolete = yes
+		}
+		### Destroyer Variants
+		create_equipment_variant = {
+			name = "Dlagáng Class" #collection of various WWI and early interwar ships with similiar capabilities
+			type = ship_hull_light_1
+			name_group = HDA_DD_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = ship_torpedo_1
+				rear_1_custom_slot = ship_depth_charge_1
+			}
+			obsolete = yes
+		}
+		create_equipment_variant = {
+			name = "Sdagwaanáa Class"
+			type = ship_hull_light_1
+			name_group = HDA_DD_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery_2
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_2
+				mid_1_custom_slot = ship_torpedo_2
+				rear_1_custom_slot = ship_depth_charge_1
+			}
+		}	
+		### Submarine Variants	
+		create_equipment_variant = {
+			name = "S-1 Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				fixed_ship_engine_slot = sub_ship_engine_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "S-121 Class"
+			type = ship_hull_submarine_1
+			name_group = HDA_SS_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				fixed_ship_engine_slot = sub_ship_engine_1
+				rear_1_custom_slot = ship_mine_layer_sub
+			}
+		}
+}
 

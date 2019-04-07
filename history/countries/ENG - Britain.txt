@@ -93,6 +93,12 @@ add_ideas = {
 	stiff_upper_lip
 }
 
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = rrp_tech_sharing_group
+}
+
 set_convoys = 800
 
 
