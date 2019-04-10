@@ -1,0 +1,48 @@
+﻿	##### IRISH NAVY #####
+units = { #Byzantines gave them a good deal of stuff
+	fleet = {
+		name = "Cabhlach na hÉireann"
+		naval_base = 11203
+		task_force = {
+			name = "Iathghlas Cabhlach"				
+			location = 11293 # Dublin						
+			ship = { name = "LE Tuatha De Danann" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IRE version_name = "Tuatha De Danann Class" } } }				
+			ship = { name = "LE Nuada" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IRE version_name = "Nuada Class" } } }	
+			ship = { name = "LE Niamh" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IRE version_name = "Nuada Class" } } }									
+			ship = { name = "LE Ard-Ri" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IRE version_name = "Nuada Class" } } }								
+			ship = { name = "LE Mag Mell" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IRE version_name = "Nuada Class" } } }
+			ship = { name = "LE Padraig" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = IRE version_name = "Padraig Class"} }}
+			ship = { name = "LE Brigit of Kildare" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = IRE version_name = "Padraig Class"} }}
+			ship = { name = "LE Columba" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = IRE version_name = "Padraig Class"} }}
+			ship = { name = "LE Abran" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = IRE version_name = "Padraig Class"} }}
+			ship = { name = "LE Adomnan" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = IRE version_name = "Padraig Class"} }}
+			ship = { name = "LE Aileran" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = IRE version_name = "Padraig Class"} }}
+			ship = { name = "LE Kentigerna" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = IRE version_name = "Padraig Class"} }}
+			ship = { name = "LE Scuithin" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = IRE version_name = "Padraig Class"} }}
+			ship = { name = "LE Olcan" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = IRE version_name = "Padraig Class"} }}
+			ship = { name = "LE Tirechan" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = IRE version_name = "Padraig Class"} }}
+		}
+		task_force = {					
+			name = "1st Fomhuirean Scuadrun"				
+			location = 3379 # Belfast
+			# 1st Fomhuirean Rannan 				
+			ship = { name = "LE Fomoire" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IRE version_name = "Fomoire Class" } } }
+			ship = { name = "LE Balor" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IRE version_name = "Fomoire Class" } } }
+			ship = { name = "LE Buarainech" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IRE version_name = "Fomoire Class" } } }
+			ship = { name = "LE Cichol Gricenchos" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IRE version_name = "Fomoire Class" } } }
+			ship = { name = "LE Bres" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IRE version_name = "Fomoire Class" } } }
+			ship = { name = "LE Elatha" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IRE version_name = "Fomoire Class" } } }
+			ship = { name = "LE Conand" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IRE version_name = "Fomoire Class" } } }
+			ship = { name = "LE Tethra" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IRE version_name = "Fomoire Class" } } }
+			# 2nd  Fomhuirean Rannan			
+			ship = { name = "LE Claiomh" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = IRE version_name = "Claiomh Class" } } }
+			ship = { name = "LE Orna" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = IRE version_name = "Claiomh Class" } } }
+			ship = { name = "LE Gae Bulg" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = IRE version_name = "Claiomh Class" } } }
+			ship = { name = "LE Caladbolg" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = IRE version_name = "Claiomh Class" } } }
+			ship = { name = "LE Fragarach" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = IRE version_name = "Claiomh Class" } } }
+			ship = { name = "LE Luin of Celtchar" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = IRE version_name = "Claiomh Class" } } }
+			ship = { name = "LE Claiomh Solais" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = IRE version_name = "Claiomh Class" } } }
+			ship = { name = "LE Moralltach" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = IRE version_name = "Claiomh Class" } } }
+		}
+	}
+}

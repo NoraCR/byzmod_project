@@ -1,5 +1,5 @@
 units = {
-	#### Naval Units ####
+	#### GALLIC NAVY ####
 	
 	fleet = {				
 		name = "1ère Région Navale"			

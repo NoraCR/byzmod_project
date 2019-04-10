@@ -1,0 +1,113 @@
+﻿	##### SCANDINAVIA NAVAL UNITS #####
+units = {
+	fleet = {
+		name = "Den Danske Flåde"			
+		naval_base = 6287  # Copenhagen
+		task_force = {
+			name = "Den Danske Flåde"
+			location = 6287  # Copenhagen			
+			ship = { name = "KSMS Niels Iuel" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Sverige Class" } } }
+			ship = { name = "KSMS Peder Skram" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Sverige Class" } } }
+			ship = { name = "KSMS Rota" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }			
+			ship = { name = "KSMS Bellona" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }		
+			ship = { name = "KSMS Flora" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+			ship = { name = "KSMS Daphne" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+			ship = { name = "KSMS Dryaden" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+		}				
+	}
+	fleet = {
+		name = "Kongelige Norske Marine"			
+		naval_base = 9296 # Kristiansand
+		task_force = {					
+			name = "1. Sjøforsvarsdistrikt"				
+			location =  9296 # Kristiansand
+			ship = { name = "KSMS Harald Haarfagre" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Äran Class" } } }				
+			ship = { name = "KSMS Tordenskjold" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Äran Class" } } }				
+			ship = { name = "KSMS Olaf Tryggvason" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Örnen Class" } } }
+			ship = { name = "KSMS Frøya" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Örnen Class" } } }
+			# 1st Submarine Detachment
+			ship = { name = "KSMS A2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+			ship = { name = "KSMS A3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+			ship = { name = "KSMS A4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+			# 2nd Submarine Detachment
+			ship = { name = "KSMS B2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+			ship = { name = "KSMS B4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+			ship = { name = "KSMS B5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+		}					
+		task_force = {					
+			name = "2. Sjøforsvarsdistrikt"				
+			location =  122 # Bergen
+			# 1st Destroyer Detachment
+			ship = { name = "KSMS Draug" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Ehrensköld Class" } } }
+			ship = { name = "KSMS Troll" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Ehrensköld Class" } } }
+			ship = { name = "KSMS Garm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Ehrensköld Class" } } }
+			# Submarine Detachment
+			ship = { name = "KSMS B6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+		}					
+		task_force = {					
+			name = "3. Sjøforsvarsdistrikt"				
+			location =  11050 # Tromso
+			ship = { name = "KSMS Norge" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Äran Class" } } }				
+			ship = { name = "KSMS Eidsvold" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Äran Class" } } }				
+			# Submarine Detachment
+			ship = { name = "KSMS B1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+			ship = { name = "KSMS B3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+		}					
+	}
+	fleet = {
+		name = "Kungliga Svenska Marinen"			
+		naval_base = 6050 # Stockholm
+		task_force = {				
+			name = "Kustflottan"
+			location = 6050 # Stockholm
+			ship = { name = "KSMS Dristigheten" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Äran Class" } } }				
+			ship = { name = "KSMS Örnen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Örnen Class" } } }		
+			ship = { name = "KSMS Jacob Bagge" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Örnen Class" } } }		
+			ship = { name = "KSMS Clas Fleming" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Clas Fleming Class" } } }				
+		}
+		task_force = { 
+			name = "1a Eskadern"
+			location = 11215 # Karlskrona
+			ship = { name = "KSMS Gustaf V" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Sverige Class" } } }				
+			ship = { name = "KSMS Sverige" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Sverige Class" } } }				
+			ship = { name = "KSMS Drottning Victoria" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Sverige Class" } } }				
+			ship = { name = "KSMS Gotland" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEN version_name = "Gotland Class" } } }				
+			# 1. Jagarflottiljen				
+			ship = { name = "KSMS Klas Horn" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Ehrensköld Class" } } }		
+			ship = { name = "KSMS Klas Uggla" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Ehrensköld Class" } } }		
+			ship = { name = "KSMS Ehrensköld" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Ehrensköld Class" } } }		
+			ship = { name = "KSMS Nordenskjöld" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Ehrensköld Class" } } }		
+		}
+		task_force = { 
+			name = "Ålandshavseskader"
+			location = 408 # Gotland
+			ship = { name = "KSMS Äran" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Äran Class" } } }				
+			ship = { name = "KSMS Tapperheten" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Äran Class" } } }				
+		}
+		task_force = { 
+			name = "Karlskrona Avdelningen"
+			location = 11215 # Karlskrona
+			ship = { name = "KSMS Wasa" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Äran Class" } } }				
+			ship = { name = "KSMS Manligheten" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Äran Class" } } }
+			# 1. Ubatsflottiljen				
+			ship = { name = "KSMS Draken" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = DEN version_name = "Draken Class" } } }
+			ship = { name = "KSMS Gripen" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = DEN version_name = "Draken Class" } } }
+			ship = { name = "KSMS Ulven" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = DEN version_name = "Draken Class" } } }
+		}
+		task_force = { 
+			name = "Göteborgs Eskadern"
+			location = 383 # Göteborg
+			ship = { name = "KSMS Oscar II" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Oscar II Class" } } }				
+			ship = { name = "KSMS Fylgia" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Fylgia Class" } } }				
+			# 2. Ubatsflottiljen				
+			ship = { name = "KSMS Hajen" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+			ship = { name = "KSMS Sälen" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+			ship = { name = "KSMS Valrossen" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+			# 3. Ubatsflottiljen				
+			ship = { name = "KSMS Bävern" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+			ship = { name = "KSMS Illern" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+			ship = { name = "KSMS Uttern" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Hajen Class" } } }
+			ship = { name = "KSMS Valen" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Valen Class" } } }
+		}
+	}
+}

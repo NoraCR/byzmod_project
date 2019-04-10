@@ -180,39 +180,15 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Submarines #
-	create_equipment_variant = {			# represents K II-X, O8 subs
-		name = "K-III Class"
-		type = ship_hull_submarine_1
-		name_group = HOL_SS_KCLASS
-		parent_version = 0
-		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
-			fixed_ship_engine_slot = sub_ship_engine_1
-			rear_1_custom_slot = empty
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "O9 Class"					# represents O9-15, K XI-XIII subs
-		type = ship_hull_submarine_1
-		name_group = HOL_SS_OCLASS
-		parent_version = 0
-		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
-			fixed_ship_engine_slot = sub_ship_engine_2
-			rear_1_custom_slot = empty
-		}
-		obsolete = yes
-	}
 	create_equipment_variant = {
 		name = "K-XIV Class"				# represents K XIV-XVIII, O16 subs
-		type = ship_hull_submarine_2
+		type = ship_hull_submarine_1
 		name_group = HOL_SS_KCLASS
 		parent_version = 0
 		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_2
-			rear_1_custom_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = empty
 		}
 	}
 	# Destroyers #

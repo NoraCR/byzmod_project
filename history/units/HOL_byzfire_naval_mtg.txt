@@ -21,9 +21,9 @@
 		task_force = {				
 			name = "Onderzeeboot Smaldeel"			 
 			location = 9498 
-			ship = { name = "O-1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
-			ship = { name = "O-2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
-			ship = { name = "O-3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+			ship = { name = "O-1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+			ship = { name = "O-2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+			ship = { name = "O-3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
 		}
 	}				
 }

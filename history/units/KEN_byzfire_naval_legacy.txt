@@ -1,0 +1,25 @@
+﻿
+	##### KENYA NAVAL UNITS #####
+units = {
+	navy = {					
+		name = "Jeshi la Wanamaji la Kenya"				
+		base = 5210
+		location = 5210
+		ship = { name = "KNS Maasai" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KEN  } } }				
+		ship = { name = "KNS Kikuyu" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KEN  } } }	
+		ship = { name = "KNS Kamba" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KEN  } } }								
+		ship = { name = "KNS Mag Mell" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Kilimanjaro" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Elgon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Mau" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Kakamega" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Galana" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Tana" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Elmenteita" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Maasinta" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KEN } } }
+		ship = { name = "KNS Nyakowa" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Were Nyasaye" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Kalisanga" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KEN  } } }
+		ship = { name = "KNS Kaliteyo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KEN  } } }	
+	}
+}

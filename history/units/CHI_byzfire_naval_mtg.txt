@@ -1,0 +1,175 @@
+﻿#####GREAT MING NAVAL UNITS#####
+units = {
+	fleet = {
+	name = "Di 1 Jiandui"
+	naval_base = 7014
+		task_force = {				
+			name = "Di 1 Zhanjian Jiandui"			
+			base = 7014
+			location = 7014 #Shanghai
+			ship = { name = "CNS Fujian" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Fujian Class" } }}
+			ship = { name = "CNS Zhejiang" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Fujian Class" } }}
+			ship = { name = "CNS Shandong" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Fujian Class" } }}
+			ship = { name = "CNS Liaoning" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Fujian Class" } }}
+			ship = { name = "CNS Jilin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Fujian Class" } }}
+			ship = { name = "CNS Guangxi" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Fujian Class" } }}
+		}
+		task_force = {
+			name = "Di 1 Haifang Jiandui" 
+			base = 7014
+			location = 7014 #Shanghai
+			ship = { name = "CNS Fengxiang" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = CHI version_name = "Fengxiang Class" } }  				
+				air_wings = { 
+					cv_fighter_equipment_0 =  { owner = "CHI" amount = 25 } 
+					cv_nav_bomber_equipment_1 = { owner = "CHI" amount = 20 } 	
+
+				}
+			}
+			ship = { name = "CNS Xizheng" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = CHI version_name = "Fengxiang Class" } } 				
+				air_wings = { 
+					cv_fighter_equipment_0 =  { owner = "CHI" amount = 25 } 
+					cv_nav_bomber_equipment_1 = { owner = "CHI" amount = 20 } 	
+
+				}
+			}
+			ship = { name = "CNS Chang Yuchun" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = CHI version_name = "Chang Yuchun Class" } } 				
+				air_wings = { 
+					cv_fighter_equipment_0 =  { owner = "CHI" amount = 25 } 
+					cv_nav_bomber_equipment_1 = { owner = "CHI" amount = 20 } 	
+
+				}
+			}
+			ship = { name = "CNS Nanchen" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "CNS Nanrui" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "CNS Hairong" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "CNS Zhaohe" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "CNS Haiqi" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "CNS Dadong" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Yuankai Class" } } }
+			ship = { name = "CNS Zhejian" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Yuankai Class" } } }
+			ship = { name = "CNS Caojiang" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Yuankai Class" } } }
+			ship = { name = "CNS Zehai" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Yuankai Class" } } }
+			ship = { name = "CNS Weijing" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Yuankai Class" } } }
+			ship = { name = "CNS Haian" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Yuankai Class" } } }
+			ship = { name = "CNS Jingquan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Yuankai Class" } } }
+			ship = { name = "CNS Yuyuan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Yuankai Class" } } }
+			ship = { name = "CNS Yuankai" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Yuankai Class" } } }
+			ship = { name = "CNS Dengyingzhou" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Huoqiu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Kunshan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Rongcheng" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Donggang" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Hongzehu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Poyanghu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+		}
+		task_force = {				
+			name = "Di 1 Huanghai Jiandui"			
+			location = 4205 #Shandong
+			ship = { name = "CNS Jianmen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Wusheng" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Juyong" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Pingjing" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Danyang" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Hengyang" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Hui'an" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+		}
+		task_force = {				
+			name = "Di 1 Qianting Jiandui"			
+			location = 7014
+			ship = { name = "CNS Q1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Q1 Class" } } }
+			ship = { name = "CNS Q2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Q1 Class" } } }
+			ship = { name = "CNS Q3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Q1 Class" } } }
+			ship = { name = "CNS Q4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Q1 Class" } } }
+			ship = { name = "CNS Q5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Q1 Class" } } }
+			ship = { name = "CNS Q6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Q1 Class" } } }
+			ship = { name = "CNS Q7" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Q1 Class" } } }
+			ship = { name = "CNS Q8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Q1 Class" } } }
+			
+		}
+	}
+	fleet = {
+	name = "Di 2 Jiandui"
+	naval_base = 1047 # Guangdong
+		task_force = {				
+			name = "Nanyang Jiandui"
+			location = 1047 # Guangdong			
+			ship = { name = "CNS Jiangxi" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Nanzheng Class" } } }
+			ship = { name = "CNS Anhui" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Nanzheng Class" } } }
+			ship = { name = "CNS Laiyuan" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Xingzhou Class" } } }	
+			ship = { name = "CNS Dingyuan" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Xingzhou Class" } } }	
+			ship = { name = "CNS Zhenyuan" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Dongguan Class" } } }
+			ship = { name = "CNS Zhoushan" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Dongguan Class" } } }
+			ship = { name = "CNS Shengsi" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Dongguan Class" } } }
+			ship = { name = "CNS Chaoyong" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "CNS Yangwei" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "CNS Zhenbei" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }		
+			ship = { name = "CNS Zhenbian" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }		
+			ship = { name = "CNS Zhendong" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }		
+			ship = { name = "CNS Zhennan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Zhenxi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Zhenzhong" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Hulunhu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }	
+			ship = { name = "CNS Luguhu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Junshanhu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Fuxianhu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Dongtinghu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Jingpohu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+		}
+		task_force = {				
+			name = "Di 3 Qianting Jiandui"			
+			location = 1047
+			ship = { name = "CNS Q17" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q18" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q19" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q20" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q21" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q22" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q23" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q24" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }	
+		}
+	}
+	fleet = {
+	name = "Di 3 Jiandui"
+	naval_base = 12299 # Singapore
+		task_force = {				
+			name = "Maliujia Haixia Jiandui"
+			base = 12299
+			location = 12299 # Singapore
+			ship = { name = "CNS Nanzheng" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Nanzheng Class" } } }
+			ship = { name = "CNS Beishu" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Nanzheng Class" } } }
+			ship = { name = "CNS Xingzhou" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Xingzhou Class" } } }
+			ship = { name = "CNS Dongguan" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Dongguan Class" } } }
+			ship = { name = "CNS Jieshen" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "CNS Xianfeng" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "CNS Hanzhong" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "CNS Deyang" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "CNS Kangji" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Feiting" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }
+			ship = { name = "CNS Huantai" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }	
+			ship = { name = "CNS Rudong" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }	
+			ship = { name = "CNS Changbai" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }	
+			ship = { name = "CNS Yimen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }	
+			ship = { name = "CNS Tianzhu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }	
+			ship = { name = "CNS Daqing" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianmen Class" } } }		
+		}
+		task_force = {				
+			name = "Di 2 Qianting Jiandui"			
+			location = 12299
+			ship = { name = "CNS Q9" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q10" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q11" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q12" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q13" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q14" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q15" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q16" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }
+			ship = { name = "CNS Q25" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }	
+			ship = { name = "CNS Q26" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }	
+			ship = { name = "CNS Q27" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }	
+			ship = { name = "CNS Q28" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }	
+			ship = { name = "CNS Q29" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }	
+			ship = { name = "CNS Q30" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }	
+			ship = { name = "CNS Q31" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }	
+			ship = { name = "CNS Q32" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Q9 Class" } } }			
+		}
+	}
+}

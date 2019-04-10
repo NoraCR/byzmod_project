@@ -1,0 +1,28 @@
+﻿
+	##### KENYA NAVAL UNITS #####
+units = {
+	fleet = {					
+		name = "Jeshi la Wanamaji la Kenya"				
+		naval_base = 5210
+		task_force = {
+			name = "Jeshi la Wanamaji la Kenya"
+			location = 5210
+			ship = { name = "KNS Maasai" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KEN version_name = "Maasai Class" } } }				
+			ship = { name = "KNS Kikuyu" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KEN version_name = "Maasai Class" } } }	
+			ship = { name = "KNS Kamba" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KEN version_name = "Maasai Class" } } }								
+			ship = { name = "KNS Mag Mell" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = KEN version_name = "Mag Mell Class" } } }
+			ship = { name = "KNS Kilimanjaro" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KEN version_name = "Kilimanjaro Class" } } }
+			ship = { name = "KNS Elgon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KEN version_name = "Kilimanjaro Class" } } }
+			ship = { name = "KNS Mau" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KEN version_name = "Mau Class" } } }
+			ship = { name = "KNS Kakamega" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KEN version_name = "Mau Class" } } }
+			ship = { name = "KNS Galana" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KEN version_name = "Mau Class" } } }
+			ship = { name = "KNS Tana" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KEN version_name = "Mau Class" } } }
+			ship = { name = "KNS Elmenteita" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KEN version_name = "Mau Class" } } }
+			ship = { name = "KNS Maasinta" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KEN version_name = "Maasinta Class" } } }
+			ship = { name = "KNS Nyakowa" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KEN version_name = "Maasinta Class" } } }
+			ship = { name = "KNS Were Nyasaye" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KEN version_name = "Maasinta Class" } } }
+			ship = { name = "KNS Kalisanga" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KEN version_name = "Maasinta Class" } } }
+			ship = { name = "KNS Kaliteyo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KEN version_name = "Maasinta Class" } } }	
+		}
+	}
+}

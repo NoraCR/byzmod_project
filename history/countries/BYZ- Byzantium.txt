@@ -782,7 +782,7 @@ if = {
 	}
 	# Battleships #
 	create_equipment_variant = {
-		name = "Avalon Class"					# represents Wyoming (Arkansas) and New York classes
+		name = "Olympus Class"					# represents Wyoming (Arkansas) and New York classes
 		type = ship_hull_heavy_1
 		parent_version = 0
 		modules = {
@@ -801,7 +801,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Nike Class"				# represents Pennsylvania, Nevada, Tennessee, and New Mexico classes
+		name = "Avalon Class"	
 		type = ship_hull_heavy_1
 		parent_version = 0
 		modules = {
