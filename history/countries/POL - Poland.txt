@@ -17,6 +17,7 @@ set_technology = {
 	interwar_artillery = 1
 	gwtank = 1
 	basic_light_tank = 1
+	improved_light_tank = 1
 	basic_heavy_tank = 1
 	interwar_antiair = 1
 	interwar_antitank = 1
