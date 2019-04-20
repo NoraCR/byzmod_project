@@ -178,7 +178,7 @@ create_country_leader = {
 }
 create_field_marshal = {
 	name = "Yahima Camaguey" #female
-		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+		picture = "ayi_marshal_yahima_camaguey.png"
 	traits = {  defensive_doctrine }
 	skill = 3
 	attack_skill = 4
@@ -189,7 +189,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Imotonex Daguao"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "ayi_general_imotonex_daguao.png"
 	traits = {  old_guard }
 	skill = 4
 	attack_skill = 3
@@ -199,7 +199,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Macuya Cueba"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	portrait_path = "ayi_general_macuya_cueba.png"
 	traits = { organizer offensive_doctrine trait_cautious }
 	skill = 5
 	attack_skill = 3
@@ -209,7 +209,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Attakullakulla Echoy" #Cherokee
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "ayi_general_attakullakulla_echoy.png"
 	traits = {   }
 	skill = 3
 	attack_skill = 3
@@ -219,7 +219,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Sugmuk Mesheketeno"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "ayi_general_sugmuk_mesheketeno.png"
 	traits = { trait_cautious brilliant_strategist harsh_leader }
 	skill = 4
 	attack_skill = 3
@@ -229,7 +229,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Wahnenauhi Itseyi" #Cherokee #female
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "ayi_general_wahnenauhi_itseyi.png"
 	traits = { fortress_buster trait_engineer }
 	skill = 4
 	attack_skill = 3
@@ -240,7 +240,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Wambli-Waste Mdewakanton" #female
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "ayi_general_wambli-waste_mdewakanton.png"
 	traits = {  }
 	skill = 3
 	attack_skill = 3
@@ -251,7 +251,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Unaduti Watauga"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "ayi_general_unaduti_watauga.png"
 	traits = { trickster  }
 	skill = 3
 	attack_skill = 3
@@ -261,7 +261,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Seiichi Sasahara"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "ayi_general_seiichi_sasahara.png"
 	traits = { trickster }
 	skill = 4
 	attack_skill = 5
@@ -271,7 +271,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Seán Galligan"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	portrait_path = "ayi_general_sean_galligan.png"
 	traits = { fortress_buster }
 	skill = 3
 	attack_skill = 3
@@ -280,8 +280,8 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Kathrin Möhring" #female
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	name = "Katrin Möhring" #female
+	portrait_path = "ayi_general_kathrin_mohring.png"
 	traits = { }
 	skill = 3
 	attack_skill = 3
@@ -292,7 +292,7 @@ create_corps_commander = {
 }
 create_navy_leader = {
 	name = "Iftiin Khalif Abdi Dhala" #female
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	portrait_path = "ayi_admiral_iftiin_khalif_abdi_dhala.png"
 	traits = { ironside }
 	skill = 2
 	female = yes
@@ -303,7 +303,7 @@ create_navy_leader = {
 }
 create_navy_leader = {
 	name = "Nokosi Chichuchate" #seminole
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	portrait_path = "ayi_admiral_nokosi_chichuchate.png"
 	traits = { navy_career_officer gentlemanly }
 	skill = 3
 	attack_skill = 2
@@ -313,7 +313,7 @@ create_navy_leader = {
 }
 create_navy_leader = {
 	name = "Agasga Hiwassee" #female #cherokee
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	portrait_path = "ayi_admiral_agasga_hiwassee.png"
 	traits = { superior_tactician spotter }
 	skill = 3
 	female = yes
@@ -324,7 +324,7 @@ create_navy_leader = {
 }
 create_navy_leader = {
 	name = "Casiguaya Kiskeya" #female
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
+	portrait_path = "ayi_admiral_casiguaya_kiskeya.png"
 	traits = { bold aviation_enthusiast }
 	skill = 4
 	female = yes
@@ -335,7 +335,7 @@ create_navy_leader = {
 }
 create_navy_leader = {
 	name = "Guaora Yaquimel"
-	portrait_path = "gfx/leaders/South_America/Portrait_South_America_Generic_navy_1.dds"
+	portrait_path = "ayi_admiral_guaora_yaquimel.png"
 	traits = { old_guard_navy fleet_protector }
 	skill = 3
 	attack_skill = 2
