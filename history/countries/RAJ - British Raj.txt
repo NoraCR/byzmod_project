@@ -222,6 +222,28 @@ create_corps_commander = {
 	female = yes
 
 }
+create_corps_commander = {
+	name = "Aarya Mithushanthan"
+	portrait_path = "gfx/leaders/generic/generic_africa_m1.png"
+	traits = {   }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ishvarya Harijan" #Oriya, female
+	portrait_path = "gfx/leaders/generic/generic_india_f1.png"
+	traits = {   }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	female = yes
+}
 
 create_navy_leader = {
 	name = "Chandrabali Kandulphul" #female

@@ -1037,7 +1037,7 @@ country_event = {
 	trigger = {
 		date > 1936.12.25
 		tag = BYZ
-		BYZ = { has_elections = yes}
+		BYZ = { has_elections = yes }
 	}
 	
 	option = {

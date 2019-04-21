@@ -322,8 +322,13 @@ units = {
 		task_force = {					
 			name = "Cruiser Division 7"	#Minelayers			
 			location = 4135 # Gibraltar
-			ship = { name = "RNS Radziwill" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }				
-			ship = { name = "RNS Agamemnon" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }				
+			ship = { name = "RNS Radziwill" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
+			ship = { name = "RNS Agamemnon" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }
+			ship = { name = "RNS Siena" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
+			ship = { name = "RNS Reggio di Calabria" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
+			ship = { name = "RNS Napflion" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
+			ship = { name = "RNS Halikarnas" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
+			ship = { name = "RNS Samsun" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
 		}					
 		task_force = {					
 			name = "RNS Karl Marx"				

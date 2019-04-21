@@ -1,0 +1,134 @@
+﻿##### SOMALIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+SOM_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { SOM }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "CBS "
+	fallback_name = "Destroyer %s"					
+
+	unique = {											
+		#big cats
+		"Libaax" "Goyso" "Tuug"
+		#fictional navigators
+		"Axmed Beyle" "Ali Sharmarke" "Hasan Biixi Shire" "Diiriye Deeq Saruur" "Abdullahi Bulxan Caraale"
+		#storms and winds
+		"Tafaariiqda" "Dabayl" "Duufaan" "Dabaysha Bariga" "Dabaysha Galbeedka" "Dabaysha Koonfurta" "Dabaysha Woqooyi"
+		#constellations/astrologic signs/planets
+		"Laxo" "Naaf" "Mataanaha" "Afaggaal" "Dameerajoogeen" "Urur" "Qorraxda" "Dayax" "Dusaa" "Sugra ama Bakool" "Farraare" "Cirjeex" "Raage" "Uraano" "Docay" "Jibin"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+SOM_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { SOM }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "CBS "
+	fallback_name = "Light Cruiser %s"
+
+	unique = {
+		#northern cities
+		"Jabuuti" "Khartuum" "Juba" "Asmara" "Keren" "Assab" "Berentu" "Kassala" "Al-Goled" "Marsa Alam"
+		#fictional heroes
+		"Maxamad Muruxo" "Maxamad Guure Kaafi" "Ali Ayax Dhiid" "Abdiwahid Abdi Adan" "Abdiaziz Quulle"
+		"Saluugla Nagan" "Said Hassan Calas" "Zahra Yusuf Amal" "Abdullahi Iidle Deer" "Ali Wardi Ubaxle" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+SOM_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { SOM }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "CBS "
+	fallback_name = "Heavy Cruiser %s"
+
+	unique = {
+		#historic sites
+		"Mosylon" "Opone" "Malao" "Sarapion" "Mundus" "Essina" "Tabae" "Adal" "Warsangali" "Bari" "Sanaag" "Maakhir"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+SOM_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { SOM }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "CBS "
+	fallback_name = "Battleship %s"		
+
+	unique = {
+		"Maxamed Muzaffar" "Somaliland" "Guuleysiga Byzantion" "Muqdisho" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+SOM_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { SOM }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "CBS "
+	fallback_name = "Battlecruiser %s"		
+
+	unique = {
+		"Yuugandha" "Juba" "Benghasi" "General Mukhtaar" "General Naaleeye" "General Fariido" "Admiral Jamiila"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+SOM_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { SOM }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "CBS "
+	fallback_name = "Carrier %s"	
+
+	unique = {
+		"Jamhuuriyadda Soomaaliya" "Xorriyad" 
+		"Afrika" "Admiral Maxamed Abdel Hasan" 
+	}
+}
+
+### SUBMARINES ###
+SOM_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { SOM }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "CBS "
+	fallback_name = "Submarine %s"
+	
+	unique = {
+		"G-1" "G-2" "G-3" "G-4" "G-5" "G-6" "G-7" "G-8" "G-9" "G-10" "G-11" "G-12" "G-13" "G-14" "G-15" "G-16" "G-17" "G-18" "G-19" "G-20" "G-21" "G-22" "G-23" "G-24" "G-25" "G-26" 
+		"G-27" "G-28" "G-29" "G-30" "G-31" "G-32" "G-33" "G-34" "G-35" "G-36" "G-37" "G-38" "G-39" "G-40" "G-41" "G-42" "G-43" "G-44" "G-45" "G-46" "G-47" "G-48" "G-49" "G-50" "G-51" "G-52" 
+	}
+}

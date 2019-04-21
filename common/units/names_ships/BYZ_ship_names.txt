@@ -1,0 +1,156 @@
+﻿##### BYZANTINE COMMUNE NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+BYZ_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { BYZ }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "RNS "
+	fallback_name = "Destroyer %s"					
+
+	unique = {											
+		"Saint Kaisarios" "New Byzantium" "Senate" "Ovidia Galba" "Thessaly" "Melusine" "Edith" "Saint Greger" "Mad King of Venice" "Iouliana the Great" 
+		"Marble Empress" "Tiberius Gracchus" "Eris" "Te Kallisti" "Agnes Salian" "Thermopylae" "Manzikert" "Marathon" "Constantinople" "Europa Universalis" 
+		"Hiratine" "Justice Is Served" "Noor Sallajer's Revenge" "Great Britain" "Greek Fire" "Hippolyta" "Thrace Cement" "Ankara Coal" "Spirit of Ostia" 
+		"Oaxaca" "Azteca" "Apostle" "Minos" "Minotaur" "Bellerophon" "Pegasus" "Theseus" "Herakles" "Julian the Philosopher" "Trajan the Silent" 
+		"Alexios Komnenos" "Tiber" "Po" "Antioch" "Ravenna" "Empress Theonora" "Rinse Wind" "Ziegler" "Amari" "Alexandria" "Pharos" "Rhodes" "Crete" 
+		"Cyprus" "Tuscany" "Iliad" "Makedon" "Etruria" "Sabine" "Horatii" "Cincinnatus" "Cinna" "Brutus" "Cassius" "Camilla" "Diana" "Opis" "Aegean" 
+		"Golden Fleece" "Jason" "Old Rome" "Ostia" "Pompeii" "Belisarios" "Justinian" "Jerusalem" "Mecca" "Medina" "Alexiad" "Aurelian" "Castor" "Pollux" 
+		"Lalonde" "Vantas" "Strider" "Arsinoe" "Iothera" "Engels" "1702 Revolution" "1802 Revolution" "1883 Revolution" "Katsimiros" "Plapoutas" "Manos" 
+		"Othonaios" "Tavori" "Non-har'-min" "Mokoena" "Athens University" "Glasgow" "Titan" "Rouge" "Siege of Avalon's Neck" "Basotho" "Kenya" "Gaza" 
+		"Nikomedeia" "Izmit" "Izmir" "Gorz" "Sinope" "Illium" "Aeneiad" "Zenobia" "Cleopatra" "Ptolemy" "Thorn" "Defiant" "Hector" "Lyzander" "Cassandra" 
+		"Doge of Venice" "St. Mark" "St. Augustine" "Dervish" "Julia the Great" "Achilles" "Adrianople" "Thebes" "Corinth" "Steelworkers Syndicate" 
+		"Liberty" "Equality" "Victory" "Sorority" "Lesbos" "Agathon" "Valerii" "Thrace" "Philomon" "Christos Soter" "Enymion" "Ellade" "Gorgon" "Medusa" 
+		"Lexandaller" "Argos" "Luxor" "Ravanna" "Woo" "Omega" "Hydra" "Chimaera" "Nestor" "Misopogon" "Polis" "Syndicate" "Ekklesia" "Belgrade" "Maputo"
+		"Commonwealth" "Res Publica" "St. Constantine" "St. Cecilia" "Aurelian" "Battle of Odessa" "Port of Ostia"  "Spirit of '83" "Garbagetown"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+BYZ_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { BYZ }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "RNS "
+	fallback_name = "Light Cruiser %s"
+
+	unique = {
+		"Abydos" "Byblos" "Chalcedon" "Kebrene" "Carystus" "Delphi" "Demetrias" "Dion" "Gela" "Gortyn" "Milan" "Turin" "Bari" "Catania" 
+		"Brescia" "Hagia Triada" "Heliopolis" "Heraclea" "Kepoi" "Knossos" "Lamia" "Laodicea" "Verona" "Trieste" "Ancona" "Perugia" "Modena" 
+		"Arcadia" "Mesembria" "Caria" "Lycia" "Myrmekion" "Naxos" "Adana" "Konya" "Antalya" "Kayseri" "Samsun" "Gaziantep" "Neapolis" 
+		"Epirus" "Campania" "Apulia" "Nypmhaion" "Nysa" "Prusa" "Attica" "Elis" "Pagasae" "Pelion" "Achaea" "Patrai" "Piraeus" "Pergamum" 
+		"Philippi" "Pisa" "Foca" "Thessaly" "Calabria" "Salamis" "Samos" "Side" "Sidon" "Sinope" "Serres" "Smyrna" "Trapeze" "Triopolis" 
+		"Pirot" "Nis" "Novi Sad" "Sarajevo" "Tuzla" "Split" "Zagreb" "Rijeka"
+
+	}
+}
+
+### HEAVY CRUISER NAMES###
+BYZ_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { BYZ }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "RNS "
+	fallback_name = "Heavy Cruiser %s"
+
+	unique = {
+		"Colossus of Rhodes" "Revolution Square" "Union Tower" "Theodosian Greenbelt" "Bosphorus Chain" "Rosehouse Park" "Hagia Sophia" 
+		"Flavian Ampitheatre" "Sapountzakis Central Station" "Radziwill Palace" "Vatican Hill" "Pantheon" "House of the Golden Horn" 
+		"Parthenon" "Appian Way" "Temple of Artemis" "Athens Cement Factory" "Halicarnassus" "Hagia Irene" "Great Mosque of Ankara"
+		}
+}
+
+
+### BATTLESHIP NAMES ###
+BYZ_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { BYZ }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "RNS "
+	fallback_name = "Battleship %s"		
+
+	unique = {
+		"Nike" "Athena" "Hera" "Persephone" "Artemis" "Pallas" "Hestia" "Aphrodite" "Demeter" "Gaia" "Eos" "Hecate" "Selene" "Mnemosyne" "Phoebe" 
+		"Rhea" "Themis" "Leto" "Clotho" "Lachesis" "Atropos" "Tethys" "Rhea" "Eurbia" "Asteria" "Ganymede" "Eris" "Isis" "Calliope" "Clio" 
+		"Euterpe" "Melpomene" "Polyhymnia" "Terpischore" "Thalia" "Urania" "Aglaea" "Eurphorynse" "Thalia" "Thalassa" "Eurynome" "Metis" 
+		"Nemesis" "Alecto" "Tisphone" "Megaera" "Adikia" "Neith" "Ailuros"
+
+	}
+}
+
+### BATTLECRUISER NAMES ###
+BYZ_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { BYZ }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "RNS "
+	fallback_name = "Battlecruiser %s"		
+
+	unique = {
+		"Tribune" "Secretariat" "Constitution" "Archon" "Ekklesia" "Acropolis" "Revolution" "Democracy" "Freedom" 
+		"Liberator" "Republican" "Commune" "Four Freedoms" "Consul" "Congress" "Assembly" "Polis" "Union" "Athens University"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+BYZ_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { BYZ }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "RNS "
+	fallback_name = "Carrier %s"	
+
+	unique = {
+		"Gaius Gracchus" "Tiberius Gracchus" "Qiu Zhichao" "Noor Sallajer" "Athens Commune" "Evgenia Exteberria" 
+		"Ten Thousand Martyrs" "First International" "Reyhan Hamzaoglu" "Red Guard" "Combined Syndicates" 
+		"Kurt Muller" "Grand Secretariat" "Madame Hiratine" "Peasant's War" "Proletarian" "Krakatoa Sunset" 
+		"Owl of Athena" "Ziyi Demetriou" "Ryuzoji Nagahito" "Red Star" "Regicide" "Simeon Djordjic" "Julia Radziwill" 
+		"Liraz Tavori" "Minna Cyrahzax" "Mathias Sniperid" "Yuchun He" "Eskander Ansari" "Balboa" 
+	}
+}
+
+### SUBMARINES ###
+BYZ_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { BYZ }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "RNS "
+	fallback_name = "Submarine %s"
+	
+	unique = {
+		"Nereid" "Actaea" "Amatheia" "Amphinome" "Amphitoe" "Amphitrite" "Aspeudes" "Asia" "Autonoe" "Beroe" "Callianassa" "Callianeira" "Ceto" "Clio" 
+		"Clymene" "Cranto" "Creneis" "Cydippe" "Cymo" "Cymatolege" "Cymodoce" "Cymothoe" "Deiopea" "Dero" "Dione" "Doris" "Doto" "Drymo" "Dynamene" "Eione" 
+		"Ephyra" "Erato" "Euagore" "Euarne" "Eucrante" "Eudore" "Eulimene" "Eumolpe" "Eunice" "Eupompe" "Eurydice" "Galene" "Galatea" "Glauce" "Glauconome" 
+		"Halie" "Halimede" "Hippinoe" "Hippothoe" "Iaera" "Ianassa" "Iaeneira" "Ione" "Iphianassa" "Laomedeia" "Leiagore" "Leucothoe" "Ligea" "Limnoreia" 
+		"Lycorias" "Lysianassa" "Maera" "Melite" "Menippe" "Nausithoe" "Nemertes" "Neomeris" "Nerea" "Nesaea" "Neso" "Opis" "Oreithyia" "Panopea" "Panope" 
+		"Pasithea" "Pherusa" "Phyllodoce" "Plexaure" "Ploto" "Polynome" "Pontomedusa" "Pontoporeia" "Poulynoe" "Proto" "Protomedeia" "Psamathe" "Sao" "Speio" 
+		"Thaleia" "Themisto" "Thetis" "Thoe" "Xantho"
+	}
+}

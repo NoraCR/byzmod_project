@@ -1,0 +1,122 @@
+﻿##### IMPERIUM GALLIARUM NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+FRA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { FRA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = ""
+	fallback_name = "Contre-Torpilleur %s"					
+
+	unique = {											
+		"Saint Namatius" "Saint Nicetius" "Saint Palladius" "Saint Crispin" "Saint Pragmace" "Saint Quiteria" "Saint Remigius" "Saint Reticus" "Saint Reverianus" "Saint Felix" "Saint Fortunatus" "Saint Achillieus" "Pompeius Magnus" "Marcus Porcius Cato" "Marcus Porcius Cato Uticensis" "Marcus Tullius Cicero" "Romulus" "Numitor" "Publius Horatius" "Marcus Atilius Regulus" "Tiberius Sempronius Longus" "Gaius Terentius Varro" "Quintus Pedius" "Arius Didymus" "Gaius Cilnius Maecenas" "Marcus Claudius Marcellus" "Octavia Minor"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+FRA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { FRA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = ""
+	fallback_name = "Cruxator %s"
+
+	unique = {
+		"Sagittarius" "Scorpio" "Ballista" "Tribulus" "Catapulta" "Rostra" "Harpax" "Corvus" "Ignis Graecus" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+FRA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { FRA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = ""
+	fallback_name = "Cruxator %s"
+
+	unique = {
+		"Tunica" "Focale" "Balteus" "Cingulum" "Braccae" "Sagum" "Paenula" "Caligae" "Loculus" "Sarcina"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+FRA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { FRA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = ""
+	fallback_name = "Coriacea Magna %s"		
+
+	unique = {
+        "Saint Constantine" "Marcus Cassianius Latinius Postumus" "Julia Magna" "Saint Justinian" "Saint Caesarius Comnenus" 
+		"Alexius V" "Septimus Severus" "Aurelian" "Vespasian" "Titus" "Domitian" "Traianus Comnenus" "Henricus IV Salian" 
+		"Carolus Magnus" "Nerva" "Antoninus Pius" "Diocletian" "Constantius Chlorus" "Theodosius" "Majorian"
+      }
+}
+
+### BATTLECRUISER NAMES ###
+FRA_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { FRA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = ""
+	fallback_name = "Cruxator %s"		
+
+	unique = {
+		"Javelin" "Armatura" "Catafracta" "Ocrea" "Vericulum" "Lorica" "Hamata" "Lorica Segmentata" "Pteruges" "Squamta" "Galea" "Manica" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+FRA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { FRA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = ""
+	fallback_name = "Navis Aeroplanigera %s"	
+
+	unique = {
+		"Valeria Imperatrix" "Valeria the Martyr" "Valeria the Living Saint" "Valeria the Shadow" "Valeria the Apostle" "Valerie" "Valeria of the Thousand Faces" "Valeria"
+	}
+}
+
+### SUBMARINES ###
+FRA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { FRA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = ""
+	fallback_name = "Navis Submarina %s"
+	
+	unique = {
+			"Hassan-i Sabbah" "Mithridates" "Harmodius" "Aristogeiton" "Pausanias" "Gavrilo Princip" "Viator" "Ovida" "Ovidia Galba" "Glycerius" "Tunna" "Gomon" "Brodir" "Telemachus" "Tarquin" "Gaius Servilius Ahala" "Calippus" "Jugurtha" "Achillas" "Lucius Septimius" "Salvius" "Adra Mulissi" "Abd-al-Rahman ibn Muljam"
+		}
+}

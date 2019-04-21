@@ -1,0 +1,140 @@
+﻿##### GREAT MING NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+CHI_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { CHI }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "CNS "
+	fallback_name = "Quzujian %s"					
+
+	unique = {											
+		"Bailianjiao" "Han Shantong" "Liu Futong" "Han Lin'er" "Xu Shouhui" "Chen Youliang" "Lan Yu" "Ding Dexing" "Mu Ying" "Feng Sheng" "Hu Dahai" 
+		"Chang Yuchun" "Guo Zixing" "Hongjin Qiyi" "Zhu Sheng" "Jiao Yu" "Liu Bowen" "Mu Ying" "Quan Tang" "He Suonan"
+		"Xu Fu" "Zhu Yu" "Yuan Kang" "Li Fang" "Wu Zixu" "Li Quan" "Qi Jiguang" "Li Bao"
+		"Sun Wukong" "Xuanzang" "Zhu Bajie" "Zhang Jiao" "He Jin" "Jia Baoyu" "Lin Daiyu" "Xue Baochai" "Jia Yuanchun" 
+		"Jia Tanchun" "Shi Xingyun" "Gao Qiu" "Chao Gai" "Lin Chong" "Shi Jin" "Chao Gai" "Miaoyu" "Jia Yingchun" "Jia Xichun" "Liu Bei" "Guan Yu" "Zhang Fei" "Wu Song" "Lin Chong" "Lu Zhishen" "Cao Cao" "Zhuge Liang" "Wang Xifeng" "Jia Qiaojie" "Sha Wujing" "Li Wan" "Qin Keqing" "Jia She" "Wang Yun" "Lu Bu" "Zhang Xiu" "Yuan Shu" "Sun Ce" "Sun Quan" "Sun Jian" "Gongsun Zan" "Jia Lian" "Xiangling" "Xue Pan" "Ping'er" "Liu Laolao" "Wang Furen" "Xue Yima" "Hua Xiren" "Qingwen" "Yuanyang" "Mingyan" "Zijuan" "Xueyan" 
+		"Xiao" "Ao" "Bashe" "Fucanglong" "Xiangliu" "Yinglong" "Rui Shi" "Tianlong" "Pixiu" "Xiniu" "Jingwei" "Jian" 
+		"Genghuang" "Sanzuwu" "Qing Niao" "Jiufeng" "Zhen" "Taowu" "Hundun" "Qiongqi" "Zhayu" "Peng" "Bi Fang" "Fusang" "Bai Ze" 
+		"Qinlin" "Xiezhi" "Luduan" "Dilong" "Jialong" "Nian" "Jiuwei Hu" "Qilin" "Kui" "Jiangshi" "Yaoguai"
+		"Taishan" "Huashan" "Hengshan" "Songshan" "Wutaishan" "Emeishan" "Jihuashan" "Putuoshan" "Wudangshan" "Longhushan" "Qiyunshan" "Qingchengshan" "Kunlunshan"
+		"Changjiang" "Huanghe" "Zhujiang" "Lancangjiang" "Songhuajiang" "Zangbujiang" "Shiquanhe" "Nujiang" "Gangajiang" "Amuhe" "Tarimuhe"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+CHI_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { CHI }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "CNS "
+	fallback_name = "Qing Xunyangjian %s"
+
+	unique = {
+		"Suzhou" "Chonqging" "Dalian" "Qingdao" "Quanzhou" "Baoding" "Changsha" "Lanzhou" "Shenyang" "Hankou" "Hanyang" "Changchun" "Ningbo" "Zibo" "Hefei" 
+		"Changzhou" "Taizhou" "Taishan" "Nantong" "Nanning" "Huaian" "Xuzhou" "Linyi" "Anshan" "Huaibei" "Haikou" "Yiwu" "Baotou" "Liuzhou" "Anyang" "Yangzhou" 
+		"Huizhou" "Dongguan" "Wenzhou" "Anqing" "Jiujiang" "Qiqihar" "Dihua"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+CHI_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { CHI }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "CNS "
+	fallback_name = "Zhong Xunyangjian %s"
+
+	unique = {
+			"Shanghai" "Beijing" "Nanjing" "Fuzhou" "Guangzhou" "Guilin" "Guiyang" "Kaifeng" "Wuchang" "Nanchang" "Xian" "Jinan" "Taiyuan" 
+			"Chengdu" "Hangzhou" "Kunming" "Mangu" "Henei" "Chaigun" "Mandelei" "Kabuer" "Asitelahan" "Tashengan" "Bishenkaike" "Wanxiang" "Wuer" "Huangheshi"
+		}
+}
+
+
+### BATTLESHIP NAMES ###
+CHI_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { CHI }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "CNS "
+	fallback_name = "Zhanjian %s"		
+
+	unique = {
+		"Zhili" "Fujian" "Guangdong" "Guangxi" "Guizhou" "Henan" "Hubei" "Hebei" "Jiangxi" "Shaanxi" "Shandong" "Shanxi" 
+		"Sichuan" "Yunnan" "Zhejiang" "Taiwan" "Jilin" "Andong" "Gansu" "Hejiang" "Hexi" "Liaobei" "Liaoning" "Nenjiang" 
+		"Ningxia" "Chahar" "Songjiang" "Suiyuan" "Xingan" "Xinjiang" "Huainan" "Jingdong" "Jinghu" "Jingji" "Jingxi" 
+		"Kuizhou" "Liangzhe" "Lizhou" "Qinfeng" "Yonxingjun" "Zizhou"
+
+	}
+}
+
+### BATTLECRUISER NAMES ###
+CHI_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { CHI }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "CNS "
+	fallback_name = "Zhanlie Xunyangjian %s"		
+
+	unique = {
+		"Annan" "Jiaozhi" "Jianpuzhai" "Xianluo" "Gaomian" "Miandian" "Malai" "Aertai" "Xizang" "Qinghai" 
+		"Menggu" "Fengtian" "Heilongjiang" "Jilin" "Asitelahan" "Chechen" "Gelujiya" "Tang Gesake" "Kuban Gesake"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+CHI_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { CHI }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "CNS "
+	fallback_name = "Hangmu %s"	
+
+	unique = {
+		"Poyang Hu" "Caishi" "Tangdao" "Jingxing" "Weihu" "Gaixia" "Chibi" "Julu" "Fancheng" "Xiakou" "Xiapi" "Yushan"
+		"Zheng He" "Baochuan" "Ming Taizu" "Kaitian" "Xingdao" "Liji" "Dasheng" "Zhishen" "Renwen" "Junde" "Chenggong" "Shensheng" "Zhicheng" "Fatian"
+		"Zhang Zhulin" "Mu Dahai" "Song Xiexia" "Chen Xin" "Long Yibing" "Hu Minxia" "Zhang Li" "Pang Ye" "Zheng Hanbin" "Cao Liuxian" "Liu Kesan"
+	}
+}
+
+### SUBMARINES ###
+CHI_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { CHI }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "CNS "
+	fallback_name = "Qianting %s"
+	
+	unique = {
+		"Q1" "Q2" "Q3" "Q4" "Q5" "Q6" "Q7" "Q8" "Q9" "Q11" "Q12" "Q13" "Q14" "Q15" "Q16" "Q17" "Q18" "Q19" "Q20" "Q21" "Q22" "Q23" "Q24" "Q25" 
+		"Q26" "Q27" "Q28" "Q29" "Q30" "Q31" "Q32" "Q33" "Q34" "Q35" "Q36" "Q37" "Q38" "Q39" "Q40" "Q41" "Q42" "Q43" "Q44" "Q44" "Q45" "Q46" "Q47" "Q48" "Q49" "Q50"
+	}
+}

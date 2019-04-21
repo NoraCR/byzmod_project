@@ -324,9 +324,19 @@ create_navy_leader = {
 	attack_skill = 2
 	defense_skill = 2
 	maneuvering_skill = 3
-	coordination_skill = 3
+	coordination_skill = 2
 }
 
+create_navy_leader = {
+	name = "Nikolai Surkov"
+	portrait_path = "gfx/leaders/generic/adm_generic_europe_m1.png"
+	traits = { naval_lineage caustic_personality }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Submarines #

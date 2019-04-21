@@ -315,7 +315,7 @@ if = {
 		create_equipment_variant = {
 			name = "Januug Xaat'aay Class"
 			type = ship_hull_carrier_conversion_ca
-			name_group = HDA_CVL_HISTORICAL
+			name_group = HDA_CV_HISTORICAL
 			parent_version = 0
 			modules = {
 				fixed_ship_deck_slot_1 = ship_deck_space
@@ -328,7 +328,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Sgáanuwaa Class"
-			name_group = HDA_CVL_HISTORICAL
+			name_group = HDA_CV_HISTORICAL
 			type = ship_hull_carrier_conversion_ca
 			parent_version = 0
 			modules = {

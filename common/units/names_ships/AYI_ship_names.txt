@@ -1,0 +1,146 @@
+﻿##### AYITIAN COMMUNE NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+AYI_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { AYI }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "ACS "
+	fallback_name = "Destroyer %s"					
+
+	unique = {											
+		"Agueybana" "Manicatoex" "Hayuya" "Imotonex" "Habaguanex" "Guarionex" "Guaoconel" "Guarocuya" "Tinima" "Yuisa" "Biautex" "Arasibo" 
+		"Nibagua" "Mayobanex" "Ornofay" "Abama" "Iguanama" "Yelatzie" "Manica" "Abey" "Acanorex" "Nibagua"  "Orocobix" "Yacahuey" "Urayoan" 
+		"Tinima" "Amanex" "Aramana" "Arasibo" "Ayamuynex" "Maniabon" "Manicatoex" "Ayamon" "Ayraguay" "Bagnamanay" "Baguanao" "Imotonex" 
+		"Habaguanex" "Hatuey" "Bojekio" "Mayneri" "Maraguay" "Brizuela" "Yaureibo" "Majúbiatibirí" "Cacicana" "Yahima" 
+		"Cacimar" "Majagua" "Manatiguahuraguana" "Caguax" "Camaguebax" "Canimao" "Canobana" "Mabodomaca" "Mabey" "Loquillo" 
+		"Jumacao" "Jibacoa" "Jacaguax" "Inamoca" "Caonabo" "Caracamisa" "Casiguaya" "Cayacoa" "Comerio" "Cotubanama" 
+		"Daguao" "Guababo" "Guama" "Guaoconel" "Guaora" "Yuibo"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+AYI_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { AYI }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "ACS "
+	fallback_name = "Light Cruiser %s"
+
+	unique = {
+		"Nitaino" "Cueyba" "Camaguey" "Magua" "Baracoa" "Quisueya" "Agueybana" "Jatibonu" "Daguao" "Boriken" "Xaragua"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+AYI_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { AYI }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "ACS "
+	fallback_name = "Heavy Cruiser %s"
+
+	unique = {
+		"Jaragua" "Higuey" "Magua" "Guantanamo" "Habana" "Yucayeke" "Guabasa" "Cape Nitaino" "Albaamaha" "Cuyohaga" "Croatoan" "Manicato"
+	}
+}
+
+### MINELAYER NAMES###
+USA_MINELAYERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { AYI }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	
+	prefix = "ACS "							
+	fallback_name = "Minelayer CM-%d"
+
+	unique = {
+		# Older Minelayer Names
+		"Shawmut" "Pensacola" "Galena" "Marion" "Mohican" "Quinnebaug" "Swatara" "Chicago" "Tahoe" "Yosemite" "Tacoma"
+	}
+}
+
+### BATTLESHIP NAMES ###
+AYI_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { AYI }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "ACS "
+	fallback_name = "Battleship %s"		
+
+	unique = {
+		"Ao'n" "Cucubano" "Digo" "Guanajo" "Mabi" "Iguaca" "Iguana" "Caguama" "Carey" "Cocuyo" "Guama" "Jibiria" "Sarobey" "Yabisi" "Inriri" "Jaiba" "Jicotea" "Jujo" "Maja" "Manati" "Yaguas" "Yamuy" "Nigua" "Tiburon" "Coki" "Boba" "Dajao" "Cajaya" "Yabisi"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+AYI_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { AYI }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "ACS "
+	fallback_name = "Battlecruiser %s"		
+
+	unique = {
+		"Atlantic" "Pacific" "Indian" "Arctic" "Antarctic" "Gulf of Mexico" "Caribbean" "Narragansett" "Chesepiooc" "Campeche" "Persian" "Arabian" "Red" "Black"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+AYI_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { AYI }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "ACS "
+	fallback_name = "Carrier %s"	
+
+	unique = {
+		"Union Made" "Red Wave" "You Are The Water" "People's Ark" "Brave Tribune" "Oceanic Fortress" "All Power to the People" "Many Peoples Are One" "Solidarity" "Peacekeeper" "Liberation of Avalon" 
+		"Spirit of the Communes" "Public Good" "The Commons" "Reconciliation" "Workers United" "Internationale" "Freedom From Want"
+	}
+}
+
+### SUBMARINES ###
+AYI_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { AYI }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "ACS "
+	fallback_name = "Submarine %s"
+	
+	unique = {
+		"Spice Islands" "Bountiful Repast" "Unlucky Tide" "Adjective Noun" "Cacica of Ayiti" "Cacique" "Coabana" "Cubao" "Baracoa" "Bayamo" "Habana" "Mayabeqe" "Vaccinator" "Abama" 
+		"Anacaona" "Manica" "Hayuya" "Ayiti" "Cacica Anacaona" "Matazanas" "Atabeira" "Baira" "Bara" "Atey" "Cajaya" "Cano" "Caona" 
+		"Caribe" "Guanin" "Hadali" "Iti Itabo" "Jaiba" "Kairi" "Jucaro Karaya" "Oroco" "Taino" "Tiburon" "Tona" "Yauna"
+	}
+}

@@ -230,6 +230,17 @@ create_corps_commander = {
 	female = yes
 }
 
+create_corps_commander = {
+	name = "Kim Jae-hwa"
+	portrait_path = "gfx/leaders/generic/generic_mideast_m3.png"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
 create_navy_leader = {
 	name = "Seo Hyeon-tae"
 	portrait_path = "gfx/leaders/generic/generic_asia_m2.png"

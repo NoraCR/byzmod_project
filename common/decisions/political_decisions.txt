@@ -1911,13 +1911,17 @@ political_actions = {
 		icon = generic_research
 
         allowed = {
-            OR = {
-                original_tag = ENG
-                original_tag = AYI
-                original_tag = GER
-                original_tag = BYZ
-            }
-            NOT = { has_government = fascism }
+			AND = {
+				OR = {
+					original_tag = ENG
+					original_tag = AYI
+					original_tag = GER
+					original_tag = BYZ
+				}
+			}
+			AND = {
+				NOT = { has_government = fascism }
+			}
         }
         cost = 100
         fire_only_once = yes
