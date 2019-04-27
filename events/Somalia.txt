@@ -15,7 +15,7 @@ country_event = {
 	
 	trigger = {
 		date > 1937.2.13
-		country_exists = SOM
+		tag = SOM
 		country_exists = SYR
 		SOM = { has_war = no }
 		SYR = { has_war = no }
@@ -44,7 +44,7 @@ country_event = {
 	
 	trigger = {
 		date > 1936.6.10
-		country_exists = SOM
+		tag = SOM
 		NOT = { has_global_flag = som.2_fired }
 		SOM = { has_war = no }
 	}
@@ -71,7 +71,7 @@ country_event = {
 	
 	trigger = {
 		date > 1938.1.11
-		country_exists = SOM
+		tag = SOM
 		NOT = { has_global_flag = som.3_fired }
 		SOM = { has_war = no }
 	}

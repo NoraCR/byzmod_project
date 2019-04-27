@@ -458,9 +458,10 @@ country_event = {
 	
 	fire_only_once = yes
 	trigger = {
-		has_government = communism 
+		AYI = { has_government = communism }
 		tag = AYI
 		has_global_flag = byzmrt_unholy_alliance
+		is_in_faction_with = MRT
 	}
 	mean_time_to_happen = {
 		days = 3 
