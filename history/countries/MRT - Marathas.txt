@@ -115,8 +115,8 @@ create_country_leader = {
 	picture = "mrt_rishma_sharqi.tga"
 	expire = "1953.3.1"
 	ideology = stalinism
-	traits = 
-		cornered_fox
+	traits = {
+		sharqi_razor
 		sphinx_of_mumbai
 	}
 }
@@ -128,7 +128,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = fascism_ideology
 	traits = {
-		cornered_fox
+		sharqi_razor
 		sphinx_of_mumbai
 	}
 }
@@ -140,7 +140,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = socialism
 	traits = {
-		cornered_fox
+		sharqi_razor
 		sphinx_of_mumbai
 	}
 }
@@ -151,7 +151,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = shanghai_school_economics
 	traits = {
-		cornered_fox
+		sharqi_razor
 		sphinx_of_mumbai
 	}
 }
@@ -162,7 +162,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = despotism
 	traits = {
-		cornered_fox
+		sharqi_razor
 		sphinx_of_mumbai
 	}
 }

@@ -37,7 +37,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Juan Basilio Vanzin" 
-	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	desc = "POLITICS_JUAN_BASILIO_VANZIN_DESC"
 	picture = "Portrait_Venezuela_Elezar_Lopez_Contreras.dds"
 	expire = "1965.1.1"
 	ideology = marxism
@@ -48,7 +48,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Eleazar Vicente Ng" #nora's portrait goes here
-	desc = "POLITICS_JUAN_BAUTISTA_FUENMAYOR_DESC"
+	desc = "POLITICS_ELEAZAR_VICENTE_NG_DESC"
 	picture = "ven_dem_vicente_ng.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -58,7 +58,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Marelys Pellegrini-Hu" #female
-	desc = "POLITICS_JUAN_BAUTISTA_FUENMAYOR_DESC"
+	desc = "POLITICS_MARELYS_PELLEGRINI_HU_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = centrism
@@ -68,7 +68,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Grete Evenstad" #female
-	desc = "POLITICS_JUAN_BAUTISTA_FUENMAYOR_DESC"
+	desc = "POLITICS_GRETE_EVENSTAD_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = shanghai_school_economics
@@ -78,7 +78,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Julius Marcus Amengual"
-	desc = "POLITICS_JUAN_BAUTISTA_FUENMAYOR_DESC"
+	desc = "POLITICS_JULIUS_MARCUS_AMENGUAL_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = rexism

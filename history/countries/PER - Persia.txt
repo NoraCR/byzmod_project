@@ -152,6 +152,17 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 
+create_corps_commander = {
+	name = "Marzieh Taheri"
+	portrait_path = "gfx/leaders/generic/generic_mideast_f2.png"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	female = yes
+}
 ### VARIANTS ###
 # 1936 Start #
 if = {

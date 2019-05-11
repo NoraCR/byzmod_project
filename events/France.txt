@@ -277,10 +277,37 @@ country_event = {
 		SPR = { transfer_state = 167 }
 		168 = { add_core_of = SPR }
 		SPR = { transfer_state = 168 }
-		add_named_threat = { threat = 5 name = france.53.t }
+		add_named_threat = { threat = 8 name = france.53.t }
+		
 		news_event = { id = news.562 hours = 6 }
+		
+		hidden_effect = {
+			MOR = { country_event = { id = spain.54 hours = 6 } }
+		}
 	}
 }
 
+
+# Morocco Panics
+country_event = {
+	id = france.54
+	title = france.54.t
+	desc = france.54.d
+	picture = GFX_report_event_german_politician_speech
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = france.54.a
+		BYZ = {
+			country_event = { id = generic.2 hours = 24 }
+		}
+	}
+	
+	option = {
+		name = france.54.b
+	}
+}
 
 

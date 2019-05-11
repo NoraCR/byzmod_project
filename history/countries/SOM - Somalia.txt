@@ -247,6 +247,16 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
+	name = "Merxat Maimaiti" #Uyghur, male, Chinese attache
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	traits = { desert_fox career_officer }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
 	name = "Fadumma Farah Haid" #female
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 	traits = { politically_connected }

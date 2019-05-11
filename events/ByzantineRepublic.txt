@@ -494,6 +494,7 @@ country_event = {
 			ideology = stalinism
 			traits = {
 				witch_of_balboa
+				military_connections
 			}
 		}
 		hidden_effect = { news_event = { id = news.1001 hours = 48 }

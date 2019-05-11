@@ -35,8 +35,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Jamphel Yeshe Gyaltsen"
-	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	name = "Kundang Hutukthu Gyaltsen"
+	desc = "POLITICS_KUNDANG_HUTUKTHU_GYALTSEN_DESC"
 	picture = "Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
 	expire = "1965.1.1"
 	ideology = despotism
@@ -47,7 +47,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Tenzin Rangjung Kunchap"
-	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	desc = "POLITICS_TENZIN_RANGJUNG_KUNCHAP_DESC"
 	picture = "Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -58,7 +58,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Zheng De"
-	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	desc = "POLITICS_ZHENG_DE_GYALTSEN_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = shanghai_school_economics
@@ -69,7 +69,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Lobsang Chökyi Nyima"
-	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	desc = "POLITICS_LOBSANG_CHOKYI_NYIMA_DESC"
 	picture = "Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
 	expire = "1965.1.1"
 	ideology = rexism
