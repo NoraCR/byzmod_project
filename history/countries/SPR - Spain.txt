@@ -148,6 +148,40 @@ create_field_marshal = {
 	logistics_skill = 1
 }
 
+create_corps_commander = {
+	name = "Usebia B. Penyafort" #female
+	portrait_path = "gfx/leaders/generic/generic_europe_f2.png"
+	traits = { infantry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	female = yes
+}
+
+create_corps_commander = {
+	name = "Xicu Frances Ma" 
+	portrait_path = "gfx/leaders/generic/generic_mideast_m1.png"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Emiliano R. Ordóñez"
+	portrait_path = "gfx/leaders/generic/adm_generic_europe_m3.png"
+	traits = { blockade_runner superior_tactician }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
 ### Ship Variants ###
 
 ### VARIANTS ###

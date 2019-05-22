@@ -492,3 +492,17 @@ country_event = { #Byzzies hear concerns
 		name = byzmrt.11.a
 	}
 }
+
+country_event = { #Journalist dead
+	id = byzmrt.12 
+	title = byzmrt.12.t
+	desc = byzmrt.12.d
+	picture = GFX_report_event_generic_read_write
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = byzmrt.12.a
+	}
+}

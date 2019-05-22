@@ -163,6 +163,18 @@ create_corps_commander = {
 	logistics_skill = 1
 	female = yes
 }
+
+create_navy_leader = {
+	name = "Xiao Hua"
+	portrait_path = "gfx/leaders/generic/adm_generic_asia_f2.png"
+	traits = { bold }
+	skill = 2
+	female = yes
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
 ### VARIANTS ###
 # 1936 Start #
 if = {

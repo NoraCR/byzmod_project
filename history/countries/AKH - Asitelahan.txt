@@ -226,6 +226,16 @@ create_corps_commander = {
     planning_skill = 1
     logistics_skill = 1
 }
+create_corps_commander = {
+	name = "Tsogzolmaa Navaan-Unden"
+	portrait_path = "gfx/leaders/generic/generic_asia_f3.png"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}
 create_navy_leader = {
 	name = "Byambyn Jamsu"
 	portrait_path = "gfx/leaders/generic/adm_generic_asia_m2.png"

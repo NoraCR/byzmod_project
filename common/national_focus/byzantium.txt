@@ -2019,7 +2019,7 @@
 	focus = {
 		id = BYZ_a_new_generation
 		icon = GFX_focus_generic_military_mission
-		cost = 8.00
+		cost = 5.00
 		prerequisite = {
 			focus = BYZ_doctrinal_reforms
 		}
@@ -3515,6 +3515,9 @@
 		completion_reward = {
 			CHI = {
 				add_opinion_modifier = { target = BYZ modifier = pact_against_us }
+			}
+			hidden_effect = {
+				BYZ = { country_event = { id = byzmrt.12 } }
 			}
 		}
 	}
