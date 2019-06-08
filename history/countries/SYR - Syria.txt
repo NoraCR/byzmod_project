@@ -76,6 +76,14 @@ set_politics = {
 	elections_allowed = yes
 }
 
+set_popularities = {
+	fascism = 10
+	communism = 10
+	neutrality = 25
+	pangalism = 10
+	democratic = 45
+}
+
 create_country_leader = {
 	name = "Muhammad al-Wazir"
 	desc = "POLITICS_MUHAMMAD_AL_WAZIR_DESC"

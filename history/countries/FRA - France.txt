@@ -138,29 +138,18 @@ if = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 10
-		}
-
-		fascism = {
-			popularity = 80
-		}
-		
-		communism = {
-			popularity = 8
-		}
-		
-		pangalism = {
-			popularity = 2
-		}
-	}
-	
 	ruling_party = fascism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 80
+	communism = 8
+	neutrality = 0
+	pangalism = 2
+	democratic = 10
 }
 
 add_ideas = {

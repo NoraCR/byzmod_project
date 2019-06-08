@@ -76,32 +76,20 @@ if = {
 
 set_convoys = 75
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 45 #shared between all parties, should add to 100
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 55
-		}
-		neutrality = {
-			popularity = 0
-		}
-	}
-	
+set_politics = {	
 	ruling_party = communism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-
+set_popularities = {
+	fascism = 0
+	communism = 55
+	neutrality = 0
+	pangalism = 0
+	democratic = 45
+}
 
 add_ideas = {
 	MRT_the_marathan_tiger

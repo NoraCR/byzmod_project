@@ -88,30 +88,19 @@ if = {
 
 set_convoys = 400
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 45
-		}
-
-		fascism = {
-			popularity = 5
-		}
-		
-		communism = {
-			popularity = 50
-			#banned = no #default is no
-		}
-		pangalism = {
-			popularity = 0
-			}
-	}
-	
+set_politics = {	
 	ruling_party = communism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+	fascism = 5
+	communism = 50
+	neutrality = 0
+	pangalism = 0
+	democratic = 45
 }
 
 add_ideas = {

@@ -44,29 +44,18 @@ if = {
 set_convoys = 5
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 39
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 11
-			#banned = no #default is no
-		}
-		neutrality = {
-			popularity = 50
-		}
-	}
 	
 	ruling_party = neutrality
 	last_election = "1931.10.11"
 	election_frequency = 96
 	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 34
+	fascism = 15
+	communism = 11
+	neutrality = 40
 }
 
 create_country_leader = {

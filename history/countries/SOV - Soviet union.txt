@@ -77,26 +77,19 @@ set_convoys = 50
 set_stability = 0.35
 set_war_support = 0.3
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 20 #shared between all parties, should add to 100
-		}
-
-		fascism = {
-			popularity = 75
-		}
-		
-		communism = {
-			popularity = 5
-		}
-	}
-	
+set_politics = {	
 	ruling_party = fascism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 65
+	communism = 15
+	neutrality = 0
+	pangalism = 10
+	democratic = 10
 }
 
 

@@ -80,6 +80,14 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_popularities = {
+	fascism = 60
+	communism = 10
+	neutrality = 0
+	pangalism = 10
+	democratic = 20
+}
+
 set_convoys = 150
 set_stability = 0.5
 

@@ -57,25 +57,18 @@ if = {
 
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 25
-		}
-
-		fascism = {
-			popularity = 74
-		}
-		
-		communism = {
-			popularity = 1
-		}
-	}
-	
 	ruling_party = fascism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 74
+	communism = 1
+	neutrality = 0
+	pangalism = 0
+	democratic = 25
 }
 
 set_convoys = 500

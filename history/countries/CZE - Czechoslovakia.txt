@@ -26,33 +26,18 @@ add_ideas = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 20
-		}
-
-		fascism = {
-			popularity = 3
-		}
-		
-		communism = {
-			popularity = 1
-		}
-		
-		pangalism = { 
-			popularity = 1
-		}
-		
-		neutrality = {
-			popularity = 75
-		}
-	}
-	
 	ruling_party = neutrality
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 3
+	communism = 1
+	neutrality = 75
+	pangalism = 1
+	democratic = 20
 }
 
 create_country_leader = {

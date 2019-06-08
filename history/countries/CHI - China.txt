@@ -130,34 +130,18 @@ set_stability = 0.75
 set_war_support = 0.55
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 15
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 15
-			#banned = yes #default is no
-		}
-		
-		pangalism = { 
-			popularity = 80
-		}
-		
-		neutrality = { 
-			popularity = 0
-		}
-	}
-	
 	ruling_party = pangalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 0
+	communism = 15
+	neutrality = 0
+	pangalism = 70
+	democratic = 15
 }
 
 add_ideas = {

@@ -47,32 +47,12 @@ set_politics = {
 	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 84
-			}
-
-			fascism = {
-				popularity = 2
-			}
-			
-			communism = {
-				popularity = 2
-			}
-
-			neutrality = {
-				popularity = 12
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1936.10.19"
-		election_frequency = 36
-		elections_allowed = yes
-	}
+set_popularities = {
+	fascism = 98
+	communism = 1
+	neutrality = 0
+	pangalism = 0
+	democratic = 1
 }
 
 create_country_leader = {

@@ -8,29 +8,20 @@ set_technology = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-			banned = yes
-		}
-
-		fascism = {
-			popularity = 0
-			banned = yes
-		}
-		
-		communism = {
-			popularity = 100
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = communism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
+
+set_popularities = {
+	fascism = 33
+	communism = 33
+	neutrality = 0
+	pangalism = 1
+	democratic = 33
+}
+
 
 create_country_leader = {
 	name = "Bayanchur Sabir" #uyghur

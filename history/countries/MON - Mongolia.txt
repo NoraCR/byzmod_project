@@ -12,28 +12,18 @@ add_ideas = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-			banned = no
-		}
-
-		fascism = {
-			popularity = 0
-			banned = no
-		}
-		
-		communism = {
-			popularity = 100
-			#banned = no #default is no
-		}
-	}
-	
 	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+	fascism = 15
+	communism = 15
+	neutrality = 40
+	pangalism = 10
+	democratic = 30
 }
 
 create_country_leader = {
@@ -84,48 +74,5 @@ create_country_leader = {
 	ideology = fascism_ideology
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-
-	add_ideas = {
-	limited_conscription
-	}	
-
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-				banned = yes
-			}
-
-			fascism = {
-				popularity = 0
-				banned = yes
-			}
-			
-			communism = {
-				popularity = 100
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = communism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-		name = "Khorloogiin Choibalsan"
-		desc = "POLITICS_KHORLOOGIIN_CHOIBALSAN_DESC"
-		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-		expire = "1965.1.1"
-		ideology = stalinism
-		traits = {
-			#
-		}
 	}
 }

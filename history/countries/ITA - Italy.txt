@@ -74,31 +74,19 @@ set_convoys = 50
 set_stability = 0.6
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 20
-		}
-
-		fascism = {
-			popularity = 22
-		}
-		
-		communism = {
-			popularity = 56
-		}
-		pangalism = {
-			popularity = 2
-		}
-	}
-	
 	ruling_party = communism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 
-
+set_popularities = {
+	fascism = 22
+	communism = 56
+	neutrality = 0
+	pangalism = 2
+	democratic = 20
+}
 
 
 create_country_leader = {

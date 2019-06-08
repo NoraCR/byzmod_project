@@ -89,31 +89,19 @@ set_convoys = 95
 
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 22
-		}
-
-		fascism = {
-			popularity = 3
-		}
-		
-		communism = {
-			popularity = 75
-		}
-		
-		pangalism = {
-			popularity = 0
-		}
-	}
-	
 	ruling_party = communism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes 
 }
 
+set_popularities = {
+	fascism = 3
+	communism = 75
+	neutrality = 0
+	pangalism = 0
+	democratic = 22
+}
 
 create_country_leader = {
 	name = "Annan Akenten"

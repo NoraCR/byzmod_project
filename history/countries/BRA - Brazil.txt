@@ -48,29 +48,18 @@ if = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 75
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 25
-		}
-		
-		neutrality = { 
-			popularity = 0
-		}
-	}
-	
 	ruling_party = democratic
 	last_election = "1934.7.17"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+	fascism = 0
+	communism = 25
+	neutrality = 0
+	pangalism = 0
+	democratic = 75
 }
 
 create_country_leader = {

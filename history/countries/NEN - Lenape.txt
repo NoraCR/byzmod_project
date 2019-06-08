@@ -64,31 +64,19 @@ if = {
 set_convoys = 0
 
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 50
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 1
-			banned = yes
-		}
-		
-		pangalism = {
-			popularity = 49
-		}
-	}
-	
+set_politics = {	
 	ruling_party = pangalism
 	last_election = "1932.10.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
 	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 1
+	communism = 0
+	neutrality = 0
+	pangalism = 50
+	democratic = 49
 }
 
 add_ideas = {

@@ -10,27 +10,16 @@ set_technology = {
 
 set_convoys = 20
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 25
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 75
-			#banned = no #default is no
-		}
-	}
-	
+set_politics = {	
 	ruling_party = communism
 	last_election = "1932.6.5"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 25
+	communism = 75
 }
 
 create_country_leader = {

@@ -61,34 +61,27 @@ if = {
 		mtg_transport = 1
 	}	
 }
-set_convoys = 0
+
+set_convoys = 20
 
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 65
-		}
-
-		fascism = {
-			popularity = 10
-		}
-		
-		communism = {
-			popularity = 20
-			#banned = no #default is no
-		}
-	}
-	
+set_politics = {	
 	ruling_party = democratic
 	last_election = "1935.10.30"
 	election_frequency = 48  #but 4 years after this one in 1938.
 	elections_allowed = yes
 }
 
+set_popularities = {
+	fascism = 6
+	communism = 19
+	neutrality = 0
+	pangalism = 10
+	democratic = 65
+}
+
 create_country_leader = {
-	name = "Josefina Xian Lifu-Ocampo"
+	name = "Xian-Ocampo Josefina Liu"
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	expire = "1965.1.1"
@@ -109,7 +102,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Christofo Jia Qingquan"
+	name = "Jia Qingquan Christoforo"
 	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"

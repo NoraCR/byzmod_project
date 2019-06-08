@@ -98,25 +98,6 @@ set_stability = 0.5
 set_war_support = 0.5
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 80
-		}
-
-		fascism = {
-			popularity = 15
-		}
-		
-		communism = {
-			popularity = 5
-		}
-		
-		pangalism = {
-			popularity = 0
-		}
-	}
-	
 	ruling_party = democratic
 	last_election = "1933.3.5"
 	election_frequency = 48
@@ -124,7 +105,13 @@ set_politics = {
 
 }
 
-
+set_popularities = {
+	fascism = 25
+	communism = 15
+	neutrality = 0
+	pangalism = 0
+	democratic = 60
+}
 
 add_ideas = {
 	GER_weakening_democracy
@@ -184,31 +171,6 @@ create_country_leader = {
 	traits = {
 	}
 }
-
-#create_country_leader = {
-#	name = "Otto Wels"
-#	desc = "POLITICS_OTTO_WELS_DESC"
-#	picture = "Portrait_Germany_Adolf_Hitler.dds"
-#	expire = "1939.1.16"
-#	ideology = socialism
-#	traits = {
-#		exiled
-#		union_man
-#	}
-#}
-#
-#create_country_leader = {
-#	name = "Ernst Thälmann"
-#	desc = "POLITICS_ERNST_THALMANN_DESC"
-#	picture = "Portrait_Germany_Adolf_Hitler.dds"
-#	expire = "1956.1.1"
-#	ideology = stalinism
-#	traits = {
-#		assassination_survivor
-#		stalins_puppet
-#		political_prisoner
-#	}
-#}
 
 add_namespace = {
 	name = "ger_unit_leader"

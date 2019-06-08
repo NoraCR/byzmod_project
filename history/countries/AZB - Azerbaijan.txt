@@ -38,35 +38,16 @@ set_technology = {
 }
 
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 60
-		}
-
-		fascism = {
-			popularity = 0
-			banned = yes
-		}
-		
-		communism = {
-			popularity = 40
-		}
-		
-		neutrality = { 
-			popularity = 0
-		}
-		
-		pangalism = { 
-			popularity = 0
-		}
-	}
-	
+set_politics = {	
 	ruling_party = democratic
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 40
+	democratic = 60
 }
 
 set_convoys = 100

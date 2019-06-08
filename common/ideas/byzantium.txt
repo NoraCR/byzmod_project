@@ -819,7 +819,7 @@ ideas = {
 	
 		designer = yes
 		
-		skaramagas_naval_yards = {
+		mars_industries = {
 			
 			
 			allowed = {

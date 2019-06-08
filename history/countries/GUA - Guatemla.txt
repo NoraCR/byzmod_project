@@ -12,30 +12,18 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 30
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 70
-			#banned = no #default is no
-		}
-
-		neutrality = {
-			popularity = 0
-		}
-	}
-	
 	ruling_party = communism
 	last_election = "1931.2.8"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+	fascism = 0
+	communism = 70
+	neutrality = 0
+	pangalism = 0
+	democratic = 30
 }
 
 create_country_leader = {
@@ -68,34 +56,7 @@ create_country_leader = {
 		#
 	}
 }
-1939.1.1 = {
-	set_politics = {
 
-		parties = {
-			democratic = { 
-				popularity = 30
-			}
-
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-
-			neutrality = {
-				popularity = 70
-			}
-		}
-		
-		ruling_party = neutrality
-		last_election = "1931.2.8"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
 create_corps_commander = {
 	name = "K'ak'upakal K'awiil"
 	portrait_path = "gfx/leaders/generic/generic_avalon_f2.png"

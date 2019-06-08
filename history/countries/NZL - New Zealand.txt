@@ -62,6 +62,14 @@ set_politics = {
 	elections_allowed = yes
 }
 
+set_popularities = {
+	fascism = 0
+	communism = 0
+	neutrality = 0
+	pangalism = 0
+	democratic = 100
+}
+
 create_country_leader = {
 	name = "Tana Arepata" #maori, male
 	desc = "POLITICS_MICHAEL_JOSEPH_SAVAGE_DESC"

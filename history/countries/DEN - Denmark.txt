@@ -56,34 +56,19 @@ add_ideas = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 4
-		}
-
-		fascism = {
-			popularity = 44
-		}
-		
-		communism = {
-			popularity = 1
-		}
-		
-		neutrality = {
-			popularity = 50
-		}
-		pangalism = {
-			popularity = 1
-		}
-	}
-	
 	ruling_party = neutrality
 	last_election = "1935.10.22"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_popularities = {
+	fascism = 44
+	communism = 1
+	democratic = 4
+	neutrality = 50
+	pangalism = 1
+}
 
 set_convoys = 40
 

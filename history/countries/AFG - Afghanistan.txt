@@ -22,37 +22,20 @@ set_technology = {
 	radio = 1
 }
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 70
-		}
-
-		fascism = {
-			popularity = 2
-		}
-		
-		communism = {
-			popularity = 15
-			#banned = no #default is no
-		}
-
-		pangalism = {
-			popularity = 10
-		}
-		
-		neutrality = { 
-			popularity = 3
-		}
-	}
-	
+set_politics = {	
 	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
+set_popularities = {
+	fascism = 2
+	communism = 15
+	neutrality = 3
+	pangalism = 10
+	democratic = 70
+}
 
 create_country_leader = {
 	name = "Munir Akbar Ibrahimzai"

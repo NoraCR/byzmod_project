@@ -22,29 +22,18 @@ set_technology = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 45
-		}
-
-		fascism = {
-			popularity = 2
-		}
-		
-		communism = {
-			popularity = 52
-		}
-		
-		pangalism = {
-			popularity = 1
-		}
-	}
-	
 	ruling_party = communism
 	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 2
+	communism = 52
+	neutrality = 0
+	pangalism = 1
+	democratic = 45
 }
 
 create_country_leader = {

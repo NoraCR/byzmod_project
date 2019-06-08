@@ -63,33 +63,18 @@ add_ideas = {
 set_convoys = 100
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 18
-		}
-
-		fascism = {
-			popularity = 55
-		}
-		
-		communism = {
-			popularity = 2
-		}
-		
-		neutrality = { 
-			popularity = 20
-		}
-		
-		pangalism = { 
-			popularity = 5
-		}
-	}
-	
 	ruling_party = fascism
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 18
+	fascism = 55
+	neutrality = 20
+	pangalism = 5
+	communism = 2
 }
 
 create_country_leader = {

@@ -64,26 +64,16 @@ set_convoys = 250
 
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 80
-		}
-
-		pangalism = {
-			popularity = 10
-		}
-		
-		communism = {
-			popularity = 10
-			#banned = no #default is no
-		}
-	}
-	
 	ruling_party = democratic
 	last_election = "1935.9.15"
 	election_frequency = 72
 	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 60
+	pangalism = 20
+	communism = 20
 }
 
 create_country_leader = {

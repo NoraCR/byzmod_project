@@ -24,58 +24,20 @@ add_ideas = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 10
-		}
-
-		fascism = {
-			popularity = 10
-		}
-		
-		communism = {
-			popularity = 1
-		}
-
-		neutrality = {
-			popularity = 79
-		}
-	}
-	
 	ruling_party = neutrality
 	last_election = "1933.7.1"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 10
-			}
-
-			fascism = {
-				popularity = 10
-			}
-			
-			communism = {
-				popularity = 1
-			}
-
-			neutrality = {
-				popularity = 79
-			}
-		}
-		
-		ruling_party = neutrality
-		last_election = "1939.7.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
+set_popularities = {
+	fascism = 10
+	communism = 1
+	neutrality = 79
+	pangalism = 0
+	democratic = 10
 }
+
 create_country_leader = {
 	name = "Vilho Mäenpää"
 	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"

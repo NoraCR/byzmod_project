@@ -10,31 +10,20 @@ set_technology = {
 
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 15
-		}
-		
-		communism = {
-			popularity = 10
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 75
-		}
-	}
-	
 	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
+set_popularities = {
+	fascism = 2
+	communism = 3
+	neutrality = 65
+	pangalism = 25
+	democratic = 5
+}
+
 
 create_country_leader = {
 	name = "Mohammed Jahangir Shah"

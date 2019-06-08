@@ -113,35 +113,19 @@ set_convoys = 800
 set_stability = 0.8
 set_war_support = 0.25
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 25
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 75
-			#banned = no #default is no
-		}
-		
-		pangalism = {
-			popularity = 0
-		}
-		
-		neutrality = {
-			popularity = 0
-		}
-	}
-	
+set_politics = {	
 	ruling_party = communism
 	last_election = "1934.11.8"
 	election_frequency = 60
 	elections_allowed = yes
+}
+
+set_popularities = {
+	fascism = 0
+	communism = 75
+	neutrality = 0
+	pangalism = 0
+	democratic = 25
 }
 
 add_ideas = {

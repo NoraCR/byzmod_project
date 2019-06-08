@@ -52,26 +52,15 @@ if = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 25
-		}
-
-		fascism = {
-			popularity = 1
-		}
-		
-		communism = {
-			popularity = 75
-			#banned = no #default is no
-		}
-	}
-	
 	ruling_party = communism
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 75
+	democratic = 25
 }
 
 create_country_leader = {

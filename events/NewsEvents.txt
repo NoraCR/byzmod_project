@@ -2478,6 +2478,7 @@ news_event = {
 	
 	trigger = {
 		date > 1938.7.5
+		NOT = { has_global_flag = world_cup_ends }
 		country_exists = IRE
 		country_exists = BYZ
 		country_exists = MEX
