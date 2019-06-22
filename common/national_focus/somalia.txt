@@ -931,7 +931,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOM_zimbabwe_dispute
-		icon = GFX_focus_SAF_colonialist_crusade
+		icon = GFX_goal_generic_major_war
 		cost = 10.00
 		prerequisite = {
 			focus = SOM_libya
@@ -964,7 +964,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOM_end_conglomerates
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_focus_crush_capitalism
 		cost = 10.00
 		prerequisite = {
 			focus = SOM_hanti_wadaag
@@ -1253,7 +1253,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOM_liberate_zimbabwe
-		icon = GFX_focus_generic_support_the_left_right
+		icon = GFX_goal_generic_major_war
 		cost = 10.00
 		prerequisite = {
 			focus = SOM_free_africa
