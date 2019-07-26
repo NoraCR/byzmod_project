@@ -1581,5 +1581,37 @@ spriteTypes = {
 		name = "GFX_focus_hol_liberation"
 		texturefile = "gfx/interface/goals/focus_hol_liberation.dds"
 	}
+	
+	# Custom Icons (thanks Ofaloaf!) #
+	
+	SpriteType = { 
+		name = "GFX_focus_crush_capitalism"
+		texturefile = "gfx/interface/goals/focus_crush_capitalism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_romans"
+		texturefile = "gfx/interface/goals/focus_romans.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_revolutionaries"
+		texturefile = "gfx/interface/goals/focus_revolutionaries.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_industrial"
+		texturefile = "gfx/interface/goals/focus_industrial.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_parliaments"
+		texturefile = "gfx/interface/goals/focus_generic_parliaments.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_constitution"
+		texturefile = "gfx/interface/goals/focus_generic_constitution.dds"
+	}
 
 }
