@@ -185,10 +185,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9618;9620;impassable;-1;-1;-1;-1;-1;;Alps
 636;9620;impassable;-1;-1;-1;-1;-1;;Alps
 636;11604;impassable;-1;-1;-1;-1;-1;;Alps
-3657;671;impassable;-1;-1;-1;-1;-1;;Alps
-3657;6673;impassable;-1;-1;-1;-1;-1;;Alps
-9613;6673;impassable;-1;-1;-1;-1;-1;;Alps
-9613;11612;impassable;-1;-1;-1;-1;-1;;Alps
 9738;9745;impassable;-1;-1;-1;-1;-1;;Alps
 764;9738;impassable;-1;-1;-1;-1;-1;;Alps
 3764;9738;impassable;-1;-1;-1;-1;-1;;Alps
