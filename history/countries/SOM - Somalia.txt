@@ -186,6 +186,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
+	female = yes
 }
 
 create_corps_commander = {
@@ -221,7 +222,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Abdirashid Moalim Idiris"
+	name = "Haweya Moalim Idiris" #female
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 	traits = { politically_connected }
 	skill = 2
@@ -229,6 +230,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
+	female = yes
 }
 create_corps_commander = {
 	name = "Merxat Maimaiti" #Uyghur, male, Chinese attache
@@ -260,6 +262,7 @@ create_navy_leader = {
 	defense_skill = 4
 	maneuvering_skill = 5
 	coordination_skill = 4
+	female = yes
 }
 
 create_navy_leader = {
