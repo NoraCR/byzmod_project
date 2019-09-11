@@ -243,7 +243,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Fadumma Farah Haid" #female
+	name = "Samiira Isir Mareye" #female
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 	traits = { politically_connected }
 	skill = 2
@@ -254,7 +254,7 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Samiira Isir Mareye" #female
+	name = "Fadumma Farah Haid" #female
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	traits = { superior_tactician spotter battleship_adherent }
 	skill = 5
