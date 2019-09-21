@@ -168,7 +168,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Cumar Cabdullahi Ugas"
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	picture = "som_marshal_cumar_cabdullahi_ugas.png"
 	traits = { defensive_doctrine old_guard trait_cautious }
 	skill = 3
 	attack_skill = 2
@@ -179,7 +179,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Khadiijo Maxamed Qambi" #female
-	portrait_path = "som_marshal_cumar_cabdullahi_ugas.png"
+	picture = "som_general_khadiijo_maxamed_qambi.png"
 	traits = {  old_guard }
 	skill = 2
 	attack_skill = 2
@@ -191,7 +191,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Berehanu Gedeyon" #Ethiopian
-	portrait_path = "som_general_berehanu_gedeyon.png"
+	picture = "som_general_berehanu_gedeyon.png"
 	traits = { armor_officer war_hero }
 	skill = 5
 	attack_skill = 5
@@ -202,7 +202,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Hufane Huruuse Mursal"
-	portrait_path = "som_general_hufane_huruuse_mursal.png"
+	picture = "som_general_hufane_huruuse_mursal.png"
 	traits = { career_officer }
 	skill = 2
 	attack_skill = 2
@@ -213,7 +213,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Caaqil Maxamuud Naaleeye"
-	portrait_path = "som_general_maxamuud_naaleeye.png"
+	picture = "som_general_maxamuud_naaleeye.png"
 	traits = { politically_connected trait_cautious }
 	skill = 3
 	attack_skill = 3
@@ -223,7 +223,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Haweya Moalim Idiris" #female
-	portrait_path = "som_general_haweya_moalim_idiris.png"
+	picture = "som_general_haweya_moalim_idiris.png"
 	traits = { politically_connected }
 	skill = 2
 	attack_skill = 2
@@ -234,7 +234,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Merxat Maimaiti" #Uyghur, male, Chinese attache
-	portrait_path = "som_general_merxat_maimaiti.png"
+	picture = "som_general_merxat_maimaiti.png"
 	traits = { desert_fox career_officer }
 	skill = 3
 	attack_skill = 4
@@ -244,7 +244,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Samiira Isir Mareye" #female
-	portrait_path = "som_general_samiira_isir_mareye.png"
+	picture = "som_general_samiira_isir_mareye.png"
 	traits = { politically_connected }
 	skill = 2
 	attack_skill = 3
@@ -255,7 +255,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Fadumma Farah Haid" #female
-	portrait_path = "som_admiral_fadumma_farah_haid.png"
+	picture = "som_admiral_fadumma_farah_haid.png"
 	traits = { superior_tactician spotter battleship_adherent }
 	skill = 5
 	attack_skill = 5
@@ -267,7 +267,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Abdirahman Hirsi Jama"
-	portrait_path = "som_admiral_adbirahman_hirsi_jama.png"
+	picture = "som_admiral_adbirahman_hirsi_jama.png"
 	traits = { ironside gunnery_expert }
 	skill = 4
 	attack_skill = 4
@@ -278,7 +278,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Asha-Kos Hussein Haji Abdi"
-	portrait_path = "som_admiral_asha-kos_hussein_haji_adbi.png"
+	picture = "som_admiral_asha-kos_hussein_haji_adbi.png"
 	traits = { bold navy_career_officer }
 	skill = 4
 	attack_skill = 3
@@ -290,7 +290,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Cabdullahi Osoble Tahir"
-	portrait_path = "som_admiral_cabdulahi_osoble_tahir.png"
+	picture = "som_admiral_cabdulahi_osoble_tahir.png"
 	traits = { superior_tactician aviation_enthusiast }
 	skill = 3
 	attack_skill = 2
@@ -301,7 +301,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Athouman Qureshi" #Egyptian
-	portrait_path = "som_admiral_athouman_qureshi.png"
+	picture = "som_admiral_athouman_qureshi.png"
 	traits = { superior_tactician spotter gentlemanly }
 	skill = 3
 	attack_skill = 3
