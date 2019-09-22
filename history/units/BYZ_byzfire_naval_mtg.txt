@@ -1,27 +1,216 @@
-﻿######## BYZANTINE NAVY ########
+####### BYZANTINE NAVY, MTG, REVISED #######
+# (This isn't really a massive change in forces, just changing the fleets around for conveniences' sake. Thanks to Zanni for the suggestions!) #
 
 units = {
+##### MEDITERRANEAN FLEET - OSTIA/SICILY/ATHENS #####
 
-	##### NAVAL UNITS #####
-	##### OSTIA HOME FLEET #####
-	### BATTLE FLEET ###
+#### FLEET 1 - STRIKE FORCE 1 ####
 	fleet = {					
-		name = "Ostia Home Fleet"				
+		name = "1st Fleet - Ostia"				
 		naval_base = 819 #Ostia
+		
+### TASK FORCE 10 - STRIKE GROUP ###
 		task_force = {
-			name = "Battleships, Main Battle Force"
+			name = "Task Force 10 - Strike Group"
 			location = 819
 			ship = { name = "RNS Monte Rosa" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 			ship = { name = "RNS Olympus" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 			ship = { name = "RNS Smolikas" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
+			ship = { name = "RNS Constitution" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }
+			ship = { name = "RNS People's Mandate" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }
+			ship = { name = "RNS Tribunal" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }
+			ship = { name = "RNS Kyzikos" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Smyrna" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Naples" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Odysseia" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Penelope" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Bellerophon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Theseus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Hippolyta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Manto Hira" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Minna Cyrahzax" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Helladid" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+		}
+		
+### TASK FORCE 11 - STRIKE GROUP ###
+		task_force = {
+			name = "Task Force 11 - Strike Group"
+			location = 819
 			ship = { name = "RNS Kaimaktsalan" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
 			ship = { name = "RNS Ararat" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
 			ship = { name = "RNS Ayiti" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Avalon Class" } } }
-			ship = { name = "RNS Avalon" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Avalon Class" } } }
+			ship = { name = "RNS Parthenon" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }
+			ship = { name = "RNS Hypatia" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
+			ship = { name = "RNS Thucydides" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
+			ship = { name = "RNS Athens" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }				
+			ship = { name = "RNS Ankara" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }				
+			ship = { name = "RNS Florence" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }							
+			ship = { name = "RNS Argosy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Trireme" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Coracle" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Dromon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }				
+			ship = { name = "RNS Chelandion" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Galea" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Ousiakon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Pamphylon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
 		}
+		
+### TASK FORCE 12 - STRIKE GROUP ###
 		task_force = {
-			name = "Carriers, Battle Force"
+			name = "Task Force 12 - Strike Group"
 			location = 819
+			ship = { name = "RNS Avalon" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Avalon Class" } } }
+			ship = { name = "RNS Drymonakos" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+			ship = { name = "RNS Cavinato" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
+			ship = { name = "RNS Milenov" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }							
+			ship = { name = "RNS Radziwill" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
+			ship = { name = "RNS Agamemnon" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }
+			ship = { name = "RNS Pythagoras" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }	
+			ship = { name = "RNS Sofia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Dublin" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Galway" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Cyrahzax" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Qutuzid" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Hira" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS De Bassot" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }				
+			ship = { name = "RNS Suzuki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Oironaikos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Peneid" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Mars" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }				
+		}
+### TASK FORCE 13 - STRIKE GROUP ###
+		task_force = {
+			name = "Task Force 13 - Strike Group"
+			location = 819
+			ship = { name = "RNS Athos" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+			ship = { name = "RNS Etna" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+			ship = { name = "RNS Helicon" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
+			ship = { name = "RNS Radomir" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
+			ship = { name = "RNS Dinara" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }	
+			ship = { name = "RNS Socrates" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
+			ship = { name = "RNS Aristotle" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
+			ship = { name = "RNS Plato" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }	
+			ship = { name = "RNS Venice" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Scutari Class" } } }				
+			ship = { name = "RNS Sparta" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Scutari Class" } } }				
+			ship = { name = "RNS Ferrara" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Scutari Class" } } }	
+			ship = { name = "RNS Gumulcineli" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Sharif" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Argyrus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Melisurgos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Akropolites" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }				
+			ship = { name = "RNS Choumnos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Sarafis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Pytheid" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+		}
+	}
+#### FLEET 1 - PATROL GROUP 1 ####
+	fleet = {					
+		name = "1st Fleet - Patrol Group Sicily"				
+		naval_base = 4159
+### TASK FORCE 14 - PATROL SQUADRON ###
+		task_force = {
+			name = "Task Force 14 - Patrol Squadron"
+			location = 4159 #Sicily
+			ship = { name = "RNS Orbetello" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Ragusa" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Verona" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Kolokotronis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }					
+			ship = { name = "RNS Danglis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Metaxas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Tsolakoglou" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Palaskas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Othonaios" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }					
+			ship = { name = "RNS Osmond Ingram" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Katsimiros" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+		}
+### TASK FORCE 15 - PATROL SQUADRON ###
+		task_force = {
+			name = "Task Force 15 - Patrol Squadron"
+			location = 4159 #Sicily
+			ship = { name = "RNS Thessalonika" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }				
+			ship = { name = "RNS Phangoria" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Larissa" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Zoe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Theodora" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Chariot" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Cincinnatus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Green" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Republic" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Victoria" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Sappho" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+		}
+### TASK FORCE 16 - PATROL SQUADRON ###
+		task_force = {
+			name = "Task Force 16 - Patrol Squadron"
+			location = 4159 # Sicily
+			ship = { name = "RNS Siena" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
+			ship = { name = "RNS Reggio di Calabria" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
+			ship = { name = "RNS Napflion" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
+			ship = { name = "RNS Gianopoulou" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Papadiamantopoulos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }				
+			ship = { name = "RNS Charalambis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Gonatas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Dousmanis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Foumis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Spyromilios" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }				
+			ship = { name = "RNS Staikopoulos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }
+		}
+	}
+#### FLEET 1 - PATROL GROUP 2 ####
+	fleet = {					
+		name = "1st Fleet - Patrol Group Smyrna"				
+		naval_base = 4112
+### TASK FORCE 17 - PATROL SQUADRON ###
+		task_force = {
+			name = "Task Force 17 - Patrol Squadron"
+			location = 4112 #Smyrna
+			ship = { name = "RNS Kalamata" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Halikarnas" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
+			ship = { name = "RNS Venizelos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Zymvrakakis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Voulgaris" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }					
+			ship = { name = "RNS Vantas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Xena" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Maryam" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Serket" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+		}
+### TASK FORCE 18 - PATROL SQUADRON ###
+		task_force = {
+			name = "Task Force 18 - Patrol Squadron"
+			location = 4112 #Smyrna
+			ship = { name = "RNS Ostia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Bayram" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Civan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Rumi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Kara" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Ishak" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }					
+			ship = { name = "RNS Damad" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Lefkeli" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Piyale" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }	
+		}
+### TASK FORCE 19 - PATROL SQUADRON ###
+		task_force = {
+			name = "Task Force 19 - Patrol Squadron"
+			location = 4112 #Smyrna
+			ship = { name = "RNS Trabzon" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Anfora" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Caraga" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Bonaccorsi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Lombardo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Orsini" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }			
+			ship = { name = "RNS Gravina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Ferrari" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Zunica" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+		}
+	}
+#### FLEET 2 - CARRIER GROUP 1 ####
+	fleet = {					
+		name = "2nd Fleet - Carrier Group Athens"				
+		naval_base = 4109
+### TASK FORCE 20 - CARRIER DETACHMENT ###
+		task_force = {
+			name = "Task Force 20 - Carrier Detachment"
+			location = 4109 #Athens
 			ship = { name = "RNS Qiu Zhichao" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = BYZ version_name = "Qiu Zhichao Class" } } 
 				air_wings = {
 					cv_fighter_equipment_0 =  { owner = "BYZ" amount = 8 } # historical: 36
@@ -36,66 +225,25 @@ units = {
 					cv_nav_bomber_equipment_1 =  { owner = "BYZ" amount = 8 } # historical: 12
 				}
 			}
+			ship = { name = "RNS Diogenes" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
+			ship = { name = "RNS Seneca" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
+			ship = { name = "RNS Pericles" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
+			ship = { name = "RNS Tulcea" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Craiova" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
+			ship = { name = "RNS Ploesti" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
+			ship = { name = "RNS Hadjiev" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Gazi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Said" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Marcello" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Celebi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }					
+			ship = { name = "RNS Anatolike" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Cimsir" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Habsburg" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
 		}
+### TASK FORCE 21 - CARRIER DETACHMENT ###
 		task_force = {
-			name = "Cruisers, Battle Force"
-			location = 819
-			ship = { name = "RNS Constitution" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }
-			ship = { name = "RNS People's Mandate" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }
-			ship = { name = "RNS Tribunal" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }
-			ship = { name = "RNS Parthenon" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }
-			ship = { name = "RNS Ostia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
-			ship = { name = "RNS Kyzikos" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
-			ship = { name = "RNS Smyrna" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
-			ship = { name = "RNS Naples" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
-		}
-		task_force = {
-			name = "Destroyers, Battle Force"
-			location = 819		
-			ship = { name = "RNS Odysseia" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Penelope" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Bellerophon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Theseus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Hippolyta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Manto Hira" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Minna Cyrahzax" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Helladid" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Zoe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Theodora" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Chariot" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Cincinnatus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Green" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Republic" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Victoria" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Sappho" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Achilles" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Troy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-		}
-		### ANCILLARY FLEETS ###
-		task_force = {					
-			name = "Battleship Division 1"				
-			location = 819 # Ostia
-			ship = { name = "RNS Drymonakos" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-			ship = { name = "RNS Cavinato" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-			ship = { name = "RNS Milenov" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-		}		
-		task_force = {					
-			name = "Battleship Division 2"				
-			location = 819 # Ostia
-			ship = { name = "RNS Gracchus" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-			ship = { name = "RNS Krakatoa" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-			ship = { name = "RNS Vesuvius" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-		}		
-		task_force = {					
-			name = "Battleship Division 4"				
-			location = 819 # Ostia
-			ship = { name = "RNS Matterhorn" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-			ship = { name = "RNS Shkhara" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-			ship = { name = "RNS Corno Grande" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-		}
-		task_force = {					
-			name = "Carrier Division"				
-			location = 819 # Ostia
+			name = "Task Force 21 - Carrier Detachment"
+			location = 4109 #Athens
 			ship = { name = "RNS Hyacinth" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = BYZ version_name = "Hyacinth Class" } }
 				air_wings = {
 					cv_fighter_equipment_0 =  { owner = "BYZ" amount = 16 } # historical: 16
@@ -110,165 +258,64 @@ units = {
 					cv_nav_bomber_equipment_1 =  { owner = "BYZ" amount = 12 } # historical: 12
 				}
 			}
-		}
-		task_force = {					
-			name = "Cruiser Division 3"				
-			location = 819 # Ostia
-			ship = { name = "RNS Athens" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }				
-			ship = { name = "RNS Ankara" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }				
-			ship = { name = "RNS Florence" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }				
-		}					
-		task_force = {					
-			name = "Cruiser Division 4"				
-			location = 819 # Ostia
-			ship = { name = "RNS Hypatia" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
-			ship = { name = "RNS Thucydides" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
-			ship = { name = "RNS Pythagoras" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
-			ship = { name = "RNS Diogenes" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
-		}					
-		task_force = {					
-			name = "Cruiser Division 5"				
-			location = 819 # Ostia
-			ship = { name = "RNS Socrates" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
-			ship = { name = "RNS Aristotle" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
-			ship = { name = "RNS Plato" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }					
-			ship = { name = "RNS Seneca" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
-		}					
-		task_force = {					
-			name = "Cruiser Division 6"				
-			location = 819 # Ostia
-			ship = { name = "RNS Pericles" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
 			ship = { name = "RNS Antisthenes" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
 			ship = { name = "RNS Cleisthenes" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
-			ship = { name = "RNS Demosthenes" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
-		}					
-		task_force = {					
-			name = "Destroyer Flotilla 1"				
-			location = 819 # Ostia
-			ship = { name = "RNS Sofia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
-			ship = { name = "RNS Dublin" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
-			ship = { name = "RNS Galway" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
-			# 1st Destroyer Division				
-			ship = { name = "RNS Argosy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Trireme" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Coracle" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Dromon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			# 2nd Destroyer Division				
-			ship = { name = "RNS Chelandion" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Galea" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Ousiakon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			ship = { name = "RNS Pamphylon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
-			# 34th Destroyer Division			
-			ship = { name = "RNS Cyrahzax" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Qutuzid" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Hira" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS De Bassot" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			# 35th Destroyer Division			
-			ship = { name = "RNS Suzuki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Oironaikos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Peneid" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Mars" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Hadjiapostolou" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-		}				
-		task_force = {					
-			name = "Destroyer Flotilla  5"				
-			location = 819 # Ostia
-			ship = { name = "RNS Thessalonika" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }				
-			# 15th Destroyer Division				
+			ship = { name = "RNS Demosthenes" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }
+			ship = { name = "RNS Samsun" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
+			ship = { name = "RNS Mersin" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
 			ship = { name = "RNS Kalonimos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Orczy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Palerma" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Bold" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Seyul" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			# 16th Destroyer Division				
+			ship = { name = "RNS Orczy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }						
 			ship = { name = "RNS Gobroon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }	
 			ship = { name = "RNS Liraz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
 			ship = { name = "RNS Uzun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Ratoslav" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			# 32nd Destroyer Division				
-			ship = { name = "RNS Humphreys" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Vasiliou" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Karvikos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Herner" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			# 33rd Destroyer Division				
-			ship = { name = "RNS Carsfield" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Altunekin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Sniperid" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Osman" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-		}					
-		task_force = {					
-			name = "4th Submarine Squadron"				
-			location = 819 # Ostia
-			# 41st Submarine Division				
+		}
+	}
+#### FLEET 3 - SUBMARINE FORCE 1 ####
+	fleet = {					
+		name = "3rd Fleet - Submarine Force Taranto"				
+		naval_base = 11837
+### TASK FORCE 22 - SUBMARINE FLOTILLA ###
+		task_force = {
+			name = "Task Force 22 - Submarine Flotilla"
+			location = 11837 #Taranto
 			ship = { name = "RNS Durandal" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
 			ship = { name = "RNS Cortana" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
 			ship = { name = "RNS Excalibur" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
 			ship = { name = "RNS Balmung" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
 			ship = { name = "RNS Galatine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
-			ship = { name = "RNS Harpe" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
-			# 42nd Submarine Division				
+			ship = { name = "RNS Harpe" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }			
 			ship = { name = "RNS Alcinoe" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Byzia" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Daphne" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Memphis" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Arethusa" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Diopatre" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			# 43rd Submarine Division				
+			ship = { name = "RNS Diopatre" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }			
 			ship = { name = "RNS Caliadne" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Anthedon" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Moria" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-		}					
-		task_force = {					
-			name = "6th Submarine Squadron"				
-			location = 819 # Ostia
-			# 61st Submarine Division				
+		}
+### TASK FORCE 23 - SUBMARINE FLOTILLA ###
+		task_force = {
+			name = "Task Force 23 - Submarine Flotilla"
+			location = 11837 #Taranto
 			ship = { name = "RNS Kusanagi No Tsurugi" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
 			ship = { name = "RNS Sword of Damocles" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
 			ship = { name = "RNS Houken" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
 			ship = { name = "RNS Joyeuse" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
 			ship = { name = "RNS Hauteclere" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
 			ship = { name = "RNS Tyrfing" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
-			ship = { name = "RNS Coreiseuse" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
-			# 62nd Submarine Division				
+			ship = { name = "RNS Coreiseuse" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }			
 			ship = { name = "RNS Hrunting" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Caledfylch" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Dyrnwyn" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Kladenets" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Jokulsnaut" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Mmaagha Kamalu" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } } # 
-		}			
-	}
-	
-	### ATLANTIC FLEET -- GIBRALTAR ###	
-	fleet = {					
-		name = "Atlantic Scout Fleet"	
-		naval_base = 4135
-		task_force = {					
-			name = "Scout Fleet"				
-			location = 4135 # Gibraltar
-			ship = { name = "RNS Kubrat" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }				
-			ship = { name = "RNS Phangoria" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
-			# 23rd Destroyer Division				
-			ship = { name = "RNS Hadjiev" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Gazi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Said" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Marcello" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Celebi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			# 24th Destroyer Division				
-			ship = { name = "RNS Anatolike" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Cimsir" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Habsburg" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Griffith" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			# 25th Destroyer Division				
-			ship = { name = "RNS Qiu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Vittorio" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Sapountzakis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Spyropoulos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-		}					
-		task_force = {					
-			name = "2nd Submarine Squadron"				
-			location = 4135 # Gibraltar
-			# 21st Submarine Division				
+		}
+### TASK FORCE 24 - SUBMARINE FLOTILLA ###
+		task_force = {
+			name = "Task Force 24 - Submarine Flotilla"
+			location = 11837 #Taranto
 			ship = { name = "RNS Tizona" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
 			ship = { name = "RNS Asi" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
 			ship = { name = "RNS Cura Si Manjakini" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
@@ -282,68 +329,105 @@ units = {
 			ship = { name = "RNS Totsuga No Tsurugi" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
 			ship = { name = "RNS Zulfiqar" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
 			ship = { name = "RNS Almace" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
-		}					
+		}
 	}
-	### ATLANTIC MAIN FLEET -- Gibraltar ###
-	fleet = {
-		name = "Atlantic Main Fleet"
+##### ATLANTIC FLEET - GIBRALTAR/GREAT BRITAIN #####
+
+#### FLEET 4 - STRIKE FORCE 2 ####
+	fleet = {					
+		name = "4th Fleet"				
 		naval_base = 4135
-		task_force = {					
-		name = "Battleship Division 3"				
-			location = 4135 # Gibraltar
-			ship = { name = "RNS Athos" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-			ship = { name = "RNS Etna" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
-			ship = { name = "RNS Helicon" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
-			ship = { name = "RNS Radomir" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
-			ship = { name = "RNS Dinara" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }	
-		}					
-		task_force = {					
-			name = "Battleship Division 5"				
-			location = 4135 # Gibraltar
+### TASK FORCE 40 - STRIKE GROUP ###
+		task_force = {
+			name = "Task Force 40 - Gibraltar Strike Force"
+			location = 4135 #Gibraltar
+			ship = { name = "RNS Gracchus" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+			ship = { name = "RNS Krakatoa" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+			ship = { name = "RNS Vesuvius" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
+			ship = { name = "RNS Democratic League" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }
+			ship = { name = "RNS Citizen" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }
+			ship = { name = "RNS United Front" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }
+			ship = { name = "RNS Trapani" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
+			ship = { name = "RNS Brindisi" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
+			ship = { name = "RNS Pola" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
+			ship = { name = "RNS Palerma" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Bold" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
+			ship = { name = "RNS Seyul" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Semiz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }				
+			ship = { name = "RNS Acton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS di Robilant" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Pianelli" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Zupelli" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Vaccari" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+		}
+		task_force = {
+			name = "Task Force 41 - Strike Group"
+			location = 819
 			ship = { name = "RNS Byzantion" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 			ship = { name = "RNS Thrace" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 			ship = { name = "RNS Trebizond" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
 			ship = { name = "RNS Latium" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }	
 			ship = { name = "RNS Pelopennese" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }	
-			ship = { name = "RNS Macedon" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }	
-		}					
-		task_force = {					
-			name = "Cruiser Division 2"				
-			location = 4135 # Gibraltar
-			ship = { name = "RNS Venice" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Scutari Class" } } }				
-			ship = { name = "RNS Sparta" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Scutari Class" } } }				
-			ship = { name = "RNS Ferrara" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Scutari Class" } } }				
-			ship = { name = "RNS Orbetello" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
-			ship = { name = "RNS Ragusa" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
-			ship = { name = "RNS Verona" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
-			ship = { name = "RNS Larissa" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
-			ship = { name = "RNS Kalamata" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }
-		}					
-		task_force = {					
-			name = "Cruiser Division 7"	#Minelayers			
-			location = 4135 # Gibraltar
-			ship = { name = "RNS Radziwill" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
-			ship = { name = "RNS Agamemnon" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }
-			ship = { name = "RNS Siena" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
-			ship = { name = "RNS Reggio di Calabria" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
-			ship = { name = "RNS Napflion" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
-			ship = { name = "RNS Halikarnas" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
-			ship = { name = "RNS Samsun" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Orbetello Class" } } }
-		}					
-		task_force = {					
-			name = "RNS Karl Marx"				
-			location = 4135 # Gibraltar
-			ship = { name = "RNS Karl Marx" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = BYZ version_name = "Karl Marx Class" } } 
-				air_wings = {
-					cv_fighter_equipment_0 =  { owner = "BYZ" amount = 8 } # historical: 36
-					cv_CAS_equipment_1 =  { owner = "BYZ" amount = 14 } # historical: 15
-					cv_nav_bomber_equipment_1 =  { owner = "BYZ" amount = 8 } # historical: 12
-				}
-			}
+			ship = { name = "RNS Macedon" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
+			ship = { name = "RNS Arch of Constantine" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }
+			ship = { name = "RNS Penthesilea" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
+			ship = { name = "RNS Xenophon" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Pericles Class" } } }				
+			ship = { name = "RNS Thebes" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }				
+			ship = { name = "RNS Colchis" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }				
+			ship = { name = "RNS Corfu" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name = "Thessalonika Class" } } }							
+			ship = { name = "RNS Jocic" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Khristov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Arsic" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Kostic" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }				
+			ship = { name = "RNS Radovic" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Bajic" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Dedic" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Colic" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
 		}
-		task_force = {					
-			name = "RNS Juno Koca"				
-			location = 4135 # Gibraltar
+	}
+#### FLEET 5 - PATROL GROUP 3 ####
+	fleet = {					
+		name = "5th Fleet"				
+		naval_base = 4135 #Gibraltar
+### TASK FORCE 50 - PATROL SQUADRON ###
+		task_force = {	
+			name = "Task Force 50 - Gibraltar Patrol Squadron"
+			location = 4135 #Gibraltar		
+			ship = { name = "RNS Ratoslav" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }					
+			ship = { name = "RNS Humphreys" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Vasiliou" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Karvikos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Herner" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }					
+			ship = { name = "RNS Carsfield" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Altunekin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Sniperid" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Osman" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+		}
+### TASK FORCE 51 - PATROL SQUADRON ###
+		task_force = {	
+			name = "Task Force 51 - Gibraltar Patrol Squadron"
+			location = 4135 #Gibraltar		
+			ship = { name = "RNS del Sol" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Pellion" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Ilyev" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Zafirov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Valkov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }					
+			ship = { name = "RNS Kirkov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Ivanov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Georgiev" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Crnkovic" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Mohorovicic" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }
+			ship = { name = "RNS Plovdiv" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }				
+		}
+	}
+#### FLEET 6 - CARRIER GROUP 2 ####
+	fleet = {					
+		name = "6th Fleet"				
+		naval_base = 4135 #Gibraltar
+### TASK FORCE 60 - CARRIER DETACHMENT ###
+		task_force = {	
+			name = "Task Force 60 - Gibraltar Carrier Detachment"
+			location = 4135 #Gibraltar
 			ship = { name = "RNS Juno Koca" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = BYZ version_name = "Karl Marx Class" } } 
 				air_wings = {
 					cv_fighter_equipment_0 =  { owner = "BYZ" amount = 8 } # historical: 36
@@ -351,113 +435,51 @@ units = {
 					cv_nav_bomber_equipment_1 =  { owner = "BYZ" amount = 8 } # historical: 12
 				}
 			}
+			ship = { name = "RNS Karl Marx" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = BYZ version_name = "Karl Marx Class" } } 
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "BYZ" amount = 8 } # historical: 36
+					cv_CAS_equipment_1 =  { owner = "BYZ" amount = 14 } # historical: 15
+					cv_nav_bomber_equipment_1 =  { owner = "BYZ" amount = 8 } # historical: 12
+				}
+			}
+			ship = { name = "RNS Kubrat" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }
+			ship = { name = "RNS Panama Canal" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BYZ version_name = "Hagia Sophia Class" } } }				
+			ship = { name = "RNS Griffith" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }					
+			ship = { name = "RNS Qiu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Vittorio" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Sapountzakis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Spyropoulos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }
+			ship = { name = "RNS Iliopoulos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Kiriakidis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Mylonas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }					
+		}
+	}
+#### FLEET 7 - SUBMARINE FORCE 2 ####
+	fleet = {					
+		name = "7th Fleet"				
+		naval_base = 11293 #Dublin
+### TASK FORCE 70 - SUBMARINE FLOTILLA ###
+		task_force = {					
+			name = "Task Force 70 - Submarine Flotilla"				
+			location = 11293 # Dublin
+			# 51st Submarine Division			
+			ship = { name = "RNS Brionac" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Spear of Achilles" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Gae Assao" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Trident" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Trishula" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }		
+			ship = { name = "RNS Fail-Not" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Pinaka" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Ichaival" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }		
+			ship = { name = "RNS Carnwennan" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Kris Mpu Gandring" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Labrys" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Parashu" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 		}		
+### TASK FORCE 71 - SUBMARINE FLOTILLA ###
 		task_force = {					
-			name = "Destroyer Flotilla  3"				
-			location = 4135 # Gibraltar
-			# 13th Destroyer Division				
-			ship = { name = "RNS Gumulcineli" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Sharif" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Argyrus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Melisurgos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Akropolites" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			# 14th Destroyer Division				
-			ship = { name = "RNS Choumnos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Sarafis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Pytheid" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Kolokotronis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			# 17th Destroyer Division				
-			ship = { name = "RNS Danglis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Metaxas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Tsolakoglou" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Palaskas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Othonaios" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			# 18th Destroyer Division				
-			ship = { name = "RNS Osmond Ingram" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Katsimiros" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Gianopoulou" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Papadiamantopoulos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			# 21st Destroyer Division				
-			ship = { name = "RNS Charalambis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Gonatas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Dousmanis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Foumis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Spyromilios" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			# 30th Destroyer Division				
-			ship = { name = "RNS Staikopoulos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Venizelos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Zymvrakakis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Voulgaris" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			# 31st Destroyer Division				
-			ship = { name = "RNS Vantas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Xena" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Maryam" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Serket" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-		}					
-		task_force = {					
-			name = "Destroyer Flotilla  4"				
-			location = 4135 # Gibraltar
-			# 3rd Destroyer Division				
-			ship = { name = "RNS Bayram" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Civan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Rumi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Kara" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Ishak" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			# 4th Destroyer Division				
-			ship = { name = "RNS Damad" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Lefkeli" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Piyale" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			ship = { name = "RNS Semiz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }		
-			# 28th Destroyer Division				
-			ship = { name = "RNS Acton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS di Robilant" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Pianelli" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Zupelli" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Vaccari" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			# 29th Destroyer Division				
-			ship = { name = "RNS Sacchi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Vanzetti" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Sanna" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS di Parma" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-		}					
-		task_force = {					
-			name = "Destroyer Flotilla  6"				
-			location = 4135 # Gibraltar
-			# 36th Destroyer Division			
-			ship = { name = "RNS Anfora" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Caraga" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Bonaccorsi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Lombardo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Orsini" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			# 37th Destroyer Division			
-			ship = { name = "RNS Gravina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Ferrari" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Zunica" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Plovdiv" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-		}					
-		task_force = {					
-			name = "1st Submarine Squadron"				
-			location = 4135 # Gibraltar
-			# 11th Submarine Division			
-			ship = { name = "RNS Claiomh Solais" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
-			ship = { name = "RNS Crocea Mors" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
-			ship = { name = "RNS Dainsleif" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
-			ship = { name = "RNS Chrysaor" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
-			ship = { name = "RNS Fragarach" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
-			ship = { name = "RNS Gram" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Ruyi" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			# 12th Submarine Division			
-			ship = { name = "RNS Hofuo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Hrotti" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Laevateinn" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Mistilteinn" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Murgleys" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Naegling" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Precieuse" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-		}					
-		task_force = {					
-			name = "3rd Submarine Squadron"				
-			location = 4135 # Gibraltar
+			name = "Task Force 70 - Submarine Flotilla"				
+			location = 11293 # Dublin
 			# 31st Submarine Division			
 			ship = { name = "RNS Ridill" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Skofnung" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
@@ -466,53 +488,65 @@ units = {
 			ship = { name = "RNS Aram" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Ascalon" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Gae Buide" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Gungnir" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			# 32nd Submarine Division			
+			ship = { name = "RNS Gungnir" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }		
 			ship = { name = "RNS Lethe" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Stillbe" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 			ship = { name = "RNS Alexirhoe" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-		}					
-		task_force = {					
-			name = "5th Submarine Squadron"				
-			location = 4135 # Gibraltar
-			# 51st Submarine Division			
-			ship = { name = "RNS Brionac" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Spear of Achilles" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Gae Assao" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Trident" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Trishula" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			# 52nd Submarine Division			
-			ship = { name = "RNS Fail-Not" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Pinaka" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Ichaival" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			# 53rd Submarine Division			
-			ship = { name = "RNS Carnwennan" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Kris Mpu Gandring" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Labrys" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-			ship = { name = "RNS Parashu" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
-		}					
+		}
 	}
-	### ATLANTIC MAIN FLEET -- Gibraltar ###
+##### PACIFIC/AVALONIAN FLEET - PANAMA/AYITI #####
+
+#### FLEET 8 - STRIKE FORCE 3 ####
+	fleet = {					
+		name = "8th Fleet"				
+		naval_base = 4641 #Ayiti
+### TASK FORCE 80 - STRIKE GROUP ###
+		task_force = {					
+			name = "Task Force 80 - Avalon Strike Group"				
+			location = 4641 # Jaragua
+			ship = { name = "RNS Matterhorn" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+			ship = { name = "RNS Shkhara" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
+			ship = { name = "RNS Corno Grande" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
+			ship = { name = "RNS Sacchi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Vanzetti" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS Sanna" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+			ship = { name = "RNS di Parma" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }
+			ship = { name = "RNS Achilles" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Troy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Argosy Class" } } }
+			ship = { name = "RNS Hadjiapostolou" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }	
+		}
+	}
+#### FLEET 9 - PATROL GROUP 4 ####
+### TASK FORCE 90 - PATROL SQUADRON ###
+### TASK FORCE 91 - PATROL SQUADRON ###
+
+#### FLEET 10 - CARRIER GROUP 3 ####
+### TASK FORCE 100 - CARRIER DETACHMENT ###
+
+#### FLEET 11 - SUBMARINE FORCE 3 ####
 	fleet = {
-		name = "Atlantic Main Fleet"
-		naval_base = 7617
-		task_force = {						
-		name = "Caribbean Fleet"				
-		location = 7617 # Canal Zone
-			# 26th Destroyer Division				
-			ship = { name = "RNS del Sol" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Pellion" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Ilyev" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Zafirov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Valkov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			# 27th Destroyer Division				
-			ship = { name = "RNS Kirkov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Ivanov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Georgiev" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Crnkovic" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
-			ship = { name = "RNS Mohorovicic" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peneid Class" } } }		
+### TASK FORCE 110 - SUBMARINE FLOTILLA ###
+		task_force = {					
+			name = "Task Force 110 - Avalon Submarine Flotilla"				
+			location = 4135 # Gibraltar
+			# 11th Submarine Division			
+			ship = { name = "RNS Claiomh Solais" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
+			ship = { name = "RNS Crocea Mors" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
+			ship = { name = "RNS Dainsleif" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
+			ship = { name = "RNS Chrysaor" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
+			ship = { name = "RNS Fragarach" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Porpoise Class" } } }
+			ship = { name = "RNS Gram" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Ruyi" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }		
+			ship = { name = "RNS Hofuo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Hrotti" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Laevateinn" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Mistilteinn" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Murgleys" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Naegling" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
+			ship = { name = "RNS Precieuse" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Echo Class" } } }
 		}	
 	}
+### TASK FORCE 111 - SUBMARINE FLOTILLA ###
 }
 #########################
 ## STARTING PRODUCTION ##
