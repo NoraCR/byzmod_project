@@ -17,7 +17,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.3
+				consumer_goods_factor = 0.25
 				conversion_cost_civ_to_mil_factor= 0.5
 			}
 		}

@@ -793,6 +793,9 @@ focus_tree = {
 				type = annex_everything
 				target = GHA
 			}
+			hidden_effect = {
+				news_event = { hours = 12 id = news.91 }
+			}
 		}
 	}
 	focus = {

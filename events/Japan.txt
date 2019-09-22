@@ -17,7 +17,7 @@ country_event = {
 		name = japan.1.a
 		add_stability = 0.05
 		hidden_effect = {
-			country_event = { days = 5 id = news.1 }
+			news_event = { hours = 12 id = news.1 }
 		}
 	}
 }
@@ -34,7 +34,7 @@ country_event = {
 	option = {
 		name = japan.2.a
 		hidden_effect = {
-			country_event = { days = 5 id = news.2 }
+			news_event = { hours = 12 id = news.2 }
 		}
 		CHI = {
 			transfer_state = 526

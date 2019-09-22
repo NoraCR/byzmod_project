@@ -124,4 +124,29 @@ units = {
 		location = 6332 # Prussen
 		division_template = "Legionäre Kampfgruppe"
 	}
+	division = {
+		name = "24. Legionäre Kampfgruppe"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "25. Legionäre Kampfgruppe"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "26. Legionäre Kampfgruppe"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "27. Legionäre Kampfgruppe"
+		location = 6282  # Essen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "28. Legionäre Kampfgruppe"
+		location = 6282  # Essen
+		division_template = "Legionäre Kampfgruppe"
+	}
 }

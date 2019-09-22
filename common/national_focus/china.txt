@@ -2400,7 +2400,10 @@ focus_tree = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
 				target = JAP
-			} 
+			}
+			hidden_effect = {
+				news_event = { hours = 24 id = news.1 }
+			}
 		}
 	}
 	focus = {

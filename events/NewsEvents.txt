@@ -1999,169 +1999,6 @@ news_event = {
 	}
 }
 
-# Munich Agreement (Czechs Resist)
-news_event = {
-	id = news.59
-	title = news.59.t
-	desc = news.59.d
-	picture = GFX_news_event_009
-
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = news.59.a
-		trigger = {
-			NOT = {
-				TAG = GER
-				TAG = CZE
-			}
-		}
-	}
-	option = {
-		name = news.59.b
-		trigger = { TAG = GER }
-	}
-	option = {
-		name = news.59.c
-		trigger = { TAG = CZE }
-	}
-}
-
-# End of Czechoslovakia
-news_event = {
-	id = news.60
-	title = news.60.t
-	desc = {
-		text = news.60.d
-		trigger = { has_global_flag = end_of_czechoslovakia }
-	}
-	desc = {
-		text = news.60.d_2
-		trigger = { NOT = { has_global_flag = end_of_czechoslovakia } }
-	}
-	picture = GFX_news_event_german_inspect_troops
-
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = news.60.a
-		trigger = {
-			NOT = {
-				TAG = GER
-				TAG = ENG
-				TAG = FRA
-			}
-		}
-	}
-	option = {
-		name = news.60.b
-		trigger = { TAG = GER }
-	}
-	option = {
-		name = news.60.c
-		trigger = {
-			 OR = {
-				TAG = ENG
-				TAG = FRA
-			}
-		}
-	}
-}
-
-# End of Czechoslovakia (Hungary Annexes Slovakia)
-news_event = {
-	id = news.61
-	title = news.60.t
-	desc = {
-		text = news.61.d
-		trigger = { has_global_flag = end_of_czechoslovakia }
-	}
-	desc = {
-		text = news.61.d_2
-		trigger = { NOT = { has_global_flag = end_of_czechoslovakia } }
-	}
-	picture = GFX_news_event_german_inspect_troops
-
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = news.60.a
-		trigger = {
-			NOT = {
-				TAG = GER
-				TAG = ENG
-				TAG = FRA
-				TAG = HUN
-			}
-		}
-	}
-	option = {
-		name = news.60.b
-		trigger = { TAG = GER }
-	}
-	option = {
-		name = news.60.c
-		trigger = {
-			 OR = {
-				TAG = FRA
-				TAG = ENG
-			}
-		}
-	}
-	option = {
-		name = news.60.e
-		trigger = { TAG = HUN }
-	}
-}
-
-# End of Czechoslovakia (Germany annexes everything)
-news_event = {
-	id = news.62
-	title = news.60.t
-	desc = {
-		text = news.62.d
-		trigger = { has_global_flag = end_of_czechoslovakia }
-	}
-	desc = {
-		text = news.62.d_2
-		trigger = { NOT = { has_global_flag = end_of_czechoslovakia } }
-	}
-	picture = GFX_news_event_german_inspect_troops
-
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = news.60.a
-		trigger = {
-			NOT = {
-				TAG = GER
-				TAG = ENG
-				TAG = FRA
-			}
-		}
-	}
-	option = {
-		name = news.60.b
-		trigger = { TAG = GER }
-	}
-	option = {
-		name = news.60.c
-		trigger = {
-			OR = {
-				TAG = ENG
-				TAG = FRA
-			}
-		}
-	}
-}
 
 # The German Civil War
 news_event = {
@@ -2398,6 +2235,36 @@ news_event = {
 	
 	option = {
 		name = news.66.a
+	}
+}
+
+# Bonin I
+news_event = {
+	id = news.91
+	title = news.91.t
+	desc = news.91.desc
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.91.a
+		trigger = {
+			NOT = {
+				TAG = GHA
+				TAG = SOM
+			}
+		}
+	}
+	option = {
+		name = news.91.b
+		trigger = { TAG = GHA }
+	}
+	option = {
+		name = news.91.c
+		trigger = { TAG = SOM }
 	}
 }
 

@@ -11,10 +11,10 @@ state={
 			7617 5 
 		}
 		buildings = {
-			infrastructure = 4
-			air_base = 6
+			infrastructure = 6
+			air_base = 8
 			7617 = {
-				naval_base = 3
+				naval_base = 8
 			}
 		}
 		add_core_of = BYZ
