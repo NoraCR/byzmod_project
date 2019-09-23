@@ -1012,7 +1012,7 @@ air_wings = {
 		# Home Defense
 		fighter_equipment_1 =  {
 			owner = "BYZ" 
-			amount = 144
+			amount = 200
 		}
 	}
 
@@ -1022,12 +1022,12 @@ air_wings = {
 		# 19th Bombardment Group 
 		tac_bomber_equipment_1 = {
 			owner = "BYZ" 
-			amount = 60
+			amount = 200
 		}
 		# 17th Attack Group 
 		CAS_equipment_1 = {
 			owner = "BYZ" 
-			amount = 48
+			amount = 100
 		}
 	}
 
@@ -1037,7 +1037,7 @@ air_wings = {
 		# 8th Pursuit Group 
 		fighter_equipment_1 =  {
 			owner = "BYZ" 
-			amount = 144
+			amount = 200
 		}
 		ace={ # Order is important. Ace will be assigned to the wing above.
 				modifier="fighter_genius"
@@ -1049,7 +1049,7 @@ air_wings = {
 		}
 		tac_bomber_equipment_1 = {
 			owner = "BYZ" 
-			amount = 96
+			amount = 100
 		}
 	}
 
@@ -1058,12 +1058,12 @@ air_wings = {
 		# 20th Pursuit Group 
 		fighter_equipment_1 =  {
 			owner = "BYZ" 
-			amount = 96
+			amount = 100
 		}
 		# 3rd Attack Group 
 		CAS_equipment_1 = {
 			owner = "BYZ" 
-			amount = 48
+			amount = 100
 		}
 	}
 
@@ -1072,26 +1072,26 @@ air_wings = {
 		# 18th Pursuit Group 
 		fighter_equipment_1 =  {
 			owner = "BYZ" 
-			amount = 96
+			amount = 200
 		}
 		# 5th Composite Group 
 		tac_bomber_equipment_1 = {
 			owner = "BYZ" 
-			amount = 72
+			amount = 100
 		}
 	}
 
 	### 19th Composite Wing -- Panama Canal
 	685 = { 
 		# 16th Pursuit Group 
-		fighter_equipment_0 =  {
+		fighter_equipment_1 =  {
 			owner = "BYZ" 
-			amount = 96
+			amount = 100
 		}
 		# 6th Composite Group 
-		tac_bomber_equipment_0 = {
+		tac_bomber_equipment_1 = {
 			owner = "BYZ" 
-			amount = 60
+			amount = 100
 		}
 	}
 
@@ -1107,7 +1107,7 @@ air_wings = {
 		# Naval Patrol Wing 3 
 		nav_bomber_equipment_1 =  {
 			owner = "BYZ" 
-			amount = 72
+			amount = 100
 		}
 	}
 	2 = { 
@@ -1115,22 +1115,22 @@ air_wings = {
 		# Naval Patrol Wing 2 
 		nav_bomber_equipment_1 =  {
 			owner = "BYZ" 
-			amount = 96
+			amount = 100
 		}
 	}
 	### Malta
 	116 = { 
 		fighter_equipment_1 = {
 			owner = "BYZ" 
-			amount = 72
+			amount = 100
 		}
 		tac_bomber_equipment_1 = {
 			owner = "BYZ" 
-			amount = 48
+			amount = 100
 		}
 		CAS_equipment_1 = {
 			owner = "BYZ" 
-			amount = 64
+			amount = 100
 		}
 	}
 }

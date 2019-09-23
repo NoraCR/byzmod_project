@@ -3054,7 +3054,7 @@
 	focus = {
 		id = BYZ_continental_allies
 		icon = GFX_focus_generic_join_comintern
-		cost = 8.00
+		cost = 4.00
 		prerequisite = {
 			focus = BYZ_transatlantic_policy
 		}
@@ -3070,7 +3070,13 @@
 			}
 			NOT = { has_government = fascism }
 		}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
 
+		completion_reward = {
+			add_war_support = 0.1
+		}
 	}
 	focus = {
 		id = BYZ_hungarian_support
@@ -3496,7 +3502,7 @@
 	focus = {
 		id = BYZ_east_asian_alliances
 		icon = GFX_goal_generic_war_with_comintern
-		cost = 8.00
+		cost = 5.00
 		prerequisite = {
 			focus = BYZ_eurasian_policy
 		}
@@ -3833,7 +3839,7 @@
 	focus = {
 		id = BYZ_fortify_gibraltar
 		icon = GFX_goal_generic_construct_military
-		cost = 8.00
+		cost = 4.00
 		prerequisite = {
 			focus = BYZ_three_seas_two_oceans_navy
 		}
