@@ -2193,6 +2193,8 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		will_lead_to_war_with = ENG
+        will_lead_to_war_with = BYZ
 		available_if_capitulated = yes
 		completion_reward = {
 			create_wargoal = {
@@ -2460,6 +2462,7 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+        will_lead_to_war_with = BYZ
 		available_if_capitulated = yes
 		completion_reward = {
 			create_wargoal = {
@@ -2600,6 +2603,8 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		will_lead_to_war_with = GER
+        will_lead_to_war_with = BYZ
 		available_if_capitulated = yes
 		completion_reward = {
 			country_event = { 
@@ -2634,6 +2639,7 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		will_lead_to_war_with = GER
 		available_if_capitulated = yes
 		completion_reward = {
 			create_wargoal = {
