@@ -190,3 +190,18 @@ entity = {
 	attach = { name = artillery			artillery = "artillery_gun_entity" }
 	attach = { name = infantry			infantry = "BYZ_infantry_entity" }
 }
+
+entity = { 
+	clone = "ITA_infantry_entity"
+	name = "FRA_infantry_entity"
+}
+entity = { 
+	clone = "ITA_infantry_2_entity"
+	name = "FRA_infantry_2_entity"
+}
+entity = { 
+	clone = "ITA_infantry_3_entity"
+	name = "FRA_infantry_3_entity"
+}
+
+
