@@ -1038,7 +1038,7 @@ focus_tree = {
 			}
 			
 			effect_tooltip = {
-				custom_effect_tooltip = USA_destroyers_for_bases_tt
+				custom_effect_tooltip = HDA_destroyers_for_bases_tt
 				transfer_state = 631
 				transfer_state = 630
 				transfer_state = 727

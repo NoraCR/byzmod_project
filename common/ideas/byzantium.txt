@@ -393,7 +393,7 @@ ideas = {
 			picture = generic_communist_army
 			
 			modifier = {
-				conscription = 0.02
+				conscription = 0.01
 			}
 		}
 		BYZ_organic_intelligentsia_focus = {
