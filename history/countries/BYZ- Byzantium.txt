@@ -110,8 +110,8 @@ if = {
 	}
 }
 set_convoys = 800
-set_stability = 0.8
-set_war_support = 0.25
+set_stability = 0.7
+set_war_support = 0
 
 set_politics = {	
 	ruling_party = communism

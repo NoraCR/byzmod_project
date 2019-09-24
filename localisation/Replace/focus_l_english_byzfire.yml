@@ -2253,6 +2253,7 @@
  HDA_align_iroquois_desc:0 "We do not share a border with the Iroquois, but we could arrange some mutually beneficial deals with them."
  HDA_aid_to_japan:0 "Aid to Japan"
  HDA_aid_to_japan_desc:0 "The Japanese Republic is isolated and faces the wrath of opposing powers almost alone. We should aid them by sending some destroyers or other mothballed ships for their coastal defense."
+ HDA_destroyers_for_bases_tt:0 "§Y[HDA.GetNameDef]§!: \n"
  HDA_our_own_path:0 "Our Own Path"
  HDA_our_own_path_desc:0 "This current arrangement of alliances is too constricting. We will need to determine our own foreign policy and not get caught up in distant entanglements."
  HDA_sever_alliance:0 "Sever Ties"

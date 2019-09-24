@@ -2904,6 +2904,7 @@
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
+			add_war_support = 0.1
 			FRA = {
 				add_opinion_modifier = { target = BYZ modifier = fascism_leanings_bad }
 			}
@@ -3436,6 +3437,7 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_war_support = 0.1
 			CHI = {
 				add_opinion_modifier = { target = BYZ modifier = anti_capitalist_diplomacy_capitalists }
 			}
