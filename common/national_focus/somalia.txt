@@ -763,6 +763,7 @@ focus_tree = {
 		bypass = {
 			has_war_with = GHA
 		}
+		will_lead_to_war_with = GHA
 		ai_will_do = {
 			factor = 40
 			modifier = {
@@ -900,6 +901,7 @@ focus_tree = {
 		bypass = {
 			has_war_with = LBA
 		}
+		will_lead_to_war_with = LBA
 		ai_will_do = {
 			factor = 40
 			modifier = {
@@ -951,6 +953,7 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		will_lead_to_war_with = SHO
 		available_if_capitulated = no
 
 		complete_tooltip = {
@@ -1273,6 +1276,7 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		will_lead_to_war_with = SHO
 		available_if_capitulated = no
 
 		complete_tooltip = {
@@ -1310,6 +1314,7 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		will_lead_to_war_with = SAF
 		available_if_capitulated = no
 
 		complete_tooltip = {
@@ -1354,6 +1359,8 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		will_lead_to_war_with = ANG
+		will_lead_to_war_with = KOR
 		available_if_capitulated = no
 
 		complete_tooltip = {
@@ -1396,6 +1403,8 @@ focus_tree = {
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		will_lead_to_war_with = COG
+		will_lead_to_war_with = ENG
 		available_if_capitulated = no
 
 		complete_tooltip = {

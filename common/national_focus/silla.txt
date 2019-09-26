@@ -2910,6 +2910,7 @@ focus_tree = {
 			715 = { is_owned_by = KOR }
 			761 = { is_owned_by = KOR }
 		}
+		will_lead_to_war_with = KOR
 		ai_will_do = {
 			factor = 40
 			modifier = {

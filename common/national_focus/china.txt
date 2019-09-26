@@ -2389,6 +2389,7 @@ focus_tree = {
 		x = 37
 		y = 5
 		available_if_capitulated = no
+		will_lead_to_war_with = JAP
 		ai_will_do = {
 			factor = 90
 			modifier = {
@@ -2873,6 +2874,7 @@ focus_tree = {
 		bypass = {
 			has_war_with = BYZ
 		}
+		will_lead_to_war_with = BYZ
 		ai_will_do = {
 			factor = 40
 			modifier = {
@@ -3113,6 +3115,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 40
 		}
+		will_lead_to_war_with = SOV
 		completion_reward = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
@@ -3133,6 +3136,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 40
 		}
+		will_lead_to_war_with = POL
 		completion_reward = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
@@ -3153,6 +3157,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 40
 		}
+		will_lead_to_war_with = FRA
 		completion_reward = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
