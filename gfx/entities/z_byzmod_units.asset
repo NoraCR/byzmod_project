@@ -204,4 +204,27 @@ entity = {
 	name = "FRA_infantry_3_entity"
 }
 
+entity = {
+		name = "FRA_motorized_entity"
+		clone = "ITA_motorized_entity"
+}
 
+entity = {
+		name = "FRA_mechanized_entity"
+		clone = "ITA_mechanized_entity"
+}
+
+entity = { 
+	clone = "USA_light_armor_entity"
+	name = "BYZ_light_armor_entity"
+}
+
+entity = { 
+	clone = "USA_medium_armor_entity"
+	name = "BYZ_medium_armor_entity"
+}
+
+entity = { 
+	clone = "USA_heavy_armor_entity"
+	name = "BYZ_heavy_armor_entity
+}
