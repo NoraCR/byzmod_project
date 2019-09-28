@@ -3184,6 +3184,12 @@
 		ai_will_do = {
 			factor = 40
 		}
+		bypass = {
+			OR = {
+				AUS = { is_in_faction_with = BYZ }
+				NOT = { country_exists = AUS }
+			}
+		}	
 		
 		completion_reward = {
 			custom_effect_tooltip = BYZ_coup_austria_tt
@@ -3405,6 +3411,12 @@
 		ai_will_do = {
 			factor = 40
 		}
+		bypass = {
+			OR = {
+				AUS = { is_in_faction_with = BYZ }
+				NOT = { country_exists = AUS }
+			}
+		}	
 		will_lead_to_war_with = AUS
 		completion_reward = {
 			create_wargoal = {
