@@ -20,7 +20,7 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "3. Legionäre Kampfgruppe 'Antikommunistische Aktion'"
+		name = "3. Legionäre Kampfgruppe 'Antimulleristische Aktion'"
 		location = 514  # Dresden
 		division_template = "Legionäre Kampfgruppe"
 	}
@@ -125,28 +125,48 @@ units = {
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "24. Legionäre Kampfgruppe"
+		name = "24. Legionäre Kampfgruppe 'Reichsritter'"
 		location = 6332 # Prussen
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "25. Legionäre Kampfgruppe"
+		name = "25. Legionäre Kampfgruppe 'Rotenhahn'"
 		location = 6332 # Prussen
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "26. Legionäre Kampfgruppe"
+		name = "26. Legionäre Kampfgruppe 'König der Römer'"
 		location = 6332 # Prussen
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "27. Legionäre Kampfgruppe"
+		name = "27. Legionäre Kampfgruppe 'Circuli imperii'"
 		location = 6282  # Essen
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
-		name = "28. Legionäre Kampfgruppe"
+		name = "28. Legionäre Kampfgruppe 'Reichsarmee'"
 		location = 6282  # Essen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "29. Legionäre Kampfgruppe 'Exercitus Imperii'"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "30. Legionäre Kampfgruppe 'Neo-Milize'"
+		location = 6332 # Prussen
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "31. Legionäre Kampfgruppe 'Ungarische Liga'"
+		location = 3512  # Rheinland
+		division_template = "Legionäre Kampfgruppe"
+	}
+	division = {
+		name = "32. Legionäre Kampfgruppe 'Ostsiedlung'"
+		location = 293 # Mecklemberg
 		division_template = "Legionäre Kampfgruppe"
 	}
 }

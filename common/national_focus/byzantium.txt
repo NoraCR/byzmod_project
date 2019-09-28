@@ -1099,38 +1099,38 @@
 			army_experience = 5
 			hidden_effect = {
 				2 = {
-					add_building_construction = { type = bunker province = 923 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 9794 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 11751 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 11882 level = 2 instant_build = yes }
+					add_building_construction = { type = bunker province = 923 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 9794 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 11751 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 11882 level = 3 instant_build = yes }
 				}
 				117 = {
-					add_building_construction = { type = bunker province = 883 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 955 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 11803 level = 2 instant_build = yes }
+					add_building_construction = { type = bunker province = 883 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 955 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 11803 level = 3 instant_build = yes }
 				}
 				157 = {
-					add_building_construction = { type = bunker province = 11861 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 967 level = 2 instant_build = yes }
+					add_building_construction = { type = bunker province = 11861 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 967 level = 3 instant_build = yes }
 				}
 				159 = {
-					add_building_construction = { type = bunker province = 607 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 9584 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 3780 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 969 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 773 level = 2 instant_build = yes }
+					add_building_construction = { type = bunker province = 607 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 9584 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 3780 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 969 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 773 level = 3 instant_build = yes }
 				}
 				161 = {
-					add_building_construction = { type = bunker province = 3773 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 6606 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 6790 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 6793 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 9752 level = 2 instant_build = yes }
+					add_building_construction = { type = bunker province = 3773 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 6606 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 6790 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 6793 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 9752 level = 3 instant_build = yes }
 				}
 				162 = {
-					add_building_construction = { type = bunker province = 3885 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 6875 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 9750 level = 2 instant_build = yes }
+					add_building_construction = { type = bunker province = 3885 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 6875 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 9750 level = 3 instant_build = yes }
 				}
 			}
 		}
@@ -1197,25 +1197,25 @@
 			army_experience = 5
 			hidden_effect = {
 				159 = {
-					add_building_construction = { type = bunker province = 607 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 9584 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 6661 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 11587 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 607 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 9584 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 6661 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 11587 level = 4 instant_build = yes }
 				}
 				39 = {
-					add_building_construction = { type = bunker province = 6675 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 9630 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 11615 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 6675 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 9630 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 11615 level = 4 instant_build = yes }
 				}
 				160 = {
-					add_building_construction = { type = bunker province = 628 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 3657 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 9613 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 628 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 3657 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 9613 level = 4 instant_build = yes }
 				}
 				736 = {
-					add_building_construction = { type = bunker province = 599 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 11595 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 11735 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 599 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 11595 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 11735 level = 4 instant_build = yes }
 				}
 			}
 		}
@@ -1435,37 +1435,37 @@
 			army_experience = 5
 			hidden_effect = {
 				102 = {
-					add_building_construction = { type = bunker province = 3631 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 9596 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 596 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 665 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 6672 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 3631 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 9596 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 596 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 665 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 6672 level = 4 instant_build = yes }
 				}
 				109 = {
-					add_building_construction = { type = bunker province = 9611 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 11594 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 3627 level = 2 instant_build = yes }
+					add_building_construction = { type = bunker province = 9611 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 11594 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 3627 level = 3 instant_build = yes }
 				}
 				45 = {
-					add_building_construction = { type = bunker province = 9608 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 3623 level = 2 instant_build = yes }
+					add_building_construction = { type = bunker province = 9608 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 3623 level = 3 instant_build = yes }
 				}
 				154 = {
-					add_building_construction = { type = bunker province = 6670 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 11625 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 9706 level = 2 instant_build = yes }
+					add_building_construction = { type = bunker province = 6670 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 11625 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 9706 level = 3 instant_build = yes }
 				}
 				43 = {
-					add_building_construction = { type = bunker province = 9660 level = 5 instant_build = yes }
-					add_building_construction = { type = bunker province = 9690 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 3731 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 6751 level = 3 instant_build = yes }
-					add_building_construction = { type = bunker province = 11520 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 9660 level = 6 instant_build = yes }
+					add_building_construction = { type = bunker province = 9690 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 3731 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 6751 level = 4 instant_build = yes }
+					add_building_construction = { type = bunker province = 11520 level = 4 instant_build = yes }
 				}
 				76 = {
-					add_building_construction = { type = bunker province = 746 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 9704 level = 2 instant_build = yes }
-					add_building_construction = { type = bunker province = 727 level = 2 instant_build = yes }
+					add_building_construction = { type = bunker province = 746 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 9704 level = 3 instant_build = yes }
+					add_building_construction = { type = bunker province = 727 level = 3 instant_build = yes }
 				}
 			}
 		}

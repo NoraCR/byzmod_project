@@ -31,7 +31,7 @@ units = {
 		location = 2097 #Baghdad
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.9
+		
 
 	}
 	division = {
@@ -39,7 +39,7 @@ units = {
 		location = 10106 #Mosul
 		division_template = "Alfurqat Aljabalia"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.9
+		
 
 	}
 	division = {
@@ -47,7 +47,7 @@ units = {
 		location = 12473 #Aleppo
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.9
+		
 
 	}
 	division = {
@@ -55,7 +55,7 @@ units = {
 		location = 4111 #Damascus
 		division_template = "Alfurqat Aljabalia"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.9
+		
 
 	}
 	division = {
@@ -63,7 +63,7 @@ units = {
 		location = 1086 #Jerusalem
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.9
+		
 
 	}
 	division = {
@@ -71,7 +71,7 @@ units = {
 		location = 12883 #Jeddah
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.9
+		
 
 	}
 	division = {
@@ -79,7 +79,7 @@ units = {
 		location = 2097 #Baghdad
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.9
+		
 
 	}
 	division = {
@@ -87,7 +87,7 @@ units = {
 		location = 2097 #Baghdad
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.9
+		
 
 	}
 	division = {
@@ -95,7 +95,7 @@ units = {
 		location = 10106 #Mosul
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.9
+		
 
 	}
 	division = {
@@ -103,7 +103,7 @@ units = {
 		location = 4111 #Damascus
 		division_template = "Alfurqat Almasha"	
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.9
+		
 
 	}
 	division = {
@@ -138,7 +138,7 @@ units = {
 		start_equipment_factor = 0.9
 
 	}
-		division = {
+	division = {
 		name = "15 Alfurqat"
 		location = 2089 #Basrah
 		division_template = "Alfurqat Almasha"	
@@ -146,7 +146,71 @@ units = {
 		start_equipment_factor = 0.9
 
 	}
+	division = {
+		name = "16 Alfurqat"
+		location = 6935 #Van
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
 
+	}
+	division = {
+		name = "17 Alfurqat"
+		location = 6935 #Van
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "18 Alfurqat"
+		location = 4512 #nanananananana
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "19 Alfurqat"
+		location = 11746 #Adana
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "20 Alfurqat"
+		location = 11746 #Adana
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+	
+	division = {
+		name = "21 Alfurqat"
+		location = 7953 #Ahvaz
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "22 Alfurqat"
+		location = 12758 #Medina
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "23 Alfurqat"
+		location = 12473 #Aleppo
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
 }
 air_wings = {
 	### Da Qin Air Force (DQAF)
