@@ -956,12 +956,12 @@ air_wings = {
 		# Groupement de Chasse du Sardaigne
 		fighter_equipment_1 = {
 			owner = "FRA" 
-			amount = 48
+			amount = 96
 		}
 		# Groupement de Bombardment du Sardaigne
 		tac_bomber_equipment_1 =  {
 			owner = "FRA" 
-			amount = 30
+			amount = 60
 		}
 	}
 

@@ -499,11 +499,11 @@ units = {
 #### FLEET 8 - STRIKE FORCE 3 ####
 	fleet = {					
 		name = "8th Fleet"				
-		naval_base = 4641 #Ayiti
+		naval_base = 7617 #Canal
 ### TASK FORCE 80 - STRIKE GROUP ###
 		task_force = {					
 			name = "Task Force 80 - Avalon Strike Group"				
-			location = 4641 # Jaragua
+			location = 7617 # Canal 
 			ship = { name = "RNS Matterhorn" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 			ship = { name = "RNS Shkhara" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }				
 			ship = { name = "RNS Corno Grande" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Olympus Class" } } }
