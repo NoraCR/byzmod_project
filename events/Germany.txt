@@ -130,8 +130,8 @@ country_event = {
 				ruling_party = fascism
 				ideology = democratic
 				size = 0.5
-				capital = 64
-				states = { 64 58 59 57 42 55 56 51 36 }
+				capital = 51
+				states = { 58 59 57 42 55 56 51 36 }
 			}
 			random_other_country = {
 				limit = {
@@ -169,8 +169,8 @@ country_event = {
 			start_civil_war = {
 				ideology = fascism
 				size = 0.5
-				capital = 5
-				states = { 5 62 61 85 63 65 68 763 54 60 }
+				capital = 64
+				states = { 64 5 62 61 85 63 65 68 763 54 60 }
 			}
 			random_other_country = {
 				limit = {

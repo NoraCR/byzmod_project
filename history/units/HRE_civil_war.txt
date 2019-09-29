@@ -81,12 +81,12 @@ units = {
 	}
 	division = {
 		name = "15. Legionäre Kampfgruppe 'Norrland'"
-		location = 11404 #Franken
+		location = 6521 #Berlin
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "16. Legionäre Kampfgruppe 'Wiking'"
-		location = 11404 #Franken
+		location = 6521 #Berlin
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
