@@ -36,57 +36,57 @@ units = {
 	}
 	division = {
 		name = "6. Legionäre Kampfgruppe 'Karl der Große'"
-		location = 3512  # Rheinland
+		location = 362 # Danzig
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "7. Legionäre Kampfgruppe 'Wacht am Rhein'"
-		location = 3512  # Rheinland
+		location = 362 # Danzig
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "8. Legionäre Kampfgruppe 'Ottonius Magnus'"
-		location = 3512  # Friesland
+		location = 514  # Dresden
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "9. Legionäre Kampfgruppe 'Niederlande'"
-		location = 6332  # Friesland
+		location = 514  # Dresden
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "10. Legionäre Kampfgruppe 'Eisenzieher'"
-		location = 6332  # Friesland
+		location = 3535  # Leipzig
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "11. Legionäre Kampfgruppe 'Valeria'"
-		location = 6332  # Friesland
+		location = 3535  # Leipzig
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "12. Legionäre Kampfgruppe 'Europa'"
-		location = 6282  # Essen
+		location = 6524  # Erfurt
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "13. Legionäre Kampfgruppe 'Deutschherrenorden'"
-		location = 6282  # Essen
+		location = 6524  # Erfurt
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "14. Legionäre Kampfgruppe 'Henricus'"
-		location = 6282  # Essen
+		location = 6524  # Erfurt
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "15. Legionäre Kampfgruppe 'Norrland'"
-		location = 6282  # Essen
+		location = 11404 #Franken
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "16. Legionäre Kampfgruppe 'Wiking'"
-		location = 6282  # Essen
+		location = 11404 #Franken
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
@@ -141,12 +141,12 @@ units = {
 	}
 	division = {
 		name = "27. Legionäre Kampfgruppe 'Circuli imperii'"
-		location = 6282  # Essen
+		location = 293 # Mecklemberg
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "28. Legionäre Kampfgruppe 'Reichsarmee'"
-		location = 6282  # Essen
+		location = 293 # Mecklemberg
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
