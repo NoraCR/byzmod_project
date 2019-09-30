@@ -1653,8 +1653,15 @@ focus_tree = {
 				}
 			}
 			modifier = {
-                factor = 10
-                has_government = fascism 
+		                factor = 10
+		                has_government = fascism 
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = democratic
+					has_government = pangalism
+					has_government = communism
 				}
 			}
 		}
@@ -1735,8 +1742,16 @@ focus_tree = {
 				}
 			}
 			modifier = {
-                factor = 10
-                has_government = communism 
+                		factor = 10
+                		has_government = communism 
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = fascism
+					has_government = democratic
+					has_government = pangalism
+				}
 			}
 		}
 		completion_reward = {
@@ -1821,8 +1836,16 @@ focus_tree = {
 				}
 			}
 			modifier = {
-                factor = 10
-                has_government = democratic 
+               	 		factor = 10
+                		has_government = democratic 
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = fascism
+					has_government = pangalism
+					has_government = communism
+				}
 			}
 		}
 		completion_reward = {
@@ -1890,8 +1913,16 @@ focus_tree = {
 				}
 			}
 			modifier = {
-                factor = 10
-                has_government = pangalism 
+                		factor = 10
+                		has_government = pangalism 
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = fascism
+					has_government = democratic
+					has_government = communism
+				}
 			}
 		}
 		x = 22
