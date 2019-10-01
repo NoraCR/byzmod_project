@@ -2476,6 +2476,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = KOR_to_the_old_ways
+			focus = KOR_korean_socialism
 		}
 		x = 24
 		y = 1

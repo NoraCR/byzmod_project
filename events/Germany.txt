@@ -125,7 +125,6 @@ country_event = {
 		name = germany.900.a
 		trigger = { is_ai = no }
 		hidden_effect = {
-			set_capital = 176
 			start_civil_war = {
 				ruling_party = fascism
 				ideology = democratic
@@ -166,6 +165,7 @@ country_event = {
 	option = { # Support Republicans
 		name = germany.900.b
 		hidden_effect = {
+			set_capital = 51
 			start_civil_war = {
 				ideology = fascism
 				size = 0.5
