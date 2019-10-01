@@ -15,7 +15,7 @@ focus_tree = {
 		x = 5
 		y = 0
 		ai_will_do = {
-			factor = 60
+			factor = 100
 		}	
 
 		available_if_capitulated = yes
@@ -31,7 +31,7 @@ focus_tree = {
 		x = 15
 		y = 0
 		ai_will_do = {
-			factor = 60
+			factor = 100
 		}	
 		available_if_capitulated = yes
 
@@ -46,7 +46,7 @@ focus_tree = {
 		x = 20
 		y = 0
 		ai_will_do = {
-			factor = 40
+			factor = 100
 		}	
 		available = {
 			OR = {
@@ -84,7 +84,7 @@ focus_tree = {
 		x = 25
 		y = 0
 		ai_will_do = {
-			factor = 40
+			factor = 100
 		}	
 		available_if_capitulated = no
 
@@ -103,7 +103,7 @@ focus_tree = {
 		x = 31
 		y = 0
 		ai_will_do = {
-			factor = 40
+			factor = 100
 		}	
 		complete_tooltip = {
 			navy_experience = 25
@@ -176,7 +176,7 @@ focus_tree = {
 		x = 37
 		y = 0
 		ai_will_do = {
-			factor = 40
+			factor = 100
 		}	
 		available_if_capitulated = yes
 

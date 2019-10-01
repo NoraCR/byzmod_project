@@ -19,7 +19,7 @@ focus_tree = {
 		y = 0
 		
 		ai_will_do = {
-			factor = 40
+			factor = 100
 		}
 
 		available = {
@@ -100,7 +100,7 @@ focus_tree = {
 		y = 0
 
 		ai_will_do = {
-			factor = 40
+			factor = 100
 		}
 
 		available = {
@@ -153,7 +153,7 @@ focus_tree = {
 		x = 20
 		y = 0
 		ai_will_do = {
-			factor = 40
+			factor = 100
 		}
 
 		available = {
@@ -189,7 +189,7 @@ focus_tree = {
 		x = 24
 		y = 0
 		ai_will_do = {
-			factor = 40
+			factor = 100
 		}
 
 		available = {
@@ -255,7 +255,7 @@ focus_tree = {
 		x = 28
 		y = 0
 		ai_will_do = {
-			factor = 40
+			factor = 100
 		}
 
 		available = {

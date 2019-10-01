@@ -11,11 +11,11 @@ focus_tree = {
 	focus = {
 		id = TR_i_am_third_rome #political power
 		icon = GFX_focus_hun_elect_a_king
-		cost = 15
+		cost = 18
 		x = 18
 		y = 0
 		ai_will_do = {
-			factor = 40
+			factor = 100
 		}
 
 		available = {
