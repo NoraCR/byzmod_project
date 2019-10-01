@@ -161,7 +161,7 @@ units = {
 	}
 	division = {
 		name = "31. Legionäre Kampfgruppe 'Ungarische Liga'"
-		location = 3512  # Rheinland
+		location = 3522  # Magdeburg
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {

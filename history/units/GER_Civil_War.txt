@@ -82,17 +82,17 @@ units = {
 	}
 	division = {
 		name = "XV Internationale Brigaden 'UdHuK'"
-		location = 3522  # Magdeburg
+		location = 6488  # Frankfurt
 		division_template = "Internationale Brigaden"
 	}
 	division = {
 		name = "XVI Internationale Brigaden 'FAUD'"
-		location = 3522  # Magdeburg
+		location = 6488  # Frankfurt
 		division_template = "Internationale Brigaden"
 	}
 	division = {
 		name = "XVII Internationale Brigaden 'Roma'"
-		location = 3522  # Magdeburg
+		location = 6488  # Frankfurt
 		division_template = "Internationale Brigaden"
 	}
 	division = {
