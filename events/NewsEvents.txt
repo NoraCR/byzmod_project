@@ -11905,3 +11905,53 @@ news_event = {
 		}
 	}
 }
+
+# Stanislaus Deposed
+news_event = {
+	id = news.1007
+	title = news.1007.t
+	desc = news.1007.desc
+	picture = GFX_news_event_generic_parliament
+	
+	major = yes
+	is_triggered_only = yes	
+	
+	immediate = {
+		set_global_flag = POL_monarch_deposed 
+	}
+	
+	option = {
+		trigger = {
+			has_government = fascism
+		}
+		name = news.1007.a
+	}
+	
+	option = {
+		trigger = {
+			has_government = pangalism
+		}
+		name = news.1007.b
+	}
+	
+	option = {
+		trigger = {
+				has_government = communism
+		}
+		name = news.1007.c
+	}
+	
+	option = {
+		trigger = {
+			has_government = democratic
+		}
+		name = news.1007.d
+	}
+	
+	option = {
+		name = news.1007.e
+		trigger = {
+			has_government = neutrality
+		}
+	}
+}

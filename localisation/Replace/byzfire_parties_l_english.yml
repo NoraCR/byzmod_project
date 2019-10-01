@@ -70,6 +70,8 @@ l_english:
  BAV_democratic_party:1 "Christlich-Demokratische Partei"
  POL_fascism_party:0 "Dwór Monarszy"
  POL_fascism_party_long:0 "de Valois-Vexin Court"
+ POL_military_junta:0 "RPP"
+ POL_military_junta_long:0 "Rada Prawa i Porządku"
  POL_communism_party:0 "Polska Partia Socjalistyczna"
  POL_democratic_party:0 "PPJ"
  POL_democratic_party_long:0 "Polska Partia Jakobińska"

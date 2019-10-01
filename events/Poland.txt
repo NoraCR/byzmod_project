@@ -6,7 +6,7 @@ add_namespace = poland
 
 ##Hey we might need to add a pilgrimage event?##
 
-country_event = {
+country_event = { ##STANISLAUS WINS THE WAR
 	id = poland.10
 	title = poland.10.t
 	desc = poland.10.d
@@ -38,6 +38,46 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = POL_nobles_appeased
 		}
+	}
+}
+
+country_event = { ##STANISLAUS DEPOSED
+	id = poland.11
+	title = poland.11.t
+	desc = poland.11.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	trigger = {
+		tag = POL
+		POL = { has_war_with = CZE }
+		date > 1936.8.1
+		POL = {
+			NOT = { has_country_flag = POL_nobles_appeased }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = poland.11.a
+		remove_ideas = POL_discontented_nobility
+		add_stability = -0.10
+		set_party_name = { ideology = fascism long_name = POL_military_junta name = POL_military_junta }
+		create_country_leader = {
+			name = "Włodzimierz Węsierski-Kwilecki"
+			desc = "POLITICS_WLODZIMIERZ_WESIERSKI_KWILECKI_DESC"
+			portrait_path = "gfx/leaders/generic/generic_europe_m1.png"
+			expire = "1965.1.1"
+			ideology = fascism
+			traits = {
+
+			}
+		}
+		hidden_effect = { news_event = { id = news.1007 hours = 48 }
 	}
 }
 
