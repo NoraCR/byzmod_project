@@ -113,7 +113,7 @@ country_event = {
 		NOT = { has_global_flag = scw_over }
 		tag = GER
 		has_defensive_war = no
-		NOT = { has_government = fascism }
+		NOT = { has_government = pangalism }
 		date > 1937.3.15 # Trigger at some point after 1937 elections
 	}
 
@@ -125,86 +125,174 @@ country_event = {
 		name = germany.900.a
 		trigger = { is_ai = no }
 		hidden_effect = {
-			start_civil_war = {
-				ruling_party = fascism
-				ideology = democratic
-				size = 0.5
-				capital = 51
-				states = { 58 59 57 42 55 56 51 36 }
-			}
-			random_other_country = {
+			if = {
 				limit = {
-					original_tag = GER
-					has_government = democratic
+					OR = {
+						has_government = democratic
+						has_government = fascism
+					}
 				}
-				load_oob = "GER_Civil_War"
+				start_civil_war = {
+					ruling_party = fascism
+					ideology = democratic
+					size = 0.5
+					capital = 51
+				}
+				random_other_country = {
+					limit = {
+						original_tag = GER
+						has_government = democratic
+					}
+					load_oob = "GER_Civil_War"
+					set_equipment_fraction = 0.5
+					set_stability = 0.9
+					#country_event = { id = germany.902 days = 1 }
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.35
+					}
+				}
+				news_event = { hours = 6 id = news.63 }
+				set_global_flag = spanish_civil_war
+				load_oob = "HRE_Civil_War"
 				set_equipment_fraction = 0.5
 				set_stability = 0.9
-				#country_event = { id = germany.902 days = 1 }
+			
 				add_popularity = {
-					ideology = democratic
-					popularity = 0.35
+					ideology = fascism
+					popularity = 1
 				}
+				#country_event = { id = germany.901 days = 7 }
 			}
-			news_event = { hours = 6 id = news.63 }
-			set_global_flag = spanish_civil_war
-			
-			load_oob = "HRE_Civil_War"
-			set_equipment_fraction = 0.5
-			set_stability = 0.9
-			
-			add_popularity = {
-				ideology = fascism
-				popularity = 1
+			if = {
+				limit = {
+					has_government = communism
+				}
+				start_civil_war = {
+					ruling_party = fascism
+					ideology = communism
+					size = 0.5
+					capital = 51
+				}
+				random_other_country = {
+					limit = {
+						original_tag = GER
+						has_government = communism
+					}
+					load_oob = "GER_Civil_War"
+					set_equipment_fraction = 0.5
+					set_stability = 0.9
+					#country_event = { id = germany.902 days = 1 }
+					add_popularity = {
+						ideology = communism
+						popularity = 0.35
+					}
+				}
+				news_event = { hours = 6 id = news.63 }
+				set_global_flag = spanish_civil_war
+				
+				load_oob = "HRE_Civil_War"
+				set_equipment_fraction = 0.5
+				set_stability = 0.9
+				
+				add_popularity = {
+					ideology = fascism
+					popularity = 1
+				}
+	
+				#country_event = { id = germany.901 days = 7 }
 			}
-
-			#country_event = { id = germany.901 days = 7 }
+			custom_effect_tooltip = nationalists_chosen
 		}
-		custom_effect_tooltip = nationalists_chosen
 	}
 	option = { # Support Republicans
 		name = germany.900.b
 		hidden_effect = {
-			set_capital = 51
-			start_civil_war = {
-				ideology = fascism
-				size = 0.5
-				capital = 64
-				states = { 64 5 62 61 85 63 65 68 763 54 60 }
-			}
-			random_other_country = {
-				limit = {
-					original_tag = GER
-					has_government = fascism
+			if = {
+				limit = { has_government = democratic }
+				set_capital = 51
+				start_civil_war = {
+					ideology = fascism
+					size = 0.5
+					capital = 64
 				}
+				random_other_country = {
+					limit = {
+						original_tag = GER
+						has_government = fascism
+					}
+					set_equipment_fraction = 0.5
+					set_stability = 0.9
+					#country_event = { id = germany.901 days = 1 }
+					load_oob = "HRE_Civil_War"
+				}
+				news_event = { hours = 6 id = news.63 }
+				set_global_flag = spanish_civil_war
+				
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+				}
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.3
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = -1
+				}	
+				load_oob = "GER_Civil_War"
 				set_equipment_fraction = 0.5
 				set_stability = 0.9
-				#country_event = { id = germany.901 days = 1 }
-				load_oob = "HRE_Civil_War"
-			}
-			news_event = { hours = 6 id = news.63 }
-			set_global_flag = spanish_civil_war
 			
-			set_politics = {
-				ruling_party = democratic
-				elections_allowed = yes
+				#country_event = { id = germany.902 days = 7 }
 			}
-			add_popularity = {
-				ideology = communism
-				popularity = 0.3
-			}
-			add_popularity = {
-				ideology = fascism
-				popularity = -1
-			}	
-			load_oob = "GER_Civil_War"
-			set_equipment_fraction = 0.5
-			set_stability = 0.9
-			
-			#country_event = { id = germany.902 days = 7 }
 		}
-		custom_effect_tooltip = republicans_chosen
-	}
+			
+		hidden_effect = {
+			if = {
+				limit = { has_government = communism }
+				set_capital = 51
+				start_civil_war = {
+					ideology = fascism
+					size = 0.5
+					capital = 64
+				}
+				random_other_country = {
+					limit = {
+						original_tag = GER
+						has_government = fascism
+					}
+					set_equipment_fraction = 0.5
+					set_stability = 0.9
+					#country_event = { id = germany.901 days = 1 }
+					load_oob = "HRE_Civil_War"
+				}
+				news_event = { hours = 6 id = news.63 }
+				set_global_flag = spanish_civil_war
+				
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.3
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = -1
+				}	
+				load_oob = "GER_Civil_War"
+				set_equipment_fraction = 0.5
+				set_stability = 0.9
+				
+				#country_event = { id = germany.902 days = 7 }
+			}
+		}
+			
+			custom_effect_tooltip = republicans_chosen
+		}
 }
 
 # HRE: Seek Support
