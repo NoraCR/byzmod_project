@@ -137,6 +137,7 @@ country_event = {
 					ideology = democratic
 					size = 0.5
 					capital = 51
+					states = { 58 59 57 42 54 55 56 51 36 60 }
 				}
 				random_other_country = {
 					limit = {
@@ -173,6 +174,7 @@ country_event = {
 					ideology = communism
 					size = 0.5
 					capital = 51
+					states = { 58 59 57 42 54 55 56 51 36 60 }
 				}
 				random_other_country = {
 					limit = {
@@ -215,6 +217,7 @@ country_event = {
 					ideology = fascism
 					size = 0.5
 					capital = 64
+					states = { 64 5 62 61 85 63 65 68 763 }
 				}
 				random_other_country = {
 					limit = {
@@ -257,6 +260,7 @@ country_event = {
 					ideology = fascism
 					size = 0.5
 					capital = 64
+					states = { 64 5 62 61 85 63 65 68 763 }
 				}
 				random_other_country = {
 					limit = {
