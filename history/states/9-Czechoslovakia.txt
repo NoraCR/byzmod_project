@@ -5,14 +5,19 @@ state={
 	
 	state_category = large_city
 	
+	resources={
+		steel=32
+	}	
+	
 	history={
 		owner = CZE
 		victory_points = { 11542 20 }
-		victory_points = { 6418 5 }
+		victory_points = { 6418 5 }	
+		
 		buildings = {
 			infrastructure = 7
 			arms_factory = 6
-			industrial_complex = 1
+			industrial_complex = 2
 			anti_air_building = 5
 			air_base = 5
 			494 = {

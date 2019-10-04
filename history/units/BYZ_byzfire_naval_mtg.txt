@@ -1,4 +1,4 @@
-####### BYZANTINE NAVY, MTG, REVISED #######
+﻿####### BYZANTINE NAVY, MTG, REVISED #######
 # (This isn't really a massive change in forces, just changing the fleets around for conveniences' sake. Thanks to Zanni for the suggestions!) #
 
 units = {

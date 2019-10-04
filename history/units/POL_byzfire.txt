@@ -218,7 +218,7 @@ units = {
 	division= {	
 		name = "Wolynska B.K."
 		location = 6534
-		division_template = "Brygada Kawalerii" 
+		division_template = "Dywizja Kawalerii" 
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.67
@@ -287,7 +287,7 @@ units = {
 	division= {	
 		name = "Nowogródzka B.K."
 		location = 11511
-		division_template = "Brygada Kawalerii" 
+		division_template = "Dywizja Kawalerii" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.67
 
@@ -295,7 +295,7 @@ units = {
 	division= {	
 		name = "Mazowiecka B.K."
 		location = 11511
-		division_template = "Brygada Kawalerii" 
+		division_template = "Dywizja Kawalerii" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.67
 
@@ -329,7 +329,7 @@ units = {
 	division= {	
 		name = "Wilenska B.K."
 		location = 3485
-		division_template = "Brygada Kawalerii" 
+		division_template = "Dywizja Kawalerii" 
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.67
@@ -408,7 +408,7 @@ units = {
 	division= {	
 		name = "Suwalska B.K."
 		location = 6534
-		division_template = "Brygada Kawalerii" 
+		division_template = "Dywizja Kawalerii" 
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.67

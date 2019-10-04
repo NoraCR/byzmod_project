@@ -912,6 +912,8 @@
  POL_tadeusz_rzepka:0 "Tadeusz Rzepka"
  POL_discontented_nobility:0 "Discontented Nobility"
  POL_discontented_nobility_desc:0 "The wealthy and powerful aristocracy are not exactly pleased with the conduct of their government. They have seen their coffers depleted in one unsuccessful war against the Germans, and they are not excited with the Bohemian War's prospects. If the war does not conclude favorably and well, they may revolt."
+ POL_diplomatic_isolation:0 "Diplomatic Isolation"
+ POL_diplomatic_isolation_desc:0 "The king's sudden and unprovoked declaration of war on the tiny kingdom of Bohemia has left even our friends unwilling to justify our actions. Poland stands alone for a long time - or at least until this war is concluded successfully."
  HUN_generic_fascist_demagogue:0 "Wesselényi Valéria"
  HUN_generic_democratic_reformer:0 "Lengyel Barnabás"
  HUN_generic_communist_revolutionary:0 "Mednyánszky Gergő"

@@ -35,6 +35,7 @@ country_event = { ##STANISLAUS WINS THE WAR
 	option = {
 		name = poland.10.a
 		remove_ideas = POL_discontented_nobility
+		remove_ideas = POL_diplomatic_isolation
 		hidden_effect = {
 			set_country_flag = POL_nobles_appeased
 		}
@@ -65,19 +66,20 @@ country_event = { ##STANISLAUS DEPOSED
 	option = {
 		name = poland.11.a
 		remove_ideas = POL_discontented_nobility
+		remove_ideas = POL_diplomatic_isolation
 		add_stability = -0.10
 		set_party_name = { ideology = fascism long_name = POL_military_junta name = POL_military_junta }
 		create_country_leader = {
 			name = "Włodzimierz Węsierski-Kwilecki"
 			desc = "POLITICS_WLODZIMIERZ_WESIERSKI_KWILECKI_DESC"
-			portrait_path = "gfx/leaders/generic/generic_europe_m1.png"
+			picture = "gfx/leaders/generic/generic_europe_m1.png"
 			expire = "1965.1.1"
-			ideology = fascism
+			ideology = fascism_ideology
 			traits = {
 
 			}
 		}
-		hidden_effect = { news_event = { id = news.1007 hours = 48 }
+		hidden_effect = { news_event = { id = news.1007 hours = 48 } }
 	}
 }
 

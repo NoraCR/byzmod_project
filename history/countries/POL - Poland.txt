@@ -51,6 +51,7 @@ if = {
 
 add_ideas = {
 	POL_discontented_nobility
+	POL_diplomatic_isolation
 }
 
 # DIPLOMACY / WAR 36

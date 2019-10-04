@@ -93,7 +93,6 @@ add_to_faction = BAV
 add_to_faction = SPR
 add_to_faction = ICE
 add_to_faction = HOL
-add_to_faction = POL
 add_to_faction = POR
 add_to_faction = AUS
 
