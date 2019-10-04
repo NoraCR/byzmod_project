@@ -112,9 +112,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bohater Wolinski"
-	desc = "POLITICS_BOHATER_WOLINSKI_DESC"
-	picture = "pol_bohater_wolinski.dds"
+	name = "Teodor Wolinski"
+	desc = "POLITICS_TEODOR_WOLINSKI_DESC"
+	picture = "pol_teodor_wolinski.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
