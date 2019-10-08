@@ -7,7 +7,7 @@
  CIVIL_WAR_NAME:0 "$ORDER$$SECOND$ Civil War"
  WAR_TAKE_CORE_NAME:0 "$ORDER$$FIRST$ reclamation of $STATE$"
  WAR_TAKE_CLAIM_NAME:0 "$ORDER$$FIRST$ Aggression for $STATE$"
- WAR_NAME_POL_CZE:0 "New Years' War"
+ WAR_NAME_POL_CZE:0 "New Year's War"
  WAR_NAME_JAP_CHI:0 "Second Sino-Japanese War"
  WAR_NAME_CHI_JAP:0 "Second Sino-Japanese War"
  WAR_NAME_FRA_BYZ:0 "Third Great War"
