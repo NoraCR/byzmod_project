@@ -6,6 +6,10 @@ state=
 	
 	state_category = town
 	
+	resources={
+		steel=10
+	}	
+	
 	history={
 		owner = CZE
 		victory_points = {
@@ -15,6 +19,7 @@ state=
 			infrastructure = 6
 			anti_air_building = 5
 			air_base = 2
+			arms_factory = 2
 			557 = {
 				bunker = 3
 			}
