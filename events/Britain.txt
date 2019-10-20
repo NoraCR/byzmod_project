@@ -91,9 +91,9 @@ country_event = {
 	picture = GFX_report_event_generic_sign_treaty1
 	fire_only_once = yes
 		trigger = {
+		tag = ENG
 		date > 1936.12.24
 		has_government = communism 
-		country_exists = ENG
 		NOT = { country_exists = COG }
 	}
 	mean_time_to_happen = {

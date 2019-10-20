@@ -27,4 +27,39 @@ units = {
 		location = 7605 
 		division_template = "Domestic Security"
 	}
+	division = {
+		name = "Civil Security IV"
+		location = 7605 
+		division_template = "Domestic Security"
+	}
+	division = {
+		name = "Civil Security V"
+		location = 7605 
+		division_template = "Domestic Security"
+	}
+	division = {
+		name = "Civil Security VI"
+		location = 7605 
+		division_template = "Domestic Security"
+	}
+	division = {
+		name = "Civil Security VII"
+		location = 7605 
+		division_template = "Domestic Security"
+	}
+	division = {
+		name = "Civil Security VIII"
+		location = 7605 
+		division_template = "Domestic Security"
+	}
+	division = {
+		name = "Civil Security IX"
+		location = 7605 
+		division_template = "Domestic Security"
+	}
+	division = {
+		name = "Civil Security X"
+		location = 5154 
+		division_template = "Domestic Security"
+	}
 }

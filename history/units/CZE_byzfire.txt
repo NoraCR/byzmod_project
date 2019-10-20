@@ -140,7 +140,7 @@ units = {
 	# I Sbor
 	division = {
 		name = "2. Divize"
-		location = 469
+		location = 3462
 		division_template = "Pesi Divize"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.85

@@ -453,6 +453,22 @@ ideas = {
 				army_core_defence_factor = 0.2
 			}
 		}
+		BYZ_light_aid = {
+
+			modifier = {
+				industrial_capacity_factory = -0.01
+			}
+
+			picture = picture = generic_goods_red_bonus
+		}
+		BYZ_significant_aid = {
+
+			modifier = {
+				industrial_capacity_factory = -0.02
+			}
+
+			picture = picture = generic_goods_red_bonus
+		}
 	}
 	
 	political_advisor = {

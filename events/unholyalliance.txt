@@ -68,6 +68,9 @@ country_event = {
 		BYZ = {
 			add_political_power = -25
 		}
+		BYZ = {
+			add_timed_idea = { idea = BYZ_light_aid days = 365 }
+		}
 		MRT = {
 			add_timed_idea = { idea = communist_influence days = 180 }
 		}
@@ -90,6 +93,9 @@ country_event = {
 		}
 		BYZ = {
 			add_political_power = -50
+		}
+		BYZ = {
+			add_timed_idea = { idea = BYZ_significant_aid days = 365 }
 		}
 		MRT = {
 			add_timed_idea = { idea = communist_influence days = 180 }
@@ -126,6 +132,11 @@ country_event = {
 		BYZ = {
 			add_political_power = -10
 		}
+		BYZ = {
+			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = -100 producer = BYZ }
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -2500 producer = BYZ }
+			add_equipment_to_stockpile = { type = fighter_equipment_1 amount = -100 producer = BYZ }
+		}
 		MRT = {
 			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = BYZ }
 			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2500 producer = BYZ }
@@ -147,6 +158,11 @@ country_event = {
 		}
 		BYZ = {
 			add_political_power = -25
+		}
+		BYZ = {
+			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = -100 producer = BYZ }
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -2500 producer = BYZ }
+			add_equipment_to_stockpile = { type = fighter_equipment_1 amount = -100 producer = BYZ }
 		}
 		MRT = {
 			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = BYZ }
@@ -189,6 +205,11 @@ country_event = {
 				planning_skill = 2
 				logistics_skill = 2
 			}
+		}
+		BYZ = {
+			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = -100 producer = BYZ }
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -2500 producer = BYZ }
+			add_equipment_to_stockpile = { type = fighter_equipment_1 amount = -100 producer = BYZ }
 		}
 		MRT = {
 			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = BYZ }
