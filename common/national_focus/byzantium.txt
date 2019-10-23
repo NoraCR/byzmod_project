@@ -277,6 +277,7 @@
 			}
 			custom_effect_tooltip = available_chief_of_airforce
 			show_ideas_tooltip = danijela_matosevic
+			show_ideas_tooltip = jebidiah_von_reigan
 		}
 		
 		completion_reward = {
@@ -2047,6 +2048,17 @@
 		completion_reward = {
 			custom_effect_tooltip = BYZ_a_new_generation_tt 
 			hidden_effect = {
+				create_field_marshal = {
+					name = "Zanyne Andrejić"
+					picture = "byz_marshal_louis_barthas.tga"
+					id = 131
+					traits = { brilliant_strategist bearer_of_artillery expert_delegator }
+					skill = 5
+					attack_skill = 5
+					defense_skill = 4
+					planning_skill = 4
+					logistics_skill = 5
+				}
 				create_corps_commander = {
 					name = "Nadine Hau-Fang"
 					picture = "byz_general_nadine_hau-fang.png"

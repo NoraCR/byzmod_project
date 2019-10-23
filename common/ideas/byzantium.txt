@@ -1406,6 +1406,24 @@ ideas = {
 				factor = 1
 			}
 		}
+		
+		jebidiah_von_reigan = {
+			picture = generic_air_europe_1
+			
+			allowed = {
+				original_tag = BYZ
+			}
+			
+			available = {
+				has_completed_focus = BYZ_red_air_force
+			}
+			
+			traits = { air_chief_reform_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	high_command = {
 		tereza_arnand = {
