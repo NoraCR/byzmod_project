@@ -3,7 +3,7 @@
 ## LEADER DESCRIPTIONS ##
 
 #Anacaona
-POLITICS_MANICA_MAGUA_DESC:0 "The Magua administration administers the last of the Ayitian colonial dominions in Avalon. Her government is one of two remnants of the old Ayitian liberal-frontier regimes. Although domestic politics is still dominated by the interests of large landholders, the Magua administration harbors dreams of greater international influence, pre-eminence in the South Avalonian continent, and possibly a return to the glory before the 'fall' of the old regime up north."
+POLITICS_MANICA_MAGUA_DESC:0 "The Magua administration administers the last of the Ayitian colonial dominions in Avalon. Her government is one of two remnants of the old Ayitian liberal-frontier regimes. Although domestic politics is still dominated by the interests of large landholders in the sugar and coffee industry, the Magua administration harbors dreams of greater international influence, pre-eminence in the South Avalonian continent, and possibly a return to the glory before the 'fall' of the old regime up north."
 
 #Asitelahan
 POLITICS_LIU_KESAN_DESC:0 "International oil and haidagraph magnate Liu Kesan has never been convicted of anything concrete, but he is secretly one of history's most powerful Triad bosses. Liu's criminal empire spans the entire world and wields significant influence over just about every racket one could think of, and his obscene wealth and wide ranging connections made him a key player in the Business Plot. Asitelahan's newfound independence in the aftermath is widely believed to be payment for services rendered, as is Liu's subsequent rise to political power, although other rumours suggest this is his way of trying to go legitimate. Although Asitelahan is an autocratic petrostate with a pretense of republican government at best, it has been developing a healthy economy under his rule, as well as a robust social welfare sector. He is also protective of the region's minority groups." 
@@ -20,6 +20,9 @@ POLITICS_ABRAM_LAYPA_DESC:0 "An immigrant from a distant branch of a vast noble 
 
 #Azerbaijan
 POLITICS_AZIM_DERYA_DESC:0 "Azim Derya was the head of the Azeri state oil company and served as Minister of Energy for two years. He holds a committed belief in the power of free markets and free trade, meaning in practice he is willing to set aside ideological differences and make export deals with any of his neighbors to fund Azerbaijan's economic growth."
+
+#Aztec
+POLITICS_ETALPALLI_MACEHUALLI_DESC:0 "Etalpalli Macehualli - committed nationalist, returnee from exile after the Second Great War, clings to the presidency of the so-called Aztec Republic (a misnomer). Nobody really envies his position between two squabbling great powers. At least he has one consolation- the discovery of oil deposits should be a promising export..."
 
 #Bavaria
 POLITICS_GAIUS_JULIUS_DABERTZHOFEN_DESC:0 "Gaius Julius Dabertzhofen, born Erich von Dabertzhofen, is the Governor-General of occupied Bavaria. He was chosen because of his loyalty and unswerving obedience to his Gallic masters. He has few other redeeming qualities."
@@ -61,6 +64,9 @@ POLITICS_AKWESI_KONADU_DESC:0 "An ethnic Akan, Konadu was educated at the Univer
 #Great Britain
 POLITICS_MARY_NAPIER_DESC:0 "After years of being hamstrung by the opposition, the Labour Party - specifically the radical wing of the Labour Party - have taken a majority in Parliament. Mary Napier has trumpeted vast ambitions for reforming the domestic economy, but she is caught between domestic reforms on the one hand and rebuilding the navy and air force in response to Fascist aggression. She also faces substantial pressure from the far left to grant more autonomy to Britain's remaining colonies."
 
+#Habsburg Commune
+POLITICS_EILEEN_CRAWFORD_DESC:0 "The child of a British settler and a Cueva merchant, Crawford is one of a long succession of Habsburg Commune presidents who are devoted to maintaining their alliances with the Red Rose Pact and the British and Byzantines in particular. While some opposition figures agitate for the Commune's greater autonomy, few see any reason to antagonize their greatest patrons."
+
 #Haida
 POLITICS_YELTATZIE_KAAWAAS_DESC:0 "Born into a middle-class family, before entering politics Yeltatzie Kaawaas worked as a successful corporate lawyer. Serving as governor of Nuu-chah-nulth Gwaii from 1927-1932, she oversaw the period of economic reconstruction after the Second Great War. During her time in office, she was a major figure in the implementation of civil rights protections across the state, and championed a social health insurance system. After a presidential campaign where she portrayed herself as an efficient, non-partisan leader willing to compromise with the Social Democrats and some elements of the United Left, she won the election of 1932 with a razor-thin margin."
 POLITICS_ULUUDAX_KENAITZE_DESC:0 "'Uluudax' Kenaitze is the long-standing head of the Haida United Left party. He is best known as a backroom pugilist, having survived multiple interparty squabbles, including an attempt to remove him from party leadership after the dispiriting election of 1932. He was a pamphleteer and organizer who first organized meatpacking warehouses along the southern coast. His critics outside the party view him as a puppet of foreign interests, and his opponents within the party view him as a moderate dawdler who gave up too much to the Social Democrats only to lose anyway."
@@ -87,8 +93,14 @@ POLITICS_LORCAN_O_BROGAIN_DESC:0 "In another life Lorcan O Brogain was a literal
 POLITICS_FIONA_MELOY_DESC:0 ""
 POLITICS_JAMES_LARKIN_DESC:0 ""
 
+#Iroquois
+POLITICS_AKWIRARON_GOWANDA_DESC:0 "Born in the 'thumb' of Mishigamaa, Gowanda enjoyed a long and established legal career. He was first a trial judge, then an Attorney General for the previous administration before winning the Presidential election in his own right. He oversaw a strong and growing manufacturing sector in the Iroquois economy, although his administration was marred by its rough handling of a massive factory workers' strike in 1934."
+
 #Japan
 POLITICS_MASAOKA_NATSUKO_DESC:0 "President Masaoka was one of the few figures of the Jiyūtō who was politically unscathed after the disastrous war with China. The National Assembly member from Niigata has emerged as a decisive figure in the Diet, strengthening her coalition of centrist parties and pushing out the radicals in both left and right. Masaoka is also a committed internationalist in foreign policy, calling for a 'transoceanic alliance' of liberal states to counter great power aggression."
+
+#Karatgurk
+
 
 #Kenya
 POLITICS_KONSTANTINOS_SHAHBAL_DESC:0 "Konstantinos Shahbal is the oldest son of the beloved independence activist David Shahbal. He won election by a wide margin, largely due to name-recognition. His base of support is concentrated in the industrialized south, as he has encouraged Byzantine and Ghanian technical advisors to build up modern industries there. His administration is more contentious in the rural north, where ethnic Somalis agitate for a more favorable border and trade regime with the pangalist Republic."
@@ -143,6 +155,9 @@ POLITICS_MERVAN_GAZI_DESC:0 "Former head of Seljuk Arabia's national petroleum c
 POLITICS_KHALID_ASLAAM_DESC:0 ""
 POLITICS_TUGHRIL_II_DESC:0 ""
 
+#Shoshone
+POLITICS_ANTANNEWE_DESC:0 "It has often been remarked that aside from the RRP, the Shoshone were the greatest winners of the Second Great War. Their population has been swollen by refugees from Ayiti and Haida alike, Prime Minister Antennewe has remained a firm proponent of neutrality and isolationism."
+
 #Somalia
 POLITICS_ADEY_WALASHMA_DESC:0 "Adey Walashma is the long-standing premier of the Somalian Republic. She occupies a position in the 'broad center' of Somali political life, as her policies have been calibrated to sideline both the fierce socialist movement, as well as the sizeable group on the far right who still yearn for a return to the dictatorship of Maxamud Muzafar. She is less of a doctrinaire pangalist and more of a pragmatist, determined to put her own nation's interests first. Besides a progressive domestic policy, she has also presided over successful campaigns to quash revolts in Buganda. Though she now enjoys considerable popularity, the rapidly changing international situation may alter politics beyond even her ability to adapt."
 
@@ -160,6 +175,9 @@ POLITICS_KUNDANG_HUTUKTHU_GYALTSEN_DESC:0 "Kundang Hutukthu Gyaltsen is an accom
 
 #UPR
 POLITICS_NUR_MARYAM_HAMZA_DESC:0 "Nur Maryam Hamza, a child of Acehnese nobility, is the premier advocate for pan-Asianism and liberal internationalism. For years, she was considered a part of the idealistic fringe of southeast Asian politics, yet she persisted in lobbying other aristocrats and media figures for her cause of breaking down national borders, religious democracy, and social responsibility. In the 1930s, however, her dream came that much closer to being realized with the unification of several smaller states as part of a federal United Pacific Republic.\n\nHamza was elected leader of the new state handily, but now she faces the challenge of managing internal dissent and wide swings in public opinion, as well as resisting foreign pressure."
+
+#Zheng He Bay
+POLITICS_XIAN_OCAMPO_JOSEFINA_LIU_DESC:0 "Governor Liu comes from the upper crust of Zheng He Bay society, and can trace her roots back to the early days of Hui and Leonese colonists. She served briefly in the militia, and rose to power on a campaign to reduce Zheng He Bay's debts and to clean up its government."
 
 #Zhongnan
 POLITICS_CAO_LIUXIAN_DESC:0 "What is Cao Liuxian doing in charge of a country? Armed with a University of Athens education and a ruthless streak he picked up in the Chinese Army, he is a cunning manipulator with a talent for administration and quickly making vast amounts of money, but prior to the Business Plot he had never shown any interest in politics, preferring to flaunt his wealth and increase his family's vicegrip on the global rubber trade. One popular theory is that he has some kind of personal relationship with Zhang Zhulin. On paper, Cao has done well - the economy is booming and Bangkok presents a pleasant, highly-developed face for the international community. On closer inspection, virtually all the rewards of such are going straight into the pockets of the Chinese ruling class, and Cao is shockingly obvious about using his position for self-enrichment. He treats the subcontinent as his personal fiefdom, and as his greed and hedonism run amok his policies could end up tossing a lit match onto the Indochinese powderkeg."

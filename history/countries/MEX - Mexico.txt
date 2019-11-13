@@ -32,7 +32,7 @@ set_stability = 0.8
 
 create_country_leader = {
 	name = "Ilhicamina Tonatiuh"
-	desc = "POLITICS_LAZARO_CARDENAS_DESC"
+	desc = "POLITICS_ILHICAMINA_TONATIUH_DESC"
 	picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -43,7 +43,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Cuicatl Naui Quiahuitl" #female
-	desc = "POLITICS_SALVADOR_ABASCAL_DESC"
+	desc = "POLITICS_CUICATL_NAUI_QUIAHUITL_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = falangism
@@ -53,8 +53,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Etalpalli Tonatiuh Macehualli"
-	desc = "POLITICS_MANUEL_GOMEZ_MORIN_DESC"
+	name = "Etalpalli Macehualli"
+	desc = "POLITICS_ETALPALLI_MACEHUALLI_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -65,7 +65,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Cuetlachtli Xochipill"
-	desc = "POLITICS_DIONISIO_ENCINA_DESC"
+	desc = "POLITICS_CUETLACHTLI_XOCHIPILL_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = marxism
