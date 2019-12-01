@@ -1104,3 +1104,25 @@ country_event = {
 		}
 	}
 }
+
+#Philomon Retires
+country_event = {
+	id = byz.909
+	title = byz.909.t
+	desc = byz.909.d
+	picture = GFX_report_event_soviet_purge_trial
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1938.1.10
+		tag = BYZ
+	}
+	
+	option = {
+		name = byz.909.a
+		ai_chance = {
+			factor = 100
+		}
+		remove_ideas = BYZ_philomon_anatolikos
+	}
+}

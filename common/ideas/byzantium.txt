@@ -622,7 +622,26 @@ ideas = {
 				factor = 1
 			}
 		}	
-
+		BYZ_mardochaios_levis = {
+			
+			allowed = {
+				original_tag = "BYZ"
+			}
+			
+			picture = generic_political_advisor_europe_3
+			
+			traits = { captain_of_industry }
+	
+			on_add = {
+			}
+	
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
 		BYZ_yahsi_turel = {
 			
 			allowed = {
