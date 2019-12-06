@@ -48,7 +48,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Richard Touzayamoko"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_Land_5.dds"
+	picture = "gfx/leaders/COG/cog_richard_touzayamko.png"
 	desc = "POLITICS_RICHARD_TOUZAYAMOKO_DESC"
 	expire = "1965.1.1"
 	ideology = marxism

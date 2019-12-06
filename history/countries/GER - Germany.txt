@@ -269,6 +269,17 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Ansel König"
+	picture = "ger_general_ansel_koenig.png"
+	traits = {  }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
 	name = "Gerhard Klock"
 	picture = "ger_general_gerhard_klock.png"
 	traits = { panzer_leader trait_cautious }

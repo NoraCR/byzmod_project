@@ -242,6 +242,19 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 3
 }
+
+create_corps_commander = {
+	name = "Ophelia Banksly" #female, cameo
+	picture = "som_general_ophelia_banksly.png"
+	traits = { career_officer politically_connected }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+	female = yes
+}
+
 create_corps_commander = {
 	name = "Samiira Isir Mareye" #female
 	picture = "som_general_samiira_isir_mareye.png"

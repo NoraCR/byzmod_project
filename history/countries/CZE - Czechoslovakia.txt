@@ -87,7 +87,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Vladan I Zukal"
 	desc = "POLITICS_VLADAN_I_ZUKAL_DESC"
-	picture = "cze_vladan_zukal.dds"
+	picture = "cze_vladan_i_zukal.png"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {
@@ -97,7 +97,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Vladan I Zukal"
-	portrait_path = "gfx/leaders/CZE/cze_vladan_zukal.dds"
+	portrait_path = "gfx/leaders/CZE/cze_vladan_i_zukal.png"
 	traits = { defensive_doctrine }
 	skill = 3
 	attack_skill = 2

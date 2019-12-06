@@ -118,7 +118,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Abram Laypa"
 	desc = "POLITICS_ABRAM_LAYPA_DESC"
-	picture = "Portrait_AYI_Franklin_Roosevelt.dds"
+	picture = "ayi_abram_laypa.png"
 	expire = "1967.1.1"
 	ideology = liberalism
 }

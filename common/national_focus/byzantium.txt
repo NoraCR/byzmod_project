@@ -2050,7 +2050,7 @@
 			hidden_effect = {
 				create_field_marshal = {
 					name = "Zanyne Andrejić"
-					picture = "byz_marshal_louis_barthas.tga"
+					picture = "byz_marshal_zanye_andrejic.png"
 					id = 131
 					traits = { brilliant_strategist bearer_of_artillery expert_delegator }
 					skill = 5
