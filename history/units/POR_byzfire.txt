@@ -44,21 +44,6 @@ units = { #Just a rump force
 		division_template = "Força de Caçadores"
 		start_experience_factor = 0.5
 	}
-
-	##### NAVAL UNITS #####
-	navy = {				
-		name = "Marinha de Portugal"			
-		base = 1751
-		location = 1751 # Azores
-		# Flotilha 'Viana do Castelo'
-		ship = { name = "NRP Tamega" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
-		ship = { name = "NRP Dão" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
-		ship = { name = "NRP Douro" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }
-		ship = { name = "NRP Lima" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
-		ship = { name = "NRP Vouga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
-		ship = { name = "NRP Tejo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR } } }	
-	}				
-
 }
 instant_effect = {
 	add_equipment_production = {
