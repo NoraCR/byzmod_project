@@ -40,10 +40,167 @@ spriteTypes = {
 		name = "GFX_idea_alexios_mars"
 		texturefile = "gfx/interface/ideas/idea_alexios_mars.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_jebidiah_von_reigan"
+		texturefile = "gfx/interface/ideas/idea_jebidiah_von_reigan.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_idea_darion_flesnolk"
 		texturefile = "gfx/interface/ideas/idea_darion_flesnolk.dds"
 	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_konstantinos_klokotronis"
+		texturefile = "gfx/interface/ideas/idea_konstantinos_klokotronis.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_alexandra_manetas"
+		texturefile = "gfx/interface/ideas/idea_alexandra_manetas.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jacinda_palamaras"
+		texturefile = "gfx/interface/ideas/idea_jacinda_palamaras.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_giancarlo_sinibaldi"
+		texturefile = "gfx/interface/ideas/idea_giancarlo_sinibaldi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_arsen_khachaturian"
+		texturefile = "gfx/interface/ideas/idea_arsen_khachaturian.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_melih_muhiddin"
+		texturefile = "gfx/interface/ideas/idea_melih_muhiddin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_maxime_jacquinot_saloman"
+		texturefile = "gfx/interface/ideas/idea_maxime_jacquinot_saloman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_egemen_babacan"
+		texturefile = "gfx/interface/ideas/idea_egemen_babacan.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_aksungur_yilmaz"
+		texturefile = "gfx/interface/ideas/idea_aksungur_yilmaz.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_demetrios_scafidis"
+		texturefile = "gfx/interface/ideas/idea_demetrios_scafidis.dds"
+	}
+	
+		
+	spriteType = {
+		name = "GFX_idea_mariam_andrea"
+		texturefile = "gfx/interface/ideas/idea_mariam_andrea.dds"
+	}
+	
+			
+	spriteType = {
+		name = "GFX_idea_guncicegi_mardin"
+		texturefile = "gfx/interface/ideas/idea_guncicegi_mardin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_oceanos_pateras"
+		texturefile = "gfx/interface/ideas/idea_oceanos_pateras.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_zeynel_dalkilic"
+		texturefile = "gfx/interface/ideas/idea_zeynel_dalkilic.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_elettra_vettraino"
+		texturefile = "gfx/interface/ideas/idea_elettra_vettraino.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_matthaios_strakas"
+		texturefile = "gfx/interface/ideas/idea_matthaios_strakas.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_danijela_matosevic"
+		texturefile = "gfx/interface/ideas/idea_danijela_matosevic.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_gannina_casan"
+		texturefile = "gfx/interface/ideas/idea_gannina_casan.dds"
+	}
+	
+			
+	spriteType = {
+		name = "GFX_idea_tereza_arnand"
+		texturefile = "gfx/interface/ideas/idea_tereza_arnand.dds"
+	}
+	
+				
+	spriteType = {
+		name = "GFX_idea_konstantin_antic"
+		texturefile = "gfx/interface/ideas/idea_konstantin_antic.dds"
+	}
+					
+	spriteType = {
+		name = "GFX_idea_theodora_papadopoulou"
+		texturefile = "gfx/interface/ideas/idea_theodora_papadopoulou.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ivailo_glavchev"
+		texturefile = "gfx/interface/ideas/idea_ivailo_glavchev.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_marex_demopoulos"
+		texturefile = "gfx/interface/ideas/idea_marex_demopoulos.dds"
+	}
+			
+	spriteType = {
+		name = "GFX_idea_gioconda_bertone"
+		texturefile = "gfx/interface/ideas/idea_gioconda_bertone.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_maria_artinou"
+		texturefile = "gfx/interface/ideas/idea_maria_artinou.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_anton_mijatovic"
+		texturefile = "gfx/interface/ideas/idea_anton_mijatovic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_inaho_miyazawa"
+		texturefile = "gfx/interface/ideas/idea_inaho_miyazawa.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_emmanuela_stefanin"
+		texturefile = "gfx/interface/ideas/idea_emmanuela_stefanin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_grazio_antignolo"
+		texturefile = "gfx/interface/ideas/idea_grazio_antignolo.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_idea_helvetica_bold"
 		texturefile = "gfx/interface/ideas/idea_helvetica_bold.dds"
