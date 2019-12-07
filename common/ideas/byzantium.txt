@@ -1427,7 +1427,7 @@ ideas = {
 		}
 		
 		jebidiah_von_reigan = {
-			picture = generic_air_europe_1
+			picture = jebidiah_von_reigan
 			
 			allowed = {
 				original_tag = BYZ

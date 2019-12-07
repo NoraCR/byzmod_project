@@ -40,6 +40,12 @@ spriteTypes = {
 		name = "GFX_idea_alexios_mars"
 		texturefile = "gfx/interface/ideas/idea_alexios_mars.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_jebidiah_von_reigan"
+		texturefile = "gfx/interface/ideas/idea_jebidiah_von_reigan.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_idea_darion_flesnolk"
 		texturefile = "gfx/interface/ideas/idea_darion_flesnolk.dds"
