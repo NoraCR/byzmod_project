@@ -67,7 +67,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Leila Bint Barka" #female
-	desc = ""
+	desc = "POLITICS_LEILA_BINT_BARKA_DESC"
 	picture = "gfx/leaders/MOR/mor_dem.tga"
 	ideology = liberalism
 	traits = {

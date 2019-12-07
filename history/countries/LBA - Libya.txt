@@ -57,7 +57,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Fatima Iqbal"
-	desc = ""
+	desc = "POLITICS_FATIMA_IQBAL_DESC"
 	picture = "lba_fatima_iqbal.dds"
 	ideology = liberalism
 	traits = {
