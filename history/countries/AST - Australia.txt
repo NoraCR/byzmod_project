@@ -77,7 +77,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Koyah Yahgulanaas"
-	desc = "POLITICS_JOHN_CURTIN_DESC"
+	desc = "POLITICS_KOYAH_YAHGULANAAS_DESC"
 	picture = "ast_koyah_yahgulanaas.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -88,7 +88,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Merricumana" #aboriginal
-	desc = "POLITICS_ERIC_CAMPBELL_DESC"
+	desc = "POLITICS_MERRICUMANA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -99,7 +99,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Pengoorra" #female, aboriginal
-	desc = "POLITICS_RICHARD_DIXON_DESC"
+	desc = "POLITICS_PENGOORRA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
@@ -110,7 +110,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Kalallow" #male, aboriginal
-	desc = "POLITICS_EARLE_PAGE_DESC"
+	desc = "POLITICS_KALALLOW_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = centrism
@@ -121,7 +121,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Yearndiemurra" #male, aboriginal
-	desc = ""
+	desc = "POLITICS_YEARNDIEMURRA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = despotism
@@ -131,7 +131,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Whatchella" #female, aboriginal
-	desc = ""
+	desc = "POLITICS_WHATCHELLA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = shanghai_school_economics
