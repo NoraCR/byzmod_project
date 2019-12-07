@@ -85,7 +85,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Achieng I Nkomo"
-	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	desc = "POLITICS_ACHIENG_I_DESC"
 	picture = "sho_neu_achieng_nkomo.dds"
 	expire = "1965.1.1"
 	ideology = centrism
