@@ -784,6 +784,12 @@ focus_tree = {
 				}
 			}
 			modifier = {
+				factor = 0 #AI should not pick this focus if it is at war
+				SOM = {
+					has_war = yes
+				}
+			}
+			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
 				date < 1942.1.1
