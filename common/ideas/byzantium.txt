@@ -1615,7 +1615,7 @@ ideas = {
 				original_tag = BYZ
 			}
 			
-			picture = generic_navy_europe_1
+			picture = emmanuela_stefanin
 			
 			traits = { navy_amphibious_assault_2 }
 			

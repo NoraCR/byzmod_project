@@ -301,7 +301,7 @@ ideas = {
 		
 		CHI_yu_xie = {
 
-			picture = generic_political_advisor_asia_1
+			picture = yu_xie
 			
 			allowed = {
 				original_tag = CHI
@@ -315,7 +315,7 @@ ideas = {
 		}
 		CHI_chen_xingsun = {
 
-			picture = generic_political_advisor_asia_1
+			picture = chen_xingsun
 			
 			allowed = {
 				original_tag = CHI
@@ -328,7 +328,7 @@ ideas = {
 		}
 		CHI_zhou_zhaotang = {
 
-			picture = generic_political_advisor_asia_1
+			picture = zhou_zhaotang
 			
 			allowed = {
 				original_tag = CHI
@@ -341,7 +341,7 @@ ideas = {
 
 		CHI_ge_jingen = {
 
-			picture = generic_political_advisor_asia_2
+			picture = ge_jingen
 				
 			allowed = {
 				original_tag = CHI
@@ -351,7 +351,7 @@ ideas = {
 		}
 		CHI_ganzorigiin_batnasan = {
 
-			picture = generic_political_advisor_asia_2
+			picture = ganzorigiin_batnasan
 				
 			allowed = {
 				original_tag = CHI
@@ -363,7 +363,7 @@ ideas = {
 		}
 		CHI_pang_shoufeng = {
 
-			picture = generic_political_advisor_asia_3
+			picture = pang_shoufeng
 			
 			allowed = {
 				original_tag = CHI
@@ -377,7 +377,7 @@ ideas = {
 
 		CHI_zhu_hua = {
 			
-			picture = generic_army_asia_1
+			picture = zhu_hua
 
 			allowed = {
 				original_tag = CHI
@@ -392,7 +392,7 @@ ideas = {
 
 		CHI_yue_shuyou = {
 
-			picture = generic_army_asia_2
+			picture = yue_shuyou
 			
 			allowed = {
 				original_tag = CHI
@@ -409,7 +409,7 @@ ideas = {
 
 		CHI_zhang_zhaoyuan = {
 			
-			picture = generic_army_asia_3
+			picture = zhang_zhaoyuan
 
 			allowed = {
 				original_tag = CHI
@@ -424,7 +424,7 @@ ideas = {
 
 		CHI_wen_qun = {
 			
-			picture = generic_army_asia_1
+			picture = wen_qun
 
 			allowed = {
 				original_tag = CHI
@@ -443,7 +443,7 @@ ideas = {
 		
 		CHI_lu_dangping = {
 			
-			picture = generic_air_asia_1
+			picture = lu_dangping
 			
 			allowed = {
 				original_tag = CHI
@@ -460,7 +460,7 @@ ideas = {
 
 		CHI_qiu_changwei = {
 			
-			picture = generic_air_asia_1
+			picture = qiu_changwei
 			
 			allowed = {
 				original_tag = CHI
@@ -477,7 +477,7 @@ ideas = {
 		
 		CHI_kang_ze = {
 
-			picture = generic_air_asia_2
+			picture = kang_ze
 			
 			allowed = {
 				original_tag = CHI
@@ -497,7 +497,7 @@ ideas = {
 
 		CHI_xu_quan = {
 			
-			picture = generic_navy_asia_1
+			picture = xu_quan
 
 			allowed = {
 				original_tag = CHI
@@ -512,7 +512,7 @@ ideas = {
 
 		CHI_li_yunliang = {
 			
-			picture = generic_navy_asia_2
+			picture = li_yunliang
 
 			allowed = {
 				original_tag = CHI
@@ -527,7 +527,7 @@ ideas = {
 
 		CHI_wu_shaoshu = {
 
-			picture = generic_navy_asia_3
+			picture = wu_shaoshu
 			
 			allowed = {
 				original_tag = CHI
@@ -679,7 +679,7 @@ ideas = {
 	theorist = {
 		CHI_wu_yiming = {
 
-			picture = generic_army_asia_2
+			picture = wu_yiming
 			
 			allowed = {
 				original_tag = CHI
@@ -695,7 +695,7 @@ ideas = {
 		}
 		CHI_mei_qinglian = {
 		
-			picture = generic_army_asia_1
+			picture = mei_qinglian
 			
 			allowed = {
 				original_tag = CHI
@@ -712,7 +712,7 @@ ideas = {
 		
 		CHI_hu_weifan = { 
 
-			picture = generic_air_asia_2
+			picture = hu_weifan
 			
 			allowed = {
 				original_tag = CHI
@@ -727,7 +727,7 @@ ideas = {
 		
 		CHI_shi_huaiqing = {
 		
-			picture = generic_air_asia_1
+			picture = shi_huaiqing
 			
 			allowed = {
 				original_tag = CHI
@@ -744,7 +744,7 @@ ideas = {
 		
 		CHI_sun_duoci = {
 
-			picture = generic_navy_asia_2
+			picture = sun_duoci
 			
 			allowed = {
 				original_tag = CHI
@@ -758,7 +758,7 @@ ideas = {
 		}
 		
 		CHI_zeng_baosen = {
-			picture = generic_air_asia_1
+			picture = zeng_baosen
 			
 			allowed = {
 				original_tag = CHI
@@ -772,7 +772,7 @@ ideas = {
 		}
 		
 		CHI_gao_wenyuan = {
-			picture = generic_air_asia_2
+			picture = gao_wenyuan
 			
 			allowed = {
 				original_tag = CHI
@@ -964,7 +964,7 @@ ideas = {
 
 		CHI_chou_huiying = {
 
-			picture = generic_air_asia_2
+			picture = chou_huiying
 			
 			allowed = {
 				original_tag = CHI
@@ -979,7 +979,7 @@ ideas = {
 		
 		CHI_wang_baojun = {
 
-			picture = generic_army_asia_2
+			picture = wang_baojun
 			
 			allowed = {
 				original_tag = CHI
@@ -994,9 +994,9 @@ ideas = {
 
 		CHI_li_yuyao = {
 
-			picture = generic_army_asia_3
+			picture = li_yuyao
 			
-			allowed = {
+			allowed = {   
 				original_tag = CHI
 			}
 			
@@ -1009,7 +1009,7 @@ ideas = {
 
 		CHI_qin_zupei = {
 
-			picture = generic_army_asia_1
+			picture = qin_zupei
 			
 			allowed = {
 				original_tag = CHI
