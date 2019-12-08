@@ -86,7 +86,7 @@ BYZ_BB_HISTORICAL = {
 
 	unique = {
 		"Nike" "Athena" "Hera" "Persephone" "Artemis" "Pallas" "Hestia" "Aphrodite" "Demeter" "Gaia" "Eos" "Hecate" "Selene" "Mnemosyne" "Phoebe" 
-		"Rhea" "Themis" "Leto" "Clotho" "Lachesis" "Atropos" "Tethys" "Rhea" "Eurbia" "Asteria" "Ganymede" "Eris" "Isis" "Calliope" "Clio" 
+		"Rhea" "Themis" "Leto" "Clotho" "Lachesis" "Atropos" "Tethys" "Eurbia" "Asteria" "Ganymede" "Eris" "Isis" "Calliope" "Clio" 
 		"Euterpe" "Melpomene" "Polyhymnia" "Terpischore" "Thalia" "Urania" "Aglaea" "Eurphorynse" "Thalia" "Thalassa" "Eurynome" "Metis" 
 		"Nemesis" "Alecto" "Tisphone" "Megaera" "Adikia" "Neith" "Ailuros"
 

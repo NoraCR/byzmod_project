@@ -3557,7 +3557,7 @@
 	focus = {
 		id = BYZ_shake_hands_with_the_devil
 		icon = GFX_focus_RAJ_seek_help_from_soviet
-		cost = 8.00
+		cost = 5.00
 		prerequisite = {
 			focus = BYZ_east_asian_alliances
 		}

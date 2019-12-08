@@ -1036,7 +1036,7 @@
  news.202.c:0 "This is a blatant breach of Versailles!"
  news.202.e:0 "Conflict over Danzig has been averted"
  news.203.t:0 "Ming Cedes Kashmir to Marathas"
- news.203.desc:0 "Following the presentation of a [MRT.GetAdjective] ultimatum to [From.GetNameDef], [From.GetLeader] and the [From.GetAdjective] government have decided to comply with every demand rather than face war.\n\nIt is their hope that with the loss of Kashmir, [From.GetNameDef] will be safe from further German territorial ambitions. The situation remains tense, however, and it is telling that Ming border forces have not yet received the order to stand down"
+ news.203.desc:0 "Following the presentation of a [MRT.GetAdjective] ultimatum to [From.GetNameDef], [From.GetLeader] and the [From.GetAdjective] government have decided to comply with every demand rather than face war.\n\nIt is their hope that with the loss of Kashmir, [From.GetNameDef] will be safe from further Marathi territorial ambitions. The situation remains tense, however, and it is telling that Ming border forces have not yet received the order to stand down"
  news.203.a:0 "[MRT.GetLeader] cannot be allowed to do whatever they want!"
  news.203.b:0 "[MRT.GetLeader] is truly without fear."
  news.203.c:0 "Marathan expansion continues."
