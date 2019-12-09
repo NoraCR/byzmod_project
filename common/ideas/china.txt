@@ -371,6 +371,95 @@ ideas = {
 			
 			traits = { compassionate_gentleman }
 		}
+		CHI_lin_zhouqi = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+		CHI_tang_enjie = {
+
+			picture = generic_political_advisor_south_america_3
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = { popular_figurehead }
+		}
+		CHI_fang_renzhi = {
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = { communist_revolutionary }
+	
+			on_add = {
+				country_event = political.1
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+		CHI_wei_sun = {
+			picture = generic_political_advisor_europe_2
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = { democratic_reformer }
+	
+			on_add = {
+				country_event = political.13
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		CHI_zhang_linqi = {
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = { fascist_demagogue }
+	
+			on_add = {
+				country_event = political.7
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
 	}	
 
 	army_chief = {
