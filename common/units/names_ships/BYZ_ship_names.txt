@@ -22,7 +22,7 @@ BYZ_DD_HISTORICAL = {
 		"Lalonde" "Vantas" "Strider" "Arsinoe" "Iothera" "Engels" "1702 Revolution" "1802 Revolution" "1883 Revolution" "Katsimiros" "Plapoutas" "Manos" 
 		"Othonaios" "Tavori" "Non-har'-min" "Mokoena" "Athens University" "Glasgow" "Titan" "Rouge" "Siege of Avalon's Neck" "Basotho" "Kenya" "Gaza" 
 		"Nikomedeia" "Izmit" "Izmir" "Gorz" "Sinope" "Illium" "Aeneiad" "Zenobia" "Cleopatra" "Ptolemy" "Thorn" "Defiant" "Hector" "Lyzander" "Cassandra" 
-		"Doge of Venice" "St. Mark" "St. Augustine" "Dervish" "Julia the Great" "Achilles" "Adrianople" "Thebes" "Corinth" "Steelworkers Syndicate" 
+		"Doge of Venice" "St. Mark" "St. Augustine" "Dervish" "Julia the Great" "Achilles" "Adrianople" "Thebes" "Corinth" "Steelworkers Syndicate" "Hresvelgr" "Lysithea" "Goneril" "Cordelia" "Regan"
 		"Liberty" "Equality" "Victory" "Sorority" "Lesbos" "Agathon" "Valerii" "Thrace" "Philomon" "Christos Soter" "Enymion" "Ellade" "Gorgon" "Medusa" 
 		"Lexandaller" "Argos" "Luxor" "Ravanna" "Woo" "Omega" "Hydra" "Chimaera" "Nestor" "Misopogon" "Polis" "Syndicate" "Ekklesia" "Belgrade" "Maputo"
 		"Commonwealth" "Res Publica" "St. Constantine" "St. Cecilia" "Aurelian" "Battle of Odessa" "Port of Ostia"  "Spirit of '83" "Garbagetown"
