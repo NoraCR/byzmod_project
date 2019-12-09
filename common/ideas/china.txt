@@ -373,7 +373,7 @@ ideas = {
 		}
 		CHI_lin_zhouqi = {
 
-			picture = generic_political_advisor_europe_3
+			picture = lin_zhouqi
 			
 			allowed = {
 				original_tag = CHI
@@ -383,7 +383,7 @@ ideas = {
 		}
 		CHI_tang_enjie = {
 
-			picture = generic_political_advisor_south_america_3
+			picture = tang_enjie
 			
 			allowed = {
 				original_tag = CHI
@@ -392,7 +392,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 		CHI_fang_renzhi = {
-			picture = generic_political_advisor_europe_1
+			picture = fang_renzhi
 			
 			allowed = {
 				original_tag = CHI
@@ -415,7 +415,7 @@ ideas = {
 			}
 		}	
 		CHI_wei_sun = {
-			picture = generic_political_advisor_europe_2
+			picture = wei_sun
 			
 			allowed = {
 				original_tag = CHI
@@ -438,7 +438,7 @@ ideas = {
 			}
 		}
 		CHI_zhang_linqi = {
-			picture = generic_army_europe_2
+			picture = zhang_linqi
 			
 			allowed = {
 				original_tag = CHI

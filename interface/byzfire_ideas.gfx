@@ -711,6 +711,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_pang_shoufeng.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_lin_zhouqi"
+		texturefile = "gfx/interface/ideas/idea_lin_zhouqi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tang_enjie"
+		texturefile = "gfx/interface/ideas/idea_tang_enjie.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fang_renzhi"
+		texturefile = "gfx/interface/ideas/idea_fang_renzhi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wei_sun"
+		texturefile = "gfx/interface/ideas/idea_wei_sun.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_zhang_linqi"
+		texturefile = "gfx/interface/ideas/idea_zhang_linqi.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_zhu_hua"
 		texturefile = "gfx/interface/ideas/idea_zhu_hua.dds"
 	}
