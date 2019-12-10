@@ -3176,7 +3176,7 @@ news_event = {
 	}
 }
 
-# The Fall of Baku
+# The Fall of Byzantion
 news_event = {
 	id = news.108
 	title = news.108.t
@@ -3186,14 +3186,14 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		229 = { is_controlled_by = GER }
-		229 = { is_owned_by = SOV }
-		GER = { has_war_with = SOV }
-		NOT = { has_global_flag = fall_of_baku }
+		341 = { is_controlled_by = FRA }
+		341 = { is_owned_by = BYZ }
+		FRA = { has_war_with = BYZ }
+		NOT = { has_global_flag = fall_of_byzantion }
 	}
 	
 	immediate = {
-		set_global_flag = fall_of_baku
+		set_global_flag = fall_of_byzantion
 	}
 	
 	mean_time_to_happen = {
@@ -3201,21 +3201,21 @@ news_event = {
 	}
 	
 	option = {
-		name = news.145.a
+		name = news.666.a
 		trigger = {
 			NOT = {
-				TAG = GER
-				TAG = SOV
+				TAG = BYZ
+				TAG = FRA
 			}
 		}
 	}
 	option = {
-		name = news.100.b
-		trigger = { TAG = GER }
+		name = news.666.b
+		trigger = { TAG = FRA }
 	}
 	option = {
-		name = news.103.c
-		trigger = { TAG = SOV }
+		name = news.666.c
+		trigger = { TAG = BYZ }
 	}
 }
 
