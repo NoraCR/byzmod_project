@@ -48,8 +48,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Razaq Parsa"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	name = "Razaq Shinwari"
+	desc = "POLITICS_RAZAQ_SHINWARI_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -68,8 +68,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Kabir Shinwari"
-	desc = "POLITICS_KABIR_SHINWARI_DESC"
+	name = "Kabir Barakzai"
+	desc = "POLITICS_KABIR_BARAKZAI_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
