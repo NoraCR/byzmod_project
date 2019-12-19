@@ -310,7 +310,7 @@ country_event = {
 
 	trigger = {
 		has_civil_war = yes
-		original_tag = SPR
+		original_tag = GER
 	}
 
 	option = {
@@ -318,7 +318,7 @@ country_event = {
 		every_other_country = {
 			limit = {
 				has_government = fascism
-				NOT = { original_tag = SPR }
+				NOT = { original_tag = GER }
 			}
 			country_event = { id = spain.4 days = 1 }
 		}
@@ -468,7 +468,7 @@ country_event = {
 	
 	trigger = {
 		has_country_flag = promised_help_republican_spain
-		SPR = { has_civil_war = yes }
+		GER = { has_civil_war = yes }
 		is_lend_leasing = GER
 	}
 
@@ -479,7 +479,7 @@ country_event = {
 	option = {
 		name = germany.906.a
 		clr_country_flag = promised_help_republican_spain
-		SPR = { add_opinion_modifier = { target = ROOT modifier = lend_leased_spanish_civil_war } }
+		GER = { add_opinion_modifier = { target = ROOT modifier = lend_leased_spanish_civil_war } }
 	}
 }
 
