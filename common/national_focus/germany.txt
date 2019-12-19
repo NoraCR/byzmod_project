@@ -2476,7 +2476,12 @@ focus_tree = {
 		cost = 5
 		ai_will_do = {
 			factor = 40
-		}	
+		}
+		available = {
+					GER = {
+							controls_state = 64
+						}
+				}
 		completion_reward = {
 			army_experience = 5
 			64 = {
@@ -2576,4 +2581,3 @@ focus_tree = {
 			}
 		}
 	}
-}
