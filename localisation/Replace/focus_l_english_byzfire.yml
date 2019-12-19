@@ -1243,6 +1243,7 @@
  SIA_military_conversion_desc:0 "As much as it pains us, we will have to convert our more profitable consumer goods factories into those for armaments. Our survival is at stake."
  SIA_jungle_equipment:0 "Jungle Equipment"
  SIA_jungle_equipment_desc:0 "Given our unique geographic situation, our wars will demand specialized equipment, and the manufacture and supply of that equipment is essential."
+ SIA_jungle_equipment_tt:0 "Jungle equipment will be researched."
  SIA_rubber_production:0 "Rubber Production"
  SIA_rubber_production_desc:0 "The Malay Peninsula is one of the world's greatest sources of rubber. We will have to produce more to help the Chinese war industry."
  SIA_reach_out_to_japan:0 "Reach out to Japan"
