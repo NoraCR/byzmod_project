@@ -7,7 +7,7 @@ ideas = {
 			allowed = {
 				original_tag = GER
 			}
-			allowed_civil_war = {
+			allowed = {
 				has_government = democratic
 			}
 			
@@ -23,10 +23,13 @@ ideas = {
 
 			picture = generic_manpower_bonus
 			
-			allowed = { 
-				always = no 
+			allowed = {
+				original_tag = GER
 			}
-			allowed_civil_war = { always = yes }
+			
+			allowed = { 
+				has_government = democratic
+			}
 			
 			removal_cost = -1
 			

@@ -112,4 +112,19 @@ units = {
 		location = 7408 
 		division_template = "Domestic Security"
 	}
+	division = {
+		name = "1st Ming Volunteers"
+		location = 7408 
+		division_template = "Domestic Security"
+	}
+	division = {
+		name = "2nd Ming Volunteers"
+		location = 7408 
+		division_template = "Domestic Security"
+	}
+	division = {
+		name = "3rd Ming Volunteers"
+		location = 7408 
+		division_template = "Domestic Security"
+	}
 }
