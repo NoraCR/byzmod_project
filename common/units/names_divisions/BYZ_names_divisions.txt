@@ -210,7 +210,7 @@ BYZ_MEC_01 =
 
 BYZ_ARM_01 = 
 {
-	name = "Armored Cavalry Division"
+	name = "Cataphract Division"
 
 	for_countries = { BYZ }
 
@@ -221,35 +221,35 @@ BYZ_ARM_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { BYZ_INF_01 }
 
-	fallback_name = "%d Armored Cavalry Division"
+	fallback_name = "%d Cataphract Division"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Armored Cavalry Division" }
-		2 = { "%dnd Armored Cavalry Division" }
-		3 = { "%drd Armored Cavalry Division" }
-		4 = { "%dth Armored Cavalry Division" }
-		5 = { "%dth Armored Cavalry Division" }
-		6 = { "%dth Armored Cavalry Division" }
-		7 = { "%dth Armored Cavalry Division" }
-		8 = { "%dth Armored Cavalry Division" }
-		9 = { "%dth Armored Cavalry Division" }
-		10 = { "%dth Armored Cavalry Division" }
-		11 = { "%dth Armored Cavalry Division" }
-		12 = { "%dth Armored Cavalry Division" }
-		13 = { "%dth Armored Cavalry Division" }
-		14 = { "%dth Armored Cavalry Division" }
-		15 = { "%dth Armored Cavalry Division" }
-		16 = { "%dth Armored Cavalry Division" }
-		17 = { "%dth Armored Cavalry Division" }
-		18 = { "%dth Armored Cavalry Division" }
-		19 = { "%dth Armored Cavalry Division" }
-		20 = { "%dth Armored Cavalry Division" }
-		21 = { "%dst Armored Cavalry Division" }
-		22 = { "%dnd Armored Cavalry Division" }
-		23 = { "%drd Armored Cavalry Division" }
+		1 = { "%dst Cataphract Division" }
+		2 = { "%dnd Cataphract Division" }
+		3 = { "%drd Cataphract Division" }
+		4 = { "%dth Cataphract Division" }
+		5 = { "%dth Cataphract Division" }
+		6 = { "%dth Cataphract Division" }
+		7 = { "%dth Cataphract Division" }
+		8 = { "%dth Cataphract Division" }
+		9 = { "%dth Cataphract Division" }
+		10 = { "%dth Cataphract Division" }
+		11 = { "%dth Cataphract Division" }
+		12 = { "%dth Cataphract Division" }
+		13 = { "%dth Cataphract Division" }
+		14 = { "%dth Cataphract Division" }
+		15 = { "%dth Cataphract Division" }
+		16 = { "%dth Cataphract Division" }
+		17 = { "%dth Cataphract Division" }
+		18 = { "%dth Cataphract Division" }
+		19 = { "%dth Cataphract Division" }
+		20 = { "%dth Cataphract Division" }
+		21 = { "%dst Cataphract Division" }
+		22 = { "%dnd Cataphract Division" }
+		23 = { "%drd Cataphract Division" }
 
 	}
 }
