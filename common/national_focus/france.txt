@@ -2544,13 +2544,14 @@ focus_tree = {
 		}
 
 		available = {
-			GER = {
+			D01 = {
 				has_government = fascism
+				is_in_faction = no
 			}
 		}
 		
 		bypass = {
-			GER = {
+			D01 = {
 				OR = {
 					exists = no
 					is_subject = yes		
@@ -2566,7 +2567,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-			GER = {
+			D01 = {
 				country_event = { id = germany.1 }
 			}
 		}
@@ -2613,7 +2614,7 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = revenge_for_teutonoburg
+		id = revenge_for_teutoburg
 		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
@@ -2939,13 +2940,14 @@ focus_tree = {
 		x = 42
 		y = 4
 		available = {
-			GER = {
+			D01 = {
 				has_government = fascism
+				is_in_faction_with = FRA
 			}
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			GER = {
+			D01 = {
 				country_event = { id = germany.2 }
 			}
 			hidden_effect = {
@@ -2979,7 +2981,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_to_tech_sharing_group = wre_tech_sharing_group
-			GER = { add_to_tech_sharing_group = wre_tech_sharing_group } # you need to be in the group with at least one person
+			D01 = { add_to_tech_sharing_group = wre_tech_sharing_group } # you need to be in the group with at least one person
 		}
 	}
 	focus = {

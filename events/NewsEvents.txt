@@ -567,7 +567,7 @@ news_event = {
 	}
 }
 
-# German Claims Memel - Lithania Folds
+# German Claims Memel - Lithuania Folds
 news_event = {
 	id = news.19
 	title = news.19.t
@@ -10316,7 +10316,7 @@ news_event = {
 news_event = {
 	id = news.510
 	title = news.510.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -10358,7 +10358,7 @@ news_event = {
 news_event = {
 	id = news.511
 	title = news.511.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -10400,7 +10400,7 @@ news_event = {
 news_event = {
 	id = news.512
 	title = news.512.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -10476,7 +10476,7 @@ news_event = {
 news_event = {
 	id = news.514
 	title = news.514.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -10518,7 +10518,7 @@ news_event = {
 news_event = {
 	id = news.515
 	title = news.515.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -10568,7 +10568,7 @@ news_event = {
 news_event = {
 	id = news.516
 	title = news.516.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes 
 	
@@ -10613,11 +10613,11 @@ news_event = {
 	}
 }
 
-# France annexs Baetica
+# France annexes Baetica
 news_event = {
 	id = news.560
 	title = news.560.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_journalists_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -10653,7 +10653,7 @@ news_event = {
 	id = news.561
 	title = news.561.t
 	desc = news.561.d
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_generic_naval_treaty
 	is_triggered_only = yes
 	major = yes
 	
@@ -10688,7 +10688,7 @@ news_event = {
 news_event = {
 	id = news.566
 	title = news.566.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_journalists_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -10723,7 +10723,7 @@ news_event = {
 news_event = {
 	id = news.562
 	title = news.562.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_hitler_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -10758,7 +10758,7 @@ news_event = {
 news_event = {
 	id = news.563
 	title = news.563.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_generic_sign_treaty1
 	is_triggered_only = yes
 	major = yes
 	
@@ -10793,7 +10793,7 @@ news_event = {
 news_event = {
 	id = news.564
 	title = news.564.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_volunteers
 	is_triggered_only = yes
 	major = yes
 	
@@ -10828,7 +10828,7 @@ news_event = {
 news_event = {
 	id = news.565
 	title = news.565.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_generic_sign_treaty2
 	is_triggered_only = yes
 	major = yes
 	
@@ -10859,11 +10859,429 @@ news_event = {
 	}
 }
 
+# France Concedes All Of Bohemia
+news_event = {
+	id = news.567
+	title = news.567.t
+	picture = GFX_news_event_soldiers_marching
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.567.d
+	}
+	
+	option = {
+		name = news.567.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.567.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+	}
+	option = {
+		name = news.567.c
+		trigger = {
+			has_government = communism
+		}
+	}
+}
+
+# France Concedes Some Of Bohemia
+news_event = {
+	id = news.568
+	title = news.568.t
+	picture = GFX_news_event_hitler_handshake
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.568.d
+	}
+	
+	option = {
+		name = news.568.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.568.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+	}
+	option = {
+		name = news.568.c
+		trigger = {
+			has_government = communism
+		}
+	}
+}
+
+# France Refuses to Concede Bohemia
+news_event = {
+	id = news.569
+	title = news.569.t
+	picture = GFX_news_event_military_planning
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.569.d
+	}
+	
+	option = {
+		name = news.569.a
+		trigger = {
+			has_government = fascism
+		}
+	}
+	option = {
+		name = news.569.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+	}
+	option = {
+		name = news.569.c
+		trigger = {
+			has_government = communism
+		}
+	}
+}
+
+# HRE Reacts To French Refusal By Forming Own Faction
+news_event = {
+	id = news.575
+	title = news.575.t
+	picture = GFX_news_event_generic_rally_3
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.575.d
+	}
+	
+	option = {
+		name = news.575.a
+		trigger = {
+			has_government = fascism
+			NOT = {
+			tag = D01
+			tag = FRA
+			}
+		}
+	}
+	option = {
+		name = news.575.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+	}
+	option = {
+		name = news.575.c
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.575.e
+		trigger = {
+			tag = D01
+		}
+		}
+	option = {
+		name = news.575.f
+		trigger = {
+			tag = FRA
+		}
+	}
+}
+
+# France Reacts to HRE Split By Declaring War
+
+news_event = {
+	id = news.576
+	title = news.576.t
+	picture = GFX_news_event_polish_army
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.576.d
+	}
+	
+	option = {
+		name = news.576.a
+		trigger = {
+			has_government = fascism
+			NOT = {
+			tag = D01
+			tag = FRA
+			}
+		}
+	}
+	option = {
+		name = news.576.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+	}
+	option = {
+		name = news.576.c
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.576.e
+		trigger = {
+			tag = D01
+		}
+		}
+	option = {
+		name = news.576.f
+		trigger = {
+			tag = FRA
+		}
+	}
+}	
+
+# Independent HRE Demands Scandinavian Partnership
+
+news_event = {
+	id = news.577
+	title = news.577.t
+	picture = GFX_news_event_eng_imperial_conference
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.577.d
+	}
+	
+	option = {
+		name = news.577.a
+		trigger = {
+			has_government = fascism
+			NOT = {
+			tag = D01
+			}
+		}
+	}
+	option = {
+		name = news.577.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+				tag = DEN
+			}
+		}
+	}
+	option = {
+		name = news.577.c
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.577.e
+		trigger = {
+			tag = D01
+		}
+		}
+	option = {
+		name = news.577.f
+		trigger = {
+			tag = DEN
+		}
+	}
+}
+
+# Scandinavia Joins HRE
+
+news_event = {
+	id = news.578
+	title = news.578.t
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.578.d
+	}
+	
+	option = {
+		name = news.578.a
+		trigger = {
+			has_government = fascism
+			NOT = {
+			tag = D01
+			}
+		}
+	}
+	option = {
+		name = news.578.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+				tag = DEN
+			}
+		}
+	}
+	option = {
+		name = news.578.c
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.578.e
+		trigger = {
+			tag = D01
+		}
+		}
+	option = {
+		name = news.578.f
+		trigger = {
+			tag = DEN
+		}
+	}
+}
+
+# Scandinavia Rebuffs HRE
+
+news_event = {
+	id = news.579
+	title = news.579.t
+	picture = GFX_news_event_king_speech
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.579.d
+	}
+	
+	option = {
+		name = news.579.a
+		trigger = {
+			has_government = fascism
+			NOT = {
+			tag = D01
+			}
+		}
+	}
+	option = {
+		name = news.579.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+				tag = DEN
+			}
+		}
+	}
+	option = {
+		name = news.579.c
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.579.e
+		trigger = {
+			tag = D01
+		}
+		}
+	option = {
+		name = news.579.f
+		trigger = {
+			tag = DEN
+		}
+	}
+}
+
+# HRE Reacts To Scandinavian Rejection By Declaring War
+
+news_event = {
+	id = news.580
+	title = news.580.t
+	picture = GFX_news_event_005
+	is_triggered_only = yes
+	major = yes
+	
+	desc = {
+		text = news.580.d
+	}
+	
+	option = {
+		name = news.580.a
+		trigger = {
+			has_government = fascism
+			NOT = {
+			tag = D01
+			}
+		}
+	}
+	option = {
+		name = news.580.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+				has_government = communism
+				tag = DEN
+			}
+		}
+	}
+	option = {
+		name = news.580.c
+		trigger = {
+			has_government = communism
+		}
+	}
+	option = {
+		name = news.580.e
+		trigger = {
+			tag = D01
+		}
+		}
+	option = {
+		name = news.580.f
+		trigger = {
+			tag = DEN
+		}
+	}
+}
+
+##### Haida Stuff
+
 # Haida Police Action
 news_event = {
 	id = news.570
 	title = news.570.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -10916,7 +11334,7 @@ news_event = {
 news_event = {
 	id = news.571
 	title = news.571.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -10970,7 +11388,7 @@ news_event = {
 news_event = {
 	id = news.572
 	title = news.572.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -11023,7 +11441,7 @@ news_event = {
 news_event = {
 	id = news.573
 	title = news.573.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 
@@ -11052,7 +11470,7 @@ news_event = {
 news_event = {
 	id = news.574
 	title = news.574.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	
 	trigger = {
 		date > 1936.4.3
@@ -11101,7 +11519,7 @@ news_event = {
 news_event = {
 	id = news.600
 	title = news.600.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -11137,7 +11555,7 @@ news_event = {
 news_event = {
 	id = news.700
 	title = news.700.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -11197,7 +11615,7 @@ news_event = {
 news_event = {
 	id = news.720
 	title = news.720.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -11228,11 +11646,11 @@ news_event = {
 	}
 }
 
-# Canada Joins CEDP
+# NGF Joins CEDP
 news_event = {
 	id = news.710
 	title = news.710.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -11267,7 +11685,7 @@ news_event = {
 news_event = {
 	id = news.721
 	title = news.721.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -11302,7 +11720,7 @@ news_event = {
 news_event = {
 	id = news.701
 	title = news.701.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -11337,7 +11755,7 @@ news_event = {
 news_event = {
 	id = news.702
 	title = news.702.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	major = yes
 	
@@ -11373,7 +11791,7 @@ news_event = {
 news_event = {
 	id = news.703
 	title = news.703.t
-	picture = GFX_news_event_germany_speech
+	picture = GFX_news_event_german_speech
 	is_triggered_only = yes
 	fire_only_once = yes
 	
@@ -11430,6 +11848,9 @@ news_event = {
 		}
 	}
 }
+
+# Indie British Congo 
+
 news_event = {
 	id = news.705 #Britain Grants Congo Independence
 	title = news.705.t
@@ -11906,7 +12327,7 @@ news_event = {
 	}
 }
 
-# Stanislaus Deposed
+# Stanislaus Deposed Boh War
 news_event = {
 	id = news.1007
 	title = news.1007.t
@@ -11950,6 +12371,56 @@ news_event = {
 	
 	option = {
 		name = news.1007.e
+		trigger = {
+			has_government = neutrality
+		}
+	}
+}
+
+# Stanislaus Deposed HRE Boh Annexation
+news_event = {
+	id = news.1008
+	title = news.1008.t
+	desc = news.1008.desc
+	picture = GFX_news_event_generic_parliament
+	
+	major = yes
+	is_triggered_only = yes	
+	
+	immediate = {
+		set_global_flag = POL_monarch_deposed 
+	}
+	
+	option = {
+		trigger = {
+			has_government = fascism
+		}
+		name = news.1008.a
+	}
+	
+	option = {
+		trigger = {
+			has_government = pangalism
+		}
+		name = news.1008.b
+	}
+	
+	option = {
+		trigger = {
+				has_government = communism
+		}
+		name = news.1008.c
+	}
+	
+	option = {
+		trigger = {
+			has_government = democratic
+		}
+		name = news.1008.d
+	}
+	
+	option = {
+		name = news.1008.e
 		trigger = {
 			has_government = neutrality
 		}

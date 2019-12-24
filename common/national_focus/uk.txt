@@ -2360,9 +2360,9 @@ focus_tree = {
 		x = 42
 		y = 2
 		ai_will_do = {
-			factor = 0
+			factor = 1
 			modifier = {
-				factor = 3
+				factor = 40
 				has_global_flag = byz_mullerist_coup
 			}
 		}
@@ -2451,6 +2451,9 @@ focus_tree = {
 			SOV = {
 				add_opinion_modifier = { target = ENG modifier = embargo }
 			}
+			D01 = {
+				add_opinion_modifier = { target = ENG modifier = embargo }
+			}
 		}
 	}
 	focus = {
@@ -2467,11 +2470,14 @@ focus_tree = {
 		}
 
 		available = {
-
+			DEN = {
+				is_in_faction = no
+			}
 		}
-		
 		bypass = {
-
+			DEN = {
+				is_in_faction = yes
+			}
 		}
 
 		cancel_if_invalid = yes
@@ -2527,7 +2533,9 @@ focus_tree = {
 		}
 
 		available = {
-
+			NOT = {
+				country_exists = D01
+			}
 		}
 		
 		bypass = {

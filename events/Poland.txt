@@ -42,7 +42,7 @@ country_event = { ##STANISLAUS WINS THE WAR
 	}
 }
 
-country_event = { ##STANISLAUS DEPOSED
+country_event = { ##STANISLAUS DEPOSED BOHEMIA WAR
 	id = poland.11
 	title = poland.11.t
 	desc = poland.11.d
@@ -76,68 +76,38 @@ country_event = { ##STANISLAUS DEPOSED
 			expire = "1965.1.1"
 			ideology = fascism_ideology
 			traits = {
-
+			political_dancer
 			}
 		}
 		hidden_effect = { news_event = { id = news.1007 hours = 48 } }
 	}
 }
 
+## STANISLAUS DEPOSED HRE ANNEXING BOHEMIA
 country_event = {
 	id = poland.12
 	title = poland.12.t
 	desc = poland.12.d
 	picture = GFX_report_event_polish_tanks_01
 	
-	trigger = {
-		tag = POL
-		has_completed_focus = POL_artillery_modernisation
-		has_government = neutrality
-		has_war_with = ITA
-		NOT = { is_in_faction_with = SOV }
-		417 = {
-			controller = {
-				OR = {
-					tag = POL
-					is_in_faction_with = POL			
-				}
-				has_war_with = ITA
-			}
-		}
-		OR = {
-			divisions_in_state = {
-				state = 162
-				size > 0
-			}
-			divisions_in_state = {
-				state = 157
-				size > 0
-			}
-			divisions_in_state = {
-				state = 2
-				size > 0
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
 	fire_only_once = yes
-
+	is_triggered_only = yes
+	
 	option = {
 		name = poland.12.a
-		custom_effect_tooltip = WOJTEK_COMMANDER
-		hidden_effect = {
-			create_corps_commander = {
-				name = "Wojtek"
-				portrait_path = "gfx/leaders/POL/Portrait_POL_Voytek.dds"
-				traits = { bearer_of_artillery }
-				skill = 1
+		add_stability = -0.10
+		set_party_name = { ideology = fascism long_name = POL_military_junta name = POL_military_junta }
+		create_country_leader = {
+			name = "Włodzimierz Węsierski-Kwilecki"
+			desc = "POLITICS_WLODZIMIERZ_WESIERSKI_KWILECKI_2_DESC"
+			picture = "gfx/leaders/generic/generic_asia_m1.png"
+			expire = "1965.1.1"
+			ideology = fascism_ideology
+			traits = {
+			political_dancer
 			}
-			set_country_flag = POL_vojtek_commander
 		}
+		hidden_effect = { news_event = { id = news.1008 hours = 48 } }
 	}
-
 }
+	

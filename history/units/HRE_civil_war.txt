@@ -151,12 +151,12 @@ units = {
 	}
 	division = {
 		name = "29. Legionäre Kampfgruppe 'Exercitus Imperii'"
-		location = 6332 # Prussen
+		location = 6332 # Preussen
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {
 		name = "30. Legionäre Kampfgruppe 'Neo-Milize'"
-		location = 6332 # Prussen
+		location = 6332 # Preussen
 		division_template = "Legionäre Kampfgruppe"
 	}
 	division = {

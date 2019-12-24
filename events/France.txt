@@ -53,7 +53,7 @@ country_event = {
 		5 = { add_core_of = POL }
 		POL = { transfer_state = 85 } # Danzig
 		85 = { add_core_of = POL }
-		POL = { transfer_state = 63 } # Hinterprussen
+		POL = { transfer_state = 63 } # Hinterpreussen
 		63 = { add_core_of = POL }
 		BAV = { transfer_state = 54 } # Franken
 		54 = { add_core_of = BAV }
@@ -310,4 +310,108 @@ country_event = {
 	}
 }
 
+##### HRE Events
+
+# HRE Demands Bohemia
+
+country_event = {
+	id = france.55
+	title = france.55.t
+	desc = france.55.d
+	picture = GFX_report_event_german_inspect_troops
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = france.55.a
+		ai_chance = { factor = 60 }
+		D01 = {
+			add_state_core = 9
+			add_state_core = 69
+			add_state_core = 75
+			add_state_core = 74
+			set_state_owner = 9
+			set_state_owner = 69
+			set_state_owner = 75
+			set_state_owner = 74
+			add_named_threat = { threat = 4 name = france.55.t }
+		}
+		hidden_effect = {
+			news_event = { id = news.567 hours = 6}
+		}
+	}
+	
+	option = {
+		name = france.55.b
+		ai_chance = { factor = 80 }
+		D01 = {
+			add_state_core = 9
+			add_state_core = 69
+			set_state_owner = 9
+			set_state_controller = 9
+			set_state_owner = 69
+			set_state_controller = 69
+			add_named_threat = { threat = 2 name = france.55.t }
+		}
+		hidden_effect = {
+				news_event = { id = news.568 hours = 6}
+		}
+	}
+	
+	option = {
+		name = france.55.c
+		ai_chance = {factor = 10}
+		
+		hidden_effect = {
+			D01 = {
+				country_event = { 
+					id = germany.4
+					days = 7
+				}
+		}
+			news_event = { id = news.569 hours = 6}
+		}
+	}
+}
+
+# HRE Leaves WRE
+
+country_event = {
+	id = france.56
+	title = france.56.t
+	desc = france.56.d
+	picture = GFX_report_event_fascist_speech
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = france.56.a
+		ai_chance = { 
+			factor = 40 
+			modifier = {
+				factor = 0
+				OR = {
+					has_war_with = BYZ
+					has_war_with = ENG
+					has_war_with = CHI
+					has_war_with = HDA
+					has_war_with = JAP
+				}
+			}
+		}
+		declare_war_on = {
+				target = D01
+				type = annex_everything
+		}
+		hidden_effect = {
+			news_event = { id = news.576 hours = 6}
+		}
+		}
+	option = {
+		name = france.56.b
+		ai_chance = {factor = 40}
+		}
+}
 

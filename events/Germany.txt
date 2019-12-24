@@ -228,6 +228,7 @@ country_event = {
 					set_stability = 0.9
 					#country_event = { id = germany.901 days = 1 }
 					load_oob = "HRE_Civil_War"
+					load_focus_tree = germany
 				}
 				news_event = { hours = 6 id = news.63 }
 				set_global_flag = spanish_civil_war
@@ -294,9 +295,9 @@ country_event = {
 				#country_event = { id = germany.902 days = 7 }
 			}
 		}
-			
-			custom_effect_tooltip = republicans_chosen
+		custom_effect_tooltip = republicans_chosen
 		}
+		
 }
 
 # HRE: Seek Support
@@ -714,7 +715,7 @@ country_event = {
 	option = {
 		name = germany.1.a
 		FRA = {
-			add_to_faction = GER
+			add_to_faction = D01
 		}
 		hidden_effect = {
 				news_event = { id = news.565 hours = 6}
@@ -728,8 +729,9 @@ country_event = {
 	id = germany.2
 	title = germany.2.t
 	desc = germany.2.d
-	picture = GFX_report_event_german_politician_speech
+	picture = GFX_report_event_german_troops_paris
 	
+	fire_only_once = yes
 	is_triggered_only = yes
 	
 	option = {
@@ -742,21 +744,23 @@ country_event = {
 			target = BAV 
 			transfer_troops = yes 
 		}
-		50 = { add_core_of = GER }
-		52 = { add_core_of = GER }
-		153 = { add_core_of = GER }
-		326 = { add_core_of = GER }
-		53 = { add_core_of = GER }
-		152 = { add_core_of = GER }
-		4 = { add_core_of = GER }
-		155 = { add_core_of = GER }
-		70 = { add_core_of = GER }
-		664 = { add_core_of = GER }
-		71 = { add_core_of = GER }
-		73 = { add_core_of = GER }
+		50 = { add_core_of = D01 }
+		52 = { add_core_of = D01 }
+		153 = { add_core_of = D01 }
+		326 = { add_core_of = D01 }
+		53 = { add_core_of = D01 }
+		152 = { add_core_of = D01 }
+		4 = { add_core_of = D01 }
+		155 = { add_core_of = D01 }
+		70 = { add_core_of = D01 }
+		664 = { add_core_of = D01 }
+		71 = { add_core_of = D01 }
+		73 = { add_core_of = D01 }
+		set_state_owner = 153
+		set_state_controller = 153
 		add_named_threat = { threat = 10 name = germany.2.t }
 		hidden_effect = {
-				news_event = { id = news.516 hours = 6}
+				news_event = { id = news.564 hours = 6}
 		}
 	}
 }
@@ -782,3 +786,109 @@ country_event = {
 	}
 }
 
+# Load Focus Tree For HRE
+
+country_event = {
+	id = germany.3
+	title = germany.3.t
+	desc = germany.3.d
+	picture = GFX_report_event_spain_civil_war_volunteers_01
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+		option = {
+		name = germany.3.a
+		load_focus_tree = germany
+		}
+	}
+
+# French Reject Bohemian Request
+
+country_event = {
+	id = germany.4
+	title = germany.4.t
+	desc = germany.4.d
+	picture = GFX_report_event_fascists_posing
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+		option = {
+			name = germany.4.a
+			ai_chance = { factor = 20 }
+			
+			leave_faction = yes
+			create_faction = "holy_roman_empire"
+			
+			add_ideas = GER_our_own_path
+			GER = {
+			add_state_core = 9
+			add_state_core = 69
+			add_state_core = 75
+			add_state_core = 74
+			}
+			hidden_effect = {
+				news_event = { id = news.575 hours = 6}
+				FRA = {
+					country_event = { 
+						id = france.56
+						days = 7
+					}
+				}
+			}
+			}
+		option = {
+			name = germany.4.b
+			ai_chance = { factor = 40 }
+			
+			add_state_claim = 9
+			add_state_claim = 69
+			add_state_claim = 75
+			add_state_claim = 74
+		}
+		
+	}
+
+# Scandinavia Rejects Pressure
+
+country_event = {
+	id = germany.5
+	title = germany.5.t
+	desc = germany.5.d
+	picture = GFX_report_event_fascists_posing
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+		# It's War, Then
+		option = {
+			name = germany.5.a
+			ai_chance = { factor = 40 }
+				modifier = {
+					factor = 0.1
+					OR = {
+						has_war_with = BYZ
+						has_war_with = ENG
+						has_war_with = FRA
+						has_war_with = HDA
+						has_war_with = POL
+					}
+				}
+			declare_war_on = {
+				type = annex_everything
+				target = DEN
+		}
+			add_named_threat = { threat = 4 name = germany.5.t }
+			hidden_effect = {
+				news_event = { id = news.580 hours = 6}	
+			}
+		}
+		
+		# War Is Not Worth The Cost
+		option = {
+			name = germany.5.b
+			ai_chance = {factor = 40 }
+			
+			}
+	}

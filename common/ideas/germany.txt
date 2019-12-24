@@ -7,10 +7,11 @@ ideas = {
 			allowed = {
 				original_tag = GER
 			}
-			allowed = {
-				has_government = democratic
-			}
 			
+			allowed_civil_war = {
+				always = yes
+			}
+
 			picture = triumphant_will
 			
 			removal_cost = -1
@@ -27,8 +28,8 @@ ideas = {
 				original_tag = GER
 			}
 			
-			allowed = { 
-				has_government = democratic
+			allowed_civil_war = {
+				always = yes
 			}
 			
 			removal_cost = -1
@@ -73,7 +74,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-			
+				always = yes
 			}
 			
 			picture = generic_infantry_bonus
@@ -89,7 +90,6 @@ ideas = {
 		GER_defensive_measures_idea1 = {
 		
 			allowed = {
-				original_tag = CZE
 				always = no
 			}
 
@@ -109,7 +109,6 @@ ideas = {
 		GER_defensive_measures_idea2 = {
 		
 			allowed = {
-				original_tag = CZE
 				always = no
 			}
 
@@ -136,13 +135,13 @@ ideas = {
 				has_government = fascism
 			}
 			
-			picture = generic_fascism_drift_bonus
+			picture = vittoria_mutilata
 
 			removal_cost = -1
 			
 			modifier = {
-				fascism_drift = 0.10
-				
+				drift_defence_factor = 0.3
+				stability_factor = 0.1
 			}
 		}
 		GER_the_federation_shall_never_die = {
@@ -166,8 +165,8 @@ ideas = {
 				army_core_defence_factor = 0.1
 			}
 		}
-		GER_our_own_path_idea = {
-			picture = FRA_army_of_aggression_focus
+		GER_our_own_path = {
+			picture = ger_revive_the_kaiserreich
 			allowed = {
 				always = no
 			}
@@ -178,7 +177,8 @@ ideas = {
 
 			modifier = {
 				army_org = 5
-				justify_war_goal_time = -0.25
+				war_support_factor = 0.1
+				army_core_attack_factor = 0.1
 			}
 		}
 		GER_democratic_bastion = {
@@ -303,10 +303,35 @@ ideas = {
 				defense_bonus_against = 0.1
 			}
 		}
+		GER_restore_HRE = {
+
+			picture = ger_bulwark_against_bolshevism
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = ENG
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+
+			targeted_modifier = {
+				tag = BYZ
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
 		GER_export_focus1 = {
 		
 			allowed = {
-				original_tag = CZE
 				always = no
 			}
 
@@ -325,7 +350,6 @@ ideas = {
 		GER_export_focus2 = {
 		
 			allowed = {
-				original_tag = CZE
 				always = no
 			}
 
@@ -351,7 +375,6 @@ ideas = {
 		GER_export_focus3 = {
 		
 			allowed = {
-				original_tag = CZE
 				always = no
 			}
 

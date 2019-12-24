@@ -461,7 +461,7 @@ focus_tree = {
 		}
 
 		available = {
-		
+			date > 1937.9.15
 		}
 		
 		bypass = {
