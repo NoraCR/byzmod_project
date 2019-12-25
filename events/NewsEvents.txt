@@ -12039,6 +12039,44 @@ news_event = {
 	}
 }
 
+#Teodor Wolinski film
+
+news_event = {
+    id = news.994
+    title = news.994.t
+    desc = news.994.d
+    picture = GFX_news_event_soldiers_marching
+   
+    major = yes
+   
+    trigger = {
+        date > 1938.6.15
+        9 = { is_controlled_by = POL }
+        NOT = { has_global_flag = nyw_film }
+    }
+   
+    immediate = {
+        set_global_flag = nyw_film
+    }
+   
+    mean_time_to_happen = {
+        days = 2
+    }
+   
+    option = {
+        name = news.994.a
+        trigger = {
+            NOT = {
+                TAG = POL
+            }
+        }
+    }
+    option = {
+        name = news.994.b
+        trigger = { TAG = POL }
+    }
+}
+
 news_event = { #Mullerists win
 	id = news.1001
 	title = news.1001.t
