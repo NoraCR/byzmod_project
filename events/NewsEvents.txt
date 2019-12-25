@@ -4042,7 +4042,7 @@ news_event = {
 	}
 }
 
-# The Fall of Calcutta
+# The Fall of Mumbai
 news_event = {
 	id = news.125
 	title = news.125.t
@@ -4052,9 +4052,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		431 = { is_controlled_by = JAP }
-		431 = { is_owned_by = ENG }
-		JAP = { has_war_with = ENG }
+		429 = { is_controlled_by = CHI }
+		429 = { is_owned_by = MRT }
+		JAP = { has_war_with = MRT }
 		NOT = { has_global_flag = fall_of_calcutta }
 	}
 	
@@ -4070,22 +4070,22 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = JAP
-				TAG = ENG
+				TAG = CHI
+				TAG = MRT
 			}
 		}
 	}
 	option = {
 		name = news.117.b
-		trigger = { TAG = JAP }
+		trigger = { TAG = CHI }
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = ENG }
+		trigger = { TAG = MRT }
 	}
 }
 
-# The Fall of New Delhi
+# The Fall of Orissa
 news_event = {
 	id = news.126
 	title = news.126.t
@@ -4095,14 +4095,14 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		439 = { is_controlled_by = JAP }
-		439 = { is_owned_by = ENG }
-		JAP = { has_war_with = ENG }
-		NOT = { has_global_flag = fall_of_new_delhi }
+		426 = { is_controlled_by = CHI }
+		426 = { is_owned_by = RAJ }
+		CHI = { has_war_with = RAJ }
+		NOT = { has_global_flag = fall_of_orissa }
 	}
 	
 	immediate = {
-		set_global_flag = fall_of_new_delhi
+		set_global_flag = fall_of_orissa
 	}
 	
 	mean_time_to_happen = {
@@ -4113,18 +4113,18 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = JAP
-				TAG = ENG
+				TAG = RAJ
+				TAG = CHI
 			}
 		}
 	}
 	option = {
 		name = news.117.b
-		trigger = { TAG = JAP }
+		trigger = { TAG = CHI }
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = ENG }
+		trigger = { TAG = RAJ }
 	}
 }
 
