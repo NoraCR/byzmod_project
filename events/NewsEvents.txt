@@ -3735,7 +3735,7 @@ news_event = {
 	}
 }
 
-# The Fall of Los Angeles
+# The Fall of Seoul (China)
 news_event = {
 	id = news.120
 	title = news.120.t
@@ -3745,14 +3745,14 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		378 = { is_controlled_by = JAP }
-		378 = { is_owned_by = USA }
-		JAP = { has_war_with = USA }
-		NOT = { has_global_flag = fall_of_los_angeles }
+		525 = { is_controlled_by = CHI }
+		525 = { is_owned_by = KOR }
+		JAP = { has_war_with = KOR }
+		NOT = { has_global_flag = fall_of_seoul_china }
 	}
 	
 	immediate = {
-		set_global_flag = fall_of_los_angeles
+		set_global_flag = fall_of_seoul_china
 	}
 	
 	mean_time_to_happen = {
@@ -3763,18 +3763,18 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = JAP
-				TAG = USA
+				TAG = KOR
+				TAG = CHI
 			}
 		}
 	}
 	option = {
 		name = news.117.b
-		trigger = { TAG = JAP }
+		trigger = { TAG = CHI }
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = USA }
+		trigger = { TAG = KOR }
 	}
 }
 
@@ -4171,7 +4171,7 @@ news_event = {
 	}
 }
 
-# The Fall of Berlin (USA)
+# The Fall of Pyongyang (China)
 news_event = {
 	id = news.128
 	title = news.128.t
@@ -4181,14 +4181,14 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		64 = { is_controlled_by = USA }
-		64 = { is_owned_by = GER }
-		USA = { has_war_with = GER }
-		NOT = { has_global_flag = fall_of_berlin_usa }
+		527 = { is_controlled_by = CHI }
+		527 = { is_owned_by = KOR }
+		KOR = { has_war_with = CHI }
+		NOT = { has_global_flag = fall_of_pyongyang_china }
 	}
 	
 	immediate = {
-		set_global_flag = fall_of_berlin_usa
+		set_global_flag = fall_of_pyongyang_china
 	}
 	
 	mean_time_to_happen = {
@@ -4199,18 +4199,18 @@ news_event = {
 		name = news.139.a
 		trigger = {
 			NOT = {
-				TAG = USA
-				TAG = GER
+				TAG = CHI
+				TAG = KOR
 			}
 		}
 	}
 	option = {
 		name = news.128.b
-		trigger = { TAG = USA }
+		trigger = { TAG = CHI }
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = GER }
+		trigger = { TAG = KOR }
 	}
 }
 
