@@ -1117,6 +1117,9 @@ country_event = {
 	trigger = {
 		date > 1938.1.10
 		tag = BYZ
+		BYZ = { 
+			NOT = { has_country_flag = byz_philomon_out 
+		}
 	}
 	
 	option = {
@@ -1125,5 +1128,6 @@ country_event = {
 			factor = 100
 		}
 		remove_ideas = BYZ_philomon_anatolikos
+		set_country_flag = byz_philomon_out
 	}
 }
