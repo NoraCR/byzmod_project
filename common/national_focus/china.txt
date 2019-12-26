@@ -122,6 +122,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_named_threat = { threat = 1 name = CHI_army_dominance }
 			army_experience = 5
 
 

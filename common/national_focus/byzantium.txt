@@ -3231,6 +3231,10 @@
 				exists = yes
 				is_puppet = no
 			}
+			OR = {
+				threat > 0.2
+				GER = { has_war = yes }
+			}
 		}
 		bypass = {
 			OR = {

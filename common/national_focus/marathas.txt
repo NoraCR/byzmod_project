@@ -80,7 +80,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_named_threat = { threat = 5 name = GER_our_place_in_the_sun }
+			add_named_threat = { threat = 5 name = MRT_international_communism }
 			add_war_support = 0.05
 		}
 	}
@@ -615,6 +615,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 120
+			add_named_threat = { threat = 5 name = MRT_sharqi_constitution }
 			country_event = { id = marathas.1 }
 		}
 	}
@@ -733,6 +734,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.1
+			add_named_threat = { threat = 1 name = MRT_personality_cult }
 			country_event = { id = marathas.101 hours = 6 }
 		}
 	}
@@ -1433,6 +1435,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_named_threat = { threat = 3 name = MRT_against_fascism }
 			every_other_country = {
 				limit = { 
 					has_government = fascism
@@ -1556,6 +1559,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_named_threat = { threat = 10 name = MRT_against_capitalism }
 			every_other_country = {
 				limit = { 
 					has_government = pangalism
@@ -1736,6 +1740,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_named_threat = { threat = 10 name = MRT_against_liberalism }
 			every_other_country = {
 				limit = { 
 					has_government = democratic

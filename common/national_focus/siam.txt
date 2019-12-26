@@ -479,6 +479,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			hidden_effect = {
+				add_named_threat = { threat = 20 name = SIA_strike_break }
 				set_capital = 289
 				start_civil_war = {
 					ruling_party = pangalism

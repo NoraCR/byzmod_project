@@ -121,6 +121,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_political_power = 120
+			add_named_threat = { threat = 1 name = rome_reborn }
 		}
 	}
 	focus = {
@@ -2335,6 +2336,7 @@ focus_tree = {
 			}
 			hidden_effect = {
 				news_event = { id = news.501 hours = 6}
+				add_named_threat = { threat = 1 name = alpine_fortresses }
 			}
 		}
 	}
@@ -2363,6 +2365,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = { 
+			add_named_threat = { threat = 1 name = protect_southern_coast }
 			if = {
 				limit = { controls_state = 22 }
 				22 = {
@@ -2465,6 +2468,7 @@ focus_tree = {
         will_lead_to_war_with = BYZ
 		available_if_capitulated = yes
 		completion_reward = {
+			add_named_threat = { threat = 10 name = one_rome }
 			create_wargoal = {
 				type = annex_everything
 				target = BYZ
@@ -2524,6 +2528,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
+			add_named_threat = { threat = 5 name = the_german_question }
 			add_political_power = 60
 		}
 	}
@@ -2652,6 +2657,7 @@ focus_tree = {
 		will_lead_to_war_with = GER
 		available_if_capitulated = yes
 		completion_reward = {
+			add_named_threat = { threat = 5 name = revenge_for_teutoburg }
 			create_wargoal = {
 				type = annex_everything
 				target = GER
@@ -2720,7 +2726,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-			add_named_threat = { threat = 2 name = absorb_leon }
+			add_named_threat = { threat = 3 name = absorb_leon }
 			country_event = { id = france.50 }
 		}
 	}
@@ -2749,7 +2755,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
-			add_named_threat = { threat = 3 name = absorb_algarve }
+			add_named_threat = { threat = 5 name = absorb_algarve }
 			country_event = { id = france.51 }
 		}
 	}
@@ -2783,6 +2789,7 @@ focus_tree = {
 		completion_reward = {
 			puppet = SPR
 			country_event = { id = france.53 }
+			add_named_threat = { threat = 5 name = integration_and_arrangement }
 		}
 	}
 	focus = {
@@ -2893,6 +2900,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
+			add_named_threat = { threat = 2 name = invite_russia_to_WRE }
 			SOV = {
 				country_event = { id = tr.1 }
 			}
