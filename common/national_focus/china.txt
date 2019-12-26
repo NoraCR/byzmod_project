@@ -2357,6 +2357,7 @@ focus_tree = {
 		y = 4
 		completion_reward = {       
 			army_experience = 5
+			add_named_threat = { threat = 5 name = CHI_fortify_yalu }
 			408 = {
 				add_building_construction = { type = bunker province = 11879 level = 2 instant_build = yes }
 			}
@@ -2399,6 +2400,7 @@ focus_tree = {
 			}
 		}	
 		completion_reward = {
+			add_named_threat = { threat = 10 name = CHI_bonin_islands_incident }
 			create_wargoal = {
 				type = puppet_wargoal_focus
 				target = JAP
