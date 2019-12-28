@@ -2595,7 +2595,7 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		date > 1936.4.20
+		date > 1936.6.20
 		9 = { is_controlled_by = POL }
 		NOT = { has_global_flag = havelka_survived }
 	}
