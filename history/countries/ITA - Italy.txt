@@ -23,8 +23,7 @@ set_technology = {
 	interwar_antiair = 1
 	gwtank = 1
 	basic_light_tank = 1
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
+	basic_heavy_tank = 1
 	early_fighter = 1
 	early_bomber = 1
 	naval_bomber1 = 1
@@ -81,11 +80,11 @@ set_politics = {
 }
 
 set_popularities = {
-	fascism = 22
+	fascism = 14
 	communism = 56
 	neutrality = 0
-	pangalism = 2
-	democratic = 20
+	pangalism = 0
+	democratic = 30
 }
 
 

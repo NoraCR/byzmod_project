@@ -36,6 +36,7 @@ country_event = { ##STANISLAUS WINS THE WAR
 		name = poland.10.a
 		remove_ideas = POL_discontented_nobility
 		remove_ideas = POL_diplomatic_isolation
+		FRA = { add_to_faction = POL }
 		hidden_effect = {
 			set_country_flag = POL_nobles_appeased
 		}
