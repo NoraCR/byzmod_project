@@ -32,6 +32,11 @@ entity = {
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 }
 
+entity = { 
+	clone = "BYZ_infantry_2_entity"
+	name = "BYZ_infantry_3_entity"
+}
+
 entity = {
 	clone = "commonwealth_gfx_motorized_entity"
 	name = "BYZ_motorized_entity"
@@ -215,6 +220,52 @@ entity = {
 }
 
 entity = { 
+	clone = "USA_infantry_entity"
+	name = "GHA_infantry_entity"
+}
+entity = { 
+	clone = "USA_infantry_2_entity"
+	name = "GHA_infantry_2_entity"
+}
+entity = { 
+	clone = "USA_infantry_3_entity"
+	name = "GHA_infantry_3_entity"
+}
+
+entity = {
+		name = "GHA_motorized_entity"
+		clone = "USA_motorized_entity"
+}
+
+entity = {
+		name = "GHA_mechanized_entity"
+		clone = "USA_mechanized_entity"
+}
+
+entity = { 
+	clone = "INS_infantry_entity"
+	name = "AYI_infantry_entity"
+}
+entity = { 
+	clone = "INS_infantry_2_entity"
+	name = "AYI_infantry_2_entity"
+}
+entity = { 
+	clone = "INS_infantry_3_entity"
+	name = "AYI_infantry_3_entity"
+}
+
+entity = {
+		name = "AYI_motorized_entity"
+		clone = "INS_motorized_entity"
+}
+
+entity = {
+		name = "AYI_mechanized_entity"
+		clone = "INS_mechanized_entity"
+}
+
+entity = { 
 	clone = "USA_light_armor_entity"
 	name = "BYZ_light_armor_entity"
 }
@@ -226,5 +277,74 @@ entity = {
 
 entity = { 
 	clone = "USA_heavy_armor_entity"
-	name = "BYZ_heavy_armor_entity
+	name = "BYZ_heavy_armor_entity"
 }
+
+entity = { 
+	clone = "USA_battleship_0_entity"
+	name = "BYZ_battleship_0_entity"
+}
+
+entity = { 
+	clone = "USA_battleship_entity"
+	name = "BYZ_battleship_entity"
+}
+
+
+entity = { 
+	clone = "USA_destroyer_entity"
+	name = "BYZ_destroyer_entity"
+}
+
+entity = { 
+	clone = "USA_light_cruiser_entity"
+	name = "BYZ_light_cruiser_entity"
+}
+
+entity = { 
+	clone = "USA_carrier_entity"
+	name = "BYZ_carrier_entity"
+}
+
+entity = { 
+	clone = "USA_carrier_1_entity"
+	name = "BYZ_carrier_1_entity"
+}
+
+entity = { 
+	clone = "USA_heavy_cruiser_0_entity"
+	name = "BYZ_heavy_cruiser_0_entity"
+}
+
+entity = { 
+	clone = "USA_heavy_cruiser_entity"
+	name = "BYZ_heavy_cruiser_entity"
+}
+
+
+entity = { 
+	clone = "USA_super_heavy_armor_entity"
+	name = "BYZ_super_heavy_armor_entity"
+}
+
+entity = { 
+	clone = "USA_modern_armor_entity"
+	name = "BYZ_modern_armor_entity"
+}
+
+entity = { 
+	clone = "USA_light_plane_entity"
+	name = "BYZ_light_plane_entity"
+}
+
+entity = { 
+	clone = "USA_medium_plane_entity"
+	name = "BYZ_medium_plane_entity"
+}
+
+entity = { 
+	clone = "USA_heavy_plane_entity"
+	name = "BYZ_heavy_plane_entity"
+}
+
+
