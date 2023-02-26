@@ -243,6 +243,30 @@ entity = {
 }
 
 entity = { 
+	clone = "YUN_infantry_entity"
+	name = "MRT_infantry_entity"
+}
+entity = { 
+	clone = "YUN_infantry_2_entity"
+	name = "MRT_infantry_2_entity"
+}
+entity = { 
+	clone = "YUN_infantry_3_entity"
+	name = "MRT_infantry_3_entity"
+}
+
+entity = {
+		name = "MRT_motorized_entity"
+		clone = "YUN_motorized_entity"
+}
+
+entity = {
+		name = "MRT_mechanized_entity"
+		clone = "YUN_mechanized_entity"
+}
+
+
+entity = { 
 	clone = "INS_infantry_entity"
 	name = "AYI_infantry_entity"
 }
@@ -266,8 +290,105 @@ entity = {
 }
 
 entity = { 
+	clone = "MEX_infantry_entity"
+	name = "HDA_infantry_entity"
+}
+entity = { 
+	clone = "MEX_infantry_2_entity"
+	name = "HDA_infantry_2_entity"
+}
+entity = { 
+	clone = "MEX_infantry_3_entity"
+	name = "HDA_infantry_3_entity"
+}
+
+entity = {
+		name = "HDA_motorized_entity"
+		clone = "MEX_motorized_entity"
+}
+
+entity = {
+		name = "HDA_mechanized_entity"
+		clone = "MEX_mechanized_entity"
+}
+
+entity = { 
+	clone = "YUG_infantry_entity"
+	name = "SOM_infantry_entity"
+}
+entity = { 
+	clone = "YUG_infantry_2_entity"
+	name = "SOM_infantry_2_entity"
+}
+entity = { 
+	clone = "YUG_infantry_3_entity"
+	name = "SOM_infantry_3_entity"
+}
+
+entity = {
+		name = "SOM_motorized_entity"
+		clone = "YUG_motorized_entity"
+}
+
+entity = {
+		name = "SOM_mechanized_entity"
+		clone = "YUG_mechanized_entity"
+}
+
+entity = { 
+	clone = "CAN_infantry_entity"
+	name = "PAN_infantry_entity"
+}
+entity = { 
+	clone = "CAN_infantry_2_entity"
+	name = "PAN_infantry_2_entity"
+}
+entity = { 
+	clone = "CAN_infantry_3_entity"
+	name = "PAN_infantry_3_entity"
+}
+
+entity = {
+		name = "PAN_motorized_entity"
+		clone = "CAN_motorized_entity"
+}
+
+entity = {
+		name = "PAN_mechanized_entity"
+		clone = "CAN_mechanized_entity"
+}
+
+entity = { 
+	clone = "SAF_infantry_entity"
+	name = "COG_infantry_entity"
+}
+entity = { 
+	clone = "SAF_infantry_2_entity"
+	name = "COG_infantry_2_entity"
+}
+entity = { 
+	clone = "SAF_infantry_3_entity"
+	name = "COG_infantry_3_entity"
+}
+
+entity = {
+		name = "SAF_motorized_entity"
+		clone = "PAN_motorized_entity"
+}
+
+entity = {
+		name = "SAF_mechanized_entity"
+		clone = "PAN_mechanized_entity"
+}
+
+entity = { 
 	clone = "USA_light_armor_entity"
 	name = "BYZ_light_armor_entity"
+}
+
+entity = { 
+	clone = "USA_light_armor_2_entity"
+	name = "BYZ_light_armor_2_entity"
 }
 
 entity = { 
@@ -276,8 +397,19 @@ entity = {
 }
 
 entity = { 
+	clone = "USA_medium_armor_2_entity"
+	name = "BYZ_medium_armor_2_entity"
+}
+
+
+entity = { 
 	clone = "USA_heavy_armor_entity"
 	name = "BYZ_heavy_armor_entity"
+}
+
+entity = { 
+	clone = "USA_heavy_armor_1_entity"
+	name = "BYZ_heavy_armor_1_entity"
 }
 
 entity = { 
