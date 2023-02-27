@@ -138,3 +138,61 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = ig.105
+	title = ig.105.t
+	desc = ig.105.d
+	picture = GFX_report_event_generic_read_write
+	fire_only_once = yes
+	trigger = {
+		has_government = fascism
+		tag = FRA
+		MRT = { has_war_with = FRA }
+		MRT = { is_in_faction_with = BYZ }
+		CHI = { is_in_faction_with = SOM }
+		GER = { has_war = yes }
+		GHA = { has_war = yes }
+		SOM = { has_war = yes }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+}
+	
+	option = {
+		name = ig.105.a
+		add_political_power = 10
+			declare_war_on = {
+   				target = GER
+   				type = annex_everything
+   			}
+   		load_oob = "FRA_iacta_est"
+   		add_equipment_to_stockpile = {
+   			type = medium_tank_equipment_1
+   			amount = 1000
+   		}
+   		add_equipment_to_stockpile = {
+   			type = light_tank_equipment_1
+   			amount = 1000
+   		}
+   	   	add_equipment_to_stockpile = {
+   			type = infantry_equipment_0
+   			amount = 4000
+   		}
+
+	SOM =	{ declare_war_on = {
+   			target = GHA
+   			type = annex_everything
+			}
+		}
+
+	CHI =	{ declare_war_on = {
+   			target = GHA
+   			type = annex_everything
+			}
+		} 
+	}
+

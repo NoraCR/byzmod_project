@@ -1,0 +1,325 @@
+﻿division_template = {
+	name = "Division Chasseur Blindé" 		# Division Légère Mécanique
+
+	regiments = {
+			motorized={ x=0 y=0 }
+			motorized={ x=0 y=1 }
+			motorized={ x=0 y=2 }
+			mot_artillery_brigade={ x=0 y=3 }
+			mot_artillery_brigade={ x=0 y=4 }
+			motorized={ x=1 y=0 }
+			motorized={ x=1 y=1 }
+			motorized={ x=1 y=2 }
+			mot_artillery_brigade={ x=1 y=3 }
+			mot_artillery_brigade={ x=1 y=4 }
+			medium_armor={ x=2 y=0 }
+			medium_armor={ x=2 y=1 }
+			medium_armor={ x=2 y=2 }
+			medium_armor={ x=2 y=3 }
+			medium_armor={ x=3 y=0 }
+			medium_armor={ x=3 y=1 }
+			medium_armor={ x=3 y=2 }
+			medium_armor={ x=3 y=3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x=0 y=1 }
+	}
+}
+
+division_template = {
+	name = "Levée en Masse" 		# 
+
+	regiments = {
+			infantry={ x=0 y=0 }
+			infantry={ x=0 y=1 }
+			infantry={ x=0 y=2 }
+			infantry={ x=0 y=3 }
+			infantry={ x=0 y=4 }
+			infantry={ x=1 y=0 }
+			infantry={ x=1 y=1 }
+			infantry={ x=1 y=2 }
+			infantry={ x=1 y=3 }
+			infantry={ x=1 y=4 }
+			infantry={ x=2 y=0 }
+			infantry={ x=2 y=1 }
+			infantry={ x=2 y=2 }
+			infantry={ x=2 y=3 }
+			infantry={ x=2 y=4 }
+			infantry={ x=3 y=0 }
+			infantry={ x=3 y=1 }
+			infantry={ x=3 y=2 }
+			infantry={ x=3 y=3 }
+			infantry={ x=3 y=4 }
+	}
+}
+
+
+units = {
+
+division= {	
+		name = "1ère Garde Prétorienne 'Flavia Constantia'"
+		location = 11506
+		division_template = "Division Chasseur Blindé"
+		start_experience_factor = 0.2
+
+	}
+division= {	
+		name = "2ème Garde Prétorienne 'Gallicana Constantia'"
+		location = 11506
+		division_template = "Division Chasseur Blindé"
+		start_experience_factor = 0.2
+
+	}
+division= {	
+		name = "3ème Garde Prétorienne 'Flavia Martis'"
+		location = 11506
+		division_template = "Division Chasseur Blindé"
+		start_experience_factor = 0.5
+
+	}
+division= {	
+		name = "4ème Garde Prétorienne 'Flavia Pacis'"
+		location = 11506
+		division_template = "Division Chasseur Blindé"
+		start_experience_factor = 0.5
+
+	}
+division= {	
+		name = "5ème Garde Prétorienne 'Flavia Theodosiana'"
+		location = 11506
+		division_template = "Division Chasseur Blindé"
+		start_experience_factor = 0.4
+
+	}
+division= {	
+		name = "6ème Garde Prétorienne 'Iovia'"
+		location = 11506
+		division_template = "Division Chasseur Blindé"
+		start_experience_factor = 0.3
+
+	}
+division= {	
+		name = "7ème Garde Prétorienne 'Iulia Alpina'"
+		location = 11506
+		division_template = "Division Chasseur Blindé"
+		start_experience_factor = 0.3
+
+	}
+division= {	
+		name = "8ème Garde Prétorienne 'Flavia Virtutis'"
+		location = 11506
+		division_template = "Division Chasseur Blindé"
+		start_experience_factor = 0.2
+
+	}
+division= {	
+		name = "9ème Garde Prétorienne 'Herculia'"
+		location = 11506
+		division_template = "Division Chasseur Blindé"
+		start_experience_factor = 0.2
+
+	}
+division= {	
+		name = "10ème Garde Prétorienne 'Diocletiana'"
+		location = 11506
+		division_template = "Division Chasseur Blindé"
+		start_experience_factor = 0.2
+
+	}
+division= {	
+		name = "11ème Garde Prétorienne 'Felix Valentis'"
+		location = 11506
+		division_template = "Division Chasseur Blindé"
+		start_experience_factor = 0.2
+
+	}
+division= {	
+		name = "CSP Bureau Extérieur - Lugdunensis"
+		location = 778
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "CSP Bureau Extérieur - Aquitania"
+		location = 778
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "CSP Bureau Extérieur - Narbonensis"
+		location = 778
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "CSP Bureau Extérieur - Tarraconensis"
+		location = 778
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "CSP Bureau Extérieur - Lusitania"
+		location = 778
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "CSP Bureau Extérieur - Baetica"
+		location = 778
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "CSP Bureau Extérieur - Carthago Nova"
+		location = 778
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "CSP Bureau Extérieur - Salamantica"
+		location = 778
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "CSP Bureau Extérieur - Toletum"
+		location = 778
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "CSP Bureau Extérieur - Massilia"
+		location = 778
+		division_template = "Régiment du CSP" 
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "18ème Troupe Auxiliaire 'Lucretia'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "19ème Troupe Auxiliaire 'Verginia'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "20ème Troupe Auxiliaire 'Sabinia'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "17ème Troupe Auxiliaire 'Lavinia'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "21ème Troupe Auxiliaire 'Perpetua'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "22ème Troupe Auxiliaire 'Felicitas'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "23ème Troupe Auxiliaire 'Domnina"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "24ème Troupe Auxiliaire 'Berenice'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "25ème Troupe Auxiliaire 'Prosdoce'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "26ème Troupe Auxiliaire 'Irene III Yaroslavovna""
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "27ème Troupe Auxiliaire 'Iphigenia'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "28ème Troupe Auxiliaire 'Agrippina Germanici'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "29ème Troupe Auxiliaire 'Julia Soemias'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "30ème Troupe Auxiliaire 'Julia Avita Mamaea'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "31ème Troupe Auxiliaire 'Antonia Minor'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "32ème Troupe Auxiliaire 'Arria Major'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "33ème Troupe Auxiliaire 'Laodamia'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "34ème Troupe Auxiliaire 'Pelopia'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "35ème Troupe Auxiliaire 'Alcestis'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "36ème Troupe Auxiliaire 'Blandina'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+division= {	
+		name = "37ème Troupe Auxiliaire 'Euphemia'"
+		location = 9737
+		division_template = "Levée en Masse" 	# militia
+		start_experience_factor = 0.1
+	}
+
+
+}
